@@ -1,0 +1,231 @@
+========================================================
+  GUIDE DE CONFIGURATION - VEILLE IA QUOTIDIENNE
+  Workflow N8N + Claude AI + Telegram
+========================================================
+
+Ce workflow surveille chaque jour 8 sources d'actualités IA
+(OpenAI, Anthropic, DeepMind, Google AI, Meta AI, Hugging Face,
+TechCrunch, The Verge), résume chaque article avec Claude AI,
+et envoie les résumés sur Telegram à 08h00.
+
+--------------------------------------------------------
+  PRÉREQUIS
+--------------------------------------------------------
+
+1. N8N version 1.0 ou supérieure installé et en cours
+   d'exécution (cloud ou self-hosted)
+
+2. Un bot Telegram créé via @BotFather :
+   - Ouvrir Telegram, chercher @BotFather
+   - Envoyer /newbot et suivre les instructions
+   - Récupérer le Bot Token (format : 123456789:AABBcc...)
+   - Ajouter le bot à ton groupe/canal et récupérer le Chat ID
+     (envoyer un message puis visiter :
+      https://api.telegram.org/bot<TOKEN>/getUpdates)
+
+3. Une clé API Anthropic :
+   - Créer un compte sur https://console.anthropic.com
+   - Générer une clé API dans Settings > API Keys
+
+--------------------------------------------------------
+  ÉTAPE 1 : IMPORTER LE WORKFLOW
+--------------------------------------------------------
+
+1. Ouvrir N8N dans ton navigateur
+2. Cliquer sur "Add workflow" puis "Import from file"
+   (ou menu en haut à droite > Import)
+3. Sélectionner le fichier : ai-news-veille-workflow.json
+4. Le workflow apparaît avec 18 nœuds connectés
+
+--------------------------------------------------------
+  ÉTAPE 2 : CONFIGURER LE CREDENTIAL TELEGRAM
+--------------------------------------------------------
+
+1. Dans N8N, aller dans Settings > Credentials
+2. Cliquer "Add credential"
+3. Chercher et sélectionner : Telegram API
+4. Remplir :
+   - Access Token : [ton Bot Token de @BotFather]
+   - Name : "Telegram Bot" (important : garder ce nom exact)
+5. Cliquer "Save"
+
+Ensuite, dans le workflow :
+6. Cliquer sur le nœud "Telegram Header"
+7. Dans le champ Credential, sélectionner "Telegram Bot"
+8. Répéter pour le nœud "Telegram Article"
+
+--------------------------------------------------------
+  ÉTAPE 3 : CONFIGURER LE CREDENTIAL ANTHROPIC
+--------------------------------------------------------
+
+Le nœud "Résumer avec Claude" utilise un credential de type
+"Header Auth" pour appeler l'API Anthropic.
+
+1. Dans N8N, aller dans Settings > Credentials
+2. Cliquer "Add credential"
+3. Chercher et sélectionner : Header Auth
+4. Remplir :
+   - Name : "Anthropic API Key" (important : garder ce nom exact)
+   - Name (header) : x-api-key
+   - Value : [ta clé API Anthropic, commence par sk-ant-...]
+5. Cliquer "Save"
+
+Ensuite :
+6. Cliquer sur le nœud "Résumer avec Claude"
+7. Dans le champ Credential, sélectionner "Anthropic API Key"
+
+--------------------------------------------------------
+  ÉTAPE 4 : CONFIGURER LE CHAT ID TELEGRAM
+--------------------------------------------------------
+
+Option A — Variable d'environnement (recommandé) :
+  Ajouter dans les paramètres N8N (Settings > Environments) :
+  TELEGRAM_CHAT_ID = [ton Chat ID, ex: -1001234567890]
+
+Option B — Hardcode dans les nœuds :
+  1. Cliquer sur le nœud "Telegram Header"
+  2. Dans le champ Chat ID, remplacer :
+     $env.TELEGRAM_CHAT_ID || 'YOUR_CHAT_ID'
+     par ton Chat ID directement (ex: -1001234567890)
+  3. Répéter pour le nœud "Telegram Article"
+
+Conseil : Pour un groupe Telegram, le Chat ID commence par -100.
+Pour un canal, utiliser l'@username ou l'ID numérique.
+
+--------------------------------------------------------
+  ÉTAPE 5 : ACTIVER LE WORKFLOW
+--------------------------------------------------------
+
+1. Ouvrir le workflow dans N8N
+2. Cliquer le bouton toggle en haut à droite (Inactive → Active)
+3. Le workflow se déclenchera automatiquement chaque jour à 08h00
+
+Pour changer l'heure, cliquer sur le nœud "Schedule Trigger"
+et modifier l'expression cron (0 8 * * * = 08h00 chaque jour).
+Exemples :
+  0 7 * * *   → 07h00
+  0 20 * * *  → 20h00
+  0 8,20 * * * → 08h00 et 20h00
+
+--------------------------------------------------------
+  ÉTAPE 6 : TESTER MANUELLEMENT
+--------------------------------------------------------
+
+1. Ouvrir le workflow dans N8N
+2. Cliquer "Execute Workflow" (bouton ▶ en bas)
+3. Observer l'exécution nœud par nœud (les nœuds réussis
+   s'affichent en vert, les erreurs en rouge)
+4. Vérifier la réception sur Telegram :
+   - Un message header : "🤖 Veille IA du..."
+   - Un message par article avec résumé Claude
+
+Si aucun article n'est trouvé lors du test, c'est normal :
+le filtre 24h ne retourne que les articles récents.
+Tester en soirée ou le matin pour plus de résultats.
+
+--------------------------------------------------------
+  SOURCES SURVEILLÉES
+--------------------------------------------------------
+
+1. OpenAI Blog         https://openai.com/news/rss.xml
+2. Anthropic Blog      https://www.anthropic.com/rss.xml
+3. Google DeepMind     https://deepmind.google/discover/blog/rss.xml
+4. Google AI Blog      https://blog.google/technology/ai/rss/
+5. Meta AI Blog        https://ai.meta.com/blog/rss.xml
+6. Hugging Face Blog   https://huggingface.co/blog/feed.xml
+7. TechCrunch AI       https://techcrunch.com/category/artificial-intelligence/feed/
+8. The Verge AI        https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+
+--------------------------------------------------------
+  DÉPANNAGE
+--------------------------------------------------------
+
+PROBLÈME : Un nœud RSS est en erreur (rouge)
+SOLUTION  : Le flux RSS de cette source est peut-être
+            temporairement indisponible. Le workflow continue
+            avec les autres sources. Réessayer plus tard.
+
+PROBLÈME : Telegram renvoie une erreur 403
+SOLUTION  : Le bot n'a pas été ajouté au groupe/canal.
+            S'assurer que le bot est membre du groupe et
+            qu'il a la permission d'envoyer des messages.
+
+PROBLÈME : Telegram renvoie "chat not found"
+SOLUTION  : Le Chat ID est incorrect. Vérifier avec
+            https://api.telegram.org/bot<TOKEN>/getUpdates
+            après avoir envoyé un message dans le groupe.
+
+PROBLÈME : L'API Anthropic renvoie une erreur 401
+SOLUTION  : La clé API est invalide ou expirée.
+            Vérifier dans https://console.anthropic.com
+
+PROBLÈME : L'API Anthropic renvoie une erreur 429
+SOLUTION  : Limite de débit atteinte. Réduire la fréquence
+            du workflow ou passer à un plan supérieur.
+
+PROBLÈME : Aucun article reçu alors que c'est le matin
+SOLUTION  : Les sources RSS ne publient pas tous les jours.
+            Tester en augmentant la fenêtre à 48h :
+            Modifier le nœud "Filtrer 24h" et remplacer
+            24 * 60 * 60 * 1000 par 48 * 60 * 60 * 1000
+
+--------------------------------------------------------
+  PERSONNALISATION
+--------------------------------------------------------
+
+Changer la fréquence :
+  → Nœud "Schedule Trigger" > modifier l'expression cron
+
+Ajouter une source RSS :
+  → Ajouter un nœud "RSS Feed Read" avec la nouvelle URL
+  → Connecter sa sortie au nœud "Merge All Feeds" (nouvel index)
+  → Ajouter le domaine dans SOURCE_MAP du nœud "Filtrer 24h"
+
+Supprimer une source :
+  → Supprimer le nœud RSS concerné
+  → Supprimer sa connexion vers "Merge All Feeds"
+
+Changer la langue des résumés :
+  → Nœud "Préparer Prompt" > modifier le champ "prompt"
+  → Remplacer "en français" par la langue souhaitée
+
+Changer le modèle Claude :
+  → Nœud "Résumer avec Claude" > champ "JSON Body"
+  → Remplacer 'claude-sonnet-4-6' par un autre modèle
+    (ex: 'claude-haiku-4-5-20251001' pour moins de coût,
+         'claude-opus-4-7' pour plus de qualité)
+
+Modifier le format du message Telegram :
+  → Nœud "Telegram Article" > champ "Text"
+  → Le format HTML est supporté : <b>gras</b>, <i>italique</i>
+
+--------------------------------------------------------
+  ARCHITECTURE DU WORKFLOW (18 nœuds)
+--------------------------------------------------------
+
+Schedule Trigger (08h00)
+    ↓ (fan-out vers 8 flux RSS en parallèle)
+[RSS OpenAI | RSS Anthropic | RSS DeepMind | RSS Google AI |
+ RSS Meta AI | RSS Hugging Face | RSS TechCrunch | RSS The Verge]
+    ↓ (chacun vers Merge All Feeds)
+Merge All Feeds (combine tous les articles)
+    ↓
+Filtrer 24h (garde seulement les articles récents + injecte source)
+    ↓
+IF Articles Found
+    ├─ [OUI] → Telegram Header → Split In Batches
+    │                                    ↓ (1 article à la fois)
+    │                            Préparer Prompt (construit le texte)
+    │                                    ↓
+    │                            Résumer avec Claude (API Anthropic)
+    │                                    ↓
+    │                            Extraire Résumé (extrait la réponse)
+    │                                    ↓
+    │                            Telegram Article (envoie le résumé)
+    │                                    ↓ (loop back)
+    └─ [NON] → (fin silencieuse, aucun message envoyé)
+
+========================================================
+  Version : 1.0 | Date : 2026-04-21
+  Modèle IA : claude-sonnet-4-6
+========================================================

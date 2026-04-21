@@ -1,0 +1,440 @@
+{
+  "name": "AI News Veille Quotidienne",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "aa000001-0000-0000-0000-000000000001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 400]
+    },
+    {
+      "parameters": {
+        "url": "https://openai.com/news/rss.xml",
+        "options": {}
+      },
+      "id": "aa000002-0000-0000-0000-000000000002",
+      "name": "RSS OpenAI",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 80]
+    },
+    {
+      "parameters": {
+        "url": "https://www.anthropic.com/rss.xml",
+        "options": {}
+      },
+      "id": "aa000003-0000-0000-0000-000000000003",
+      "name": "RSS Anthropic",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 180]
+    },
+    {
+      "parameters": {
+        "url": "https://deepmind.google/discover/blog/rss.xml",
+        "options": {}
+      },
+      "id": "aa000004-0000-0000-0000-000000000004",
+      "name": "RSS DeepMind",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 280]
+    },
+    {
+      "parameters": {
+        "url": "https://blog.google/technology/ai/rss/",
+        "options": {}
+      },
+      "id": "aa000005-0000-0000-0000-000000000005",
+      "name": "RSS Google AI",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 380]
+    },
+    {
+      "parameters": {
+        "url": "https://ai.meta.com/blog/rss.xml",
+        "options": {}
+      },
+      "id": "aa000006-0000-0000-0000-000000000006",
+      "name": "RSS Meta AI",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 480]
+    },
+    {
+      "parameters": {
+        "url": "https://huggingface.co/blog/feed.xml",
+        "options": {}
+      },
+      "id": "aa000007-0000-0000-0000-000000000007",
+      "name": "RSS Hugging Face",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 580]
+    },
+    {
+      "parameters": {
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "options": {}
+      },
+      "id": "aa000008-0000-0000-0000-000000000008",
+      "name": "RSS TechCrunch AI",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 680]
+    },
+    {
+      "parameters": {
+        "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
+        "options": {}
+      },
+      "id": "aa000009-0000-0000-0000-000000000009",
+      "name": "RSS The Verge AI",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [480, 780]
+    },
+    {
+      "parameters": {
+        "mode": "append",
+        "options": {}
+      },
+      "id": "aa000010-0000-0000-0000-000000000010",
+      "name": "Merge All Feeds",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [720, 430]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst now = new Date();\nconst cutoff = new Date(now.getTime() - 24 * 60 * 60 * 1000);\n\nconst SOURCE_MAP = {\n  'openai.com': 'OpenAI',\n  'anthropic.com': 'Anthropic',\n  'deepmind.google': 'Google DeepMind',\n  'blog.google': 'Google AI Blog',\n  'ai.meta.com': 'Meta AI',\n  'huggingface.co': 'Hugging Face',\n  'techcrunch.com': 'TechCrunch AI',\n  'theverge.com': 'The Verge AI'\n};\n\nfunction getSource(link) {\n  try {\n    const hostname = new URL(link).hostname.replace('www.', '');\n    for (const [key, val] of Object.entries(SOURCE_MAP)) {\n      if (hostname.includes(key)) return val;\n    }\n  } catch(e) {}\n  return 'Source IA';\n}\n\nconst filtered = items.filter(item => {\n  const dateStr = item.json.isoDate || item.json.pubDate;\n  if (!dateStr) return false;\n  return new Date(dateStr) >= cutoff;\n});\n\nreturn filtered.map(item => ({\n  json: {\n    ...item.json,\n    sourceName: getSource(item.json.link || ''),\n    articleDate: new Date(item.json.isoDate || item.json.pubDate).toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' })\n  }\n}));"
+      },
+      "id": "aa000011-0000-0000-0000-000000000011",
+      "name": "Filtrer 24h",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [960, 430]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": false,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "cond-articles-found",
+              "leftValue": "={{ $input.all().length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt",
+                "name": "filter.operator.gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "aa000012-0000-0000-0000-000000000012",
+      "name": "IF Articles Found",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1200, 430]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $env.TELEGRAM_CHAT_ID || 'YOUR_CHAT_ID' }}",
+        "text": "={{ '🤖 <b>Veille IA du ' + new Date().toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric' }) + '</b>\\n\\n📊 <b>' + $input.all().length + ' article' + ($input.all().length > 1 ? 's' : '') + ' trouvé' + ($input.all().length > 1 ? 's' : '') + ' dans les dernières 24h</b>\\n\\n🔎 Sources surveillées : OpenAI · Anthropic · DeepMind · Google AI · Meta AI · Hugging Face · TechCrunch · The Verge' }}",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "aa000013-0000-0000-0000-000000000013",
+      "name": "Telegram Header",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [1440, 330],
+      "credentials": {
+        "telegramApi": {
+          "id": "TELEGRAM_CREDENTIAL_ID",
+          "name": "Telegram Bot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "batchSize": 1,
+        "options": {}
+      },
+      "id": "aa000014-0000-0000-0000-000000000014",
+      "name": "Split In Batches",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [1680, 330]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assign-prompt",
+              "name": "prompt",
+              "value": "={{ 'Tu es un expert en intelligence artificielle. Analyse et résume cet article en français.\\n\\nTitre : ' + $json.title + '\\n\\nContenu : ' + ($json.contentSnippet || $json.content || '(contenu non disponible)').substring(0, 3000) + '\\n\\nRédige un résumé en 3 à 5 phrases couvrant :\\n1. Ce qui est nouveau ou annoncé\\n2. L\\'impact potentiel\\n3. Les points clés à retenir\\n\\nSois concis et factuel. Ne commence pas par \"Bien sûr\" ou \"Certainement\".' }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-title",
+              "name": "title",
+              "value": "={{ $json.title }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-link",
+              "name": "link",
+              "value": "={{ $json.link }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-source",
+              "name": "sourceName",
+              "value": "={{ $json.sourceName }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-date",
+              "name": "articleDate",
+              "value": "={{ $json.articleDate }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "aa000015-0000-0000-0000-000000000015",
+      "name": "Préparer Prompt",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [1920, 330]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { model: 'claude-sonnet-4-6', max_tokens: 1024, messages: [{ role: 'user', content: $json.prompt }] } }}",
+        "options": {}
+      },
+      "id": "aa000016-0000-0000-0000-000000000016",
+      "name": "Résumer avec Claude",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2160, 330],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "ANTHROPIC_CREDENTIAL_ID",
+          "name": "Anthropic API Key"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assign-summary",
+              "name": "summary",
+              "value": "={{ $json.content[0].text }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-title2",
+              "name": "title",
+              "value": "={{ $('Préparer Prompt').item.json.title }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-link2",
+              "name": "link",
+              "value": "={{ $('Préparer Prompt').item.json.link }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-source2",
+              "name": "sourceName",
+              "value": "={{ $('Préparer Prompt').item.json.sourceName }}",
+              "type": "string"
+            },
+            {
+              "id": "assign-date2",
+              "name": "articleDate",
+              "value": "={{ $('Préparer Prompt').item.json.articleDate }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "aa000017-0000-0000-0000-000000000017",
+      "name": "Extraire Résumé",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [2400, 330]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $env.TELEGRAM_CHAT_ID || 'YOUR_CHAT_ID' }}",
+        "text": "={{ '📰 <b>' + $json.sourceName + '</b> | ' + $json.articleDate + '\\n\\n🔗 ' + $json.title + '\\n\\n📋 <b>Résumé :</b>\\n' + $json.summary + '\\n\\n👉 ' + $json.link }}",
+        "additionalFields": {
+          "parse_mode": "HTML",
+          "disable_web_page_preview": true
+        }
+      },
+      "id": "aa000018-0000-0000-0000-000000000018",
+      "name": "Telegram Article",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [2640, 330],
+      "credentials": {
+        "telegramApi": {
+          "id": "TELEGRAM_CREDENTIAL_ID",
+          "name": "Telegram Bot"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          { "node": "RSS OpenAI", "type": "main", "index": 0 },
+          { "node": "RSS Anthropic", "type": "main", "index": 0 },
+          { "node": "RSS DeepMind", "type": "main", "index": 0 },
+          { "node": "RSS Google AI", "type": "main", "index": 0 },
+          { "node": "RSS Meta AI", "type": "main", "index": 0 },
+          { "node": "RSS Hugging Face", "type": "main", "index": 0 },
+          { "node": "RSS TechCrunch AI", "type": "main", "index": 0 },
+          { "node": "RSS The Verge AI", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "RSS OpenAI": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 0 }]]
+    },
+    "RSS Anthropic": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 1 }]]
+    },
+    "RSS DeepMind": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 2 }]]
+    },
+    "RSS Google AI": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 3 }]]
+    },
+    "RSS Meta AI": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 4 }]]
+    },
+    "RSS Hugging Face": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 5 }]]
+    },
+    "RSS TechCrunch AI": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 6 }]]
+    },
+    "RSS The Verge AI": {
+      "main": [[{ "node": "Merge All Feeds", "type": "main", "index": 7 }]]
+    },
+    "Merge All Feeds": {
+      "main": [[{ "node": "Filtrer 24h", "type": "main", "index": 0 }]]
+    },
+    "Filtrer 24h": {
+      "main": [[{ "node": "IF Articles Found", "type": "main", "index": 0 }]]
+    },
+    "IF Articles Found": {
+      "main": [
+        [{ "node": "Telegram Header", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Telegram Header": {
+      "main": [[{ "node": "Split In Batches", "type": "main", "index": 0 }]]
+    },
+    "Split In Batches": {
+      "main": [
+        [{ "node": "Préparer Prompt", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Préparer Prompt": {
+      "main": [[{ "node": "Résumer avec Claude", "type": "main", "index": 0 }]]
+    },
+    "Résumer avec Claude": {
+      "main": [[{ "node": "Extraire Résumé", "type": "main", "index": 0 }]]
+    },
+    "Extraire Résumé": {
+      "main": [[{ "node": "Telegram Article", "type": "main", "index": 0 }]]
+    },
+    "Telegram Article": {
+      "main": [[{ "node": "Split In Batches", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "id": "ai-news-veille-workflow-001",
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "instanceId": ""
+  },
+  "tags": [
+    {
+      "createdAt": "2026-04-21T00:00:00.000Z",
+      "updatedAt": "2026-04-21T00:00:00.000Z",
+      "id": "tag-ai",
+      "name": "ai"
+    },
+    {
+      "createdAt": "2026-04-21T00:00:00.000Z",
+      "updatedAt": "2026-04-21T00:00:00.000Z",
+      "id": "tag-veille",
+      "name": "veille"
+    },
+    {
+      "createdAt": "2026-04-21T00:00:00.000Z",
+      "updatedAt": "2026-04-21T00:00:00.000Z",
+      "id": "tag-telegram",
+      "name": "telegram"
+    }
+  ]
+}
