@@ -1,0 +1,141 @@
+========================================================
+  AGENT EMAIL AUTO-REPLY N8N - GUIDE DE CONFIGURATION
+========================================================
+
+ARCHITECTURE DU WORKFLOW
+------------------------
+[IMAP Trigger] → [Filtre Anti-Boucle] → [Préparation données]
+                        → [Agent IA Claude] → [Envoi SMTP]
+
+Le workflow vérifie les nouveaux emails toutes les minutes,
+filtre les réponses automatiques, génère une réponse avec
+Claude AI et l'envoie automatiquement.
+
+PRÉREQUIS
+---------
+- N8N version 1.0+ (avec support Langchain)
+- Compte email avec accès IMAP et SMTP
+- Clé API Anthropic (claude.ai/dashboard)
+
+ÉTAPES D'INSTALLATION
+----------------------
+
+1. IMPORTER LE WORKFLOW
+   - Ouvrir N8N
+   - Cliquer sur "Import from file"
+   - Sélectionner le fichier : email-auto-reply-workflow.json
+
+2. CONFIGURER LES CREDENTIALS
+
+   A) Credential IMAP (lecture des emails entrants)
+      - Dans N8N : Settings → Credentials → New
+      - Type : "IMAP"
+      - Host : imap.gmail.com (Gmail) / imap.mail.yahoo.com (Yahoo)
+             / outlook.office365.com (Outlook)
+      - Port : 993
+      - SSL : Activé
+      - User : votre@email.com
+      - Password : votre mot de passe (ou App Password pour Gmail)
+
+      Pour Gmail : activer "Less secure app access" OU utiliser
+      un "App Password" depuis myaccount.google.com/security
+
+   B) Credential SMTP (envoi des réponses)
+      - Dans N8N : Settings → Credentials → New
+      - Type : "SMTP"
+      - Host : smtp.gmail.com (Gmail) / smtp.mail.yahoo.com (Yahoo)
+             / smtp.office365.com (Outlook)
+      - Port : 587 (STARTTLS) ou 465 (SSL)
+      - User : votre@email.com
+      - Password : votre mot de passe ou App Password
+
+   C) Credential Anthropic API
+      - Dans N8N : Settings → Credentials → New
+      - Type : "Anthropic"
+      - API Key : votre clé depuis console.anthropic.com
+
+3. LIER LES CREDENTIALS AU WORKFLOW
+   - Ouvrir le workflow importé
+   - Cliquer sur le nœud "IMAP Email Trigger" → sélectionner IMAP credential
+   - Cliquer sur le nœud "Claude AI" → sélectionner Anthropic credential
+   - Cliquer sur le nœud "Send Reply Email" → sélectionner SMTP credential
+
+4. CONFIGURER L'EMAIL EXPÉDITEUR
+   - Dans le nœud "Send Reply Email"
+   - Modifier "fromEmail" avec votre adresse email
+   - Exemple : support@monentreprise.com
+
+   OU définir la variable d'environnement :
+   SENDER_EMAIL=support@monentreprise.com
+
+5. PERSONNALISER LE PROMPT IA (optionnel)
+   - Nœud "AI Email Agent" → paramètre "System Message"
+   - Modifier pour adapter le ton et le style à votre entreprise
+   - Exemple : ajouter des infos sur vos services, horaires, etc.
+
+6. ACTIVER LE WORKFLOW
+   - Cliquer sur le toggle "Active" en haut à droite
+   - Le workflow vérifie les emails toutes les minutes
+
+PERSONNALISATION
+----------------
+
+CHANGER LE MODÈLE IA :
+- Nœud "Claude AI" → champ "Model"
+- Options disponibles :
+  * claude-opus-4-5       → Le plus puissant (recommandé)
+  * claude-3-5-sonnet-20241022  → Bon équilibre qualité/coût
+  * claude-haiku-4-5-20251001   → Le plus rapide et économique
+
+AJUSTER LA FRÉQUENCE DE VÉRIFICATION :
+- Nœud "IMAP Email Trigger" → "Poll Times"
+- Par défaut : toutes les minutes
+- Options : toutes les 5min, 15min, heure, etc.
+
+AJOUTER DES FILTRES SUPPLÉMENTAIRES :
+- Nœud "Filter Auto-Replies" → ajouter des conditions
+- Exemple : filtrer par domaine expéditeur, par mots-clés sujet
+
+TESTER AVEC UN EMAIL SPÉCIFIQUE :
+- Désactiver le workflow
+- Utiliser "Execute Workflow" → "Test with input data"
+- Saisir un email JSON de test
+
+EXEMPLE D'EMAIL DE TEST (format JSON)
+--------------------------------------
+{
+  "from": "client@exemple.com",
+  "subject": "Demande d'information sur vos services",
+  "text": "Bonjour, je souhaiterais avoir des informations sur vos tarifs.",
+  "html": "",
+  "replyTo": "client@exemple.com",
+  "messageId": "<test123@exemple.com>"
+}
+
+DÉPANNAGE
+---------
+
+Problème : "Authentication failed" sur IMAP
+Solution : Vérifier les identifiants ; pour Gmail utiliser App Password
+
+Problème : Emails non détectés
+Solution : Vérifier que le dossier IMAP est bien "INBOX" ;
+           vérifier que SSL/TLS est activé
+
+Problème : "API key invalid" sur Claude
+Solution : Vérifier la clé sur console.anthropic.com ;
+           s'assurer d'avoir du crédit disponible
+
+Problème : L'agent répond à ses propres emails (boucle)
+Solution : Vérifier le nœud "Filter Auto-Replies" ;
+           ajouter l'adresse de l'expéditeur dans les filtres
+
+SÉCURITÉ
+--------
+- Ne jamais stocker les mots de passe en clair dans le workflow
+- Utiliser les Credentials N8N chiffrés
+- Activer l'authentification 2FA sur votre compte email
+- Utiliser un App Password dédié plutôt que votre mot de passe principal
+- Restreindre les permissions IMAP/SMTP à l'adresse IP de N8N si possible
+
+========================================================

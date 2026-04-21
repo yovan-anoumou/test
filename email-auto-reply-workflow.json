@@ -1,0 +1,306 @@
+{
+  "name": "Agent Email Auto-Reply",
+  "nodes": [
+    {
+      "parameters": {
+        "mailbox": "INBOX",
+        "postProcessAction": "read",
+        "options": {
+          "allowUnauthorizedCerts": false,
+          "downloadAttachments": false,
+          "format": "simple"
+        }
+      },
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "IMAP Email Trigger",
+      "type": "n8n-nodes-base.emailReadImap",
+      "typeVersion": 2,
+      "position": [200, 300],
+      "credentials": {
+        "imap": {
+          "id": "IMAP_CREDENTIAL_ID",
+          "name": "IMAP Account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": false,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "cond1",
+              "leftValue": "={{ $json.from }}",
+              "rightValue": "no-reply",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            },
+            {
+              "id": "cond2",
+              "leftValue": "={{ $json.from }}",
+              "rightValue": "noreply",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            },
+            {
+              "id": "cond3",
+              "leftValue": "={{ $json.from }}",
+              "rightValue": "mailer-daemon",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            },
+            {
+              "id": "cond4",
+              "leftValue": "={{ $json.subject }}",
+              "rightValue": "auto-reply",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            },
+            {
+              "id": "cond5",
+              "leftValue": "={{ $json.subject }}",
+              "rightValue": "out of office",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            },
+            {
+              "id": "cond6",
+              "leftValue": "={{ $json.subject }}",
+              "rightValue": "absence du bureau",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            },
+            {
+              "id": "cond7",
+              "leftValue": "={{ $json.subject }}",
+              "rightValue": "Re: Re:",
+              "operator": {
+                "type": "string",
+                "operation": "notContains",
+                "name": "filter.operator.notContains"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "name": "Filter Auto-Replies",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [440, 300]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assign1",
+              "name": "senderEmail",
+              "value": "={{ $json.from }}",
+              "type": "string"
+            },
+            {
+              "id": "assign2",
+              "name": "emailSubject",
+              "value": "={{ $json.subject }}",
+              "type": "string"
+            },
+            {
+              "id": "assign3",
+              "name": "emailBody",
+              "value": "={{ $json.text || $json.html || '(pas de contenu)' }}",
+              "type": "string"
+            },
+            {
+              "id": "assign4",
+              "name": "replyTo",
+              "value": "={{ $json.replyTo || $json.from }}",
+              "type": "string"
+            },
+            {
+              "id": "assign5",
+              "name": "messageId",
+              "value": "={{ $json.messageId || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "assign6",
+              "name": "prompt",
+              "value": "={{ 'Tu es un assistant email professionnel. Tu as reçu cet email et tu dois rédiger une réponse professionnelle, concise et pertinente en français.\\n\\n---\\nExpéditeur : ' + $json.from + '\\nSujet : ' + $json.subject + '\\n\\nContenu de l\\'email :\\n' + ($json.text || $json.html || '(pas de contenu)') + '\\n---\\n\\nRédige une réponse appropriée, professionnelle et courtoise à cet email. Ne commence pas par \"Bien sûr\" ou \"Certainement\". Va directement au contenu.' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "name": "Prepare Email Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "agent": "conversationalAgent",
+        "promptType": "define",
+        "text": "={{ $json.prompt }}",
+        "options": {
+          "systemMessage": "Tu es un assistant email professionnel travaillant pour une entreprise. Tu rédiges des réponses d'email professionnelles, courtoises et pertinentes en français. Tes réponses sont claires, concises et adaptées au contexte. Tu signes toujours tes emails avec une formule de politesse appropriée suivie de \"L'équipe Support\"."
+        }
+      },
+      "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+      "name": "AI Email Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [920, 300]
+    },
+    {
+      "parameters": {
+        "model": "claude-opus-4-5",
+        "options": {
+          "temperature": 0.7,
+          "maxTokensToSample": 1024
+        }
+      },
+      "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
+      "name": "Claude AI",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [920, 520],
+      "credentials": {
+        "anthropicApi": {
+          "id": "ANTHROPIC_CREDENTIAL_ID",
+          "name": "Anthropic API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fromEmail": "={{ $env.SENDER_EMAIL || 'support@monentreprise.com' }}",
+        "toEmail": "={{ $('Prepare Email Data').item.json.replyTo }}",
+        "subject": "={{ 'Re: ' + $('Prepare Email Data').item.json.emailSubject }}",
+        "emailFormat": "text",
+        "text": "={{ $json.output }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+      "name": "Send Reply Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [1160, 300],
+      "credentials": {
+        "smtp": {
+          "id": "SMTP_CREDENTIAL_ID",
+          "name": "SMTP Account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "IMAP Email Trigger": {
+      "main": [
+        [
+          {
+            "node": "Filter Auto-Replies",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Auto-Replies": {
+      "main": [
+        [
+          {
+            "node": "Prepare Email Data",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Prepare Email Data": {
+      "main": [
+        [
+          {
+            "node": "AI Email Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Email Agent": {
+      "main": [
+        [
+          {
+            "node": "Send Reply Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude AI": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Email Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "id": "email-auto-reply-agent-001",
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "instanceId": ""
+  },
+  "tags": [
+    {
+      "createdAt": "2026-04-21T00:00:00.000Z",
+      "updatedAt": "2026-04-21T00:00:00.000Z",
+      "id": "tag1",
+      "name": "email"
+    },
+    {
+      "createdAt": "2026-04-21T00:00:00.000Z",
+      "updatedAt": "2026-04-21T00:00:00.000Z",
+      "id": "tag2",
+      "name": "ai-agent"
+    }
+  ]
+}
