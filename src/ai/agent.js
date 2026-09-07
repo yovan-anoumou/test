@@ -1,4 +1,4 @@
-import { getLegalActions, getTotalPot } from '../engine/hand.js';
+import { deriveSituation } from '../coach/situationContext.js';
 import { decideAction } from './decision.js';
 
 // Bridges the poker engine (hand.js) with the AI decision logic
@@ -6,36 +6,27 @@ import { decideAction } from './decision.js';
 // hand state, asks the AI brain for a decision, and turns that decision
 // back into an engine-shaped action ({ type, amount? }).
 export function computeAIAction(handState, playerId, { level, personality, rng = Math.random } = {}) {
-  const legal = getLegalActions(handState, playerId);
-  if (!legal) return null;
-
-  const player = handState.players.find((p) => p.id === playerId);
-  const numOpponents = handState.players.filter((p) => !p.folded && p.id !== playerId).length;
-  const pot = getTotalPot(handState);
-
-  const totalToAct = handState.toActQueue.length;
-  const idx = handState.toActQueue.indexOf(playerId);
-  const playersLeftAfter = Math.max(0, totalToAct - idx - 1);
-  const positionLoosenessValue = totalToAct > 0 ? 1 - playersLeftAfter / totalToAct : 0.5;
+  const situation = deriveSituation(handState, playerId);
+  if (!situation) return null;
 
   const decision = decideAction({
     level,
     personality,
-    holeCards: player.holeCards,
-    board: handState.board,
-    numOpponents,
-    pot,
-    toCall: legal.callAmount,
-    canCheck: legal.canCheck,
-    canRaise: legal.canRaise,
-    minRaiseTotal: legal.minRaiseTotal,
-    maxRaiseTotal: legal.maxRaiseTotal,
-    street: handState.street,
-    positionLoosenessValue,
+    holeCards: situation.holeCards,
+    board: situation.board,
+    numOpponents: situation.numOpponents,
+    pot: situation.pot,
+    toCall: situation.toCall,
+    canCheck: situation.canCheck,
+    canRaise: situation.canRaise,
+    minRaiseTotal: situation.minRaiseTotal,
+    maxRaiseTotal: situation.maxRaiseTotal,
+    street: situation.street,
+    positionLoosenessValue: situation.positionLoosenessValue,
     rng
   });
 
-  return { action: engineAction(decision, legal), decision };
+  return { action: engineAction(decision, situation.legal), decision };
 }
 
 function engineAction(decision, legal) {
