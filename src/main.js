@@ -212,8 +212,11 @@ class App {
   nextHand() {
     this.overlay = null;
     this.table.settleHand();
-    if (this.table.isGameOver()) {
-      const humanSeat = this.table.seats.find((s) => s.id === HUMAN_ID);
+    const humanSeat = this.table.seats.find((s) => s.id === HUMAN_ID);
+    // The game ends for the human as soon as they're eliminated, even if
+    // several AI opponents are still playing each other - and also once
+    // only one player remains overall (the human won).
+    if (humanSeat.eliminated || this.table.isGameOver()) {
       const won = !humanSeat.eliminated && this.table.activeSeats().length === 1 && this.table.activeSeats()[0].id === HUMAN_ID;
       this.overlay = {
         type: 'game-over',

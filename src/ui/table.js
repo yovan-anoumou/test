@@ -229,6 +229,7 @@ export class TableView {
     const checkBtn = q('[data-action="check"]');
     const callBtn = q('[data-action="call"]');
     checkBtn.style.display = ab.canCheck ? '' : 'none';
+    checkBtn.disabled = !ab.canCheck;
     callBtn.style.display = ab.canCheck ? 'none' : '';
     callBtn.disabled = !ab.canCall;
     callBtn.textContent = ab.canCall ? `Suivre ${fmtChips(ab.callAmount)}` : 'Suivre';
