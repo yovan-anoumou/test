@@ -726,7 +726,10 @@ input, select { font-family: inherit; }
 .verdict.mistake { background: rgba(229, 52, 43, 0.2); color: #ff6f67; }
 
 .game-over-screen {
-  height: 100%;
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  background: radial-gradient(circle at 50% 30%, #1f2933, #0b0e12 75%);
   display: flex;
   align-items: center;
   justify-content: center;
