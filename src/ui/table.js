@@ -18,13 +18,14 @@ export function fmtChips(n) {
 
 function actionVerb(type) {
   switch (type) {
-    case 'fold': return 'Couche';
+    case 'fold': return 'Se coucher';
     case 'check': return 'Parole';
-    case 'call': return 'Suivi';
+    case 'call': return 'Suivre';
     case 'call-blind':
-    case 'small-blind': return 'BF';
-    case 'big-blind': return 'BB';
-    case 'raise': return 'Relance';
+    case 'small-blind': return 'Petite blinde';
+    case 'big-blind': return 'Grosse blinde';
+    case 'raise':
+    case 'raiseTo': return 'Relancer';
     case 'raise-allin-short': return 'Tapis';
     default: return type;
   }
@@ -362,7 +363,7 @@ export class TableView {
           <span class="verdict ${e.verdict === 'bon' ? 'good' : e.verdict === 'erreur' ? 'mistake' : 'debatable'}">${
             e.verdict === 'bon' ? 'BON CHOIX' : e.verdict === 'erreur' ? 'ERREUR' : 'DISCUTABLE'
           }</span>
-          <div><b>${e.street.toUpperCase()}</b> — vous avez fait: ${e.actionTaken.type}${e.actionTaken.amount ? ` (${fmtChips(e.actionTaken.amount)})` : ''}</div>
+          <div><b>${e.street.toUpperCase()}</b> — vous avez fait: ${actionVerb(e.actionTaken.type)}${e.actionTaken.amount ? ` (${fmtChips(e.actionTaken.amount)})` : ''}</div>
           <div>${escapeHtml(e.reason)}</div>
         </div>
       `
