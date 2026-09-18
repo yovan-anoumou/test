@@ -1,5 +1,8 @@
 # CORTEX
 
+**App en ligne : https://yovan-anoumou.github.io/test/** (ouvre ce lien sur
+ton téléphone et ajoute-le à l'écran d'accueil pour l'installer en PWA).
+
 Application web d'entraînement cognitif ciblé pour préparer le **TAGE 2 /
 TAGE MAGE**, l'anglais (format TOEIC), la culture générale et le
 raisonnement — en vue d'une admission en L3 IAE puis en master (SKEMA).
