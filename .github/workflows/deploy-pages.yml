@@ -1,5 +1,9 @@
 name: Déployer CORTEX sur GitHub Pages
 
+# Note : l'environnement "github-pages" (Settings > Environments) doit
+# autoriser cette branche dans ses "Deployment branches and tags", sinon
+# le job "deploy" échoue immédiatement sans exécuter d'étape.
+
 on:
   push:
     branches:
