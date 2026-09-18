@@ -1,0 +1,542 @@
+[
+  {
+    "id": "tage-logique-verbale-numerique-001",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 1, 4, 9, 16, 25, ?",
+    "choices": ["30", "36", "32", "49"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Il s'agit de la suite des carrés parfaits : 1², 2², 3², 4², 5², 6² = 36.",
+      "why_others_wrong": ["Erreur d'addition : ne suit pas la logique des carrés parfaits.", "", "Erreur de calcul proche mais ne correspond pas à 6².", "Correspond à 7², un terme trop éloigné dans la suite."],
+      "method": "Reconnaître les carrés parfaits (1², 2², 3², 4², 5²) et calculer directement 6² = 36 plutôt que de chercher la différence entre les termes."
+    },
+    "targetTimeSeconds": 70,
+    "tags": ["suites-numeriques", "carres"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-002",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 3, 6, 12, 24, 48, ?",
+    "choices": ["72", "96", "84", "100"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Chaque terme est le double du précédent : 48 × 2 = 96.",
+      "why_others_wrong": ["Correspond à 48 + 24, erreur d'addition au lieu de multiplication.", "", "Ne correspond à aucune opération cohérente avec la règle ×2.", "Nombre rond trompeur, ne correspond pas à 48 × 2."],
+      "method": "Vérifier immédiatement le rapport constant entre deux termes consécutifs (ici ×2) avant de chercher une suite arithmétique plus complexe."
+    },
+    "targetTimeSeconds": 70,
+    "tags": ["suites-numeriques", "geometrique"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-003",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 1, 1, 2, 3, 5, 8, ?",
+    "choices": ["11", "13", "10", "15"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Il s'agit de la suite de Fibonacci : chaque terme est la somme des deux précédents, soit 5 + 8 = 13.",
+      "why_others_wrong": ["Erreur d'addition : ne correspond pas à la somme des deux termes précédents (5+8).", "", "Correspond à 5+5, erreur de repérage des deux derniers termes.", "Nombre trop élevé, ne correspond à aucune règle simple de la suite."],
+      "method": "Reconnaître la suite de Fibonacci (chaque terme est la somme des deux précédents) : 5 + 8 = 13."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["suites-numeriques", "fibonacci"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-004",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 2, 5, 11, 23, 47, ?",
+    "choices": ["93", "95", "90", "99"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Chaque terme suit la règle : terme suivant = terme précédent × 2 + 1, soit 47 × 2 + 1 = 95.",
+      "why_others_wrong": ["Erreur de calcul : 47×2=94, +1=95, non 93.", "", "Erreur d'arrondi, ne correspond pas au calcul exact.", "Erreur de calcul, trop éloigné du résultat exact."],
+      "method": "Vérifier la règle terme suivant = terme précédent ×2 +1 sur plusieurs paires avant de l'appliquer au dernier terme : 47×2+1=95."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["suites-numeriques", "mixte"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-005",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 100, 91, 83, 76, 70, ?",
+    "choices": ["63", "64", "65", "66"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Les écarts entre les termes diminuent de 1 à chaque étape (-9, -8, -7, -6), donc le prochain écart est -5 : 70 - 5 = 65.",
+      "why_others_wrong": ["Correspond à une différence de -6 au lieu de -5, erreur de progression.", "Correspond à une différence de -6, incohérent avec la progression -9,-8,-7,-6,-5.", "", "Correspond à une différence de -4, incohérent avec la progression observée."],
+      "method": "Calculer les écarts successifs entre les termes (-9,-8,-7,-6) : ils diminuent de 1 à chaque fois, donc le prochain écart est -5, soit 70-5=65."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["suites-numeriques", "differences"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-006",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 4, 9, 19, 39, 79, ?",
+    "choices": ["149", "159", "169", "139"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Chaque terme suit la règle : terme suivant = terme précédent × 2 + 1, soit 79 × 2 + 1 = 159.",
+      "why_others_wrong": ["Erreur de calcul : 79×2=158, +1=159, non 149.", "", "Erreur de calcul, trop éloigné du résultat exact 79×2+1.", "Erreur de calcul, résultat trop faible par rapport à la règle."],
+      "method": "Vérifier la règle sur plusieurs termes successifs (chaque terme = précédent ×2 +1) avant de l'appliquer : 79×2+1=159."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["suites-numeriques", "mixte"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-007",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 2, 6, 12, 20, 30, ?",
+    "choices": ["36", "40", "42", "44"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Chaque terme est le produit de deux entiers consécutifs (1×2, 2×3, 3×4, 4×5, 5×6), donc le suivant est 6×7 = 42.",
+      "why_others_wrong": ["Ne correspond pas à 6×7.", "Ne correspond pas au produit attendu.", "", "Ne correspond pas au produit attendu, résultat trop élevé."],
+      "method": "Repérer que chaque terme est le produit de deux entiers consécutifs (1×2, 2×3, 3×4, 4×5, 5×6), donc le suivant est 6×7=42."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["suites-numeriques", "produits"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-008",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 5, 10, 8, 16, 14, 28, ?",
+    "choices": ["30", "26", "24", "32"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La suite alterne deux opérations, ×2 puis -2 : après 14×2=28, l'opération suivante est -2, soit 28-2=26.",
+      "why_others_wrong": ["Correspond à +2 au lieu de -2, erreur d'opération.", "", "Correspond à -4, erreur d'opération.", "Incohérent avec l'alternance ×2/-2 observée dans la suite."],
+      "method": "Repérer l'alternance de deux opérations (×2 puis -2) plutôt qu'une seule règle globale : après 14×2=28, l'opération suivante est -2, soit 28-2=26."
+    },
+    "targetTimeSeconds": 95,
+    "tags": ["suites-numeriques", "alternance"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-009",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 2, 3, 5, 9, 17, ?",
+    "choices": ["31", "33", "35", "29"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Chaque terme suit la règle : terme suivant = terme précédent × 2 - 1, soit 17 × 2 - 1 = 33.",
+      "why_others_wrong": ["Erreur de calcul : 17×2=34, -1=33, non 31.", "", "Erreur de calcul, trop éloigné du résultat exact.", "Erreur de calcul, résultat trop faible."],
+      "method": "Tester la règle terme suivant = terme précédent ×2 -1 sur les premiers termes (2×2-1=3, 3×2-1=5) avant de l'appliquer au dernier : 17×2-1=33."
+    },
+    "targetTimeSeconds": 95,
+    "tags": ["suites-numeriques", "mixte"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-010",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique : 1, 2, 6, 24, 120, ?",
+    "choices": ["600", "720", "840", "480"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Il s'agit de la suite factorielle : chaque terme est multiplié par un facteur croissant de 1 (×1,×2,×3,×4,×5,×6) ; 120×6 = 720.",
+      "why_others_wrong": ["Correspond à 120×5, erreur d'incrément du multiplicateur.", "", "Correspond à 120×7, incrément trop élevé du multiplicateur.", "Correspond à 120×4, incrément incohérent avec la progression."],
+      "method": "Reconnaître la suite factorielle : chaque terme est multiplié par un facteur croissant de 1 (×1,×2,×3,×4,×5,×6) ; 120×6=720."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["suites-numeriques", "factorielle"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-011",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : A, C, E, G, ?",
+    "choices": ["H", "I", "J", "F"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En convertissant les lettres en rangs (A=1, C=3, E=5, G=7), la progression est de +2 : le prochain rang est 9, soit I.",
+      "why_others_wrong": ["Correspond à un saut d'une seule lettre au lieu de deux.", "", "Correspond à un saut de trois lettres, trop éloigné.", "Ne respecte pas le saut d'une lettre sur deux."],
+      "method": "Convertir mentalement les lettres en rangs (A=1, C=3, E=5, G=7) : la progression est +2, donc le prochain rang est 9 = I."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["suites-lettres"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-012",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : Z, X, V, T, ?",
+    "choices": ["S", "R", "Q", "U"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La suite décroît de 2 rangs à chaque fois (Z=26, X=24, V=22, T=20) : le rang suivant est 18, soit R.",
+      "why_others_wrong": ["Correspond à un décalage d'une seule lettre au lieu de deux.", "", "Correspond à un décalage de trois lettres, trop éloigné.", "Revient en arrière dans la logique de décroissance."],
+      "method": "Repérer la décroissance régulière de 2 rangs (Z=26, X=24, V=22, T=20) : le rang suivant est 18 = R."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["suites-lettres"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-013",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : F, H, J, L, ?",
+    "choices": ["M", "N", "O", "K"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'incrément entre les lettres est constant, de 2 rangs (F=6, H=8, J=10, L=12) : le rang suivant est 14, soit N.",
+      "why_others_wrong": ["Correspond à un saut d'une seule lettre au lieu de deux.", "", "Correspond à un saut de trois lettres, trop éloigné.", "Revient en arrière par rapport à la progression."],
+      "method": "Repérer l'incrément constant de 2 rangs entre chaque lettre (F=6, H=8, J=10, L=12) : le rang suivant est 14 = N."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["suites-lettres"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-014",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : A, D, G, J, ?",
+    "choices": ["K", "L", "M", "N"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "L'incrément entre les lettres est constant, de 3 rangs (A=1, D=4, G=7, J=10) : le rang suivant est 13, soit M.",
+      "why_others_wrong": ["Correspond à un saut d'une seule lettre par rapport à la règle +3.", "Correspond à un saut de deux lettres, insuffisant par rapport à la règle +3.", "", "Correspond à un saut de quatre lettres, trop éloigné de la règle +3."],
+      "method": "Vérifier l'incrément constant de 3 rangs (A=1, D=4, G=7, J=10) : le rang suivant est 13 = M."
+    },
+    "targetTimeSeconds": 80,
+    "tags": ["suites-lettres"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-015",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : A, E, I, M, Q, ?",
+    "choices": ["T", "U", "V", "S"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'incrément entre les lettres est constant, de 4 rangs (A=1, E=5, I=9, M=13, Q=17) : le rang suivant est 21, soit U.",
+      "why_others_wrong": ["Correspond à un saut de trois rangs au lieu de quatre.", "", "Correspond à un saut de cinq rangs, trop éloigné de la règle +4.", "Correspond à un saut de deux rangs, insuffisant."],
+      "method": "Repérer l'incrément constant de 4 rangs (A=1, E=5, I=9, M=13, Q=17) : le rang suivant est 21 = U."
+    },
+    "targetTimeSeconds": 80,
+    "tags": ["suites-lettres"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-016",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : B, D, G, K, ?",
+    "choices": ["N", "O", "P", "M"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "L'écart entre les lettres augmente à chaque étape (+2, +3, +4) : B=2, D=4, G=7, K=11, donc le prochain écart est +5, soit 16 = P.",
+      "why_others_wrong": ["Correspond à un incrément de 5, insuffisant par rapport à la progression +2,+3,+4,+5.", "Correspond à un incrément de 6, en léger excès par rapport à la progression attendue.", "", "Correspond à un incrément de 3 seulement, trop faible."],
+      "method": "Repérer que l'incrément entre les lettres augmente à chaque étape (+2, +3, +4) : B=2, D=4, G=7, K=11, donc le prochain incrément est +5, soit 16 = P."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["suites-lettres", "progression-variable"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-017",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : A, B, D, G, K, ?",
+    "choices": ["N", "O", "P", "M"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "L'écart entre les rangs augmente de 1 à chaque étape (+1, +2, +3, +4) : A=1, B=2, D=4, G=7, K=11, donc le prochain écart est +5, soit 16 = P.",
+      "why_others_wrong": ["Correspond à un incrément de 5, insuffisant par rapport à la progression +1,+2,+3,+4,+5.", "Correspond à un incrément de 6, trop élevé par rapport à la règle.", "", "Correspond à un incrément de 3, insuffisant."],
+      "method": "Repérer la progression des écarts (+1,+2,+3,+4) entre les rangs (A=1,B=2,D=4,G=7,K=11) : le prochain écart est +5, soit 16 = P."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["suites-lettres", "progression-variable"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-018",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : Z, Y, W, T, P, ?",
+    "choices": ["L", "K", "M", "J"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'écart entre les lettres augmente à chaque étape (-1,-2,-3,-4) : Z=26, Y=25, W=23, T=20, P=16, donc le prochain écart est -5, soit 11 = K.",
+      "why_others_wrong": ["Correspond à un écart trop faible par rapport à la progression attendue.", "", "Correspond à un écart de -3, insuffisant par rapport à la progression -1,-2,-3,-4,-5.", "Correspond à un écart de -6, trop important par rapport à la progression."],
+      "method": "Repérer que l'écart entre les lettres augmente à chaque étape (-1,-2,-3,-4) : Z=26,Y=25,W=23,T=20,P=16, donc le prochain écart est -5, soit 11 = K."
+    },
+    "targetTimeSeconds": 95,
+    "tags": ["suites-lettres", "progression-variable"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-019",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : B, E, D, G, F, I, ?",
+    "choices": ["G", "H", "J", "K"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La suite alterne deux opérations sur les rangs, +3 puis -1 : B(2)→E(5)[+3]→D(4)[-1]→G(7)[+3]→F(6)[-1]→I(9)[+3]→le terme suivant applique -1, soit 8 = H.",
+      "why_others_wrong": ["Correspond au terme déjà présent dans la suite (D→G), incohérent avec l'alternance +3/-1.", "", "Correspond à un écart de +2 par rapport à I, incohérent avec la règle -1.", "Correspond à un écart de +3, incohérent avec l'alternance attendue à cette étape."],
+      "method": "Repérer l'alternance de deux opérations sur les rangs (+3 puis -1) : B(2)→E(5) [+3] →D(4) [-1] →G(7) [+3] →F(6) [-1] →I(9) [+3] → le terme suivant applique -1, soit 8 = H."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["suites-lettres", "alternance"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-020",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de lettres : K, J, L, I, M, H, ?",
+    "choices": ["G", "N", "O", "I"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La suite entrelace deux sous-suites : l'une croissante (K, L, M, …) aux positions impaires, l'autre décroissante (J, I, H, …) aux positions paires. Le terme manquant, en position impaire, poursuit la sous-suite croissante : après M, le suivant est N.",
+      "why_others_wrong": ["Correspond à la poursuite de la sous-suite décroissante (J,I,H), alors que c'est au tour de la sous-suite croissante de continuer.", "", "Correspond à un saut supplémentaire dans la sous-suite croissante, incohérent avec l'incrément de +1.", "Répète un terme déjà utilisé dans la suite, ce qui est incohérent avec la logique de progression."],
+      "method": "Identifier les deux sous-suites entrelacées : l'une croissante (K,L,M,…) aux positions impaires, l'autre décroissante (J,I,H,…) aux positions paires. Le terme manquant est en position impaire, donc il poursuit K,L,M,→N."
+    },
+    "targetTimeSeconds": 105,
+    "tags": ["suites-lettres", "suites-entrelacees"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-021",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Médecin est à hôpital ce que professeur est à ___ ?",
+    "choices": ["Université", "École", "Cabinet", "Classe"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« École » est le terme générique désignant le lieu d'exercice d'un professeur, tout comme « hôpital » est le terme générique pour un médecin.",
+      "why_others_wrong": ["Trop spécifique : l'université n'est qu'un type d'établissement scolaire parmi d'autres, alors que « école » est le terme générique parallèle à « hôpital ».", "", "Un cabinet est le lieu d'exercice d'un médecin libéral, pas celui d'un professeur.", "La classe est une subdivision de l'école, pas l'institution elle-même, ce qui rompt le parallélisme avec « hôpital »."],
+      "method": "Identifier la relation exacte entre les deux premiers termes (lieu d'exercice professionnel) avant de choisir le terme le plus général et symétrique pour le second couple."
+    },
+    "targetTimeSeconds": 80,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-022",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Chat est à miauler ce que chien est à ___ ?",
+    "choices": ["Aboyer", "Grogner", "Hurler", "Japper"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Aboyer » est le verbe le plus générique et immédiatement associé au cri du chien, parallèle à « miauler » pour le chat.",
+      "why_others_wrong": ["", "Grogner désigne un son de menace, pas le cri caractéristique du chien.", "Hurler est plutôt associé au loup ou à un chien qui hurle à la lune, pas son cri habituel.", "Japper désigne le cri aigu d'un petit chien, un cas particulier moins général qu'aboyer."],
+      "method": "Chercher le verbe le plus générique et immédiatement associé à l'animal, en écartant les verbes désignant des variantes ou des cas particuliers du cri."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-023",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Œil est à voir ce que oreille est à ___ ?",
+    "choices": ["Écouter", "Entendre", "Parler", "Sentir"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« Entendre » désigne la fonction sensorielle passive de l'oreille, tout comme « voir » désigne celle de l'œil.",
+      "why_others_wrong": ["Écouter est une action volontaire, alors que voir/entendre désignent la fonction sensorielle de base de l'organe, sans effort volontaire.", "", "Aucun rapport : parler n'est pas une fonction de l'oreille.", "Sentir est associé au nez, pas à l'oreille."],
+      "method": "Bien distinguer la fonction sensorielle passive (voir/entendre) de l'action volontaire correspondante (regarder/écouter) pour respecter exactement le parallélisme initial."
+    },
+    "targetTimeSeconds": 80,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-024",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Livre est à bibliothèque ce que tableau est à ___ ?",
+    "choices": ["Musée", "Galerie", "Atelier", "Exposition"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Musée » est l'institution de conservation permanente équivalente à la bibliothèque, tout comme celle-ci conserve les livres.",
+      "why_others_wrong": ["", "Une galerie est davantage un lieu de vente ou de présentation temporaire, moins l'équivalent institutionnel direct d'une bibliothèque.", "L'atelier est le lieu de création du tableau, pas celui où il est conservé, ce qui rompt le parallélisme avec « bibliothèque ».", "Une exposition est un événement temporaire, non une institution permanente comme la bibliothèque."],
+      "method": "Repérer que la relation porte sur le lieu de conservation permanent d'une œuvre, et choisir l'institution la plus directement équivalente plutôt qu'un lieu voisin par le sens."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-025",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Grain est à sable ce que goutte est à ___ ?",
+    "choices": ["Eau", "Pluie", "Océan", "Rivière"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le grain est l'unité élémentaire du sable, tout comme la goutte est l'unité élémentaire de l'eau, substance générique.",
+      "why_others_wrong": ["", "La pluie est un phénomène fait de gouttes d'eau, pas la substance elle-même dont la goutte est l'unité.", "L'océan est une étendue d'eau spécifique, pas la substance générique parallèle au sable.", "La rivière est un cours d'eau spécifique, pas la substance générique elle-même."],
+      "method": "Repérer que le premier terme est l'unité élémentaire d'une matière (le sable), et chercher de même l'unité élémentaire de la substance générique correspondante (l'eau), non un phénomène ou un lieu particulier."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-026",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Graine est à arbre ce que œuf est à ___ ?",
+    "choices": ["Oiseau", "Nid", "Poule", "Coquille"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La relation porte sur le stade initial d'un développement biologique aboutissant à l'organisme adulte : la graine donne l'arbre, l'œuf donne l'oiseau.",
+      "why_others_wrong": ["", "Le nid est le lieu où est pondu l'œuf, pas l'organisme adulte qui en résulte.", "La poule est un exemple particulier d'oiseau, terme moins général et donc moins exact que « oiseau ».", "La coquille est une partie de l'œuf, pas l'organisme qui en naît."],
+      "method": "Identifier la relation de développement (stade initial → stade adulte) et choisir le terme générique désignant l'aboutissement, sans se limiter à un exemple particulier."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-027",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Chenille est à papillon ce que têtard est à ___ ?",
+    "choices": ["Crapaud", "Grenouille", "Mare", "Œuf"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La relation porte sur une métamorphose complète : la chenille devient papillon, le têtard devient grenouille.",
+      "why_others_wrong": ["Le crapaud est un amphibien proche mais ce n'est pas la métamorphose classique et directe du têtard généralement enseignée, contrairement à la grenouille.", "", "La mare est le milieu de vie du têtard, pas le résultat de sa métamorphose.", "L'œuf est le stade antérieur au têtard, pas l'aboutissement de sa métamorphose."],
+      "method": "Repérer la relation de métamorphose complète (stade larvaire → stade adulte) et retenir l'association la plus classiquement enseignée entre les deux termes."
+    },
+    "targetTimeSeconds": 90,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-028",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Économe est à épargner ce que prodigue est à ___ ?",
+    "choices": ["Investir", "Dilapider", "Économiser", "Emprunter"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La relation est celle d'une opposition de comportement face à l'argent : l'économe épargne, le prodigue dilapide.",
+      "why_others_wrong": ["Investir suppose une gestion réfléchie, ce qui contredit le trait principal du prodigue, qui dépense sans compter.", "", "Contresens direct : économiser est le comportement de l'économe, pas du prodigue.", "Emprunter n'est pas le trait caractéristique du prodigue, qui dépense avant tout son propre bien sans mesure."],
+      "method": "Repérer la relation d'opposition entre les deux premiers termes (économe = qui épargne) et chercher le terme qui exprime l'exact contraire pour le second couple (prodigue = qui dilapide)."
+    },
+    "targetTimeSeconds": 90,
+    "tags": ["analogie-verbale", "antonymes"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-029",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Acheteur est à vendeur ce que débiteur est à ___ ?",
+    "choices": ["Emprunteur", "Créancier", "Banquier", "Actionnaire"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La relation oppose deux parties d'une même transaction : l'acheteur face au vendeur, le débiteur (celui qui doit) face au créancier (celui à qui l'on doit).",
+      "why_others_wrong": ["L'emprunteur est un synonyme proche du débiteur lui-même, pas son vis-à-vis dans la relation.", "", "Le banquier n'est pas systématiquement la partie qui détient la créance dans toute relation de dette.", "L'actionnaire n'a pas de lien direct avec la relation de dette entre débiteur et créancier."],
+      "method": "Repérer que la relation porte sur deux parties opposées d'une même transaction (celui qui doit face à celui à qui l'on doit), à l'image du couple acheteur/vendeur."
+    },
+    "targetTimeSeconds": 95,
+    "tags": ["analogie-verbale"]
+  },
+  {
+    "id": "tage-logique-verbale-numerique-030",
+    "module": "tage2",
+    "subtest": "logique-verbale-numerique",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Ignorer est à savoir ce que oublier est à ___ ?",
+    "choices": ["Apprendre", "Se souvenir", "Connaître", "Comprendre"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« Ignorer » est l'antonyme de « savoir » ; de même, l'antonyme exact d'« oublier » est « se souvenir », l'action de retrouver l'information en mémoire.",
+      "why_others_wrong": ["Apprendre désigne le processus d'acquisition du savoir, pas son antonyme exact dans cette relation.", "", "Connaître est proche de savoir, donc du même champ que le second terme du premier couple, pas son antonyme pour oublier.", "Comprendre désigne un niveau de savoir plus profond, sans être l'antonyme exact d'oublier."],
+      "method": "Repérer la relation d'antonymie précise entre les deux premiers termes (ignorer = absence de savoir) et chercher l'antonyme exact d'« oublier », soit l'action de retrouver l'information en mémoire : se souvenir."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["analogie-verbale", "antonymes"]
+  }
+]

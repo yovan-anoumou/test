@@ -1,0 +1,542 @@
+[
+  {
+    "id": "raisonnement-001",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "Toutes les entreprises certifiées ISO 9001 appliquent un système qualité documenté. L'entreprise Delta est certifiée ISO 9001.",
+    "statement": "Que peut-on conclure avec certitude ?",
+    "choices": ["Delta applique un système qualité documenté", "Delta n'applique pas de système qualité documenté", "Toutes les entreprises appliquant un système qualité documenté sont certifiées ISO 9001", "On ne peut rien conclure sans informations supplémentaires"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le raisonnement est un syllogisme valide de type 'Barbara' : la conclusion découle nécessairement des deux prémisses.",
+      "why_others_wrong": ["", "Cette conclusion contredit directement les deux prémisses, elle est donc fausse.", "C'est l'erreur classique de conversion illicite : ce n'est pas parce que toutes les entreprises certifiées appliquent un système documenté que l'inverse est vrai.", "Le raisonnement est un syllogisme valide : la conclusion découle nécessairement et avec certitude des deux prémisses fournies."],
+      "method": "Appliquer le syllogisme classique (tous les A sont B, X est A, donc X est B) : ici A = certifié ISO 9001, B = applique un système qualité documenté."
+    },
+    "targetTimeSeconds": 90,
+    "tags": ["syllogisme", "logique-deductive"]
+  },
+  {
+    "id": "raisonnement-002",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Tous les produits premium de cette marque sont vendus à plus de 200€. Ce sac est vendu à 250€.",
+    "statement": "Peut-on en conclure avec certitude que ce sac est un produit premium de la marque ?",
+    "choices": ["Oui, car son prix dépasse 200€", "Non, un produit peut être vendu à plus de 200€ sans être premium, ou appartenir à une autre marque", "Oui, mais seulement si le sac est en cuir", "Non, car aucun produit premium ne dépasse jamais 200€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "C'est l'erreur classique d'affirmation du conséquent : la prémisse ne dit rien sur les produits non premium ou d'autres marques vendus au-delà de 200€, donc rien ne garantit que ce sac soit premium.",
+      "why_others_wrong": ["C'est l'erreur classique d'affirmation du conséquent : la prémisse ne dit rien sur les produits non premium vendus au-delà de 200€.", "", "Aucune information sur la matière du sac n'est donnée dans l'énoncé ; cette condition est inventée.", "Cela contredit directement la première prémisse, qui affirme que les produits premium sont vendus à plus de 200€."],
+      "method": "Ne pas confondre 'tous les A sont B' avec 'tous les B sont A' : le prix élevé (B) est une conséquence du caractère premium (A), pas l'inverse."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["syllogisme", "piege-logique"]
+  },
+  {
+    "id": "raisonnement-003",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Certains cadres de l'entreprise sont bilingues. Tous les cadres bilingues de l'entreprise ont déjà travaillé à l'étranger.",
+    "statement": "Que peut-on en conclure avec certitude ?",
+    "choices": ["Tous les cadres de l'entreprise ont travaillé à l'étranger", "Certains cadres de l'entreprise ont travaillé à l'étranger", "Aucun cadre de l'entreprise n'a travaillé à l'étranger", "On ne peut rien conclure du tout"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En chaînant les deux prémisses, on peut affirmer qu'au moins les cadres bilingues (donc 'certains' cadres) ont travaillé à l'étranger.",
+      "why_others_wrong": ["C'est une généralisation abusive : seule une partie des cadres (les bilingues) est concernée par la seconde prémisse, pas la totalité.", "", "Cette conclusion contredit directement les prémisses, qui affirment l'existence de cadres ayant travaillé à l'étranger.", "Une conclusion précise et valide peut être tirée en combinant les deux prémisses : ce n'est pas un cas d'absence d'information."],
+      "method": "Chaîner les prémisses : 'certains A sont B' + 'tous les B sont C' permet de conclure 'certains A sont C', sans jamais pouvoir dire 'tous les A sont C'."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["syllogisme", "logique-deductive"]
+  },
+  {
+    "id": "raisonnement-004",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "S'il pleut le jour du salon professionnel en plein air, l'affluence chute fortement. Cette année, l'affluence n'a pas chuté.",
+    "statement": "Que peut-on en conclure avec certitude sur la météo le jour du salon ?",
+    "choices": ["Il a plu ce jour-là", "Il n'a pas plu ce jour-là", "On ne peut rien dire sur la météo", "Il a fait beau toute la semaine du salon"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Un raisonnement valide (modus tollens) permet de conclure avec certitude qu'il n'a pas plu, puisque la pluie aurait entraîné une chute d'affluence qui n'a pas eu lieu.",
+      "why_others_wrong": ["Cette conclusion contredit directement le raisonnement logique valide (modus tollens) applicable ici.", "", "Un raisonnement valide (modus tollens) permet justement de conclure quelque chose de certain à partir des deux informations.", "L'énoncé ne donne aucune information sur le reste de la semaine, seulement sur le jour du salon."],
+      "method": "Appliquer le modus tollens : si (A implique B) et (non B), alors (non A). Ici A = 'il pleut', B = 'l'affluence chute'."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["syllogisme", "logique-deductive"]
+  },
+  {
+    "id": "raisonnement-005",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Aucun stagiaire de l'entreprise n'a accès aux données financières confidentielles. Karim a accès aux données financières confidentielles.",
+    "statement": "Que peut-on en conclure avec certitude sur Karim ?",
+    "choices": ["Karim est stagiaire", "Karim n'est pas stagiaire", "Karim est le directeur financier", "On ne peut rien conclure sur le statut de Karim"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Puisqu'aucun stagiaire n'a cet accès et que Karim l'a, Karim ne peut pas être stagiaire : la conclusion est logiquement certaine.",
+      "why_others_wrong": ["Cette conclusion contredit directement la première prémisse : aucun stagiaire n'a cet accès, or Karim y a accès.", "", "Rien dans l'énoncé n'indique la fonction précise de Karim, seulement qu'il n'est pas stagiaire.", "Un raisonnement logique valide permet ici de tirer une conclusion certaine sur le statut de Karim, même sans connaître sa fonction exacte."],
+      "method": "Appliquer le principe : si aucun A n'est B, et que X est B, alors X n'est pas A. Ici A = stagiaire, B = accès aux données confidentielles."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["syllogisme", "logique-deductive"]
+  },
+  {
+    "id": "raisonnement-006",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Trois collègues, Alice, Bruno et Chloé, ont obtenu les trois premières places d'un concours interne. On sait que : Alice n'est pas arrivée première. Bruno est arrivé juste avant Chloé (à la place immédiatement précédente). Chloé n'est pas arrivée troisième.",
+    "statement": "Quel est le classement final, de la première à la troisième place ?",
+    "choices": ["Bruno, Chloé, Alice", "Alice, Bruno, Chloé", "Chloé, Bruno, Alice", "Bruno, Alice, Chloé"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le duo Bruno-Chloé consécutif ne peut être qu'en positions 1-2 (car en positions 2-3, Chloé serait 3e, ce qui est exclu). Bruno est donc 1er, Chloé 2e, et Alice complète en 3e position, ce qui respecte aussi la contrainte 'Alice n'est pas première'.",
+      "why_others_wrong": ["", "Cette option place Alice première, ce qui contredit directement la première contrainte de l'énoncé.", "Cette option ne respecte pas la contrainte 'Bruno juste avant Chloé' : ici Chloé est première et Bruno second, dans le mauvais ordre.", "Cette option sépare Bruno et Chloé, qui ne sont plus à des places consécutives, ce qui ne respecte pas la contrainte de l'énoncé."],
+      "method": "Tester systématiquement les deux positions possibles pour le duo Bruno-Chloé consécutif (1-2 ou 2-3), puis éliminer celles qui violent une autre contrainte : ici Chloé ne peut pas être 3e, ce qui élimine la position 2-3 et impose 1-2, laissant Alice en 3e position."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["logique-deductive", "probleme-deductif"]
+  },
+  {
+    "id": "raisonnement-007",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "La plupart des clients fidèles de cette marque recommandent la marque à leur entourage. Julie recommande cette marque à son entourage.",
+    "statement": "Peut-on en conclure avec certitude que Julie est une cliente fidèle de la marque ?",
+    "choices": ["Oui, forcément", "Non, ce n'est pas garanti : d'autres personnes non fidèles peuvent aussi recommander la marque", "Oui, car recommander une marque implique toujours d'en être client fidèle", "Non, car aucun client fidèle ne recommande la marque"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La prémisse utilise 'la plupart' et non 'tous', et même avec 'tous' on ne pourrait pas inverser l'implication sans preuve supplémentaire : rien ne garantit donc que Julie soit une cliente fidèle.",
+      "why_others_wrong": ["C'est l'erreur d'affirmation du conséquent, aggravée par le fait que la prémisse utilise 'la plupart' et non 'tous' : même avec 'tous', la conclusion inverse ne serait pas garantie.", "", "Cette affirmation générale n'est pas donnée dans l'énoncé et n'est pas logiquement nécessaire.", "Cela contredit directement la première prémisse, qui affirme que la plupart des clients fidèles recommandent la marque."],
+      "method": "Repérer qu'une prémisse avec 'la plupart' (et non 'tous') ne permet jamais de bâtir un syllogisme certain ; et même avec 'tous', on ne peut pas inverser une implication sans preuve supplémentaire."
+    },
+    "targetTimeSeconds": 120,
+    "tags": ["syllogisme", "piege-logique"]
+  },
+  {
+    "id": "raisonnement-008",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Si une entreprise investit massivement en recherche et développement, alors elle a tendance à innover davantage que ses concurrents. Cette année, l'entreprise Nexo a innové davantage que ses concurrents.",
+    "statement": "Peut-on en conclure avec certitude que Nexo a massivement investi en R&D ?",
+    "choices": ["Oui, c'est la seule explication possible", "Non, d'autres facteurs (talent des équipes, rachat d'une start-up innovante, chance...) peuvent aussi expliquer cette innovation", "Oui, car innover implique toujours d'investir massivement en R&D", "Non, car investir en R&D empêche toujours d'innover davantage que ses concurrents"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'implication donnée ne dit rien sur les autres causes possibles d'innovation ; on ne peut donc pas déduire la cause (investissement en R&D) à partir du seul effet observé.",
+      "why_others_wrong": ["C'est l'erreur classique d'affirmation du conséquent : l'investissement en R&D est présenté comme une cause suffisante, pas comme la seule cause possible du résultat observé.", "", "Cette généralisation n'est pas donnée par l'énoncé et n'est pas logiquement valide.", "Cette affirmation contredit directement la première prémisse, qui relie positivement investissement en R&D et innovation."],
+      "method": "Ne jamais déduire la cause (l'investissement en R&D) à partir du seul effet observé (l'innovation) : une implication 'si A alors B' ne permet pas de conclure A à partir de B seul."
+    },
+    "targetTimeSeconds": 120,
+    "tags": ["syllogisme", "piege-logique"]
+  },
+  {
+    "id": "raisonnement-009",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Un chef de projet est convaincu depuis le début que son fournisseur actuel est le meilleur du marché. Depuis six mois, il ne consulte que les retours positifs sur ce fournisseur transmis par son équipe et écarte systématiquement les alertes concernant des retards de livraison répétés, en les qualifiant d''exceptions'.",
+    "statement": "Quel biais cognitif illustre le mieux le comportement de ce chef de projet ?",
+    "choices": ["Le biais de confirmation", "Le biais d'ancrage", "L'effet de halo", "Le biais de disponibilité"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le chef de projet recherche et retient uniquement les informations confirmant sa conviction initiale, tout en écartant les signaux contradictoires : c'est la définition même du biais de confirmation.",
+      "why_others_wrong": ["", "Le biais d'ancrage concerne l'influence excessive d'une première information chiffrée (comme un prix), pas la sélection d'informations confirmant une croyance.", "L'effet de halo consiste à juger un ensemble de qualités à partir d'un seul trait perçu positivement, ce qui n'est pas le mécanisme décrit ici.", "Le biais de disponibilité concerne la surestimation d'un risque à cause d'un exemple marquant et récent, pas la sélection d'informations confirmant une opinion préexistante."],
+      "method": "Repérer le mot-clé : recherche sélective d'informations qui confirment une opinion préexistante, et minimisation des informations contraires."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["biais-cognitif", "biais-confirmation"]
+  },
+  {
+    "id": "raisonnement-010",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Une entreprise a déjà investi 200 000€ dans le développement d'un logiciel interne. Un an plus tard, il est établi que ce logiciel présente des défauts structurels qui ne pourront jamais être corrigés, et qu'il faudrait repartir de zéro avec une autre solution technique. Le directeur décide malgré tout de continuer à investir dans ce projet, en expliquant : 'On a déjà mis trop d'argent dedans pour abandonner maintenant.'",
+    "statement": "Quel biais cognitif ce raisonnement illustre-t-il ?",
+    "choices": ["Le biais du survivant", "Le biais des coûts irrécupérables (sunk cost fallacy)", "Le biais d'autorité", "Le biais rétrospectif"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le directeur justifie la poursuite de l'investissement par l'argent déjà dépensé (un coût passé et non récupérable) plutôt que par une analyse rationnelle des coûts et bénéfices futurs : c'est le biais des coûts irrécupérables.",
+      "why_others_wrong": ["Le biais du survivant consiste à tirer des conclusions générales à partir des seuls cas de réussite visibles, ce qui n'est pas le sujet ici.", "", "Le biais d'autorité consiste à suivre une décision uniquement parce qu'elle émane d'une figure d'autorité, ce qui n'est pas décrit dans la situation.", "Le biais rétrospectif consiste à croire, après coup, que l'on savait qu'un événement allait se produire, ce qui n'est pas non plus le mécanisme ici."],
+      "method": "Repérer la justification typique 'on a déjà trop investi pour arrêter' : une décision rationnelle ne devrait reposer que sur les coûts et bénéfices futurs, jamais sur les dépenses passées non récupérables."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "cout-irrecuperable"]
+  },
+  {
+    "id": "raisonnement-011",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Lors d'un entretien de négociation salariale, le candidat annonce d'emblée souhaiter un salaire annuel de 55 000€. Le recruteur avait initialement prévu de proposer une fourchette comprise entre 40 000€ et 45 000€, mais finit par proposer 48 000€ au candidat.",
+    "statement": "Quel biais cognitif explique le mieux que le recruteur se soit rapproché du chiffre annoncé en premier par le candidat ?",
+    "choices": ["Le biais d'ancrage", "Le biais de disponibilité", "Le biais du survivant", "L'effet de halo"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le premier chiffre énoncé (55 000€) sert de point de référence ('ancre') qui influence inconsciemment l'estimation finale du recruteur, même si sa fourchette de départ était plus basse.",
+      "why_others_wrong": ["", "Le biais de disponibilité concerne l'influence d'exemples marquants et récents en mémoire, pas l'influence d'un premier chiffre annoncé dans une négociation.", "Le biais du survivant concerne les conclusions tirées uniquement des cas de succès visibles, sans rapport avec cette situation de négociation.", "L'effet de halo concerne le jugement global d'une personne à partir d'un seul trait, pas l'influence d'un chiffre initial sur une estimation."],
+      "method": "Repérer qu'un chiffre annoncé en premier dans une négociation ou une estimation influence durablement le jugement final, même chez des personnes qui pensent en être indépendantes : c'est le biais d'ancrage."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "ancrage", "negociation"]
+  },
+  {
+    "id": "raisonnement-012",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Après avoir visionné un reportage très marquant sur un accident industriel survenu dans une autre entreprise, un directeur d'usine décide de revoir en urgence toute la politique de sécurité et de bloquer temporairement plusieurs lignes de production. Pourtant, les statistiques internes de son usine montrent qu'aucun incident grave n'y est survenu depuis cinq ans.",
+    "statement": "Quel biais cognitif explique le mieux la réaction du directeur ?",
+    "choices": ["Le biais de disponibilité", "Le biais de statu quo", "Le biais d'ancrage", "Le biais d'excès de confiance"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le directeur surestime la probabilité d'un accident dans sa propre usine parce qu'un exemple marquant et récent lui vient facilement à l'esprit, alors que les données objectives disponibles (aucun incident depuis 5 ans) suggèrent un risque plus faible.",
+      "why_others_wrong": ["", "Le biais de statu quo pousse au contraire à préférer ne rien changer ; ici le directeur change radicalement sa politique, ce n'est donc pas ce biais.", "Le biais d'ancrage concerne l'influence d'un premier chiffre ou d'une première estimation, pas l'impact émotionnel d'un exemple marquant récent.", "Le biais d'excès de confiance concerne une surestimation de ses propres prévisions ou compétences, pas la surestimation d'un risque après un exemple médiatisé."],
+      "method": "Repérer qu'une décision est influencée par la facilité avec laquelle un exemple vient à l'esprit (un événement récent et médiatisé) plutôt que par des statistiques réelles : c'est le biais de disponibilité."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "biais-disponibilite"]
+  },
+  {
+    "id": "raisonnement-013",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Lors d'un entretien de recrutement, un manager est très impressionné par le fait que le candidat soit diplômé d'une grande école prestigieuse. Sur cette seule base, il en déduit que ce candidat sera probablement aussi un excellent manager d'équipe et un bon communicant, sans avoir évalué ces compétences spécifiques durant l'entretien.",
+    "statement": "Quel biais cognitif illustre ce raisonnement ?",
+    "choices": ["Le biais du survivant", "Le biais de statu quo", "L'effet de halo", "Le biais rétrospectif"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le manager généralise une impression positive fondée sur un seul critère (le diplôme) à d'autres qualités non évaluées (management, communication) : c'est la définition même de l'effet de halo.",
+      "why_others_wrong": ["Le biais du survivant concerne les conclusions tirées uniquement à partir de cas de réussite visibles, pas la généralisation d'un trait positif à d'autres qualités.", "Le biais de statu quo concerne la préférence pour ne rien changer, sans rapport avec ce contexte de recrutement.", "", "Le biais rétrospectif concerne l'impression après coup d'avoir su prévoir un événement, pas le jugement global fondé sur un seul trait."],
+      "method": "Repérer qu'un jugement global positif (ou négatif) sur une personne se fonde sur un seul trait marquant, sans évaluation réelle des autres qualités concernées : c'est l'effet de halo."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["biais-cognitif", "effet-halo", "recrutement"]
+  },
+  {
+    "id": "raisonnement-014",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Un jeune diplômé s'appuie sur les parcours de quelques fondateurs de start-up devenues des 'licornes' après avoir quitté leurs études, pour conclure que 'quitter ses études pour monter sa boîte' est une stratégie globalement gagnante.",
+    "statement": "Quelle erreur de raisonnement ce jeune diplômé commet-il ?",
+    "choices": ["Le biais de confirmation", "Le biais du survivant : il ne considère que les success stories visibles, en ignorant les nombreux échecs non médiatisés", "Le biais d'ancrage", "L'effet de halo"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le jeune diplômé ne voit que les entrepreneurs qui ont réussi après avoir arrêté leurs études (les 'survivants'), sans tenir compte des très nombreux entrepreneurs ayant fait le même choix et ayant échoué, ce qui fausse totalement la conclusion.",
+      "why_others_wrong": ["Le biais de confirmation consisterait à ne chercher que des informations confirmant une opinion déjà formée ; ici le problème est plutôt l'échantillon observé, biaisé par nature.", "", "Le biais d'ancrage concerne l'influence d'un premier chiffre ou d'une première estimation, pas la sélection d'exemples de réussite.", "L'effet de halo concerne le jugement global d'une personne à partir d'un seul trait, pas une généralisation statistique erronée."],
+      "method": "Se demander systématiquement : 'quels sont les cas qui ne sont pas visibles dans cet échantillon ?' Le biais du survivant surestime la probabilité de succès en ignorant les échecs invisibles."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "biais-survivant"]
+  },
+  {
+    "id": "raisonnement-015",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Après l'échec du lancement d'un nouveau produit, plusieurs membres de l'équipe projet affirment : 'On savait bien que ça allait échouer.' Pourtant, avant le lancement, les mêmes personnes s'étaient montrées très optimistes en réunion et avaient validé toutes les étapes du projet sans réserve.",
+    "statement": "Quel biais cognitif ce comportement illustre-t-il ?",
+    "choices": ["Le biais rétrospectif (hindsight bias)", "Le biais d'ancrage", "Le biais de disponibilité", "Le biais d'autorité"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Après avoir observé le résultat (l'échec), l'équipe reconstruit son souvenir en pensant avoir anticipé ce résultat, alors qu'elle s'était montrée optimiste avant : c'est le biais rétrospectif, qui donne une fausse impression de prévisibilité après coup.",
+      "why_others_wrong": ["", "Le biais d'ancrage concerne l'influence d'une première information chiffrée, sans rapport avec une reconstruction a posteriori des souvenirs.", "Le biais de disponibilité concerne l'influence d'exemples marquants en mémoire sur l'estimation d'un risque, pas la reconstruction du souvenir d'une opinion passée.", "Le biais d'autorité concerne le fait de suivre une décision uniquement parce qu'elle émane d'une figure d'autorité, sans rapport avec ce contexte."],
+      "method": "Comparer ce que les personnes disaient AVANT l'événement et ce qu'elles affirment APRÈS : si leur discours passé était différent, il s'agit probablement d'un biais rétrospectif."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "biais-retrospectif"]
+  },
+  {
+    "id": "raisonnement-016",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Le service achats d'une entreprise reçoit une proposition d'un nouveau prestataire, moins cher de 15% et avec de meilleurs délais que le fournisseur historique. Malgré ces avantages chiffrés, le responsable achats décide de reconduire le contrat avec le fournisseur habituel, en expliquant : 'On a toujours travaillé avec eux, ça a toujours bien fonctionné, pourquoi changer ?'",
+    "statement": "Quel biais cognitif influence le plus probablement cette décision ?",
+    "choices": ["Le biais de statu quo", "Le biais de confirmation", "L'effet de halo", "Le biais d'ancrage"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le responsable achats privilégie l'option qui ne change rien à la situation actuelle, même lorsque les données objectives (coût, délais) favorisent clairement le changement : c'est le biais de statu quo.",
+      "why_others_wrong": ["", "Le biais de confirmation consisterait à ne chercher que des informations confirmant une opinion, ce qui n'est pas exactement décrit ici : le responsable ignore une information objective plutôt que de la réinterpréter.", "L'effet de halo concerne la généralisation d'un trait positif perçu à d'autres qualités non évaluées, ce qui n'est pas le mécanisme principal ici.", "Le biais d'ancrage concerne l'influence excessive d'un premier chiffre, sans rapport direct avec la préférence pour ne rien changer."],
+      "method": "Repérer une préférence pour 'ne rien changer' malgré des arguments chiffrés favorables au changement : c'est la signature du biais de statu quo."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "statu-quo"]
+  },
+  {
+    "id": "raisonnement-017",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Le directeur commercial annonce en comité de direction une croissance certaine de 30% des ventes l'an prochain, sans donner de fourchette ni de marge d'incertitude. Or, sur les trois dernières années, ses prévisions se sont révélées en moyenne éloignées de plus de 15 points de la réalité observée.",
+    "statement": "Quel biais cognitif ce comportement illustre-t-il le mieux ?",
+    "choices": ["Le biais d'excès de confiance", "Le biais de disponibilité", "Le biais du survivant", "Le biais de statu quo"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le directeur commercial affiche une certitude excessive dans sa prévision, sans tenir compte de l'historique de ses erreurs passées, ce qui est la définition même du biais d'excès de confiance (overconfidence).",
+      "why_others_wrong": ["", "Le biais de disponibilité concerne l'influence d'exemples marquants en mémoire, sans rapport avec le fait d'annoncer une prévision sans marge d'erreur.", "Le biais du survivant concerne la généralisation à partir de cas de succès visibles, sans rapport avec cette situation de prévision chiffrée.", "Le biais de statu quo concerne la préférence pour ne rien changer, sans rapport direct avec le degré de certitude affiché dans une prévision."],
+      "method": "Comparer le degré de certitude affiché à la fiabilité réelle passée des prévisions : un écart important entre les deux signale un biais d'excès de confiance."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "exces-de-confiance"]
+  },
+  {
+    "id": "raisonnement-018",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Un jeune analyste financier a des doutes sérieux sur une hypothèse de croissance utilisée dans un budget prévisionnel, qu'il juge trop optimiste au vu des données du marché. Il ne remet toutefois pas cette hypothèse en question en réunion, car elle a été validée par le directeur financier, qu'il considère comme ayant 'toujours raison' sur ces sujets.",
+    "statement": "Quel biais cognitif freine le plus probablement l'analyste dans l'expression de son désaccord ?",
+    "choices": ["Le biais d'ancrage", "Le biais d'autorité", "L'effet de halo", "Le biais rétrospectif"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'analyste renonce à exprimer un désaccord fondé sur des données objectives simplement parce que l'hypothèse émane d'une figure hiérarchique perçue comme infaillible : c'est le biais d'autorité (ou soumission à l'autorité).",
+      "why_others_wrong": ["Le biais d'ancrage concerne l'influence d'un premier chiffre sur une estimation, pas la difficulté à contester une figure hiérarchique.", "", "L'effet de halo consisterait à déduire d'autres qualités à partir d'un trait positif perçu, alors qu'ici l'analyste se soumet directement au jugement d'une figure d'autorité sans le questionner.", "Le biais rétrospectif concerne la reconstruction d'un souvenir après un événement, sans rapport avec cette situation."],
+      "method": "Repérer qu'une personne renonce à son propre jugement, fondé sur des faits, uniquement à cause du statut hiérarchique de celui qui a émis l'avis contraire : c'est le biais d'autorité."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["biais-cognitif", "biais-autorite"]
+  },
+  {
+    "id": "raisonnement-019",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Vous êtes chef de projet. Ce matin, quatre sujets attendent une décision : (1) répondre à un email non urgent d'un partenaire commercial ; (2) résoudre un bug bloquant en production qui empêche actuellement les clients de passer commande sur le site ; (3) préparer une présentation stratégique pour une réunion prévue dans un mois ; (4) valider une facture fournisseur dont l'échéance de paiement est dans deux jours.",
+    "statement": "Quel sujet devez-vous traiter en priorité absolue ce matin ?",
+    "choices": ["Répondre à l'email du partenaire commercial", "Résoudre le bug bloquant en production", "Préparer la présentation stratégique", "Valider la facture fournisseur"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le bug bloquant en production est à la fois urgent (il agit dès maintenant) et important (il empêche directement les ventes) : c'est la seule tâche qui combine ces deux critères au plus haut niveau, elle doit donc être traitée en priorité absolue.",
+      "why_others_wrong": ["Cette tâche n'est ni urgente ni critique pour l'activité immédiate de l'entreprise ; elle peut attendre sans conséquence grave.", "", "Cette tâche est importante mais dispose d'un horizon d'un mois : elle n'est pas urgente aujourd'hui et peut être planifiée plus tard.", "Cette tâche a une échéance proche (2 jours) mais reste moins critique qu'une panne qui bloque immédiatement le chiffre d'affaires de l'entreprise."],
+      "method": "Utiliser la matrice urgence/importance (matrice d'Eisenhower) : classer chaque tâche selon ces deux axes et traiter en priorité ce qui est à la fois urgent et important."
+    },
+    "targetTimeSeconds": 120,
+    "tags": ["arbitrage-priorisation", "cas-de-gestion"]
+  },
+  {
+    "id": "raisonnement-020",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Le chiffre d'affaires trimestriel d'un produit a évolué ainsi sur l'année : T1 = 100 000€, T2 = 120 000€, T3 = 90 000€, T4 = 150 000€.",
+    "statement": "Quelle est la variation en pourcentage du chiffre d'affaires entre le troisième trimestre (T3) et le quatrième trimestre (T4) ?",
+    "choices": ["+40%", "+60%", "+66,7%", "+150%"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "L'écart entre T3 et T4 est de 150 000 - 90 000 = 60 000€. Le taux de variation se calcule en rapportant cet écart à la valeur de départ (T3) : 60 000 / 90 000 ≈ 0,667, soit environ +66,7%.",
+      "why_others_wrong": ["Ce résultat correspond à une erreur de calcul fréquente consistant à diviser l'écart (60 000€) par le CA final (150 000€) au lieu du CA de départ.", "Ce résultat correspond à un arrondi erroné ou à une confusion entre l'écart en valeur absolue (60 000€) et le taux de variation réel.", "", "Ce résultat correspond à une confusion entre la valeur finale rapportée à l'écart, et non le taux de variation correctement calculé."],
+      "method": "Toujours calculer un taux de variation en pourcentage comme (valeur d'arrivée - valeur de départ) / valeur de départ, et non par rapport à la valeur d'arrivée."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["lecture-donnees-chiffrees", "calcul-pourcentage"]
+  },
+  {
+    "id": "raisonnement-021",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Un commerçant achète un article 40€ à son fournisseur et le revend 60€ à ses clients.",
+    "statement": "Quel est son taux de marge, calculé par rapport au prix de vente (marge / prix de vente) ?",
+    "choices": ["50%", "33%", "25%", "40%"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La marge en valeur est de 60 - 40 = 20€. Rapportée au prix de vente, elle donne un taux de marge de 20 / 60 ≈ 0,333, soit environ 33%.",
+      "why_others_wrong": ["Ce résultat correspond en réalité au taux de marque calculé par rapport au prix d'achat (20€ / 40€ = 50%), et non au taux de marge par rapport au prix de vente demandé ici.", "", "Ce résultat ne correspond à aucun des deux calculs usuels de marge à partir de ces chiffres.", "Ce résultat correspond à une erreur de calcul ne correspondant à aucune des deux méthodes de calcul de marge habituelles."],
+      "method": "Bien distinguer le taux de marge (marge / prix de vente) du taux de marque (marge / prix d'achat) : ce sont deux ratios différents souvent confondus en gestion commerciale."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["calcul-rentabilite", "cas-de-gestion"]
+  },
+  {
+    "id": "raisonnement-022",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Une entreprise investit 5 000€ dans une campagne publicitaire ciblée. Cette campagne génère un gain net (marge supplémentaire réalisée grâce à la campagne, déduction faite du coût de la campagne) de 1 500€ sur l'année.",
+    "statement": "Quel est le retour sur investissement (ROI) annuel de cette campagne, exprimé en pourcentage du montant investi ?",
+    "choices": ["15%", "20%", "25%", "30%"],
+    "correctIndex": 3,
+    "explanation": {
+      "why_correct": "Le ROI se calcule en rapportant le gain net généré par l'investissement au montant investi : 1 500 / 5 000 = 0,30, soit un ROI de 30%.",
+      "why_others_wrong": ["Ce résultat ne correspond pas au calcul correct de 1 500 / 5 000.", "Ce résultat ne correspond pas au calcul correct de 1 500 / 5 000.", "Ce résultat ne correspond pas au calcul correct de 1 500 / 5 000.", ""],
+      "method": "Retenir la formule du ROI : (gain net de l'investissement) / (coût de l'investissement), exprimée en pourcentage."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["calcul-rentabilite", "roi"]
+  },
+  {
+    "id": "raisonnement-023",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Le prix d'un produit augmente de 50% une première fois, puis baisse de 50% par rapport à son nouveau prix.",
+    "statement": "Quel est le prix final du produit par rapport à son prix initial ?",
+    "choices": ["Identique au prix initial (variation de 0%)", "En baisse de 25% par rapport au prix initial", "En hausse de 25% par rapport au prix initial", "En baisse de 50% par rapport au prix initial"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En partant d'un prix de 100€ : +50% donne 150€, puis -50% de 150€ donne 75€. Le prix final (75€) est donc inférieur de 25% au prix initial (100€), car la baisse de 50% s'applique à une base plus élevée que la hausse initiale.",
+      "why_others_wrong": ["C'est l'erreur intuitive la plus fréquente : une hausse et une baisse de même pourcentage ne s'annulent pas, car elles s'appliquent à des bases différentes.", "", "Ce résultat inverse le sens de la variation finale, qui est en réalité une baisse et non une hausse par rapport au prix initial.", "Ce résultat correspond uniquement à l'effet de la seconde baisse de 50%, sans tenir compte de la hausse préalable de 50%."],
+      "method": "Toujours recalculer avec un exemple chiffré simple (base 100) plutôt que de raisonner intuitivement sur des pourcentages successifs : des variations en pourcentage de même valeur ne s'annulent jamais lorsqu'elles s'appliquent à des bases différentes."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["calcul-pourcentage", "piege-chiffre"]
+  },
+  {
+    "id": "raisonnement-024",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Une entreprise fabrique un produit dont le prix de vente unitaire est de 50€ et le coût variable unitaire (matières, main-d'œuvre directe) est de 30€. Ses coûts fixes annuels (loyer, machines, salaires administratifs) s'élèvent à 10 000€.",
+    "statement": "Combien d'unités l'entreprise doit-elle vendre par an pour atteindre son seuil de rentabilité (point mort) ?",
+    "choices": ["200 unités", "300 unités", "500 unités", "1 000 unités"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "La marge sur coût variable unitaire est de 50 - 30 = 20€. Le seuil de rentabilité s'obtient en divisant les coûts fixes par cette marge unitaire : 10 000 / 20 = 500 unités.",
+      "why_others_wrong": ["Ce résultat ne correspond pas au calcul correct des coûts fixes divisés par la marge sur coût variable unitaire.", "Ce résultat ne correspond pas au calcul correct des coûts fixes divisés par la marge sur coût variable unitaire.", "", "Ce résultat correspond à une erreur consistant à diviser les coûts fixes par le prix de vente unitaire seul, sans tenir compte du coût variable."],
+      "method": "Retenir la formule du seuil de rentabilité en quantité : coûts fixes / (prix de vente unitaire - coût variable unitaire)."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["calcul-rentabilite", "seuil-de-rentabilite"]
+  },
+  {
+    "id": "raisonnement-025",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Pour réduire ses coûts de stockage, une entreprise industrielle adopte une politique de gestion des stocks 'juste-à-temps', en minimisant au maximum ses stocks de composants et en s'approvisionnant fréquemment auprès d'un fournisseur unique. Quelques mois plus tard, un incident chez ce fournisseur unique provoque une rupture d'approvisionnement de plusieurs semaines, stoppant la production de l'entreprise.",
+    "statement": "Quel principal risque cette situation illustre-t-elle ?",
+    "choices": ["Un coût de stockage excessif", "Une dépendance excessive à un fournisseur unique, réduisant la résilience de la chaîne d'approvisionnement", "Un excès d'effectifs dans le service logistique", "Une mauvaise gestion de la trésorerie de l'entreprise"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En réduisant ses stocks et en s'appuyant sur un fournisseur unique, l'entreprise a gagné en efficacité de coûts mais a perdu en résilience : le moindre incident chez ce fournisseur se répercute directement et fortement sur sa production, faute de stock tampon ou de fournisseur alternatif.",
+      "why_others_wrong": ["C'est l'inverse : la politique de juste-à-temps vise justement à réduire les coûts de stockage, ce n'est pas le problème mis en évidence ici.", "", "L'énoncé ne mentionne aucun problème d'effectifs en logistique.", "L'énoncé ne mentionne aucune information sur la trésorerie de l'entreprise ; le problème décrit est un arrêt de production dû à une rupture d'approvisionnement."],
+      "method": "Identifier l'arbitrage classique entre efficacité (coûts réduits, flux tendus) et résilience (capacité à absorber un choc) : optimiser un critère au maximum fragilise souvent l'autre."
+    },
+    "targetTimeSeconds": 120,
+    "tags": ["arbitrage-priorisation", "gestion-stocks"]
+  },
+  {
+    "id": "raisonnement-026",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Un manager doit choisir dans quel ordre traiter quatre tâches, sachant qu'il souhaite maximiser l'impact total obtenu par heure de travail investie. Tâche A : impact estimé 8/10, durée 4 heures. Tâche B : impact estimé 6/10, durée 1 heure. Tâche C : impact estimé 9/10, durée 6 heures. Tâche D : impact estimé 4/10, durée 1 heure.",
+    "statement": "Quelle tâche offre le meilleur rendement (impact par heure investie) ?",
+    "choices": ["Tâche A", "Tâche B", "Tâche C", "Tâche D"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le rendement de chaque tâche s'obtient en divisant son impact par sa durée : A = 8/4 = 2, B = 6/1 = 6, C = 9/6 = 1,5, D = 4/1 = 4. La tâche B offre le meilleur rendement avec 6 points d'impact par heure investie.",
+      "why_others_wrong": ["Le rendement de la tâche A est de 8/4 = 2 points d'impact par heure, inférieur à celui de la tâche B.", "", "Le rendement de la tâche C est de 9/6 = 1,5 point d'impact par heure, le plus faible des quatre malgré son impact brut élevé.", "Le rendement de la tâche D est de 4/1 = 4 points d'impact par heure, inférieur à celui de la tâche B."],
+      "method": "Ne pas se fier au seul impact brut affiché (souvent trompeur, comme la tâche C ici) : calculer systématiquement un ratio impact/effort pour comparer objectivement des options de nature différente."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["arbitrage-priorisation", "calcul-rentabilite"]
+  },
+  {
+    "id": "raisonnement-027",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Un produit reçoit d'excellentes notes de satisfaction client, avec une moyenne de 4,8 sur 5 dans les enquêtes internes. Pourtant, ses ventes stagnent depuis un an et ne progressent pas, alors que le marché global du secteur croît de 8% par an.",
+    "statement": "Quelle conclusion est la mieux étayée par ces éléments ?",
+    "choices": ["Le produit est en réalité de mauvaise qualité malgré les avis positifs", "Le problème vient probablement davantage de la notoriété ou de la distribution du produit que de sa qualité perçue par ceux qui l'utilisent déjà", "Il faut immédiatement baisser fortement le prix du produit", "Les clients mentent systématiquement dans les enquêtes de satisfaction"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Une forte satisfaction chez les clients existants combinée à des ventes stagnantes suggère que le problème se situe plutôt en amont de l'achat (notoriété, visibilité, distribution, acquisition de nouveaux clients) plutôt que dans la qualité perçue du produit une fois utilisé.",
+      "why_others_wrong": ["Cette conclusion contredit directement la donnée disponible (note de satisfaction élevée) sans justification.", "", "Aucune information sur le prix ou la sensibilité au prix des clients n'est donnée dans l'énoncé ; cette conclusion est prématurée.", "Rien dans l'énoncé ne permet de suspecter une malhonnêteté des répondants ; c'est une hypothèse extrême non étayée par les faits."],
+      "method": "Distinguer les indicateurs de rétention/satisfaction (qui mesurent l'expérience des clients existants) des indicateurs d'acquisition (notoriété, distribution) : un problème sur l'un n'implique pas automatiquement un problème sur l'autre."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["cas-de-gestion", "lecture-donnees-chiffrees"]
+  },
+  {
+    "id": "raisonnement-028",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Former les nouveaux managers aux techniques de gestion de projet est jugé très important par la direction pour la stratégie à trois ans de l'entreprise. En revanche, rien ne presse dans les prochaines semaines : aucune échéance proche n'impose d'agir immédiatement.",
+    "statement": "Selon la matrice d'Eisenhower (urgence/importance), que doit-on faire de cette tâche ?",
+    "choices": ["La traiter immédiatement soi-même, avant toute autre tâche", "La planifier à un moment dédié dans un futur proche, sans la traiter dans l'urgence", "La déléguer entièrement sans aucun suivi", "L'abandonner purement et simplement"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Une tâche importante mais non urgente relève, dans la matrice d'Eisenhower, du quadrant 'à planifier' : elle mérite un temps dédié programmé à l'avance, sans être traitée dans la précipitation ni négligée.",
+      "why_others_wrong": ["Une tâche importante mais non urgente ne doit pas être traitée dans l'urgence : cela reviendrait à négliger les tâches réellement urgentes et importantes.", "", "Une tâche importante pour la stratégie de l'entreprise ne doit pas être déléguée sans aucun suivi ; la délégation sans contrôle convient davantage aux tâches urgentes mais peu importantes.", "Une tâche jugée très importante pour la stratégie à long terme ne doit surtout pas être abandonnée, sous peine de nuire aux objectifs stratégiques de l'entreprise."],
+      "method": "Appliquer la matrice d'Eisenhower : urgent+important = à faire immédiatement, important+non urgent = à planifier, urgent+peu important = à déléguer, ni urgent ni important = à éliminer."
+    },
+    "targetTimeSeconds": 120,
+    "tags": ["arbitrage-priorisation", "matrice-eisenhower"]
+  },
+  {
+    "id": "raisonnement-029",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Produire une pièce en interne coûte à l'entreprise 12€ de coûts variables par unité (matières et main-d'œuvre), auxquels s'ajoutent 20 000€ de coûts fixes annuels liés à la machine dédiée à cette production. Un sous-traitant propose de fournir la même pièce à 15€ l'unité, sans aucun coût fixe pour l'entreprise. L'entreprise a besoin de 5 000 unités par an.",
+    "statement": "Pour ce volume annuel de 5 000 unités, quelle option est la plus économique pour l'entreprise ?",
+    "choices": ["La production interne, moins chère de 5 000€ par an", "La sous-traitance, moins chère de 5 000€ par an", "Les deux options ont exactement le même coût total annuel", "Impossible à déterminer sans connaître le prix de vente final du produit"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Coût de la production interne : (12€ × 5 000) + 20 000€ = 60 000 + 20 000 = 80 000€. Coût de la sous-traitance : 15€ × 5 000 = 75 000€. La sous-traitance revient donc 5 000€ moins cher que la production interne pour ce volume.",
+      "why_others_wrong": ["Ce résultat inverse la conclusion du calcul : c'est la sous-traitance qui est moins chère de 5 000€, pas la production interne.", "", "Les coûts totaux des deux options sont différents : 80 000€ pour la production interne contre 75 000€ pour la sous-traitance.", "Le prix de vente final n'est pas nécessaire pour comparer les coûts de revient des deux options de production, qui peuvent être calculés directement à partir des données fournies."],
+      "method": "Toujours comparer un coût total (coûts variables x volume + coûts fixes) plutôt que le seul coût unitaire affiché : ici le coût unitaire interne (12€) semble plus bas que celui du sous-traitant (15€), mais les coûts fixes changent la conclusion globale."
+    },
+    "targetTimeSeconds": 150,
+    "tags": ["calcul-rentabilite", "cas-de-gestion"]
+  },
+  {
+    "id": "raisonnement-030",
+    "module": "raisonnement",
+    "subtest": "raisonnement",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Un site e-commerce reçoit 10 000 visiteurs au cours d'un mois. Parmi eux, 500 visiteurs ajoutent au moins un produit à leur panier, et 100 finalisent effectivement un achat.",
+    "statement": "Quel est le taux de conversion global du site, du visiteur à l'achat finalisé ?",
+    "choices": ["1%", "5%", "10%", "20%"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le taux de conversion global se calcule en rapportant le nombre d'achats finalisés au nombre total de visiteurs : 100 / 10 000 = 0,01, soit 1%.",
+      "why_others_wrong": ["", "Ce résultat correspond au taux de visiteurs ayant ajouté un produit au panier (500 / 10 000 = 5%), et non au taux de conversion en achat final.", "Ce résultat ne correspond à aucun des calculs pertinents à partir des données fournies.", "Ce résultat correspond au taux de conversion entre l'ajout au panier et l'achat finalisé (100 / 500 = 20%), une métrique différente du taux de conversion global visiteur -> achat demandé ici."],
+      "method": "Bien identifier le dénominateur demandé dans un taux de conversion : 'du visiteur à l'achat' se calcule sur la base des visiteurs totaux, à ne pas confondre avec le taux de conversion 'panier vers achat', calculé sur une base plus restreinte."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["lecture-donnees-chiffrees", "cas-de-gestion"]
+  }
+]

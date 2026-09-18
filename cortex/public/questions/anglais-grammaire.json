@@ -1,0 +1,807 @@
+[
+  {
+    "id": "anglais-grammaire-001",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Our company ______ significant growth since it was founded in 2015.",
+    "choices": ["experienced", "has experienced", "was experiencing", "experiences"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Since 2015' indique une action commencée dans le passé et qui continue jusqu'à maintenant : il faut donc le present perfect 'has experienced'.",
+      "why_others_wrong": [
+        "Le past simple 'experienced' suggère une action terminée à un moment précis du passé, incompatible avec 'since' qui relie le passé au présent.",
+        "",
+        "Le passé continu 'was experiencing' décrit une action en cours à un moment précis du passé, pas une action qui dure jusqu'à aujourd'hui.",
+        "Le présent simple 'experiences' décrit une vérité générale ou habitude, pas une évolution depuis une date précise."
+      ],
+      "method": "'Since + date/moment précis' déclenche presque toujours le present perfect (has/have + participe passé)."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["temps-verbaux", "present-perfect"]
+  },
+  {
+    "id": "anglais-grammaire-002",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "I ______ the new client tomorrow morning at 9 a.m.; it's already in my calendar.",
+    "choices": ["will meet", "meet", "am meeting", "meet with"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le présent continu ('am meeting') s'utilise pour un projet futur déjà planifié et organisé (rendez-vous fixé, dans l'agenda), ce que confirme 'it's already in my calendar'.",
+      "why_others_wrong": [
+        "'Will meet' exprime une décision spontanée ou une prédiction, pas un rendez-vous déjà planifié et confirmé.",
+        "Le présent simple 'meet' s'utilise pour des horaires fixes (emplois du temps officiels) ou des habitudes, pas un rendez-vous personnel ponctuel.",
+        "",
+        "'Meet with' change la structure grammaticale (il faudrait un auxiliaire conjugué) et n'est pas correct seul ici."
+      ],
+      "method": "Pour un projet futur déjà organisé (rendez-vous, réservation), on utilise le présent continu ; pour une décision spontanée, on utilise 'will'."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["temps-verbaux", "futur"]
+  },
+  {
+    "id": "anglais-grammaire-003",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "By the time the auditors arrived, the accounting team ______ all the necessary documents.",
+    "choices": ["prepared", "had prepared", "has prepared", "were preparing"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'By the time' + une action passée antérieure à une autre action passée ('arrived') nécessite le past perfect 'had prepared' pour marquer l'antériorité.",
+      "why_others_wrong": [
+        "Le past simple 'prepared' ne marque pas clairement que cette action s'est terminée AVANT l'arrivée des auditeurs.",
+        "",
+        "Le present perfect 'has prepared' est incompatible avec un contexte entièrement au passé introduit par 'arrived'.",
+        "Le passé continu 'were preparing' suggérerait une action en cours au moment de l'arrivée, pas une action déjà terminée."
+      ],
+      "method": "'By the time' + verbe au passé simple dans la subordonnée déclenche souvent le past perfect dans la proposition principale pour marquer l'antériorité."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["temps-verbaux", "past-perfect"]
+  },
+  {
+    "id": "anglais-grammaire-004",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "This time next week, our team ______ the new product at the trade fair in Berlin.",
+    "choices": ["will present", "will be presenting", "presents", "is presenting"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'This time next week' est un marqueur typique du futur continu, utilisé pour décrire une action qui sera en cours à un moment précis du futur.",
+      "why_others_wrong": [
+        "Grammaticalement acceptable mais moins précis ici : le futur continu insiste sur une action EN COURS à un moment précis, exactement ce que souligne 'this time next week'.",
+        "",
+        "Le présent simple ne convient pas pour une action future ponctuelle et non habituelle.",
+        "Le présent continu s'utilise plutôt pour un futur proche déjà planifié à une date précise proche, mais 'this time next week' avec insistance sur la durée appelle typiquement le futur continu."
+      ],
+      "method": "'This time + expression future (tomorrow/next week)' est un marqueur classique du futur continu (will be + V-ing) pour une action en cours à ce moment-là."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["temps-verbaux", "futur"]
+  },
+  {
+    "id": "anglais-grammaire-005",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The negotiations ______ for over six hours, but no agreement has been reached yet.",
+    "choices": ["have been going on", "went on", "have gone", "are going on"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'For over six hours' avec une action qui continue jusqu'au présent nécessite le present perfect continuous ('have been going on') pour insister sur la durée de l'action en cours.",
+      "why_others_wrong": [
+        "",
+        "Le past simple 'went on' impliquerait que l'action est terminée, ce qui contredit 'no agreement has been reached yet'.",
+        "Le present perfect simple 'have gone' est grammaticalement maladroit ici et n'insiste pas sur la durée continue de l'action comme le fait la forme continue.",
+        "Le présent continu 'are going on' ne rend pas compte de la durée depuis le début ('for over six hours'), qui nécessite un temps 'perfect'."
+      ],
+      "method": "'For + durée' avec une action toujours en cours au moment présent déclenche le present perfect continuous (have/has been + V-ing)."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["temps-verbaux", "present-perfect"]
+  },
+  {
+    "id": "anglais-grammaire-006",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "All invoices ______ electronically to reduce paper usage in the office.",
+    "choices": ["send", "are sent", "are sending", "have sent"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Les factures SUBISSENT l'action d'être envoyées (elles ne peuvent pas envoyer elles-mêmes) ; il faut donc la voix passive au présent simple : 'are sent'.",
+      "why_others_wrong": [
+        "Voix active incorrecte : les factures ne peuvent pas 'envoyer' elles-mêmes.",
+        "",
+        "Le présent continu actif ne convient pas non plus, car les factures ne peuvent pas agir elles-mêmes ; il faudrait la forme passive continue.",
+        "La voix active au present perfect n'a pas de sens ici : les factures ne peuvent pas 'avoir envoyé'."
+      ],
+      "method": "Si le sujet SUBIT l'action plutôt que de la faire, utiliser la voix passive : be (au temps voulu) + participe passé."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["voix-passive"]
+  },
+  {
+    "id": "anglais-grammaire-007",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The contract ______ by both parties last Friday afternoon.",
+    "choices": ["signed", "was signed", "has signed", "signs"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le contrat SUBIT l'action de signer ; combiné à un marqueur temporel précis du passé ('last Friday afternoon'), il faut le passé simple à la voix passive : 'was signed'.",
+      "why_others_wrong": [
+        "Voix active incorrecte : le contrat ne peut pas se signer lui-même.",
+        "",
+        "'Has signed' est à la voix active et au present perfect, incompatible avec le marqueur de passé précis 'last Friday'.",
+        "Le présent simple ne convient pas pour une action passée terminée à un moment précis."
+      ],
+      "method": "Voix passive + marqueur de passé précis (last Friday, yesterday) = 'was/were' + participe passé."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["voix-passive", "temps-verbaux"]
+  },
+  {
+    "id": "anglais-grammaire-008",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "This confidential report ______ shared with anyone outside the finance department.",
+    "choices": ["mustn't be", "mustn't", "isn't must be", "doesn't must"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Avec un modal comme 'must' à la voix passive, la structure est : modal + be + participe passé. 'Mustn't be shared' est donc correct.",
+      "why_others_wrong": [
+        "",
+        "'Mustn't' seul sans 'be' ne peut pas être suivi directement du participe passé 'shared' pour former une structure passive correcte.",
+        "Structure incorrecte : on ne combine pas 'isn't' avec 'must be' de cette façon.",
+        "'Doesn't must' est une structure grammaticalement incorrecte ; 'must' ne prend jamais 'do/does' pour se conjuguer."
+      ],
+      "method": "Voix passive avec modal : modal + BE + participe passé (must be done, should be sent, can be reviewed...)."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["voix-passive", "modaux"]
+  },
+  {
+    "id": "anglais-grammaire-009",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "She has worked in the marketing department ______ 2019.",
+    "choices": ["since", "for", "from", "during"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Since' s'utilise avec un point de départ précis dans le temps (une date, une année), ce qui est le cas ici avec '2019'.",
+      "why_others_wrong": [
+        "",
+        "'For' s'utilise avec une durée (for five years), pas avec un point de départ précis comme une année.",
+        "'From' s'utilise généralement avec 'to' pour indiquer une période délimitée (from 2019 to 2021), pas seul pour une action qui continue jusqu'à aujourd'hui.",
+        "'During' s'utilise pour indiquer qu'une action a eu lieu pendant une période déjà connue, pas pour indiquer un point de départ avec le present perfect."
+      ],
+      "method": "'Since' + point de départ précis (date, événement) ; 'for' + durée (a period of time)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["prepositions", "present-perfect"]
+  },
+  {
+    "id": "anglais-grammaire-010",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Please submit the completed form ______ 5 p.m. on Friday at the latest.",
+    "choices": ["until", "by", "since", "during"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'By' indique une échéance, une limite à ne pas dépasser (au plus tard à), exactement le sens de 'at the latest' dans la phrase.",
+      "why_others_wrong": [
+        "'Until' indique une action qui continue jusqu'à un moment donné puis s'arrête, pas une échéance limite pour une action ponctuelle comme soumettre un formulaire.",
+        "",
+        "'Since' indique un point de départ dans le passé, sans rapport avec une échéance future.",
+        "'During' indique une action qui se déroule pendant une période, pas une date limite précise."
+      ],
+      "method": "'By + heure/date' = au plus tard à (échéance) ; 'until + heure/date' = jusqu'à (durée continue)."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["prepositions"]
+  },
+  {
+    "id": "anglais-grammaire-011",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The quarterly meeting is scheduled ______ the morning of March 3rd.",
+    "choices": ["in", "on", "at", "by"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'On' s'utilise avec les jours et les dates précises, y compris lorsqu'on précise un moment de la journée pour cette date ('on the morning of...').",
+      "why_others_wrong": [
+        "'In' s'utilise pour les mois, années, saisons ou moments généraux de la journée (in the morning) mais pas quand une date précise est associée ('the morning of March 3rd').",
+        "",
+        "'At' s'utilise pour les heures précises (at 9 a.m.) ou certaines expressions figées (at night), pas pour une date.",
+        "'By' indique une échéance limite, pas le moment où se déroule un événement."
+      ],
+      "method": "Règle spéciale : 'in the morning/afternoon/evening' seul, mais 'on the morning of + date précise' car la date l'emporte sur la règle générale du moment de la journée."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["prepositions", "temps"]
+  },
+  {
+    "id": "anglais-grammaire-012",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "______ the economic downturn, the company managed to increase its profits.",
+    "choices": ["Although", "Despite", "Because of", "Due to the fact"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Despite' est suivi directement d'un groupe nominal ('the economic downturn') sans conjonction, contrairement à 'although' qui introduit une proposition complète avec sujet + verbe.",
+      "why_others_wrong": [
+        "'Although' doit être suivi d'une proposition complète avec sujet et verbe (although the economy was struggling), pas d'un simple groupe nominal.",
+        "",
+        "'Because of' exprime la cause (à cause de), un sens opposé à l'opposition/concession voulue ici (l'entreprise a réussi MALGRÉ la crise).",
+        "'Due to the fact' exprime aussi la cause, pas l'opposition, et serait suivi de 'that + proposition', pas d'un groupe nominal seul."
+      ],
+      "method": "'Despite/In spite of' + nom ou gérondif (sans sujet+verbe) ; 'although/even though' + proposition complète (sujet + verbe conjugué)."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["connecteurs", "opposition"]
+  },
+  {
+    "id": "anglais-grammaire-013",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The candidate ______ impressed the interview panel the most was offered the job.",
+    "choices": ["which", "who", "whom", "whose"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Who' est le pronom relatif sujet utilisé pour désigner une personne ('the candidate'), ici sujet du verbe 'impressed'.",
+      "why_others_wrong": [
+        "'Which' s'utilise pour désigner des choses ou des animaux, jamais des personnes.",
+        "",
+        "'Whom' est le pronom relatif objet (complément), pas sujet ; ici le pronom est sujet du verbe 'impressed', donc 'who' est requis.",
+        "'Whose' exprime la possession (dont/de qui), pas le sujet du verbe."
+      ],
+      "method": "'Who' = sujet, personne ; 'whom' = objet/complément, personne ; 'which' = chose ; 'whose' = possession."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["pronoms-relatifs"]
+  },
+  {
+    "id": "anglais-grammaire-014",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The new software, ______ was launched last month, has already improved productivity.",
+    "choices": ["that", "which", "who", "whose"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Dans une proposition subordonnée relative non essentielle (entre virgules, apportant une information additionnelle), on utilise 'which' et jamais 'that'.",
+      "why_others_wrong": [
+        "'That' ne s'utilise jamais dans une proposition relative non essentielle encadrée par des virgules.",
+        "",
+        "'Who' s'utilise pour les personnes, pas pour un logiciel (chose).",
+        "'Whose' exprime la possession, ce qui n'est pas le sens voulu ici."
+      ],
+      "method": "Règle clé : entre virgules (information additionnelle, non essentielle), on utilise 'which' pour les choses, jamais 'that'."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["pronoms-relatifs"]
+  },
+  {
+    "id": "anglais-grammaire-015",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "We hired a consultant ______ expertise in digital marketing proved invaluable.",
+    "choices": ["who", "which", "whose", "that"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "'Whose' exprime la possession (l'expertise DE ce consultant) et s'utilise aussi bien pour les personnes que pour les choses.",
+      "why_others_wrong": [
+        "'Who' est un pronom sujet, mais ici il faut exprimer une relation de possession (l'expertise du consultant), pas simplement désigner la personne comme sujet.",
+        "'Which' s'utilise pour les choses, pas les personnes.",
+        "",
+        "'That' ne peut pas exprimer la possession."
+      ],
+      "method": "'Whose' = pronom relatif possessif (dont/de qui), utilisable pour les personnes ET les choses."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["pronoms-relatifs"]
+  },
+  {
+    "id": "anglais-grammaire-016",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "______ the report was submitted late, it contained valuable insights for the strategy.",
+    "choices": ["Despite", "Although", "Because", "Due to"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Although' est suivi d'une proposition complète (sujet + verbe : 'the report was submitted late'), ce qui correspond à la structure de la phrase.",
+      "why_others_wrong": [
+        "'Despite' doit être suivi d'un groupe nominal ou d'un gérondif, pas d'une proposition complète avec sujet et verbe conjugué.",
+        "",
+        "'Because' exprime la cause, pas l'opposition/concession voulue ici.",
+        "'Due to' exprime aussi la cause et doit être suivi d'un groupe nominal, pas d'une proposition complète."
+      ],
+      "method": "'Although/even though' + sujet + verbe conjugué ; 'despite/in spite of' + nom/gérondif (jamais de sujet+verbe conjugué directement après)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["connecteurs", "opposition"]
+  },
+  {
+    "id": "anglais-grammaire-017",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "We will not be able to launch the product on time ______ the supplier delivers the parts by Monday.",
+    "choices": ["if", "unless", "although", "even if"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Unless' signifie 'à moins que/sauf si' et introduit une condition négative équivalente à 'if...not' : le lancement échouera SAUF SI le fournisseur livre à temps.",
+      "why_others_wrong": [
+        "'If' seul ne porte pas le sens négatif nécessaire ; il faudrait 'if...not' pour exprimer la même idée qu'avec 'unless'.",
+        "",
+        "'Although' exprime une opposition/concession, pas une condition.",
+        "'Even if' exprime une condition qui n'empêche pas le résultat, un sens différent de la condition restrictive de 'unless'."
+      ],
+      "method": "'Unless' = 'if...not', une condition restrictive : l'action se produit SAUF SI la condition est remplie."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["connecteurs", "conditionnel"]
+  },
+  {
+    "id": "anglais-grammaire-018",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The team worked overtime ______ meet the tight deadline set by the client.",
+    "choices": ["so that", "in order to", "because", "for"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'In order to' + base verbale exprime le but/l'objectif d'une action ('pour...'), ce qui correspond au contexte : l'équipe a fait des heures supplémentaires DANS LE BUT DE respecter le délai.",
+      "why_others_wrong": [
+        "'So that' exprime aussi le but mais doit être suivi d'une proposition complète avec sujet et verbe conjugué (so that they could meet), pas directement de la base verbale.",
+        "",
+        "'Because' exprime la cause, pas le but/objectif.",
+        "'For' pourrait exprimer le but mais serait suivi d'un nom ou d'un gérondif (for meeting), pas de la base verbale précédée de 'to'."
+      ],
+      "method": "'In order to + base verbale' exprime le but ; 'so that + sujet + verbe' exprime aussi le but mais avec une proposition complète."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["connecteurs", "but"]
+  },
+  {
+    "id": "anglais-grammaire-019",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The marketing budget was cut significantly. ______, the team managed to exceed its targets.",
+    "choices": ["Although", "Despite", "However", "Because"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "'However' est un adverbe de liaison qui s'utilise en début de phrase (après un point) pour introduire une opposition avec la phrase précédente, suivi d'une virgule.",
+      "why_others_wrong": [
+        "'Although' est une conjonction de subordination qui doit relier deux propositions DANS LA MÊME phrase, pas commencer une nouvelle phrase après un point.",
+        "'Despite' doit être suivi d'un nom ou d'un gérondif, pas d'une proposition complète, et ne s'utilise pas ainsi en début de phrase indépendante ici.",
+        "",
+        "'Because' exprime la cause, pas l'opposition entre les deux phrases."
+      ],
+      "method": "'However' relie deux phrases séparées par un point (However, + virgule) ; 'although/though' relie deux propositions dans une seule phrase."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["connecteurs", "opposition"]
+  },
+  {
+    "id": "anglais-grammaire-020",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "This year's marketing campaign was ______ than last year's, resulting in a 20% increase in leads.",
+    "choices": ["more effective", "effective", "the most effective", "more effectiver"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Pour comparer deux éléments ('this year's campaign' vs 'last year's'), on utilise le comparatif de supériorité : 'more + adjectif long + than'.",
+      "why_others_wrong": [
+        "",
+        "L'adjectif seul sans comparatif ne permet pas d'exprimer une comparaison avec 'than'.",
+        "'The most effective' est un superlatif, utilisé pour comparer un élément à TOUS les autres d'un groupe, pas pour comparer seulement deux éléments.",
+        "'More effectiver' est incorrect : on ne cumule jamais 'more' avec un suffixe '-er' sur un adjectif long."
+      ],
+      "method": "Adjectifs longs (2+ syllabes, souvent en -ful/-ive/-ing) : comparatif = 'more + adjectif + than' ; jamais de double marquage (more + -er)."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["comparatifs"]
+  },
+  {
+    "id": "anglais-grammaire-021",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Of all the candidates we interviewed, she had ______ relevant experience.",
+    "choices": ["more", "the most", "most", "much"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Of all the candidates' indique une comparaison entre plus de deux éléments (tout un groupe), ce qui appelle le superlatif 'the most'.",
+      "why_others_wrong": [
+        "'More' est un comparatif, utilisé pour comparer seulement deux éléments, pas un groupe entier introduit par 'of all'.",
+        "",
+        "'Most' sans article 'the' est incorrect dans cette structure superlative ('the most' est requis).",
+        "'Much' est un quantifieur pour les noms indénombrables, mais ne peut pas exprimer une comparaison superlative seul ici."
+      ],
+      "method": "'Of all/in the group' + superlatif ('the most/the -est') ; comparer deux éléments seulement = comparatif ('more/-er than')."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["superlatifs"]
+  },
+  {
+    "id": "anglais-grammaire-022",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Our new pricing plan is just ______ competitive as the one offered by our main rival.",
+    "choices": ["so", "as", "more", "most"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La structure d'égalité 'as + adjectif + as' (aussi...que) est correcte ici avec 'just as...as' pour insister sur l'égalité.",
+      "why_others_wrong": [
+        "'So' ne s'utilise pas dans la structure d'égalité affirmative 'as...as' (on dirait 'not so...as' seulement à la forme négative).",
+        "",
+        "'More' introduirait un comparatif de supériorité incompatible avec le second 'as' qui suit.",
+        "'Most' est un superlatif, incompatible avec la structure 'as...as' d'égalité."
+      ],
+      "method": "Structure d'égalité : 'as + adjectif + as' (aussi... que). Ne pas confondre avec le comparatif 'more...than'."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["comparatifs"]
+  },
+  {
+    "id": "anglais-grammaire-023",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "If the shipment ______ late again, we will have to find a new supplier.",
+    "choices": ["arrives", "will arrive", "arrived", "would arrive"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Dans une phrase conditionnelle de type 1 (situation réelle/probable dans le futur), la subordonnée en 'if' se conjugue au présent simple, et la principale au futur ('will').",
+      "why_others_wrong": [
+        "",
+        "Le futur ne s'utilise jamais dans la subordonnée en 'if' d'un conditionnel de type 1 ; c'est une erreur fréquente.",
+        "Le prétérit 'arrived' correspondrait à un conditionnel de type 2 (hypothèse peu probable), incompatible avec la principale au futur 'will'.",
+        "'Would arrive' est le conditionnel présent, utilisé dans la principale du type 2, pas dans la subordonnée en 'if'."
+      ],
+      "method": "Conditionnel type 1 (réel/probable) : If + présent simple, ... will + base verbale."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["conditionnel"]
+  },
+  {
+    "id": "anglais-grammaire-024",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "If I ______ the CEO, I would invest more in employee training.",
+    "choices": ["am", "were", "will be", "had been"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Dans un conditionnel de type 2 (hypothèse irréelle ou peu probable dans le présent), on utilise le prétérit modal dans la subordonnée en 'if', avec 'were' pour tous les sujets (y compris 'I') dans un style soutenu.",
+      "why_others_wrong": [
+        "Le présent 'am' correspondrait à un conditionnel de type 0 ou 1, incompatible avec 'would' dans la principale.",
+        "",
+        "Le futur ne s'utilise jamais dans une subordonnée en 'if'.",
+        "Le past perfect 'had been' correspondrait à un conditionnel de type 3 (hypothèse irréelle dans le passé), incompatible avec 'would' (sans 'have') dans la principale."
+      ],
+      "method": "Conditionnel type 2 (irréel présent) : If + prétérit (were pour tous les sujets en style soutenu), ... would + base verbale."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["conditionnel"]
+  },
+  {
+    "id": "anglais-grammaire-025",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "If we ______ the market research earlier, we would have avoided this costly mistake.",
+    "choices": ["did", "had done", "would have done", "have done"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Dans un conditionnel de type 3 (hypothèse irréelle dans le passé, regret), la subordonnée en 'if' se conjugue au past perfect ('had done'), et la principale utilise 'would have + participe passé'.",
+      "why_others_wrong": [
+        "Le prétérit simple 'did' correspondrait à un conditionnel de type 2, incompatible avec 'would have avoided' dans la principale qui signale un type 3.",
+        "",
+        "'Would have done' est la structure de la PRINCIPALE, pas de la subordonnée en 'if'.",
+        "Le present perfect 'have done' n'est pas le temps utilisé dans la subordonnée d'un conditionnel de type 3 ; il faut le past perfect."
+      ],
+      "method": "Conditionnel type 3 (irréel passé, regret) : If + past perfect (had + participe passé), ... would have + participe passé."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["conditionnel"]
+  },
+  {
+    "id": "anglais-grammaire-026",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "If the company had invested in digital marketing earlier, it ______ a much stronger online presence today.",
+    "choices": ["would have", "would", "had", "would have had"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "C'est un conditionnel mixte : la condition porte sur le passé ('had invested earlier', past perfect) mais le résultat porte sur le PRÉSENT ('today'), donc la principale utilise 'would + base verbale' (sans 'have').",
+      "why_others_wrong": [
+        "'Would have' + participe passé exprimerait un résultat au passé, mais 'today' indique clairement un résultat présent.",
+        "",
+        "'Had' seul ne convient pas dans la principale d'un conditionnel.",
+        "'Would have had' est une structure au passé, incompatible avec le marqueur 'today' qui indique un résultat au présent."
+      ],
+      "method": "Conditionnel mixte : condition passée (if + past perfect) + résultat présent (would + base verbale), repérable grâce à des marqueurs comme 'today' ou 'now'."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["conditionnel"]
+  },
+  {
+    "id": "anglais-grammaire-027",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "If the invoice ______ within 30 days, a late fee is automatically applied.",
+    "choices": ["isn't paid", "won't be paid", "wasn't paid", "hasn't been paid"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le conditionnel zéro (vérité générale, règle systématique) utilise le présent simple dans les deux propositions ; ici à la voix passive, cela donne 'isn't paid' (présent simple passif).",
+      "why_others_wrong": [
+        "",
+        "Le futur ne s'utilise jamais dans la subordonnée en 'if', même à la voix passive.",
+        "Le prétérit correspondrait à une hypothèse passée, incompatible avec une règle générale toujours valable exprimée au présent ('is automatically applied').",
+        "Le present perfect n'est pas le temps utilisé dans un conditionnel zéro qui exprime une règle générale et systématique."
+      ],
+      "method": "Conditionnel zéro (règle générale, automatique) : If + présent simple, ... présent simple (les deux propositions au présent)."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["conditionnel", "voix-passive"]
+  },
+  {
+    "id": "anglais-grammaire-028",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The manager is responsible for ______ the weekly schedule for the whole team.",
+    "choices": ["organize", "organizing", "organized", "to organize"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Après une préposition ('for'), le verbe se met toujours au gérondif (-ing), jamais à l'infinitif ni à la base verbale.",
+      "why_others_wrong": [
+        "La base verbale seule ne peut jamais suivre directement une préposition.",
+        "",
+        "Le participe passé ne peut pas suivre directement une préposition dans cette structure active.",
+        "L'infinitif avec 'to' ne peut jamais suivre directement une préposition en anglais."
+      ],
+      "method": "Règle absolue : toute préposition (for, of, about, in, by...) est TOUJOURS suivie d'un verbe en -ing (gérondif), jamais de l'infinitif."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["gerondif-infinitif"]
+  },
+  {
+    "id": "anglais-grammaire-029",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The board has decided ______ the merger proposal for further review.",
+    "choices": ["postponing", "to postpone", "postpone", "postponed"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Decide' est un verbe qui se construit systématiquement avec l'infinitif complet ('to' + base verbale), donc 'to postpone'.",
+      "why_others_wrong": [
+        "Le gérondif ne suit pas le verbe 'decide', qui exige l'infinitif.",
+        "",
+        "La base verbale seule sans 'to' ne peut pas suivre 'decide' directement.",
+        "Le participe passé ne peut pas suivre 'decide' dans cette structure."
+      ],
+      "method": "Certains verbes (decide, want, plan, agree, hope, refuse) sont toujours suivis de l'infinitif complet 'to + verbe' ; à mémoriser par cœur car ce n'est pas prévisible."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["gerondif-infinitif"]
+  },
+  {
+    "id": "anglais-grammaire-030",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "After the complaint, the factory ______ using that supplier altogether.",
+    "choices": ["stopped to use", "stopped using", "stops to use", "stopping using"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Stop + gérondif' signifie 'arrêter de faire quelque chose' (cesser une activité) ; c'est le sens voulu ici : l'usine a cessé de travailler avec ce fournisseur.",
+      "why_others_wrong": [
+        "'Stop + to + infinitif' signifie 's'arrêter DANS LE BUT DE faire autre chose' (ex : stop to use = s'arrêter pour utiliser), un sens différent et illogique ici.",
+        "",
+        "Le présent simple 'stops' ne correspond pas au contexte passé introduit par 'after the complaint'.",
+        "'Stopping' sans auxiliaire n'est pas une forme conjuguée valide comme verbe principal de la phrase."
+      ],
+      "method": "'Stop doing' = cesser une activité ; 'stop TO DO' = s'arrêter pour faire autre chose (deux sens très différents avec le même verbe 'stop')."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["gerondif-infinitif"]
+  },
+  {
+    "id": "anglais-grammaire-031",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Each department head ______ required to submit a budget forecast by the end of the month.",
+    "choices": ["are", "is", "were", "have been"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Each' est toujours suivi d'un verbe au singulier, même si le sens semble concerner plusieurs personnes ; ici 'is' (présent singulier) est correct.",
+      "why_others_wrong": [
+        "'Are' est un verbe au pluriel, incompatible avec 'each' qui impose toujours un accord singulier.",
+        "",
+        "'Were' est au passé et au pluriel, doublement incompatible ici.",
+        "'Have been' est au pluriel, incompatible avec 'each' qui exige un accord singulier."
+      ],
+      "method": "'Each' et 'every' sont TOUJOURS suivis d'un verbe au singulier, quel que soit le sens réel de pluralité sous-jacent."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["accord-sujet-verbe"]
+  },
+  {
+    "id": "anglais-grammaire-032",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The management team ______ meeting every Monday to review key performance indicators.",
+    "choices": ["are", "is", "have", "were meeting"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En anglais des affaires standard (norme utilisée pour le TOEIC), les noms collectifs comme 'team' considérés comme une unité s'accordent au singulier : 'is'.",
+      "why_others_wrong": [
+        "'Are' considère l'équipe comme plusieurs individus séparés (usage britannique plus informel), mais dans le contexte standard des affaires et du TOEIC, le singulier est privilégié pour un nom collectif traité comme une entité unique.",
+        "",
+        "'Have' est au pluriel et introduit une structure incohérente avec le présent simple attendu ici.",
+        "'Were meeting' introduit un temps passé, incompatible avec 'every Monday' qui exprime une habitude régulière au présent."
+      ],
+      "method": "Pour le TOEIC (norme américaine), les noms collectifs (team, company, staff, committee) considérés comme une seule entité s'accordent généralement au singulier."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["accord-sujet-verbe", "noms-collectifs"]
+  },
+  {
+    "id": "anglais-grammaire-033",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Neither the sales director nor the regional managers ______ available for the call this afternoon.",
+    "choices": ["is", "are", "was", "has been"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Avec 'neither...nor', le verbe s'accorde avec le sujet le plus proche du verbe ; ici c'est 'the regional managers' (pluriel), donc le verbe doit être au pluriel : 'are'.",
+      "why_others_wrong": [
+        "'Is' est singulier, mais le sujet le plus proche du verbe ('the regional managers') est pluriel.",
+        "",
+        "'Was' est au passé, incompatible avec le contexte présent ('this afternoon').",
+        "'Has been' est singulier, incompatible avec le sujet pluriel le plus proche du verbe."
+      ],
+      "method": "Avec 'neither...nor' / 'either...or', le verbe s'accorde toujours avec le sujet le plus proche de lui, pas avec le premier sujet cité."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["accord-sujet-verbe"]
+  },
+  {
+    "id": "anglais-grammaire-034",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "All visitors ______ sign in at the front desk before entering the building; it's a strict security policy.",
+    "choices": ["should", "might", "must", "could"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "'Must' exprime une obligation forte et incontournable, ce que confirme 'strict security policy' (une règle obligatoire, sans exception).",
+      "why_others_wrong": [
+        "'Should' exprime une recommandation ou un conseil, pas une obligation stricte et incontournable.",
+        "'Might' exprime une possibilité, pas une obligation.",
+        "",
+        "'Could' exprime une capacité ou une possibilité polie, pas une obligation stricte."
+      ],
+      "method": "'Must' = obligation forte/règle stricte ; 'should' = conseil/recommandation ; 'might/could' = possibilité, pas obligation."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["modaux"]
+  },
+  {
+    "id": "anglais-grammaire-035",
+    "module": "anglais",
+    "subtest": "grammaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "If we had known about the delay sooner, we ______ alternative arrangements.",
+    "choices": ["could make", "could have made", "can make", "could making"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Pour exprimer une possibilité non réalisée dans le passé (regret), on utilise 'could have + participe passé', en cohérence avec la subordonnée au past perfect ('had known') typique du conditionnel de type 3.",
+      "why_others_wrong": [
+        "'Could make' exprimerait une possibilité présente ou future, pas une possibilité manquée dans le passé.",
+        "",
+        "'Can make' est au présent, incompatible avec tout le contexte passé de la phrase.",
+        "'Could making' est une structure grammaticalement incorrecte ; 'could' est toujours suivi de la base verbale ou de 'have + participe passé', jamais du gérondif."
+      ],
+      "method": "'Could have + participe passé' exprime une possibilité manquée dans le passé (regret), typique du conditionnel de type 3."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["modaux", "conditionnel"]
+  }
+]

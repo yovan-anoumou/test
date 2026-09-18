@@ -1,0 +1,807 @@
+[
+  {
+    "id": "anglais-vocabulaire-001",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The board will ______ a final decision on the merger next week.",
+    "choices": ["take", "make", "do", "have"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En anglais, on utilise le verbe 'make' avec 'decision' (make a decision) : c'est une collocation fixe à mémoriser telle quelle.",
+      "why_others_wrong": [
+        "'Take a decision' est une erreur fréquente due à l'influence du français 'prendre une décision' ; l'anglais standard préfère 'make a decision'.",
+        "",
+        "'Do' ne s'utilise pas avec 'decision' dans cette collocation.",
+        "'Have' ne s'utilise pas non plus avec 'decision' comme collocation figée."
+      ],
+      "method": "Mémoriser les collocations figées avec 'decision' : on 'makes' une décision en anglais, jamais 'take' ni 'do'."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["collocation", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-002",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Sales figures ______ sharply after the new marketing campaign launched.",
+    "choices": ["raised", "rose", "arose", "were raised"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Rise' est un verbe intransitif (rise, rose, risen) qui signifie 'augmenter de soi-même' ; les chiffres de vente augmentent sans complément d'objet, donc on utilise 'rose' (prétérit).",
+      "why_others_wrong": [
+        "'Raise' est transitif et nécessite un complément d'objet direct (raise something) ; on ne peut pas dire 'sales figures raised' sans objet.",
+        "",
+        "'Arose' est le prétérit de 'arise' (survenir, se présenter), un verbe différent qui ne s'applique pas à une augmentation chiffrée.",
+        "La voix passive 'were raised' impliquerait qu'un agent externe a fait augmenter les chiffres, ce qui change le sens et n'est pas la formulation la plus naturelle ici."
+      ],
+      "method": "'Rise' = augmenter tout seul (intransitif) ; 'raise' = faire augmenter quelque chose (transitif, nécessite un objet)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["synonymes", "verbes-irreguliers"]
+  },
+  {
+    "id": "anglais-vocabulaire-003",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The new tax regulations will have a significant ______ on small businesses.",
+    "choices": ["affect", "effect", "effective", "affecting"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Effect' est le nom (un effet) ; ici on a besoin d'un nom après 'a significant', donc 'effect' est correct.",
+      "why_others_wrong": [
+        "'Affect' est presque toujours un verbe (influencer) ; on ne peut pas dire 'a significant affect'.",
+        "",
+        "'Effective' est un adjectif (efficace), pas un nom.",
+        "'Affecting' est un participe présent/adjectif (émouvant), pas un nom compatible avec cette structure."
+      ],
+      "method": "Astuce : 'Affect' commence comme 'Action' = verbe. 'Effect' commence comme 'End result' = nom."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-004",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The bank agreed to ______ the company $50,000 to expand its operations.",
+    "choices": ["borrow", "lend", "owe", "rent"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Lend' signifie prêter (donner de l'argent à quelqu'un) ; la banque prête de l'argent à l'entreprise, donc 'lend' est correct.",
+      "why_others_wrong": [
+        "'Borrow' signifie emprunter (recevoir), c'est le contraire de ce qu'il faut ici : c'est l'entreprise qui emprunterait, pas la banque.",
+        "",
+        "'Owe' signifie devoir de l'argent, pas prêter.",
+        "'Rent' concerne la location d'un bien, pas un prêt d'argent."
+      ],
+      "method": "'Lend' = prêter (donner), 'borrow' = emprunter (recevoir) : repérer qui donne et qui reçoit l'argent dans la phrase."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["synonymes", "confusion-frequente"]
+  },
+  {
+    "id": "anglais-vocabulaire-005",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Choosing a smaller office space is a more ______ option for a start-up.",
+    "choices": ["economic", "economical", "economy", "economics"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Economical' signifie 'économique' au sens de 'qui permet d'économiser de l'argent' ; c'est l'adjectif approprié pour décrire un choix qui coûte moins cher.",
+      "why_others_wrong": [
+        "'Economic' signifie 'relatif à l'économie' (economic growth, economic policy), pas 'qui fait économiser'.",
+        "",
+        "'Economy' est un nom (l'économie), pas un adjectif.",
+        "'Economics' est un nom qui désigne la science économique, pas un adjectif."
+      ],
+      "method": "'Economic' = lié à l'économie (un domaine) ; 'economical' = qui permet d'économiser de l'argent."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["paronymes", "adjectifs"]
+  },
+  {
+    "id": "anglais-vocabulaire-006",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "As a law firm, we refer to the people we represent as ______ rather than customers.",
+    "choices": ["clients", "consumers", "shoppers", "users"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Client' est le terme utilisé pour les personnes qui bénéficient de services professionnels (avocats, consultants, comptables), contrairement à 'customer' qui désigne plutôt l'acheteur d'un produit.",
+      "why_others_wrong": [
+        "",
+        "'Consumer' désigne le consommateur final d'un bien, un terme plus économique/marketing que juridique.",
+        "'Shopper' désigne une personne qui fait du shopping, inadapté au contexte d'un cabinet d'avocats.",
+        "'User' désigne l'utilisateur d'un produit ou service technique, pas le terme standard pour un cabinet juridique."
+      ],
+      "method": "Retenir la nuance : 'customer' = achète un produit/service ponctuel, 'client' = relation professionnelle suivie (avocat, consultant, banque)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["vocabulaire-affaires", "nuances"]
+  },
+  {
+    "id": "anglais-vocabulaire-007",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Many freelancers struggle to ______ a steady living during their first year of business.",
+    "choices": ["earn", "win", "gain", "obtain"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Earn a living' est une expression figée signifiant 'gagner sa vie' grâce à son travail.",
+      "why_others_wrong": [
+        "",
+        "'Win' s'utilise pour une compétition ou un prix (win a prize), pas pour 'gagner sa vie' au sens du travail.",
+        "'Gain' s'utilise pour acquérir quelque chose progressivement (gain experience, gain weight) mais pas dans l'expression figée 'a living'.",
+        "'Obtain' est trop formel/administratif et ne s'utilise pas avec 'a living'."
+      ],
+      "method": "'Earn a living/earn money' est une collocation figée à mémoriser telle quelle."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["collocation", "expressions-figees"]
+  },
+  {
+    "id": "anglais-vocabulaire-008",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Could you ______ me five minutes to discuss the budget proposal?",
+    "choices": ["save", "spare", "save up", "reserve"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Spare' signifie 'accorder/consacrer du temps à quelqu'un' (spare someone some time) ; c'est l'expression idiomatique standard.",
+      "why_others_wrong": [
+        "'Save' signifie économiser ou sauvegarder, pas accorder du temps à quelqu'un dans cette structure.",
+        "",
+        "'Save up' signifie économiser progressivement de l'argent, sans rapport avec le temps ici.",
+        "'Reserve' signifie réserver (une table, une place) mais ne s'utilise pas avec 'me...minutes' de cette façon idiomatique."
+      ],
+      "method": "'Spare someone some time' est une expression figée pour demander un moment d'attention à quelqu'un."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["expressions-figees", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-009",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Due to the CEO's illness, the shareholders' meeting has been ______ until further notice.",
+    "choices": ["postponed", "canceled", "delayed out", "forwarded"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Postponed until further notice' est l'expression standard pour indiquer qu'un événement est reporté sans nouvelle date précisée.",
+      "why_others_wrong": [
+        "",
+        "'Canceled' signifierait que la réunion est annulée définitivement, pas reportée à plus tard.",
+        "'Delayed out' n'est pas une expression correcte en anglais.",
+        "'Forwarded' signifie transmettre (un email, un colis), pas reporter un événement."
+      ],
+      "method": "'Postpone/put off until further notice' = reporter sans date fixée ; à distinguer de 'cancel' = annuler définitivement."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["vocabulaire-affaires", "nuances"]
+  },
+  {
+    "id": "anglais-vocabulaire-010",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Our company ______ office furniture and equipment for corporate clients.",
+    "choices": ["deals with", "deals in", "deals on", "deals by"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Deal in' signifie 'faire commerce de/vendre un type de produit', ce qui correspond à une entreprise qui vend du mobilier de bureau.",
+      "why_others_wrong": [
+        "'Deal with' signifie 'gérer/traiter avec' (a problem, a person), pas 'vendre un produit'.",
+        "",
+        "'Deals on' n'est pas une expression correcte.",
+        "'Deals by' n'est pas une expression correcte."
+      ],
+      "method": "'Deal in' + produit = commercer/vendre ; 'deal with' + problème/personne = gérer, traiter."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-011",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The HR department is currently ______ the complaint filed by an employee.",
+    "choices": ["looking for", "looking into", "looking up", "looking after"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Look into' signifie 'enquêter sur/examiner' un problème ou une plainte, ce qui correspond au contexte.",
+      "why_others_wrong": [
+        "'Look for' signifie 'chercher' quelque chose qu'on n'a pas encore trouvé, pas 'enquêter sur'.",
+        "",
+        "'Look up' signifie 'rechercher une information' (dans un dictionnaire, une base de données), pas enquêter sur une plainte.",
+        "'Look after' signifie 's'occuper de' (une personne, une tâche), pas enquêter."
+      ],
+      "method": "'Look into' = enquêter/examiner un problème ou une situation ; verbe très fréquent en contexte professionnel."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-012",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The design team needs to ______ a new logo by Friday.",
+    "choices": ["come up with", "come across", "come into", "come along with"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Come up with' signifie 'trouver/proposer' une idée, une solution ou une création, ce qui correspond au fait de créer un logo.",
+      "why_others_wrong": [
+        "",
+        "'Come across' signifie 'tomber sur/rencontrer par hasard', pas 'créer'.",
+        "'Come into' signifie 'entrer dans' (come into effect, come into money), pas créer une idée.",
+        "'Come along with' n'est pas une expression standard dans ce sens."
+      ],
+      "method": "'Come up with an idea/solution/plan' = trouver, imaginer, proposer quelque chose de nouveau."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-013",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Unfortunately, the investors decided to ______ our funding proposal.",
+    "choices": ["turn down", "turn up", "turn over", "turn into"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Turn down' signifie 'refuser/rejeter' une offre ou une proposition.",
+      "why_others_wrong": [
+        "",
+        "'Turn up' signifie 'arriver/se présenter' ou 'augmenter le volume', pas refuser.",
+        "'Turn over' signifie 'retourner' ou désigne le chiffre d'affaires (turnover), pas refuser.",
+        "'Turn into' signifie 'se transformer en', pas refuser."
+      ],
+      "method": "'Turn down' = refuser une offre, une demande, une invitation."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-014",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The consulting firm was hired to ______ a full audit of the company's finances.",
+    "choices": ["carry out", "carry on", "carry over", "carry off"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Carry out' signifie 'effectuer/réaliser' une tâche, une étude ou un audit.",
+      "why_others_wrong": [
+        "",
+        "'Carry on' signifie 'continuer', pas réaliser quelque chose de nouveau.",
+        "'Carry over' signifie 'reporter' (un solde, un congé), pas effectuer un audit.",
+        "'Carry off' signifie 'réussir brillamment quelque chose de difficile', une nuance différente et moins standard ici."
+      ],
+      "method": "'Carry out a task/study/audit/investigation' = réaliser, effectuer, mener à bien."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-015",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "During the meeting, she ______ several flaws in the proposed budget.",
+    "choices": ["pointed out", "pointed at", "pointed to", "pointed up"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Point out' signifie 'signaler/faire remarquer' quelque chose explicitement, ce qui correspond à signaler des défauts dans un budget.",
+      "why_others_wrong": [
+        "",
+        "'Point at' signifie 'pointer du doigt' physiquement, pas signaler verbalement un défaut.",
+        "'Point to' peut signifier 'suggérer/indiquer' mais est moins précis et moins idiomatique que 'point out' pour introduire des défauts spécifiques listés.",
+        "'Pointed up' n'est pas une expression standard courante."
+      ],
+      "method": "'Point out' = signaler, faire remarquer quelque chose (souvent suivi d'un fait, d'une erreur, d'un problème)."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-016",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The new CEO's leadership has ______ significant changes in company culture.",
+    "choices": ["brought about", "brought up", "brought on", "brought down"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Bring about' signifie 'provoquer/entraîner' un changement ou un résultat.",
+      "why_others_wrong": [
+        "",
+        "'Bring up' signifie 'évoquer un sujet' ou 'élever un enfant', pas provoquer un changement.",
+        "'Bring on' signifie 'déclencher' souvent quelque chose de négatif (bring on a crisis) et est moins naturel ici.",
+        "'Bring down' signifie 'faire chuter/renverser', le sens opposé à créer un changement positif."
+      ],
+      "method": "'Bring about a change/result' = provoquer, être à l'origine de quelque chose."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-017",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Please ______ this expense report and submit it to accounting by Friday.",
+    "choices": ["fill out", "fill up", "fill with", "fill on"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Fill out' (ou 'fill in') signifie 'remplir' un formulaire ou un document.",
+      "why_others_wrong": [
+        "",
+        "'Fill up' signifie 'remplir complètement' (un réservoir, une salle), pas remplir un formulaire administratif.",
+        "'Fill with' nécessite un complément différent (fill something with something), pas la structure correcte ici.",
+        "'Fill on' n'est pas une expression correcte."
+      ],
+      "method": "'Fill out/fill in a form/document' = remplir un document administratif."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-018",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Employees who want to attend the training session must ______ it by next Monday.",
+    "choices": ["sign up for", "sign in", "sign off on", "sign out of"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Sign up for' signifie 's'inscrire à' un événement, une formation ou un service.",
+      "why_others_wrong": [
+        "",
+        "'Sign in' signifie 'pointer/s'enregistrer à l'arrivée' (comme au bureau), pas s'inscrire à une formation à l'avance.",
+        "'Sign off on' signifie 'approuver officiellement' un document, pas s'inscrire.",
+        "'Sign out of' signifie 'se déconnecter' d'un système, pas s'inscrire."
+      ],
+      "method": "'Sign up for something' = s'inscrire à un événement, un cours, un service."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-019",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The presentation was too technical, and the speaker failed to ______ his main point.",
+    "choices": ["get across", "get into", "get over", "get along"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Get across' signifie 'faire comprendre/communiquer clairement' une idée à un public.",
+      "why_others_wrong": [
+        "",
+        "'Get into' signifie 'entrer dans/se lancer dans', pas communiquer une idée.",
+        "'Get over' signifie 'surmonter' (un problème, une maladie), pas communiquer.",
+        "'Get along' signifie 's'entendre avec quelqu'un', sans rapport avec la communication d'une idée."
+      ],
+      "method": "'Get a point/message across' = réussir à faire comprendre une idée à son audience."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-020",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The shipment was ______ at customs for nearly two weeks.",
+    "choices": ["held up", "held on", "held back", "held out"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Hold up' signifie 'retarder/bloquer' quelque chose, ce qui correspond parfaitement à une cargaison retenue à la douane.",
+      "why_others_wrong": [
+        "",
+        "'Hold on' signifie 'attendre/patienter', pas retarder un objet.",
+        "'Held back' signifie plutôt 'retenu/empêché de progresser' (comme une personne), moins idiomatique pour une cargaison bloquée à la douane.",
+        "'Held out' signifie 'tenir bon/résister' ou 'tendre (la main)', sans rapport ici."
+      ],
+      "method": "'Hold up' = retarder, bloquer (surtout pour le trafic, les livraisons, les procédures administratives)."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-021",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Negotiations between the two companies ______ after failing to agree on pricing.",
+    "choices": ["broke down", "broke out", "broke into", "broke through"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Break down' signifie 'échouer/s'effondrer' (pour des négociations, un accord), ce qui correspond au fait de ne pas parvenir à un accord.",
+      "why_others_wrong": [
+        "",
+        "'Break out' signifie 'éclater soudainement' (une guerre, un incendie, une épidémie), pas l'échec de négociations.",
+        "'Break into' signifie 's'introduire par effraction' (dans un bâtiment), sans rapport ici.",
+        "'Break through' signifie 'réaliser une percée/avancée majeure', le sens contraire d'un échec."
+      ],
+      "method": "'Negotiations/talks break down' = échouent, s'effondrent faute d'accord."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-022",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The management team has not ______ the possibility of layoffs next quarter.",
+    "choices": ["ruled out", "ruled over", "ruled off", "ruled up"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Rule out' signifie 'exclure' une possibilité.",
+      "why_others_wrong": [
+        "",
+        "'Rule over' signifie 'gouverner/régner sur', sans rapport ici.",
+        "'Ruled off' n'est pas une expression standard dans ce sens.",
+        "'Ruled up' n'est pas une expression correcte."
+      ],
+      "method": "'Rule out a possibility/option' = exclure, écarter une hypothèse."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-023",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "It took several attempts, but the team finally ______ a solution to the software bug.",
+    "choices": ["worked out", "worked up", "worked over", "worked on"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Work out' signifie 'trouver/élaborer' une solution après réflexion, ce que confirme 'finally' (à force d'efforts, ils ont fini par trouver).",
+      "why_others_wrong": [
+        "",
+        "'Worked up' signifie 's'énerver/s'exciter' (get worked up), sans rapport avec trouver une solution.",
+        "'Worked over' n'est pas une expression standard dans ce sens en anglais des affaires.",
+        "'Worked on' signifierait qu'ils étaient en train de travailler dessus, mais ne confirme pas qu'ils ont trouvé la solution, ce que 'finally' implique."
+      ],
+      "method": "'Work out a solution/problem' = trouver la solution à force de travail et de réflexion."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-024",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "A larger competitor is expected to ______ the struggling startup by the end of the year.",
+    "choices": ["take over", "take on", "take up", "take off"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Take over' signifie 'racheter/prendre le contrôle' d'une entreprise.",
+      "why_others_wrong": [
+        "",
+        "'Take on' signifie 'embaucher' ou 'accepter une responsabilité' (take on a challenge), pas racheter une entreprise.",
+        "'Take up' signifie 'commencer à pratiquer une activité' (take up a hobby) ou 'occuper de l'espace', sans rapport ici.",
+        "'Take off' signifie 'décoller' (avion) ou 'décoller/réussir soudainement' (business), sens opposé au rachat."
+      ],
+      "method": "'Take over a company' = racheter, prendre le contrôle d'une entreprise (d'où le nom 'takeover')."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-025",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Don't forget to ______ with the client after sending the proposal.",
+    "choices": ["follow up", "follow through", "follow on", "follow out"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Follow up with someone' signifie 'recontacter quelqu'un pour faire un suivi', exactement ce qu'il faut faire après avoir envoyé une proposition.",
+      "why_others_wrong": [
+        "",
+        "'Follow through' s'utilise avec 'on' + une action/un engagement (follow through on a plan), pas avec une personne introduite par 'with'.",
+        "'Follow on' n'est pas une expression standard dans ce sens en anglais des affaires.",
+        "'Follow out' n'est pas une expression correcte en anglais."
+      ],
+      "method": "'Follow up with someone' = recontacter pour un suivi ; 'follow up on something' = donner suite à quelque chose."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-026",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The committee decided to ______ a new proposal to reduce operating costs.",
+    "choices": ["put forward", "put off", "put down", "put across"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Put forward' signifie 'proposer/soumettre' une idée ou un projet.",
+      "why_others_wrong": [
+        "",
+        "'Put off' signifie 'reporter/remettre à plus tard', pas proposer.",
+        "'Put down' signifie 'poser' ou 'rabaisser quelqu'un', sans rapport ici.",
+        "'Put across' signifie 'faire comprendre une idée' (proche de 'get across'), mais ne s'utilise pas pour 'proposer un projet' au sens formel de soumettre une proposition."
+      ],
+      "method": "'Put forward a proposal/idea/candidate' = proposer, soumettre officiellement."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["verbes-a-particule", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-027",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Production costs have ______ by nearly 15% due to rising raw material prices.",
+    "choices": ["risen", "raised", "arisen", "increasing"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Rise' (rose, risen) est intransitif et s'utilise pour dire qu'une quantité augmente d'elle-même ; ici, avec le present perfect, la forme correcte est 'risen'.",
+      "why_others_wrong": [
+        "",
+        "'Raised' est la forme transitive (quelqu'un fait augmenter quelque chose) ; 'costs' ne peuvent pas 'raise' elles-mêmes sans complément d'objet.",
+        "'Arisen' est le participe passé de 'arise' (survenir), un verbe au sens différent.",
+        "'Increasing' est un participe présent, grammaticalement incompatible avec 'have ______ by 15%' qui exige un participe passé."
+      ],
+      "method": "Après 'have/has', il faut le participe passé ; pour une hausse intransitive, c'est 'risen' (de 'rise'), pas 'raised' (de 'raise', transitif)."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["synonymes", "verbes-irreguliers"]
+  },
+  {
+    "id": "anglais-vocabulaire-028",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The new manager wants to reduce ______ turnover by improving working conditions.",
+    "choices": ["staff", "stuff", "personnel's", "employee"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "'Staff' signifie 'le personnel' et se combine avec 'turnover' pour former l'expression 'staff turnover' (rotation du personnel).",
+      "why_others_wrong": [
+        "",
+        "'Stuff' signifie 'des choses/trucs' en anglais familier, un faux-ami sonore de 'staff' mais avec un sens totalement différent.",
+        "'Personnel's' avec l'apostrophe possessive n'est pas la forme utilisée dans cette collocation standard.",
+        "'Employee' au singulier ne fonctionne pas comme adjectif collectif devant 'turnover' de la même manière."
+      ],
+      "method": "Attention à la confusion sonore 'staff' (personnel) / 'stuff' (des choses) — deux mots très différents en anglais des affaires."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-029",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "One of the company's core ______ is transparency with shareholders.",
+    "choices": ["principals", "principles", "principle's", "principled"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Principle' signifie 'principe' (une règle, une valeur), ce qui correspond au contexte des valeurs de l'entreprise. Au pluriel après 'core', on utilise 'principles'.",
+      "why_others_wrong": [
+        "'Principal' signifie 'principal/directeur' (personne) ou 'capital' (finance), pas 'principe' au sens de valeur.",
+        "",
+        "'Principle's' avec l'apostrophe est une forme possessive incorrecte ici.",
+        "'Principled' est un adjectif (qui a des principes, intègre), pas un nom."
+      ],
+      "method": "'Principal' = personne/chose la plus importante ou capital financier ; 'principle' = règle, valeur morale ou scientifique."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-030",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Could you give me some ______ on how to negotiate a better salary?",
+    "choices": ["advise", "advice", "advisory", "advisable"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Advice' est le nom indénombrable (un conseil/des conseils) ; après 'some', il faut un nom, donc 'advice'.",
+      "why_others_wrong": [
+        "'Advise' est le verbe (conseiller), pas un nom ; on ne peut pas dire 'some advise'.",
+        "",
+        "'Advisory' est un adjectif (consultatif) ou un nom différent (un avis officiel), pas la réponse attendue ici.",
+        "'Advisable' est un adjectif (conseillé/recommandé), pas un nom."
+      ],
+      "method": "'Advice' (nom, indénombrable, jamais de -s) = conseil ; 'advise' (verbe) = conseiller. Astuce : 'ice' comme 'nice' = nom."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-031",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The new software ______ our existing accounting system perfectly.",
+    "choices": ["compliments", "complements", "complimentary", "complementary"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Complement' (verbe) signifie 'compléter/s'associer harmonieusement avec quelque chose'.",
+      "why_others_wrong": [
+        "'Compliment' (verbe) signifie 'faire un compliment/féliciter', ce qui n'a pas de sens avec un logiciel comme sujet.",
+        "",
+        "'Complimentary' est un adjectif signifiant 'gratuit' ou 'élogieux', pas un verbe conjugué.",
+        "'Complementary' est un adjectif (complémentaire), pas un verbe conjugué à la 3e personne du singulier."
+      ],
+      "method": "'Complement' (avec e) = compléter ; 'compliment' (avec i) = faire un compliment. Deux mots très proches à l'écrit mais de sens différent."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-032",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The office manager ordered new ______ , including letterheads and envelopes.",
+    "choices": ["stationary", "stationery", "station", "stationed"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Stationery' (avec 'e') désigne les fournitures de bureau (papier, enveloppes, stylos).",
+      "why_others_wrong": [
+        "'Stationary' (avec 'a') signifie 'immobile/fixe', un adjectif sans rapport avec les fournitures de bureau.",
+        "",
+        "'Station' signifie 'gare/station', sans rapport ici.",
+        "'Stationed' est le participe passé de 'to station' (poster/affecter quelqu'un quelque part), sans rapport ici."
+      ],
+      "method": "Astuce mnémotechnique : 'stationEry' contient 'lEtter' (papeterie, courrier) ; 'stationAry' contient 'stAtic' (immobile)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-033",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Please keep the salary negotiations ______ ; not everyone needs to know the details.",
+    "choices": ["discrete", "discreet", "discretely", "discretion"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Discreet' signifie 'discret' au sens de 'réservé, qui ne divulgue pas d'informations sensibles', ce qui correspond au contexte.",
+      "why_others_wrong": [
+        "'Discrete' signifie 'distinct/séparé' (des éléments individuels), un sens totalement différent bien que l'orthographe soit proche.",
+        "",
+        "'Discretely' est l'adverbe de 'discrete' (séparément), pas l'adjectif attendu après 'keep...'.",
+        "'Discretion' est un nom (la discrétion), pas l'adjectif attendu après 'keep the negotiations ______'."
+      ],
+      "method": "'Discreet' (comportement discret, confidentiel) vs 'discrete' (distinct, séparé) : deux mots homophones mais de sens différents."
+    },
+    "targetTimeSeconds": 35,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-034",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "The company had to ______ its strategy to survive the economic downturn.",
+    "choices": ["adopt", "adapt", "adept", "adapted"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Adapt' signifie 's'adapter/ajuster', ce qui correspond au fait de modifier une stratégie face à une crise.",
+      "why_others_wrong": [
+        "'Adopt' signifie 'adopter' (une nouvelle méthode, un enfant), pas 'modifier/ajuster une stratégie existante'.",
+        "",
+        "'Adept' est un adjectif signifiant 'compétent/habile', pas un verbe.",
+        "'Adapted' est un participe passé ; après 'had to', il faut la base verbale, pas le participe passé."
+      ],
+      "method": "'Adopt' = choisir/adopter quelque chose de nouveau ; 'adapt' = modifier quelque chose d'existant pour qu'il convienne mieux."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["paronymes", "vocabulaire-affaires"]
+  },
+  {
+    "id": "anglais-vocabulaire-035",
+    "module": "anglais",
+    "subtest": "vocabulaire",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Given the tight budget, it would be more ______ to postpone the office renovation.",
+    "choices": ["sensitive", "sensible", "sensory", "sensational"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Sensible' signifie 'raisonnable/judicieux' (faire preuve de bon sens), ce qui correspond à une décision logique face à un budget serré.",
+      "why_others_wrong": [
+        "'Sensitive' signifie 'sensible' au sens émotionnel ou délicat (sensitive information, a sensitive person), un faux-ami classique du français 'sensible'.",
+        "",
+        "'Sensory' signifie 'sensoriel' (lié aux sens physiques), sans rapport ici.",
+        "'Sensational' signifie 'sensationnel/spectaculaire', sans rapport avec une décision raisonnable."
+      ],
+      "method": "Faux-ami classique : 'sensible' en anglais = raisonnable/judicieux ; le français 'sensible' se traduit par 'sensitive' en anglais."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["faux-amis", "vocabulaire-affaires"]
+  }
+]

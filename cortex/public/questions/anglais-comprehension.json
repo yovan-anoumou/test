@@ -1,0 +1,667 @@
+[
+  {
+    "id": "anglais-comprehension-001",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "MEMORANDUM\nTo: All Staff\nFrom: Facilities Management\nDate: March 4\nSubject: Office Relocation to the Riverside Building\n\nAs previously announced, our company will relocate from the current Maple Street offices to the new Riverside Building starting April 15. The move will take place over the weekend of April 13-14 to minimize disruption to daily operations. All employees are asked to pack personal belongings in the labeled boxes provided by Facilities no later than April 10. IT equipment, including desktop computers and monitors, will be moved by our contracted vendor and should not be packed by staff. Parking permits for the new location will be issued during the week of April 6. Employees who currently use public transportation should note that the Riverside Building is a five-minute walk from Central Station. Please direct any questions to facilities@corpmail.com.",
+    "statement": "What is the main purpose of this memo?",
+    "choices": [
+      "To announce a change in parking regulations",
+      "To inform employees about an upcoming office move",
+      "To introduce a new IT equipment vendor",
+      "To announce new public transportation options"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le mémo informe explicitement les employés du déménagement des bureaux de Maple Street vers le Riverside Building, comme indiqué dès la première phrase.",
+      "why_others_wrong": [
+        "Le mémo mentionne les permis de parking mais ce n'est qu'un détail secondaire, pas l'objet principal du message.",
+        "",
+        "Le mémo mentionne un prestataire pour déplacer le matériel informatique mais ce n'est pas le sujet principal, juste un détail pratique.",
+        "Le mémo mentionne la proximité de la gare mais n'introduit pas de nouvelles options de transport public."
+      ],
+      "method": "Pour identifier l'idée principale, se concentrer sur les premières phrases du document et sur l'objet ('Subject') indiqué en en-tête."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["idee-principale", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-002",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "MEMORANDUM\nTo: All Staff\nFrom: Facilities Management\nDate: March 4\nSubject: Office Relocation to the Riverside Building\n\nAs previously announced, our company will relocate from the current Maple Street offices to the new Riverside Building starting April 15. The move will take place over the weekend of April 13-14 to minimize disruption to daily operations. All employees are asked to pack personal belongings in the labeled boxes provided by Facilities no later than April 10. IT equipment, including desktop computers and monitors, will be moved by our contracted vendor and should not be packed by staff. Parking permits for the new location will be issued during the week of April 6. Employees who currently use public transportation should note that the Riverside Building is a five-minute walk from Central Station. Please direct any questions to facilities@corpmail.com.",
+    "statement": "By what date must employees pack their personal belongings?",
+    "choices": ["April 6", "April 10", "April 13", "April 15"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte indique clairement : 'pack personal belongings...no later than April 10'.",
+      "why_others_wrong": [
+        "Le 6 avril correspond à la semaine de distribution des badges de parking, pas à la date limite pour faire les cartons.",
+        "",
+        "Le 13 avril correspond au début du week-end de déménagement, pas à la date limite pour préparer les cartons.",
+        "Le 15 avril est la date d'installation dans les nouveaux bureaux, pas la date limite pour faire les cartons."
+      ],
+      "method": "Pour les questions de détail, repérer les dates et chiffres précis dans le texte et bien associer chaque date à l'événement correspondant."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-003",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "MEMORANDUM\nTo: All Staff\nFrom: Facilities Management\nDate: March 4\nSubject: Office Relocation to the Riverside Building\n\nAs previously announced, our company will relocate from the current Maple Street offices to the new Riverside Building starting April 15. The move will take place over the weekend of April 13-14 to minimize disruption to daily operations. All employees are asked to pack personal belongings in the labeled boxes provided by Facilities no later than April 10. IT equipment, including desktop computers and monitors, will be moved by our contracted vendor and should not be packed by staff. Parking permits for the new location will be issued during the week of April 6. Employees who currently use public transportation should note that the Riverside Building is a five-minute walk from Central Station. Please direct any questions to facilities@corpmail.com.",
+    "statement": "What can be inferred about the Riverside Building?",
+    "choices": [
+      "It is located far from any public transportation.",
+      "It is within walking distance of a train station.",
+      "It does not have a parking area.",
+      "It will not be ready until June."
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte précise que 'the Riverside Building is a five-minute walk from Central Station', ce qui permet d'inférer qu'il est facilement accessible à pied depuis une gare.",
+      "why_others_wrong": [
+        "Le texte indique au contraire que le bâtiment est proche d'une gare, donc facilement accessible en transport en commun.",
+        "",
+        "Le texte mentionne la distribution de permis de parking, ce qui implique qu'un parking existe bien.",
+        "Le texte indique que le déménagement a lieu le 13-14 avril, pas en juin."
+      ],
+      "method": "Pour les questions d'inférence, chercher les informations explicites du texte et en déduire logiquement ce qui n'est pas dit directement mais implicite."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["inference", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-004",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "From: k.martins@brightline-supplies.com\nTo: orders@urbanoffice.com\nSubject: Delayed Order #48291\n\nDear Customer Service Team,\n\nI am writing to follow up on order #48291, placed on September 2, which was supposed to arrive within seven business days according to your website. It has now been twelve days, and I have not received any shipping confirmation or tracking number. This order includes desks and chairs that we urgently need for three new employees starting next Monday.\n\nCould you please check the status of this order and let me know when we can expect delivery? If the items cannot arrive by Friday, I would like to know whether a partial shipment is possible, or whether we should consider canceling the order and requesting a full refund.\n\nI would appreciate a prompt response, as this delay is starting to affect our office setup schedule.\n\nBest regards,\nKaren Martins\nOffice Manager, Brightline Supplies",
+    "statement": "Why did Karen Martins write this email?",
+    "choices": [
+      "To place a new order for office furniture",
+      "To request a refund for damaged goods",
+      "To inquire about a delayed order",
+      "To thank the company for fast delivery"
+    ],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Karen écrit pour faire un suivi sur une commande en retard ('follow up on order #48291...it has now been twelve days').",
+      "why_others_wrong": [
+        "Elle ne passe pas une nouvelle commande, elle fait un suivi sur une commande déjà passée.",
+        "Elle ne mentionne aucun dommage sur les articles, seulement un retard de livraison.",
+        "",
+        "Elle se plaint d'un retard, elle ne remercie absolument pas pour une livraison rapide."
+      ],
+      "method": "Pour identifier le but d'un email professionnel, lire l'objet ('Subject') et la première phrase, qui annoncent généralement l'intention de l'auteur."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["objectif-du-texte", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-005",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "From: k.martins@brightline-supplies.com\nTo: orders@urbanoffice.com\nSubject: Delayed Order #48291\n\nDear Customer Service Team,\n\nI am writing to follow up on order #48291, placed on September 2, which was supposed to arrive within seven business days according to your website. It has now been twelve days, and I have not received any shipping confirmation or tracking number. This order includes desks and chairs that we urgently need for three new employees starting next Monday.\n\nCould you please check the status of this order and let me know when we can expect delivery? If the items cannot arrive by Friday, I would like to know whether a partial shipment is possible, or whether we should consider canceling the order and requesting a full refund.\n\nI would appreciate a prompt response, as this delay is starting to affect our office setup schedule.\n\nBest regards,\nKaren Martins\nOffice Manager, Brightline Supplies",
+    "statement": "According to the email, how long has Karen Martins been waiting for her order?",
+    "choices": ["Seven business days", "Ten days", "Twelve days", "Three weeks"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le texte indique explicitement : 'It has now been twelve days'.",
+      "why_others_wrong": [
+        "Sept jours ouvrés correspond au délai de livraison ANNONCÉ par le site web, pas au temps réellement écoulé.",
+        "Dix jours n'est mentionné nulle part dans le texte.",
+        "",
+        "Trois semaines n'est pas la durée mentionnée dans le texte, qui indique précisément douze jours."
+      ],
+      "method": "Attention à ne pas confondre le délai annoncé (la promesse) et le délai réellement écoulé (la réalité) dans un texte : bien relire les deux chiffres."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-006",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "From: k.martins@brightline-supplies.com\nTo: orders@urbanoffice.com\nSubject: Delayed Order #48291\n\nDear Customer Service Team,\n\nI am writing to follow up on order #48291, placed on September 2, which was supposed to arrive within seven business days according to your website. It has now been twelve days, and I have not received any shipping confirmation or tracking number. This order includes desks and chairs that we urgently need for three new employees starting next Monday.\n\nCould you please check the status of this order and let me know when we can expect delivery? If the items cannot arrive by Friday, I would like to know whether a partial shipment is possible, or whether we should consider canceling the order and requesting a full refund.\n\nI would appreciate a prompt response, as this delay is starting to affect our office setup schedule.\n\nBest regards,\nKaren Martins\nOffice Manager, Brightline Supplies",
+    "statement": "What will most likely happen if the order does not arrive by Friday?",
+    "choices": [
+      "Karen will place an additional order.",
+      "Karen may ask for a partial shipment or a refund.",
+      "Karen will visit the store in person.",
+      "Karen will extend the delivery deadline by one month."
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Karen indique explicitement qu'elle souhaite savoir 'whether a partial shipment is possible, or whether we should consider canceling the order and requesting a full refund' si la livraison n'arrive pas avant vendredi.",
+      "why_others_wrong": [
+        "Rien dans le texte ne suggère qu'elle passerait une commande supplémentaire.",
+        "",
+        "Rien dans le texte ne mentionne une visite en magasin.",
+        "Karen semble au contraire pressée et insatisfaite du délai ; il est donc peu probable qu'elle prolonge elle-même le délai d'un mois."
+      ],
+      "method": "Pour anticiper une conséquence, repérer les conditions explicitement énoncées dans le texte ('if...') et les options mentionnées par l'auteur."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["inference", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-007",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "MARKETING MANAGER — Downtown Office\nHalcyon Consumer Goods is seeking an experienced Marketing Manager to lead our brand strategy team. The successful candidate will develop and implement marketing campaigns across digital and traditional channels, manage a team of four marketing associates, and collaborate closely with the sales department to align promotional activities with revenue targets.\n\nRequirements:\n- Bachelor's degree in Marketing, Business, or a related field\n- Minimum of five years of experience in a marketing role, including at least two years in a supervisory position\n- Strong analytical skills and experience with digital advertising platforms\n- Excellent written and verbal communication skills in English\n\nWe offer a competitive salary, performance bonuses, and a comprehensive benefits package including health insurance and a retirement savings plan. This is a full-time, on-site position based at our downtown headquarters, with occasional travel required for trade shows and client meetings.\n\nInterested candidates should submit a resume and cover letter to careers@halcyongoods.com by October 15.",
+    "statement": "What is this document primarily about?",
+    "choices": [
+      "A promotion announcement for a current employee",
+      "A job opening for a marketing position",
+      "A new marketing campaign launch",
+      "A description of a company's benefits package"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le document est une offre d'emploi ('MARKETING MANAGER') décrivant le poste, les exigences et la façon de postuler.",
+      "why_others_wrong": [
+        "Le document ne concerne pas la promotion d'un employé actuel mais le recrutement d'une nouvelle personne.",
+        "",
+        "Le document ne décrit pas une campagne marketing spécifique, mais un poste à pourvoir.",
+        "Les avantages sociaux ne sont qu'une partie du texte, pas son sujet principal."
+      ],
+      "method": "Le titre et la structure du document (poste, exigences, avantages, comment postuler) permettent d'identifier rapidement qu'il s'agit d'une offre d'emploi."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["idee-principale", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-008",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "MARKETING MANAGER — Downtown Office\nHalcyon Consumer Goods is seeking an experienced Marketing Manager to lead our brand strategy team. The successful candidate will develop and implement marketing campaigns across digital and traditional channels, manage a team of four marketing associates, and collaborate closely with the sales department to align promotional activities with revenue targets.\n\nRequirements:\n- Bachelor's degree in Marketing, Business, or a related field\n- Minimum of five years of experience in a marketing role, including at least two years in a supervisory position\n- Strong analytical skills and experience with digital advertising platforms\n- Excellent written and verbal communication skills in English\n\nWe offer a competitive salary, performance bonuses, and a comprehensive benefits package including health insurance and a retirement savings plan. This is a full-time, on-site position based at our downtown headquarters, with occasional travel required for trade shows and client meetings.\n\nInterested candidates should submit a resume and cover letter to careers@halcyongoods.com by October 15.",
+    "statement": "How many years of supervisory experience are required for this position?",
+    "choices": ["One year", "Two years", "Four years", "Five years"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte précise : 'including at least two years in a supervisory position'.",
+      "why_others_wrong": [
+        "Un an n'est pas la durée mentionnée dans le texte.",
+        "",
+        "Quatre ans correspond au nombre d'associés marketing que le candidat devra gérer, pas à l'expérience de supervision requise.",
+        "Cinq ans correspond à l'expérience marketing totale requise, pas spécifiquement à l'expérience de supervision (qui n'en est qu'une partie)."
+      ],
+      "method": "Bien distinguer les différents chiffres du texte : ici, cinq ans d'expérience marketing TOTALE, dont deux ans de supervision — deux données différentes à ne pas confondre."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-009",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": "MARKETING MANAGER — Downtown Office\nHalcyon Consumer Goods is seeking an experienced Marketing Manager to lead our brand strategy team. The successful candidate will develop and implement marketing campaigns across digital and traditional channels, manage a team of four marketing associates, and collaborate closely with the sales department to align promotional activities with revenue targets.\n\nRequirements:\n- Bachelor's degree in Marketing, Business, or a related field\n- Minimum of five years of experience in a marketing role, including at least two years in a supervisory position\n- Strong analytical skills and experience with digital advertising platforms\n- Excellent written and verbal communication skills in English\n\nWe offer a competitive salary, performance bonuses, and a comprehensive benefits package including health insurance and a retirement savings plan. This is a full-time, on-site position based at our downtown headquarters, with occasional travel required for trade shows and client meetings.\n\nInterested candidates should submit a resume and cover letter to careers@halcyongoods.com by October 15.",
+    "statement": "In the context of the posting, the word 'align' in 'align promotional activities with revenue targets' is closest in meaning to",
+    "choices": ["separate", "coordinate", "reduce", "postpone"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "'Align' signifie ici 'mettre en cohérence/coordonner' les activités promotionnelles avec les objectifs de revenus, ce qui correspond au sens de 'coordinate'.",
+      "why_others_wrong": [
+        "'Separate' (séparer) est le sens opposé d'aligner/coordonner deux éléments.",
+        "",
+        "'Reduce' (réduire) n'a aucun rapport avec le fait de mettre en cohérence deux éléments.",
+        "'Postpone' (reporter) n'a aucun rapport avec le sens d''align' dans ce contexte."
+      ],
+      "method": "Pour le vocabulaire en contexte, remplacer le mot par chaque option et vérifier laquelle garde un sens logique dans la phrase complète."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["vocabulaire-contexte", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-010",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "INTRODUCING TASKFLOW 3.0: SMARTER PROJECT MANAGEMENT\n\nWe are excited to announce the release of TaskFlow 3.0, the latest update to our popular project management software. This version introduces an AI-powered scheduling assistant that automatically suggests optimal deadlines based on team workload and project priority. Users can also now integrate TaskFlow directly with their email inbox, allowing tasks to be created from incoming messages with a single click.\n\nOther new features include customizable dashboards, improved mobile app performance, and a redesigned reporting tool that generates weekly progress summaries automatically. Existing customers on the Professional and Enterprise plans will receive the update at no additional cost starting October 1. Customers on the Basic plan will need to upgrade their subscription to access the AI scheduling features.\n\nFor a full list of updates or to schedule a live demo, visit www.taskflowapp.com/whatsnew.",
+    "statement": "What is the purpose of this announcement?",
+    "choices": [
+      "To apologize for a service outage",
+      "To present new features of a software update",
+      "To announce a price increase for all plans",
+      "To recruit new software developers"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte présente les nouvelles fonctionnalités de la version 3.0 du logiciel TaskFlow.",
+      "why_others_wrong": [
+        "Le texte ne mentionne aucune panne de service ni excuse.",
+        "",
+        "Le texte évoque une mise à jour gratuite pour certains clients, pas une hausse de prix générale.",
+        "Le texte ne concerne pas le recrutement mais la présentation d'un produit."
+      ],
+      "method": "Le titre en majuscules ('INTRODUCING...') indique immédiatement qu'il s'agit de la présentation d'une nouveauté produit."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["objectif-du-texte", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-011",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "INTRODUCING TASKFLOW 3.0: SMARTER PROJECT MANAGEMENT\n\nWe are excited to announce the release of TaskFlow 3.0, the latest update to our popular project management software. This version introduces an AI-powered scheduling assistant that automatically suggests optimal deadlines based on team workload and project priority. Users can also now integrate TaskFlow directly with their email inbox, allowing tasks to be created from incoming messages with a single click.\n\nOther new features include customizable dashboards, improved mobile app performance, and a redesigned reporting tool that generates weekly progress summaries automatically. Existing customers on the Professional and Enterprise plans will receive the update at no additional cost starting October 1. Customers on the Basic plan will need to upgrade their subscription to access the AI scheduling features.\n\nFor a full list of updates or to schedule a live demo, visit www.taskflowapp.com/whatsnew.",
+    "statement": "Which customers must upgrade their subscription to access the new AI scheduling feature?",
+    "choices": [
+      "Professional plan customers",
+      "Enterprise plan customers",
+      "Basic plan customers",
+      "All customers, regardless of plan"
+    ],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le texte précise : 'Customers on the Basic plan will need to upgrade their subscription to access the AI scheduling features.'",
+      "why_others_wrong": [
+        "Les clients du plan Professional reçoivent la mise à jour gratuitement, comme indiqué dans le texte.",
+        "Les clients du plan Enterprise reçoivent également la mise à jour gratuitement.",
+        "",
+        "Tous les clients ne sont pas concernés : seuls ceux du plan Basic doivent effectuer une mise à niveau."
+      ],
+      "method": "Repérer les catégories mentionnées dans le texte (Professional, Enterprise, Basic) et associer précisément chaque condition à la bonne catégorie."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-012",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "INTRODUCING TASKFLOW 3.0: SMARTER PROJECT MANAGEMENT\n\nWe are excited to announce the release of TaskFlow 3.0, the latest update to our popular project management software. This version introduces an AI-powered scheduling assistant that automatically suggests optimal deadlines based on team workload and project priority. Users can also now integrate TaskFlow directly with their email inbox, allowing tasks to be created from incoming messages with a single click.\n\nOther new features include customizable dashboards, improved mobile app performance, and a redesigned reporting tool that generates weekly progress summaries automatically. Existing customers on the Professional and Enterprise plans will receive the update at no additional cost starting October 1. Customers on the Basic plan will need to upgrade their subscription to access the AI scheduling features.\n\nFor a full list of updates or to schedule a live demo, visit www.taskflowapp.com/whatsnew.",
+    "statement": "What can be inferred about TaskFlow's email integration feature?",
+    "choices": [
+      "It requires a separate software installation.",
+      "It allows users to create tasks directly from emails.",
+      "It is only available on the mobile app.",
+      "It will be released after October 1."
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte indique : 'allowing tasks to be created from incoming messages with a single click', ce qui correspond directement à la création de tâches à partir des emails.",
+      "why_others_wrong": [
+        "Le texte ne mentionne aucune installation logicielle séparée pour cette fonctionnalité.",
+        "",
+        "Le texte ne précise pas que cette fonctionnalité est réservée à l'application mobile ; elle fait partie de la mise à jour générale.",
+        "Le texte indique que la mise à jour est disponible à partir du 1er octobre pour les clients Professional et Enterprise, ce qui n'exclut pas que la fonctionnalité soit incluse dans cette même mise à jour, pas nécessairement après."
+      ],
+      "method": "Pour l'inférence, s'appuyer strictement sur les informations données explicitement sans ajouter d'hypothèses non confirmées par le texte."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["inference", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-013",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "NOTICE TO ALL EMPLOYEES: UPDATED REMOTE WORK POLICY\n\nEffective November 1, the company is updating its remote work policy. Employees may now work remotely up to three days per week, an increase from the previous limit of two days. Requests to work remotely must still be approved in advance by your direct supervisor and logged in the HR portal.\n\nEmployees working remotely are expected to be available during core business hours, from 10 a.m. to 4 p.m., and must attend all scheduled video meetings with their camera on. Remote work privileges may be suspended for employees who do not meet performance expectations, as determined by their manager during quarterly reviews.\n\nThis policy applies to all departments except Customer Support, which requires full-time on-site presence due to the nature of its operations. Questions about this policy should be directed to your HR business partner.",
+    "statement": "What is this notice mainly about?",
+    "choices": [
+      "A change to the company's remote work rules",
+      "The elimination of remote work altogether",
+      "A new performance review process",
+      "A change in office opening hours"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte annonce explicitement une mise à jour de la politique de télétravail ('the company is updating its remote work policy').",
+      "why_others_wrong": [
+        "",
+        "Le texte n'élimine pas le télétravail, il l'étend au contraire (de deux à trois jours par semaine).",
+        "Les évaluations trimestrielles ne sont mentionnées qu'en lien avec la suspension possible du télétravail, ce n'est pas le sujet principal.",
+        "Le texte ne mentionne pas de changement des horaires d'ouverture du bureau, seulement les horaires de disponibilité en télétravail."
+      ],
+      "method": "Le titre en majuscules ('UPDATED REMOTE WORK POLICY') annonce directement le sujet principal du document."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["idee-principale", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-014",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "NOTICE TO ALL EMPLOYEES: UPDATED REMOTE WORK POLICY\n\nEffective November 1, the company is updating its remote work policy. Employees may now work remotely up to three days per week, an increase from the previous limit of two days. Requests to work remotely must still be approved in advance by your direct supervisor and logged in the HR portal.\n\nEmployees working remotely are expected to be available during core business hours, from 10 a.m. to 4 p.m., and must attend all scheduled video meetings with their camera on. Remote work privileges may be suspended for employees who do not meet performance expectations, as determined by their manager during quarterly reviews.\n\nThis policy applies to all departments except Customer Support, which requires full-time on-site presence due to the nature of its operations. Questions about this policy should be directed to your HR business partner.",
+    "statement": "How many days per week can employees now work remotely?",
+    "choices": ["One day", "Two days", "Three days", "Five days"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le texte indique : 'Employees may now work remotely up to three days per week'.",
+      "why_others_wrong": [
+        "Un jour n'est pas la limite mentionnée dans le texte.",
+        "Deux jours correspond à l'ANCIENNE limite, avant la mise à jour de la politique.",
+        "",
+        "Cinq jours correspondrait à un télétravail à temps plein, ce qui n'est pas ce qu'autorise cette politique."
+      ],
+      "method": "Attention aux textes qui mentionnent un ancien chiffre ET un nouveau chiffre : bien repérer lequel est actuellement en vigueur après la mise à jour."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-015",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "NOTICE TO ALL EMPLOYEES: UPDATED REMOTE WORK POLICY\n\nEffective November 1, the company is updating its remote work policy. Employees may now work remotely up to three days per week, an increase from the previous limit of two days. Requests to work remotely must still be approved in advance by your direct supervisor and logged in the HR portal.\n\nEmployees working remotely are expected to be available during core business hours, from 10 a.m. to 4 p.m., and must attend all scheduled video meetings with their camera on. Remote work privileges may be suspended for employees who do not meet performance expectations, as determined by their manager during quarterly reviews.\n\nThis policy applies to all departments except Customer Support, which requires full-time on-site presence due to the nature of its operations. Questions about this policy should be directed to your HR business partner.",
+    "statement": "Which department is excluded from this remote work policy?",
+    "choices": ["Human Resources", "Customer Support", "Marketing", "Finance"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte précise : 'This policy applies to all departments except Customer Support, which requires full-time on-site presence'.",
+      "why_others_wrong": [
+        "Les ressources humaines ne sont pas mentionnées comme exception.",
+        "",
+        "Le marketing n'est pas mentionné comme exception.",
+        "La finance n'est pas mentionnée comme exception."
+      ],
+      "method": "Repérer les mots-clés d'exception comme 'except' qui signalent une information contraire à la règle générale énoncée juste avant."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-016",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "BUSINESS BRIEF\n\nNorthfield Logistics announced on Tuesday that it has completed its acquisition of regional carrier Swift Transit for an undisclosed sum. The deal, first announced in June, will allow Northfield to expand its delivery network into three new states and add approximately 200 vehicles to its fleet.\n\nSwift Transit will continue to operate under its own brand name for the next twelve months before being fully integrated into Northfield's operations. All 340 Swift Transit employees will be offered positions within the combined company, according to a statement released by Northfield's CEO, who called the acquisition 'a major step toward becoming a national logistics leader.' Analysts expect the merger to increase Northfield's annual revenue by roughly 18%.",
+    "statement": "What is this news brief mainly reporting?",
+    "choices": [
+      "A logistics company's completed acquisition of another company",
+      "A strike organized by transportation workers",
+      "The launch of a new delivery vehicle model",
+      "A decline in Northfield Logistics' annual revenue"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte annonce que Northfield Logistics a finalisé l'acquisition de Swift Transit.",
+      "why_others_wrong": [
+        "",
+        "Aucune grève n'est mentionnée dans le texte.",
+        "Le texte ne concerne pas le lancement d'un nouveau modèle de véhicule, mais l'ajout de véhicules existants à la flotte.",
+        "Le texte indique au contraire une AUGMENTATION attendue du chiffre d'affaires, pas une baisse."
+      ],
+      "method": "Dans une brève d'actualité économique, l'idée principale se trouve généralement dans la toute première phrase."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["idee-principale", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-017",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "BUSINESS BRIEF\n\nNorthfield Logistics announced on Tuesday that it has completed its acquisition of regional carrier Swift Transit for an undisclosed sum. The deal, first announced in June, will allow Northfield to expand its delivery network into three new states and add approximately 200 vehicles to its fleet.\n\nSwift Transit will continue to operate under its own brand name for the next twelve months before being fully integrated into Northfield's operations. All 340 Swift Transit employees will be offered positions within the combined company, according to a statement released by Northfield's CEO, who called the acquisition 'a major step toward becoming a national logistics leader.' Analysts expect the merger to increase Northfield's annual revenue by roughly 18%.",
+    "statement": "What will happen to Swift Transit employees after the acquisition?",
+    "choices": [
+      "They will all be laid off immediately.",
+      "They will be offered positions within the combined company.",
+      "They will be required to relocate to a new state.",
+      "They will receive a one-time severance payment instead of new jobs."
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte précise : 'All 340 Swift Transit employees will be offered positions within the combined company'.",
+      "why_others_wrong": [
+        "Le texte indique le contraire : les employés se verront proposer des postes, pas un licenciement.",
+        "",
+        "Aucune obligation de déménagement n'est mentionnée dans le texte.",
+        "Le texte ne mentionne aucune indemnité de départ, mais bien des offres de poste dans l'entreprise combinée."
+      ],
+      "method": "Pour les questions de détail sur les conséquences d'un événement, repérer la phrase qui mentionne directement les personnes concernées (ici 'employees')."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-018",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "From: j.chen@apex-consulting.com\nTo: all-department-heads@apex-consulting.com\nSubject: Rescheduled: Annual Strategy Conference\n\nDear Colleagues,\n\nDue to a scheduling conflict with our venue, the Annual Strategy Conference originally planned for November 10-11 has been moved to November 17-18. The event will still take place at the Grandview Convention Center, and all previously registered sessions remain unchanged.\n\nIf you have already booked travel or accommodation for the original dates, please contact our travel coordinator, Lisa Ortiz, at l.ortiz@apex-consulting.com as soon as possible to arrange changes. Hotel rooms at the Grandview partner rate have been extended to cover the new dates, but availability is limited, so we encourage you to confirm your reservation by October 20.\n\nThe updated agenda, including this year's keynote speaker announcement, will be sent out next week. We apologize for any inconvenience this change may cause and appreciate your flexibility.\n\nBest regards,\nJennifer Chen\nEvents Coordinator",
+    "statement": "Why was this email sent?",
+    "choices": [
+      "To cancel the Annual Strategy Conference",
+      "To inform staff of a change in the conference dates",
+      "To announce the keynote speaker for the conference",
+      "To request feedback on last year's conference"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'objet de l'email ('Rescheduled: Annual Strategy Conference') et le corps du texte annoncent clairement un changement de dates.",
+      "why_others_wrong": [
+        "La conférence n'est pas annulée, seulement reportée à de nouvelles dates.",
+        "",
+        "L'annonce du conférencier principal n'est mentionnée que comme une information à venir, pas l'objet de cet email.",
+        "Aucune demande de retour d'expérience n'est mentionnée dans le texte."
+      ],
+      "method": "Le préfixe dans l'objet de l'email ('Rescheduled:') indique immédiatement la nature du message : un changement de programme."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["objectif-du-texte", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-019",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "From: j.chen@apex-consulting.com\nTo: all-department-heads@apex-consulting.com\nSubject: Rescheduled: Annual Strategy Conference\n\nDear Colleagues,\n\nDue to a scheduling conflict with our venue, the Annual Strategy Conference originally planned for November 10-11 has been moved to November 17-18. The event will still take place at the Grandview Convention Center, and all previously registered sessions remain unchanged.\n\nIf you have already booked travel or accommodation for the original dates, please contact our travel coordinator, Lisa Ortiz, at l.ortiz@apex-consulting.com as soon as possible to arrange changes. Hotel rooms at the Grandview partner rate have been extended to cover the new dates, but availability is limited, so we encourage you to confirm your reservation by October 20.\n\nThe updated agenda, including this year's keynote speaker announcement, will be sent out next week. We apologize for any inconvenience this change may cause and appreciate your flexibility.\n\nBest regards,\nJennifer Chen\nEvents Coordinator",
+    "statement": "By what date should employees confirm their hotel reservation?",
+    "choices": ["October 20", "November 10", "November 17", "November 18"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte indique : 'we encourage you to confirm your reservation by October 20'.",
+      "why_others_wrong": [
+        "",
+        "Le 10 novembre correspond aux dates ORIGINALES de la conférence, avant le report.",
+        "Le 17 novembre correspond à la NOUVELLE date de début de la conférence, pas à la date limite pour confirmer une réservation d'hôtel.",
+        "Le 18 novembre correspond à la nouvelle date de fin de la conférence, pas à une date limite de réservation."
+      ],
+      "method": "Ne pas confondre les différentes dates d'un texte : bien identifier laquelle correspond à une échéance ('by...') et lesquelles correspondent à l'événement lui-même."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-020",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "From: j.chen@apex-consulting.com\nTo: all-department-heads@apex-consulting.com\nSubject: Rescheduled: Annual Strategy Conference\n\nDear Colleagues,\n\nDue to a scheduling conflict with our venue, the Annual Strategy Conference originally planned for November 10-11 has been moved to November 17-18. The event will still take place at the Grandview Convention Center, and all previously registered sessions remain unchanged.\n\nIf you have already booked travel or accommodation for the original dates, please contact our travel coordinator, Lisa Ortiz, at l.ortiz@apex-consulting.com as soon as possible to arrange changes. Hotel rooms at the Grandview partner rate have been extended to cover the new dates, but availability is limited, so we encourage you to confirm your reservation by October 20.\n\nThe updated agenda, including this year's keynote speaker announcement, will be sent out next week. We apologize for any inconvenience this change may cause and appreciate your flexibility.\n\nBest regards,\nJennifer Chen\nEvents Coordinator",
+    "statement": "Who should employees contact if they already booked travel for the original conference dates?",
+    "choices": [
+      "Jennifer Chen",
+      "Lisa Ortiz",
+      "The Grandview Convention Center directly",
+      "The keynote speaker's office"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte indique : 'please contact our travel coordinator, Lisa Ortiz...to arrange changes'.",
+      "why_others_wrong": [
+        "Jennifer Chen est la coordinatrice événementielle qui a envoyé l'email, mais ce n'est pas elle qu'il faut contacter pour les changements de voyage.",
+        "",
+        "Le texte ne demande pas de contacter directement le centre de convention.",
+        "Aucun contact avec le bureau du conférencier principal n'est mentionné dans le texte."
+      ],
+      "method": "Bien distinguer les différentes personnes mentionnées dans un email et leur rôle respectif (l'expéditeur n'est pas toujours la bonne personne à contacter pour toutes les demandes)."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-021",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "BOOST YOUR CAREER: NEGOTIATION SKILLS SEMINAR\n\nJoin us for a one-day intensive seminar designed for professionals who want to sharpen their negotiation skills in high-stakes business settings. Led by renowned negotiation expert Dr. Alan Reyes, this seminar covers practical techniques for handling difficult clients, closing deals under pressure, and managing cross-cultural negotiations.\n\nDate: Saturday, November 8\nLocation: Meridian Business Center, Conference Room B\nTime: 9 a.m. to 5 p.m.\nPrice: $295 per person (includes lunch and course materials); early registration before October 15 receives a 20% discount.\n\nSeats are limited to 40 participants to ensure an interactive, hands-on learning experience with plenty of opportunity for role-play exercises and personalized feedback.\n\nRegister online at www.reyesnegotiation.com/seminar or call (555) 812-3390. Group discounts are available for companies registering three or more employees.",
+    "statement": "Who is this advertisement primarily intended for?",
+    "choices": [
+      "New graduates looking for their first job",
+      "Business professionals wanting to improve negotiation skills",
+      "Companies looking to hire a negotiation expert as a consultant",
+      "Students studying international law"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte s'adresse explicitement aux 'professionals who want to sharpen their negotiation skills in high-stakes business settings'.",
+      "why_others_wrong": [
+        "Le texte ne cible pas spécifiquement les jeunes diplômés à la recherche d'un premier emploi.",
+        "",
+        "Le texte propose un séminaire de formation, pas l'embauche d'un consultant.",
+        "Le texte ne mentionne pas d'étudiants en droit international."
+      ],
+      "method": "Repérer le public cible explicitement mentionné dans le texte ('designed for...') pour répondre aux questions sur l'audience visée."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["objectif-du-texte", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-022",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "BOOST YOUR CAREER: NEGOTIATION SKILLS SEMINAR\n\nJoin us for a one-day intensive seminar designed for professionals who want to sharpen their negotiation skills in high-stakes business settings. Led by renowned negotiation expert Dr. Alan Reyes, this seminar covers practical techniques for handling difficult clients, closing deals under pressure, and managing cross-cultural negotiations.\n\nDate: Saturday, November 8\nLocation: Meridian Business Center, Conference Room B\nTime: 9 a.m. to 5 p.m.\nPrice: $295 per person (includes lunch and course materials); early registration before October 15 receives a 20% discount.\n\nSeats are limited to 40 participants to ensure an interactive, hands-on learning experience with plenty of opportunity for role-play exercises and personalized feedback.\n\nRegister online at www.reyesnegotiation.com/seminar or call (555) 812-3390. Group discounts are available for companies registering three or more employees.",
+    "statement": "How can participants receive a 20% discount on the seminar price?",
+    "choices": [
+      "By registering three or more employees from the same company",
+      "By registering before October 15",
+      "By attending all previous seminars led by Dr. Reyes",
+      "By paying in cash on the day of the event"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte précise : 'early registration before October 15 receives a 20% discount'.",
+      "why_others_wrong": [
+        "L'inscription de trois employés ou plus donne droit à une réduction de groupe, mais ce n'est pas ce qui est associé à la réduction de 20% dans le texte.",
+        "",
+        "Aucune mention d'assister à des séminaires précédents n'est faite dans le texte.",
+        "Aucune mention de paiement en espèces n'est faite dans le texte."
+      ],
+      "method": "Bien associer chaque type de réduction mentionnée dans une publicité à sa condition précise, surtout quand plusieurs réductions différentes sont proposées."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-023",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "BOOST YOUR CAREER: NEGOTIATION SKILLS SEMINAR\n\nJoin us for a one-day intensive seminar designed for professionals who want to sharpen their negotiation skills in high-stakes business settings. Led by renowned negotiation expert Dr. Alan Reyes, this seminar covers practical techniques for handling difficult clients, closing deals under pressure, and managing cross-cultural negotiations.\n\nDate: Saturday, November 8\nLocation: Meridian Business Center, Conference Room B\nTime: 9 a.m. to 5 p.m.\nPrice: $295 per person (includes lunch and course materials); early registration before October 15 receives a 20% discount.\n\nSeats are limited to 40 participants to ensure an interactive, hands-on learning experience with plenty of opportunity for role-play exercises and personalized feedback.\n\nRegister online at www.reyesnegotiation.com/seminar or call (555) 812-3390. Group discounts are available for companies registering three or more employees.",
+    "statement": "What is included in the seminar price?",
+    "choices": [
+      "Hotel accommodation for one night",
+      "Lunch and course materials",
+      "Round-trip transportation",
+      "A one-on-one coaching session with Dr. Reyes"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte précise : 'Price: $295 per person (includes lunch and course materials)'.",
+      "why_others_wrong": [
+        "Aucun hébergement n'est mentionné comme inclus dans le prix.",
+        "",
+        "Aucun transport n'est mentionné comme inclus dans le prix.",
+        "Aucune séance de coaching individuelle n'est mentionnée comme incluse ; le texte parle de feedback personnalisé pendant les exercices de jeu de rôle, pas d'une séance dédiée."
+      ],
+      "method": "Repérer les parenthèses ou incises qui précisent souvent ce qui est inclus dans un prix ('includes...')."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-024",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "BUILDING NOTICE: SCHEDULED PARKING GARAGE MAINTENANCE\n\nPlease be advised that the underground parking garage at 450 Commerce Avenue will be closed for scheduled maintenance from Saturday, September 27, through Sunday, September 28. During this period, routine inspections and repairs will be performed on the garage's lighting and ventilation systems.\n\nTenants who normally park in the garage are asked to use the temporary parking lot located on Elm Street, two blocks north of the building, at no additional charge during the closure. Access badges will not be required for the temporary lot during this period.\n\nThe garage is expected to reopen at 6 a.m. on Monday, September 29. We apologize for any inconvenience and thank you for your cooperation.",
+    "statement": "What is the purpose of this notice?",
+    "choices": [
+      "To announce a permanent closure of the parking garage",
+      "To inform tenants of temporary parking arrangements during maintenance",
+      "To increase parking fees for all tenants",
+      "To announce a new tenant access badge system"
+    ],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le texte informe les locataires d'une fermeture temporaire du parking pour maintenance et propose une solution alternative de stationnement.",
+      "why_others_wrong": [
+        "Le texte précise une date de réouverture ('expected to reopen...Monday'), ce n'est donc pas une fermeture permanente.",
+        "",
+        "Le texte indique que le parking temporaire est gratuit, il n'est donc pas question d'augmentation de tarifs.",
+        "Le texte indique que les badges ne seront PAS nécessaires pour le parking temporaire pendant cette période ; ce n'est pas un nouveau système permanent."
+      ],
+      "method": "Le titre du document ('BUILDING NOTICE: SCHEDULED...MAINTENANCE') annonce directement la nature temporaire et pratique de l'information."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["idee-principale", "comprehension-ecrite"]
+  },
+  {
+    "id": "anglais-comprehension-025",
+    "module": "anglais",
+    "subtest": "comprehension",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "BUILDING NOTICE: SCHEDULED PARKING GARAGE MAINTENANCE\n\nPlease be advised that the underground parking garage at 450 Commerce Avenue will be closed for scheduled maintenance from Saturday, September 27, through Sunday, September 28. During this period, routine inspections and repairs will be performed on the garage's lighting and ventilation systems.\n\nTenants who normally park in the garage are asked to use the temporary parking lot located on Elm Street, two blocks north of the building, at no additional charge during the closure. Access badges will not be required for the temporary lot during this period.\n\nThe garage is expected to reopen at 6 a.m. on Monday, September 29. We apologize for any inconvenience and thank you for your cooperation.",
+    "statement": "When is the parking garage expected to reopen?",
+    "choices": [
+      "Saturday, September 27 at 6 a.m.",
+      "Sunday, September 28 at 6 a.m.",
+      "Monday, September 29 at 6 a.m.",
+      "Monday, September 29 at 6 p.m."
+    ],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le texte précise : 'The garage is expected to reopen at 6 a.m. on Monday, September 29.'",
+      "why_others_wrong": [
+        "Le samedi 27 septembre correspond au début de la fermeture, pas à la réouverture.",
+        "Le dimanche 28 septembre correspond à la fin annoncée de la période de fermeture, mais la réouverture effective est précisée pour le lundi.",
+        "",
+        "Le texte précise '6 a.m.' (le matin), pas '6 p.m.' (le soir)."
+      ],
+      "method": "Bien lire les indications a.m./p.m. et vérifier soigneusement chaque date mentionnée pour éviter les pièges de confusion entre les jours de fermeture et de réouverture."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["detail-specifique", "comprehension-ecrite"]
+  }
+]

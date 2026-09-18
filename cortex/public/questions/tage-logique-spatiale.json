@@ -1,0 +1,452 @@
+[
+  {
+    "id": "tage-logique-spatiale-001",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une flèche tourne de 90° dans le sens horaire à chaque étape :\n↑   →   ↓   ?\nQuel symbole complète la suite ?",
+    "choices": ["←", "↑", "→", "↓"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Chaque rotation de 90° dans le sens horaire fait passer ↑ → → → ↓ → ←. Après ↓, la flèche suivante est ←.",
+      "why_others_wrong": ["", "Erreur : reviendrait à la position de départ après seulement 3 rotations au lieu de 4.", "Erreur de sens : répète le deuxième terme de la suite au lieu de continuer la rotation.", "Erreur : répète le troisième terme, comme si aucune rotation supplémentaire n'était appliquée."],
+      "method": "Mémoriser le cycle horaire des 4 directions cardinales : ↑ → → → ↓ → ← → ↑. Compter simplement le nombre de crans parcourus."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["rotation", "flèches"]
+  },
+  {
+    "id": "tage-logique-spatiale-002",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une flèche tourne de 45° dans le sens horaire à chaque étape :\n↑   ↗   →   ↘   ?\nQuel symbole complète la suite ?",
+    "choices": ["↓", "↙", "←", "↑"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le cycle horaire par pas de 45° est : ↑, ↗, →, ↘, ↓, ↙, ←, ↖. Après ↘ vient donc ↓.",
+      "why_others_wrong": ["", "Erreur : saute une étape supplémentaire (rotation de 90° au lieu de 45°).", "Erreur : applique une rotation de 135° au lieu de 45°.", "Erreur : confond avec le symbole de départ, comme si le cycle était déjà bouclé."],
+      "method": "Visualiser les 8 directions d'une boussole dans l'ordre horaire et compter un seul cran de 45° à la fois."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["rotation", "flèches"]
+  },
+  {
+    "id": "tage-logique-spatiale-003",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une flèche tourne de 90° dans le sens antihoraire à chaque étape :\n→   ↑   ←   ?\nQuel symbole complète la suite ?",
+    "choices": ["↓", "→", "↑", "←"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le cycle antihoraire est : → → ↑ → ← → ↓ → →. Après ←, la flèche suivante est ↓.",
+      "why_others_wrong": ["", "Erreur : reviendrait au point de départ un tour trop tôt, comme si le cycle ne comptait que 3 étapes.", "Erreur : répète un terme déjà présent dans la suite, confusion du sens de rotation.", "Erreur : répète le terme précédent, comme si aucune rotation n'était appliquée."],
+      "method": "Le sens antihoraire inverse simplement l'ordre du cycle horaire : ↑, ←, ↓, → au lieu de ↑, →, ↓, ←."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["rotation", "flèches"]
+  },
+  {
+    "id": "tage-logique-spatiale-004",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La figure ▲ subit une rotation de 180°. Quelle est la figure obtenue ?",
+    "choices": ["▲", "▼", "◀", "▶"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Une rotation de 180° inverse complètement l'orientation : un triangle pointant vers le haut (▲) pointe alors vers le bas (▼).",
+      "why_others_wrong": ["Erreur : confond une rotation de 180° avec une rotation de 360° (retour à l'identique).", "", "Erreur : confond avec une rotation de 90° seulement.", "Erreur : confond avec une rotation de -90° (sens inverse d'un quart de tour)."],
+      "method": "Une rotation de 180° équivaut toujours à retourner la figure de haut en bas ET de gauche à droite simultanément."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["rotation", "figures"]
+  },
+  {
+    "id": "tage-logique-spatiale-005",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une flèche ↗ subit une rotation de 90° dans le sens horaire, puis une nouvelle rotation de 90° dans le sens horaire. Quelle flèche obtient-on à la fin ?",
+    "choices": ["↙", "↘", "↖", "↗"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Deux rotations de 90° dans le sens horaire équivalent à une rotation totale de 180° : ↗ devient ↙.",
+      "why_others_wrong": ["", "Erreur : n'applique qu'une seule des deux rotations de 90° demandées.", "Erreur : applique les rotations dans le sens antihoraire au lieu du sens horaire indiqué.", "Erreur : confond avec une rotation totale de 360° (aucun changement)."],
+      "method": "Additionner les angles de rotation successifs avant de les appliquer en une fois : 90°+90°=180°, soit l'inversion complète de la direction."
+    },
+    "targetTimeSeconds": 65,
+    "tags": ["rotation", "flèches"]
+  },
+  {
+    "id": "tage-logique-spatiale-006",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La grille ci-dessous tourne de 90° dans le sens horaire :\n▲ ●\n■ ★\nQuelle est la grille obtenue après cette rotation ?",
+    "choices": ["■ ▲\n★ ●", "● ★\n▲ ■", "★ ■\n● ▲", "▲ ●\n■ ★"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Dans une rotation de 90° horaire, chaque case va à la position suivante en tournant : le coin bas-gauche (■) devient le nouveau coin haut-gauche, le coin haut-gauche (▲) devient le nouveau coin haut-droit, etc. Résultat : ■ ▲ / ★ ●.",
+      "why_others_wrong": ["", "Erreur : correspond à une rotation de 180°, pas de 90°.", "Erreur : correspond à une rotation de 90° dans le sens antihoraire, pas horaire.", "Erreur : c'est la grille d'origine, non transformée."],
+      "method": "Pour une rotation horaire de 90° d'une grille carrée, chaque case (ligne, colonne) va en position (colonne, N-1-ligne). Sur une grille 2x2, il suffit de faire tourner les 4 coins d'un cran dans le sens horaire."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["rotation", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-007",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un point se déplace autour des quatre coins d'une grille 2x2, dans le sens horaire, à chaque étape :\nÉtape 1 :\n● □\n□ □\nÉtape 2 :\n□ ●\n□ □\nÉtape 3 :\n□ □\n□ ●\nÉtape 4 : ?\nQuelle est la grille de l'étape 4 ?",
+    "choices": ["□ □\n● □", "● □\n□ □", "□ ●\n□ □", "□ □\n□ ●"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le point parcourt les 4 coins dans le sens horaire : haut-gauche → haut-droit → bas-droit → bas-gauche. À l'étape 4, il se trouve donc en bas-gauche.",
+      "why_others_wrong": ["", "Erreur : fait revenir le point à sa position de départ un tour trop tôt, comme si le cycle ne comptait que 3 étapes.", "Erreur : répète la position de l'étape 2, sans progression dans le sens horaire.", "Erreur : répète la position de l'étape 3, comme si le point ne s'était pas déplacé."],
+      "method": "Suivre mentalement le trajet du point coin par coin dans le sens horaire (haut-gauche, haut-droit, bas-droit, bas-gauche) et compter les étapes une par une."
+    },
+    "targetTimeSeconds": 70,
+    "tags": ["rotation", "grille", "sequence"]
+  },
+  {
+    "id": "tage-logique-spatiale-008",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La figure suivante représente un tenon en forme de T :\n■ ■ ■\n. ■ .\n. ■ .\nQuelle figure représente cette même forme après une rotation de 90° dans le sens horaire ?",
+    "choices": [". . ■\n■ ■ ■\n. . ■", "■ . .\n■ ■ ■\n■ . .", ". ■ .\n. ■ .\n■ ■ ■", "■ ■ ■\n. ■ .\n. ■ ."],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "En faisant pivoter chaque case (ligne, colonne) vers (colonne, N-1-ligne), la barre horizontale du T se retrouve sur la colonne de droite et la tige horizontale sur la ligne du milieu, donnant : . . ■ / ■ ■ ■ / . . ■.",
+      "why_others_wrong": ["", "Erreur : correspond à une rotation de 90° dans le sens antihoraire (sens inverse de celui demandé).", "Erreur : correspond à une rotation de 180°, pas de 90°.", "Erreur : c'est la figure d'origine, non transformée."],
+      "method": "Pour tourner une figure sur grille de 90° horaire, transformer chaque case selon (ligne, colonne) → (colonne, N-1-ligne), ou plus simplement : la première colonne du résultat correspond à la dernière ligne d'origine lue de haut en bas."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["rotation", "grille", "pliage"]
+  },
+  {
+    "id": "tage-logique-spatiale-009",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est l'image miroir (symétrie par rapport à un axe vertical) de la flèche → ?",
+    "choices": ["←", "→", "↑", "↓"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Une symétrie par rapport à un axe vertical inverse gauche et droite : → devient ←.",
+      "why_others_wrong": ["", "Erreur : confond symétrie et absence de transformation.", "Erreur : confond avec une rotation de 90° au lieu d'une symétrie.", "Erreur : confond avec une rotation de -90° au lieu d'une symétrie."],
+      "method": "Un axe de symétrie vertical inverse toujours gauche/droite (les flèches horizontales s'inversent, les verticales restent identiques)."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["symetrie", "flèches"]
+  },
+  {
+    "id": "tage-logique-spatiale-010",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est l'image miroir (axe de symétrie vertical) de la flèche ↗ ?",
+    "choices": ["↖", "↘", "↙", "↗"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Une symétrie verticale inverse la composante gauche/droite : ↗ (haut-droite) devient ↖ (haut-gauche), la composante haut/bas restant inchangée.",
+      "why_others_wrong": ["", "Erreur : confond symétrie verticale et symétrie horizontale (un axe horizontal donnerait bien ↘).", "Erreur : confond avec une rotation de 180°.", "Erreur : confond avec l'absence de transformation."],
+      "method": "Pour une symétrie verticale, seule la composante horizontale (gauche/droite) de la direction s'inverse ; la composante verticale (haut/bas) reste identique."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["symetrie", "flèches"]
+  },
+  {
+    "id": "tage-logique-spatiale-011",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est l'image miroir, par rapport à un axe vertical, de la grille suivante ?\n■ □ ●\n□ ● □\n● □ ■",
+    "choices": ["● □ ■\n□ ● □\n■ □ ●", "■ □ ●\n□ ● □\n● □ ■", "● □ ■\n□ □ ●\n■ □ ●", "■ □ ●\n● □ □\n● □ ■"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Chaque ligne doit être inversée de gauche à droite : ■□● devient ●□■, □●□ reste □●□ (elle est déjà symétrique), et ●□■ devient ■□●.",
+      "why_others_wrong": ["", "Erreur : c'est la grille d'origine, non transformée.", "Erreur : modification incorrecte de la ligne centrale, qui doit rester □●□ par symétrie.", "Erreur : les lignes ne sont pas correctement inversées de gauche à droite."],
+      "method": "Pour une symétrie verticale d'une grille, inverser l'ordre des éléments dans chaque ligne, sans toucher à l'ordre des lignes elles-mêmes."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["symetrie", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-012",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La figure ci-dessous doit être symétrique par rapport à un axe horizontal situé juste en dessous. La partie du haut est donnée :\n■ ■ .\n. ■ .\n- - - (axe de symétrie)\n?\nQuelle est la partie du bas qui complète correctement la figure ?",
+    "choices": [". ■ .\n■ ■ .", "■ ■ .\n. ■ .", ". ■ .\n. ■ ■", "■ ■ .\n■ ■ ."],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Par symétrie horizontale, la ligne la plus proche de l'axe se reflète en premier : '. ■ .' (proche de l'axe) puis '■ ■ .' (loin de l'axe), dans cet ordre en partant de l'axe vers le bas.",
+      "why_others_wrong": ["", "Erreur : répète l'ordre des lignes du haut sans inverser leur position par rapport à l'axe.", "Erreur : une case est mal recopiée lors de la symétrie.", "Erreur : répète la même ligne deux fois au lieu d'inverser la figure."],
+      "method": "Pour une symétrie horizontale, la ligne juste au-dessus de l'axe se reflète dans la ligne juste en dessous, et ainsi de suite en s'éloignant de l'axe des deux côtés."
+    },
+    "targetTimeSeconds": 80,
+    "tags": ["symetrie", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-013",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La figure possède un axe de symétrie vertical (ligne pointillée au centre). La partie gauche est :\n★ ☆ |\n☆ ★ |\nQuelle est la partie droite qui complète la figure ?",
+    "choices": ["☆ ★\n★ ☆", "★ ☆\n☆ ★", "☆ ★\n☆ ★", "★ ★\n☆ ☆"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Par symétrie verticale, chaque ligne de droite est le miroir de la ligne de gauche correspondante : '★ ☆' devient '☆ ★', et '☆ ★' devient '★ ☆'.",
+      "why_others_wrong": ["", "Erreur : recopie la partie gauche à l'identique sans l'inverser.", "Erreur : la deuxième ligne n'est pas correctement inversée.", "Erreur : confusion des symboles lors de la recopie, ne respecte pas la symétrie."],
+      "method": "Pour une symétrie verticale, inverser l'ordre des symboles dans chaque ligne (le symbole le plus proche de l'axe reste le plus proche, mais l'ordre gauche/droite s'inverse)."
+    },
+    "targetTimeSeconds": 75,
+    "tags": ["symetrie", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-014",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite logique de figures :\n●     ●●     ●●●\n■     ■■     ■■■\n▲     ▲▲     ?\nQuel élément complète la troisième case de la dernière ligne ?",
+    "choices": ["▲▲▲", "▲▲", "▲", "●●●"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Sur chaque ligne, le nombre de symboles augmente de 1 en 1 de gauche à droite : 1, 2, puis 3. La case manquante contient donc 3 triangles : ▲▲▲.",
+      "why_others_wrong": ["", "Erreur : répète le nombre de triangles de la case précédente, sans poursuivre la progression.", "Erreur : revient au nombre de la première case, oubliant la progression croissante.", "Erreur : confond avec le symbole utilisé dans la première ligne au lieu du triangle attendu."],
+      "method": "Repérer d'abord la règle de progression sur une ligne complète (ici +1 symbole par case) avant d'appliquer cette règle à la ligne incomplète."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["completion-motif", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-015",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la grille selon le motif observé :\n● ■ ▲\n■ ▲ ●\n▲ ● ?\nQuel symbole complète la dernière case ?",
+    "choices": ["■", "●", "▲", "□"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Chaque ligne est un décalage circulaire de la précédente. La ligne 3 commence par ▲ puis ●, en suivant le même cycle (●,■,▲), le symbole suivant est ■.",
+      "why_others_wrong": ["", "Erreur : répète le symbole précédent de la ligne, sans respecter le cycle de décalage.", "Erreur : répète le premier symbole de la ligne, erreur de séquence.", "Erreur : introduit un symbole absent du système de la grille, hors motif."],
+      "method": "Identifier le cycle de 3 symboles utilisé, puis repérer de combien de crans chaque ligne est décalée par rapport à la précédente."
+    },
+    "targetTimeSeconds": 70,
+    "tags": ["completion-motif", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-016",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la grille en damier :\n■ □ ■\n□ ■ □\n■ □ ?\nQuel symbole complète la dernière case ?",
+    "choices": ["■", "□", "●", "▲"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La grille suit une alternance en damier stricte : les cases dont la somme (ligne+colonne) est paire sont ■, les autres □. La dernière case (ligne 3, colonne 3) a une somme paire, donc elle doit être ■.",
+      "why_others_wrong": ["", "Erreur : inverse l'alternance attendue à la dernière position.", "Erreur : introduit un symbole étranger au motif en damier de la grille.", "Erreur : introduit un symbole étranger au motif en damier de la grille."],
+      "method": "Dans une grille en damier, vérifier la parité de (numéro de ligne + numéro de colonne) : paire pour un symbole, impaire pour l'autre."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["completion-motif", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-017",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une flèche tourne de 45° dans le sens horaire à chaque case, en lisant la grille de gauche à droite puis de haut en bas :\n↑ ↗ →\n↘ ↓ ↙\n← ↖ ?\nQuel symbole complète la dernière case ?",
+    "choices": ["↑", "↗", "→", "↓"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La suite de lecture ↑, ↗, →, ↘, ↓, ↙, ←, ↖ parcourt les 8 directions dans le sens horaire. Après la 8e direction (↖), le cycle recommence : la 9e case revient donc à ↑.",
+      "why_others_wrong": ["", "Erreur : reviendrait à la 2e position du cycle au lieu de reboucler complètement sur la 1re.", "Erreur : décalage de deux positions dans le cycle des 8 directions.", "Erreur : confond avec une autre position du cycle de rotation."],
+      "method": "Reconnaître que la grille contient exactement les 8 directions de la boussole dans l'ordre horaire ; la case manquante referme le cycle et revient donc au point de départ."
+    },
+    "targetTimeSeconds": 85,
+    "tags": ["rotation", "grille", "completion-motif"]
+  },
+  {
+    "id": "tage-logique-spatiale-018",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la grille en damier à deux symboles :\n★ ☆ ★\n☆ ★ ☆\n★ ☆ ?\nQuel symbole complète la dernière case ?",
+    "choices": ["★", "☆", "●", "○"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La grille alterne en damier : (ligne+colonne) paire donne ★, impaire donne ☆. La dernière case (ligne 3, colonne 3) a une somme paire, donc elle est ★.",
+      "why_others_wrong": ["", "Erreur : inverse l'alternance attendue à la dernière position.", "Erreur : introduit un symbole étranger au motif de la grille.", "Erreur : introduit un symbole étranger au motif de la grille."],
+      "method": "Vérifier la parité de (ligne+colonne) pour déterminer rapidement quel symbole du damier doit apparaître."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["completion-motif", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-019",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la suite de points :\n●    ● ●    ● ● ●    ?\nQuel élément complète la suite ?",
+    "choices": ["● ● ● ●", "● ● ●", "● ●", "● ● ● ● ●"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le nombre de points augmente de 1 à chaque étape : 1, 2, 3, donc la case suivante contient 4 points.",
+      "why_others_wrong": ["", "Erreur : répète le nombre de points de l'étape précédente, sans poursuivre la progression.", "Erreur : revient à un nombre inférieur, rompt la progression croissante.", "Erreur : saute une étape en ajoutant deux points au lieu d'un seul."],
+      "method": "Compter systématiquement l'écart entre chaque terme de la séquence avant de l'appliquer à la case manquante."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["completion-motif", "sequence"]
+  },
+  {
+    "id": "tage-logique-spatiale-020",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Complétez la grille de type carré latin, où chaque symbole apparaît une seule fois par ligne et par colonne :\n▲ ■ ●\n● ▲ ■\n■ ● ?\nQuel symbole complète la dernière case ?",
+    "choices": ["▲", "■", "●", "□"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Dans un carré latin 3x3, chaque symbole (▲, ■, ●) apparaît une seule fois par ligne et par colonne. La ligne 3 contient déjà ■ et ●, il manque donc ▲ ; la colonne 3 contient déjà ● et ■, ce qui confirme ▲.",
+      "why_others_wrong": ["", "Erreur : ce symbole est déjà présent deux fois dans la colonne 3, ce qui viole la règle du carré latin.", "Erreur : ce symbole est déjà présent deux fois dans la ligne 3, ce qui viole la règle.", "Erreur : introduit un symbole absent du système des trois symboles utilisés dans la grille."],
+      "method": "Vérifier simultanément la ligne et la colonne de la case manquante : le symbole correct est celui qui n'apparaît encore ni dans l'une ni dans l'autre."
+    },
+    "targetTimeSeconds": 80,
+    "tags": ["completion-motif", "grille"]
+  },
+  {
+    "id": "tage-logique-spatiale-021",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une grille 2x2 se remplit progressivement, case par case, dans le sens de lecture (gauche à droite, puis haut en bas) :\nÉtape 1 : □ □ / □ □\nÉtape 2 : ■ □ / □ □\nÉtape 3 : ■ ■ / □ □\nÉtape 4 : ?\nQuelle est la grille de l'étape 4 ?",
+    "choices": ["■ ■ / ■ □", "■ ■ / □ □", "■ ■ / ■ ■", "□ ■ / ■ □"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Après avoir rempli les deux cases du haut, la case suivante dans le sens de lecture est celle en bas à gauche : ■ ■ / ■ □.",
+      "why_others_wrong": ["", "Erreur : répète l'étape 3, aucune case supplémentaire n'est remplie.", "Erreur : remplit les deux dernières cases d'un coup, en sautant une étape.", "Erreur : remplit une case dans le désordre, sans respecter le sens de lecture gauche-droite puis haut-bas."],
+      "method": "Suivre strictement l'ordre de lecture indiqué (gauche à droite, puis ligne suivante) pour savoir quelle case unique se remplit à chaque étape."
+    },
+    "targetTimeSeconds": 70,
+    "tags": ["completion-motif", "grille", "sequence"]
+  },
+  {
+    "id": "tage-logique-spatiale-022",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un patron de cube (en croix) présente les faces suivantes une fois déplié :\n      [★]\n[■][●][▲][□]\n      [◆]\nUne fois le cube replié, quelle face est opposée à la face ★ ?",
+    "choices": ["◆", "■", "▲", "□"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Dans un patron en croix, la face du haut et la face du bas de la croix se retrouvent toujours opposées l'une à l'autre une fois le cube plié, quelle que soit la face centrale à laquelle elles sont attachées. Ici, ★ (au-dessus) et ◆ (en-dessous) sont donc opposées.",
+      "why_others_wrong": ["", "Erreur : ■ fait partie de la bande centrale et est opposée à ▲, pas à ★.", "Erreur : ▲ fait partie de la bande centrale et est opposée à ■, pas à ★.", "Erreur : □ fait partie de la bande centrale et est opposée à ●, pas à ★."],
+      "method": "Dans un patron en croix, retenir la règle simple : la face du haut est toujours opposée à la face du bas, et dans la bande horizontale, les faces opposées sont celles séparées par exactement deux cases (1re et 3e, ou 2e et 4e)."
+    },
+    "targetTimeSeconds": 90,
+    "tags": ["pliage", "cube"]
+  },
+  {
+    "id": "tage-logique-spatiale-023",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un patron de cube en croix présente les faces suivantes une fois déplié :\n      [○]\n[△][□][◇][☆]\n      [▽]\nUne fois le cube replié, quelle face est opposée à la face □ ?",
+    "choices": ["☆", "△", "◇", "○"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Dans la bande centrale △-□-◇-☆, les faces opposées après pliage sont celles séparées par deux cases : △ est opposée à ◇, et □ est opposée à ☆.",
+      "why_others_wrong": ["", "Erreur : △ est opposée à ◇ dans la bande centrale, pas à □.", "Erreur : ◇ est adjacente à □ dans le patron ; deux faces adjacentes dans une croix ne sont jamais opposées sur le cube replié.", "Erreur : ○ est la face du haut, opposée à ▽ (la face du bas), pas à □."],
+      "method": "Dans la bande horizontale d'un patron en croix à 4 faces consécutives, les faces opposées sont toujours celles situées à deux positions d'écart (1re/3e et 2e/4e), jamais les faces immédiatement voisines."
+    },
+    "targetTimeSeconds": 90,
+    "tags": ["pliage", "cube"]
+  },
+  {
+    "id": "tage-logique-spatiale-024",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "On pose un cube sur une table et on l'observe depuis un coin, en légère plongée. Combien de faces du cube peut-on voir au maximum simultanément dans cette position ?",
+    "choices": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Vu depuis un coin, on distingue au maximum 3 faces à la fois : le dessus et deux faces latérales adjacentes. La face posée sur la table et les faces arrière/dessous restent invisibles.",
+      "why_others_wrong": ["Erreur : sous-estime le nombre de faces visibles depuis un point de vue en coin.", "", "Erreur : surestime, en oubliant qu'une face est posée sur la table et qu'au moins deux autres sont cachées à l'arrière du cube.", "Erreur : confond avec le nombre total de faces non cachées si le cube était transparent."],
+      "method": "Retenir la règle générale : depuis un angle de vue en coin, un solide convexe (comme un cube) ne montre jamais plus de 3 faces à la fois."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["cube", "visualisation-3d"]
+  },
+  {
+    "id": "tage-logique-spatiale-025",
+    "module": "tage2",
+    "subtest": "logique-spatiale",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un cube porte six lettres différentes sur ses faces. Le patron déplié montre une bande de 4 faces consécutives, dans cet ordre : C, A, E, F. On sait par ailleurs que la face A est opposée à la face F. Quelle face de cette bande est opposée à la face C ?",
+    "choices": ["E", "A", "F", "B"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Dans une bande de 4 faces consécutives d'un patron en croix, les faces opposées sont celles séparées par deux positions : C et E sont donc opposées (ce qui est cohérent avec A opposée à F, donné dans l'énoncé).",
+      "why_others_wrong": ["", "Erreur : A est adjacente à C dans la bande, elle ne peut donc pas lui être opposée.", "Erreur : F est la face opposée à A (donnée dans l'énoncé), pas à C.", "Erreur : B ne fait pas partie de la bande de 4 faces citée, aucune relation d'opposition ne peut en être déduite ici."],
+      "method": "Dans une bande de 4 faces consécutives d'un patron en croix, les paires opposées sont toujours les faces distantes de deux positions (1re/3e et 2e/4e) : utiliser l'indication donnée pour vérifier la cohérence du raisonnement."
+    },
+    "targetTimeSeconds": 95,
+    "tags": ["pliage", "cube"]
+  }
+]

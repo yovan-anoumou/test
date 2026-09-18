@@ -1,0 +1,637 @@
+[
+  {
+    "id": "tage-lexiphrase-001",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche du mot « dirimant » ?",
+    "choices": ["Secondaire", "Décisif", "Ambigu", "Superflu"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« Dirimant » signifie qui empêche un acte d'être valide, qui est décisif dans un litige ou un obstacle absolu.",
+      "why_others_wrong": ["Contresens : un motif dirimant n'est jamais secondaire, il est au contraire déterminant.", "", "Confusion avec « ambivalent » : le sens n'est pas celui d'une ambiguïté.", "Un obstacle dirimant empêche totalement l'acte, il n'est donc pas superflu."],
+      "method": "Repérer la racine latine « dirimere » (rompre, séparer) permet d'éliminer les sens faibles ou secondaires."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-002",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « obséquieux » ?",
+    "choices": ["Servile", "Autoritaire", "Distant", "Généreux"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Obséquieux » qualifie une attitude de soumission et de flatterie excessive envers autrui.",
+      "why_others_wrong": ["", "Contresens : l'obséquiosité est une soumission excessive, pas une posture d'autorité.", "Sens opposé : l'obséquieux cherche au contraire à se rapprocher pour plaire.", "Aucun rapport avec la générosité, qui n'implique pas de flatterie intéressée."],
+      "method": "Penser au contexte typique : un employé obséquieux envers son supérieur — l'idée de servilité excessive s'impose naturellement."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-003",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "« Un article dithyrambique » désigne un article :",
+    "choices": ["Neutre et factuel", "Critique et sévère", "Élogieux à l'excès", "Ironique et moqueur"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Un article dithyrambique fait l'éloge exalté, souvent excessif, de son sujet.",
+      "why_others_wrong": ["Un article dithyrambique prend au contraire nettement parti, il n'a rien de neutre.", "Sens opposé : le dithyrambe est un éloge, non une critique.", "", "La dithyrambe est un éloge sincère (souvent excessif), pas un procédé ironique."],
+      "method": "Le mot vient du dithyrambe, chant grec en l'honneur de Dionysos, à l'origine un hymne de louange — associer l'idée d'éloge exalté."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "sens-figure"]
+  },
+  {
+    "id": "tage-lexiphrase-004",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « pusillanime » ?",
+    "choices": ["Généreux", "Peureux", "Intelligent", "Bavard"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« Pusillanime » qualifie une personne qui manque de courage face au danger ou à la difficulté.",
+      "why_others_wrong": ["Aucun lien sémantique : la pusillanimité ne concerne pas la générosité.", "", "Le mot ne porte pas sur l'intelligence mais sur le manque de courage.", "Aucun rapport avec la loquacité."],
+      "method": "Décomposer le mot : « pusillus » (petit) et « animus » (âme, courage) en latin — littéralement « qui a le courage petit »."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-005",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une « discussion byzantine » est une discussion :",
+    "choices": ["Claire et directe", "Inutilement subtile et compliquée", "Historique et documentée", "Religieuse et solennelle"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Au sens figuré, « byzantin » qualifie un débat qui s'enlise dans des subtilités inutiles, sans portée pratique.",
+      "why_others_wrong": ["Sens opposé : la discussion byzantine s'enlise justement dans des subtilités inutiles.", "", "Le sens figuré s'est détaché de toute référence historique précise à Byzance.", "Le mot n'implique pas nécessairement un contenu religieux dans son emploi figuré."],
+      "method": "Le sens figuré (querelle sur des détails insignifiants) vient de la réputation des théologiens byzantins, réputés pour leurs débats interminables sur des points mineurs."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "sens-figure"]
+  },
+  {
+    "id": "tage-lexiphrase-006",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « insidieux » ?",
+    "choices": ["Violent et manifeste", "Sournois et trompeur", "Lent et pénible", "Désintéressé"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« Insidieux » qualifie ce qui nuit en se dissimulant, sans se manifester ouvertement.",
+      "why_others_wrong": ["Sens contraire : l'insidieux agit précisément sans se manifester ouvertement.", "", "La lenteur n'est pas le trait défini par ce mot, seule la dissimulation l'est.", "Rien n'indique un désintérêt, au contraire le procédé insidieux vise souvent un but précis."],
+      "method": "Associer au champ lexical du piège (une insidia, en latin, est une embuscade) : ce qui nuit en se cachant."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-007",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « lénifiant » ?",
+    "choices": ["Irritant", "Stimulant", "Apaisant", "Ennuyeux"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "« Lénifiant » qualifie ce qui calme, adoucit une douleur ou une tension.",
+      "why_others_wrong": ["Sens opposé direct.", "Confusion possible mais le lénifiant calme, il n'excite pas.", "", "L'ennui n'est pas le trait principal ; un discours lénifiant peut captiver tout en apaisant."],
+      "method": "Penser à « lénifier une douleur » : la racine évoque l'adoucissement, comme un lénitif en pharmacie."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-008",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un « personnage vénal » est quelqu'un qui :",
+    "choices": ["Se laisse acheter et privilégie l'argent", "Respecte des principes moraux stricts", "Agit par passion désintéressée", "Refuse toute compromission"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La vénalité désigne le fait de faire passer l'intérêt financier avant tout autre principe, jusqu'à se laisser corrompre.",
+      "why_others_wrong": ["", "Sens opposé : la vénalité est précisément l'absence de principes face à l'argent.", "Contresens complet sur le mot.", "Contresens : le vénal est celui qui accepte justement de se compromettre."],
+      "method": "Relier au mot « vente » : le vénal est celui dont les faveurs ou l'intégrité sont à vendre."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-009",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « cauteleux » ?",
+    "choices": ["Franc et direct", "Courageux et loyal", "Maladroit et naïf", "Rusé et hypocrite"],
+    "correctIndex": 3,
+    "explanation": {
+      "why_correct": "« Cauteleux » qualifie une prudence rusée et hypocrite, destinée à dissimuler de mauvaises intentions.",
+      "why_others_wrong": ["Sens opposé : le cauteleux dissimule ses intentions sous une prudence apparente.", "Aucun rapport avec le courage, valeur qui n'entre pas dans la définition du mot.", "Contresens : le cauteleux est au contraire calculateur, jamais naïf.", ""],
+      "method": "Mot rare à retenir par association avec « précaution excessive et hypocrite » — souvent utilisé pour décrire un comportement de faux-jeton prudent."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-010",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « prolixe » ?",
+    "choices": ["Verbeux", "Concis", "Silencieux", "Précis"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Prolixe » qualifie un discours ou un écrit trop long, chargé de développements superflus.",
+      "why_others_wrong": ["", "Sens opposé : la concision est le contraire de la prolixité.", "Antonyme quasi complet.", "Contresens : le prolixe s'étend souvent au détriment de la précision."],
+      "method": "Retenir l'opposition classique prolixe/laconique, fréquente au TAGE 2."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-011",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est l'antonyme de « laconique » ?",
+    "choices": ["Bref", "Sobre", "Prolixe", "Concis"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "« Laconique » signifie qui s'exprime en peu de mots ; son antonyme exact est « prolixe », qui s'exprime avec verbosité.",
+      "why_others_wrong": ["Synonyme de laconique, pas son contraire.", "Synonyme proche : la sobriété rejoint la brièveté.", "", "Synonyme de laconique, décrivant la même économie de mots."],
+      "method": "Laconique vient des Laconiens (Spartiates), réputés pour leur concision ; chercher son exact opposé, la verbosité."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "antonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-012",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « fallacieux » ?",
+    "choices": ["Trompeur", "Sincère", "Évident", "Logique"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Fallacieux » qualifie ce qui est destiné à tromper sous une apparence de vérité.",
+      "why_others_wrong": ["", "Sens opposé complet.", "Contresens : un argument fallacieux paraît souvent évident tout en étant faux.", "Contresens : la fallace repose justement sur une apparence de logique qui cache une erreur."],
+      "method": "Relier à « fallace », l'erreur de raisonnement volontairement trompeuse en logique argumentative."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-013",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une « situation ubuesque » est une situation :",
+    "choices": ["Tragique et sérieuse", "Grotesque, absurde et déraisonnable", "Majestueuse et solennelle", "Discrète et mesurée"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'adjectif « ubuesque » désigne ce qui atteint un degré grotesque d'absurdité et de démesure.",
+      "why_others_wrong": ["Le registre est comique et absurde, non tragique, même si les conséquences peuvent être graves.", "", "Sens opposé : l'ubuesque est ridicule, jamais majestueux.", "Sens opposé : l'ubuesque se caractérise par l'excès, non la mesure."],
+      "method": "Référence au personnage du Père Ubu (Alfred Jarry) : une administration ubuesque cumule absurdité, excès et incompétence grotesque."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["vocabulaire", "culture-generale"]
+  },
+  {
+    "id": "tage-lexiphrase-014",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « sibyllin » ?",
+    "choices": ["Obscur et énigmatique", "Clair et limpide", "Bavard et prolixe", "Menaçant et direct"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Sibyllin » qualifie un propos volontairement obscur et énigmatique, à l'image des oracles antiques.",
+      "why_others_wrong": ["", "Sens opposé complet.", "Le sibyllin peut être bref et énigmatique, la loquacité n'est pas le trait défini.", "Le sibyllin est ambigu, jamais direct — sa menace, si menace il y a, reste voilée."],
+      "method": "Référence aux oracles de la Sibylle, réputés pour leurs prédictions volontairement ambiguës."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-015",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est l'antonyme de « iconoclaste » ?",
+    "choices": ["Conformiste", "Rebelle", "Novateur", "Provocateur"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'iconoclaste rejette les conventions établies ; son antonyme est celui qui s'y conforme, le conformiste.",
+      "why_others_wrong": ["", "Synonyme proche : l'iconoclaste rejette précisément les conventions établies.", "Synonyme proche : l'iconoclaste innove souvent en rupture avec la tradition.", "Synonyme proche : l'iconoclaste cherche à bousculer, donc à provoquer."],
+      "method": "Iconoclaste = qui s'attaque aux idées reçues et aux conventions ; son contraire logique est celui qui s'y conforme."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "antonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-016",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « idoine » ?",
+    "choices": ["Approprié", "Inadapté", "Excessif", "Tardif"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Idoine » qualifie ce qui convient exactement à une situation ou un usage donné.",
+      "why_others_wrong": ["", "Sens opposé.", "Aucun rapport avec l'idée d'excès.", "Aucun rapport avec la notion de délai."],
+      "method": "Mot souvent utilisé dans « le moment idoine », « la personne idoine » : retenir l'association à « qui convient exactement »."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-017",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "« L'apanage de quelqu'un » désigne :",
+    "choices": ["Un privilège qui lui est exclusivement propre", "Une obligation partagée par tous", "Un défaut couramment répandu", "Un talent secondaire et peu utile"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'apanage désigne ce qui appartient en propre et exclusivement à quelqu'un.",
+      "why_others_wrong": ["", "Sens opposé : l'apanage est propre à un seul, non partagé.", "Contresens complet, l'apanage n'est pas nécessairement un défaut.", "Contresens : l'apanage désigne souvent une qualité ou un droit valorisé, jamais secondaire par définition."],
+      "method": "Retenir l'expression figée « l'apanage de » (ex. « le doute n'est pas l'apanage des faibles ») associée à l'idée d'exclusivité."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-018",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "L'« acmé » d'un phénomène désigne :",
+    "choices": ["Son point culminant", "Son point de départ", "Sa phase de déclin", "Un moment neutre et sans relief"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'acmé désigne le point le plus intense, le sommet atteint par un phénomène.",
+      "why_others_wrong": ["", "Sens opposé : l'acmé se situe à la fin d'une montée en intensité, non à son commencement.", "Sens opposé : l'acmé précède le déclin, elle ne le désigne pas.", "Contresens : l'acmé est au contraire le moment de plus forte intensité."],
+      "method": "Mot grec signifiant « pointe » ; l'associer à l'image d'un sommet atteint après une progression."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-019",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est l'antonyme de « mansuétude » ?",
+    "choices": ["Sévérité", "Indulgence", "Clémence", "Compassion"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La mansuétude est une disposition à pardonner avec douceur ; son contraire est la rigueur intransigeante, la sévérité.",
+      "why_others_wrong": ["", "Synonyme de mansuétude.", "Synonyme de mansuétude.", "Sentiment proche, compatible avec la mansuétude."],
+      "method": "Mansuétude = disposition à pardonner avec douceur ; chercher la disposition inverse, la rigueur intransigeante."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "antonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-020",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Dans un contexte juridique, une personne « forclose » est une personne qui :",
+    "choices": ["A perdu le droit d'agir faute d'avoir respecté un délai", "Bénéficie d'un délai supplémentaire pour agir", "A gagné son procès de manière définitive", "Est exemptée de toute obligation contractuelle"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La forclusion sanctionne l'expiration d'un délai légal en privant la personne du droit d'agir en justice.",
+      "why_others_wrong": ["", "Sens opposé : la forclusion sanctionne au contraire l'expiration du délai.", "Aucun rapport, la forclusion ne préjuge pas du fond du droit.", "Contresens : la forclusion prive d'un droit, elle ne dispense de rien."],
+      "method": "Associer « forclusion » à « clôture d'un délai » : une fois le délai expiré, l'action est éteinte."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "juridique"]
+  },
+  {
+    "id": "tage-lexiphrase-021",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le synonyme le plus proche de « subreptice » ?",
+    "choices": ["Furtif", "Bruyant", "Officiel", "Répété"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Subreptice » qualifie une action menée discrètement, en cachette, pour ne pas être remarquée.",
+      "why_others_wrong": ["", "Sens opposé : le subreptice cherche justement à ne pas se faire remarquer.", "Sens opposé : le subreptice se fait en dehors des voies officielles.", "La répétition n'est pas le trait principal, seule la discrétion l'est."],
+      "method": "Rapprocher de « subrepticement », adverbe fréquent signifiant « en cachette, sans se faire remarquer »."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-022",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un « défaut rédhibitoire » est un défaut :",
+    "choices": ["Qui constitue un obstacle disqualifiant", "Qui est facilement corrigible", "Qui passe généralement inaperçu", "Qui est apprécié positivement"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Un défaut rédhibitoire est si grave qu'il disqualifie totalement, sans possibilité de compromis.",
+      "why_others_wrong": ["", "Sens opposé : le rédhibitoire est précisément ce qui ne peut être toléré ni corrigé.", "Sens opposé : le rédhibitoire saute au contraire aux yeux, il élimine d'emblée.", "Contresens total sur le mot."],
+      "method": "Terme issu du droit de la vente (vice rédhibitoire justifiant l'annulation) : associer à « éliminatoire, disqualifiant »."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "synonymes"]
+  },
+  {
+    "id": "tage-lexiphrase-023",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un critère « discriminant » est un critère qui :",
+    "choices": ["Permet une distinction nette entre les éléments comparés", "Rend deux éléments strictement identiques", "Complique la comparaison sans y aider", "Est sans incidence sur le résultat"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Au sens neutre, un critère discriminant permet de distinguer clairement des éléments entre eux.",
+      "why_others_wrong": ["", "Sens opposé : discriminer, c'est distinguer, non uniformiser.", "Au contraire, un bon critère discriminant clarifie la comparaison.", "Contresens : un critère discriminant a par définition une forte incidence."],
+      "method": "Relier au verbe « discriminer » au sens neutre de « distinguer » (avant tout emploi péjoratif) pour ne pas se tromper de sens."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "sens-figure"]
+  },
+  {
+    "id": "tage-lexiphrase-024",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel mot n'appartient pas au même champ lexical que les trois autres ?",
+    "choices": ["Joie", "Allégresse", "Affliction", "Liesse"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "« Affliction » désigne une profonde tristesse, à l'opposé des trois autres termes qui expriment tous une joie intense.",
+      "why_others_wrong": ["Synonyme de joie intense.", "Synonyme de joie intense.", "", "Synonyme de joie collective et intense."],
+      "method": "Identifier d'abord le champ lexical dominant (ici la joie), puis repérer l'intrus qui appartient au champ opposé."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "intrus"]
+  },
+  {
+    "id": "tage-lexiphrase-025",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel mot n'appartient pas au même champ lexical que les trois autres ?",
+    "choices": ["Taciturne", "Loquace", "Bavard", "Volubile"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Taciturne » désigne une personne peu bavarde, à l'inverse des trois autres termes qui décrivent une personne qui parle beaucoup.",
+      "why_others_wrong": ["", "Synonyme de bavard.", "Synonyme de loquace.", "Synonyme de bavard, avec une nuance de rapidité d'élocution."],
+      "method": "Trois mots désignent une personne qui parle beaucoup ; le taciturne, au contraire, parle peu — attention aux intrus placés en tête de liste."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "intrus"]
+  },
+  {
+    "id": "tage-lexiphrase-026",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel mot n'appartient pas au même champ lexical que les trois autres ?",
+    "choices": ["Éphémère", "Fugace", "Passager", "Pérenne"],
+    "correctIndex": 3,
+    "explanation": {
+      "why_correct": "« Pérenne » désigne ce qui dure dans le temps, à l'opposé des trois autres termes qui expriment tous la brièveté.",
+      "why_others_wrong": ["Synonyme de bref, qui dure peu.", "Synonyme d'éphémère.", "Synonyme d'éphémère.", ""],
+      "method": "Repérer que trois mots renvoient à la brièveté et un seul, pérenne, à la durée — l'exact contraire."
+    },
+    "targetTimeSeconds": 40,
+    "tags": ["vocabulaire", "intrus"]
+  },
+  {
+    "id": "tage-lexiphrase-027",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel mot n'appartient pas au même champ lexical que les trois autres ?",
+    "choices": ["Diaphane", "Opaque", "Translucide", "Transparent"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "« Opaque » désigne ce qui ne laisse pas passer la lumière, à l'inverse des trois autres adjectifs.",
+      "why_others_wrong": ["Laisse filtrer la lumière.", "", "Laisse filtrer partiellement la lumière.", "Laisse entièrement passer la lumière."],
+      "method": "Trois adjectifs qualifient ce qui laisse passer la lumière à des degrés divers ; l'opaque s'y oppose totalement."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["vocabulaire", "intrus"]
+  },
+  {
+    "id": "tage-lexiphrase-028",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel mot n'appartient pas au même champ lexical que les trois autres ?",
+    "choices": ["Magnanime", "Généreux", "Ladre", "Munificent"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "« Ladre » désigne l'avare par excellence en français soutenu, à l'opposé des trois autres termes qui expriment la générosité.",
+      "why_others_wrong": ["Qui donne avec largesse et grandeur d'âme.", "Synonyme direct.", "", "Synonyme soutenu de généreux, qui donne sans compter."],
+      "method": "Le ladre est l'avare par excellence en français soutenu : il s'oppose radicalement aux trois autres qualités de générosité."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "intrus"]
+  },
+  {
+    "id": "tage-lexiphrase-029",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est la différence de sens entre « conjecture » et « conjoncture » ?",
+    "choices": [
+      "La conjecture est une hypothèse fondée sur des probabilités, la conjoncture est la situation économique ou sociale à un moment donné",
+      "Les deux mots sont de purs synonymes interchangeables en tout contexte",
+      "La conjecture désigne la situation économique, la conjoncture une simple hypothèse",
+      "La conjecture est un terme juridique, la conjoncture un terme scientifique"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "« Conjecture » (hypothèse, supposition) et « conjoncture » (état d'une situation à un moment donné) sont des paronymes à sens bien distincts.",
+      "why_others_wrong": ["", "Contresens : ces paronymes ont des sens bien distincts malgré leur proximité graphique.", "Inversion exacte des deux définitions.", "Aucun des deux mots n'est spécifiquement juridique ou scientifique."],
+      "method": "Retenir un exemple ancré : « analyser la conjoncture économique » (avec un n) versus « se livrer à des conjectures » (hypothèses, sans n)."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["vocabulaire", "paronymes"]
+  },
+  {
+    "id": "tage-lexiphrase-030",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que signifie l'expression « mettre la charrue avant les bœufs » ?",
+    "choices": ["Agir dans le désordre, inverser l'ordre logique des étapes", "Travailler avec acharnement pour réussir", "Prendre une décision risquée mais réfléchie", "Refuser catégoriquement toute nouveauté"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'expression désigne le fait d'inverser l'ordre logique des étapes d'une action.",
+      "why_others_wrong": ["", "Aucun rapport avec l'idée d'effort ou d'acharnement.", "L'expression ne renvoie pas à la prise de risque mais à un défaut d'ordre logique.", "Aucun rapport avec le refus de nouveauté."],
+      "method": "Visualiser littéralement la scène agricole absurde (la charrue placée devant l'animal qui doit la tirer) pour retrouver l'idée d'inversion de l'ordre logique."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["expressions", "sens-figure"]
+  },
+  {
+    "id": "tage-lexiphrase-031",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que signifie l'expression « tirer les marrons du feu » ?",
+    "choices": ["S'exposer à des risques au bénéfice d'un autre qui en profite", "Réussir un coup difficile grâce à son habileté", "Se retirer prudemment d'une affaire dangereuse", "Profiter seul d'un avantage obtenu sans effort"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'expression désigne le fait de prendre des risques dont c'est un tiers qui profite finalement.",
+      "why_others_wrong": ["", "L'expression insiste sur le fait qu'on agit pour le profit d'autrui, pas sur la seule habileté personnelle.", "Sens opposé : l'expression évoque au contraire une prise de risque effective, non un retrait.", "Contresens : c'est un tiers, non celui qui agit, qui profite du résultat."],
+      "method": "Se souvenir de la fable de La Fontaine « Le Singe et le Chat » : le chat se brûle les pattes pour sortir les marrons dont le singe profite seul."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["expressions", "culture-generale"]
+  },
+  {
+    "id": "tage-lexiphrase-032",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que signifie l'expression « ne pas faire long feu » ?",
+    "choices": ["Ne pas durer longtemps, cesser rapidement", "Réussir immédiatement et durablement", "Prendre feu très rapidement au sens propre", "Faire beaucoup de bruit sans résultat concret"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'expression signifie, dans son usage courant, qu'une chose ou une situation ne dure pas dans le temps.",
+      "why_others_wrong": ["", "Sens quasi opposé : l'expression annonce au contraire une fin rapide, pas un succès durable.", "Piège fréquent : l'origine renvoie à une arme qui rate son coup, mais le sens figuré courant est celui de la brièveté, non du feu littéral.", "Confusion avec « faire beaucoup de bruit pour rien », expression différente."],
+      "method": "Retenir l'usage courant moderne (« ce projet n'a pas fait long feu ») plutôt que l'origine historique liée aux armes à mèche, pour éviter le contresens."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["expressions", "pieges"]
+  },
+  {
+    "id": "tage-lexiphrase-033",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que signifie l'expression « essuyer les plâtres » ?",
+    "choices": ["Être le premier à subir les inconvénients d'une chose nouvelle", "Nettoyer soigneusement après une rénovation", "Éviter habilement un reproche mérité", "Réparer une erreur commise par un tiers"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Au sens figuré, l'expression désigne le fait de subir le premier les défauts inhérents à une nouveauté.",
+      "why_others_wrong": ["", "Sens propre seulement, non le sens figuré recherché ici.", "Aucun rapport avec l'idée d'évitement d'un reproche.", "L'expression ne renvoie pas spécifiquement à la réparation d'une faute d'autrui, mais à la découverte des premiers défauts d'une nouveauté."],
+      "method": "Partir du sens propre (les premiers habitants d'un logement neuf subissent l'humidité des plâtres frais) pour retrouver le sens figuré."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["expressions", "sens-figure"]
+  },
+  {
+    "id": "tage-lexiphrase-034",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que signifie l'expression « brûler la chandelle par les deux bouts » ?",
+    "choices": ["Épuiser ses forces ou ses ressources de façon excessive et imprudente", "Économiser avec prudence sur toutes ses dépenses", "Réussir à mener deux projets en parallèle avec succès", "Éclairer une situation sous deux angles différents"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'expression désigne le fait de dépenser sans compter son énergie ou ses ressources, au risque de s'épuiser.",
+      "why_others_wrong": ["", "Sens strictement opposé : l'expression évoque le gaspillage, non l'économie.", "L'expression a une connotation négative d'épuisement, non de réussite.", "Aucun rapport avec l'idée d'éclairage intellectuel ou d'analyse."],
+      "method": "Visualiser une chandelle allumée aux deux extrémités : elle se consume deux fois plus vite — image de l'épuisement précipité de ses ressources."
+    },
+    "targetTimeSeconds": 45,
+    "tags": ["expressions", "sens-figure"]
+  },
+  {
+    "id": "tage-lexiphrase-035",
+    "module": "tage2",
+    "subtest": "lexiphrase",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que signifie l'expression « ménager la chèvre et le chou » ?",
+    "choices": ["Chercher à contenter deux parties opposées sans trancher", "Sacrifier délibérément l'un des deux camps en conflit", "Résoudre un conflit par une décision radicale et tranchée", "Négliger totalement les intérêts en présence"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'expression désigne l'attitude qui consiste à vouloir satisfaire deux parties aux intérêts opposés, sans trancher en faveur de l'une ou de l'autre.",
+      "why_others_wrong": ["", "Sens opposé : l'expression désigne justement le refus de sacrifier l'un des deux camps.", "Sens opposé : l'expression décrit au contraire l'évitement d'une décision tranchée.", "Contresens : ménager suppose au contraire de prendre en compte les intérêts de chacun."],
+      "method": "Se rappeler l'image du passeur qui doit transporter une chèvre et un chou sans que l'un ne dévore l'autre : équilibre entre deux intérêts contradictoires."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["expressions", "sens-figure"]
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "calcul-mental-001",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "37% de 850, l'ordre de grandeur le plus proche est :",
+    "choices": ["Environ 250", "Environ 300", "Environ 350", "Environ 450"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "37% de 850 ≈ 0,37×850 ≈ 314, valeur la plus proche de 300.",
+      "why_others_wrong": ["Sous-estimation grossière, comme si l'on calculait environ 30% arrondi trop bas.", "", "Sur-estimation : arrondit 37% à 40% sans corriger ensuite.", "Confond avec plus de 50% de 850."],
+      "method": "Astuce rapide : 37% ≈ un peu plus d'1/3. Or 850/3 ≈ 283, et un peu plus donne environ 310-320."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["pourcentages", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-002",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Estimer 19% de 240. Quel est l'ordre de grandeur le plus proche ?",
+    "choices": ["Environ 36", "Environ 46", "Environ 56", "Environ 66"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "19% est proche de 20%. 20% de 240 = 48, donc 19% donne un résultat légèrement inférieur, autour de 46.",
+      "why_others_wrong": ["Sous-estime, comme si l'on confondait avec 15% de 240.", "", "Sur-estime, comme si l'on confondait avec environ 23% de 240.", "Confond avec presque 30% de 240."],
+      "method": "Pour un pourcentage proche d'un multiple de 10, arrondir à ce multiple (ici 20%), calculer vite, puis ajuster légèrement à la baisse ou à la hausse."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["pourcentages", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-003",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Combien font environ 8 × 47 ?",
+    "choices": ["Environ 320", "Environ 380", "Environ 420", "Environ 480"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "8×47 = 8×50 - 8×3 = 400 - 24 = 376, le plus proche de 380.",
+      "why_others_wrong": ["Sous-estime, comme si l'on calculait 8×40.", "", "Sur-estime, arrondi trop haut du résultat.", "Confond avec 8×60, arrondi excessif."],
+      "method": "Arrondir 47 à 50, multiplier (8×50=400), puis retrancher l'écart (8×3=24)."
+    },
+    "targetTimeSeconds": 15,
+    "tags": ["multiplication-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-004",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Combien font environ 123 × 9 ?",
+    "choices": ["Environ 1000", "Environ 1100", "Environ 1200", "Environ 1300"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "123×9 = 123×10 - 123 = 1230 - 123 = 1107, le plus proche de 1100.",
+      "why_others_wrong": ["Sous-estime, oublie une partie de l'ajustement après avoir arrondi.", "", "Confond avec 123×10 sans retirer 123 ensuite.", "Sur-estime largement, erreur d'ordre de grandeur."],
+      "method": "Astuce classique : ×9 = ×10 puis on retire une fois le nombre de départ."
+    },
+    "targetTimeSeconds": 15,
+    "tags": ["multiplication-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-005",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Combien font 960 ÷ 32 ?",
+    "choices": ["20", "25", "30", "35"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "32×30 = 960, donc 960÷32 = 30 exactement.",
+      "why_others_wrong": ["Sous-estime, comme si l'on divisait 960 par 48.", "Approximation trop basse par erreur de calcul mental.", "", "Sur-estime, comme si l'on divisait 960 par 28."],
+      "method": "Chercher un multiple rond proche : 32×30=960 tombe juste, pas besoin de calcul plus complexe."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["division-approchee"]
+  },
+  {
+    "id": "calcul-mental-006",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Estimer 78 ÷ 4. Quel est l'ordre de grandeur le plus proche ?",
+    "choices": ["Environ 15", "Environ 17", "Environ 20", "Environ 24"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "78÷4 = 19,5, le plus proche de 20.",
+      "why_others_wrong": ["Sous-estime largement le résultat.", "Sous-estime légèrement, erreur d'arrondi.", "", "Sur-estime, comme si l'on divisait par un nombre plus petit que 4."],
+      "method": "80÷4=20 est un repère facile ; 78 étant très proche de 80, le résultat est très proche de 20."
+    },
+    "targetTimeSeconds": 15,
+    "tags": ["division-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-007",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Ordre de grandeur de 2900 × 0,21 (soit environ 21% de 2900) :",
+    "choices": ["Environ 300", "Environ 600", "Environ 900", "Environ 1200"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "21% de 2900 ≈ 0,2×2900 = 580, le plus proche de 600.",
+      "why_others_wrong": ["Confond avec environ 10% de 2900.", "", "Confond avec environ 30% de 2900.", "Confond avec environ 40% de 2900."],
+      "method": "Arrondir 21% à 20% : 10% de 2900 = 290, donc 20% = 580, très proche du résultat exact."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["pourcentages", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-008",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Convertir rapidement : 3,5 km en mètres.",
+    "choices": ["350 m", "3 500 m", "35 000 m", "0,35 m"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "1 km = 1000 m, donc 3,5 km = 3,5×1000 = 3 500 m.",
+      "why_others_wrong": ["Erreur d'un facteur 10 : divise au lieu de multiplier par 1000.", "", "Erreur d'un facteur 10 dans l'autre sens.", "Confusion totale d'unité, comme si km était une fraction de mètre."],
+      "method": "Pour convertir des km en m, décaler la virgule de 3 rangs vers la droite (multiplier par 1000)."
+    },
+    "targetTimeSeconds": 12,
+    "tags": ["conversions"]
+  },
+  {
+    "id": "calcul-mental-009",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Convertir 2h15 en minutes.",
+    "choices": ["125 min", "135 min", "145 min", "215 min"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "2h = 120 min, plus 15 min = 135 min.",
+      "why_others_wrong": ["Erreur de calcul : additionne 5 minutes au lieu de 15.", "", "Erreur d'addition : additionne 25 minutes au lieu de 15.", "Confond directement les chiffres '2h15' avec 215 minutes, sans conversion réelle."],
+      "method": "Toujours convertir les heures en minutes (×60) avant d'additionner les minutes restantes."
+    },
+    "targetTimeSeconds": 12,
+    "tags": ["conversions"]
+  },
+  {
+    "id": "calcul-mental-010",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est 15% de 220 ?",
+    "choices": ["22", "28", "33", "38"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "10% de 220 = 22, 5% de 220 = 11 (la moitié de 22). 15% = 22+11 = 33.",
+      "why_others_wrong": ["S'arrête au calcul des 10% sans ajouter les 5% restants.", "Erreur d'addition intermédiaire entre les 10% et les 5%.", "", "Confond avec environ 17% au lieu de 15%."],
+      "method": "Astuce rapide pour 15% : calculer 10% (diviser par 10), puis ajouter la moitié de ce résultat (les 5% restants)."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["pourcentages"]
+  },
+  {
+    "id": "calcul-mental-011",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Ordre de grandeur de la racine carrée de 170 :",
+    "choices": ["Environ 11", "Environ 13", "Environ 15", "Environ 17"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "13² = 169, très proche de 170, donc √170 ≈ 13.",
+      "why_others_wrong": ["Sous-estime, confond avec √121 = 11.", "", "Sur-estime, confond avec √225 = 15.", "Confond la racine carrée avec un nombre proche de 170/10."],
+      "method": "Mémoriser quelques carrés parfaits repères (100, 121, 144, 169, 196, 225) pour encadrer rapidement une racine carrée."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-012",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Combien font environ 25 × 39 ?",
+    "choices": ["Environ 800", "Environ 900", "Environ 1000", "Environ 1100"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "25×39 = 25×40 - 25 = 1000 - 25 = 975, le plus proche de 1000.",
+      "why_others_wrong": ["Sous-estime largement, erreur d'arrondi du calcul.", "Sous-estime légèrement, oublie une partie du calcul.", "", "Sur-estime, comme si l'on calculait 25×44."],
+      "method": "Arrondir 39 à 40 (25×40=1000, calcul facile car 25×4=100), puis retirer une fois 25."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["multiplication-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-013",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un article à 60 subit une hausse de 15%. Ordre de grandeur du nouveau prix ?",
+    "choices": ["Environ 63", "Environ 69", "Environ 75", "Environ 81"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "15% de 60 = 9, donc nouveau prix ≈ 60+9 = 69.",
+      "why_others_wrong": ["Sous-estime, comme si la hausse n'était que de 5%.", "", "Sur-estime, comme si la hausse était de 25%.", "Sur-estime largement, comme si la hausse était de 35%."],
+      "method": "Calculer 10% (diviser par 10, soit 6) puis ajouter la moitié pour les 5% restants (3), soit 9 au total à ajouter."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["pourcentages", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-014",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Combien font 540 ÷ 9 ?",
+    "choices": ["50", "54", "60", "64"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "9×60 = 540, donc 540÷9 = 60 exactement.",
+      "why_others_wrong": ["Erreur de table de multiplication, approximation grossière.", "Confond le résultat avec les deux premiers chiffres du dividende.", "", "Erreur de calcul, confond avec 576÷9."],
+      "method": "Repère rapide : 9×6=54, donc 9×60=540. Multiplier par 10 pour ajuster l'ordre de grandeur du dividende."
+    },
+    "targetTimeSeconds": 15,
+    "tags": ["division-approchee"]
+  },
+  {
+    "id": "calcul-mental-015",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Ordre de grandeur de 11 × 11 × 11 (11³) :",
+    "choices": ["Environ 900", "Environ 1100", "Environ 1300", "Environ 1700"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "11² = 121, puis 121×11 = 1331, le plus proche de 1300.",
+      "why_others_wrong": ["Sous-estime, comme si l'on calculait 10×10×9.", "S'arrête après un calcul partiel sans compléter la dernière multiplication.", "", "Sur-estime, comme si l'on calculait environ 11×11×13."],
+      "method": "Calculer d'abord 11² = 121 (facile à retenir), puis multiplier ce résultat par 11 en utilisant l'astuce ×11 = ×10 + le nombre lui-même."
+    },
+    "targetTimeSeconds": 22,
+    "tags": ["ordre-de-grandeur", "puissances"]
+  },
+  {
+    "id": "calcul-mental-016",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Convertir 0,75 en pourcentage.",
+    "choices": ["7,5%", "75%", "0,75%", "750%"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Pour convertir un nombre décimal en pourcentage, multiplier par 100 : 0,75×100 = 75%.",
+      "why_others_wrong": ["Erreur de décalage de virgule : divise par 10 au lieu de multiplier par 100.", "", "Confond la valeur décimale avec le pourcentage directement, sans conversion.", "Erreur de décalage de virgule dans l'autre sens : multiplie par 1000 au lieu de 100."],
+      "method": "Décaler la virgule de 2 rangs vers la droite pour passer d'un nombre décimal à un pourcentage."
+    },
+    "targetTimeSeconds": 12,
+    "tags": ["pourcentages", "conversions"]
+  },
+  {
+    "id": "calcul-mental-017",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "1/8 correspond à environ quel pourcentage ?",
+    "choices": ["Environ 8%", "Environ 12,5%", "Environ 18%", "Environ 25%"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "1/8 = 0,125, soit 12,5%.",
+      "why_others_wrong": ["Confond le pourcentage avec le dénominateur de la fraction.", "", "Erreur d'approximation, comme si l'on confondait avec 1/5,5.", "Confond 1/8 avec 1/4 (25%)."],
+      "method": "Mémoriser les fractions usuelles : 1/2=50%, 1/4=25%, 1/8=12,5%, 1/3≈33%, 1/5=20%."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["pourcentages", "fractions-usuelles"]
+  },
+  {
+    "id": "calcul-mental-018",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Estimer 480 augmenté de 19% : quel est l'ordre de grandeur du résultat ?",
+    "choices": ["Environ 500", "Environ 570", "Environ 620", "Environ 670"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "19% ≈ 20% de 480 = 96, donc résultat ≈ 480+96 = 576, le plus proche de 570.",
+      "why_others_wrong": ["Sous-estime, comme si la hausse n'était que de 4%.", "", "Sur-estime, comme si la hausse était de 30%.", "Sur-estime largement, comme si la hausse était de 40%."],
+      "method": "Arrondir 19% à 20% pour calculer vite (diviser par 10 puis doubler), le léger écart ne change pas l'ordre de grandeur."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["pourcentages", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-019",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Ordre de grandeur de 2/3 de 930 :",
+    "choices": ["Environ 460", "Environ 620", "Environ 700", "Environ 780"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "930/3 = 310, donc 2/3 de 930 = 2×310 = 620.",
+      "why_others_wrong": ["Confond avec la moitié de 930.", "", "Sur-estime, erreur d'approximation de la fraction.", "Confond avec 5/6 de 930."],
+      "method": "Diviser d'abord par le dénominateur (930÷3=310), puis multiplier par le numérateur (×2)."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["fractions-usuelles", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-020",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Combien font environ 6,8 × 5 ?",
+    "choices": ["Environ 28", "Environ 34", "Environ 40", "Environ 46"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "6,8×5 = 34 (proche de 7×5=35, ajusté légèrement à la baisse).",
+      "why_others_wrong": ["Sous-estime, comme si l'on arrondissait 6,8 à 5,6.", "", "Sur-estime, comme si l'on arrondissait 6,8 à 8 au lieu de 7.", "Sur-estime largement, confond avec un carré approché de 6,8."],
+      "method": "Arrondir 6,8 à 7 pour un calcul rapide (7×5=35), puis ajuster très légèrement à la baisse."
+    },
+    "targetTimeSeconds": 15,
+    "tags": ["multiplication-approchee"]
+  },
+  {
+    "id": "calcul-mental-021",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Estimer rapidement combien de fois 24 est contenu dans 310 :",
+    "choices": ["Environ 9", "Environ 13", "Environ 17", "Environ 21"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "24×13 = 312, très proche de 310, donc 310÷24 ≈ 13.",
+      "why_others_wrong": ["Sous-estime, comme si l'on divisait 310 par 34.", "", "Sur-estime, comme si l'on divisait 310 par 18.", "Sur-estime largement, comme si l'on divisait 310 par 15."],
+      "method": "Arrondir 24 à 25 : 310÷25 = 12,4, puis ajuster légèrement à la hausse car 24 est plus petit que 25 (le quotient réel est donc un peu plus grand)."
+    },
+    "targetTimeSeconds": 22,
+    "tags": ["division-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-022",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un trajet de 340 km est parcouru à une vitesse moyenne d'environ 85 km/h. Ordre de grandeur du temps de trajet ?",
+    "choices": ["Environ 3h", "Environ 4h", "Environ 5h", "Environ 6h"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "340÷85 = 4h exactement (85×4=340).",
+      "why_others_wrong": ["Sous-estime, comme si l'on arrondissait la vitesse trop haut avant de diviser.", "", "Sur-estime, comme si l'on arrondissait la vitesse trop bas avant de diviser.", "Erreur importante de division mentale."],
+      "method": "Repère rapide : 85×4 = 340, donc temps = distance/vitesse tombe juste sur 4h."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["division-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-023",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Convertir mentalement 4500 g en kg.",
+    "choices": ["0,45 kg", "4,5 kg", "45 kg", "450 kg"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "1 kg = 1000 g, donc 4500 g = 4500/1000 = 4,5 kg.",
+      "why_others_wrong": ["Erreur de décalage de virgule : divise par 10 000 au lieu de 1000.", "", "Erreur de décalage de virgule : divise par 100 au lieu de 1000.", "Confond grammes et kilogrammes en appliquant le mauvais facteur de conversion."],
+      "method": "Pour convertir des g en kg, décaler la virgule de 3 rangs vers la gauche (diviser par 1000)."
+    },
+    "targetTimeSeconds": 12,
+    "tags": ["conversions"]
+  },
+  {
+    "id": "calcul-mental-024",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Ordre de grandeur de 49 × 51 :",
+    "choices": ["Environ 2000", "Environ 2500", "Environ 3000", "Environ 3500"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "49×51 = 50²-1 = 2500-1 = 2499, très proche de 2500.",
+      "why_others_wrong": ["Sous-estime, arrondit trop bas les deux facteurs.", "", "Sur-estime, comme si l'on arrondissait les deux facteurs à 55.", "Sur-estime largement, erreur d'ordre de grandeur."],
+      "method": "Astuce (a-1)(a+1)=a²-1 : ici 49×51 = 50²-1 = 2499, calcul quasi instantané."
+    },
+    "targetTimeSeconds": 18,
+    "tags": ["multiplication-approchee", "ordre-de-grandeur"]
+  },
+  {
+    "id": "calcul-mental-025",
+    "module": "calcul-mental",
+    "subtest": "calcul-mental",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une réunion regroupe 60 personnes, dont environ 65% de femmes. Ordre de grandeur du nombre de femmes ?",
+    "choices": ["Environ 30", "Environ 39", "Environ 45", "Environ 50"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "65% de 60 = 0,65×60 = 39.",
+      "why_others_wrong": ["Confond avec 50% de 60.", "", "Sur-estime, comme si l'on prenait 75% de 60.", "Sur-estime largement, comme si l'on prenait environ 83% de 60."],
+      "method": "Décomposer : 50% de 60 = 30, plus 15% de 60 = 9 (10%=6, 5%=3), total 30+9=39."
+    },
+    "targetTimeSeconds": 20,
+    "tags": ["pourcentages", "ordre-de-grandeur"]
+  }
+]

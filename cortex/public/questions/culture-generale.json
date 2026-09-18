@@ -1,0 +1,722 @@
+[
+  {
+    "id": "culture-generale-001",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle institution européenne est chargée de fixer les taux d'intérêt directeurs de la zone euro ?",
+    "choices": ["La Commission européenne", "La Banque centrale européenne", "Le Parlement européen", "La Banque européenne d'investissement"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La BCE, basée à Francfort, est l'institution indépendante chargée de la politique monétaire de la zone euro, dont la fixation des taux directeurs.",
+      "why_others_wrong": ["La Commission propose et fait appliquer les lois européennes mais ne gère pas la politique monétaire.", "", "Le Parlement européen légifère et vote le budget mais n'a pas de pouvoir monétaire direct.", "La BEI finance des projets d'investissement de long terme, elle ne fixe pas les taux directeurs."],
+      "method": "Associer chaque institution européenne à sa fonction unique : Commission = exécutif, Parlement = législatif, BCE = monnaie, BEI = financement de projets."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["institutions-europeennes", "politique-monetaire"]
+  },
+  {
+    "id": "culture-generale-002",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Comment définit-on le PIB (Produit Intérieur Brut) d'un pays ?",
+    "choices": ["La somme des richesses possédées par les habitants d'un pays", "La valeur totale des biens et services produits sur le territoire national durant une période donnée", "Le total des impôts collectés par l'État en un an", "La valeur des exportations moins celle des importations"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le PIB mesure la valeur ajoutée totale créée par la production de biens et services à l'intérieur d'un territoire sur une période, généralement un an ou un trimestre.",
+      "why_others_wrong": ["Cela correspond plutôt au patrimoine ou à la richesse nette, un stock, alors que le PIB est un flux de production.", "", "C'est la définition des recettes fiscales, un indicateur budgétaire distinct du PIB.", "C'est la définition de la balance commerciale, qui n'est qu'une composante du PIB."],
+      "method": "Retenir le P de PIB comme 'Production' : c'est un flux annuel de richesse créée, pas un stock de patrimoine ni un solde d'échanges."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["economie", "indicateurs"]
+  },
+  {
+    "id": "culture-generale-003",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que mesure principalement le taux d'inflation ?",
+    "choices": ["La hausse du chômage sur une période donnée", "L'évolution générale et durable des prix à la consommation", "La croissance du PIB d'une année sur l'autre", "La variation du cours d'une monnaie par rapport à une autre"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'inflation désigne la hausse générale et durable du niveau des prix, mesurée en France notamment par l'indice des prix à la consommation (IPC).",
+      "why_others_wrong": ["C'est la définition du chômage, indicateur du marché du travail, pas des prix.", "", "C'est la définition de la croissance économique, un indicateur distinct de l'inflation.", "C'est la définition du taux de change, qui concerne la valeur relative des monnaies."],
+      "method": "Associer inflation à 'prix' : si la question porte sur les prix à la consommation qui augmentent durablement, c'est l'inflation."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["economie", "inflation"]
+  },
+  {
+    "id": "culture-generale-004",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "En France, une personne est considérée comme 'chômeur' au sens du Bureau International du Travail (BIT) si elle est notamment :",
+    "choices": ["Inscrite à France Travail, quel que soit son statut d'emploi", "Sans emploi, disponible pour travailler et recherchant activement un emploi", "Salariée à temps partiel contre son gré", "En arrêt maladie de longue durée"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La définition du BIT retient trois critères cumulatifs : être sans emploi, être disponible pour travailler sous 15 jours, et rechercher activement un emploi.",
+      "why_others_wrong": ["L'inscription administrative ne suffit pas : on peut être inscrit sans remplir les critères du BIT, ou remplir les critères sans être inscrit.", "", "Cette situation relève du sous-emploi (temps partiel subi), catégorie distincte du chômage au sens du BIT.", "Une personne en arrêt maladie n'est pas comptabilisée comme chômeur puisqu'elle n'est pas disponible pour travailler."],
+      "method": "Retenir les 3 critères BIT : sans emploi + disponible + recherche active, à ne pas confondre avec l'inscription administrative à France Travail."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "marche-travail"]
+  },
+  {
+    "id": "culture-generale-005",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Selon la loi de l'offre et de la demande, que se passe-t-il généralement sur un marché lorsque l'offre d'un bien augmente fortement alors que la demande reste stable ?",
+    "choices": ["Le prix du bien a tendance à augmenter", "Le prix du bien a tendance à baisser", "Le prix reste toujours strictement identique", "La demande augmente automatiquement en retour"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Quand l'offre augmente à demande constante, la concurrence entre vendeurs pousse les prix à la baisse jusqu'à un nouvel équilibre.",
+      "why_others_wrong": ["C'est l'effet inverse : une offre plus abondante à demande stable exerce une pression à la baisse sur les prix.", "", "Le prix est un mécanisme d'ajustement ; il varie précisément pour équilibrer offre et demande.", "La demande est ici supposée stable par hypothèse de l'énoncé ; ce n'est pas une conséquence automatique de la hausse d'offre."],
+      "method": "Visualiser le graphique offre/demande : un déplacement de la courbe d'offre vers la droite, demande inchangée, fait baisser le prix d'équilibre."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "marche"]
+  },
+  {
+    "id": "culture-generale-006",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est la différence entre le déficit public et la dette publique ?",
+    "choices": ["Ce sont deux termes strictement synonymes", "Le déficit est un flux annuel (dépenses supérieures aux recettes sur un an), la dette est le stock cumulé des emprunts non remboursés", "Le déficit concerne l'État, la dette concerne uniquement les entreprises", "La dette est toujours égale au déficit de l'année en cours"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le déficit public est l'écart annuel entre dépenses et recettes publiques, tandis que la dette publique est le cumul de tous les déficits (et excédents) passés qui doit être remboursé.",
+      "why_others_wrong": ["Ce sont deux notions liées mais distinctes : l'une est un flux, l'autre un stock.", "", "La dette publique inclut aussi les emprunts des collectivités locales et de la Sécurité sociale, pas seulement de l'État, et n'a rien à voir avec les entreprises privées.", "La dette est le cumul de tous les déficits (et excédents) passés, pas seulement celui de l'année en cours."],
+      "method": "Penser 'flux vs stock' : le déficit se mesure sur un an (comme un salaire), la dette est un cumul (comme une épargne négative)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "finances-publiques"]
+  },
+  {
+    "id": "culture-generale-007",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Que représente l'indice boursier CAC 40 ?",
+    "choices": ["Les 40 entreprises françaises ayant le chiffre d'affaires le plus élevé", "Les 40 plus grandes capitalisations boursières cotées sur Euronext Paris", "Les 40 entreprises publiques françaises", "Un indice des 40 principales monnaies mondiales"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le CAC 40 est l'indice phare de la Bourse de Paris, regroupant les 40 plus grandes capitalisations boursières françaises cotées sur Euronext Paris.",
+      "why_others_wrong": ["Le classement se fait par capitalisation boursière et liquidité des titres, pas par chiffre d'affaires.", "", "Le CAC 40 regroupe des entreprises cotées, majoritairement privées, pas des entreprises publiques.", "Le CAC 40 est un indice boursier d'actions, sans lien avec les marchés des devises."],
+      "method": "CAC = Cotation Assistée en Continu ; retenir que le classement se fait par capitalisation boursière, pas par chiffre d'affaires ni par statut public/privé."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-france", "bourse"]
+  },
+  {
+    "id": "culture-generale-008",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "LVMH, dirigé par Bernard Arnault, est un groupe leader mondial dans quel secteur ?",
+    "choices": ["L'agroalimentaire", "Le luxe (mode, maroquinerie, spiritueux, cosmétique)", "Les télécommunications", "L'énergie"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "LVMH (Louis Vuitton Moët Hennessy) est le numéro un mondial du luxe, regroupant des maisons comme Louis Vuitton, Dior, Moët & Chandon ou Sephora.",
+      "why_others_wrong": ["LVMH ne fait pas d'agroalimentaire ; ce secteur en France est plutôt représenté par des groupes comme Danone.", "", "LVMH n'opère pas dans les télécoms, secteur représenté en France par des groupes comme Orange ou Bouygues Telecom.", "LVMH n'est pas un acteur de l'énergie, secteur représenté en France par des groupes comme TotalEnergies ou EDF."],
+      "method": "Décomposer le sigle LVMH : Louis Vuitton (maroquinerie) + Moët + Hennessy (vins et spiritueux) = univers du luxe."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-france", "luxe"]
+  },
+  {
+    "id": "culture-generale-009",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "En quelle année le mur de Berlin est-il tombé, symbolisant la fin de la division de l'Europe ?",
+    "choices": ["1985", "1989", "1991", "1994"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le mur de Berlin tombe le 9 novembre 1989, événement majeur marquant la fin de la division de l'Europe et annonçant la réunification allemande en 1990.",
+      "why_others_wrong": ["En 1985, Mikhaïl Gorbatchev arrive au pouvoir en URSS et lance la perestroïka, mais le mur est encore debout.", "", "En 1991, c'est l'URSS elle-même qui est dissoute, deux ans après la chute du mur.", "En 1994, le mur est tombé depuis 5 ans ; cette date ne correspond à aucun événement majeur de la guerre froide."],
+      "method": "Retenir la chronologie : 1989 chute du mur, 1990 réunification allemande, 1991 dissolution de l'URSS."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["histoire-xxe", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-010",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Le traité de Maastricht, signé en 1992, a notamment permis :",
+    "choices": ["La création de la Communauté économique européenne (CEE)", "La création de l'Union européenne et la fondation du projet de monnaie unique (l'euro)", "L'entrée du Royaume-Uni dans l'Union européenne", "La création de l'espace Schengen"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le traité de Maastricht (1992) transforme la CEE en Union européenne et pose les bases de l'union économique et monétaire, ouvrant la voie à l'euro.",
+      "why_others_wrong": ["La CEE a été créée bien plus tôt, par le traité de Rome en 1957.", "", "Le Royaume-Uni a rejoint la CEE en 1973, avant même la création de l'UE par Maastricht.", "L'espace Schengen résulte des accords de Schengen signés en 1985 et entrés en vigueur en 1995, un texte distinct de Maastricht."],
+      "method": "Associer Maastricht à 'naissance de l'UE et de l'euro', Rome à 'naissance de la CEE', Schengen à 'libre circulation des personnes'."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["histoire-xxe", "institutions-europeennes"]
+  },
+  {
+    "id": "culture-generale-011",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le rôle principal de l'Organisation des Nations Unies (ONU) ?",
+    "choices": ["Réguler le commerce international entre ses membres", "Maintenir la paix et la sécurité internationales et favoriser la coopération entre États", "Fixer les taux de change des monnaies mondiales", "Gérer exclusivement l'aide humanitaire d'urgence"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Fondée en 1945, l'ONU a pour mission principale le maintien de la paix et de la sécurité internationales, ainsi que la coopération entre États sur les plans économique, social et humanitaire.",
+      "why_others_wrong": ["C'est le rôle de l'Organisation Mondiale du Commerce (OMC), une organisation distincte.", "", "Cela relève du Fonds Monétaire International (FMI) et des banques centrales, pas de l'ONU.", "L'aide humanitaire n'est qu'une partie de l'action de certaines agences onusiennes (comme le HCR), pas la mission centrale de l'ONU."],
+      "method": "Distinguer les grandes organisations internationales par leur mission : ONU = paix/sécurité, OMC = commerce, FMI = stabilité financière."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["organisations-internationales", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-012",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "L'OTAN (Organisation du traité de l'Atlantique Nord) est avant tout :",
+    "choices": ["Une organisation économique de libre-échange", "Une alliance militaire de défense collective entre pays membres", "Une agence de l'ONU dédiée à la sécurité alimentaire", "Une union monétaire entre pays européens et nord-américains"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Créée en 1949, l'OTAN repose sur le principe de défense collective (article 5) : une attaque contre un membre est considérée comme une attaque contre tous.",
+      "why_others_wrong": ["L'OTAN n'a pas de vocation commerciale ; le libre-échange relève d'accords comme ceux de l'UE ou de l'OMC.", "", "L'OTAN est indépendante de l'ONU et n'a aucun lien avec la sécurité alimentaire.", "L'OTAN n'a aucune fonction monétaire ; elle est de nature strictement militaire et politique."],
+      "method": "Retenir OTAN = alliance militaire née de la guerre froide, à ne pas confondre avec l'UE (union économique et politique)."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["organisations-internationales", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-013",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "En quelle année le Royaume-Uni a-t-il officiellement quitté l'Union européenne ?",
+    "choices": ["2016", "2018", "2020", "2022"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Après le référendum de 2016 et plusieurs années de négociations, le Royaume-Uni quitte officiellement l'UE le 31 janvier 2020, suivi d'une période de transition jusqu'à fin 2020.",
+      "why_others_wrong": ["2016 est l'année du référendum où les Britanniques ont voté en faveur de la sortie, mais la sortie effective est postérieure.", "2018 ne correspond à aucune étape officielle majeure du Brexit.", "", "2022 est postérieur de deux ans à la sortie effective du Royaume-Uni de l'UE."],
+      "method": "Distinguer le vote (référendum de 2016) de la sortie effective (2020) : deux dates souvent confondues."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["geopolitique", "institutions-europeennes"]
+  },
+  {
+    "id": "culture-generale-014",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Dans les institutions de la Ve République française, qui est responsable devant l'Assemblée nationale et peut être renversé par une motion de censure ?",
+    "choices": ["Le Président de la République", "Le Premier ministre et son gouvernement", "Le Président du Sénat", "Le Conseil constitutionnel"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "C'est le gouvernement, dirigé par le Premier ministre, qui est responsable devant l'Assemblée nationale et peut être renversé par une motion de censure, conformément au régime parlementaire de la Ve République.",
+      "why_others_wrong": ["Le Président de la République n'est pas responsable devant l'Assemblée nationale ; il est élu au suffrage universel direct et ne peut être renversé par une motion de censure.", "", "Le Président du Sénat n'a pas de responsabilité politique devant l'Assemblée nationale.", "Le Conseil constitutionnel est une juridiction qui contrôle la conformité des lois à la Constitution, sans lien avec la motion de censure."],
+      "method": "Retenir : le Président est élu au suffrage universel et irresponsable politiquement devant le Parlement ; le gouvernement, lui, doit avoir la confiance de l'Assemblée."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["institutions-france"]
+  },
+  {
+    "id": "culture-generale-015",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est la principale différence entre l'Assemblée nationale et le Sénat en France ?",
+    "choices": ["L'Assemblée nationale est élue au suffrage universel direct, le Sénat au suffrage universel indirect (par des grands électeurs)", "Le Sénat peut à lui seul renverser le gouvernement, contrairement à l'Assemblée nationale", "L'Assemblée nationale siège à Versailles, le Sénat à Paris", "Seul le Sénat peut voter les lois de finances"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Les députés de l'Assemblée nationale sont élus directement par les citoyens, tandis que les sénateurs sont élus indirectement par un collège de grands électeurs (élus locaux).",
+      "why_others_wrong": ["", "C'est l'inverse : seule l'Assemblée nationale peut voter une motion de censure renversant le gouvernement.", "C'est l'Assemblée nationale qui siège au Palais Bourbon à Paris et le Sénat au Palais du Luxembourg, également à Paris ; Versailles n'accueille que le Congrès réuni exceptionnellement.", "L'Assemblée nationale a le dernier mot sur les lois de finances en cas de désaccord avec le Sénat."],
+      "method": "Retenir : Assemblée nationale = suffrage direct + pouvoir de censure ; Sénat = suffrage indirect + pas de pouvoir de renverser le gouvernement."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["institutions-france"]
+  },
+  {
+    "id": "culture-generale-016",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Comment se déroule l'élection présidentielle française si aucun candidat n'obtient la majorité absolue au premier tour ?",
+    "choices": ["Le candidat arrivé en tête est directement élu", "Un second tour est organisé entre les deux candidats arrivés en tête", "Le Parlement désigne le président parmi les candidats", "Un troisième tour est organisé avec tous les candidats"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Si aucun candidat n'obtient la majorité absolue des suffrages au premier tour, un second tour est organisé deux semaines plus tard entre les deux candidats arrivés en tête.",
+      "why_others_wrong": ["Une majorité absolue (plus de 50%) est nécessaire pour être élu dès le premier tour ; arriver en tête ne suffit pas.", "", "Ce n'est pas le Parlement mais les électeurs qui choisissent le président, y compris lors du second tour.", "Le système français prévoit exactement deux tours, jamais un troisième."],
+      "method": "Retenir le scrutin uninominal majoritaire à deux tours : majorité absolue nécessaire au 1er tour, sinon duel des deux premiers au 2nd tour."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["institutions-france"]
+  },
+  {
+    "id": "culture-generale-017",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La crise financière mondiale de 2008 trouve son origine principale dans :",
+    "choices": ["Une crise pétrolière majeure au Moyen-Orient", "L'effondrement du marché des prêts hypothécaires à risque (subprimes) aux États-Unis", "La faillite de la Grèce et la crise des dettes souveraines européennes", "Une guerre commerciale entre les États-Unis et la Chine"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La crise de 2008 part de l'effondrement du marché immobilier américain et des prêts subprimes, propageant une crise bancaire et financière mondiale après la faillite de Lehman Brothers.",
+      "why_others_wrong": ["Aucune crise pétrolière majeure n'est à l'origine de la crise de 2008 ; les chocs pétroliers historiques datent de 1973 et 1979.", "", "La crise de la dette grecque éclate en 2009-2010, en partie aggravée par la crise de 2008, mais elle n'en est pas la cause.", "La guerre commerciale sino-américaine est un phénomène plus récent (à partir de 2018), sans lien avec la crise de 2008."],
+      "method": "Retenir la chaîne causale : prêts subprimes risqués -> titrisation -> effondrement immobilier US -> faillite de Lehman Brothers (2008) -> crise financière mondiale."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["histoire-economique", "economie"]
+  },
+  {
+    "id": "culture-generale-018",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Le traité de Versailles, signé en 1919, a mis fin à quel conflit ?",
+    "choices": ["La guerre franco-prussienne de 1870", "La Première Guerre mondiale", "La Seconde Guerre mondiale", "La guerre de Corée"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le traité de Versailles, signé le 28 juin 1919, officialise la fin de la Première Guerre mondiale et impose de lourdes réparations à l'Allemagne.",
+      "why_others_wrong": ["La guerre franco-prussienne s'est achevée en 1871 par le traité de Francfort, bien avant Versailles 1919.", "", "La Seconde Guerre mondiale s'est achevée en 1945, sanctionnée par d'autres accords comme la capitulation de l'Allemagne et du Japon.", "La guerre de Corée (1950-1953) est un conflit du XXe siècle sans rapport avec le traité de Versailles."],
+      "method": "Associer 1919/Versailles à la fin de la Première Guerre mondiale, et 1945 aux accords qui closent la Seconde Guerre mondiale."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["histoire-xxe"]
+  },
+  {
+    "id": "culture-generale-019",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "À partir de la fin des années 1970, quelle politique Deng Xiaoping met-il en œuvre pour transformer l'économie chinoise ?",
+    "choices": ["Un renforcement du collectivisme agricole strict", "Des réformes d'ouverture économique et d'introduction progressive du marché ('économie socialiste de marché')", "Un isolement total de la Chine vis-à-vis du commerce mondial", "L'adoption immédiate d'une démocratie multipartite"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Deng Xiaoping lance à partir de 1978 des réformes économiques pragmatiques mêlant marché et planification, ouvrant la Chine au commerce mondial tout en maintenant le contrôle politique du Parti communiste.",
+      "why_others_wrong": ["C'est l'inverse : Deng Xiaoping assouplit le collectivisme agricole rigide de l'époque maoïste.", "", "Deng Xiaoping ouvre au contraire la Chine aux investissements étrangers et au commerce international, notamment via des zones économiques spéciales.", "Les réformes de Deng Xiaoping sont économiques ; le régime politique chinois reste un système à parti unique."],
+      "method": "Retenir la formule 'économie socialiste de marché' : ouverture économique et marché, mais maintien du monopole politique du Parti."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["histoire-xxe", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-020",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le rôle principal de l'OPEP (Organisation des pays exportateurs de pétrole) ?",
+    "choices": ["Réguler le prix du pétrole en coordonnant les niveaux de production de ses membres", "Fixer les normes environnementales mondiales pour l'industrie pétrolière", "Financer des projets d'infrastructures dans les pays en développement", "Réguler le commerce mondial de toutes les matières premières"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'OPEP coordonne les politiques pétrolières de ses membres et ajuste les quotas de production afin d'influencer les cours mondiaux du pétrole.",
+      "why_others_wrong": ["", "La régulation environnementale relève d'autres instances (accords internationaux, agences dédiées), pas de la mission première de l'OPEP.", "Ce rôle de financement du développement relève plutôt d'institutions comme la Banque mondiale.", "L'OPEP est spécifique au pétrole, elle ne couvre pas l'ensemble des matières premières."],
+      "method": "Retenir OPEP = cartel de producteurs de pétrole qui ajuste l'offre pour influencer les prix, à ne pas confondre avec une agence de régulation environnementale ou de développement."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["organisations-internationales", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-021",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Airbus, groupe aéronautique européen coté au CAC 40, est en concurrence mondiale directe avec quel groupe américain sur le marché des avions commerciaux ?",
+    "choices": ["Lockheed Martin", "Boeing", "General Electric", "Raytheon"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Airbus et Boeing sont les deux géants mondiaux de la construction d'avions commerciaux, formant un duopole sur ce marché.",
+      "why_others_wrong": ["Lockheed Martin est surtout un acteur de la défense et de l'aérospatial militaire, moins présent sur les avions commerciaux.", "", "General Electric est notamment un motoriste (moteurs d'avion), partenaire ou fournisseur plutôt que concurrent direct sur les avions complets.", "Raytheon (aujourd'hui RTX) est principalement un acteur de la défense et de l'électronique, pas un constructeur d'avions commerciaux concurrent d'Airbus."],
+      "method": "Retenir le duopole Airbus (Europe) / Boeing (États-Unis) sur les avions commerciaux de ligne."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-internationales", "aeronautique"]
+  },
+  {
+    "id": "culture-generale-022",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "TotalEnergies, groupe français du CAC 40, est historiquement un acteur majeur de quel secteur ?",
+    "choices": ["Le pétrole, le gaz et plus largement l'énergie", "La grande distribution alimentaire", "Les télécommunications", "L'industrie pharmaceutique"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "TotalEnergies est l'un des principaux groupes énergétiques mondiaux, historiquement centré sur le pétrole et le gaz, et aujourd'hui diversifié vers les énergies renouvelables et l'électricité.",
+      "why_others_wrong": ["", "La grande distribution en France est représentée par des groupes comme Carrefour ou Leclerc, pas TotalEnergies.", "Les télécommunications sont un secteur distinct, représenté en France par des groupes comme Orange.", "TotalEnergies n'est pas un acteur pharmaceutique ; ce secteur est représenté par des groupes comme Sanofi."],
+      "method": "Associer TotalEnergies à l'énergie (pétrole, gaz, électricité), un secteur clé du CAC 40 aux côtés du luxe et de la banque."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-france", "energie"]
+  },
+  {
+    "id": "culture-generale-023",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "L'acronyme GAFAM désigne un groupe de grandes entreprises technologiques américaines. Lequel de ces groupes n'en fait PAS partie ?",
+    "choices": ["Google (Alphabet)", "Amazon", "Samsung", "Microsoft"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Samsung est une entreprise sud-coréenne, non américaine ; le GAFAM désigne spécifiquement Google, Apple, Facebook (Meta), Amazon et Microsoft.",
+      "why_others_wrong": ["Google (via sa maison mère Alphabet) est bien l'un des cinq membres du GAFAM (le G).", "Amazon est bien l'un des cinq membres du GAFAM (le deuxième A).", "", "Microsoft est bien l'un des cinq membres du GAFAM (le M)."],
+      "method": "Décomposer le sigle GAFAM : Google, Apple, Facebook (Meta), Amazon, Microsoft - toutes des entreprises américaines."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-internationales", "numerique"]
+  },
+  {
+    "id": "culture-generale-024",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "En France, l'indice des prix à la consommation (IPC), utilisé pour mesurer l'inflation, est calculé et publié par :",
+    "choices": ["La Banque de France", "L'INSEE (Institut national de la statistique et des études économiques)", "Le ministère de l'Économie", "La Banque centrale européenne"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'INSEE est l'institut statistique public français chargé de collecter les prix et de calculer chaque mois l'indice des prix à la consommation.",
+      "why_others_wrong": ["La Banque de France participe à la politique monétaire et à la stabilité financière, mais ne produit pas l'IPC officiel.", "", "Le ministère de l'Économie utilise ces données mais n'est pas l'organisme producteur de l'indice.", "La BCE utilise un indice harmonisé européen construit à partir des données nationales, mais ne calcule pas l'IPC français elle-même."],
+      "method": "Retenir INSEE = organisme public de référence pour toutes les statistiques économiques et démographiques françaises, dont l'inflation."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "institutions-france"]
+  },
+  {
+    "id": "culture-generale-025",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Qu'appelle-t-on le 'taux de change' entre deux monnaies ?",
+    "choices": ["Le taux d'intérêt appliqué aux prêts internationaux", "Le prix d'une monnaie exprimé dans une autre monnaie", "Le taux de croissance économique comparé entre deux pays", "Le montant des réserves de change d'une banque centrale"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le taux de change indique combien d'unités d'une monnaie il faut pour obtenir une unité d'une autre monnaie, par exemple le nombre de dollars nécessaires pour obtenir un euro.",
+      "why_others_wrong": ["C'est la définition d'un taux d'intérêt, qui rémunère un prêt, pas la valeur relative de deux monnaies.", "", "C'est la définition d'un différentiel de croissance, indicateur économique distinct.", "C'est la définition des réserves de change, un stock d'actifs détenus par une banque centrale, pas un taux."],
+      "method": "Penser au taux de change comme à une 'étiquette de prix' d'une monnaie exprimée dans une autre monnaie."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["economie"]
+  },
+  {
+    "id": "culture-generale-026",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "En quelle année l'URSS (Union des républiques socialistes soviétiques) a-t-elle été officiellement dissoute ?",
+    "choices": ["1989", "1991", "1993", "1999"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'URSS est officiellement dissoute le 26 décembre 1991, marquant la fin de la guerre froide et la naissance de plusieurs États indépendants dont la Russie.",
+      "why_others_wrong": ["1989 correspond à la chute du mur de Berlin, événement antérieur à la dissolution de l'URSS.", "", "En 1993, l'URSS n'existe déjà plus depuis deux ans ; c'est plutôt une période de crise institutionnelle en Russie.", "En 1999, Boris Eltsine cède le pouvoir à Vladimir Poutine, mais l'URSS est dissoute depuis 8 ans déjà."],
+      "method": "Retenir la séquence : 1989 chute du mur de Berlin, 1990 réunification allemande, 1991 dissolution de l'URSS."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["histoire-xxe", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-027",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La 'guerre froide' désigne principalement :",
+    "choices": ["Un conflit armé direct entre les États-Unis et l'URSS", "Une période de tensions géopolitiques et idéologiques entre les États-Unis et l'URSS, sans affrontement militaire direct entre elles", "La guerre de Corée uniquement", "Le conflit israélo-arabe pendant les années 1960"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La guerre froide (1947-1991 environ) désigne l'affrontement idéologique, politique et militaire indirect entre le bloc occidental (États-Unis) et le bloc communiste (URSS), sans guerre déclarée entre les deux superpuissances.",
+      "why_others_wrong": ["Le terme 'froide' souligne justement l'absence de conflit armé direct entre les deux superpuissances, malgré des guerres par procuration ailleurs.", "", "La guerre de Corée n'est qu'un des conflits par procuration de cette période, pas la guerre froide dans son ensemble.", "Le conflit israélo-arabe est un conflit distinct, bien que lié indirectement aux jeux d'alliances de la guerre froide."],
+      "method": "Retenir 'froide' = pas de conflit armé direct entre les deux blocs, mais des guerres par procuration (Corée, Vietnam...) et une course aux armements."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["histoire-xxe", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-028",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est le rôle principal de la Commission européenne ?",
+    "choices": ["Voter les lois européennes en dernier ressort", "Proposer les textes législatifs européens et veiller à l'application des traités ('gardienne des traités')", "Élire le Parlement européen", "Fixer les taux d'intérêt de la zone euro"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "La Commission européenne a le monopole de l'initiative législative dans l'UE : elle propose les lois et veille à la bonne application des traités par les États membres.",
+      "why_others_wrong": ["Le vote final des lois relève du Parlement européen et du Conseil de l'Union européenne, pas de la Commission seule.", "", "Le Parlement européen est élu directement par les citoyens européens, la Commission n'y joue aucun rôle électoral.", "C'est le rôle de la Banque centrale européenne, institution distincte de la Commission."],
+      "method": "Retenir : Commission = propose et exécute, Parlement + Conseil = votent les lois, BCE = monnaie."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["institutions-europeennes"]
+  },
+  {
+    "id": "culture-generale-029",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Comment sont élus les membres du Parlement européen ?",
+    "choices": ["Ils sont nommés par les gouvernements nationaux", "Ils sont élus au suffrage universel direct par les citoyens de chaque État membre", "Ils sont désignés par la Commission européenne", "Ils sont élus par les parlements nationaux"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Depuis 1979, les membres du Parlement européen sont élus tous les cinq ans au suffrage universel direct par les citoyens de chaque État membre.",
+      "why_others_wrong": ["Les eurodéputés ne sont pas nommés par les gouvernements ; c'est le cas d'autres représentants au Conseil européen ou au Conseil de l'UE.", "", "La Commission n'a aucun rôle dans la désignation des eurodéputés.", "Contrairement à certaines chambres hautes nationales, les eurodéputés sont élus directement par les citoyens, pas par les parlements nationaux."],
+      "method": "Retenir 1979 comme date de la première élection du Parlement européen au suffrage universel direct."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["institutions-europeennes"]
+  },
+  {
+    "id": "culture-generale-030",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Renault, constructeur automobile français, a formé pendant plus de vingt ans une alliance stratégique majeure avec quel constructeur japonais ?",
+    "choices": ["Toyota", "Nissan", "Honda", "Mazda"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'Alliance Renault-Nissan, nouée en 1999 (rejointe plus tard par Mitsubishi), est l'une des plus importantes alliances internationales de l'industrie automobile.",
+      "why_others_wrong": ["Toyota est un concurrent indépendant de Renault, non lié par une alliance capitalistique.", "", "Honda n'a pas d'alliance capitalistique historique avec Renault.", "Mazda n'a pas d'alliance capitalistique historique avec Renault."],
+      "method": "Retenir le trio Renault-Nissan-Mitsubishi comme alliance automobile franco-japonaise historique."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-france", "automobile"]
+  },
+  {
+    "id": "culture-generale-031",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Danone, groupe agroalimentaire français, est notamment un acteur mondial majeur dans quel domaine ?",
+    "choices": ["Les produits laitiers et l'eau en bouteille", "La construction automobile", "Les télécommunications", "L'aéronautique"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Danone est un leader mondial de l'agroalimentaire, notamment reconnu dans les produits laitiers (yaourts) et les eaux minérales (Evian, Volvic).",
+      "why_others_wrong": ["", "Danone n'a aucune activité dans la construction automobile.", "Danone n'opère pas dans les télécommunications.", "Danone n'a aucune activité dans l'aéronautique."],
+      "method": "Associer Danone aux marques du quotidien : yaourts et eaux en bouteille, secteur de l'agroalimentaire."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-france", "agroalimentaire"]
+  },
+  {
+    "id": "culture-generale-032",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Qui a cofondé Microsoft en 1975 ?",
+    "choices": ["Steve Jobs et Steve Wozniak", "Bill Gates et Paul Allen", "Larry Page et Sergey Brin", "Jeff Bezos"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Bill Gates et Paul Allen fondent Microsoft en 1975, entreprise qui deviendra le leader mondial des logiciels avec notamment le système d'exploitation Windows.",
+      "why_others_wrong": ["Steve Jobs et Steve Wozniak ont cofondé Apple, pas Microsoft.", "", "Larry Page et Sergey Brin ont cofondé Google, pas Microsoft.", "Jeff Bezos a fondé Amazon, pas Microsoft."],
+      "method": "Associer chaque géant de la tech à ses fondateurs : Microsoft = Gates/Allen, Apple = Jobs/Wozniak, Google = Page/Brin, Amazon = Bezos."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["entreprises-internationales", "numerique"]
+  },
+  {
+    "id": "culture-generale-033",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une politique de 'protectionnisme' consiste principalement à :",
+    "choices": ["Supprimer tous les droits de douane pour favoriser les échanges", "Protéger l'économie nationale de la concurrence étrangère, notamment via des droits de douane ou des quotas", "Privatiser massivement les entreprises publiques", "Fixer un taux de change fixe entre deux monnaies"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le protectionnisme vise à limiter la concurrence des produits étrangers sur le marché national, via des outils comme les droits de douane, les quotas d'importation ou les normes techniques.",
+      "why_others_wrong": ["C'est la définition du libre-échange, la politique opposée au protectionnisme.", "", "La privatisation est une politique de réforme de la propriété des entreprises, sans lien direct avec le commerce extérieur.", "Le régime de change fixe est une politique monétaire distincte du protectionnisme commercial."],
+      "method": "Opposer clairement protectionnisme (barrières aux échanges) et libre-échange (suppression des barrières), les deux grandes doctrines du commerce international."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "commerce-international"]
+  },
+  {
+    "id": "culture-generale-034",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un pays affiche un 'déficit commercial'. Que cela signifie-t-il ?",
+    "choices": ["Ses dépenses publiques dépassent ses recettes fiscales", "La valeur de ses importations de biens et services dépasse celle de ses exportations", "Sa dette publique dépasse son PIB", "Son taux de chômage dépasse la moyenne de la zone euro"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le déficit commercial signifie que le pays importe plus de biens et services en valeur qu'il n'en exporte, sur une période donnée.",
+      "why_others_wrong": ["C'est la définition du déficit budgétaire (public), un indicateur distinct de la balance commerciale.", "", "C'est un ratio d'endettement (dette/PIB), sans lien direct avec le commerce extérieur.", "C'est un indicateur du marché du travail, sans lien direct avec les échanges commerciaux."],
+      "method": "Ne pas confondre déficit commercial (importations > exportations) et déficit budgétaire (dépenses publiques > recettes publiques)."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "commerce-international"]
+  },
+  {
+    "id": "culture-generale-035",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Depuis le départ du Royaume-Uni (Brexit), combien d'États membres compte l'Union européenne ?",
+    "choices": ["25", "27", "28", "30"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'Union européenne comptait 28 membres avant le Brexit ; depuis le départ effectif du Royaume-Uni en 2020, elle compte 27 États membres.",
+      "why_others_wrong": ["25 est inférieur au nombre réel de membres actuels de l'UE.", "", "28 correspond au nombre de membres avant le départ du Royaume-Uni.", "30 est supérieur au nombre réel de membres actuels de l'UE."],
+      "method": "Retenir : 28 membres avant le Brexit, 27 depuis 2020, le Royaume-Uni étant sorti du décompte."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["institutions-europeennes", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-036",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est la principale différence entre le G7 et le G20 ?",
+    "choices": ["Le G7 regroupe sept grandes puissances industrialisées, le G20 élargit ce cercle à d'importantes économies émergentes comme la Chine, l'Inde ou le Brésil", "Le G7 est une organisation permanente avec un siège officiel, contrairement au G20", "Le G20 ne réunit que des pays européens", "Le G7 a été créé après le G20"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le G7 réunit sept grandes puissances industrialisées (dont la France), tandis que le G20 inclut en plus d'importantes économies émergentes, représentant une très large part du PIB mondial.",
+      "why_others_wrong": ["", "Ni le G7 ni le G20 ne sont des organisations internationales formelles dotées d'un siège permanent : ce sont des forums de discussion entre chefs d'État et de gouvernement.", "Le G20 réunit des pays de tous les continents, pas seulement européens (États-Unis, Chine, Brésil, Inde, Afrique du Sud, etc.).", "C'est l'inverse : le G7 (sous une forme antérieure, le G6) existe depuis 1975, le G20 a été créé plus tardivement, en 1999."],
+      "method": "Retenir G7 = pays industrialisés historiques, G20 = G7 + grandes économies émergentes."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["organisations-internationales", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-037",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Le 'Printemps arabe', vague de soulèvements populaires dans plusieurs pays du monde arabe, a débuté en :",
+    "choices": ["2001", "2008", "2011", "2015"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Le Printemps arabe débute fin 2010-début 2011 en Tunisie, avant de s'étendre à plusieurs pays comme l'Égypte, la Libye ou la Syrie, entraînant des changements politiques majeurs dans la région.",
+      "why_others_wrong": ["2001 correspond aux attentats du 11 septembre aux États-Unis, sans lien direct avec le Printemps arabe.", "2008 correspond à la crise financière mondiale, événement distinct.", "", "2015 est postérieur de plusieurs années au début du Printemps arabe."],
+      "method": "Associer le Printemps arabe à l'immolation de Mohamed Bouazizi en Tunisie fin 2010, déclencheur d'une vague de contestation régionale en 2011."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["geopolitique", "histoire-recente"]
+  },
+  {
+    "id": "culture-generale-038",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Les attentats du 11 septembre 2001, qui ont visé notamment le World Trade Center à New York, ont été perpétrés par :",
+    "choices": ["Le régime irakien de Saddam Hussein", "Le réseau terroriste Al-Qaïda", "Le régime iranien", "Un groupe armé nord-coréen"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Les attentats du 11 septembre 2001, qui ont fait près de 3000 morts, ont été organisés par le réseau terroriste islamiste Al-Qaïda, dirigé alors par Oussama ben Laden.",
+      "why_others_wrong": ["L'implication directe du régime irakien dans les attentats du 11 septembre n'a jamais été établie, malgré son invocation ultérieure par l'administration américaine pour justifier l'invasion de l'Irak en 2003.", "", "L'Iran n'est pas impliqué dans les attentats du 11 septembre 2001.", "La Corée du Nord n'a aucun lien avec les attentats du 11 septembre 2001."],
+      "method": "Retenir Al-Qaïda comme organisation responsable du 11 septembre 2001, événement déclencheur de la 'guerre contre le terrorisme' menée par les États-Unis."
+    },
+    "targetTimeSeconds": 25,
+    "tags": ["histoire-xxi", "geopolitique"]
+  },
+  {
+    "id": "culture-generale-039",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "L'Accord de Paris sur le climat, adopté lors de la COP21 en 2015, vise principalement à :",
+    "choices": ["Interdire totalement l'usage des énergies fossiles dès 2020", "Limiter le réchauffement climatique mondial nettement en dessous de 2°C par rapport à l'ère préindustrielle", "Créer une monnaie mondiale unique pour financer la transition écologique", "Fusionner toutes les agences environnementales de l'ONU en une seule structure"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "L'Accord de Paris, adopté par la quasi-totalité des pays du monde lors de la COP21, fixe l'objectif de contenir le réchauffement climatique bien en dessous de 2°C, si possible à 1,5°C, par rapport à l'ère préindustrielle.",
+      "why_others_wrong": ["L'accord ne prévoit aucune interdiction totale et immédiate des énergies fossiles ; il fixe des objectifs progressifs de réduction des émissions.", "", "L'Accord de Paris ne crée aucune monnaie mondiale ; le financement climatique passe par des engagements et des fonds existants.", "L'accord ne restructure pas les agences de l'ONU ; il fixe des objectifs climatiques que chaque État s'engage à atteindre via des contributions nationales."],
+      "method": "Retenir COP21 / Accord de Paris 2015 = objectif chiffré de température (2°C, idéalement 1,5°C), premier accord climatique universel."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["geopolitique", "environnement"]
+  },
+  {
+    "id": "culture-generale-040",
+    "module": "culture-generale",
+    "subtest": "culture-generale",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quel est l'objectif principal généralement assigné à une banque centrale comme la BCE dans la conduite de sa politique monétaire ?",
+    "choices": ["Maximiser la croissance du PIB à court terme quel qu'en soit le coût", "Assurer la stabilité des prix (maîtriser l'inflation) dans la zone qu'elle couvre", "Fixer directement les impôts sur le revenu", "Garantir un taux de chômage nul"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Le mandat principal de la BCE, comme de nombreuses banques centrales, est d'assurer la stabilité des prix, généralement autour d'une cible d'inflation de 2% à moyen terme.",
+      "why_others_wrong": ["La croissance à court terme n'est pas l'objectif premier d'une banque centrale indépendante comme la BCE, dont le mandat est centré sur les prix.", "", "La fiscalité relève des gouvernements et parlements nationaux, pas des banques centrales.", "Aucune banque centrale ne peut garantir un taux de chômage nul ; ce n'est pas son mandat, qui reste centré sur la stabilité des prix."],
+      "method": "Retenir que l'indépendance des banques centrales sert justement à protéger cet objectif de stabilité des prix des pressions politiques de court terme."
+    },
+    "targetTimeSeconds": 30,
+    "tags": ["economie", "politique-monetaire"]
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "id": "tage-calcul-001",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un article coûte 45€ après une remise de 25%. Quel était son prix initial ?",
+    "choices": ["56,25€", "60€", "64€", "70€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "45€ correspond à 75% du prix initial (100% - 25%). Prix initial = 45 / 0,75 = 60€.",
+      "why_others_wrong": ["Erreur : multiplier 45 par 1,25 au lieu de diviser par 0,75.", "", "Erreur : diviser 45 par 0,7 en confondant la remise de 25% avec 30%.", "Erreur naïve : ajouter directement 25€ au prix affiché au lieu d'appliquer un pourcentage."],
+      "method": "Face à une remise de x%, le prix final = prix initial × (1 - x/100). Pour remonter au prix initial, toujours diviser par ce facteur, jamais l'inverse."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["pourcentages", "remise", "prix"]
+  },
+  {
+    "id": "tage-calcul-002",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un salaire passe de 1600€ à 1800€. Quel est le taux d'augmentation ?",
+    "choices": ["11,1%", "12,5%", "20%", "25%"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Taux = (1800 - 1600) / 1600 = 200 / 1600 = 12,5%.",
+      "why_others_wrong": ["Erreur : diviser l'écart par la valeur finale (200/1800) au lieu de la valeur initiale.", "", "Erreur d'estimation rapide sans calcul exact (arrondi grossier de 200/1000).", "Erreur : confondre l'écart réel avec un écart doublé par erreur de calcul."],
+      "method": "Taux d'évolution = écart / valeur de départ, jamais / valeur d'arrivée. Repère vite : 200 est 1/8 de 1600, soit 12,5%."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["pourcentages", "taux-evolution"]
+  },
+  {
+    "id": "tage-calcul-003",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un produit a un prix hors taxes (HT) de 250€. Le taux de TVA est de 20%. Quel est son prix TTC ?",
+    "choices": ["270€", "280€", "300€", "320€"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Prix TTC = Prix HT × 1,20 = 250 × 1,2 = 300€.",
+      "why_others_wrong": ["Erreur : ajouter 20€ (une unité) au lieu de 20% du prix HT.", "Erreur : calculer 250 + 250×0,12, en confondant le taux de TVA (20%) avec 12%.", "", "Erreur : appliquer un taux de 28% au lieu de 20% (confusion de taux)."],
+      "method": "Pour passer du HT au TTC, multiplier directement par (1 + taux). Avec 20%, il suffit de multiplier par 1,2, soit ajouter un cinquième du prix HT."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["pourcentages", "tva"]
+  },
+  {
+    "id": "tage-calcul-004",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un produit est vendu 360€ TTC, avec une TVA à 20%. Quel est son prix hors taxes (HT) ?",
+    "choices": ["288€", "300€", "312€", "330€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Prix HT = Prix TTC / 1,20 = 360 / 1,2 = 300€.",
+      "why_others_wrong": ["Erreur : appliquer -20% au prix TTC (360×0,8) au lieu de diviser par 1,2.", "", "Erreur d'arrondi lors d'une division approximative mal menée.", "Erreur : soustraire directement 30€ au TTC sans base de calcul correcte."],
+      "method": "Pour passer du TTC au HT, ne jamais retirer x% du TTC : toujours diviser par (1 + taux). Avec 20% de TVA, diviser par 1,2 équivaut à multiplier par 5/6."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["pourcentages", "tva"]
+  },
+  {
+    "id": "tage-calcul-005",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un article à 200€ bénéficie de deux remises successives de 10% puis 10%. Quel est le prix final ?",
+    "choices": ["160€", "162€", "164€", "180€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Prix final = 200 × 0,9 × 0,9 = 200 × 0,81 = 162€.",
+      "why_others_wrong": ["Erreur : additionner les taux (10%+10%=20%) et appliquer une remise unique de 20% au lieu de composer les deux facteurs multiplicatifs.", "", "Erreur d'arrondi lors du calcul intermédiaire après la première remise.", "Erreur : n'appliquer qu'une seule des deux remises de 10% et oublier la seconde."],
+      "method": "Des remises successives ne s'additionnent jamais : il faut multiplier les facteurs (1 - t1)×(1 - t2). Deux remises de 10% équivalent à une remise unique de 19%, pas 20%."
+    },
+    "targetTimeSeconds": 200,
+    "tags": ["pourcentages", "remises-successives"]
+  },
+  {
+    "id": "tage-calcul-006",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un prix augmente de 20% puis baisse de 20%. Par rapport au prix initial, le prix final a :",
+    "choices": ["augmenté de 4%", "est resté identique", "baissé de 4%", "baissé de 40%"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Facteur global = 1,2 × 0,8 = 0,96, soit une baisse de 4% par rapport au prix initial.",
+      "why_others_wrong": ["Erreur de signe : croire que la baisse finale se transforme en légère hausse.", "Erreur classique : croire qu'une hausse de 20% suivie d'une baisse de 20% s'annulent exactement.", "", "Erreur : additionner les taux (20% - 20% ne donnerait 0%, mais certains soustraient à tort 40%)."],
+      "method": "Toujours multiplier les facteurs successifs, jamais additionner les taux. +20% puis -20% donne 1,2×0,8=0,96, soit -4%, et ce résultat est symétrique quel que soit l'ordre des deux opérations."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["pourcentages", "evolution"]
+  },
+  {
+    "id": "tage-calcul-007",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Pour 4 personnes, une recette nécessite 250g de farine. Quelle quantité de farine faut-il pour 6 personnes ?",
+    "choices": ["300g", "350g", "375g", "400g"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Par proportionnalité : 250 × 6 / 4 = 375g.",
+      "why_others_wrong": ["Erreur d'estimation grossière sans poser le calcul de proportionnalité.", "Erreur d'arrondi : 250 × 1,4 mal calculé au lieu de 250 × 1,5.", "", "Erreur : ajouter 150g (au lieu de 125g) pour les 2 personnes supplémentaires, en appliquant la mauvaise proportion."],
+      "method": "Poser une règle de trois simple : quantité pour 6 = quantité pour 4 × (6/4). Ici, 6/4 = 1,5, donc 250 × 1,5 = 375g."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["proportions", "regle-de-trois"]
+  },
+  {
+    "id": "tage-calcul-008",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une somme de 900€ est partagée entre trois associés selon les proportions 2:3:4. Quelle est la part du deuxième associé ?",
+    "choices": ["200€", "300€", "400€", "450€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Total des parts = 2+3+4 = 9. Part du deuxième = 3/9 × 900 = 300€.",
+      "why_others_wrong": ["Erreur : calcule la part du premier associé (2/9 × 900 = 200€) au lieu du deuxième.", "", "Erreur : calcule la part du troisième associé (4/9 × 900 = 400€) au lieu du deuxième.", "Erreur : divise simplement 900 par 2, en ignorant la pondération donnée par les proportions."],
+      "method": "Toujours diviser le total par la somme des parts pour obtenir la valeur d'une part, puis multiplier par le coefficient recherché."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["proportions", "partage"]
+  },
+  {
+    "id": "tage-calcul-009",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Sur une carte à l'échelle 1/50 000, une distance mesurée est de 3,2 cm. Quelle est la distance réelle ?",
+    "choices": ["160 m", "1,6 km", "16 km", "0,16 km"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Distance réelle = 3,2 × 50 000 = 160 000 cm = 1 600 m = 1,6 km.",
+      "why_others_wrong": ["Erreur d'unité : oubli d'un facteur 10 lors de la conversion cm → m.", "", "Erreur d'un facteur 10 dans la conversion cm → km.", "Erreur : diviser par l'échelle au lieu de multiplier."],
+      "method": "Distance réelle = distance sur la carte × dénominateur de l'échelle. Convertir en cm d'abord, puis passer directement en km en divisant par 100 000."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["proportions", "echelle"]
+  },
+  {
+    "id": "tage-calcul-010",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "5 ouvriers construisent un mur en 12 jours. Combien de jours faudrait-il à 8 ouvriers travaillant au même rythme ?",
+    "choices": ["7,5 jours", "6 jours", "19,2 jours", "9,6 jours"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le travail total est constant : 5 × 12 = 60 ouvriers-jours. Avec 8 ouvriers : 60 / 8 = 7,5 jours.",
+      "why_others_wrong": ["", "Erreur : diviser 12 par (8/5) sans convertir correctement le rapport, menant à un résultat trop bas.", "Erreur : traiter la relation comme une proportion directe (12 × 8/5) au lieu d'une proportion inverse.", "Erreur de calcul intermédiaire lors de la division du produit 60 par 8."],
+      "method": "Plus d'ouvriers = moins de temps : c'est une proportionnalité inverse. Toujours calculer d'abord le travail total constant (nb d'ouvriers × jours), puis diviser par le nouvel effectif."
+    },
+    "targetTimeSeconds": 180,
+    "tags": ["proportions", "proportionnalite-inverse"]
+  },
+  {
+    "id": "tage-calcul-011",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "3 robinets identiques remplissent un bassin en 10 heures. Combien de temps faudrait-il à 5 robinets identiques pour remplir le même bassin ?",
+    "choices": ["6h", "6,67h", "16,7h", "5h"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Travail total constant = 3 × 10 = 30 robinet-heures. Avec 5 robinets : 30 / 5 = 6h.",
+      "why_others_wrong": ["", "Erreur de calcul : division approximative mal posée (30/4,5 au lieu de 30/5).", "Erreur : applique une proportion directe (10 × 5/3) au lieu d'une proportion inverse.", "Erreur d'arrondi grossier sans poser le calcul exact."],
+      "method": "Plus de robinets = moins de temps (proportionnalité inverse). Calculer le volume total en 'robinet-heures' constant, puis diviser par le nouveau nombre de robinets."
+    },
+    "targetTimeSeconds": 160,
+    "tags": ["proportions", "proportionnalite-inverse"]
+  },
+  {
+    "id": "tage-calcul-012",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une ville comptait 40 000 habitants en 2010 et 46 000 en 2020. Quel est le taux d'évolution de la population sur la période ?",
+    "choices": ["6%", "13%", "15%", "30%"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Taux = (46 000 - 40 000) / 40 000 = 6 000 / 40 000 = 15%.",
+      "why_others_wrong": ["Erreur : confondre directement l'écart en milliers (6) avec un pourcentage.", "Erreur : diviser l'écart par la valeur finale (6 000/46 000 ≈ 13%) au lieu de la valeur initiale.", "", "Erreur : doubler l'écart réel par erreur de calcul mental."],
+      "method": "Taux d'évolution = écart / valeur de départ (jamais / valeur d'arrivée). Repère rapide : 6 000 est 3/20 de 40 000, soit 15%."
+    },
+    "targetTimeSeconds": 150,
+    "tags": ["pourcentages", "evolution"]
+  },
+  {
+    "id": "tage-calcul-013",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Dans 10 ans, Marc aura le double de l'âge qu'il avait il y a 5 ans. Quel est son âge actuel ?",
+    "choices": ["15 ans", "20 ans", "25 ans", "30 ans"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En posant x l'âge actuel : x + 10 = 2(x - 5) → x + 10 = 2x - 10 → x = 20 ans.",
+      "why_others_wrong": ["Erreur de signe lors du regroupement des termes de l'équation.", "", "Erreur : inverser le sens des décalages temporels (+5 au lieu de -5).", "Erreur arithmétique lors de l'isolement de la variable x."],
+      "method": "Poser une seule inconnue (l'âge actuel) et traduire chaque décalage temporel par + ou - le bon nombre d'années, puis résoudre l'équation linéaire classiquement."
+    },
+    "targetTimeSeconds": 160,
+    "tags": ["equations", "ages"]
+  },
+  {
+    "id": "tage-calcul-014",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Résoudre : 3x - 7 = 2x + 5. Quelle est la valeur de x ?",
+    "choices": ["5", "7", "12", "19"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "3x - 2x = 5 + 7, donc x = 12.",
+      "why_others_wrong": ["Erreur de signe lors du regroupement des termes en x et des constantes.", "Erreur : isole seulement une constante sans regrouper correctement les termes en x.", "", "Erreur : additionne les constantes au lieu de les soustraire correctement (5 - (-7) mal géré)."],
+      "method": "Regrouper tous les termes en x d'un côté et les constantes de l'autre en changeant les signes lors du passage d'un membre à l'autre."
+    },
+    "targetTimeSeconds": 100,
+    "tags": ["equations"]
+  },
+  {
+    "id": "tage-calcul-015",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Deux stylos et trois cahiers coûtent 13€. Un stylo et un cahier coûtent 5€. Quel est le prix d'un cahier ?",
+    "choices": ["2€", "3€", "4€", "5€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En posant s le prix d'un stylo et c celui d'un cahier : s + c = 5, donc s = 5 - c. En substituant dans 2s+3c=13 : 2(5-c)+3c=13 → 10+c=13 → c=3€.",
+      "why_others_wrong": ["Erreur : c'est le prix du stylo (2€) qui est confondu avec celui du cahier.", "", "Erreur arithmétique lors de la substitution dans la première équation.", "Erreur : confond la réponse avec la somme s+c donnée dans le second énoncé."],
+      "method": "Isoler une inconnue dans l'équation la plus simple, puis la substituer dans l'autre équation pour obtenir une seule inconnue à résoudre."
+    },
+    "targetTimeSeconds": 200,
+    "tags": ["equations", "systeme"]
+  },
+  {
+    "id": "tage-calcul-016",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La somme des âges d'un père et de son fils est de 66 ans. Il y a 6 ans, le père avait 5 fois l'âge de son fils. Quel est l'âge actuel du fils ?",
+    "choices": ["12 ans", "15 ans", "18 ans", "21 ans"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "p+f=66 et p-6=5(f-6). En substituant p=66-f : 66-f-6=5f-30 → 60-f=5f-30 → 90=6f → f=15 ans.",
+      "why_others_wrong": ["Erreur dans la mise en équation de la condition passée (oubli du décalage de 6 ans sur les deux âges à la fois).", "", "Erreur arithmétique lors de la résolution finale du système.", "Erreur : confond avec un autre multiple mal calculé dans l'équation."],
+      "method": "Poser deux équations (somme actuelle, condition passée avec le même décalage appliqué aux deux âges), puis résoudre par substitution."
+    },
+    "targetTimeSeconds": 210,
+    "tags": ["equations", "systeme", "ages"]
+  },
+  {
+    "id": "tage-calcul-017",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Alice a deux fois plus d'argent que Bob. Ensemble, ils ont 150€. Combien a Bob ?",
+    "choices": ["40€", "50€", "60€", "75€"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En posant a=2b et a+b=150 : 3b=150, donc b=50€.",
+      "why_others_wrong": ["Erreur de division mal posée lors de la résolution.", "", "Erreur d'estimation approximative sans poser correctement l'équation.", "Erreur : divise 150 par 2 en supposant à tort un partage égal, oubliant la relation 'deux fois plus'."],
+      "method": "Toujours traduire 'deux fois plus' par une relation algébrique (a=2b), additionner les deux parts, puis diviser le total par le nombre total de parts (ici 3)."
+    },
+    "targetTimeSeconds": 160,
+    "tags": ["equations", "partage"]
+  },
+  {
+    "id": "tage-calcul-018",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un père a 3 fois l'âge de son fils. Dans 15 ans, il n'aura plus que le double de l'âge de son fils. Quel est l'âge actuel du fils ?",
+    "choices": ["10 ans", "12 ans", "15 ans", "18 ans"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "p=3f et p+15=2(f+15). En substituant : 3f+15=2f+30 → f=15 ans.",
+      "why_others_wrong": ["Erreur de résolution de l'équation linéaire finale.", "Erreur d'inversion du facteur multiplicatif (3 et 2 échangés).", "", "Erreur arithmétique en développant l'expression 2(f+15)."],
+      "method": "Exprimer l'âge du père en fonction de celui du fils (p=3f), traduire la condition future avec le même décalage sur les deux âges, puis résoudre."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["equations", "ages"]
+  },
+  {
+    "id": "tage-calcul-019",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un cycliste parcourt l'aller à 20 km/h et le retour, sur la même distance, à 30 km/h. Quelle est sa vitesse moyenne sur l'ensemble du trajet ?",
+    "choices": ["24 km/h", "25 km/h", "26 km/h", "27,5 km/h"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Pour des distances égales, la vitesse moyenne est la moyenne harmonique : 2×20×30/(20+30) = 1200/50 = 24 km/h.",
+      "why_others_wrong": ["", "Erreur classique : faire la moyenne arithmétique simple (20+30)/2 au lieu de la moyenne harmonique, valable seulement pour des temps égaux.", "Erreur de calcul intermédiaire dans la formule de moyenne harmonique.", "Erreur de pondération incorrecte entre les deux vitesses."],
+      "method": "Pour un aller-retour sur la même distance à deux vitesses différentes, utiliser la moyenne harmonique 2v1v2/(v1+v2), jamais la moyenne arithmétique."
+    },
+    "targetTimeSeconds": 220,
+    "tags": ["vitesse", "moyenne"]
+  },
+  {
+    "id": "tage-calcul-020",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un train parcourt 240 km à 80 km/h puis s'arrête 20 minutes en gare. Quelle est la durée totale du trajet ?",
+    "choices": ["3h", "3h20", "3h40", "4h"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Temps de circulation = 240/80 = 3h. En ajoutant l'arrêt de 20 minutes : 3h20.",
+      "why_others_wrong": ["Erreur : oublie d'ajouter l'arrêt de 20 minutes au temps de circulation.", "", "Erreur de conversion : ajoute 40 minutes au lieu de 20.", "Erreur d'arrondi excessif de la durée totale."],
+      "method": "Décomposer systématiquement le trajet en temps de circulation (distance/vitesse) et temps d'arrêt, puis additionner les deux en minutes avant de reconvertir."
+    },
+    "targetTimeSeconds": 130,
+    "tags": ["vitesse", "temps"]
+  },
+  {
+    "id": "tage-calcul-021",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Deux cyclistes partent du même point dans la même direction : le premier à 8h à 15 km/h, le second à 8h30 à 20 km/h. À quelle heure le second rattrape-t-il le premier ?",
+    "choices": ["9h30", "10h00", "10h30", "11h00"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "À 8h30, le premier a déjà 7,5 km d'avance (15×0,5). Vitesse relative = 20-15 = 5 km/h. Temps de rattrapage = 7,5/5 = 1,5h, soit rattrapage à 10h00.",
+      "why_others_wrong": ["Erreur : oublie l'avance de 7,5 km déjà prise par le premier cycliste avant le départ du second.", "", "Erreur de calcul du temps de rattrapage (mauvaise division de l'avance par la vitesse relative).", "Erreur : confond la vitesse relative avec la vitesse du second cycliste seul."],
+      "method": "Calculer d'abord l'avance au moment du second départ, puis diviser cette avance par la différence de vitesses (vitesse relative) pour obtenir le temps de rattrapage."
+    },
+    "targetTimeSeconds": 220,
+    "tags": ["vitesse", "rattrapage"]
+  },
+  {
+    "id": "tage-calcul-022",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Deux trains distants de 300 km roulent l'un vers l'autre, l'un à 90 km/h, l'autre à 60 km/h. Au bout de combien de temps se croisent-ils ?",
+    "choices": ["1h30", "2h", "2h30", "3h20"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Les vitesses s'additionnent quand les mobiles se rapprochent : 300 / (90+60) = 300/150 = 2h.",
+      "why_others_wrong": ["Erreur de calcul de la vitesse combinée des deux trains.", "", "Erreur d'arrondi dans la division finale.", "Erreur : utilise uniquement la vitesse du train le plus lent (300/90) en ignorant le second train."],
+      "method": "Pour deux mobiles qui se rapprochent, additionner les vitesses pour obtenir la vitesse de rapprochement, puis diviser la distance initiale par cette somme."
+    },
+    "targetTimeSeconds": 190,
+    "tags": ["vitesse", "croisement"]
+  },
+  {
+    "id": "tage-calcul-023",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un robinet remplit une piscine en 6h, un second en 3h. En les ouvrant ensemble, en combien de temps rempliront-ils la piscine ?",
+    "choices": ["1,5h", "2h", "4,5h", "9h"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Débits : 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 piscine par heure, donc 2h pour remplir la piscine entière.",
+      "why_others_wrong": ["Erreur de calcul lors de la mise au même dénominateur des débits.", "", "Erreur : fait la moyenne arithmétique des deux durées (6+3)/2 au lieu d'additionner les débits.", "Erreur : additionne directement les deux durées (6+3) au lieu de combiner les débits."],
+      "method": "Ne jamais additionner des durées de remplissage : additionner les débits (1/durée) de chaque robinet, puis inverser le résultat pour retrouver le temps."
+    },
+    "targetTimeSeconds": 180,
+    "tags": ["travail", "debit"]
+  },
+  {
+    "id": "tage-calcul-024",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une voiture roule à 108 km/h. Quelle est sa vitesse en m/s ?",
+    "choices": ["18 m/s", "30 m/s", "36 m/s", "300 m/s"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "108 km/h = 108 / 3,6 = 30 m/s.",
+      "why_others_wrong": ["Erreur : divise par 6 au lieu de 3,6.", "", "Erreur : multiplie par 3,6 au lieu de diviser (confusion du sens de la conversion).", "Erreur de virgule : oubli de la division par 3,6, gardant l'ordre de grandeur des km/h."],
+      "method": "Pour convertir km/h en m/s, toujours diviser par 3,6 (et multiplier par 3,6 dans l'autre sens). Astuce : 108/3,6 = 1080/36 = 30."
+    },
+    "targetTimeSeconds": 110,
+    "tags": ["vitesse", "conversion"]
+  },
+  {
+    "id": "tage-calcul-025",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "On dispose de 2L d'une solution salée à 15%. Combien de litres d'eau pure faut-il ajouter pour obtenir une solution à 10% ?",
+    "choices": ["0,5 L", "1 L", "1,5 L", "2 L"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Quantité de sel = 0,15×2 = 0,3 L. Pour une concentration à 10%, le volume final V vérifie 0,3/V=0,10, donc V=3L. Eau ajoutée = 3-2 = 1L.",
+      "why_others_wrong": ["Erreur de calcul du volume final nécessaire pour atteindre 10%.", "", "Erreur : confond la quantité de sel avec le volume total d'eau à ajouter.", "Erreur : double la quantité d'eau nécessaire par mauvaise application de la proportion."],
+      "method": "La quantité de sel reste constante lors d'une dilution : calculer d'abord cette quantité fixe, puis en déduire le volume final nécessaire pour la nouvelle concentration, et enfin le volume d'eau ajouté (différence)."
+    },
+    "targetTimeSeconds": 190,
+    "tags": ["melanges", "dilution"]
+  },
+  {
+    "id": "tage-calcul-026",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "On mélange 3 kg d'un métal à 800€/kg avec 2 kg d'un métal à 500€/kg. Quel est le prix moyen au kg de l'alliage obtenu ?",
+    "choices": ["650€/kg", "680€/kg", "700€/kg", "750€/kg"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Prix moyen pondéré = (3×800 + 2×500) / (3+2) = (2400+1000)/5 = 3400/5 = 680€/kg.",
+      "why_others_wrong": ["Erreur : fait la moyenne arithmétique simple (800+500)/2 = 650, sans pondérer par les masses respectives.", "", "Erreur de calcul dans la pondération des deux masses.", "Erreur : inverse les masses dans la pondération (traite le métal à 800€ comme s'il pesait 2kg)."],
+      "method": "Pour un mélange, toujours pondérer chaque prix par sa masse (moyenne pondérée), jamais faire une simple moyenne arithmétique des prix."
+    },
+    "targetTimeSeconds": 220,
+    "tags": ["melanges", "alliage"]
+  },
+  {
+    "id": "tage-calcul-027",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "On mélange 4 kg de café à 12€/kg avec du café à 8€/kg pour obtenir un mélange à 10€/kg. Quelle quantité du second café faut-il ajouter ?",
+    "choices": ["2 kg", "3 kg", "4 kg", "6 kg"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "En posant x la quantité ajoutée : 4×12 + 8x = (4+x)×10 → 48+8x=40+10x → 8=2x → x=4 kg.",
+      "why_others_wrong": ["Erreur de mise en équation : mauvaise pondération des deux cafés.", "Erreur arithmétique lors de la résolution de l'équation.", "", "Erreur : confond avec la quantité totale du mélange final au lieu de la quantité ajoutée."],
+      "method": "Poser l'équation d'équilibre des masses : (masse1×prix1 + masse2×prix2) = masse totale × prix moyen, puis résoudre pour la quantité inconnue."
+    },
+    "targetTimeSeconds": 190,
+    "tags": ["melanges", "prix-moyen"]
+  },
+  {
+    "id": "tage-calcul-028",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un récipient contient 6L de vin pur. On en retire 2L, que l'on remplace par 2L d'eau. Quelle est la proportion de vin dans le mélange final ?",
+    "choices": ["50%", "60%", "66,7%", "75%"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Après avoir retiré 2L de vin, il reste 4L de vin pur sur un total de 6L (4L vin + 2L eau) : 4/6 = 66,7%.",
+      "why_others_wrong": ["Erreur : suppose à tort que retirer 2L sur 6L revient à diluer le mélange de moitié.", "Erreur d'arrondi lors du calcul de la fraction.", "", "Erreur : considère que seul 1L a été remplacé au lieu de 2L."],
+      "method": "Le volume de vin restant est simplement le volume initial moins le volume retiré ; le volume total reste inchangé (6L) puisqu'on remplace volume pour volume."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["melanges", "dilution"]
+  },
+  {
+    "id": "tage-calcul-029",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "On lance un dé à 6 faces. Quelle est la probabilité d'obtenir un nombre pair ?",
+    "choices": ["1/6", "1/3", "1/2", "2/3"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Il y a 3 nombres pairs (2, 4, 6) sur 6 faces possibles : 3/6 = 1/2.",
+      "why_others_wrong": ["Erreur : confond avec la probabilité d'obtenir une face précise unique.", "Erreur de dénombrement : ne compte que 2 nombres pairs au lieu de 3.", "", "Erreur de dénombrement : compte 4 issues favorables au lieu de 3."],
+      "method": "Probabilité = nombre de cas favorables / nombre de cas possibles. Lister rapidement les issues favorables évite les erreurs de dénombrement."
+    },
+    "targetTimeSeconds": 90,
+    "tags": ["probabilites"]
+  },
+  {
+    "id": "tage-calcul-030",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une urne contient 5 boules rouges et 3 boules bleues. On tire successivement 2 boules sans remise. Quelle est la probabilité que les deux soient rouges ?",
+    "choices": ["5/14", "5/8", "25/64", "5/16"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "P = 5/8 × 4/7 = 20/56 = 5/14.",
+      "why_others_wrong": ["", "Erreur : ne calcule que la probabilité du premier tirage, oublie le second tirage.", "Erreur : applique un tirage avec remise (5/8×5/8) alors que le tirage se fait sans remise.", "Erreur de calcul dans la multiplication des deux fractions."],
+      "method": "Sans remise, la composition de l'urne change après chaque tirage : multiplier les probabilités successives en ajustant le dénominateur et, si besoin, le numérateur à chaque étape."
+    },
+    "targetTimeSeconds": 200,
+    "tags": ["probabilites", "tirage-sans-remise"]
+  },
+  {
+    "id": "tage-calcul-031",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "On lance deux dés à 6 faces. Quelle est la probabilité d'obtenir au moins un 6 ?",
+    "choices": ["1/6", "1/3", "11/36", "25/36"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "P(aucun 6) = (5/6)² = 25/36, donc P(au moins un 6) = 1 - 25/36 = 11/36.",
+      "why_others_wrong": ["Erreur : ne considère la probabilité d'un 6 que sur un seul dé, oublie le second dé.", "Erreur : additionne simplement 1/6+1/6 sans corriger le double comptage du cas où les deux dés font 6.", "", "Erreur : confond avec la probabilité de n'obtenir aucun 6 (complémentaire de la réponse cherchée)."],
+      "method": "Pour 'au moins un' événement, il est souvent plus rapide de calculer la probabilité de l'événement complémentaire (aucun succès) puis de faire 1 - cette probabilité."
+    },
+    "targetTimeSeconds": 220,
+    "tags": ["probabilites", "complementaire"]
+  },
+  {
+    "id": "tage-calcul-032",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La probabilité qu'il pleuve demain est de 0,4. La probabilité qu'un train soit en retard est de 0,3, indépendamment de la pluie. Quelle est la probabilité que les deux événements se produisent en même temps ?",
+    "choices": ["0,07", "0,12", "0,7", "0,84"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Pour deux événements indépendants, P(A et B) = P(A)×P(B) = 0,4×0,3 = 0,12.",
+      "why_others_wrong": ["Erreur de calcul dans la multiplication décimale.", "", "Erreur : additionne les deux probabilités au lieu de les multiplier.", "Erreur : calcule 1-(0,6×0,7), en confondant avec la probabilité d'au moins un des deux événements."],
+      "method": "Pour deux événements indépendants, la probabilité de leur intersection est toujours le produit de leurs probabilités individuelles, jamais leur somme."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["probabilites", "independance"]
+  },
+  {
+    "id": "tage-calcul-033",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une urne contient 4 boules vertes et 6 boules jaunes. On tire une boule, on la remet dans l'urne, puis on tire à nouveau. Quelle est la probabilité de tirer deux boules vertes ?",
+    "choices": ["0,08", "0,16", "0,4", "0,24"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Avec remise, les tirages sont indépendants : P = 0,4 × 0,4 = 0,16.",
+      "why_others_wrong": ["Erreur de calcul (addition partielle au lieu de multiplication des deux probabilités).", "", "Erreur : ne calcule que la probabilité d'un seul tirage vert, oublie le second tirage.", "Erreur : confond avec la probabilité d'obtenir une boule verte puis une jaune (ordre quelconque)."],
+      "method": "Avec remise, chaque tirage est indépendant et la composition de l'urne ne change pas : multiplier simplement les probabilités identiques de chaque tirage."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["probabilites", "tirage-avec-remise"]
+  },
+  {
+    "id": "tage-calcul-034",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un étudiant obtient 12 en maths (coefficient 3), 14 en français (coefficient 2) et 8 en sport (coefficient 1). Quelle est sa moyenne pondérée ?",
+    "choices": ["11", "11,3", "12", "12,3"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Moyenne = (12×3 + 14×2 + 8×1) / (3+2+1) = (36+28+8)/6 = 72/6 = 12.",
+      "why_others_wrong": ["Erreur de calcul dans la somme pondérée des notes.", "Erreur : oublie un coefficient dans le calcul de la somme.", "", "Erreur d'arrondi ou division par un total de coefficients incorrect."],
+      "method": "Moyenne pondérée = somme des (note × coefficient) divisée par la somme des coefficients, jamais une simple moyenne arithmétique des notes."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["statistiques", "moyenne-ponderee"]
+  },
+  {
+    "id": "tage-calcul-035",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Voici une série de notes : 8, 12, 15, 9, 11, 14, 10. Quelle est la médiane de cette série ?",
+    "choices": ["10", "11", "12", "11,5"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "En triant la série : 8, 9, 10, 11, 12, 14, 15. Avec 7 valeurs, la médiane est la 4e valeur, soit 11.",
+      "why_others_wrong": ["Erreur : prend la valeur centrale de la série non triée au lieu de la trier d'abord.", "", "Erreur : confond avec la valeur juste après la médiane dans la série triée.", "Erreur : applique à tort la méthode d'un effectif pair (moyenne de deux valeurs centrales) alors que l'effectif est impair."],
+      "method": "Toujours trier la série avant de chercher la médiane. Avec un nombre impair de valeurs n, la médiane est la valeur de rang (n+1)/2."
+    },
+    "targetTimeSeconds": 150,
+    "tags": ["statistiques", "mediane"]
+  },
+  {
+    "id": "tage-calcul-036",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un élève a obtenu 10, 13 et 9 à trois devoirs. Quelle note doit-il obtenir au quatrième devoir pour avoir une moyenne de 12 sur les quatre devoirs ?",
+    "choices": ["14", "15", "16", "18"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Somme totale nécessaire = 12×4 = 48. Somme actuelle = 10+13+9 = 32. Note manquante = 48-32 = 16.",
+      "why_others_wrong": ["Erreur de calcul de la somme totale nécessaire pour la moyenne cible.", "Erreur d'addition des trois notes déjà obtenues.", "", "Erreur : multiplie la moyenne cible par 4 sans soustraire correctement le total déjà obtenu."],
+      "method": "Calculer la somme totale requise (moyenne cible × nombre total de valeurs), puis soustraire la somme déjà obtenue pour trouver la valeur manquante."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["statistiques", "moyenne"]
+  },
+  {
+    "id": "tage-calcul-037",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "La moyenne de 5 nombres est 20. Si l'on retire un nombre égal à 30, quelle est la nouvelle moyenne des 4 nombres restants ?",
+    "choices": ["15", "17,5", "20", "22,5"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Somme initiale = 20×5 = 100. En retirant 30, la somme restante est 70, sur 4 nombres : 70/4 = 17,5.",
+      "why_others_wrong": ["Erreur de calcul de la somme restante après retrait.", "", "Erreur : croit à tort que retirer un nombre ne change pas la moyenne des autres.", "Erreur de signe : ajoute le nombre retiré au lieu de le soustraire."],
+      "method": "Repartir toujours de la somme totale (moyenne × effectif), ajuster cette somme selon l'opération demandée, puis diviser par le nouvel effectif."
+    },
+    "targetTimeSeconds": 150,
+    "tags": ["statistiques", "moyenne"]
+  },
+  {
+    "id": "tage-calcul-038",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une classe A de 20 élèves a une moyenne de 12. Une classe B de 30 élèves a une moyenne de 15. Quelle est la moyenne combinée des deux classes ?",
+    "choices": ["13,5", "13,8", "14", "14,5"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "Moyenne combinée = (20×12 + 30×15) / (20+30) = (240+450)/50 = 690/50 = 13,8.",
+      "why_others_wrong": ["Erreur : fait la moyenne arithmétique simple des deux moyennes (12+15)/2 sans pondérer par les effectifs.", "", "Erreur de calcul dans la pondération des deux effectifs.", "Erreur : inverse les effectifs des deux classes dans la pondération."],
+      "method": "Pour combiner deux moyennes d'effectifs différents, toujours pondérer par l'effectif de chaque groupe, jamais faire une simple moyenne des deux moyennes."
+    },
+    "targetTimeSeconds": 200,
+    "tags": ["statistiques", "moyenne-ponderee"]
+  },
+  {
+    "id": "tage-calcul-039",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un salarié touche 1800€ le premier mois et reçoit une augmentation fixe de 50€ chaque mois suivant. Quel sera son salaire au 10e mois ?",
+    "choices": ["2250€", "2300€", "2350€", "1850€"],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Suite arithmétique de raison 50 : terme 10 = 1800 + 9×50 = 1800+450 = 2250€.",
+      "why_others_wrong": ["", "Erreur : applique 10 augmentations au lieu de 9 (confond le rang du terme avec le nombre d'augmentations écoulées).", "Erreur d'addition dans le calcul final.", "Erreur : confond avec le salaire du 2e mois seulement."],
+      "method": "Dans une suite arithmétique, le terme de rang n est u1 + (n-1)×raison. Attention à bien compter (n-1) augmentations pour le terme n, pas n."
+    },
+    "targetTimeSeconds": 180,
+    "tags": ["suites", "arithmetique"]
+  },
+  {
+    "id": "tage-calcul-040",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 5,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un capital de 2000€ est placé à un taux d'intérêt composé de 5% par an. Quelle est sa valeur approximative après 2 ans ?",
+    "choices": ["2100€", "2200€", "2205€", "2210€"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Capital = 2000 × 1,05² = 2000 × 1,1025 = 2205€.",
+      "why_others_wrong": ["Erreur : applique le taux une seule fois, oubliant la seconde année (2000×1,05=2100).", "Erreur : applique des intérêts simples (2000 + 2×5%×2000 = 2200) au lieu d'intérêts composés.", "", "Erreur d'arrondi dans le calcul de la puissance 1,05²."],
+      "method": "Avec des intérêts composés, multiplier par (1+taux) autant de fois qu'il y a de périodes, jamais additionner un pourcentage fixe chaque année (ce serait des intérêts simples)."
+    },
+    "targetTimeSeconds": 220,
+    "tags": ["suites", "geometrique", "interets-composes"]
+  },
+  {
+    "id": "tage-calcul-041",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Quelle est la somme des 10 premiers multiples de 4 (4, 8, 12, ..., 40) ?",
+    "choices": ["200", "210", "220", "240"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Somme = n/2 × (premier terme + dernier terme) = 10/2 × (4+40) = 5×44 = 220.",
+      "why_others_wrong": ["Erreur de calcul dans l'application de la formule de somme d'une suite arithmétique.", "Erreur d'arrondi lors du calcul final.", "", "Erreur de méthode : multiplie directement le dernier terme par un nombre incorrect de termes."],
+      "method": "Pour la somme des n premiers termes d'une suite arithmétique : S = n × (premier + dernier) / 2. Ne jamais multiplier simplement le dernier terme par n."
+    },
+    "targetTimeSeconds": 190,
+    "tags": ["suites", "arithmetique", "somme"]
+  },
+  {
+    "id": "tage-calcul-042",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Une population de bactéries double toutes les heures. Elle compte 500 individus au départ. Combien y en aura-t-il après 4 heures ?",
+    "choices": ["4000", "6000", "8000", "10000"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Population = 500 × 2⁴ = 500 × 16 = 8000.",
+      "why_others_wrong": ["Erreur : multiplie par 8 (2×4) au lieu de 2⁴ (confusion entre multiplication et puissance).", "Erreur : additionne au lieu de multiplier de façon exponentielle.", "", "Erreur d'arrondi ou de calcul dans l'évaluation de la puissance."],
+      "method": "Une croissance qui 'double' à chaque période suit une suite géométrique de raison 2 : population finale = population initiale × 2^(nombre de périodes), pas × (2×nombre de périodes)."
+    },
+    "targetTimeSeconds": 170,
+    "tags": ["suites", "geometrique"]
+  },
+  {
+    "id": "tage-calcul-043",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un rectangle a un périmètre de 28 cm et une longueur de 8 cm. Quelle est son aire ?",
+    "choices": ["36 cm²", "42 cm²", "48 cm²", "56 cm²"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Périmètre = 2(L+l) = 28 → L+l=14 → l=14-8=6 cm. Aire = 8×6 = 48 cm².",
+      "why_others_wrong": ["Erreur de calcul de la largeur (confusion avec 6×6 au lieu de 8×6).", "Erreur arithmétique dans le calcul de la largeur restante.", "", "Erreur de méthode : multiplie directement la longueur par le demi-périmètre au lieu de la largeur."],
+      "method": "Utiliser périmètre = 2(L+l) pour retrouver la largeur manquante, puis appliquer aire = L × l."
+    },
+    "targetTimeSeconds": 120,
+    "tags": ["geometrie", "aire"]
+  },
+  {
+    "id": "tage-calcul-044",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un cercle a un rayon de 5 cm. Quelle est son aire approximative (on prend π ≈ 3,14) ?",
+    "choices": ["31,4 cm²", "62,8 cm²", "78,5 cm²", "157 cm²"],
+    "correctIndex": 2,
+    "explanation": {
+      "why_correct": "Aire = π×r² = 3,14×25 = 78,5 cm².",
+      "why_others_wrong": ["Erreur : confond avec la circonférence (2πr = 31,4 cm) au lieu de l'aire.", "Erreur de méthode : calcule πr sans élever le rayon au carré, puis double par erreur.", "", "Erreur : confond avec le double de l'aire réelle (facteur 2 en trop dans la formule)."],
+      "method": "Aire du cercle = π × r² (rayon au carré, pas doublé). Bien distinguer de la circonférence = 2πr."
+    },
+    "targetTimeSeconds": 140,
+    "tags": ["geometrie", "aire", "cercle"]
+  },
+  {
+    "id": "tage-calcul-045",
+    "module": "tage2",
+    "subtest": "calcul",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": null,
+    "statement": "Un triangle rectangle a des côtés de l'angle droit mesurant 6 cm et 8 cm. Quelle est la longueur de l'hypoténuse ?",
+    "choices": ["9 cm", "10 cm", "12 cm", "14 cm"],
+    "correctIndex": 1,
+    "explanation": {
+      "why_correct": "D'après le théorème de Pythagore : hypoténuse = √(6²+8²) = √(36+64) = √100 = 10 cm.",
+      "why_others_wrong": ["Erreur d'estimation approximative sans appliquer le théorème.", "", "Erreur : confond avec une somme mal calculée des deux côtés (ex : périmètre partiel).", "Erreur : additionne simplement les deux côtés (6+8=14) au lieu d'appliquer Pythagore."],
+      "method": "Pour un triangle rectangle, toujours utiliser hypoténuse = √(côté1² + côté2²). Repère rapide : le triplet (6,8,10) est un multiple du triplet pythagoricien classique (3,4,5)."
+    },
+    "targetTimeSeconds": 160,
+    "tags": ["geometrie", "pythagore"]
+  }
+]

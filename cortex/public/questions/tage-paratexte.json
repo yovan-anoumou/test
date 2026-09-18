@@ -1,0 +1,577 @@
+[
+  {
+    "id": "tage-paratexte-001",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Depuis 2022, la hausse des prix a bouleversé les habitudes de consommation des ménages européens. Si l'inflation semble refluer progressivement sous l'effet du resserrement monétaire opéré par les banques centrales, ses effets sur le pouvoir d'achat demeurent tangibles, en particulier pour les foyers modestes dont le budget est majoritairement absorbé par des dépenses contraintes : logement, énergie, alimentation. Les catégories aisées, elles, disposent d'une marge d'épargne qui leur permet d'amortir le choc, voire de tirer parti de la remontée des taux d'intérêt sur leurs placements. Cette asymétrie nourrit un sentiment de déclassement chez une partie de la classe moyenne, qui peine à percevoir les bénéfices du ralentissement statistique de l'inflation dans son quotidien. Les économistes s'accordent néanmoins à souligner qu'une désinflation trop rapide, obtenue au prix d'une récession, serait plus coûteuse socialement qu'un retour progressif à la stabilité des prix. Le débat porte donc moins sur la nécessité de juguler l'inflation que sur le rythme et la répartition de l'effort qu'implique cette normalisation monétaire.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "Le recul statistique de l'inflation ne se traduit pas uniformément dans le vécu des ménages, en particulier les plus modestes",
+      "Les banques centrales doivent immédiatement abaisser leurs taux d'intérêt pour relancer la consommation",
+      "L'inflation constitue un phénomène purement statistique sans conséquence réelle sur les ménages",
+      "Seules les catégories aisées ont été affectées par la hausse des prix depuis 2022"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte montre que malgré le ralentissement statistique de l'inflation, les effets sur le pouvoir d'achat restent inégalement ressentis selon les catégories de ménages.",
+      "why_others_wrong": ["", "Le texte n'exprime pas de recommandation de politique monétaire précise dans ce sens.", "Contresens : le texte insiste au contraire sur les effets bien réels et tangibles sur le pouvoir d'achat.", "Contresens : le texte indique que ce sont surtout les foyers modestes qui subissent l'inflation, non les catégories aisées."],
+      "method": "Pour une question d'idée principale, chercher la phrase de synthèse (souvent en fin de paragraphe) plutôt que de se focaliser sur un détail isolé."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-002",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Depuis 2022, la hausse des prix a bouleversé les habitudes de consommation des ménages européens. Si l'inflation semble refluer progressivement sous l'effet du resserrement monétaire opéré par les banques centrales, ses effets sur le pouvoir d'achat demeurent tangibles, en particulier pour les foyers modestes dont le budget est majoritairement absorbé par des dépenses contraintes : logement, énergie, alimentation. Les catégories aisées, elles, disposent d'une marge d'épargne qui leur permet d'amortir le choc, voire de tirer parti de la remontée des taux d'intérêt sur leurs placements. Cette asymétrie nourrit un sentiment de déclassement chez une partie de la classe moyenne, qui peine à percevoir les bénéfices du ralentissement statistique de l'inflation dans son quotidien. Les économistes s'accordent néanmoins à souligner qu'une désinflation trop rapide, obtenue au prix d'une récession, serait plus coûteuse socialement qu'un retour progressif à la stabilité des prix. Le débat porte donc moins sur la nécessité de juguler l'inflation que sur le rythme et la répartition de l'effort qu'implique cette normalisation monétaire.",
+    "statement": "Selon le texte, pourquoi les catégories aisées supportent-elles mieux la hausse des prix que les foyers modestes ?",
+    "choices": [
+      "Parce qu'elles disposent d'une épargne leur permettant d'amortir le choc et de profiter de la hausse des taux",
+      "Parce que leurs dépenses contraintes (logement, énergie, alimentation) ont fortement baissé",
+      "Parce que les banques centrales leur accordent des aides financières spécifiques",
+      "Parce qu'elles consomment exclusivement des produits non concernés par l'inflation"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte précise explicitement que les catégories aisées disposent d'une marge d'épargne qui leur permet d'amortir le choc et de bénéficier de la remontée des taux.",
+      "why_others_wrong": ["", "Contresens : ce sont les dépenses contraintes des foyers modestes qui pèsent lourd, pas celles des catégories aisées en baisse.", "Le texte ne mentionne aucune aide spécifique des banques centrales aux ménages aisés.", "Aucune information du texte ne va dans ce sens."],
+      "method": "Pour une question de détail, revenir précisément à la phrase du texte qui mentionne l'élément recherché plutôt que de se fier à sa mémoire globale."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-003",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Depuis 2022, la hausse des prix a bouleversé les habitudes de consommation des ménages européens. Si l'inflation semble refluer progressivement sous l'effet du resserrement monétaire opéré par les banques centrales, ses effets sur le pouvoir d'achat demeurent tangibles, en particulier pour les foyers modestes dont le budget est majoritairement absorbé par des dépenses contraintes : logement, énergie, alimentation. Les catégories aisées, elles, disposent d'une marge d'épargne qui leur permet d'amortir le choc, voire de tirer parti de la remontée des taux d'intérêt sur leurs placements. Cette asymétrie nourrit un sentiment de déclassement chez une partie de la classe moyenne, qui peine à percevoir les bénéfices du ralentissement statistique de l'inflation dans son quotidien. Les économistes s'accordent néanmoins à souligner qu'une désinflation trop rapide, obtenue au prix d'une récession, serait plus coûteuse socialement qu'un retour progressif à la stabilité des prix. Le débat porte donc moins sur la nécessité de juguler l'inflation que sur le rythme et la répartition de l'effort qu'implique cette normalisation monétaire.",
+    "statement": "Que peut-on inférer de la position des économistes évoquée dans le dernier paragraphe ?",
+    "choices": [
+      "Ils privilégient une désinflation progressive plutôt qu'un ralentissement économique brutal",
+      "Ils estiment que la lutte contre l'inflation doit être abandonnée au profit de la croissance",
+      "Ils considèrent que la récession est sans lien avec la politique de désinflation",
+      "Ils recommandent une hausse généralisée des salaires pour compenser l'inflation"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte indique qu'une désinflation trop rapide, obtenue au prix d'une récession, serait plus coûteuse socialement, ce qui traduit une préférence pour une normalisation progressive.",
+      "why_others_wrong": ["", "Contresens : le texte ne suggère jamais un abandon de la lutte contre l'inflation.", "Contresens : le texte établit justement un lien direct entre désinflation rapide et coût récessif.", "Aucune mention d'une telle recommandation dans le texte."],
+      "method": "Une inférence doit rester une déduction raisonnable du texte, sans ajouter d'information absente — éliminer les choix qui vont au-delà de ce qui est écrit."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-004",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "La transformation numérique des petites et moyennes entreprises françaises demeure un chantier inégal. Si les grands groupes ont massivement investi dans l'automatisation, l'intelligence artificielle et les plateformes de gestion intégrée, une part significative des PME reste à l'écart de ce mouvement, freinée par le coût des investissements, le manque de compétences internes et une certaine réticence culturelle face au changement. Pourtant, les dirigeants qui franchissent le pas rapportent des gains de productivité substantiels : automatisation des tâches administratives, meilleure connaissance de la clientèle grâce à l'exploitation des données, ou encore ouverture de nouveaux canaux de vente en ligne. Les pouvoirs publics ont multiplié les dispositifs d'accompagnement — subventions, diagnostics gratuits, formations — sans toujours parvenir à lever les freins psychologiques qui retardent la décision. Certains experts estiment que la digitalisation ne doit plus être perçue comme une option mais comme une condition de survie à moyen terme, tant la pression concurrentielle exercée par des acteurs plus agiles s'intensifie. D'autres appellent à la prudence, rappelant qu'un investissement technologique mal préparé peut fragiliser une entreprise plutôt que la renforcer.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "La digitalisation des PME françaises progresse de façon inégale, entre freins persistants et bénéfices réels pour celles qui s'y engagent",
+      "Toutes les PME françaises ont désormais achevé leur transformation numérique",
+      "Les dispositifs publics d'accompagnement ont totalement supprimé les freins à la digitalisation",
+      "Les grands groupes ont renoncé à investir dans l'intelligence artificielle au profit des PME"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte décrit une transformation numérique inégale, entre PME freinées et PME bénéficiaires, tout en nuançant l'urgence de la démarche.",
+      "why_others_wrong": ["", "Contresens : le texte souligne au contraire une transformation encore inégale et partielle.", "Contresens : le texte précise que les freins psychologiques ne sont pas toujours levés malgré les dispositifs.", "Aucune information de ce type dans le texte, qui indique au contraire que les grands groupes ont massivement investi."],
+      "method": "Repérer les connecteurs d'opposition (« pourtant », « sans toujours ») qui signalent la tension centrale du texte, souvent porteuse de l'idée principale."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-005",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "La transformation numérique des petites et moyennes entreprises françaises demeure un chantier inégal. Si les grands groupes ont massivement investi dans l'automatisation, l'intelligence artificielle et les plateformes de gestion intégrée, une part significative des PME reste à l'écart de ce mouvement, freinée par le coût des investissements, le manque de compétences internes et une certaine réticence culturelle face au changement. Pourtant, les dirigeants qui franchissent le pas rapportent des gains de productivité substantiels : automatisation des tâches administratives, meilleure connaissance de la clientèle grâce à l'exploitation des données, ou encore ouverture de nouveaux canaux de vente en ligne. Les pouvoirs publics ont multiplié les dispositifs d'accompagnement — subventions, diagnostics gratuits, formations — sans toujours parvenir à lever les freins psychologiques qui retardent la décision. Certains experts estiment que la digitalisation ne doit plus être perçue comme une option mais comme une condition de survie à moyen terme, tant la pression concurrentielle exercée par des acteurs plus agiles s'intensifie. D'autres appellent à la prudence, rappelant qu'un investissement technologique mal préparé peut fragiliser une entreprise plutôt que la renforcer.",
+    "statement": "Selon le texte, quels sont les principaux freins à la digitalisation des PME ?",
+    "choices": [
+      "Le coût des investissements, le manque de compétences internes et une réticence culturelle",
+      "L'absence totale de dispositifs publics d'accompagnement",
+      "Le refus des grands groupes de partager leurs technologies",
+      "Une réglementation excessive interdisant l'usage de l'intelligence artificielle"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte cite explicitement ces trois freins : coût des investissements, manque de compétences internes, réticence culturelle.",
+      "why_others_wrong": ["", "Contresens : le texte mentionne au contraire de nombreux dispositifs publics existants.", "Le texte ne fait aucune mention d'un tel refus des grands groupes.", "Aucune mention d'une interdiction réglementaire dans le texte."],
+      "method": "Traiter les questions de détail comme un exercice de repérage : localiser le paragraphe concerné puis vérifier chaque proposition mot à mot."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-006",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "La transformation numérique des petites et moyennes entreprises françaises demeure un chantier inégal. Si les grands groupes ont massivement investi dans l'automatisation, l'intelligence artificielle et les plateformes de gestion intégrée, une part significative des PME reste à l'écart de ce mouvement, freinée par le coût des investissements, le manque de compétences internes et une certaine réticence culturelle face au changement. Pourtant, les dirigeants qui franchissent le pas rapportent des gains de productivité substantiels : automatisation des tâches administratives, meilleure connaissance de la clientèle grâce à l'exploitation des données, ou encore ouverture de nouveaux canaux de vente en ligne. Les pouvoirs publics ont multiplié les dispositifs d'accompagnement — subventions, diagnostics gratuits, formations — sans toujours parvenir à lever les freins psychologiques qui retardent la décision. Certains experts estiment que la digitalisation ne doit plus être perçue comme une option mais comme une condition de survie à moyen terme, tant la pression concurrentielle exercée par des acteurs plus agiles s'intensifie. D'autres appellent à la prudence, rappelant qu'un investissement technologique mal préparé peut fragiliser une entreprise plutôt que la renforcer.",
+    "statement": "Comment le texte est-il construit dans sa dernière partie ?",
+    "choices": [
+      "Il présente deux points de vue opposés sur l'urgence et les risques de la digitalisation",
+      "Il conclut de façon univoque en faveur d'une digitalisation immédiate et sans réserve",
+      "Il réfute entièrement l'idée que la digitalisation puisse comporter des risques",
+      "Il se contente de résumer les statistiques présentées en début de texte"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte met en balance l'avis de ceux qui jugent la digitalisation vitale et celui d'experts appelant à la prudence face à un investissement mal préparé.",
+      "why_others_wrong": ["", "Contresens : le texte nuance sa position en évoquant aussi la prudence recommandée par certains experts.", "Contresens : le texte évoque explicitement un risque de fragilisation en cas d'investissement mal préparé.", "Le texte n'est pas un simple résumé statistique, il développe une argumentation nuancée."],
+      "method": "Pour une question de structure argumentative, repérer les marqueurs « certains… d'autres… » qui signalent une mise en balance de points de vue."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "structure-argumentative"]
+  },
+  {
+    "id": "tage-paratexte-007",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Généralisé dans de nombreuses entreprises à la faveur de la crise sanitaire, le télétravail s'est installé durablement dans les organisations, sans pour autant faire consensus. Ses partisans mettent en avant le gain de temps lié à la suppression des trajets, une meilleure conciliation entre vie professionnelle et vie personnelle, ainsi qu'une productivité individuelle souvent jugée supérieure sur les tâches nécessitant de la concentration. Ses détracteurs pointent en revanche l'érosion progressive du lien social au sein des équipes, la difficulté à transmettre une culture d'entreprise à distance, et un risque accru d'isolement pour les salariés les plus jeunes ou les moins expérimentés, qui bénéficient traditionnellement de l'apprentissage informel au contact de leurs collègues. De nombreuses entreprises ont ainsi opté pour des formules hybrides, alternant présence au bureau et travail à domicile, dans l'espoir de conjuguer les avantages des deux modèles. Reste que cette organisation suppose un effort managérial accru : il ne suffit plus de superviser une présence physique, il faut désormais évaluer la contribution réelle de chacun, ce qui bouscule des pratiques d'encadrement parfois anciennes.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "Le télétravail présente des avantages et des inconvénients qui poussent de nombreuses entreprises vers des formules hybrides",
+      "Le télétravail a été unanimement rejeté par les entreprises après la crise sanitaire",
+      "Le télétravail supprime totalement le besoin d'encadrement managérial",
+      "Le télétravail ne concerne que les tâches ne nécessitant aucune concentration"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte équilibre avantages et inconvénients du télétravail et souligne la généralisation des formules hybrides comme compromis.",
+      "why_others_wrong": ["", "Contresens : le texte indique au contraire que le télétravail s'est installé durablement.", "Contresens : le texte précise que le télétravail suppose un effort managérial accru, non son absence.", "Contresens : le texte évoque au contraire une productivité supérieure sur les tâches de concentration."],
+      "method": "Chercher la synthèse implicite entre les deux paragraphes du texte (avantages/inconvénients) pour formuler l'idée principale équilibrée."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-008",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Généralisé dans de nombreuses entreprises à la faveur de la crise sanitaire, le télétravail s'est installé durablement dans les organisations, sans pour autant faire consensus. Ses partisans mettent en avant le gain de temps lié à la suppression des trajets, une meilleure conciliation entre vie professionnelle et vie personnelle, ainsi qu'une productivité individuelle souvent jugée supérieure sur les tâches nécessitant de la concentration. Ses détracteurs pointent en revanche l'érosion progressive du lien social au sein des équipes, la difficulté à transmettre une culture d'entreprise à distance, et un risque accru d'isolement pour les salariés les plus jeunes ou les moins expérimentés, qui bénéficient traditionnellement de l'apprentissage informel au contact de leurs collègues. De nombreuses entreprises ont ainsi opté pour des formules hybrides, alternant présence au bureau et travail à domicile, dans l'espoir de conjuguer les avantages des deux modèles. Reste que cette organisation suppose un effort managérial accru : il ne suffit plus de superviser une présence physique, il faut désormais évaluer la contribution réelle de chacun, ce qui bouscule des pratiques d'encadrement parfois anciennes.",
+    "statement": "Que peut-on inférer des propos de l'auteur sur le rôle du management à l'ère du télétravail ?",
+    "choices": [
+      "Le management doit évoluer d'une logique de contrôle de la présence vers une évaluation de la contribution réelle",
+      "Le management devient inutile dès lors que les salariés travaillent depuis leur domicile",
+      "Le management doit se concentrer exclusivement sur le contrôle des horaires de connexion",
+      "Le management traditionnel reste parfaitement adapté sans aucune évolution nécessaire"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte affirme explicitement qu'il faut désormais évaluer la contribution réelle de chacun plutôt que superviser une présence physique.",
+      "why_others_wrong": ["", "Contresens : le texte affirme au contraire que l'effort managérial doit s'accroître.", "Réduction abusive : le texte parle d'évaluer la contribution réelle, pas seulement les horaires de connexion.", "Contresens direct avec la dernière phrase du texte."],
+      "method": "Une inférence sur un rôle ou une évolution se construit souvent à partir de la dernière phrase d'un paragraphe, qui synthétise la conséquence logique du raisonnement."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-009",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Généralisé dans de nombreuses entreprises à la faveur de la crise sanitaire, le télétravail s'est installé durablement dans les organisations, sans pour autant faire consensus. Ses partisans mettent en avant le gain de temps lié à la suppression des trajets, une meilleure conciliation entre vie professionnelle et vie personnelle, ainsi qu'une productivité individuelle souvent jugée supérieure sur les tâches nécessitant de la concentration. Ses détracteurs pointent en revanche l'érosion progressive du lien social au sein des équipes, la difficulté à transmettre une culture d'entreprise à distance, et un risque accru d'isolement pour les salariés les plus jeunes ou les moins expérimentés, qui bénéficient traditionnellement de l'apprentissage informel au contact de leurs collègues. De nombreuses entreprises ont ainsi opté pour des formules hybrides, alternant présence au bureau et travail à domicile, dans l'espoir de conjuguer les avantages des deux modèles. Reste que cette organisation suppose un effort managérial accru : il ne suffit plus de superviser une présence physique, il faut désormais évaluer la contribution réelle de chacun, ce qui bouscule des pratiques d'encadrement parfois anciennes.",
+    "statement": "Selon le texte, quels salariés sont le plus exposés au risque d'isolement lié au télétravail ?",
+    "choices": [
+      "Les salariés les plus jeunes ou les moins expérimentés",
+      "Les salariés proches de la retraite",
+      "Les cadres dirigeants de l'entreprise",
+      "Les salariés travaillant à temps partiel"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte cite explicitement les salariés les plus jeunes ou les moins expérimentés comme les plus exposés à l'isolement.",
+      "why_others_wrong": ["", "Le texte ne mentionne pas spécifiquement les salariés proches de la retraite.", "Le texte ne cible pas les cadres dirigeants sur ce point précis.", "Aucune mention du temps partiel dans le texte."],
+      "method": "Pour un détail précis nommé explicitement dans le texte, le repérer littéralement plutôt que de raisonner par déduction."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-010",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Les biais cognitifs, ces raccourcis mentaux que notre cerveau emprunte pour traiter rapidement l'information, jouent un rôle déterminant dans la prise de décision, y compris dans un contexte professionnel où l'on présume pourtant la rationalité des choix. Le biais de confirmation, par exemple, pousse un décideur à privilégier les informations qui confortent ses convictions initiales, au détriment de signaux contradictoires pourtant pertinents. L'excès de confiance, quant à lui, conduit certains dirigeants à sous-estimer les risques d'un projet dans lequel ils sont personnellement investis. Loin d'être des anomalies marginales, ces mécanismes sont universels et affectent aussi bien les experts que les novices, la seule différence résidant dans la capacité à les identifier et à s'en prémunir. Certaines organisations ont ainsi mis en place des procédures destinées à limiter leur influence : recours systématique à un avocat du diable lors des comités stratégiques, consultation d'avis extérieurs avant toute décision d'investissement majeure, ou encore délai de réflexion obligatoire avant validation d'un projet. Ces dispositifs ne suppriment pas les biais, mais ils en atténuent les effets les plus dommageables sur la qualité des décisions.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "Les biais cognitifs affectent universellement la prise de décision, y compris chez les experts, mais certains dispositifs permettent d'en limiter les effets",
+      "Seuls les décideurs inexpérimentés sont sujets aux biais cognitifs",
+      "Les biais cognitifs peuvent être totalement éliminés grâce à des procédures adaptées",
+      "Le biais de confirmation est le seul biais cognitif ayant une réelle influence en entreprise"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte présente les biais cognitifs comme des mécanismes universels, y compris chez les experts, tout en évoquant des dispositifs qui en atténuent les effets sans les supprimer.",
+      "why_others_wrong": ["", "Contresens : le texte précise explicitement que ces mécanismes affectent aussi les experts.", "Contresens : le texte indique que les dispositifs atténuent les effets sans supprimer les biais.", "Réduction abusive : le texte mentionne aussi l'excès de confiance comme second exemple, sans exclure d'autres biais."],
+      "method": "Vérifier que l'idée principale retenue couvre l'ensemble du texte (définition, universalité, remède) et non un seul exemple cité."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-011",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Les biais cognitifs, ces raccourcis mentaux que notre cerveau emprunte pour traiter rapidement l'information, jouent un rôle déterminant dans la prise de décision, y compris dans un contexte professionnel où l'on présume pourtant la rationalité des choix. Le biais de confirmation, par exemple, pousse un décideur à privilégier les informations qui confortent ses convictions initiales, au détriment de signaux contradictoires pourtant pertinents. L'excès de confiance, quant à lui, conduit certains dirigeants à sous-estimer les risques d'un projet dans lequel ils sont personnellement investis. Loin d'être des anomalies marginales, ces mécanismes sont universels et affectent aussi bien les experts que les novices, la seule différence résidant dans la capacité à les identifier et à s'en prémunir. Certaines organisations ont ainsi mis en place des procédures destinées à limiter leur influence : recours systématique à un avocat du diable lors des comités stratégiques, consultation d'avis extérieurs avant toute décision d'investissement majeure, ou encore délai de réflexion obligatoire avant validation d'un projet. Ces dispositifs ne suppriment pas les biais, mais ils en atténuent les effets les plus dommageables sur la qualité des décisions.",
+    "statement": "Comment le texte définit-il le biais de confirmation ?",
+    "choices": [
+      "La tendance à privilégier les informations qui confortent ses convictions initiales",
+      "La tendance à sous-estimer systématiquement les risques d'un projet",
+      "La tendance à consulter obligatoirement des avis extérieurs avant toute décision",
+      "La tendance à retarder toute décision par excès de prudence"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte définit explicitement le biais de confirmation comme la tendance à privilégier les informations confortant les convictions initiales.",
+      "why_others_wrong": ["", "Cette définition correspond à l'excès de confiance décrit ensuite dans le texte, pas au biais de confirmation.", "Ceci décrit une procédure de prévention évoquée plus loin dans le texte, non un biais.", "Aucune définition de ce type n'apparaît dans le texte."],
+      "method": "Ne pas confondre deux notions présentées successivement dans un même paragraphe : bien réassocier chaque définition à son terme exact."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-012",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Les biais cognitifs, ces raccourcis mentaux que notre cerveau emprunte pour traiter rapidement l'information, jouent un rôle déterminant dans la prise de décision, y compris dans un contexte professionnel où l'on présume pourtant la rationalité des choix. Le biais de confirmation, par exemple, pousse un décideur à privilégier les informations qui confortent ses convictions initiales, au détriment de signaux contradictoires pourtant pertinents. L'excès de confiance, quant à lui, conduit certains dirigeants à sous-estimer les risques d'un projet dans lequel ils sont personnellement investis. Loin d'être des anomalies marginales, ces mécanismes sont universels et affectent aussi bien les experts que les novices, la seule différence résidant dans la capacité à les identifier et à s'en prémunir. Certaines organisations ont ainsi mis en place des procédures destinées à limiter leur influence : recours systématique à un avocat du diable lors des comités stratégiques, consultation d'avis extérieurs avant toute décision d'investissement majeure, ou encore délai de réflexion obligatoire avant validation d'un projet. Ces dispositifs ne suppriment pas les biais, mais ils en atténuent les effets les plus dommageables sur la qualité des décisions.",
+    "statement": "Que suggère le texte à propos des dispositifs mis en place par certaines organisations ?",
+    "choices": [
+      "Ils réduisent l'impact des biais sans pour autant les supprimer totalement",
+      "Ils garantissent l'élimination complète de toute erreur de décision",
+      "Ils ne concernent que les décisions les moins stratégiques de l'entreprise",
+      "Ils sont jugés inefficaces par l'ensemble des organisations qui les ont testés"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La dernière phrase du texte indique explicitement que ces dispositifs ne suppriment pas les biais mais en atténuent les effets les plus dommageables.",
+      "why_others_wrong": ["", "Contresens : le texte précise explicitement qu'ils ne suppriment pas les biais.", "Contresens : le texte évoque au contraire les comités stratégiques et les investissements majeurs.", "Aucune évaluation négative de ce type n'est formulée dans le texte."],
+      "method": "Repérer la formulation nuancée finale du texte (« ne suppriment pas… mais atténuent ») qui exprime souvent la conclusion exacte à restituer."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-013",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "La transition écologique impose aux entreprises une transformation profonde de leurs modèles économiques, longtemps fondés sur une logique de croissance continue et de consommation de ressources peu coûteuses. Nombre de dirigeants perçoivent désormais cette contrainte réglementaire et sociétale non plus comme un simple risque de conformité, mais comme un facteur potentiel de différenciation concurrentielle, à condition d'anticiper les évolutions plutôt que de les subir. Les entreprises pionnières en matière d'écoconception, de sobriété énergétique ou d'économie circulaire bénéficient ainsi d'une image renforcée auprès de consommateurs de plus en plus sensibles à ces enjeux, en particulier parmi les jeunes générations. Cette dynamique reste toutefois freinée par des considérations de court terme : les investissements nécessaires à la décarbonation pèsent immédiatement sur les marges, tandis que leurs bénéfices, en termes de compétitivité ou de résilience, ne se matérialisent qu'à moyen ou long terme. Ce décalage temporel explique en partie pourquoi certaines entreprises, sous la pression d'actionnaires focalisés sur les résultats trimestriels, peinent à engager des transformations pourtant jugées inévitables par leurs propres dirigeants.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "La transition écologique peut devenir un avantage concurrentiel pour les entreprises, mais son coût immédiat freine son adoption",
+      "La transition écologique est un phénomène marginal qui ne concerne pas la stratégie des entreprises",
+      "Toutes les entreprises ont désormais pleinement intégré les exigences de la transition écologique",
+      "Les actionnaires sont systématiquement favorables aux investissements de décarbonation"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte présente la transition écologique comme un potentiel avantage concurrentiel, freiné par le décalage entre coûts immédiats et bénéfices différés.",
+      "why_others_wrong": ["", "Contresens : le texte présente au contraire la transition écologique comme un enjeu stratégique central.", "Contresens : le texte souligne que cette dynamique reste freinée par des considérations de court terme.", "Contresens : le texte évoque au contraire des actionnaires focalisés sur les résultats trimestriels, freinant ces investissements."],
+      "method": "Repérer la tension entre bénéfice à long terme et coût à court terme, souvent au cœur de l'idée principale des textes économiques sur ce sujet."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-014",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "La transition écologique impose aux entreprises une transformation profonde de leurs modèles économiques, longtemps fondés sur une logique de croissance continue et de consommation de ressources peu coûteuses. Nombre de dirigeants perçoivent désormais cette contrainte réglementaire et sociétale non plus comme un simple risque de conformité, mais comme un facteur potentiel de différenciation concurrentielle, à condition d'anticiper les évolutions plutôt que de les subir. Les entreprises pionnières en matière d'écoconception, de sobriété énergétique ou d'économie circulaire bénéficient ainsi d'une image renforcée auprès de consommateurs de plus en plus sensibles à ces enjeux, en particulier parmi les jeunes générations. Cette dynamique reste toutefois freinée par des considérations de court terme : les investissements nécessaires à la décarbonation pèsent immédiatement sur les marges, tandis que leurs bénéfices, en termes de compétitivité ou de résilience, ne se matérialisent qu'à moyen ou long terme. Ce décalage temporel explique en partie pourquoi certaines entreprises, sous la pression d'actionnaires focalisés sur les résultats trimestriels, peinent à engager des transformations pourtant jugées inévitables par leurs propres dirigeants.",
+    "statement": "D'après le texte, pourquoi certaines entreprises tardent-elles à engager leur transformation écologique malgré leur conviction qu'elle est nécessaire ?",
+    "choices": [
+      "Parce que la pression d'actionnaires focalisés sur les résultats trimestriels limite les investissements à bénéfices différés",
+      "Parce qu'elles ignorent totalement les attentes des consommateurs en la matière",
+      "Parce que la réglementation actuelle leur interdit ce type d'investissement",
+      "Parce qu'elles considèrent que les jeunes générations ne sont pas sensibles à ces enjeux"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte attribue explicitement ce retard à la pression d'actionnaires focalisés sur les résultats trimestriels, incompatible avec des bénéfices se matérialisant à moyen ou long terme.",
+      "why_others_wrong": ["", "Contresens : le texte évoque au contraire une sensibilité croissante des consommateurs, prise en compte par les entreprises.", "Aucune mention d'une interdiction réglementaire dans le texte.", "Contresens : le texte indique explicitement une sensibilité accrue des jeunes générations."],
+      "method": "Pour une inférence causale, localiser précisément le connecteur logique (« ce décalage temporel explique en partie… ») qui introduit la cause recherchée."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-015",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "La transition écologique impose aux entreprises une transformation profonde de leurs modèles économiques, longtemps fondés sur une logique de croissance continue et de consommation de ressources peu coûteuses. Nombre de dirigeants perçoivent désormais cette contrainte réglementaire et sociétale non plus comme un simple risque de conformité, mais comme un facteur potentiel de différenciation concurrentielle, à condition d'anticiper les évolutions plutôt que de les subir. Les entreprises pionnières en matière d'écoconception, de sobriété énergétique ou d'économie circulaire bénéficient ainsi d'une image renforcée auprès de consommateurs de plus en plus sensibles à ces enjeux, en particulier parmi les jeunes générations. Cette dynamique reste toutefois freinée par des considérations de court terme : les investissements nécessaires à la décarbonation pèsent immédiatement sur les marges, tandis que leurs bénéfices, en termes de compétitivité ou de résilience, ne se matérialisent qu'à moyen ou long terme. Ce décalage temporel explique en partie pourquoi certaines entreprises, sous la pression d'actionnaires focalisés sur les résultats trimestriels, peinent à engager des transformations pourtant jugées inévitables par leurs propres dirigeants.",
+    "statement": "Selon le texte, qui bénéficie d'une image renforcée grâce à son engagement écologique ?",
+    "choices": [
+      "Les entreprises pionnières en écoconception, sobriété énergétique ou économie circulaire",
+      "Uniquement les grandes entreprises cotées en bourse",
+      "Les entreprises ayant réduit leurs effectifs pour limiter leurs coûts",
+      "Les entreprises ayant renoncé à toute stratégie de long terme"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte cite explicitement les entreprises pionnières en écoconception, sobriété énergétique ou économie circulaire comme bénéficiant d'une image renforcée.",
+      "why_others_wrong": ["", "Le texte ne restreint pas ce constat aux seules entreprises cotées.", "Aucun lien de ce type n'est établi dans le texte.", "Contresens : le texte valorise au contraire une anticipation de long terme."],
+      "method": "Question de repérage direct : localiser la phrase citant explicitement les domaines concernés (écoconception, sobriété énergétique, économie circulaire)."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-016",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "Après plusieurs décennies marquées par une intensification des échanges internationaux et une fragmentation croissante des chaînes de production, un mouvement inverse semble à l'œuvre depuis la pandémie de Covid-19 et les tensions géopolitiques qui l'ont suivie. De nombreuses entreprises occidentales reconsidèrent l'opportunité d'une dépendance excessive à des fournisseurs éloignés, en particulier pour les produits jugés stratégiques : semi-conducteurs, médicaments, composants électroniques. La relocalisation, ou du moins la diversification géographique des approvisionnements, apparaît comme une réponse à cette vulnérabilité nouvellement mise en lumière. Elle se heurte cependant à des obstacles économiques considérables : le différentiel de coût de production reste souvent élevé, et les compétences industrielles nécessaires ont parfois disparu des territoires concernés après des années de désindustrialisation. Plutôt qu'un retour massif à une production strictement locale, c'est davantage vers un modèle de proximité régionale, mêlant relocalisation partielle et diversification des fournisseurs, que semblent s'orienter la plupart des entreprises, soucieuses de concilier résilience et maîtrise des coûts.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "Face aux vulnérabilités révélées par la crise sanitaire, les entreprises s'orientent vers une diversification régionale plutôt qu'une relocalisation totale",
+      "Les entreprises occidentales ont massivement et intégralement relocalisé leur production depuis la pandémie",
+      "La mondialisation des chaînes de production s'est intensifiée sans discontinuer depuis la pandémie",
+      "Le coût de production est désormais identique entre les territoires proches et les fournisseurs éloignés"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte conclut que les entreprises s'orientent vers un modèle mêlant relocalisation partielle et diversification, plutôt qu'un retour massif à la production locale.",
+      "why_others_wrong": ["", "Contresens : le texte précise que la relocalisation reste partielle, freinée par des obstacles économiques.", "Contresens : le texte évoque au contraire un mouvement inverse depuis la pandémie.", "Contresens : le texte indique que le différentiel de coût reste souvent élevé."],
+      "method": "Se méfier des formulations absolues (« massivement », « intégralement », « sans discontinuer ») : le texte nuance presque toujours ce type d'affirmation."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-017",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "Après plusieurs décennies marquées par une intensification des échanges internationaux et une fragmentation croissante des chaînes de production, un mouvement inverse semble à l'œuvre depuis la pandémie de Covid-19 et les tensions géopolitiques qui l'ont suivie. De nombreuses entreprises occidentales reconsidèrent l'opportunité d'une dépendance excessive à des fournisseurs éloignés, en particulier pour les produits jugés stratégiques : semi-conducteurs, médicaments, composants électroniques. La relocalisation, ou du moins la diversification géographique des approvisionnements, apparaît comme une réponse à cette vulnérabilité nouvellement mise en lumière. Elle se heurte cependant à des obstacles économiques considérables : le différentiel de coût de production reste souvent élevé, et les compétences industrielles nécessaires ont parfois disparu des territoires concernés après des années de désindustrialisation. Plutôt qu'un retour massif à une production strictement locale, c'est davantage vers un modèle de proximité régionale, mêlant relocalisation partielle et diversification des fournisseurs, que semblent s'orienter la plupart des entreprises, soucieuses de concilier résilience et maîtrise des coûts.",
+    "statement": "Quels produits le texte cite-t-il comme exemples jugés stratégiques ?",
+    "choices": [
+      "Les semi-conducteurs, les médicaments et les composants électroniques",
+      "Les produits alimentaires transformés et les textiles",
+      "Les matières premières agricoles uniquement",
+      "Les biens culturels et les produits de luxe"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte cite explicitement les semi-conducteurs, les médicaments et les composants électroniques comme exemples de produits stratégiques.",
+      "why_others_wrong": ["", "Ces catégories ne sont pas mentionnées dans le texte.", "Le texte ne se limite pas aux matières premières agricoles.", "Aucune mention de ces catégories dans le texte."],
+      "method": "Pour une liste d'exemples cités explicitement, les repérer directement dans le texte plutôt que de deviner par plausibilité générale."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-018",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "Après plusieurs décennies marquées par une intensification des échanges internationaux et une fragmentation croissante des chaînes de production, un mouvement inverse semble à l'œuvre depuis la pandémie de Covid-19 et les tensions géopolitiques qui l'ont suivie. De nombreuses entreprises occidentales reconsidèrent l'opportunité d'une dépendance excessive à des fournisseurs éloignés, en particulier pour les produits jugés stratégiques : semi-conducteurs, médicaments, composants électroniques. La relocalisation, ou du moins la diversification géographique des approvisionnements, apparaît comme une réponse à cette vulnérabilité nouvellement mise en lumière. Elle se heurte cependant à des obstacles économiques considérables : le différentiel de coût de production reste souvent élevé, et les compétences industrielles nécessaires ont parfois disparu des territoires concernés après des années de désindustrialisation. Plutôt qu'un retour massif à une production strictement locale, c'est davantage vers un modèle de proximité régionale, mêlant relocalisation partielle et diversification des fournisseurs, que semblent s'orienter la plupart des entreprises, soucieuses de concilier résilience et maîtrise des coûts.",
+    "statement": "Que peut-on inférer du modèle vers lequel s'orientent la plupart des entreprises selon le texte ?",
+    "choices": [
+      "Un modèle mêlant relocalisation partielle et diversification des fournisseurs, plutôt qu'un retour massif à la production locale",
+      "Un abandon complet de toute production à l'étranger",
+      "Un maintien à l'identique des chaînes de production antérieures à la pandémie",
+      "Une concentration de la production sur un unique fournisseur étranger de confiance"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La dernière phrase du texte indique explicitement ce modèle mixte de relocalisation partielle et de diversification comme orientation privilégiée.",
+      "why_others_wrong": ["", "Contresens : le texte écarte explicitement l'idée d'un retour massif à une production strictement locale.", "Contresens : le texte décrit au contraire un mouvement de reconfiguration des chaînes de production.", "Contresens : le texte prône la diversification des fournisseurs, non leur réduction à un seul."],
+      "method": "Repérer la formule de nuance en fin de texte (« plutôt que…, c'est davantage vers… ») qui indique souvent la conclusion exacte du passage."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-019",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "L'essor rapide de l'intelligence artificielle générative ravive les inquiétudes quant à son impact sur l'emploi, sans pour autant que les études économiques ne convergent vers un diagnostic univoque. Certaines recherches insistent sur le risque de substitution pur et simple de certaines tâches, notamment administratives ou rédactionnelles, par des systèmes automatisés capables de produire des résultats en quelques secondes. D'autres travaux, plus nuancés, mettent en avant un effet de complémentarité : l'intelligence artificielle ne remplacerait pas les métiers dans leur ensemble, mais transformerait la nature des tâches qui les composent, libérant du temps pour des activités à plus forte valeur ajoutée, comme l'analyse critique, la créativité ou la relation humaine. L'histoire des révolutions technologiques précédentes invite d'ailleurs à la prudence face aux prévisions les plus alarmistes : l'informatisation des années 1980 avait suscité des craintes comparables, sans empêcher, in fine, une création nette d'emplois à moyen terme. Reste que cette transition suppose un effort massif de formation et d'accompagnement, sous peine de creuser les inégalités entre salariés capables de s'adapter et ceux qui resteront à l'écart de cette mutation.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "L'impact de l'intelligence artificielle sur l'emploi reste débattu entre substitution et complémentarité, sous réserve d'un effort de formation",
+      "L'intelligence artificielle va inévitablement détruire la totalité des emplois administratifs existants",
+      "Les précédentes révolutions technologiques ont toujours détruit des emplois de façon irréversible",
+      "L'intelligence artificielle ne concerne en rien la nature des tâches effectuées par les salariés"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte présente deux thèses concurrentes (substitution/complémentarité) et conclut sur la nécessité d'un effort de formation pour éviter le creusement des inégalités.",
+      "why_others_wrong": ["", "Contresens : le texte évoque un effet de substitution partiel sur certaines tâches, non la totalité des emplois.", "Contresens : le texte indique au contraire que l'informatisation des années 1980 a débouché sur une création nette d'emplois.", "Contresens direct avec le passage sur la transformation des tâches évoqué dans le texte."],
+      "method": "Repérer la double thèse (substitution vs complémentarité) annoncée dès le début du texte, souvent la structure clé pour formuler l'idée principale."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-020",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "L'essor rapide de l'intelligence artificielle générative ravive les inquiétudes quant à son impact sur l'emploi, sans pour autant que les études économiques ne convergent vers un diagnostic univoque. Certaines recherches insistent sur le risque de substitution pur et simple de certaines tâches, notamment administratives ou rédactionnelles, par des systèmes automatisés capables de produire des résultats en quelques secondes. D'autres travaux, plus nuancés, mettent en avant un effet de complémentarité : l'intelligence artificielle ne remplacerait pas les métiers dans leur ensemble, mais transformerait la nature des tâches qui les composent, libérant du temps pour des activités à plus forte valeur ajoutée, comme l'analyse critique, la créativité ou la relation humaine. L'histoire des révolutions technologiques précédentes invite d'ailleurs à la prudence face aux prévisions les plus alarmistes : l'informatisation des années 1980 avait suscité des craintes comparables, sans empêcher, in fine, une création nette d'emplois à moyen terme. Reste que cette transition suppose un effort massif de formation et d'accompagnement, sous peine de creuser les inégalités entre salariés capables de s'adapter et ceux qui resteront à l'écart de cette mutation.",
+    "statement": "Quel est le ton adopté par l'auteur de ce texte ?",
+    "choices": [
+      "Un ton nuancé, invitant à la prudence face aux prévisions les plus alarmistes",
+      "Un ton alarmiste, annonçant une disparition massive et certaine des emplois",
+      "Un ton résolument optimiste, écartant tout risque lié à l'intelligence artificielle",
+      "Un ton polémique, dénonçant ouvertement les entreprises technologiques"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'auteur relativise les prévisions alarmistes en s'appuyant sur le précédent historique de l'informatisation, tout en reconnaissant des risques réels et la nécessité d'un accompagnement.",
+      "why_others_wrong": ["", "Contresens : le texte relativise explicitement les prévisions alarmistes plutôt que de les reprendre à son compte.", "Le texte reconnaît des risques réels (substitution de tâches, inégalités), il n'est pas purement optimiste.", "Le texte ne cible aucune entreprise ni acteur en particulier de façon polémique."],
+      "method": "Pour identifier le ton, repérer les adverbes et formules d'atténuation (« sans que… converge », « invite à la prudence ») qui trahissent une position mesurée."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["comprehension", "ton-auteur"]
+  },
+  {
+    "id": "tage-paratexte-021",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "L'essor rapide de l'intelligence artificielle générative ravive les inquiétudes quant à son impact sur l'emploi, sans pour autant que les études économiques ne convergent vers un diagnostic univoque. Certaines recherches insistent sur le risque de substitution pur et simple de certaines tâches, notamment administratives ou rédactionnelles, par des systèmes automatisés capables de produire des résultats en quelques secondes. D'autres travaux, plus nuancés, mettent en avant un effet de complémentarité : l'intelligence artificielle ne remplacerait pas les métiers dans leur ensemble, mais transformerait la nature des tâches qui les composent, libérant du temps pour des activités à plus forte valeur ajoutée, comme l'analyse critique, la créativité ou la relation humaine. L'histoire des révolutions technologiques précédentes invite d'ailleurs à la prudence face aux prévisions les plus alarmistes : l'informatisation des années 1980 avait suscité des craintes comparables, sans empêcher, in fine, une création nette d'emplois à moyen terme. Reste que cette transition suppose un effort massif de formation et d'accompagnement, sous peine de creuser les inégalités entre salariés capables de s'adapter et ceux qui resteront à l'écart de cette mutation.",
+    "statement": "Selon le texte, à quelle condition la transition liée à l'intelligence artificielle évitera-t-elle de creuser les inégalités entre salariés ?",
+    "choices": [
+      "À condition qu'un effort massif de formation et d'accompagnement soit engagé",
+      "À condition que l'intelligence artificielle soit interdite dans les tâches administratives",
+      "À condition que tous les salariés changent immédiatement de métier",
+      "À condition que les entreprises renoncent totalement à l'automatisation"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La dernière phrase du texte pose explicitement cette condition : un effort massif de formation et d'accompagnement, sous peine de creuser les inégalités.",
+      "why_others_wrong": ["", "Aucune interdiction de ce type n'est évoquée dans le texte.", "Le texte ne recommande pas un changement de métier généralisé mais un accompagnement.", "Contresens : le texte n'appelle pas à renoncer à l'automatisation mais à accompagner la transition."],
+      "method": "La dernière phrase d'un texte argumentatif contient souvent la condition ou la réserve clé : la lire avec une attention particulière."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-022",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "L'arrivée massive de la génération Z sur le marché du travail bouscule des pratiques managériales façonnées par des décennies d'organisation hiérarchique classique. Ces jeunes salariés, souvent caricaturés à travers le prisme d'une prétendue défiance vis-à-vis de l'autorité, expriment en réalité des attentes qui recoupent des aspirations plus larges, partagées au-delà de leur seule classe d'âge : quête de sens dans le travail, exigence de transparence de la part des dirigeants, refus d'un présentéisme perçu comme improductif. Loin d'un simple effet de mode générationnel, ces évolutions traduisent une transformation plus profonde du rapport au travail, accélérée par la crise sanitaire et par une meilleure information des salariés sur leurs droits et sur les pratiques des autres entreprises. Les organisations qui parviennent à retenir ces talents sont généralement celles qui ont su faire évoluer leur style de management vers davantage d'écoute, de reconnaissance individuelle et de flexibilité, sans pour autant renoncer à un cadre structurant. À l'inverse, les entreprises qui persistent dans des modes de fonctionnement rigides s'exposent à un renouvellement accéléré de leurs effectifs, dans un marché du travail où le rapport de force s'est nettement rééquilibré en faveur des candidats les plus qualifiés.",
+    "statement": "Quelle est l'idée principale de ce texte ?",
+    "choices": [
+      "Les attentes attribuées à la génération Z traduisent une évolution plus large du rapport au travail, à laquelle les entreprises doivent adapter leur management",
+      "La génération Z se distingue par un rejet total et unique du travail salarié",
+      "Les entreprises n'ont constaté aucun changement dans les attentes de leurs jeunes salariés",
+      "Le rapport de force sur le marché du travail reste identique à celui des décennies précédentes"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte relie les attentes de la génération Z à une évolution plus générale du rapport au travail, appelant les entreprises à adapter leur management pour retenir les talents.",
+      "why_others_wrong": ["", "Contresens : le texte relativise la spécificité générationnelle en évoquant des aspirations plus larges.", "Contresens direct avec l'ensemble du texte, qui décrit précisément ces changements d'attentes.", "Contresens : le texte indique explicitement que le rapport de force s'est rééquilibré."],
+      "method": "Repérer la nuance introduite dès la deuxième phrase (« expriment en réalité des attentes qui recoupent des aspirations plus larges ») qui dépasse le seul cadre générationnel."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "idee-principale"]
+  },
+  {
+    "id": "tage-paratexte-023",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 2,
+    "type": "mcq",
+    "passage": "L'arrivée massive de la génération Z sur le marché du travail bouscule des pratiques managériales façonnées par des décennies d'organisation hiérarchique classique. Ces jeunes salariés, souvent caricaturés à travers le prisme d'une prétendue défiance vis-à-vis de l'autorité, expriment en réalité des attentes qui recoupent des aspirations plus larges, partagées au-delà de leur seule classe d'âge : quête de sens dans le travail, exigence de transparence de la part des dirigeants, refus d'un présentéisme perçu comme improductif. Loin d'un simple effet de mode générationnel, ces évolutions traduisent une transformation plus profonde du rapport au travail, accélérée par la crise sanitaire et par une meilleure information des salariés sur leurs droits et sur les pratiques des autres entreprises. Les organisations qui parviennent à retenir ces talents sont généralement celles qui ont su faire évoluer leur style de management vers davantage d'écoute, de reconnaissance individuelle et de flexibilité, sans pour autant renoncer à un cadre structurant. À l'inverse, les entreprises qui persistent dans des modes de fonctionnement rigides s'exposent à un renouvellement accéléré de leurs effectifs, dans un marché du travail où le rapport de force s'est nettement rééquilibré en faveur des candidats les plus qualifiés.",
+    "statement": "Quelles attentes le texte attribue-t-il aux jeunes salariés évoqués ?",
+    "choices": [
+      "Quête de sens, exigence de transparence, refus d'un présentéisme jugé improductif",
+      "Recherche exclusive d'une rémunération plus élevée que celle des générations précédentes",
+      "Volonté de travailler uniquement à distance sans aucune présence au bureau",
+      "Refus catégorique de toute forme de hiérarchie dans l'entreprise"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "Le texte cite explicitement ces trois attentes : quête de sens, exigence de transparence, refus du présentéisme improductif.",
+      "why_others_wrong": ["", "Le texte ne mentionne pas la rémunération comme attente principale.", "Le texte ne mentionne pas un refus total de présence au bureau.", "Le texte évoque une défiance vis-à-vis de l'autorité présentée comme une caricature, pas comme un refus catégorique et avéré de toute hiérarchie."],
+      "method": "Pour une liste d'attentes énumérées explicitement dans le texte, les relever une à une et vérifier leur présence littérale dans les choix proposés."
+    },
+    "targetTimeSeconds": 50,
+    "tags": ["comprehension", "detail-precis"]
+  },
+  {
+    "id": "tage-paratexte-024",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 4,
+    "type": "mcq",
+    "passage": "L'arrivée massive de la génération Z sur le marché du travail bouscule des pratiques managériales façonnées par des décennies d'organisation hiérarchique classique. Ces jeunes salariés, souvent caricaturés à travers le prisme d'une prétendue défiance vis-à-vis de l'autorité, expriment en réalité des attentes qui recoupent des aspirations plus larges, partagées au-delà de leur seule classe d'âge : quête de sens dans le travail, exigence de transparence de la part des dirigeants, refus d'un présentéisme perçu comme improductif. Loin d'un simple effet de mode générationnel, ces évolutions traduisent une transformation plus profonde du rapport au travail, accélérée par la crise sanitaire et par une meilleure information des salariés sur leurs droits et sur les pratiques des autres entreprises. Les organisations qui parviennent à retenir ces talents sont généralement celles qui ont su faire évoluer leur style de management vers davantage d'écoute, de reconnaissance individuelle et de flexibilité, sans pour autant renoncer à un cadre structurant. À l'inverse, les entreprises qui persistent dans des modes de fonctionnement rigides s'exposent à un renouvellement accéléré de leurs effectifs, dans un marché du travail où le rapport de force s'est nettement rééquilibré en faveur des candidats les plus qualifiés.",
+    "statement": "Que peut-on inférer des entreprises qui persistent dans des modes de fonctionnement rigides, selon le texte ?",
+    "choices": [
+      "Elles s'exposent à un renouvellement accéléré de leurs effectifs, faute de retenir leurs talents",
+      "Elles bénéficient d'une plus grande stabilité de leurs équipes que les autres entreprises",
+      "Elles n'observent aucune conséquence particulière sur leur gestion des ressources humaines",
+      "Elles attirent davantage la génération Z que les entreprises plus flexibles"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "La dernière phrase du texte affirme explicitement que ces entreprises s'exposent à un renouvellement accéléré de leurs effectifs.",
+      "why_others_wrong": ["", "Contresens direct avec la dernière phrase du texte.", "Contresens : le texte indique explicitement une conséquence négative sur le turnover.", "Contresens : le texte affirme au contraire que ces entreprises attirent moins les jeunes talents."],
+      "method": "Repérer la structure d'opposition finale (« à l'inverse… ») qui introduit souvent la conséquence logique inverse du paragraphe précédent."
+    },
+    "targetTimeSeconds": 60,
+    "tags": ["comprehension", "inference"]
+  },
+  {
+    "id": "tage-paratexte-025",
+    "module": "tage2",
+    "subtest": "paratexte",
+    "difficulty": 3,
+    "type": "mcq",
+    "passage": "L'arrivée massive de la génération Z sur le marché du travail bouscule des pratiques managériales façonnées par des décennies d'organisation hiérarchique classique. Ces jeunes salariés, souvent caricaturés à travers le prisme d'une prétendue défiance vis-à-vis de l'autorité, expriment en réalité des attentes qui recoupent des aspirations plus larges, partagées au-delà de leur seule classe d'âge : quête de sens dans le travail, exigence de transparence de la part des dirigeants, refus d'un présentéisme perçu comme improductif. Loin d'un simple effet de mode générationnel, ces évolutions traduisent une transformation plus profonde du rapport au travail, accélérée par la crise sanitaire et par une meilleure information des salariés sur leurs droits et sur les pratiques des autres entreprises. Les organisations qui parviennent à retenir ces talents sont généralement celles qui ont su faire évoluer leur style de management vers davantage d'écoute, de reconnaissance individuelle et de flexibilité, sans pour autant renoncer à un cadre structurant. À l'inverse, les entreprises qui persistent dans des modes de fonctionnement rigides s'exposent à un renouvellement accéléré de leurs effectifs, dans un marché du travail où le rapport de force s'est nettement rééquilibré en faveur des candidats les plus qualifiés.",
+    "statement": "Quelle est l'intention de l'auteur dans ce texte ?",
+    "choices": [
+      "Nuancer la caricature d'une génération Z en rupture, en la replaçant dans une évolution plus générale du rapport au travail",
+      "Dénoncer sans nuance les pratiques managériales de toutes les entreprises françaises",
+      "Démontrer que la génération Z ne mérite aucune attention particulière de la part des managers",
+      "Défendre un retour strict aux méthodes de management hiérarchiques traditionnelles"
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "why_correct": "L'auteur relativise dès le début la caricature de la génération Z pour la replacer dans une transformation plus large du rapport au travail.",
+      "why_others_wrong": ["", "Le texte ne dénonce pas l'ensemble des entreprises, il distingue celles qui s'adaptent de celles qui ne le font pas.", "Contresens : l'ensemble du texte porte au contraire une attention particulière à ces attentes.", "Contresens : le texte valorise au contraire l'évolution vers plus d'écoute et de flexibilité."],
+      "method": "Repérer dès la première phrase le mot « caricaturés », qui signale l'intention de l'auteur de nuancer un stéréotype plutôt que de l'entériner."
+    },
+    "targetTimeSeconds": 55,
+    "tags": ["comprehension", "ton-auteur"]
+  }
+]
