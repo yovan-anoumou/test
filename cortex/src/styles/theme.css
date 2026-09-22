@@ -15,6 +15,15 @@
   --color-danger: #ff3b30; /* systemRed */
   --color-danger-bg: rgba(255, 59, 48, 0.12);
   --color-nav-bg: rgba(249, 249, 249, 0.82);
+  /* Couleurs d'accent pour les domaines des fiches mémo (systemPurple/Teal/Pink/Indigo). */
+  --color-purple: #af52de;
+  --color-purple-bg: rgba(175, 82, 222, 0.12);
+  --color-teal: #30b0c7;
+  --color-teal-bg: rgba(48, 176, 199, 0.12);
+  --color-pink: #ff2d55;
+  --color-pink-bg: rgba(255, 45, 85, 0.12);
+  --color-indigo: #5856d6;
+  --color-indigo-bg: rgba(88, 86, 214, 0.12);
   --radius-sm: 10px;
   --radius-md: 14px;
   --radius-lg: 20px;
@@ -40,6 +49,14 @@
     --color-danger: #ff453a;
     --color-danger-bg: rgba(255, 69, 58, 0.16);
     --color-nav-bg: rgba(28, 28, 30, 0.78);
+    --color-purple: #bf5af2;
+    --color-purple-bg: rgba(191, 90, 242, 0.18);
+    --color-teal: #40c8e0;
+    --color-teal-bg: rgba(64, 200, 224, 0.18);
+    --color-pink: #ff375f;
+    --color-pink-bg: rgba(255, 55, 95, 0.18);
+    --color-indigo: #5e5ce6;
+    --color-indigo-bg: rgba(94, 92, 230, 0.18);
   }
 }
 
@@ -59,4 +76,12 @@
   --color-danger: #ff453a;
   --color-danger-bg: rgba(255, 69, 58, 0.16);
   --color-nav-bg: rgba(28, 28, 30, 0.78);
+  --color-purple: #bf5af2;
+  --color-purple-bg: rgba(191, 90, 242, 0.18);
+  --color-teal: #40c8e0;
+  --color-teal-bg: rgba(64, 200, 224, 0.18);
+  --color-pink: #ff375f;
+  --color-pink-bg: rgba(255, 55, 95, 0.18);
+  --color-indigo: #5e5ce6;
+  --color-indigo-bg: rgba(94, 92, 230, 0.18);
 }

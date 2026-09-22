@@ -41,6 +41,15 @@ export function ClockIcon() {
   );
 }
 
+export function BookIcon() {
+  return (
+    <svg {...common}>
+      <path d="M4 5.2c1.6-.8 4-1.2 8-1.2v13.8c-4 0-6.4.4-8 1.2Z" />
+      <path d="M20 5.2c-1.6-.8-4-1.2-8-1.2v13.8c4 0 6.4.4 8 1.2Z" />
+    </svg>
+  );
+}
+
 export function GearIcon() {
   return (
     <svg {...common}>

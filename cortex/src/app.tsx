@@ -9,6 +9,9 @@ import { MockExamScreen } from "./features/mock-exam/MockExamScreen";
 import { DashboardScreen } from "./features/dashboard/DashboardScreen";
 import { HistoryScreen } from "./features/review-history/HistoryScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
+import { FichesIndexScreen } from "./features/fiches/FichesIndexScreen";
+import { FicheDomainScreen } from "./features/fiches/FicheDomainScreen";
+import { FicheDetailScreen } from "./features/fiches/FicheDetailScreen";
 
 export function App() {
   useEffect(() => {
@@ -62,6 +65,12 @@ function renderScreen(route: Route) {
       return <HistoryScreen />;
     case "settings":
       return <SettingsScreen />;
+    case "fiches":
+      return <FichesIndexScreen />;
+    case "fiches-domain":
+      return <FicheDomainScreen domain={route.domain} />;
+    case "fiche":
+      return <FicheDetailScreen id={route.id} />;
     case "home":
     default:
       return <HomeScreen />;

@@ -1,5 +1,6 @@
 import { signal } from "@preact/signals";
 import type { SessionKind } from "./domain/session-builder";
+import type { FicheDomainId } from "./domain/fiches/types";
 
 export type Route =
   | { name: "home" }
@@ -8,12 +9,23 @@ export type Route =
   | { name: "dashboard" }
   | { name: "history" }
   | { name: "settings" }
-  | { name: "onboarding" };
+  | { name: "onboarding" }
+  | { name: "fiches" }
+  | { name: "fiches-domain"; domain: FicheDomainId }
+  | { name: "fiche"; id: string };
 
 function parseSessionMode(param: string | undefined): SessionKind {
   if (param === "short" || param === "weak-review") return param;
   return "daily";
 }
+
+const FICHE_DOMAIN_IDS: FicheDomainId[] = [
+  "calcul",
+  "logique",
+  "anglais",
+  "vocabulaire",
+  "culture-generale",
+];
 
 function parseHash(hash: string): Route {
   const path = hash.replace(/^#\/?/, "");
@@ -31,6 +43,12 @@ function parseHash(hash: string): Route {
       return { name: "settings" };
     case "onboarding":
       return { name: "onboarding" };
+    case "fiche":
+      return param ? { name: "fiche", id: param } : { name: "fiches" };
+    case "fiches": {
+      const domain = FICHE_DOMAIN_IDS.find((d) => d === param);
+      return domain ? { name: "fiches-domain", domain } : { name: "fiches" };
+    }
     default:
       return { name: "home" };
   }
@@ -43,11 +61,22 @@ window.addEventListener("hashchange", () => {
 });
 
 export function navigate(route: Route): void {
-  const path =
-    route.name === "session"
-      ? `session/${route.mode}`
-      : route.name === "home"
-        ? ""
-        : route.name;
+  let path: string;
+  switch (route.name) {
+    case "session":
+      path = `session/${route.mode}`;
+      break;
+    case "fiches-domain":
+      path = `fiches/${route.domain}`;
+      break;
+    case "fiche":
+      path = `fiche/${route.id}`;
+      break;
+    case "home":
+      path = "";
+      break;
+    default:
+      path = route.name;
+  }
   window.location.hash = `#/${path}`;
 }

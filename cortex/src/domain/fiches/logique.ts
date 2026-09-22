@@ -1,0 +1,120 @@
+import type { Fiche } from "./types";
+
+export const LOGIQUE_FICHES: Fiche[] = [
+  {
+    id: "logique-series-numeriques",
+    domain: "logique",
+    title: "Méthode universelle — séries numériques",
+    tagline: "4 réflexes, toujours dans le même ordre. 80 % des séries se résolvent aux deux premiers.",
+    readMinutes: 3,
+    blocks: [
+      {
+        type: "diagram",
+        kind: "series-method",
+      },
+      {
+        type: "rule",
+        title: "Règle d'or",
+        body: "80 % des séries numériques se résolvent dès l'étape 1 (écarts) ou l'étape 2 (ratios). Ne saute jamais directement aux suites imbriquées : tu perdrais du temps sur des séries en réalité très simples.",
+      },
+      {
+        type: "example",
+        title: "Ratio constant",
+        prompt: "3, 6, 12, 24, 48, ?",
+        reveal: "Chaque terme est le double du précédent (×2 constant) → 96.",
+      },
+      {
+        type: "example",
+        title: "Ratio fractionnaire",
+        prompt: "1000, 500, 250, 125, ?",
+        reveal: "Division par 2 à chaque étape (÷2 constant) → 62,5.",
+      },
+      {
+        type: "example",
+        title: "Ratio négatif",
+        prompt: "2, −6, 18, −54, ?",
+        reveal:
+          "Multiplication constante par −3 → 162. Dès que les signes alternent dans une série, pense immédiatement « ratio négatif », c'est un piège classique qui bloque beaucoup de candidats.",
+      },
+      {
+        type: "example",
+        title: "Suites imbriquées",
+        prompt: "7, 8, 6, 9, 5, 10, 4, 11, ?",
+        reveal:
+          "En séparant les positions impaires et paires, on obtient deux sous-suites : 7, 6, 5, 4… (qui descend) et 8, 9, 10, 11… (qui monte). La suite continue sur la sous-suite qui descend → 3.",
+      },
+    ],
+  },
+  {
+    id: "logique-series-lettres",
+    domain: "logique",
+    title: "Séries de lettres",
+    tagline: "Le même principe que les séries numériques, avec un alphabet en plus.",
+    readMinutes: 2,
+    blocks: [
+      {
+        type: "keyfacts",
+        title: "Toujours vérifier, dans l'ordre",
+        items: [
+          "Ordre alphabétique simple (A, B, C… ou un décalage constant comme A, C, E…)",
+          "Lecture en diagonale ou en colonne si les lettres sont disposées sur plusieurs lignes",
+          "Décalage constant entre chaque lettre (ex : +2 positions à chaque fois)",
+        ],
+      },
+      {
+        type: "mnemonic",
+        title: "L'astuce qui débloque tout",
+        body: "Bloqué ? Numérote les lettres (A=1, B=2, C=3…) pour transformer la série de lettres en série numérique, puis applique la méthode des 4 réflexes vue juste avant.",
+      },
+    ],
+  },
+  {
+    id: "logique-spatiale",
+    domain: "logique",
+    title: "Logique spatiale",
+    tagline: "Rotations, symétries, pliages : repérer d'abord ce qui ne bouge pas.",
+    readMinutes: 2,
+    blocks: [
+      {
+        type: "rule",
+        title: "Ce qu'on te teste",
+        body: "Rotations, symétries axiales et centrales, pliages de figures en 3D (patrons de cubes).",
+      },
+      {
+        type: "mnemonic",
+        title: "La méthode en 2 temps",
+        body: "1) Repère d'abord l'élément qui NE change PAS d'une figure à l'autre — c'est ton point d'ancrage. 2) Identifie ensuite précisément ce qui change (rotation de combien de degrés ? inversion ? élément ajouté ou retiré ?).",
+      },
+      {
+        type: "warning",
+        body: "C'est le sous-test le plus chronophage si tu n'es pas entraîné. Vise 10 questions en 4 minutes maximum — au-delà, tu grignotes sur le temps des autres sous-tests le jour du test blanc.",
+      },
+    ],
+  },
+  {
+    id: "logique-raisonnement",
+    domain: "logique",
+    title: "Raisonnement & argumentation",
+    tagline: "Utile pour le TAGE MAGE complet et pour muscler ton esprit critique en entretien.",
+    readMinutes: 3,
+    blocks: [
+      {
+        type: "diagram",
+        kind: "reasoning-types",
+      },
+      {
+        type: "rule",
+        title: "Affaiblir / renforcer un argument",
+        body: "Cherche d'abord l'hypothèse implicite du texte — celle que l'auteur suppose vraie sans la démontrer. C'est précisément elle qu'il faut attaquer (pour affaiblir) ou confirmer (pour renforcer), pas un détail périphérique de l'argumentation.",
+      },
+      {
+        type: "example",
+        title: "Repérer l'hypothèse implicite",
+        prompt:
+          "« Les ventes de parapluies ont augmenté de 30 % ce trimestre, donc il a beaucoup plu. » Quelle est l'hypothèse implicite ?",
+        reveal:
+          "Que la hausse des ventes de parapluies n'a qu'une seule cause possible (la pluie). Pour affaiblir l'argument, il suffit de proposer une autre cause plausible (une campagne marketing, un magasin qui ouvre, une mode). Pour le renforcer, il faudrait exclure ces causes alternatives.",
+      },
+    ],
+  },
+];

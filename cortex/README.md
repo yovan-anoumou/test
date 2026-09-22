@@ -18,6 +18,12 @@ recherche :
 - **Interleaving** — les matières sont mélangées dans chaque session, jamais
   en blocs par thème.
 
+En complément des QCM, l'onglet **Fiches mémo** propose des fiches de
+référence (règles, exemples à révéler, astuces, pièges classiques, petits
+diagrammes) pour découvrir ou consolider les bases avant de s'entraîner —
+lecture active plutôt que passive, avec un renvoi direct vers une session de
+QCM à la fin de chaque fiche. Contenu dans `src/domain/fiches/`.
+
 L'app est 100% locale : aucune donnée ne quitte ton appareil, aucun
 backend, aucun compte. Elle est installable en PWA et fonctionne hors ligne.
 
@@ -60,10 +66,11 @@ src/
   fsrs/          Wrapper autour de ts-fsrs (notation, file de révision)
   domain/        Logique métier pure : modules/sous-tests, construction de
                  session (interleaving), difficulté adaptative, scoring,
-                 estimation de score TAGE 2, test blanc complet
+                 estimation de score TAGE 2, test blanc complet, fiches mémo
   features/      Écrans (home, session, mock-exam, dashboard, historique,
-                 réglages, onboarding)
-  components/    UI partagée (navigation, timer, heatmap, graphique)
+                 réglages, onboarding, fiches mémo)
+  components/    UI partagée (navigation, timer, heatmap, graphique, icônes,
+                 diagrammes des fiches mémo)
 public/
   questions/     Banque de questions (JSON), voir SCHEMA.md
   icons/         Icônes PWA
