@@ -13,25 +13,39 @@ const DEFAULT_SETTINGS: SettingsRecord = {
   lastActiveDate: null,
   currentStreak: 0,
   bestStreak: 0,
+  activePlanId: null,
+  lastDiagnosticId: null,
 };
 
 export function getDB(): Promise<IDBPDatabase<CortexDBSchema>> {
   if (!dbPromise) {
     dbPromise = openDB<CortexDBSchema>(DB_NAME, DB_VERSION, {
-      upgrade(db) {
-        const cards = db.createObjectStore("cards", { keyPath: "questionId" });
-        cards.createIndex("by-due", "due");
-        cards.createIndex("by-subtest", "subtest");
+      // Migration incrémentale : chaque palier n'ajoute que ce qui manque, les
+      // données déjà enregistrées (cartes, réponses, sessions) sont conservées.
+      upgrade(db, oldVersion) {
+        if (oldVersion < 1) {
+          const cards = db.createObjectStore("cards", { keyPath: "questionId" });
+          cards.createIndex("by-due", "due");
+          cards.createIndex("by-subtest", "subtest");
 
-        const reviews = db.createObjectStore("reviews", { keyPath: "id" });
-        reviews.createIndex("by-timestamp", "timestamp");
-        reviews.createIndex("by-subtest", "subtest");
-        reviews.createIndex("by-session", "sessionId");
+          const reviews = db.createObjectStore("reviews", { keyPath: "id" });
+          reviews.createIndex("by-timestamp", "timestamp");
+          reviews.createIndex("by-subtest", "subtest");
+          reviews.createIndex("by-session", "sessionId");
 
-        const sessions = db.createObjectStore("sessions", { keyPath: "id" });
-        sessions.createIndex("by-startedAt", "startedAt");
+          const sessions = db.createObjectStore("sessions", { keyPath: "id" });
+          sessions.createIndex("by-startedAt", "startedAt");
 
-        db.createObjectStore("settings", { keyPath: "key" });
+          db.createObjectStore("settings", { keyPath: "key" });
+        }
+
+        if (oldVersion < 2) {
+          const diagnostics = db.createObjectStore("diagnostics", { keyPath: "id" });
+          diagnostics.createIndex("by-startedAt", "startedAt");
+
+          const plans = db.createObjectStore("plans", { keyPath: "id" });
+          plans.createIndex("by-createdAt", "createdAt");
+        }
       },
     });
     dbPromise.then(async (db) => {

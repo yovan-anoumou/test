@@ -1,7 +1,7 @@
 import { signal } from "@preact/signals";
 import type { SettingsRecord } from "./db/schema";
 import { DEFAULT_SETTINGS } from "./db/db";
-import { getSettings, updateSettings } from "./db/repositories/settingsRepo";
+import { updateSettings } from "./db/repositories/settingsRepo";
 import { syncCardsWithQuestionBank } from "./db/seed";
 
 export const settings = signal<SettingsRecord>(DEFAULT_SETTINGS);
@@ -10,7 +10,10 @@ export const appError = signal<string | null>(null);
 
 export async function initApp(): Promise<void> {
   try {
-    const [s] = await Promise.all([getSettings(), syncCardsWithQuestionBank()]);
+    // `updateSettings({})` relit les réglages fusionnés avec les valeurs par
+    // défaut et les réécrit : après une mise à jour de l'app, les réglages
+    // ajoutés depuis sont persistés au lieu de rester implicites.
+    const [s] = await Promise.all([updateSettings({}), syncCardsWithQuestionBank()]);
     settings.value = s;
     applyTheme(s.theme);
     appReady.value = true;

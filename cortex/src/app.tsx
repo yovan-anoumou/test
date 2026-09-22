@@ -12,6 +12,9 @@ import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { FichesIndexScreen } from "./features/fiches/FichesIndexScreen";
 import { FicheDomainScreen } from "./features/fiches/FicheDomainScreen";
 import { FicheDetailScreen } from "./features/fiches/FicheDetailScreen";
+import { DiagnosticScreen } from "./features/diagnostic/DiagnosticScreen";
+import { DiagnosticResultScreen } from "./features/diagnostic/DiagnosticResultScreen";
+import { PlanScreen } from "./features/plan/PlanScreen";
 
 export function App() {
   useEffect(() => {
@@ -42,7 +45,11 @@ export function App() {
   }
 
   const route = currentRoute.value;
-  const hideNav = route.name === "onboarding" || route.name === "session" || route.name === "mock-exam";
+  const hideNav =
+    route.name === "onboarding" ||
+    route.name === "session" ||
+    route.name === "mock-exam" ||
+    route.name === "diagnostic";
   return (
     <>
       {renderScreen(route)}
@@ -56,7 +63,7 @@ function renderScreen(route: Route) {
     case "onboarding":
       return <OnboardingScreen />;
     case "session":
-      return <SessionScreen mode={route.mode} />;
+      return <SessionScreen spec={route.spec} />;
     case "mock-exam":
       return <MockExamScreen />;
     case "dashboard":
@@ -71,6 +78,12 @@ function renderScreen(route: Route) {
       return <FicheDomainScreen domain={route.domain} />;
     case "fiche":
       return <FicheDetailScreen id={route.id} />;
+    case "diagnostic":
+      return <DiagnosticScreen />;
+    case "diagnostic-result":
+      return <DiagnosticResultScreen id={route.id} />;
+    case "plan":
+      return <PlanScreen />;
     case "home":
     default:
       return <HomeScreen />;

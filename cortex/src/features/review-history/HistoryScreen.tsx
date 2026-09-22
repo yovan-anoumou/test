@@ -11,6 +11,10 @@ const KIND_LABELS: Record<SessionRecord["kind"], string> = {
   short: "Session courte",
   "mock-exam": "Test blanc complet",
   "weak-review": "Points faibles",
+  learning: "Mode apprentissage",
+  plan: "Séance du plan",
+  focus: "Entraînement ciblé",
+  diagnostic: "Test de niveau",
   custom: "Session",
 };
 

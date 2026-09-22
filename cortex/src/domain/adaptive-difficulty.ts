@@ -48,6 +48,58 @@ function correctRate(reviews: ReviewRecord[]): number {
   return reviews.filter((r) => r.correct).length / reviews.length;
 }
 
+/** Nombre de bonnes réponses consécutives les plus récentes sur un sous-test. */
+export function consecutiveCorrect(reviews: ReviewRecord[], subtest: SubtestId): number {
+  const relevant = reviews
+    .filter((r) => r.subtest === subtest)
+    .sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+  let streak = 0;
+  for (const review of relevant) {
+    if (!review.correct) break;
+    streak++;
+  }
+  return streak;
+}
+
+const STREAK_TO_ESCALATE = 5;
+
+/**
+ * Difficulté visée (1-5) pour la prochaine question d'un sous-test, à partir de
+ * l'historique réel : on monte quand la réussite dépasse 85 % (ou après 5 bonnes
+ * réponses d'affilée), on redescend sous 60 % pour réancrer la méthode.
+ */
+export function difficultyTargetForSubtest(
+  reviews: ReviewRecord[],
+  subtest: SubtestId,
+): number {
+  const relevant = reviews
+    .filter((r) => r.subtest === subtest)
+    .sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+    .slice(0, WINDOW_SIZE);
+
+  // Sans historique, on commence volontairement bas : mieux vaut ancrer la
+  // méthode sur du facile que décourager sur du niveau concours.
+  if (relevant.length === 0) return 2;
+
+  const avgDifficulty =
+    relevant.reduce((sum, r) => sum + r.difficulty, 0) / relevant.length;
+  const { adjustment } = computeSubtestPerformance(reviews, subtest);
+
+  let target = avgDifficulty;
+  if (adjustment === "increase") target += 1;
+  else if (adjustment === "decrease") target -= 1;
+  else if (consecutiveCorrect(reviews, subtest) >= STREAK_TO_ESCALATE) target += 1;
+
+  return Math.min(5, Math.max(1, Math.round(target)));
+}
+
+export function difficultyTargets(
+  reviews: ReviewRecord[],
+  subtests: SubtestId[],
+): Map<SubtestId, number> {
+  return new Map(subtests.map((s) => [s, difficultyTargetForSubtest(reviews, s)]));
+}
+
 /** Cible de difficulté (1-5) suggérée pour la prochaine sélection de nouvelles cartes. */
 export function suggestedDifficultyRange(
   adjustment: DifficultyAdjustment,

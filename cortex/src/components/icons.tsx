@@ -41,6 +41,16 @@ export function ClockIcon() {
   );
 }
 
+export function TargetIcon() {
+  return (
+    <svg {...common}>
+      <circle cx="12" cy="12" r="8.2" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="12" cy="12" r="0.6" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function BookIcon() {
   return (
     <svg {...common}>

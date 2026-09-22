@@ -22,14 +22,15 @@ function makeCard(id: string, subtest: SubtestId, state: State, dueOffsetMs = 0)
   };
 }
 
-const targetTime = () => 30; // 30s/question fixe pour des budgets prévisibles
+// 30 s/question et difficulté fixes, pour des budgets prévisibles dans les tests.
+const meta = () => ({ targetTimeSeconds: 30, difficulty: 3 });
 
 describe("buildDailySession", () => {
   it("ne dépasse pas significativement le budget total de la session", () => {
     const due = Array.from({ length: 40 }, (_, i) => makeCard(`due-${i}`, "calcul", State.Review, -1000));
     const fresh = Array.from({ length: 40 }, (_, i) => makeCard(`new-${i}`, "lexiphrase", State.New));
 
-    const plan = buildDailySession(due, fresh, targetTime, "daily");
+    const plan = buildDailySession(due, fresh, meta, "daily");
     const totalSeconds = plan.items.length * 30 * 1.15;
 
     expect(totalSeconds).toBeLessThanOrEqual(plan.totalBudgetSeconds + 30 * 1.15);
@@ -40,7 +41,7 @@ describe("buildDailySession", () => {
       ...Array.from({ length: 5 }, (_, i) => makeCard(`calc-${i}`, "calcul", State.Review, -1000)),
       ...Array.from({ length: 5 }, (_, i) => makeCard(`lex-${i}`, "lexiphrase", State.Review, -1000)),
     ];
-    const plan = buildDailySession(due, [], targetTime, "daily");
+    const plan = buildDailySession(due, [], meta, "daily");
 
     const dueMixItems = plan.items.filter((i) => i.phase === "due-mix");
     let maxRun = 0;
@@ -57,13 +58,13 @@ describe("buildDailySession", () => {
 
   it("complète avec des cartes neuves quand aucune carte n'est due (premier lancement)", () => {
     const fresh = Array.from({ length: 20 }, (_, i) => makeCard(`new-${i}`, "calcul-mental", State.New));
-    const plan = buildDailySession([], fresh, targetTime, "short");
+    const plan = buildDailySession([], fresh, meta, "short");
 
     expect(plan.items.length).toBeGreaterThan(0);
   });
 
   it("retourne un plan vide quand il n'y a aucune carte disponible", () => {
-    const plan = buildDailySession([], [], targetTime, "daily");
+    const plan = buildDailySession([], [], meta, "daily");
     expect(plan.items.length).toBe(0);
   });
 });

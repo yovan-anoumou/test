@@ -1,36 +1,67 @@
 import { useEffect, useState } from "preact/hooks";
 import { getAllReviews } from "../../db/repositories/reviewsRepo";
 import { getMockExamSessions } from "../../db/repositories/sessionsRepo";
-import type { ReviewRecord, SessionRecord } from "../../db/schema";
+import { getLatestDiagnostic } from "../../db/repositories/diagnosticsRepo";
+import type { AreaAssessment, DiagnosticRecord, ReviewRecord, SessionRecord } from "../../db/schema";
 import {
   computeAllSubtestStats,
   identifyWeakPoints,
   accuracyByDay,
   computeStreak,
-  type SubtestStats,
 } from "../../domain/scoring";
+import {
+  answersFromReviews,
+  assessAllAreas,
+  areaTrend,
+  computeErrorsCorrected,
+  computeRetention,
+  identifyPriorityWeaknesses,
+  totalTrainingTimeMs,
+  LEVEL_LABELS,
+  type TrendBucket,
+} from "../../domain/skill-analysis";
 import { estimateProjectedScore, type ProjectedScore } from "../../domain/tage-score-estimator";
+import { loadQuestionBank } from "../../domain/questionBank";
+import type { Question } from "../../domain/question";
 import { allSubtestIds, SUBTESTS } from "../../domain/modules";
+import { SKILL_AREAS } from "../../domain/skills";
 import { Heatmap } from "../../components/Heatmap";
 import { LineChart } from "../../components/LineChart";
+import { MasteryBar, masteryColor } from "../../components/MasteryBar";
+import { navigate } from "../../router";
 import { formatDateFr } from "../../utils/date";
 
 type Range = 30 | 90;
 
+interface DashboardData {
+  reviews: ReviewRecord[];
+  bank: Map<string, Question>;
+  mockExams: SessionRecord[];
+  diagnostic: DiagnosticRecord | undefined;
+}
+
 export function DashboardScreen() {
-  const [reviews, setReviews] = useState<ReviewRecord[] | null>(null);
-  const [mockExams, setMockExams] = useState<SessionRecord[]>([]);
+  const [data, setData] = useState<DashboardData | null>(null);
   const [range, setRange] = useState<Range>(30);
 
   useEffect(() => {
     void (async () => {
-      const [r, m] = await Promise.all([getAllReviews(), getMockExamSessions()]);
-      setReviews(r);
-      setMockExams(m);
+      const [reviews, mockExams, bank, diagnostic] = await Promise.all([
+        getAllReviews(),
+        getMockExamSessions(),
+        loadQuestionBank(),
+        getLatestDiagnostic(),
+      ]);
+      setData({
+        reviews,
+        bank: new Map(bank.map((q) => [q.id, q])),
+        mockExams,
+        diagnostic,
+      });
     })();
   }, []);
 
-  if (!reviews) {
+  if (!data) {
     return (
       <div class="screen">
         <p class="text-muted">Chargement du tableau de bord…</p>
@@ -38,10 +69,24 @@ export function DashboardScreen() {
     );
   }
 
-  const stats = computeAllSubtestStats(reviews, allSubtestIds());
-  const weakPoints = identifyWeakPoints(stats, 3);
+  const { reviews, bank, mockExams, diagnostic } = data;
+
+  const assessments = assessAllAreas(answersFromReviews(reviews), bank).filter(
+    (a) => a.questions > 0,
+  );
+  const globalMastery =
+    assessments.length > 0
+      ? Math.round(assessments.reduce((sum, a) => sum + a.masteryScore, 0) / assessments.length)
+      : 0;
+  const retention = computeRetention(reviews);
+  const errors = computeErrorsCorrected(reviews);
+  const trainingMinutes = Math.round(totalTrainingTimeMs(reviews) / 60000);
   const streak = computeStreak(reviews);
   const projected = estimateProjectedScore(reviews);
+  const priorities = identifyPriorityWeaknesses(assessments);
+
+  const subtestStats = computeAllSubtestStats(reviews, allSubtestIds());
+  const weakPoints = identifyWeakPoints(subtestStats, 3);
   const curve = accuracyByDay(reviews, range);
   const curvePoints = curve.map((c) => ({ label: c.date, value: c.accuracy }));
 
@@ -55,28 +100,82 @@ export function DashboardScreen() {
     <div class="screen stack">
       <h1>Progrès</h1>
 
-      <div class="card row" style={{ justifyContent: "space-between" }}>
-        <div>
-          <div style={{ fontSize: 22, fontWeight: 700 }}>{streak.current} 🔥</div>
-          <div class="text-muted" style={{ fontSize: 12 }}>
-            série actuelle
-          </div>
+      <div class="card stack">
+        <div class="row" style={{ justifyContent: "space-between" }}>
+          <span>Maîtrise globale</span>
+          <strong style={{ fontSize: 22 }}>{globalMastery} %</strong>
         </div>
-        <div>
-          <div style={{ fontSize: 22, fontWeight: 700 }}>{streak.best}</div>
-          <div class="text-muted" style={{ fontSize: 12 }}>
-            meilleure série
-          </div>
-        </div>
-        <div>
-          <div style={{ fontSize: 22, fontWeight: 700 }}>{reviews.length}</div>
-          <div class="text-muted" style={{ fontSize: 12 }}>
-            réponses au total
-          </div>
+        <MasteryBar value={globalMastery} />
+        <div class="row" style={{ justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+          <Metric value={`${streak.current}`} label="jours de suite" />
+          <Metric value={`${reviews.length}`} label="questions traitées" />
+          <Metric value={`${trainingMinutes} min`} label="temps d'entraînement" />
         </div>
       </div>
 
+      <div class="card stack">
+        <div class="row" style={{ justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+          <Metric
+            value={retention.sample > 0 ? `${Math.round(retention.rate * 100)} %` : "—"}
+            label="rétention"
+            hint={retention.sample > 0 ? `${retention.sample} questions revues` : "à partir des reprises"}
+          />
+          <Metric value={`${errors.corrected}`} label="erreurs corrigées" hint={`${errors.stillWrong} encore à revoir`} />
+          <Metric value={`${streak.best}`} label="meilleure série" />
+        </div>
+        <p class="text-muted" style={{ margin: 0, fontSize: 12.5 }}>
+          La rétention mesure ta réussite sur les questions déjà rencontrées : c'est ce qui dit si ce
+          que tu apprends tient dans la durée.
+        </p>
+      </div>
+
       <ProjectedScoreCard projected={projected} />
+
+      {assessments.length > 0 && (
+        <>
+          <h2 style={{ marginTop: 8 }}>Par domaine</h2>
+          {assessments
+            .slice()
+            .sort((a, b) => a.masteryScore - b.masteryScore)
+            .map((assessment) => (
+              <AreaProgressCard
+                key={assessment.area}
+                assessment={assessment}
+                trend={areaTrend(reviews, bank, assessment.area)}
+              />
+            ))}
+        </>
+      )}
+
+      {priorities.length > 0 && (
+        <div class="card stack">
+          <h3 style={{ margin: 0 }}>À travailler en priorité</h3>
+          {priorities.map((priority, i) => (
+            <div key={priority.area} class="stack" style={{ gap: 2 }}>
+              <div class="row" style={{ justifyContent: "space-between" }}>
+                <strong>
+                  {i + 1}. {SKILL_AREAS[priority.area].label}
+                </strong>
+                <span class="badge badge-muted">
+                  {priority.driver === "vitesse" ? "vitesse" : priority.driver === "mixte" ? "méthode + vitesse" : "méthode"}
+                </span>
+              </div>
+              <p class="text-muted" style={{ margin: 0, fontSize: 13 }}>
+                {priority.reason}
+              </p>
+              <button
+                class="btn btn-secondary"
+                style={{ padding: "8px 14px", fontSize: 14, alignSelf: "flex-start" }}
+                onClick={() =>
+                  navigate({ name: "session", spec: { kind: "focus", area: priority.area, minutes: 10 } })
+                }
+              >
+                S'entraîner 10 min
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
 
       <div class="card stack">
         <div class="row" style={{ justifyContent: "space-between" }}>
@@ -104,26 +203,9 @@ export function DashboardScreen() {
         <Heatmap countsByDay={countsByDay} weeks={12} />
       </div>
 
-      {weakPoints.length > 0 && (
-        <div class="card stack">
-          <h3>Points faibles du moment</h3>
-          {weakPoints.map((w) => (
-            <div class="stack" key={w.subtest} style={{ gap: 4 }}>
-              <div class="row" style={{ justifyContent: "space-between" }}>
-                <span>{SUBTESTS[w.subtest].label}</span>
-                <span class="badge badge-danger">{Math.round(w.accuracy * 100)}%</span>
-              </div>
-              <p class="text-muted" style={{ fontSize: 13, margin: 0 }}>
-                {recommendationFor(w)}
-              </p>
-            </div>
-          ))}
-        </div>
-      )}
-
       <div class="card stack">
         <h3>Par sous-test</h3>
-        {stats
+        {subtestStats
           .filter((s) => s.attempts > 0)
           .sort((a, b) => a.accuracy - b.accuracy)
           .map((s) => (
@@ -131,28 +213,20 @@ export function DashboardScreen() {
               <div class="row" style={{ justifyContent: "space-between", fontSize: 13 }}>
                 <span>{SUBTESTS[s.subtest].label}</span>
                 <span class="text-muted">
-                  {Math.round(s.accuracy * 100)}% · {s.attempts} · {(s.avgResponseTimeMs / 1000).toFixed(0)}s
-                  {s.paceRatio > 1.15 ? " (lent)" : ""}
+                  {Math.round(s.accuracy * 100)} % · {s.attempts} ·{" "}
+                  {(s.avgResponseTimeMs / 1000).toFixed(0)} s{s.paceRatio > 1.15 ? " (lent)" : ""}
                 </span>
               </div>
-              <div class="stat-bar-track">
-                <div
-                  class="stat-bar-fill"
-                  style={{
-                    width: `${Math.round(s.accuracy * 100)}%`,
-                    background:
-                      s.accuracy >= 0.85
-                        ? "var(--color-success)"
-                        : s.accuracy >= 0.6
-                          ? "var(--color-warning)"
-                          : "var(--color-danger)",
-                  }}
-                />
-              </div>
+              <MasteryBar value={s.accuracy * 100} height={8} />
             </div>
           ))}
-        {stats.every((s) => s.attempts === 0) && (
+        {subtestStats.every((s) => s.attempts === 0) && (
           <p class="text-muted">Pas encore de données — commence une session.</p>
+        )}
+        {weakPoints.length > 0 && (
+          <p class="text-muted" style={{ margin: 0, fontSize: 12.5 }}>
+            Sous-test le plus fragile : {SUBTESTS[weakPoints[0].subtest].label}.
+          </p>
         )}
       </div>
 
@@ -183,6 +257,119 @@ export function DashboardScreen() {
           })}
         </div>
       )}
+
+      <div class="list">
+        {diagnostic && (
+          <button
+            class="list-row"
+            onClick={() => navigate({ name: "diagnostic-result", id: diagnostic.id })}
+          >
+            <span class="stack" style={{ gap: 1 }}>
+              <span>Mon dernier test de niveau</span>
+              <span class="text-muted" style={{ fontSize: 12.5 }}>
+                {formatDateFr(diagnostic.startedAt)} · {diagnostic.overallScore} %
+              </span>
+            </span>
+            <span class="text-muted" aria-hidden="true">
+              ›
+            </span>
+          </button>
+        )}
+        <button class="list-row" onClick={() => navigate({ name: "history" })}>
+          <span>Historique des sessions</span>
+          <span class="text-muted" aria-hidden="true">
+            ›
+          </span>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function Metric({ value, label, hint }: { value: string; label: string; hint?: string }) {
+  return (
+    <div class="stack" style={{ gap: 0 }}>
+      <div style={{ fontSize: 20, fontWeight: 700 }}>{value}</div>
+      <div class="text-muted" style={{ fontSize: 12 }}>
+        {label}
+      </div>
+      {hint && (
+        <div class="text-muted" style={{ fontSize: 11 }}>
+          {hint}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function AreaProgressCard({
+  assessment,
+  trend,
+}: {
+  assessment: AreaAssessment;
+  trend: TrendBucket[];
+}) {
+  const area = SKILL_AREAS[assessment.area];
+  const measured = trend.filter((t) => t.masteryScore !== null);
+
+  return (
+    <div class="card stack" style={{ gap: 10 }}>
+      <div class="row" style={{ justifyContent: "space-between" }}>
+        <span class="row" style={{ gap: 8 }}>
+          <span aria-hidden="true">{area.emoji}</span>
+          <span class="stack" style={{ gap: 0 }}>
+            <strong>{area.label}</strong>
+            <span class="text-muted" style={{ fontSize: 12.5 }}>
+              {LEVEL_LABELS[assessment.level]} · {Math.round(assessment.accuracy * 100)} % de
+              réussite
+            </span>
+          </span>
+        </span>
+        <strong style={{ fontSize: 18 }}>{assessment.masteryScore} %</strong>
+      </div>
+
+      <MasteryBar value={assessment.masteryScore} />
+
+      {measured.length >= 2 ? (
+        <div class="row" style={{ gap: 6, flexWrap: "wrap", fontSize: 13 }}>
+          {measured.map((bucket, i) => (
+            <span key={bucket.label} class="row" style={{ gap: 6 }}>
+              <span style={{ color: masteryColor(bucket.masteryScore ?? 0), fontWeight: 600 }}>
+                {bucket.masteryScore} %
+              </span>
+              {i < measured.length - 1 && <span class="text-muted">→</span>}
+            </span>
+          ))}
+          <span class="text-muted" style={{ fontSize: 12 }}>
+            ({measured[0].label} → {measured[measured.length - 1].label})
+          </span>
+        </div>
+      ) : (
+        <span class="text-muted" style={{ fontSize: 12.5 }}>
+          Pas encore assez d'historique pour afficher une tendance.
+        </span>
+      )}
+
+      <div class="row" style={{ gap: 8 }}>
+        <button
+          class="btn btn-secondary"
+          style={{ padding: "8px 14px", fontSize: 14 }}
+          onClick={() =>
+            navigate({ name: "session", spec: { kind: "focus", area: assessment.area, minutes: 10 } })
+          }
+        >
+          Entraînement 10 min
+        </button>
+        <button
+          class="btn btn-secondary"
+          style={{ padding: "8px 14px", fontSize: 14 }}
+          onClick={() =>
+            navigate({ name: "session", spec: { kind: "learning", area: assessment.area } })
+          }
+        >
+          Apprendre
+        </button>
+      </div>
     </div>
   );
 }
@@ -196,17 +383,10 @@ function ProjectedScoreCard({ projected }: { projected: ProjectedScore }) {
       </div>
       {projected.lowConfidence && (
         <p class="text-muted" style={{ fontSize: 12, margin: 0 }}>
-          Estimation peu fiable pour l'instant (données encore limitées sur les 30 derniers
-          jours) — indicatif seulement, pas un score officiel.
+          Estimation peu fiable pour l'instant (données encore limitées sur les 30 derniers jours) —
+          indicatif seulement, pas un score officiel.
         </p>
       )}
     </div>
   );
-}
-
-function recommendationFor(stats: SubtestStats): string {
-  if (stats.paceRatio > 1.3) {
-    return "Tu es souvent trop lent sur ce sous-test : revois la méthode rapide avant de continuer à accumuler des questions.";
-  }
-  return "Le taux de réussite est bas : reviens sur la méthode et refais quelques questions faciles avant de monter en difficulté.";
 }

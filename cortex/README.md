@@ -24,6 +24,30 @@ diagrammes) pour découvrir ou consolider les bases avant de s'entraîner —
 lecture active plutôt que passive, avec un renvoi direct vers une session de
 QCM à la fin de chaque fiche. Contenu dans `src/domain/fiches/`.
 
+## Le coach : diagnostic → plan → adaptation
+
+- **Test de niveau** (`src/domain/diagnostic.ts`) — 24 questions réparties sur
+  les 6 domaines, avec une difficulté qui monte après chaque réussite et
+  redescend après chaque erreur. Précision et vitesse sont mesurées
+  séparément : 80 % en prenant son temps ne vaut pas 80 % au rythme du
+  concours.
+- **Analyse** (`src/domain/skill-analysis.ts`) — maîtrise par domaine
+  (précision pondérée par la difficulté + score de vitesse sur les réponses
+  justes), niveau estimé, indice de confiance, points faibles au niveau des
+  *tags* des questions, et type d'erreur déduit du distracteur choisi.
+- **Plan personnalisé** (`src/domain/plan.ts`) — le temps hebdomadaire est
+  réparti selon `déficit de maîtrise × importance du domaine pour l'objectif`,
+  puis découpé en blocs quotidiens (dont un temps de révision des erreurs).
+  Aucun domaine n'est abandonné : les acquis s'entretiennent.
+- **Adaptation** (`src/services/planService.ts`) — le plan se réajuste tout
+  seul dès qu'assez de nouvelles réponses ont été enregistrées : un domaine qui
+  progresse laisse la place à celui qui bloque, avec un historique des
+  ajustements consultable dans l'onglet Plan.
+- **Mode apprentissage** — sans chrono pénalisant, avec indice, correction
+  détaillée, lien vers la fiche mémo correspondante, et une question du même
+  type enchaînée automatiquement après une erreur (erreur → explication →
+  question similaire → nouvel essai).
+
 L'app est 100% locale : aucune donnée ne quitte ton appareil, aucun
 backend, aucun compte. Elle est installable en PWA et fonctionne hors ligne.
 
@@ -64,13 +88,15 @@ npm run generate:icons      # régénère les icônes PWA (public/icons/)
 src/
   db/            IndexedDB (idb) : schéma, repositories, seed des cartes
   fsrs/          Wrapper autour de ts-fsrs (notation, file de révision)
-  domain/        Logique métier pure : modules/sous-tests, construction de
-                 session (interleaving), difficulté adaptative, scoring,
-                 estimation de score TAGE 2, test blanc complet, fiches mémo
-  features/      Écrans (home, session, mock-exam, dashboard, historique,
-                 réglages, onboarding, fiches mémo)
-  components/    UI partagée (navigation, timer, heatmap, graphique, icônes,
-                 diagrammes des fiches mémo)
+  domain/        Logique métier pure : compétences (6 domaines ↔ 11 sous-tests),
+                 construction de session (interleaving), difficulté adaptative,
+                 analyse des compétences, diagnostic, plan d'entraînement,
+                 scoring, estimation de score TAGE 2, test blanc, fiches mémo
+  services/      Orchestration (chargement et adaptation du plan)
+  features/      Écrans (home, session, diagnostic, plan, mock-exam, dashboard,
+                 historique, réglages, onboarding, fiches mémo)
+  components/    UI partagée (navigation, timer, heatmap, graphique, barre de
+                 maîtrise, icônes, diagrammes des fiches mémo)
 public/
   questions/     Banque de questions (JSON), voir SCHEMA.md
   icons/         Icônes PWA

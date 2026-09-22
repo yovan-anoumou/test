@@ -56,6 +56,33 @@ export function getQuestionById(all: Question[], id: string): Question | undefin
   return all.find((q) => q.id === id);
 }
 
+/**
+ * Question « du même type » qu'une autre : même sous-test, tags en commun en
+ * priorité, difficulté la plus proche. Sert en mode apprentissage à réessayer
+ * immédiatement sur une variante après avoir compris son erreur.
+ */
+export function findSimilarQuestion(
+  all: Question[],
+  reference: Question,
+  excludeIds: Iterable<string> = [],
+): Question | undefined {
+  const excluded = new Set([reference.id, ...excludeIds]);
+  const referenceTags = new Set(reference.tags);
+
+  const candidates = all
+    .filter((q) => q.subtest === reference.subtest && !excluded.has(q.id))
+    .map((q) => ({
+      question: q,
+      sharedTags: q.tags.filter((t) => referenceTags.has(t)).length,
+      difficultyGap: Math.abs(q.difficulty - reference.difficulty),
+    }))
+    .sort(
+      (a, b) => b.sharedTags - a.sharedTags || a.difficultyGap - b.difficultyGap,
+    );
+
+  return candidates[0]?.question;
+}
+
 const USER_QUESTIONS_KEY = "cortex:user-questions";
 
 /** Questions ajoutées manuellement par l'utilisateur (stockées à part, ne touche jamais aux fichiers livrés). */

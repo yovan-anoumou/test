@@ -1,6 +1,13 @@
 import { navigate } from "../../router";
 import { FICHE_DOMAINS, getFicheById, getFichesByDomain } from "../../domain/fiches";
+import type { FicheDomainId } from "../../domain/fiches/types";
+import type { SkillAreaId } from "../../domain/skills";
 import { FicheBlockView } from "./FicheBlockView";
+
+/** Domaine de fiches → domaine de compétences, pour enchaîner sur un entraînement ciblé. */
+function areaForFicheDomain(domain: FicheDomainId): SkillAreaId {
+  return domain === "vocabulaire" ? "vocabulaire" : domain;
+}
 
 export function FicheDetailScreen({ id }: { id: string }) {
   const fiche = getFicheById(id);
@@ -49,9 +56,11 @@ export function FicheDetailScreen({ id }: { id: string }) {
 
       <button
         class="btn btn-primary btn-block"
-        onClick={() => navigate({ name: "session", mode: "short" })}
+        onClick={() =>
+          navigate({ name: "session", spec: { kind: "learning", area: areaForFicheDomain(fiche.domain) } })
+        }
       >
-        🎯 Tester ces notions — session courte
+        🎯 S'entraîner sur ces notions
       </button>
 
       {next && (

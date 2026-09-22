@@ -1,17 +1,27 @@
 import type { ComponentType } from "preact";
 import { currentRoute, navigate, type Route } from "../router";
-import { HomeIcon, BookIcon, ChartIcon, ClockIcon, GearIcon } from "./icons";
+import { HomeIcon, BookIcon, ChartIcon, TargetIcon, GearIcon } from "./icons";
 
 const ITEMS: { target: Route; matches: Route["name"][]; label: string; Icon: ComponentType }[] = [
   { target: { name: "home" }, matches: ["home"], label: "Accueil", Icon: HomeIcon },
+  {
+    target: { name: "plan" },
+    matches: ["plan", "diagnostic", "diagnostic-result"],
+    label: "Plan",
+    Icon: TargetIcon,
+  },
   {
     target: { name: "fiches" },
     matches: ["fiches", "fiches-domain", "fiche"],
     label: "Fiches",
     Icon: BookIcon,
   },
-  { target: { name: "dashboard" }, matches: ["dashboard"], label: "Progrès", Icon: ChartIcon },
-  { target: { name: "history" }, matches: ["history"], label: "Historique", Icon: ClockIcon },
+  {
+    target: { name: "dashboard" },
+    matches: ["dashboard", "history"],
+    label: "Progrès",
+    Icon: ChartIcon,
+  },
   { target: { name: "settings" }, matches: ["settings"], label: "Réglages", Icon: GearIcon },
 ];
 
