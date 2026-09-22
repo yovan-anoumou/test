@@ -1,9 +1,15 @@
 import { useEffect, useRef, useState } from "preact/hooks";
-import { buildDailySession, type SessionLength, type SessionPlan } from "../../domain/session-builder";
-import { getDueReviewCards, getNewCards, putCard } from "../../db/repositories/cardsRepo";
-import { addReview } from "../../db/repositories/reviewsRepo";
+import {
+  buildDailySession,
+  buildWeakReviewSession,
+  type SessionKind,
+  type SessionPlan,
+} from "../../domain/session-builder";
+import { getDueReviewCards, getNewCards, getCardsByIds, putCard } from "../../db/repositories/cardsRepo";
+import { addReview, getAllReviews } from "../../db/repositories/reviewsRepo";
 import { createSession, updateSession } from "../../db/repositories/sessionsRepo";
 import { loadQuestionBank } from "../../domain/questionBank";
+import { getStrugglingQuestionIds } from "../../domain/scoring";
 import type { Question } from "../../domain/question";
 import type { CardRecord, ReviewRecord, SessionRecord } from "../../db/schema";
 import { rateCard, type UserRating, RATING_LABELS } from "../../fsrs/scheduler";
@@ -14,7 +20,7 @@ import { useElapsedMs, TimerBadge } from "../../components/Timer";
 import { SUBTESTS } from "../../domain/modules";
 
 interface Props {
-  length: SessionLength;
+  mode: SessionKind;
 }
 
 type Phase = "loading" | "answering" | "revealed" | "finished" | "empty";
@@ -29,9 +35,17 @@ const PHASE_LABELS: Record<SessionPlan["items"][number]["phase"], string> = {
   warmup: "Échauffement — calcul mental",
   "due-mix": "Révision",
   "new-content": "Nouveau contenu",
+  "weak-review": "Points faibles",
 };
 
-export function SessionScreen({ length }: Props) {
+const EMPTY_MESSAGES: Record<SessionKind, string> = {
+  daily: "La banque de questions est encore en cours de chargement, ou tu as déjà tout traité pour aujourd'hui.",
+  short: "La banque de questions est encore en cours de chargement, ou tu as déjà tout traité pour aujourd'hui.",
+  "weak-review":
+    "Aucune question marquée « Difficile » ou « À revoir » pour l'instant — continue comme ça !",
+};
+
+export function SessionScreen({ mode }: Props) {
   const [phase, setPhase] = useState<Phase>("loading");
   const [plan, setPlan] = useState<SessionPlan | null>(null);
   const [questions, setQuestions] = useState<Map<string, Question> | null>(null);
@@ -45,15 +59,23 @@ export function SessionScreen({ length }: Props) {
   useEffect(() => {
     let cancelled = false;
     void (async () => {
-      const [due, fresh, bank] = await Promise.all([
-        getDueReviewCards(),
-        getNewCards(),
-        loadQuestionBank(),
-      ]);
+      const bank = await loadQuestionBank();
       if (cancelled) return;
       const qMap = new Map(bank.map((q) => [q.id, q]));
       const targetTime = (card: CardRecord) => qMap.get(card.questionId)?.targetTimeSeconds ?? 60;
-      const rawPlan = buildDailySession(due, fresh, targetTime, length);
+
+      let rawPlan: SessionPlan;
+      if (mode === "weak-review") {
+        const reviews = await getAllReviews();
+        const strugglingIds = getStrugglingQuestionIds(reviews);
+        const cards = await getCardsByIds(strugglingIds);
+        rawPlan = buildWeakReviewSession(cards, targetTime);
+      } else {
+        const [due, fresh] = await Promise.all([getDueReviewCards(), getNewCards()]);
+        rawPlan = buildDailySession(due, fresh, targetTime, mode);
+      }
+      if (cancelled) return;
+
       // Sécurité : ignore les cartes dont la question n'existe plus dans la banque actuelle.
       const builtPlan: SessionPlan = {
         ...rawPlan,
@@ -67,7 +89,7 @@ export function SessionScreen({ length }: Props) {
 
       await createSession({
         id: sessionIdRef.current,
-        kind: length,
+        kind: mode,
         startedAt: sessionStartedAtRef.current,
         finishedAt: null,
         questionIds: builtPlan.items.map((i) => i.card.questionId),
@@ -83,7 +105,7 @@ export function SessionScreen({ length }: Props) {
       cancelled = true;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [length]);
+  }, [mode]);
 
   const elapsedMs = useElapsedMs(phase === "answering", index);
 
@@ -99,10 +121,7 @@ export function SessionScreen({ length }: Props) {
     return (
       <div class="screen stack">
         <h2>Rien à réviser pour l'instant</h2>
-        <p class="text-muted">
-          La banque de questions est encore en cours de chargement, ou tu as déjà tout traité pour
-          aujourd'hui.
-        </p>
+        <p class="text-muted">{EMPTY_MESSAGES[mode]}</p>
         <button class="btn btn-primary btn-block" onClick={() => navigate({ name: "home" })}>
           Retour à l'accueil
         </button>
@@ -162,7 +181,7 @@ export function SessionScreen({ length }: Props) {
       targetTimeSeconds: question!.targetTimeSeconds,
       difficulty: question!.difficulty,
       sessionId: sessionIdRef.current,
-      sessionKind: length,
+      sessionKind: mode,
     };
     await addReview(review);
 
@@ -178,7 +197,7 @@ export function SessionScreen({ length }: Props) {
     if (index + 1 >= plan.items.length) {
       void updateSession({
         id: sessionIdRef.current,
-        kind: length,
+        kind: mode,
         startedAt: sessionStartedAtRef.current,
         finishedAt: new Date().toISOString(),
         questionIds: plan.items.map((i) => i.card.questionId),
@@ -225,7 +244,7 @@ export function SessionScreen({ length }: Props) {
 
         <p style={{ whiteSpace: "pre-wrap", fontSize: 16, fontWeight: 600 }}>{question.statement}</p>
 
-        <div class="stack">
+        <div class="list">
           {question.choices.map((choice, i) => {
             const isCorrect = i === question.correctIndex;
             const isSelected = i === selected;
@@ -237,7 +256,7 @@ export function SessionScreen({ length }: Props) {
             return (
               <button
                 key={i}
-                class={`choice-btn ${variant}`}
+                class={`list-row choice-btn ${variant}`}
                 disabled={phase === "revealed"}
                 onClick={() => handleSelect(i)}
               >

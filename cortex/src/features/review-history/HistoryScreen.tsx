@@ -10,6 +10,7 @@ const KIND_LABELS: Record<SessionRecord["kind"], string> = {
   daily: "Session du jour",
   short: "Session courte",
   "mock-exam": "Test blanc complet",
+  "weak-review": "Points faibles",
   custom: "Session",
 };
 
@@ -93,6 +94,17 @@ export function HistoryScreen() {
                       {correct}/{s.questionIds.length}
                     </span>
                   )}
+                  <span
+                    class="text-muted"
+                    style={{
+                      fontSize: 13,
+                      transform: expanded === s.id ? "rotate(90deg)" : "none",
+                      transition: "transform 0.15s ease",
+                    }}
+                    aria-hidden="true"
+                  >
+                    ›
+                  </span>
                 </div>
               </button>
 

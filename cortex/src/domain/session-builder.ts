@@ -1,16 +1,19 @@
 import type { CardRecord } from "../db/schema";
 import { interleaveBySubtest } from "../fsrs/queue";
 
-export type SessionLength = "short" | "daily";
+export type SessionKind = "short" | "daily" | "weak-review";
 
 export interface SessionPlan {
-  length: SessionLength;
+  kind: SessionKind;
   totalBudgetSeconds: number;
   /** Cartes dans l'ordre à présenter, avec la "phase" pédagogique dont elles viennent. */
-  items: { card: CardRecord; phase: "warmup" | "due-mix" | "new-content" }[];
+  items: {
+    card: CardRecord;
+    phase: "warmup" | "due-mix" | "new-content" | "weak-review";
+  }[];
 }
 
-const BUDGETS: Record<SessionLength, number> = {
+const BUDGETS: Record<"short" | "daily", number> = {
   short: 10 * 60,
   daily: 25 * 60,
 };
@@ -51,9 +54,9 @@ export function buildDailySession(
   dueCards: CardRecord[],
   newCards: CardRecord[],
   targetTimeSeconds: (card: CardRecord) => number,
-  length: SessionLength = "daily",
+  kind: "short" | "daily" = "daily",
 ): SessionPlan {
-  const totalBudgetSeconds = BUDGETS[length];
+  const totalBudgetSeconds = BUDGETS[kind];
   const used = new Set<string>();
   const remainingNew = () => newCards.filter((c) => !used.has(c.questionId));
 
@@ -86,5 +89,27 @@ export function buildDailySession(
     ...newContent.map((card) => ({ card, phase: "new-content" as const })),
   ];
 
-  return { length, totalBudgetSeconds, items };
+  return { kind, totalBudgetSeconds, items };
+}
+
+/**
+ * Reprend toutes les questions dont la dernière réponse a été notée
+ * "À revoir" ou "Difficile" — pas de plafond de temps (la demande explicite
+ * de l'utilisateur prime sur le budget habituel), juste un interleaving par
+ * sous-test pour ne pas enchaîner les questions d'une même matière.
+ */
+export function buildWeakReviewSession(
+  cards: CardRecord[],
+  targetTimeSeconds: (card: CardRecord) => number,
+): SessionPlan {
+  const ordered = interleaveBySubtest(cards);
+  const totalBudgetSeconds = ordered.reduce(
+    (sum, c) => sum + targetTimeSeconds(c) * TIME_OVERHEAD_FACTOR,
+    0,
+  );
+  return {
+    kind: "weak-review",
+    totalBudgetSeconds,
+    items: ordered.map((card) => ({ card, phase: "weak-review" as const })),
+  };
 }

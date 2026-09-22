@@ -99,6 +99,26 @@ export function computeStreak(reviews: ReviewRecord[]): { current: number; best:
   return { current, best };
 }
 
+/**
+ * Questions dont la dernière réponse a été notée "À revoir" (Again) ou
+ * "Difficile" (Hard) — la liste que "Réviser mes points faibles" reprend,
+ * toutes matières confondues. Un questionId ne peut apparaître qu'une fois,
+ * jugé sur sa réponse la plus récente (pas la moyenne historique).
+ */
+export function getStrugglingQuestionIds(reviews: ReviewRecord[]): string[] {
+  const latestByQuestion = new Map<string, ReviewRecord>();
+  for (const r of reviews) {
+    const current = latestByQuestion.get(r.questionId);
+    if (!current || r.timestamp > current.timestamp) {
+      latestByQuestion.set(r.questionId, r);
+    }
+  }
+  return Array.from(latestByQuestion.values())
+    .filter((r) => r.rating === 1 || r.rating === 2)
+    .sort((a, b) => a.rating - b.rating || b.timestamp.localeCompare(a.timestamp))
+    .map((r) => r.questionId);
+}
+
 function average(values: number[]): number {
   if (values.length === 0) return 0;
   return values.reduce((a, b) => a + b, 0) / values.length;

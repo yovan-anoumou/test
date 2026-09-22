@@ -280,6 +280,17 @@ export function MockExamScreen() {
                   <span class="text-muted" style={{ fontSize: 12 }}>
                     {formatDurationShort(r.timeMs / 1000)}
                   </span>
+                  <span
+                    class="text-muted"
+                    style={{
+                      fontSize: 13,
+                      transform: expandedSection === idx ? "rotate(90deg)" : "none",
+                      transition: "transform 0.15s ease",
+                    }}
+                    aria-hidden="true"
+                  >
+                    ›
+                  </span>
                 </span>
               </button>
 
@@ -375,11 +386,11 @@ export function MockExamScreen() {
           </div>
         )}
         <p style={{ whiteSpace: "pre-wrap", fontSize: 16, fontWeight: 600 }}>{question.statement}</p>
-        <div class="stack">
+        <div class="list">
           {question.choices.map((choice, i) => (
             <button
               key={i}
-              class="choice-btn"
+              class="list-row choice-btn"
               onClick={() => handleAnswer(section, question, i)}
             >
               <span style={{ whiteSpace: "pre-wrap" }}>{choice}</span>

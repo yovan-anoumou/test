@@ -31,12 +31,12 @@ export interface ReviewRecord {
   targetTimeSeconds: number;
   difficulty: number;
   sessionId: string | null;
-  sessionKind: "daily" | "short" | "mock-exam" | "custom";
+  sessionKind: "daily" | "short" | "mock-exam" | "weak-review" | "custom";
 }
 
 export interface SessionRecord {
   id: string; // uuid
-  kind: "daily" | "short" | "mock-exam" | "custom";
+  kind: "daily" | "short" | "mock-exam" | "weak-review" | "custom";
   startedAt: string; // ISO date
   finishedAt: string | null;
   questionIds: string[];

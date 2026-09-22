@@ -53,7 +53,7 @@ function renderScreen(route: Route) {
     case "onboarding":
       return <OnboardingScreen />;
     case "session":
-      return <SessionScreen length={route.length} />;
+      return <SessionScreen mode={route.mode} />;
     case "mock-exam":
       return <MockExamScreen />;
     case "dashboard":

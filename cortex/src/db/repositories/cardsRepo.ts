@@ -53,3 +53,10 @@ export async function countCards(): Promise<number> {
   const db = await getDB();
   return db.count("cards");
 }
+
+/** Récupère plusieurs cartes par id, dans l'ordre demandé (ignore les ids sans carte). */
+export async function getCardsByIds(questionIds: string[]): Promise<CardRecord[]> {
+  const db = await getDB();
+  const cards = await Promise.all(questionIds.map((id) => db.get("cards", id)));
+  return cards.filter((c): c is CardRecord => c !== undefined);
+}

@@ -2,7 +2,12 @@ import { useEffect, useState } from "preact/hooks";
 import { navigate } from "../../router";
 import { getDueReviewCards, countCards } from "../../db/repositories/cardsRepo";
 import { getAllReviews } from "../../db/repositories/reviewsRepo";
-import { computeStreak, identifyWeakPoints, computeAllSubtestStats } from "../../domain/scoring";
+import {
+  computeStreak,
+  identifyWeakPoints,
+  computeAllSubtestStats,
+  getStrugglingQuestionIds,
+} from "../../domain/scoring";
 import { allSubtestIds, SUBTESTS } from "../../domain/modules";
 import { isToday } from "../../utils/date";
 
@@ -12,6 +17,7 @@ interface HomeStats {
   streak: { current: number; best: number };
   reviewsToday: number;
   weakPoints: { subtest: string; accuracy: number }[];
+  strugglingCount: number;
 }
 
 export function HomeScreen() {
@@ -33,7 +39,8 @@ export function HomeScreen() {
         subtest: SUBTESTS[s.subtest].label,
         accuracy: s.accuracy,
       }));
-      setStats({ dueCount: due.length, totalCards: total, streak, reviewsToday, weakPoints });
+      const strugglingCount = getStrugglingQuestionIds(reviews).length;
+      setStats({ dueCount: due.length, totalCards: total, streak, reviewsToday, weakPoints, strugglingCount });
     })();
     return () => {
       cancelled = true;
@@ -71,16 +78,26 @@ export function HomeScreen() {
       )}
 
       <div class="stack">
-        <button class="btn btn-primary btn-block" onClick={() => navigate({ name: "session", length: "daily" })}>
+        <button class="btn btn-primary btn-block" onClick={() => navigate({ name: "session", mode: "daily" })}>
           Session du jour — 25 min
         </button>
-        <button class="btn btn-secondary btn-block" onClick={() => navigate({ name: "session", length: "short" })}>
+        <button class="btn btn-secondary btn-block" onClick={() => navigate({ name: "session", mode: "short" })}>
           Session courte — 10 min
         </button>
         <button class="btn btn-secondary btn-block" onClick={() => navigate({ name: "mock-exam" })}>
           Test blanc complet TAGE 2 — 1h55
         </button>
       </div>
+
+      {stats && stats.strugglingCount > 0 && (
+        <button
+          class="btn btn-secondary btn-block"
+          onClick={() => navigate({ name: "session", mode: "weak-review" })}
+        >
+          Réviser mes points faibles — {stats.strugglingCount} question
+          {stats.strugglingCount > 1 ? "s" : ""}
+        </button>
+      )}
 
       {stats && stats.weakPoints.length > 0 && (
         <div class="card stack">

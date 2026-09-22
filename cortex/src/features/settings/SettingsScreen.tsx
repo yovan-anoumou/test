@@ -66,11 +66,11 @@ export function SettingsScreen() {
 
       <div class="card stack">
         <h3>Apparence</h3>
-        <div class="row">
+        <div class="segmented-control">
           {(["light", "dark", "system"] as const).map((t) => (
             <button
               key={t}
-              class={`btn ${s.theme === t ? "btn-primary" : "btn-secondary"}`}
+              class={`segmented-control-option${s.theme === t ? " active" : ""}`}
               onClick={() => void setTheme(t)}
             >
               {t === "light" ? "Clair" : t === "dark" ? "Sombre" : "Système"}
@@ -102,17 +102,22 @@ export function SettingsScreen() {
         </p>
       </div>
 
-      <div class="card stack">
-        <h3>Session</h3>
-        <div class="row" style={{ justifyContent: "space-between" }}>
+      <p class="text-muted" style={{ fontSize: 13, margin: "0 0 -4px 4px", textTransform: "uppercase" }}>
+        Session
+      </p>
+      <div class="list">
+        <div class="list-row">
           <span>Mode chronométré par défaut</span>
-          <input
-            type="checkbox"
-            checked={s.timedModeDefault}
-            onChange={(e) =>
-              void patchSettings({ timedModeDefault: (e.target as HTMLInputElement).checked })
-            }
-          />
+          <label class="switch">
+            <input
+              type="checkbox"
+              checked={s.timedModeDefault}
+              onChange={(e) =>
+                void patchSettings({ timedModeDefault: (e.target as HTMLInputElement).checked })
+              }
+            />
+            <span class="switch-track" />
+          </label>
         </div>
       </div>
 

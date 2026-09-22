@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -14,7 +15,9 @@ body {
 
 body {
   font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 17px;
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none;
@@ -33,11 +36,12 @@ a {
 
 button {
   font-family: inherit;
+  user-select: none;
 }
 
 .screen {
   flex: 1;
-  padding: calc(16px + var(--safe-top)) 16px calc(96px + var(--safe-bottom));
+  padding: calc(20px + var(--safe-top)) 16px calc(100px + var(--safe-bottom));
   max-width: 560px;
   width: 100%;
   margin: 0 auto;
@@ -45,7 +49,6 @@ button {
 
 .card {
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-card);
   padding: 16px;
@@ -71,23 +74,46 @@ h1,
 h2,
 h3 {
   margin: 0 0 8px;
-  line-height: 1.25;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 p {
   margin: 0 0 8px;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
+/* Boutons style iOS : remplis (primary), gris (secondary), pleine largeur par défaut. */
 .btn {
   appearance: none;
   border: none;
-  border-radius: var(--radius-sm);
-  padding: 12px 18px;
-  font-size: 15px;
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  font-size: 17px;
   font-weight: 600;
   cursor: pointer;
   touch-action: manipulation;
+  transition:
+    opacity 0.12s ease,
+    transform 0.12s ease;
+}
+
+.btn:active {
+  opacity: 0.6;
+  transform: scale(0.985);
 }
 
 .btn-primary {
@@ -97,7 +123,7 @@ p {
 
 .btn-secondary {
   background: var(--color-surface-2);
-  color: var(--color-text);
+  color: var(--color-accent);
 }
 
 .btn-block {
@@ -105,12 +131,41 @@ p {
 }
 
 .btn:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
+  transform: none;
+}
+
+/* Contrôle segmenté (sélecteur de thème, etc.), façon iOS UISegmentedControl. */
+.segmented-control {
+  display: flex;
+  gap: 2px;
+  background: var(--color-surface-2);
+  border-radius: 9px;
+  padding: 2px;
+}
+
+.segmented-control-option {
+  flex: 1;
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--color-text);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 6px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.segmented-control-option.active {
+  background: var(--color-surface);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 .progress-bar {
-  height: 6px;
+  height: 5px;
   border-radius: 999px;
   background: var(--color-surface-2);
   overflow: hidden;
@@ -125,7 +180,7 @@ p {
 .badge {
   display: inline-flex;
   align-items: center;
-  padding: 2px 8px;
+  padding: 3px 9px;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 600;
@@ -151,6 +206,7 @@ p {
   color: var(--color-danger);
 }
 
+/* Barre de navigation du bas, façon iOS : translucide + flou, safe-area. */
 .bottom-nav {
   position: fixed;
   left: 0;
@@ -158,9 +214,11 @@ p {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  padding: 8px 4px calc(8px + var(--safe-bottom));
+  background: var(--color-nav-bg);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-top: 0.5px solid var(--color-border);
+  padding: 6px 4px calc(4px + var(--safe-bottom));
   z-index: 10;
 }
 
@@ -173,8 +231,9 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  font-size: 11px;
-  padding: 6px 12px;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 4px 12px;
   border-radius: var(--radius-sm);
   cursor: pointer;
   min-width: 64px;
@@ -185,42 +244,65 @@ p {
 }
 
 .bottom-nav-icon {
-  font-size: 20px;
-  line-height: 1;
-}
-
-.choice-btn {
-  appearance: none;
-  text-align: left;
-  width: 100%;
-  border: 1px solid var(--color-border);
-  background: var(--color-surface-2);
-  color: var(--color-text);
-  border-radius: var(--radius-sm);
-  padding: 12px 14px;
-  font-size: 15px;
-  cursor: pointer;
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  width: 26px;
+  height: 26px;
 }
 
-.choice-btn:disabled {
+/* Liste groupée façon iOS (Settings.app) : conteneur arrondi, lignes séparées par un filet. */
+.list {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  padding: 11px 16px;
+  border-bottom: 0.5px solid var(--color-border);
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  color: var(--color-text);
+  font-size: 17px;
+  appearance: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  cursor: pointer;
+}
+
+.list-row:last-child {
+  border-bottom: none;
+}
+
+.list-row:disabled {
   cursor: default;
 }
 
+.choice-btn {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  min-height: 0;
+  padding: 13px 16px;
+}
+
 .choice-btn.choice-correct {
-  border-color: var(--color-success);
   background: var(--color-success-bg);
 }
 
 .choice-btn.choice-incorrect {
-  border-color: var(--color-danger);
   background: var(--color-danger-bg);
 }
 
 .choice-explanation {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--color-text-muted);
 }
 
@@ -234,28 +316,31 @@ p {
   padding: 12px 4px;
   font-size: 13px;
   text-align: center;
-  background: var(--color-surface-2);
-  color: var(--color-text);
+  border-radius: 999px;
 }
 
 .rating-btn.suggested {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid currentColor;
   outline-offset: -2px;
 }
 
 .rating-again {
+  background: var(--color-danger-bg);
   color: var(--color-danger);
 }
 
 .rating-hard {
+  background: var(--color-warning-bg);
   color: var(--color-warning);
 }
 
 .rating-good {
+  background: rgba(0, 122, 255, 0.12);
   color: var(--color-accent);
 }
 
 .rating-easy {
+  background: var(--color-success-bg);
   color: var(--color-success);
 }
 
@@ -275,7 +360,7 @@ p {
 .heatmap-cell {
   width: 11px;
   height: 11px;
-  border-radius: 2px;
+  border-radius: 3px;
   background: var(--color-surface-2);
 }
 
@@ -302,4 +387,52 @@ p {
 .stat-bar-fill {
   height: 100%;
   border-radius: 999px;
+}
+
+/* Interrupteur façon iOS (UISwitch) : checkbox natif masqué + piste stylée. */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 31px;
+  flex-shrink: 0;
+}
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.switch-track {
+  position: absolute;
+  inset: 0;
+  background: var(--color-surface-2);
+  border-radius: 999px;
+  transition: background 0.2s ease;
+  pointer-events: none;
+}
+
+.switch-track::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.switch input:checked + .switch-track {
+  background: var(--color-success);
+}
+
+.switch input:checked + .switch-track::after {
+  transform: translateX(20px);
 }

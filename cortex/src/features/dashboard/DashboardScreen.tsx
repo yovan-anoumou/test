@@ -81,17 +81,15 @@ export function DashboardScreen() {
       <div class="card stack">
         <div class="row" style={{ justifyContent: "space-between" }}>
           <h3 style={{ margin: 0 }}>Taux de réussite</h3>
-          <div class="row" style={{ gap: 4 }}>
+          <div class="segmented-control" style={{ width: 120 }}>
             <button
-              class={`btn btn-secondary`}
-              style={{ padding: "6px 10px", fontSize: 12, opacity: range === 30 ? 1 : 0.5 }}
+              class={`segmented-control-option${range === 30 ? " active" : ""}`}
               onClick={() => setRange(30)}
             >
               30j
             </button>
             <button
-              class={`btn btn-secondary`}
-              style={{ padding: "6px 10px", fontSize: 12, opacity: range === 90 ? 1 : 0.5 }}
+              class={`segmented-control-option${range === 90 ? " active" : ""}`}
               onClick={() => setRange(90)}
             >
               90j

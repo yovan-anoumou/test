@@ -1,20 +1,26 @@
 import { signal } from "@preact/signals";
+import type { SessionKind } from "./domain/session-builder";
 
 export type Route =
   | { name: "home" }
-  | { name: "session"; length: "short" | "daily" }
+  | { name: "session"; mode: SessionKind }
   | { name: "mock-exam" }
   | { name: "dashboard" }
   | { name: "history" }
   | { name: "settings" }
   | { name: "onboarding" };
 
+function parseSessionMode(param: string | undefined): SessionKind {
+  if (param === "short" || param === "weak-review") return param;
+  return "daily";
+}
+
 function parseHash(hash: string): Route {
   const path = hash.replace(/^#\/?/, "");
   const [name, param] = path.split("/");
   switch (name) {
     case "session":
-      return { name: "session", length: param === "short" ? "short" : "daily" };
+      return { name: "session", mode: parseSessionMode(param) };
     case "mock-exam":
       return { name: "mock-exam" };
     case "dashboard":
@@ -39,7 +45,7 @@ window.addEventListener("hashchange", () => {
 export function navigate(route: Route): void {
   const path =
     route.name === "session"
-      ? `session/${route.length}`
+      ? `session/${route.mode}`
       : route.name === "home"
         ? ""
         : route.name;
