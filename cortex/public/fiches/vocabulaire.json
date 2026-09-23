@@ -161,5 +161,4310 @@
         "body": "Les paronymes (mots proches par le son mais différents par le sens) sont le piège n°1 du sous-test vocabulaire. Ne te fie jamais à la sonorité, relis toujours le sens exact."
       }
     ]
+  },
+  {
+    "id": "voc-paronymes-methode",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Les paronymes : méthode",
+    "tagline": "Deux mots qui se ressemblent n'ont presque jamais un sens voisin — c'est justement pour ça qu'ils sont testés.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "pieges",
+      "synonymes"
+    ],
+    "related": [
+      "voc-paronymes-accident",
+      "voc-paronymes-eminent",
+      "voc-paronymes-conjecture",
+      "vocabulaire-pieges"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un paronyme est un mot dont la forme est proche d'un autre — une lettre, une syllabe — mais dont le sens est différent. La Banque de dépannage linguistique de l'Office québécois de la langue française en recense 137 paires. Une poignée d'entre elles revient systématiquement dans les tests d'expression écrite."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La méthode en trois temps",
+        "items": [
+          "Remplace le mot par une DÉFINITION complète dans la phrase : si la définition ne colle pas, le mot est faux.",
+          "Cherche la famille : *éminent* va avec *éminence*, *imminent* avec *imminence* — et l'imminence est toujours temporelle.",
+          "Retiens le mot par un exemple-type indissociable : « grièvement blessé », « collusion entre deux entreprises », « éruption volcanique ».",
+          "Méfie-toi de l'intuition : les deux mots d'une paire sonnent pareil, seule la définition tranche."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« L'entreprise a été accusée de ______ avec son principal concurrent. » collision ou collusion ?",
+        "reveal": "*Collusion* : une entente secrète au préjudice d'un tiers. Une *collision* est un choc entre deux corps en mouvement. Test par définition : « accusée de choc » n'a aucun sens."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les QCM proposent toujours les DEUX membres de la paire. Le distracteur n'est pas là par hasard ; si tu hésites, c'est exactement le cas prévu par l'auteur. Passe par la définition, jamais par l'oreille."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Construis une phrase-témoin pour chaque mot difficile, et retiens la phrase plutôt que la définition. « Une éruption volcanique sort, une irruption entre » fixe les deux sens en une image."
+      },
+      {
+        "type": "quiz",
+        "question": "« Les manifestants ont fait ______ dans la salle du conseil. » éruption ou irruption ?",
+        "answer": "*Irruption* : une entrée brusque, un mouvement vers l'intérieur. L'*éruption* est une sortie violente, vers l'extérieur.",
+        "hint": "Le préfixe indique la direction : ex- sort, ir- (in-) entre."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-accident",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Accident, éruption, effraction et leurs sosies",
+    "tagline": "Effraction casse une serrure, infraction viole une loi. Deux délits, deux mots.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "juridique",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-methode",
+      "voc-paronymes-eminent",
+      "voc-vocabulaire-juridique",
+      "voc-paronymes-conjecture"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois paires à fixer",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Mot",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "accident",
+            "événement fâcheux causant des dommages",
+            "incident",
+            "événement secondaire, souvent sans gravité"
+          ],
+          [
+            "éruption",
+            "sortie violente, vers l'extérieur",
+            "irruption",
+            "entrée brusque, vers l'intérieur"
+          ],
+          [
+            "effraction",
+            "fait de forcer une serrure, de casser une porte",
+            "infraction",
+            "violation d'une loi ou d'un règlement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un *incident* est mineur et souvent passager ; un *accident* cause un dommage réel. L'*effraction* est un moyen matériel (forcer une porte) ; l'*infraction* est une qualification juridique (enfreindre une règle). Un cambriolage est une infraction commise avec effraction : les deux mots ne s'excluent pas, mais ne désignent pas la même chose."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Le vol a été commis avec ______, ce qui constitue une ______ pénale. »",
+        "reveal": "« avec EFFRACTION, ce qui constitue une INFRACTION pénale. » Le moyen d'abord, la qualification juridique ensuite."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « incident grave ». L'expression est contestée par les puristes : si l'événement est grave, c'est un accident. *Incident* garde l'idée de quelque chose de secondaire, qui survient en marge du déroulement principal."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Ex- sort, in- entre : une ÉRUPTION volcanique sort de la terre, une IRRUPTION entre dans une pièce. Le préfixe donne la direction et résout la paire à lui seul."
+      },
+      {
+        "type": "quiz",
+        "question": "« Un simple ______ technique a retardé le vol, sans causer d'______. » Complète.",
+        "answer": "« Un simple INCIDENT technique a retardé le vol, sans causer d'ACCIDENT. » — l'incident est mineur, l'accident cause un dommage.",
+        "hint": "Le premier est sans gravité, le second en aurait eu."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-eminent",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Éminent, imminent, immanent — et les verbes en é/im",
+    "tagline": "Éminent est remarquable, imminent est proche dans le temps, immanent est intérieur à la chose.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-accident",
+      "voc-paronymes-methode",
+      "voc-prefixes-suffixes",
+      "voc-paronymes-notable"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le trio et ses cousins",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "éminent",
+            "qui se distingue par son caractère remarquable, supérieur",
+            "une paléontologue éminente"
+          ],
+          [
+            "imminent",
+            "qui va bientôt se produire",
+            "le départ imminent d'un vol"
+          ],
+          [
+            "immanent",
+            "qui réside dans la nature d'un être, intrinsèque",
+            "une justice immanente"
+          ],
+          [
+            "émigrer",
+            "quitter son pays",
+            "ils ont émigré en 1960"
+          ],
+          [
+            "immigrer",
+            "entrer dans un pays pour s'y installer",
+            "ils ont immigré en France"
+          ],
+          [
+            "émerger",
+            "sortir de l'eau, apparaître",
+            "une tendance émerge"
+          ],
+          [
+            "immerger",
+            "plonger dans un liquide",
+            "immerger un câble"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le préfixe é- (ou ex-) marque la sortie, im- (ou in-) marque l'entrée ou l'intériorité. On émigre DE son pays, on immigre DANS un pays — c'est le même mouvement décrit depuis deux points de vue. Le même migrant est un émigré pour son pays d'origine et un immigré pour son pays d'accueil."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Ce professeur ______ a annoncé son départ ______. »",
+        "reveal": "« Ce professeur ÉMINENT a annoncé son départ IMMINENT. » — la qualité de la personne, puis la proximité dans le temps."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « une menace éminente » au lieu d'« imminente ». Une menace n'est pas remarquable, elle est proche. Le mot *imminence* n'existe que dans un contexte temporel, et c'est le test le plus sûr."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Éminent comme éminence (une hauteur qui se voit). Imminent comme la minute qui vient. » Le second contient l'idée de temps dans sa sonorité même."
+      },
+      {
+        "type": "quiz",
+        "question": "« En 1962, sa famille a ______ d'Algérie et a ______ en France. » Complète.",
+        "answer": "« a ÉMIGRÉ d'Algérie et a IMMIGRÉ en France. » — on émigre de, on immigre dans.",
+        "hint": "Le préfixe suit la préposition : é- avec « de », im- avec « dans »."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-conjecture",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Conjecture, collusion, proscrire",
+    "tagline": "Une conjecture est une hypothèse, une conjoncture est une situation. Deux mots, deux mondes.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "juridique",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-methode",
+      "voc-paronymes-recouvrer",
+      "voc-vocabulaire-economique",
+      "voc-paronymes-accident"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois paires du registre soutenu",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Mot",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "conjecture",
+            "opinion qui ne se fonde sur rien de certain, hypothèse",
+            "conjoncture",
+            "situation résultant d'un concours de circonstances"
+          ],
+          [
+            "collision",
+            "choc de deux corps en mouvement",
+            "collusion",
+            "entente secrète au préjudice d'un tiers"
+          ],
+          [
+            "prescrire",
+            "ordonner, recommander",
+            "proscrire",
+            "interdire, bannir"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Conjoncture* appartient au vocabulaire économique : la conjoncture désigne l'état d'une économie à un moment donné. *Conjecture* appartient au raisonnement : c'est une hypothèse non vérifiée. Et *prescrire* et *proscrire* sont des antonymes quasi parfaits : l'un ordonne, l'autre interdit."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Le médecin a ______ ce médicament, mais l'agence l'a ______ six mois plus tard. »",
+        "reveal": "« a PRESCRIT ce médicament, mais l'agence l'a PROSCRIT six mois plus tard. » — pres- ordonne, pro- écarte."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « la conjecture économique ». Faux : l'économie a une CONJONCTURE. On peut en revanche formuler des conjectures SUR la conjoncture — les deux mots coexistent, mais ne se remplacent jamais."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Conjoncture contient JONCTION : c'est la rencontre de circonstances. Conjecture contient JECT (jeter) : on jette une hypothèse. » L'étymologie fixe la paire durablement."
+      },
+      {
+        "type": "quiz",
+        "question": "« Les deux fournisseurs ont été sanctionnés pour ______ sur les prix. » collision ou collusion ?",
+        "answer": "*Collusion* : une entente secrète au détriment d'un tiers — ici les clients. Une collision serait un choc physique.",
+        "hint": "Il s'agit d'une entente, pas d'un choc."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-recouvrer",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Recouvrer, perpétrer, proférer",
+    "tagline": "On recouvre un meuble d'un tissu, on recouvre ses forces — mais on RECOUVRE une créance.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "juridique",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-conjecture",
+      "voc-paronymes-acception",
+      "voc-vocabulaire-juridique",
+      "voc-paronymes-methode"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois verbes souvent confondus",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Verbe",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "recouvrer",
+            "rentrer en possession de ce qu'on avait perdu",
+            "recouvrir",
+            "couvrir entièrement ou de nouveau"
+          ],
+          [
+            "perpétrer",
+            "commettre (un crime)",
+            "perpétuer",
+            "faire durer, transmettre"
+          ],
+          [
+            "proférer",
+            "prononcer à voix haute (des menaces, des injures)",
+            "proliférer",
+            "se multiplier rapidement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Recouvrer* appartient au registre juridique et financier : on recouvre une créance, on recouvre la santé, on recouvre la vue. *Recouvrir* est concret : on recouvre un sol de moquette. Et *perpétrer* est réservé aux crimes ; on ne perpètre jamais une tradition, on la perpétue."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « L'entreprise peine à ______ ses créances, et le crime a été ______ de nuit. »",
+        "reveal": "« peine à RECOUVRER ses créances, et le crime a été PERPÉTRÉ de nuit. » Le premier récupère, le second commet."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « recouvrir une créance ». Très fréquent, et faux : on ne la couvre pas, on la récupère. Le terme technique est le RECOUVREMENT de créances — et jamais le « recouvrement » au sens de revêtement, qui existe aussi mais dans un autre domaine."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Recouvrer = retrouver. » Les deux commencent par re- et contiennent l'idée de récupération. *Recouvrir* contient *couvrir* tout court : c'est du concret."
+      },
+      {
+        "type": "quiz",
+        "question": "« Il a ______ des menaces, tandis que les rumeurs ont commencé à ______. » Complète.",
+        "answer": "« a PROFÉRÉ des menaces, tandis que les rumeurs ont commencé à PROLIFÉRER. » — proférer se dit, proliférer se multiplie.",
+        "hint": "L'un sort de la bouche, l'autre se multiplie."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-acception",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Acception, allocution, habileté",
+    "tagline": "Une acception est un sens de mot, une acceptation est un accord. Un seul « t » d'écart.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "pieges",
+      "juridique"
+    ],
+    "related": [
+      "voc-paronymes-recouvrer",
+      "voc-paronymes-notable",
+      "voc-polysemie",
+      "voc-paronymes-methode"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois confusions du registre soutenu",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Mot",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "acception",
+            "sens particulier d'un mot",
+            "acceptation",
+            "fait d'accepter"
+          ],
+          [
+            "allocation",
+            "somme d'argent versée",
+            "allocution",
+            "bref discours officiel"
+          ],
+          [
+            "habileté",
+            "adresse, savoir-faire",
+            "habilité",
+            "aptitude légale à agir"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Acception* est un terme de linguistique : « dans toutes les acceptions du terme » signifie « dans tous les sens du mot ». *Allocution* vient du latin *alloqui*, adresser la parole : c'est un discours court. À ne pas confondre non plus avec *élocution*, qui désigne la manière de s'exprimer."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Le président a prononcé une brève ______ après l'______ de l'accord. »",
+        "reveal": "« a prononcé une brève ALLOCUTION après l'ACCEPTATION de l'accord. » — un discours, puis un accord donné."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *habilité*. Le mot existe bel et bien, mais il est juridique : une personne *habilitée* a reçu le droit d'agir. L'*habileté* est l'adresse. « Son habilité à négocier » est fautif si l'on veut parler de talent."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Allocation = argent (les deux commencent par A et contiennent un C dur). Allocution = locuteur, celui qui parle. » La racine *locu-* (parler) se retrouve dans élocution, interlocuteur, circonlocution."
+      },
+      {
+        "type": "quiz",
+        "question": "« Dans son ______ la plus courante, ce terme désigne une ______ familiale. » Complète avec acception/acceptation et allocation/allocution.",
+        "answer": "« Dans son ACCEPTION la plus courante, ce terme désigne une ALLOCATION familiale. » — un sens de mot, puis une somme versée.",
+        "hint": "Un sens, puis une somme d'argent."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-notable",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Notable, original, partial",
+    "tagline": "Notoire est connu de tous, souvent en mal. Notable mérite d'être remarqué.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "pieges",
+      "antonymes"
+    ],
+    "related": [
+      "voc-paronymes-acception",
+      "voc-paronymes-eminent",
+      "voc-connotation",
+      "voc-paronymes-intensite"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois paires d'adjectifs",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Mot",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "notable",
+            "digne d'être remarqué, important",
+            "notoire",
+            "connu de tous, souvent péjoratif"
+          ],
+          [
+            "original",
+            "nouveau, singulier ; ou premier (document)",
+            "originel",
+            "qui date de l'origine"
+          ],
+          [
+            "partial",
+            "qui prend parti, non impartial",
+            "partiel",
+            "qui ne concerne qu'une partie"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Notoire* se dit d'un fait connu de tous : « une incompétence notoire », « un escroc notoire ». La connotation est presque toujours négative. *Notable* est neutre et signale une importance : « une amélioration notable ». Et *partial* s'oppose à *impartial*, tandis que *partiel* s'oppose à *total*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Un arbitre ______ fausse le résultat, un résultat ______ n'en donne qu'une partie. »",
+        "reveal": "« Un arbitre PARTIAL fausse le résultat, un résultat PARTIEL n'en donne qu'une partie. » — le premier a un parti pris, le second est incomplet."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *original* et *originel*. Le péché ORIGINEL date de l'origine ; un document ORIGINAL est le premier exemplaire, ou bien une création singulière. « La version originelle du contrat » est fautif : c'est la version originale."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Partial prend parti, partiel prend une part. » Et *notoire* va avec *notoriété* : ce qui est connu de tous."
+      },
+      {
+        "type": "quiz",
+        "question": "« Sa mauvaise foi est ______, ce qui explique une baisse ______ de sa crédibilité. » Complète.",
+        "answer": "« Sa mauvaise foi est NOTOIRE, ce qui explique une baisse NOTABLE de sa crédibilité. » — connu de tous, puis important.",
+        "hint": "Le premier est péjoratif, le second neutre."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-amener",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Amener, emmener, apporter, emporter",
+    "tagline": "A- va vers, em- part avec. Mener pour les personnes, porter pour les objets.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-methode",
+      "voc-paronymes-eminent",
+      "voc-prefixes-suffixes",
+      "voc-paronymes-gestion"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le tableau à double entrée",
+        "headers": [
+          "",
+          "Vers le lieu où l'on va (a-)",
+          "En partant du lieu où l'on est (em-)"
+        ],
+        "rows": [
+          [
+            "Personnes (mener)",
+            "amener : conduire quelqu'un quelque part",
+            "emmener : quitter un lieu en menant quelqu'un avec soi"
+          ],
+          [
+            "Objets (porter)",
+            "apporter : porter quelque chose vers",
+            "emporter : prendre avec soi en partant"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux critères croisés. Le préfixe indique la direction : a- vers le point d'arrivée, em- depuis le point de départ. La racine indique la nature : *mener* pour ce qui se déplace seul (personnes, animaux), *porter* pour ce qu'on soulève (objets). Quatre verbes, une seule grille."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « ______-moi le dossier, et ______ ton collègue à la réunion. »",
+        "reveal": "« APPORTE-moi le dossier, et AMÈNE ton collègue à la réunion. » — un objet vers moi, une personne vers un lieu."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « amener un gâteau ». Un gâteau ne marche pas : on l'APPORTE. L'usage familier l'admet, mais un test d'expression écrite le sanctionne. Même logique avec « emmener ses affaires », qui doit être « emporter »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Ce qui a des jambes se mène, ce qui n'en a pas se porte. » Une exception d'usage : on emmène une voiture au garage, parce qu'on l'y conduit."
+      },
+      {
+        "type": "quiz",
+        "question": "« En partant, n'oublie pas d'______ les documents et d'______ les stagiaires. » Complète.",
+        "answer": "« d'EMPORTER les documents et d'EMMENER les stagiaires. » — em- pour le départ, porter pour les objets, mener pour les personnes.",
+        "hint": "On part : donc em- dans les deux cas."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-gestion",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Paronymes du monde professionnel",
+    "tagline": "Une prolongation dure dans le temps, un prolongement s'étend dans l'espace.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "juridique",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-notable",
+      "voc-vocabulaire-economique",
+      "voc-paronymes-acception",
+      "voc-vocabulaire-juridique"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Paires du registre administratif",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Mot",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "prolongation",
+            "allongement dans le TEMPS",
+            "prolongement",
+            "extension dans l'ESPACE, ou conséquence"
+          ],
+          [
+            "continuation",
+            "fait de continuer une action",
+            "continuité",
+            "caractère de ce qui ne s'interrompt pas"
+          ],
+          [
+            "justificatif",
+            "document qui prouve",
+            "justification",
+            "raison invoquée"
+          ],
+          [
+            "adhérence",
+            "fait de coller physiquement",
+            "adhésion",
+            "fait de se rallier, d'adhérer à une idée"
+          ],
+          [
+            "affectation",
+            "attribution d'un poste ; comportement peu naturel",
+            "affection",
+            "sentiment ; ou maladie"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces paires partagent une racine mais appartiennent à des dimensions différentes : temps contre espace (*prolongation* / *prolongement*), fait contre qualité (*continuation* / *continuité*), objet contre argument (*justificatif* / *justification*). Le suffixe porte la distinction."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Nous demandons une ______ du délai de trois mois, dans le ______ de notre accord initial. »",
+        "reveal": "« une PROLONGATION du délai de trois mois, dans le PROLONGEMENT de notre accord initial. » — un délai s'allonge dans le temps, un accord se prolonge par ses conséquences."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *adhésion* et *adhérence*. Un pneu a de l'adhérence ; un salarié donne son adhésion à un projet. « L'adhérence des équipes au projet » est fautif — et malheureusement fréquent dans le jargon d'entreprise."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« −ation = l'action, −ité ou −ment = le résultat ou la qualité. » Ce repère fonctionne sur la plupart de ces paires et se généralise bien au vocabulaire administratif."
+      },
+      {
+        "type": "quiz",
+        "question": "« Veuillez fournir un ______ de domicile ; cette ______ est exigée par le règlement. » Complète.",
+        "answer": "« un JUSTIFICATIF de domicile ; cette JUSTIFICATION est exigée par le règlement. » — le document, puis la raison.",
+        "hint": "Un papier, puis un argument."
+      }
+    ]
+  },
+  {
+    "id": "voc-paronymes-intensite",
+    "domain": "vocabulaire",
+    "category": "Paronymes",
+    "title": "Gravement, vénéneux, méritant",
+    "tagline": "On est grièvement blessé, jamais gravement blessé au sens strict. Le mot est réservé.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "paronymes",
+      "vocabulaire",
+      "nuances",
+      "pieges"
+    ],
+    "related": [
+      "voc-paronymes-notable",
+      "voc-nuances-intensite",
+      "voc-paronymes-methode",
+      "voc-connotation"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois paires d'emploi restreint",
+        "headers": [
+          "Mot",
+          "Emploi",
+          "Mot",
+          "Emploi"
+        ],
+        "rows": [
+          [
+            "grièvement",
+            "uniquement avec « blessé »",
+            "gravement",
+            "malade, atteint, compromis — tout le reste"
+          ],
+          [
+            "vénéneux",
+            "plante ou champignon dont l'ingestion empoisonne",
+            "venimeux",
+            "animal qui injecte du venin"
+          ],
+          [
+            "méritant",
+            "personne qui mérite",
+            "méritoire",
+            "action digne d'éloge"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Certains paronymes ne se distinguent pas par le sens mais par le CONTEXTE d'emploi. *Grièvement* est aujourd'hui réservé à « blessé ». *Vénéneux* qualifie ce qu'on avale, *venimeux* ce qui vous pique ou vous mord. Et *méritant* qualifie une personne, *méritoire* une action."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Le conducteur a été ______ blessé ; son passager est ______ malade depuis. »",
+        "reveal": "« a été GRIÈVEMENT blessé ; son passager est GRAVEMENT malade depuis. » — grièvement avec blessé, gravement partout ailleurs."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « un serpent vénéneux ». Un serpent mord et injecte : il est VENIMEUX. Un champignon s'ingère : il est VÉNÉNEUX. L'erreur inverse est tout aussi fréquente et tout aussi sanctionnée."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Venimeux comme venin qu'on injecte, vénéneux comme vénénum qu'on avale. » Et retiens la phrase-test : « grièvement blessé » — si le mot qui suit n'est pas « blessé », c'est *gravement*."
+      },
+      {
+        "type": "quiz",
+        "question": "« Son effort est ______ , et c'est une élève ______ . » Complète avec méritant/méritoire.",
+        "answer": "« Son effort est MÉRITOIRE, et c'est une élève MÉRITANTE. » — l'action est méritoire, la personne est méritante.",
+        "hint": "Une action, puis une personne."
+      }
+    ]
+  },
+  {
+    "id": "voc-synonymes-methode",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Choisir le bon synonyme",
+    "tagline": "Deux synonymes ne sont jamais interchangeables : registre, intensité, connotation et collocation les séparent.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "synonymes",
+      "vocabulaire",
+      "nuances"
+    ],
+    "related": [
+      "voc-nuances-intensite",
+      "voc-connotation",
+      "voc-synonymes-registre",
+      "vocabulaire-synonymie"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le français n'a pratiquement pas de synonymes parfaits. Quatre dimensions séparent deux mots de sens proche : le REGISTRE (familier, courant, soutenu), l'INTENSITÉ (tiède, chaud, brûlant), la CONNOTATION (économe, radin) et la COLLOCATION (on prend une décision, on ne la fait pas)."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le test en quatre questions",
+        "items": [
+          "Ce mot s'emploie-t-il dans le même niveau de langue que le contexte ?",
+          "A-t-il la même force ? Un adjectif plus fort déforme l'énoncé.",
+          "Porte-t-il un jugement que le contexte ne veut pas porter ?",
+          "S'associe-t-il habituellement au mot qui le précède ou le suit ?"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Sa décision fut ______ . » Propositions : rapide, expéditive, prompte, hâtive.",
+        "reveal": "Les quatre parlent de vitesse, mais : *rapide* est neutre, *prompte* est soutenu et positif, *expéditive* et *hâtive* sont péjoratives (on a bâclé). Le contexte — approuve-t-on ou critique-t-on ? — désigne la bonne réponse."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : choisir le mot le plus rare pour « faire savant ». Un mot du registre soutenu dans une phrase courante est aussi fautif qu'un mot familier dans un texte formel. La cohérence de registre compte autant que le sens."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Substitue chaque proposition dans la phrase complète et lis-la à voix basse. Celle qui « sonne » est presque toujours la bonne : l'oreille a mémorisé les collocations."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel adjectif convient pour un compliment : « une gestion ______ des ressources » — économe, radine, parcimonieuse, pingre ?",
+        "answer": "*Économe* — neutre à mélioratif. *Parcimonieuse* est acceptable mais suggère l'excès. *Radine* et *pingre* sont clairement péjoratifs et familiers.",
+        "hint": "Cherche celui qui ne porte pas de jugement négatif."
+      }
+    ]
+  },
+  {
+    "id": "voc-nuances-intensite",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Les échelles d'intensité",
+    "tagline": "Agacé, irrité, furieux : trois degrés du même sentiment, et une seule réponse juste.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "nuances",
+      "synonymes",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-synonymes-methode",
+      "voc-connotation",
+      "voc-antonymes",
+      "voc-paronymes-intensite"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Des échelles à connaître",
+        "headers": [
+          "Faible",
+          "Moyen",
+          "Fort"
+        ],
+        "rows": [
+          [
+            "tiède",
+            "chaud",
+            "brûlant"
+          ],
+          [
+            "agacé",
+            "irrité",
+            "furieux"
+          ],
+          [
+            "content",
+            "ravi",
+            "comblé"
+          ],
+          [
+            "surpris",
+            "étonné",
+            "stupéfait"
+          ],
+          [
+            "utile",
+            "important",
+            "indispensable"
+          ],
+          [
+            "bon",
+            "excellent",
+            "remarquable"
+          ],
+          [
+            "craindre",
+            "redouter",
+            "être terrifié"
+          ],
+          [
+            "apprécier",
+            "aimer",
+            "adorer"
+          ],
+          [
+            "contester",
+            "réfuter",
+            "démolir"
+          ],
+          [
+            "diminuer",
+            "chuter",
+            "s'effondrer"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Beaucoup de questions de vocabulaire ne portent pas sur le sens mais sur le DEGRÉ. Les quatre propositions désignent la même réalité, à des intensités différentes ; c'est le contexte — un adverbe, une conséquence mentionnée — qui indique le degré attendu."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Devant ce résultat inattendu, il resta ______ , incapable de prononcer un mot. » Quel degré choisir ?",
+        "reveal": "*Stupéfait* : l'incapacité de parler signale une surprise extrême. *Surpris* ou *étonné* seraient trop faibles pour justifier la seconde partie de la phrase, qui sert précisément d'indice."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les mots qui n'admettent pas de degré. *Indispensable*, *unique*, *parfait*, *essentiel* sont des absolus : « très indispensable » ou « assez unique » sont fautifs. Le mot porte déjà le maximum."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Cherche dans la phrase ce qui JUSTIFIE l'intensité : une conséquence, un adverbe, une opposition. L'énoncé fournit presque toujours l'indice du degré attendu."
+      },
+      {
+        "type": "quiz",
+        "question": "Classe du plus faible au plus fort : s'effondrer, diminuer, chuter.",
+        "answer": "Diminuer (baisse progressive), chuter (baisse rapide et marquée), s'effondrer (baisse brutale et massive).",
+        "hint": "Pense à la vitesse et à l'ampleur de la baisse."
+      }
+    ]
+  },
+  {
+    "id": "voc-connotation",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Connotation : le jugement caché du mot",
+    "tagline": "Économe ou radin, ferme ou autoritaire : le même comportement, deux jugements opposés.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "nuances",
+      "synonymes",
+      "vocabulaire",
+      "sens-figure"
+    ],
+    "related": [
+      "voc-nuances-intensite",
+      "voc-synonymes-methode",
+      "voc-paronymes-notable",
+      "voc-niveaux-langue"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Même réalité, jugement opposé",
+        "headers": [
+          "Mélioratif",
+          "Neutre",
+          "Péjoratif"
+        ],
+        "rows": [
+          [
+            "économe",
+            "qui dépense peu",
+            "radin, pingre"
+          ],
+          [
+            "ferme",
+            "qui impose ses décisions",
+            "autoritaire, tyrannique"
+          ],
+          [
+            "curieux (d'esprit)",
+            "qui s'intéresse",
+            "indiscret, fouineur"
+          ],
+          [
+            "ambitieux",
+            "qui vise haut",
+            "arriviste"
+          ],
+          [
+            "prudent",
+            "qui évite le risque",
+            "timoré, frileux"
+          ],
+          [
+            "persévérant",
+            "qui insiste",
+            "buté, obstiné"
+          ],
+          [
+            "souple",
+            "qui s'adapte",
+            "versatile, girouette"
+          ],
+          [
+            "habile",
+            "qui manœuvre bien",
+            "retors, roublard"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La connotation est le jugement implicite qu'un mot transporte en plus de son sens littéral. Elle est décisive en compréhension de texte : repérer les mots connotés d'un auteur révèle sa position, même quand il ne la déclare jamais explicitement."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un article décrit un dirigeant comme « habile » puis « retors ». Que révèle ce glissement ?",
+        "reveal": "Un jugement de plus en plus négatif. *Habile* reconnaît une compétence ; *retors* suggère la ruse déloyale. L'auteur n'a pas changé de sujet, il a changé d'appréciation — c'est exactement ce qu'une question sur le « ton de l'auteur » cherche à faire repérer."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre le point de vue de l'auteur et celui d'une personne citée. Si le texte rapporte « ses détracteurs le jugent arriviste », le mot péjoratif appartient aux détracteurs, pas à l'auteur. Repère toujours qui parle."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test de reformulation : remplace le mot par son équivalent neutre. Si la phrase perd son jugement, le mot était connoté — et ce jugement est la réponse attendue."
+      },
+      {
+        "type": "quiz",
+        "question": "« Il a fait preuve d'une ______ remarquable dans cette négociation. » Quel mot est mélioratif : habileté, roublardise, ruse ?",
+        "answer": "*Habileté* : mélioratif, il salue la compétence. *Roublardise* est nettement péjoratif, *ruse* est ambigu selon le contexte.",
+        "hint": "Lequel pourrait figurer dans un éloge ?"
+      }
+    ]
+  },
+  {
+    "id": "voc-synonymes-registre",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Niveaux de langue",
+    "tagline": "Bagnole, voiture, automobile : le même objet, trois registres, trois contextes d'emploi.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "synonymes",
+      "vocabulaire",
+      "nuances",
+      "expressions"
+    ],
+    "related": [
+      "voc-connotation",
+      "voc-synonymes-methode",
+      "voc-anglicismes",
+      "voc-niveaux-langue"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois registres",
+        "headers": [
+          "Familier",
+          "Courant",
+          "Soutenu"
+        ],
+        "rows": [
+          [
+            "bosser",
+            "travailler",
+            "œuvrer"
+          ],
+          [
+            "bagnole",
+            "voiture",
+            "automobile"
+          ],
+          [
+            "flic",
+            "policier",
+            "agent des forces de l'ordre"
+          ],
+          [
+            "bouquin",
+            "livre",
+            "ouvrage"
+          ],
+          [
+            "fric",
+            "argent",
+            "fonds, deniers"
+          ],
+          [
+            "se planter",
+            "se tromper",
+            "commettre une erreur"
+          ],
+          [
+            "engueuler",
+            "réprimander",
+            "admonester"
+          ],
+          [
+            "truc",
+            "chose",
+            "élément"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le registre FAMILIER s'emploie à l'oral entre proches. Le registre COURANT convient partout. Le registre SOUTENU appartient à l'écrit formel, à la littérature, au discours officiel. Un test d'expression écrite attend le registre courant ou soutenu selon le contexte donné — jamais le familier."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Dans une lettre de motivation, comment dire « j'ai bossé deux ans chez eux » ?",
+        "reveal": "« J'ai travaillé deux ans au sein de cette entreprise » (courant) ou « j'ai exercé pendant deux ans au sein de… » (soutenu). *Bosser* est exclu à l'écrit formel."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le mélange de registres dans la même phrase. « Il convient de souligner que ce truc pose problème » est incohérent : *il convient de souligner* est soutenu, *truc* est familier. Le décalage est plus sanctionné qu'une erreur de vocabulaire isolée."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère le registre du CONTEXTE avant de choisir le mot. Si la phrase contient déjà « il convient », « en outre », « nonobstant », il faut rester dans le soutenu jusqu'au bout."
+      },
+      {
+        "type": "quiz",
+        "question": "Classe par registre croissant : réprimander, engueuler, admonester.",
+        "answer": "Engueuler (familier), réprimander (courant), admonester (soutenu).",
+        "hint": "Lequel écrirais-tu dans un courrier officiel ?"
+      }
+    ]
+  },
+  {
+    "id": "voc-antonymes",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Former et reconnaître un antonyme",
+    "tagline": "Les préfixes privatifs in-, im-, ir-, il-, dé-, mé- fabriquent la plupart des contraires.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "antonymes",
+      "vocabulaire",
+      "synonymes"
+    ],
+    "related": [
+      "voc-prefixes-suffixes",
+      "voc-nuances-intensite",
+      "voc-synonymes-methode",
+      "voc-intrus"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les préfixes privatifs",
+        "headers": [
+          "Préfixe",
+          "S'emploie devant",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "in−",
+            "la plupart des consonnes",
+            "inutile, incapable, indirect"
+          ],
+          [
+            "im−",
+            "b, m, p",
+            "impossible, immobile, imbattable"
+          ],
+          [
+            "ir−",
+            "r",
+            "irréel, irrégulier, irresponsable"
+          ],
+          [
+            "il−",
+            "l",
+            "illégal, illisible, illogique"
+          ],
+          [
+            "dé− / dés−",
+            "verbes",
+            "défaire, désavantager, désapprouver"
+          ],
+          [
+            "mé− / mes−",
+            "nuance de mal",
+            "mécontent, mésentente, méconnaître"
+          ],
+          [
+            "a− / an−",
+            "origine grecque",
+            "amoral, anormal, apolitique"
+          ],
+          [
+            "anti−",
+            "opposition",
+            "antidote, anticonformiste"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le préfixe s'adapte à la lettre qui suit, par assimilation : *in-* devient *im-* devant b, m, p ; *ir-* devant r ; *il-* devant l. C'est une règle de prononciation devenue règle d'orthographe, et elle permet de construire ou de vérifier un antonyme sans l'avoir mémorisé."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *amoral* et *immoral* ne sont pas synonymes. *Immoral* viole la morale ; *amoral* est indifférent à toute morale. Même écart entre *asocial* (en dehors de la société) et *antisocial* (hostile à la société)."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les antonymes sans préfixe",
+        "items": [
+          "Beaucoup d'antonymes sont des mots entièrement différents : chaud / froid, monter / descendre.",
+          "Certains couples sont graduels : chaud et froid admettent des intermédiaires ; vivant et mort n'en admettent pas.",
+          "Certains mots n'ont pas d'antonyme : « table », « rouge ».",
+          "Un mot polysémique peut avoir plusieurs antonymes selon le sens : le contraire de « léger » est « lourd » (poids) ou « grave » (ton)."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour un antonyme, cherche d'abord le préfixe. S'il n'existe pas (*possible → impossible* fonctionne, mais *grand → ingrand* non), c'est qu'il faut un mot différent : *petit*."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel est le contraire de « légal », et pourquoi le préfixe change-t-il ?",
+        "answer": "*Illégal* : le préfixe *in-* devient *il-* devant un L par assimilation. La même règle donne *illisible* et *illimité*.",
+        "hint": "Regarde la première lettre du mot de base."
+      }
+    ]
+  },
+  {
+    "id": "voc-intrus",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Trouver l'intrus",
+    "tagline": "Cherche ce que trois mots ont en commun, pas ce qui rend le quatrième différent.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "intrus",
+      "vocabulaire",
+      "synonymes",
+      "antonymes"
+    ],
+    "related": [
+      "voc-antonymes",
+      "voc-hyperonymes",
+      "voc-synonymes-methode",
+      "log-analogie-relations"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une question d'intrus, l'erreur est de chercher directement le mot différent : on trouve toujours une raison d'exclure n'importe lequel. La méthode inverse fonctionne : cherche le point commun à TROIS des quatre mots, et formule-le en une phrase. L'intrus se désigne alors tout seul."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les critères de regroupement possibles",
+        "items": [
+          "Le sens : même champ lexical, même famille d'objets.",
+          "La nature grammaticale : trois noms et un verbe.",
+          "Le registre : trois mots courants et un familier.",
+          "La forme : trois mots d'une même famille étymologique.",
+          "L'intensité : trois mots faibles et un fort.",
+          "La connotation : trois neutres et un péjoratif."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Trouve l'intrus : marteau, tournevis, établi, pince.",
+        "reveal": "*Établi*. Les trois autres sont des OUTILS qu'on tient en main ; l'établi est un meuble de travail. Le point commun formulé (« outil manuel ») désigne l'intrus sans ambiguïté."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : un énoncé où DEUX regroupements sont possibles. Dans « pomme, poire, tomate, cerise », l'intrus est la tomate si le critère est « fruit du langage courant », mais c'est botaniquement un fruit. Choisis le critère le plus simple et le plus immédiat : c'est celui qu'attend l'auteur."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris le point commun en une phrase complète avant de répondre. Si tu n'y arrives pas, c'est que tu n'as pas encore le bon critère — continue à chercher au lieu d'éliminer au hasard."
+      },
+      {
+        "type": "quiz",
+        "question": "Trouve l'intrus et formule le point commun : stupéfait, étonné, surpris, indifférent.",
+        "answer": "*Indifférent*. Les trois autres expriment une réaction de surprise à des degrés divers ; l'indifférence est l'absence de réaction.",
+        "hint": "Trois mots disent la même émotion à des intensités différentes."
+      }
+    ]
+  },
+  {
+    "id": "voc-polysemie",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Un mot, plusieurs sens",
+    "tagline": "« Grève », « voler », « pièce » : le contexte seul décide du sens.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire",
+      "sens-figure",
+      "nuances",
+      "pieges"
+    ],
+    "related": [
+      "voc-sens-figure",
+      "voc-synonymes-methode",
+      "voc-intrus",
+      "voc-paronymes-acception"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Des polysèmes courants",
+        "headers": [
+          "Mot",
+          "Sens 1",
+          "Sens 2",
+          "Sens 3"
+        ],
+        "rows": [
+          [
+            "grève",
+            "arrêt de travail",
+            "bord de mer",
+            "—"
+          ],
+          [
+            "voler",
+            "se déplacer dans les airs",
+            "dérober",
+            "—"
+          ],
+          [
+            "pièce",
+            "salle d'un logement",
+            "monnaie",
+            "document, ou œuvre théâtrale"
+          ],
+          [
+            "bureau",
+            "meuble",
+            "salle",
+            "service administratif"
+          ],
+          [
+            "action",
+            "fait d'agir",
+            "titre de propriété d'entreprise",
+            "intrigue d'une œuvre"
+          ],
+          [
+            "opération",
+            "intervention chirurgicale",
+            "calcul",
+            "action militaire ou commerciale"
+          ],
+          [
+            "marge",
+            "bord d'une page",
+            "écart entre prix et coût",
+            "latitude d'action"
+          ],
+          [
+            "capital",
+            "somme investie",
+            "essentiel (adjectif)",
+            "peine capitale"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La polysémie est la règle, pas l'exception : les mots les plus fréquents sont aussi les plus polysémiques. Chaque sens s'appelle une ACCEPTION. Le contexte immédiat — les mots qui entourent — suffit presque toujours à trancher, et c'est exactement ce que testent les questions de vocabulaire en contexte."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Dans quels sens « marge » est-il employé ici : « La marge du document est trop étroite » et « Notre marge s'est réduite de deux points » ?",
+        "reveal": "Le premier est le bord de la page (sens spatial). Le second est l'écart entre le prix de vente et le coût (sens économique). Un troisième sens existe : « nous avons peu de marge de manœuvre »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en compréhension : appliquer le sens le plus courant sans vérifier le contexte. Dans un texte économique, « action » désigne presque toujours un titre financier, pas le fait d'agir. Le domaine du texte oriente le sens avant même la phrase."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Face à un mot polysémique, regarde le mot qui le PRÉCÈDE et celui qui le SUIT. Ces deux voisins tranchent dans la quasi-totalité des cas, sans avoir à relire le paragraphe."
+      },
+      {
+        "type": "quiz",
+        "question": "Donne deux sens du mot « note » et une phrase pour chacun.",
+        "answer": "Une appréciation chiffrée (« il a eu une bonne note ») ; un bref écrit (« prendre des notes », « une note de service ») ; un son musical ; une facture (« la note du restaurant »). Quatre acceptions courantes.",
+        "hint": "Pense à l'école, au bureau, à la musique et au restaurant."
+      }
+    ]
+  },
+  {
+    "id": "voc-hyperonymes",
+    "domain": "vocabulaire",
+    "category": "Synonymes & nuances",
+    "title": "Du général au particulier",
+    "tagline": "Véhicule → voiture → berline : chaque niveau est plus précis, et le test porte souvent sur le bon niveau.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire",
+      "synonymes",
+      "intrus"
+    ],
+    "related": [
+      "voc-intrus",
+      "voc-synonymes-methode",
+      "log-analogie-relations",
+      "voc-polysemie"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un HYPERONYME est un terme général qui englobe des termes plus précis, appelés HYPONYMES. *Fleur* est l'hyperonyme de *rose*, *tulipe*, *iris*. Cette hiérarchie sert dans les questions d'intrus, d'analogie et de reformulation : il faut répondre au bon NIVEAU de généralité."
+      },
+      {
+        "type": "table",
+        "title": "Trois niveaux, trois exemples",
+        "headers": [
+          "Général",
+          "Intermédiaire",
+          "Précis"
+        ],
+        "rows": [
+          [
+            "véhicule",
+            "voiture",
+            "berline"
+          ],
+          [
+            "sentiment",
+            "joie",
+            "allégresse"
+          ],
+          [
+            "document",
+            "contrat",
+            "bail"
+          ],
+          [
+            "professionnel",
+            "juriste",
+            "avocat"
+          ],
+          [
+            "bâtiment",
+            "logement",
+            "studio"
+          ],
+          [
+            "somme",
+            "revenu",
+            "salaire"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Le chêne est à l'arbre ce que la rose est à … ? » Pourquoi « fleur » et non « plante » ?",
+        "reveal": "Parce que la relation du premier couple est espèce → genre immédiat. *Arbre* est le genre direct du chêne ; le genre direct de la rose est *fleur*. *Plante* serait un niveau trop général, il ne respecte pas la distance entre les deux termes."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : répondre avec un synonyme au lieu d'un hyperonyme, ou sauter un niveau. Dans une analogie, la DISTANCE entre les deux termes du premier couple doit être reproduite exactement dans le second."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test de la phrase : « un chêne est un arbre » fonctionne ; « un arbre est un chêne » ne fonctionne pas. Le sens de la relation révèle lequel est l'hyperonyme."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel est l'hyperonyme immédiat de « marteau », et quel serait un niveau trop général ?",
+        "answer": "Hyperonyme immédiat : *outil*. Niveau trop général : *objet*, ou *chose*. Le bon niveau est celui qui regroupe le marteau avec la pince et le tournevis, sans englober toute la réalité.",
+        "hint": "Avec quoi le marteau forme-t-il un groupe naturel ?"
+      }
+    ]
+  },
+  {
+    "id": "voc-latin-raisonnement",
+    "domain": "vocabulaire",
+    "category": "Locutions latines",
+    "title": "Locutions latines du raisonnement",
+    "tagline": "A priori = SANS se fonder sur l'expérience. A posteriori = EN PARTANT de l'expérience. L'usage courant les confond.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "expressions",
+      "vocabulaire",
+      "juridique",
+      "culture-generale"
+    ],
+    "related": [
+      "voc-latin-sens",
+      "voc-latin-temps",
+      "voc-latin-vie-pro",
+      "vocabulaire-locutions-latines"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le vocabulaire de l'argumentation",
+        "headers": [
+          "Locution",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "a priori",
+            "sans se fonder sur l'expérience acquise"
+          ],
+          [
+            "a posteriori",
+            "en partant de l'expérience acquise"
+          ],
+          [
+            "a fortiori",
+            "à plus forte raison"
+          ],
+          [
+            "ipso facto",
+            "par le fait même, automatiquement"
+          ],
+          [
+            "de facto",
+            "de fait (dans les faits)"
+          ],
+          [
+            "de jure",
+            "selon la loi (en droit)"
+          ],
+          [
+            "sine qua non",
+            "condition indispensable"
+          ],
+          [
+            "ex nihilo",
+            "en partant de rien"
+          ],
+          [
+            "in fine",
+            "à la fin, en fin de compte"
+          ],
+          [
+            "de visu",
+            "après l'avoir vu soi-même"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "De facto contre de jure",
+        "body": "Ce couple est fondamental en droit et en géopolitique. Une situation *de facto* existe dans les faits sans reconnaissance juridique ; une situation *de jure* est reconnue par le droit, qu'elle soit effective ou non. Un gouvernement peut contrôler un territoire *de facto* sans être reconnu *de jure*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Cette entreprise détient une position dominante de facto, sans monopole de jure » ?",
+        "reveal": "Elle domine réellement le marché, sans qu'aucun texte ne lui accorde de monopole légal. La distinction est décisive en droit de la concurrence : on sanctionne l'abus de position dominante de fait."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *a priori*. Dans l'usage courant, on l'emploie au sens de « à première vue, probablement ». Son sens rigoureux est « avant toute expérience, indépendamment des faits ». Un « jugement a priori » est un préjugé, pas une impression."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Prior = avant, posterior = après. » A priori vient avant l'expérience, a posteriori après. Et *a fortiori* introduit un argument PLUS fort que le précédent : si A est vrai, alors B, qui est plus évident encore, l'est aussi."
+      },
+      {
+        "type": "quiz",
+        "question": "« Un mineur ne peut signer ce contrat ; ______ , il ne peut engager la société. » Quelle locution ?",
+        "answer": "*A fortiori* : à plus forte raison. Si l'on ne peut faire le moins, on ne peut faire le plus.",
+        "hint": "L'argument qui suit est encore plus évident que le précédent."
+      }
+    ]
+  },
+  {
+    "id": "voc-latin-temps",
+    "domain": "vocabulaire",
+    "category": "Locutions latines",
+    "title": "Locutions latines de temps et de lieu",
+    "tagline": "In situ sur place, in extremis au dernier moment, ad hoc pour cette fin précise.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "expressions",
+      "vocabulaire",
+      "culture-generale"
+    ],
+    "related": [
+      "voc-latin-raisonnement",
+      "voc-latin-sens",
+      "voc-latin-vie-pro",
+      "vocabulaire-locutions-latines"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Situer dans le temps et l'espace",
+        "headers": [
+          "Locution",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "ad hoc",
+            "pour une fin particulière"
+          ],
+          [
+            "ad vitam æternam",
+            "pour toujours"
+          ],
+          [
+            "hic et nunc",
+            "sur-le-champ, ici et maintenant"
+          ],
+          [
+            "in extremis",
+            "au dernier moment, de justesse"
+          ],
+          [
+            "in extenso",
+            "dans son intégralité"
+          ],
+          [
+            "in situ",
+            "dans son milieu naturel, sur place"
+          ],
+          [
+            "in vivo / in vitro",
+            "dans l'organisme / en milieu artificiel"
+          ],
+          [
+            "intra-muros / extra-muros",
+            "dans la ville / hors de la ville"
+          ],
+          [
+            "ex abrupto",
+            "brusquement, sans préparation"
+          ],
+          [
+            "post mortem",
+            "après la mort"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Ad hoc : le plus utile en entreprise",
+        "body": "*Ad hoc* signifie « créé spécialement pour cet usage ». Un comité ad hoc est constitué pour traiter une question précise et disparaît ensuite ; une solution ad hoc répond à un cas particulier sans valeur générale. Le terme est neutre, mais il peut suggérer l'absence de méthode générale."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Le rapport sera publié in extenso, et une commission ad hoc a été créée in extremis » ?",
+        "reveal": "« Le rapport sera publié intégralement, et une commission créée spécialement pour cette question l'a été au tout dernier moment. » Trois locutions, trois informations distinctes."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *in extremis* et *in extenso*. Le premier est temporel (de justesse), le second est quantitatif (en entier). Deux mots proches, aucun rapport de sens."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« In extenso comme extension : tout le texte. In extremis comme extrême : la dernière limite. » La racine porte le sens dans les deux cas."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie « une étude menée in situ » ?",
+        "answer": "Une étude menée sur place, dans le milieu naturel de l'objet observé — par opposition à une étude en laboratoire ou sur documents.",
+        "hint": "Situ vient de situs, le lieu."
+      }
+    ]
+  },
+  {
+    "id": "voc-latin-sens",
+    "domain": "vocabulaire",
+    "category": "Locutions latines",
+    "title": "Locutions latines de portée et de sens",
+    "tagline": "Stricto sensu au sens strict, lato sensu au sens large, grosso modo en gros.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "expressions",
+      "vocabulaire",
+      "juridique",
+      "culture-generale"
+    ],
+    "related": [
+      "voc-latin-raisonnement",
+      "voc-latin-temps",
+      "voc-latin-vie-pro",
+      "voc-polysemie"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Préciser la portée d'un terme",
+        "headers": [
+          "Locution",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "stricto sensu",
+            "au sens strict"
+          ],
+          [
+            "lato sensu",
+            "au sens large"
+          ],
+          [
+            "grosso modo",
+            "en gros, approximativement"
+          ],
+          [
+            "mutatis mutandis",
+            "en changeant ce qu'il faut changer"
+          ],
+          [
+            "sui generis",
+            "propre à une chose, d'un genre unique"
+          ],
+          [
+            "id est (i.e.)",
+            "c'est-à-dire"
+          ],
+          [
+            "nota bene (NB)",
+            "note bien, remarque"
+          ],
+          [
+            "et cætera",
+            "et le reste"
+          ],
+          [
+            "in abstracto / in concreto",
+            "dans l'abstrait / dans la pratique"
+          ],
+          [
+            "ex professo",
+            "en tant que spécialiste de la question"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Mutatis mutandis : la plus utile des rares",
+        "body": "*Mutatis mutandis* signifie « une fois faites les adaptations nécessaires ». On l'emploie pour transposer un raisonnement d'un cas à un autre : « le même mécanisme s'applique, mutatis mutandis, aux filiales étrangères » signifie que la logique vaut, à condition d'adapter les détails."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que veut dire « Stricto sensu, ce contrat n'est pas un bail ; lato sensu, il en produit les effets » ?",
+        "reveal": "« Au sens strict du droit, ce n'est pas un bail ; entendu largement, il en produit les mêmes effets. » Les deux locutions structurent une distinction juridique classique entre qualification formelle et effets réels."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *grosso modo* n'est pas familier mais approximatif. Dans un texte technique, il signale une estimation, pas une négligence. À ne pas confondre avec *in extenso*, qui indique au contraire l'exhaustivité."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Sensu = le sens, strict ou large. Modo = la manière, grossière. » Et *sui generis* qualifie ce qui ne rentre dans aucune catégorie existante : un cas unique en son genre."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie « Cette clause s'applique, mutatis mutandis, aux contrats en cours » ?",
+        "answer": "Elle s'applique aussi aux contrats en cours, moyennant les adaptations nécessaires pour tenir compte de leurs particularités.",
+        "hint": "Muter, c'est changer."
+      }
+    ]
+  },
+  {
+    "id": "voc-latin-vie-pro",
+    "domain": "vocabulaire",
+    "category": "Locutions latines",
+    "title": "Locutions latines de la vie professionnelle",
+    "tagline": "Statu quo, modus operandi, persona non grata : le latin qu'on croise en entreprise.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "expressions",
+      "vocabulaire",
+      "culture-generale",
+      "juridique"
+    ],
+    "related": [
+      "voc-latin-raisonnement",
+      "voc-latin-sens",
+      "voc-latin-temps",
+      "log-biais-cognitifs"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les plus fréquentes au bureau",
+        "headers": [
+          "Locution",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "statu quo",
+            "état actuel, inchangé, des choses"
+          ],
+          [
+            "modus operandi",
+            "manière de procéder"
+          ],
+          [
+            "modus vivendi",
+            "accord trouvé pour accommoder deux parties"
+          ],
+          [
+            "nec plus ultra",
+            "ce qu'il y a de mieux"
+          ],
+          [
+            "persona grata / non grata",
+            "personne bienvenue / indésirable"
+          ],
+          [
+            "vade-mecum",
+            "pense-bête que l'on garde sur soi"
+          ],
+          [
+            "ex æquo",
+            "à égalité"
+          ],
+          [
+            "mea culpa",
+            "aveu de sa faute"
+          ],
+          [
+            "alter ego",
+            "personne de confiance, autre soi-même"
+          ],
+          [
+            "curriculum vitæ",
+            "parcours de vie (professionnel)"
+          ],
+          [
+            "manu militari",
+            "par la force"
+          ],
+          [
+            "urbi et orbi",
+            "partout, à tous"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Statu quo : orthographe piégeuse",
+        "body": "On écrit *statu quo*, sans T final à *statu* et sans accent. L'expression complète en latin est *in statu quo ante*, « dans l'état où les choses étaient avant ». Maintenir le statu quo, c'est refuser tout changement — c'est d'ailleurs le nom d'un biais cognitif reconnu."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Les deux parties ont trouvé un modus vivendi, préférable au statu quo » ?",
+        "reveal": "« Les deux parties ont trouvé un arrangement permettant de coexister, préférable au maintien de la situation en l'état. » Un modus vivendi n'est pas un accord définitif : c'est une solution pratique qui permet d'avancer."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *modus operandi* et *modus vivendi*. Le premier décrit une MANIÈRE DE FAIRE (souvent d'un criminel, ou d'une méthode de travail) ; le second est un ARRANGEMENT entre deux parties. Un seul mot d'écart, deux notions distinctes."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Operandi comme opérer : comment on fait. Vivendi comme vivre : comment on cohabite. » La racine latine porte le sens, et elle est reconnaissable en français."
+      },
+      {
+        "type": "quiz",
+        "question": "Comment écrit-on correctement « statu quo », et que signifie exactement l'expression ?",
+        "answer": "*Statu quo*, en deux mots, sans T final ni accent. Elle désigne l'état actuel des choses, maintenu sans changement.",
+        "hint": "Attention à la fin du premier mot."
+      }
+    ]
+  },
+  {
+    "id": "voc-expressions-figees",
+    "domain": "vocabulaire",
+    "category": "Expressions",
+    "title": "Expressions figées à connaître",
+    "tagline": "Battre son plein, avoir voix au chapitre, de guerre lasse : des blocs qu'on ne modifie pas.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "expressions",
+      "sens-figure",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-expressions-deformees",
+      "voc-sens-figure",
+      "voc-expressions-animaux",
+      "voc-proverbes"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Expressions courantes et leur sens exact",
+        "headers": [
+          "Expression",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "battre son plein",
+            "être à son point culminant"
+          ],
+          [
+            "avoir voix au chapitre",
+            "avoir son mot à dire, être consulté"
+          ],
+          [
+            "de guerre lasse",
+            "en renonçant par lassitude"
+          ],
+          [
+            "sans coup férir",
+            "sans rencontrer de résistance"
+          ],
+          [
+            "à l'envi",
+            "à qui mieux mieux, en rivalisant"
+          ],
+          [
+            "jeter l'éponge",
+            "abandonner"
+          ],
+          [
+            "mettre la charrue avant les bœufs",
+            "faire les choses dans le désordre"
+          ],
+          [
+            "tenir le haut du pavé",
+            "occuper une position dominante"
+          ],
+          [
+            "prêcher le faux pour savoir le vrai",
+            "avancer une contre-vérité pour faire réagir"
+          ],
+          [
+            "rendre gorge",
+            "restituer ce qu'on avait pris indûment"
+          ],
+          [
+            "se faire l'avocat du diable",
+            "défendre une thèse à laquelle on n'adhère pas, pour la tester"
+          ],
+          [
+            "mettre le doigt sur",
+            "identifier précisément"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une expression figée fonctionne comme un mot unique : son sens ne se déduit pas de ses composants, et sa forme ne se modifie pas. « Battre son plein » n'a rien à voir avec frapper ; l'expression vient du vocabulaire maritime, où la marée « bat son plein » quand elle atteint son maximum."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « De guerre lasse, il a accepté leurs conditions » ?",
+        "reveal": "Il a fini par céder par épuisement, après avoir résisté. L'expression ne parle ni de guerre ni de fatigue physique : elle décrit un renoncement par lassitude après une lutte prolongée."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « à l'envie » au lieu de « à l'envi ». L'expression s'écrit SANS e final : elle vient du verbe ancien « envier » au sens de rivaliser. « Ils travaillaient à l'envi » signifie qu'ils rivalisaient d'ardeur."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Une expression figée ne se conjugue que sur son verbe : on dit « la fête battait son plein », jamais « la fête battait ses pleins ». Tout le reste est immuable, y compris les articles et les possessifs."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie « se faire l'avocat du diable » et pourquoi est-ce utile ?",
+        "answer": "Défendre volontairement la thèse opposée à celle qu'on soutient, pour en éprouver la solidité. C'est une procédure efficace contre le biais de confirmation lors d'une décision collective.",
+        "hint": "Lien direct avec la fiche sur le biais de confirmation."
+      }
+    ]
+  },
+  {
+    "id": "voc-expressions-deformees",
+    "domain": "vocabulaire",
+    "category": "Expressions",
+    "title": "Les expressions qu'on déforme",
+    "tagline": "« Au temps pour moi », « faire long feu », « tirer les marrons du feu » : trois pièges d'usage.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "expressions",
+      "pieges",
+      "vocabulaire",
+      "sens-figure"
+    ],
+    "related": [
+      "voc-expressions-figees",
+      "voc-pleonasmes",
+      "voc-barbarismes",
+      "voc-sens-figure"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Forme fautive contre forme correcte",
+        "headers": [
+          "On dit souvent",
+          "Forme correcte",
+          "Sens réel"
+        ],
+        "rows": [
+          [
+            "autant pour moi",
+            "au temps pour moi",
+            "reconnaître son erreur"
+          ],
+          [
+            "à l'attention de (un cadeau)",
+            "à l'intention de",
+            "destiné à, en l'honneur de"
+          ],
+          [
+            "pallier à un problème",
+            "pallier un problème",
+            "remédier provisoirement"
+          ],
+          [
+            "se rappeler de quelque chose",
+            "se rappeler quelque chose",
+            "(mais : se souvenir DE)"
+          ],
+          [
+            "malgré que",
+            "bien que, quoique",
+            "concession"
+          ],
+          [
+            "comme même",
+            "quand même",
+            "malgré tout"
+          ],
+          [
+            "en terme de",
+            "en termes de",
+            "du point de vue de"
+          ],
+          [
+            "par contre (critiqué)",
+            "en revanche",
+            "opposition"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Trois expressions au sens détourné",
+        "body": "« Faire long feu » signifie ÉCHOUER (une arme qui fait long feu ne part pas) — mais l'usage courant l'emploie souvent au sens de durer. « Tirer les marrons du feu » signifie prendre des risques au profit d'un autre, et non en tirer profit. « L'exception qui confirme la règle » signifie que l'existence d'une exception signalée prouve qu'une règle existe par ailleurs."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi écrit-on « au temps pour moi » et non « autant pour moi » ?",
+        "reveal": "L'expression vient du commandement militaire « au temps ! », qui ordonne de reprendre un mouvement depuis le début parce qu'il a été mal exécuté. L'Académie française retient cette graphie. « Autant pour moi » se rencontre, mais reste considéré comme une déformation."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *pallier*. Le verbe est transitif DIRECT : on pallie un inconvénient, on ne pallie pas À un inconvénient. L'erreur vient sans doute de l'analogie avec « remédier à » — mais les deux verbes ne se construisent pas de la même façon."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« On se rappelle QUELQUE CHOSE, on se souvient DE quelque chose. » Les deux verbes ont le même sens mais des constructions opposées : c'est de là que vient la confusion."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « Malgré qu'il ait pallié à ce défaut, son projet a fait long feu pendant trois ans. »",
+        "answer": "« Bien qu'il ait pallié ce défaut, son projet a duré trois ans. » — *malgré que* est fautif, *pallier* est transitif direct, et *faire long feu* signifie échouer, donc ne convient pas ici.",
+        "hint": "Trois erreurs, dont une de sens."
+      }
+    ]
+  },
+  {
+    "id": "voc-sens-figure",
+    "domain": "vocabulaire",
+    "category": "Expressions",
+    "title": "Sens propre et sens figuré",
+    "tagline": "Le même mot décrit un fait concret et une réalité abstraite : « une position intenable » ne parle pas de géographie.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "sens-figure",
+      "vocabulaire",
+      "expressions",
+      "nuances"
+    ],
+    "related": [
+      "voc-expressions-figees",
+      "voc-polysemie",
+      "voc-connotation",
+      "voc-expressions-corps"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le même mot, deux niveaux",
+        "headers": [
+          "Mot",
+          "Sens propre",
+          "Sens figuré"
+        ],
+        "rows": [
+          [
+            "éclairer",
+            "donner de la lumière",
+            "expliquer, rendre compréhensible"
+          ],
+          [
+            "peser",
+            "avoir un poids",
+            "avoir de l'influence"
+          ],
+          [
+            "digérer",
+            "assimiler un aliment",
+            "accepter, surmonter"
+          ],
+          [
+            "naviguer",
+            "se déplacer sur l'eau",
+            "évoluer dans un environnement complexe"
+          ],
+          [
+            "creuser",
+            "faire un trou",
+            "approfondir ; ou accroître (un écart)"
+          ],
+          [
+            "geler",
+            "passer à l'état solide",
+            "suspendre (des crédits, un projet)"
+          ],
+          [
+            "nourrir",
+            "donner à manger",
+            "entretenir (un espoir, un soupçon)"
+          ],
+          [
+            "saigner",
+            "perdre du sang",
+            "épuiser financièrement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le sens figuré naît d'une métaphore devenue courante : l'image concrète sert à décrire une réalité abstraite. La plupart du vocabulaire économique fonctionne ainsi — un marché « s'effondre », une entreprise « redresse la barre », un budget « fond ». Repérer l'image aide à comprendre le terme."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« L'écart se creuse entre les deux groupes. » Sens propre ou figuré ? Que décrit l'image ?",
+        "reveal": "Sens figuré. L'image du creusement — un trou qui s'approfondit — sert à décrire un écart qui s'accroît. Aucune terre n'est remuée : c'est la distance qui grandit."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les questions de compréhension demandant « dans ce contexte, que signifie X ? ». La réponse attendue est presque toujours le sens FIGURÉ, celui qui s'accorde au contexte, et non la définition du dictionnaire. Lis la phrase complète avant de répondre."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Si le sujet de la phrase ne peut pas physiquement accomplir l'action (un budget ne fond pas au soleil), le sens est figuré. Ce test est immédiat et ne se trompe jamais."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans « Cette décision pèse lourd dans le résultat annuel », quel est le sens de « peser » ?",
+        "answer": "Sens figuré : avoir une influence importante. Une décision n'a pas de masse physique, ce qui suffit à écarter le sens propre.",
+        "hint": "Applique le test : le sujet peut-il réellement accomplir l'action ?"
+      }
+    ]
+  },
+  {
+    "id": "voc-expressions-animaux",
+    "domain": "vocabulaire",
+    "category": "Expressions",
+    "title": "Expressions animalières",
+    "tagline": "Prendre le taureau par les cornes, ménager la chèvre et le chou : le bestiaire du français courant.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "expressions",
+      "sens-figure",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-expressions-corps",
+      "voc-expressions-figees",
+      "voc-sens-figure",
+      "voc-proverbes"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le bestiaire à connaître",
+        "headers": [
+          "Expression",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "prendre le taureau par les cornes",
+            "affronter une difficulté de front"
+          ],
+          [
+            "ménager la chèvre et le chou",
+            "chercher à satisfaire deux parties opposées"
+          ],
+          [
+            "avoir d'autres chats à fouetter",
+            "avoir des préoccupations plus urgentes"
+          ],
+          [
+            "poser un lapin",
+            "ne pas venir à un rendez-vous"
+          ],
+          [
+            "donner sa langue au chat",
+            "renoncer à deviner"
+          ],
+          [
+            "avoir une araignée au plafond",
+            "être un peu fou"
+          ],
+          [
+            "être le dindon de la farce",
+            "être la victime d'une tromperie"
+          ],
+          [
+            "noyer le poisson",
+            "embrouiller pour éviter de répondre"
+          ],
+          [
+            "reprendre du poil de la bête",
+            "se rétablir, reprendre le dessus"
+          ],
+          [
+            "une vache à lait",
+            "une source de profit régulier"
+          ],
+          [
+            "le loup dans la bergerie",
+            "un danger introduit là où l'on est vulnérable"
+          ],
+          [
+            "mettre la puce à l'oreille",
+            "éveiller les soupçons"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces expressions sont très présentes dans la presse et les textes de compréhension. Leur sens est totalement opaque pour qui ne les connaît pas : aucun raisonnement ne permet de déduire que « noyer le poisson » signifie éviter de répondre. Elles se mémorisent, comme du vocabulaire."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Cette filiale est devenue une vache à lait pour le groupe » ?",
+        "reveal": "Elle génère un profit régulier et abondant, sans nécessiter d'investissement important. L'expression est reprise telle quelle en stratégie d'entreprise : dans la matrice BCG, une *cash cow* désigne exactement ce type d'activité."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « poser un lapin » n'a rien à voir avec un cadeau ni un animal. Et « donner sa langue au chat » signifie renoncer à trouver, pas révéler un secret. Les expressions animalières sont particulièrement trompeuses pour un lecteur non francophone, et les tests en jouent."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En compréhension, si une expression animalière t'échappe, regarde si le contexte est positif ou négatif. Cela suffit souvent à choisir entre les propositions, sans connaître précisément l'expression."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie « ménager la chèvre et le chou » dans une négociation ?",
+        "answer": "Chercher à satisfaire deux parties aux intérêts opposés sans trancher — au risque de ne contenter personne. L'expression a souvent une nuance critique.",
+        "hint": "La chèvre mangerait le chou : les deux intérêts sont incompatibles."
+      }
+    ]
+  },
+  {
+    "id": "voc-expressions-corps",
+    "domain": "vocabulaire",
+    "category": "Expressions",
+    "title": "Expressions avec le corps",
+    "tagline": "Avoir le bras long, faire la sourde oreille, mettre les pieds dans le plat : le corps au service de l'image.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "expressions",
+      "sens-figure",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-expressions-animaux",
+      "voc-expressions-figees",
+      "voc-sens-figure",
+      "voc-expressions-deformees"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les expressions les plus courantes",
+        "headers": [
+          "Expression",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "avoir le bras long",
+            "avoir de l'influence, des relations"
+          ],
+          [
+            "faire la sourde oreille",
+            "refuser d'entendre, ignorer volontairement"
+          ],
+          [
+            "coûter les yeux de la tête",
+            "être extrêmement cher"
+          ],
+          [
+            "avoir la tête sur les épaules",
+            "être raisonnable, réfléchi"
+          ],
+          [
+            "mettre les pieds dans le plat",
+            "aborder un sujet délicat sans ménagement"
+          ],
+          [
+            "avoir le cœur sur la main",
+            "être généreux"
+          ],
+          [
+            "donner un coup de main",
+            "aider"
+          ],
+          [
+            "se creuser la tête",
+            "réfléchir intensément"
+          ],
+          [
+            "tenir tête",
+            "résister, s'opposer"
+          ],
+          [
+            "avoir les dents longues",
+            "être très ambitieux"
+          ],
+          [
+            "faire le dos rond",
+            "attendre que l'orage passe sans réagir"
+          ],
+          [
+            "jouer des coudes",
+            "se frayer un chemin sans ménagement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le corps fournit l'un des réservoirs d'images les plus productifs du français. Chaque partie du corps porte une valeur symbolique stable : la tête pour la raison, le cœur pour les sentiments, la main pour l'action et la générosité, les dents pour l'ambition et l'agressivité."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « La direction a fait le dos rond pendant la polémique » ?",
+        "reveal": "Elle s'est abstenue de réagir en attendant que la crise s'apaise. L'image est celle d'un animal qui se courbe pour subir un coup sans se défendre — une stratégie d'évitement, souvent jugée avec une pointe de critique."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « avoir les dents longues » n'est pas un compliment. L'expression décrit une ambition dévorante, souvent jugée excessive. À distinguer de « avoir de l'ambition », qui est neutre. La connotation fait toute la différence."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Classe les expressions par partie du corps : c'est un moyen de révision efficace, et il fait apparaître les valeurs symboliques récurrentes qui permettent de deviner les expressions inconnues."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle expression signifie « aborder un sujet délicat sans aucune délicatesse » ?",
+        "answer": "« Mettre les pieds dans le plat. » Elle peut se dire maladroitement (sans le vouloir) ou délibérément, pour forcer la discussion.",
+        "hint": "L'image est celle d'une maladresse physique."
+      }
+    ]
+  },
+  {
+    "id": "voc-proverbes",
+    "domain": "vocabulaire",
+    "category": "Expressions",
+    "title": "Proverbes et références culturelles",
+    "tagline": "Talon d'Achille, épée de Damoclès, cheval de Troie : des images antiques devenues du français courant.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "expressions",
+      "culture-generale",
+      "sens-figure",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-expressions-figees",
+      "voc-expressions-animaux",
+      "voc-sens-figure",
+      "culture-methode-veille"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Références antiques et bibliques",
+        "headers": [
+          "Expression",
+          "Origine",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "le talon d'Achille",
+            "mythologie grecque",
+            "le point faible unique"
+          ],
+          [
+            "une épée de Damoclès",
+            "Antiquité grecque",
+            "une menace permanente et suspendue"
+          ],
+          [
+            "un cheval de Troie",
+            "Iliade",
+            "une ruse pour s'introduire chez l'adversaire"
+          ],
+          [
+            "tomber de Charybde en Scylla",
+            "Odyssée",
+            "aller de mal en pis"
+          ],
+          [
+            "un travail de Romain",
+            "Antiquité",
+            "une tâche longue et pénible"
+          ],
+          [
+            "le fil d'Ariane",
+            "mythologie grecque",
+            "le guide qui permet de ne pas se perdre"
+          ],
+          [
+            "une victoire à la Pyrrhus",
+            "Antiquité",
+            "une victoire si coûteuse qu'elle équivaut à une défaite"
+          ],
+          [
+            "un bouc émissaire",
+            "Bible",
+            "celui qu'on charge des fautes des autres"
+          ],
+          [
+            "un travail de titan",
+            "mythologie grecque",
+            "une tâche démesurée"
+          ],
+          [
+            "la boîte de Pandore",
+            "mythologie grecque",
+            "ce qui déclenche des maux en chaîne"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces expressions supposent une culture de référence partagée. Elles apparaissent fréquemment dans la presse et les textes d'examen, où elles condensent une idée complexe en deux mots. Connaître l'origine aide à retenir le sens : Achille était invulnérable sauf au talon, d'où l'idée d'une faiblesse unique dans un ensemble solide."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Cette acquisition fut une victoire à la Pyrrhus » ?",
+        "reveal": "L'entreprise a bien obtenu ce qu'elle voulait, mais au prix de pertes si lourdes que le succès n'en est pas un. Pyrrhus, après une bataille gagnée contre Rome, aurait dit : « Encore une victoire comme celle-là et je suis perdu. »"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « ouvrir la boîte de Pandore » ne signifie pas révéler un secret, mais déclencher une série de conséquences négatives incontrôlables. Et « tomber de Charybde en Scylla » n'est pas simplement échouer : c'est échapper à un danger pour tomber dans un pire."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens l'histoire, pas la définition : une anecdote se mémorise infiniment mieux qu'une glose. Le cheval de Troie, le fil d'Ariane et l'épée de Damoclès racontent chacun une scène, et la scène porte le sens."
+      },
+      {
+        "type": "quiz",
+        "question": "Un logiciel malveillant caché dans un programme légitime s'appelle un « cheval de Troie ». Pourquoi ce nom est-il exact ?",
+        "answer": "Parce que le procédé est le même : un objet d'apparence inoffensive, accepté volontairement par la victime, contient l'attaque. C'est l'introduction consentie qui fait le cheval de Troie, pas la dissimulation seule.",
+        "hint": "Ce sont les Troyens eux-mêmes qui ont fait entrer le cheval."
+      }
+    ]
+  },
+  {
+    "id": "voc-homophones",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Les homophones grammaticaux",
+    "tagline": "a/à, ou/où, ce/se, leur/leurs : un test de substitution règle chaque cas en une seconde.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "pieges",
+      "vocabulaire",
+      "paronymes"
+    ],
+    "related": [
+      "voc-accords-difficiles",
+      "voc-participe-passe",
+      "voc-tout-meme-quelque",
+      "voc-conjugaison-pieges"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le test de substitution",
+        "headers": [
+          "Couple",
+          "Test",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "a / à",
+            "remplacer par « avait »",
+            "il a compris (il avait compris) ✔"
+          ],
+          [
+            "ou / où",
+            "remplacer par « ou bien »",
+            "café ou thé (ou bien thé) ✔"
+          ],
+          [
+            "ce / se",
+            "remplacer par « cela » ou « me »",
+            "ce livre (cela livre ✘ mais ce = démonstratif)"
+          ],
+          [
+            "ces / ses",
+            "remplacer par « ceux-là » ou « les siens »",
+            "ses clés (les siennes) ✔"
+          ],
+          [
+            "c'est / s'est",
+            "remplacer par « cela est » ou « il s'est »",
+            "c'est fini (cela est fini) ✔"
+          ],
+          [
+            "leur / leurs",
+            "leur devant un verbe est invariable",
+            "je leur parle / leurs dossiers"
+          ],
+          [
+            "quand / quant / qu'en",
+            "« lorsque » / « pour ce qui est de » / « que … en »",
+            "quant à moi (pour ce qui est de moi) ✔"
+          ],
+          [
+            "plutôt / plus tôt",
+            "contraire de « plus tard » → plus tôt",
+            "il est venu plus tôt ✔"
+          ],
+          [
+            "quoique / quoi que",
+            "« bien que » / « quelle que soit la chose que »",
+            "quoique fatigué (bien que) ✔"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La règle de leur",
+        "body": "*Leur* placé devant un VERBE est un pronom : il est invariable, il remplace « à eux ». *Leur* placé devant un NOM est un adjectif possessif : il s'accorde en nombre. « Je leur ai rendu leurs dossiers » contient les deux, dans cet ordre."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « Il leurs a dit quand a lui, il viendrait plutôt. »",
+        "reveal": "« Il LEUR a dit que QUANT À lui, il viendrait PLUS TÔT. » — *leur* devant un verbe est invariable, *quant à* signifie « pour ce qui est de », et *plus tôt* s'oppose à « plus tard »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *quoique* et *quoi que*. En un mot, il signifie « bien que » et introduit une concession. En deux mots, il signifie « quelle que soit la chose que » : « quoi que tu fasses » = quelle que soit la chose que tu fasses."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le test de substitution est le seul outil nécessaire. Apprends UN substitut par couple et applique-le mécaniquement : le raisonnement grammatical est plus lent et moins fiable."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « ______ que vous décidiez, prévenez-les ______ que possible. » (quoique/quoi que, plutôt/plus tôt)",
+        "answer": "« QUOI QUE vous décidiez, prévenez-les PLUS TÔT que possible. » — en deux mots (quelle que soit la chose), et *plus tôt* au sens temporel.",
+        "hint": "Deux tests de substitution."
+      }
+    ]
+  },
+  {
+    "id": "voc-participe-passe",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "L'accord du participe passé",
+    "tagline": "Avec être : sujet. Avec avoir : COD, et seulement s'il est placé avant.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-accords-difficiles",
+      "voc-homophones",
+      "voc-conjugaison-pieges",
+      "voc-tout-meme-quelque"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois auxiliaires",
+        "headers": [
+          "Cas",
+          "Règle",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "être",
+            "accord avec le SUJET",
+            "Elles sont arrivées."
+          ],
+          [
+            "avoir + COD après",
+            "pas d'accord",
+            "Elle a mangé les pommes."
+          ],
+          [
+            "avoir + COD avant",
+            "accord avec le COD",
+            "Les pommes qu'elle a mangées."
+          ],
+          [
+            "pronominal, pronom = COD",
+            "accord avec le sujet",
+            "Elle s'est lavée."
+          ],
+          [
+            "pronominal, COD après",
+            "pas d'accord",
+            "Elle s'est lavé les mains."
+          ],
+          [
+            "essentiellement pronominal",
+            "accord avec le sujet",
+            "Elles se sont souvenues."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La méthode en deux questions",
+        "body": "Pose-toi deux questions, dans cet ordre. (1) Quel est l'auxiliaire ? Avec ÊTRE, accord avec le sujet, point final. (2) Avec AVOIR, y a-t-il un COD, et est-il placé AVANT le participe ? Si oui, accord avec lui. Si non, ou s'il n'y a pas de COD, aucun accord."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Accorde : « Les décisions que nous avons ______ (prendre) ont été ______ (approuver). »",
+        "reveal": "« Les décisions que nous avons PRISES ont été APPROUVÉES. » — *que* reprend « les décisions », COD placé avant l'auxiliaire *avoir* → accord ; puis auxiliaire *être* → accord avec le sujet."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les cas particuliers qui rapportent des points",
+        "items": [
+          "Participe suivi d'un infinitif : accord si le COD fait l'action. « La chanteuse que j'ai entendue chanter » (elle chante) mais « la chanson que j'ai entendu chanter » (la chanson ne chante pas).",
+          "*Fait* suivi d'un infinitif est toujours INVARIABLE : « je les ai fait venir ».",
+          "*Ci-joint*, *ci-inclus*, *excepté*, *vu*, *y compris* sont invariables devant le nom, et s'accordent après : « ci-joint la facture » mais « la facture ci-jointe ».",
+          "Avec le pronom *en* comme COD, pas d'accord : « des erreurs, j'en ai commis ».",
+          "Les verbes impersonnels ne s'accordent jamais : « les efforts qu'il a fallu »."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « elle s'est permis ». Dans « elle s'est permis une remarque », le COD est « une remarque », placé APRÈS : aucun accord. Le pronom *se* est ici complément d'objet second, pas direct. Même logique pour « ils se sont parlé », « elles se sont succédé »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour un verbe pronominal, remplace *être* par *avoir* : « elle a lavé quoi ? elle-même » → COD avant → accord. « Elle a lavé quoi ? les mains » → COD après → pas d'accord. Le test fonctionne dans tous les cas."
+      },
+      {
+        "type": "quiz",
+        "question": "Accorde : « Les documents que je vous ai ______ (envoyer), les avez-vous ______ (lire) ? Elle s'est ______ (rendre) compte de l'erreur. »",
+        "answer": "« que je vous ai ENVOYÉS » (COD avant), « les avez-vous LUS ? » (COD avant), « elle s'est RENDU compte » (pas d'accord : *se rendre compte* est une locution figée où *se* n'est pas COD).",
+        "hint": "Le troisième cas est une locution figée."
+      }
+    ]
+  },
+  {
+    "id": "voc-accords-difficiles",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Accords difficiles",
+    "tagline": "Demi, nu, cent, vingt, mille : cinq mots qui s'accordent selon leur position.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-participe-passe",
+      "voc-tout-meme-quelque",
+      "voc-pluriels",
+      "voc-homophones"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Accords qui dépendent de la place",
+        "headers": [
+          "Mot",
+          "Avant le nom",
+          "Après le nom"
+        ],
+        "rows": [
+          [
+            "demi",
+            "invariable, avec trait d'union : une demi-heure",
+            "accord en genre seulement : deux heures et demie"
+          ],
+          [
+            "nu",
+            "invariable, avec trait d'union : nu-pieds",
+            "accord : les pieds nus"
+          ],
+          [
+            "ci-joint",
+            "invariable : ci-joint la facture",
+            "accord : la facture ci-jointe"
+          ],
+          [
+            "excepté / vu / y compris",
+            "invariable : excepté les frais",
+            "accord : les frais exceptés"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Les nombres",
+        "body": "*Vingt* et *cent* prennent un −s quand ils sont MULTIPLIÉS et NON SUIVIS d'un autre nombre : quatre-vingtS, deux centS — mais quatre-vingt-deux, deux cent dix. *Mille* est toujours invariable. *Millier*, *million* et *milliard* sont des noms et s'accordent normalement : deux millions."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Écris en lettres : 80, 82, 200, 210, 2000, 2 000 000.",
+        "reveal": "Quatre-vingts, quatre-vingt-deux, deux cents, deux cent dix, deux mille, deux millions. Seuls *vingt* et *cent* varient, et uniquement quand rien ne les suit."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois autres accords testés",
+        "items": [
+          "Les adjectifs de couleur composés ou dérivés d'un nom sont invariables : des yeux bleu clair, des chemises marron. Exceptions qui s'accordent : rose, mauve, pourpre, fauve, écarlate.",
+          "Après « la plupart de », « beaucoup de », le verbe s'accorde avec le complément : la plupart des salariés SONT venus.",
+          "Après « plus d'un », le verbe reste au singulier : plus d'un candidat a échoué.",
+          "Avec « ni … ni », les deux accords sont admis : ni l'un ni l'autre n'est venu / ne sont venus."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les couleurs. « Des chaussures noires » s'accorde (adjectif simple), mais « des chaussures noir foncé » est invariable (couleur composée), et « des chaussures marron » aussi (nom employé comme adjectif). Trois règles pour une même phrase."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Avant le nom, le mot est adverbe : invariable. Après le nom, il est adjectif : il s'accorde. » Ce principe couvre demi, nu, ci-joint, excepté — quatre cas d'un coup."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « Veuillez trouver ci-jointe les trois cents vingt factures, dont deux cents restent impayées. »",
+        "answer": "« Veuillez trouver CI-JOINT les trois cent vingt factures, dont deux cents restent impayées. » — *ci-joint* avant le nom est invariable ; *cent* suivi de *vingt* ne prend pas de −s ; *deux cents* en prend un car rien ne suit.",
+        "hint": "Trois règles différentes dans la même phrase."
+      }
+    ]
+  },
+  {
+    "id": "voc-tout-meme-quelque",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Tout, même, quelque, tel",
+    "tagline": "Adverbe : invariable. Adjectif : accord. La nature du mot décide, pas son apparence.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-accords-difficiles",
+      "voc-participe-passe",
+      "voc-homophones",
+      "voc-pluriels"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre mots, deux natures",
+        "headers": [
+          "Mot",
+          "Adjectif (accord)",
+          "Adverbe (invariable)"
+        ],
+        "rows": [
+          [
+            "tout",
+            "toutes les équipes",
+            "elles sont tout étonnées"
+          ],
+          [
+            "même",
+            "les mêmes arguments",
+            "même les cadres sont venus"
+          ],
+          [
+            "quelque",
+            "quelques remarques",
+            "quelque cinquante personnes (= environ)"
+          ],
+          [
+            "tel",
+            "de telles décisions",
+            "—"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "L'exception de tout",
+        "body": "*Tout* adverbe signifie « entièrement » et reste invariable — SAUF devant un adjectif féminin commençant par une consonne ou un h aspiré, où il s'accorde pour des raisons de prononciation. « Elles sont tout étonnées » (voyelle, invariable) mais « elles sont toutes honteuses » (h aspiré, accord)."
+      },
+      {
+        "type": "rule",
+        "title": "Tel et tel que",
+        "body": "*Tel* seul s'accorde avec ce qui SUIT : « telle une avalanche, la nouvelle se répandit ». *Tel que* s'accorde avec ce qui PRÉCÈDE : « des mesures telles que le report des échéances ». La présence de *que* inverse la règle."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Accorde : « ______ (quelque) trente participants, ______ (tout) surpris, ont posé les ______ (même) questions. »",
+        "reveal": "« QUELQUE trente participants, TOUT surpris, ont posé les MÊMES questions. » — *quelque* = environ (adverbe, invariable) ; *tout* devant un adjectif masculin (invariable) ; *mêmes* adjectif qualifiant « questions »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « quelque » devant un nombre. *Quelque cinquante personnes* signifie « environ cinquante » et reste invariable ; *quelques personnes* signifie « un petit nombre » et s'accorde. Le sens change avec l'orthographe."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test pour *tout* : remplace par « entièrement ». Si la phrase tient, c'est un adverbe (invariable, sauf l'exception féminine). Sinon c'est un adjectif, et il s'accorde."
+      },
+      {
+        "type": "quiz",
+        "question": "Accorde : « Elles sont ______ (tout) heureuses et ______ (tout) émues. »",
+        "answer": "« Elles sont TOUTES heureuses et TOUT émues. » — accord devant *heureuses* (consonne), pas d'accord devant *émues* (voyelle).",
+        "hint": "Regarde la première lettre de chaque adjectif."
+      }
+    ]
+  },
+  {
+    "id": "voc-pluriels",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Pluriels irréguliers",
+    "tagline": "Sept noms en -ou prennent un x, sept noms en -ail font -aux. Les listes sont courtes : apprends-les.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-accords-difficiles",
+      "voc-tout-meme-quelque",
+      "voc-homophones",
+      "voc-prefixes-suffixes"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre familles irrégulières",
+        "headers": [
+          "Terminaison",
+          "Règle",
+          "Exceptions"
+        ],
+        "rows": [
+          [
+            "−al → −aux",
+            "cheval → chevaux",
+            "bal, carnaval, chacal, festival, récital, régal, cérémonial → −als"
+          ],
+          [
+            "−ail → −ails",
+            "détail → détails",
+            "bail, corail, émail, soupirail, travail, vantail, vitrail → −aux"
+          ],
+          [
+            "−ou → −ous",
+            "clou → clous",
+            "bijou, caillou, chou, genou, hibou, joujou, pou → −oux"
+          ],
+          [
+            "−eu → −eux",
+            "jeu → jeux",
+            "bleu, pneu, émeu → −eus"
+          ],
+          [
+            "−au, −eau → −x",
+            "tuyau → tuyaux",
+            "landau, sarrau → −aus"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le français forme la plupart de ses pluriels en −s, mais quatre terminaisons font exception. L'essentiel est de mémoriser les LISTES d'exceptions, qui sont courtes et fermées : sept noms en −ou, sept en −ail, une poignée en −al."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Phrase-mémoire pour les sept en −ou : « Viens mon chou, mon bijou, mon joujou, sur mes genoux, et jette des cailloux à ce hibou plein de poux. » Elle contient les sept, dans l'ordre d'une petite histoire."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *travail*. Au pluriel, c'est *travaux* — mais au sens de « chantier », le singulier *travail* est rare. Et *un festival* donne *des festivals*, pas *festivaux* : c'est l'exception la plus courante de la série en −al."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois cas supplémentaires",
+        "items": [
+          "Les noms composés : seuls le nom et l'adjectif s'accordent. « Des coffres-forts », mais « des porte-monnaie » (verbe + nom, invariable).",
+          "Les noms étrangers francisés prennent un −s : des scénarios, des maximums (ou maxima, forme latine).",
+          "Les noms propres sont invariables : les Dupont. Exception : les dynasties (les Bourbons).",
+          "Certains noms changent de sens au pluriel : une lunette / des lunettes, un ciseau / des ciseaux."
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Mets au pluriel : un vitrail, un festival, un pneu, un caillou.",
+        "answer": "Des vitraux, des festivals, des pneus, des cailloux. Chacun illustre une exception différente.",
+        "hint": "Quatre familles, quatre comportements."
+      }
+    ]
+  },
+  {
+    "id": "voc-subjonctif",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Quand employer le subjonctif",
+    "tagline": "Bien que, avant que, pour que, à moins que : la conjonction impose le mode.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-conjugaison-pieges",
+      "voc-connecteurs-logiques",
+      "voc-homophones",
+      "voc-participe-passe"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Subjonctif ou indicatif ?",
+        "headers": [
+          "Subjonctif après",
+          "Indicatif après"
+        ],
+        "rows": [
+          [
+            "bien que, quoique",
+            "parce que, puisque"
+          ],
+          [
+            "avant que, jusqu'à ce que",
+            "après que, dès que"
+          ],
+          [
+            "pour que, afin que",
+            "de sorte que (conséquence réalisée)"
+          ],
+          [
+            "à moins que, sans que",
+            "pendant que, depuis que"
+          ],
+          [
+            "il faut que, il est possible que",
+            "il est certain que, il est probable que"
+          ],
+          [
+            "je doute que, je ne pense pas que",
+            "je pense que, j'espère que"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le subjonctif exprime ce qui n'est pas posé comme un fait : volonté, doute, possibilité, concession, but. L'indicatif exprime ce qui est tenu pour réel. C'est pourquoi *bien que* (concession sur un fait non acquis dans le raisonnement) prend le subjonctif, alors que *parce que* (cause admise) prend l'indicatif."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Bien qu'il ______ (être) compétent, il faudra qu'il ______ (faire) ses preuves. »",
+        "reveal": "« Bien qu'il SOIT compétent, il faudra qu'il FASSE ses preuves. » — *bien que* et *il faut que* imposent tous deux le subjonctif."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *après que*. La norme exige l'INDICATIF, parce que l'action est accomplie : « après qu'il est parti ». L'usage courant met massivement le subjonctif (« après qu'il soit parti ») par analogie avec *avant que* — mais c'est une faute au regard de la norme."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois repères supplémentaires",
+        "items": [
+          "*Espérer que* prend l'indicatif à la forme affirmative : « j'espère qu'il viendra ».",
+          "*Penser que* prend l'indicatif à l'affirmative, le subjonctif à la négative ou l'interrogative : « je ne pense pas qu'il vienne ».",
+          "Après un superlatif ou *le seul*, *le premier*, on emploie souvent le subjonctif : « c'est le meilleur argument que j'aie entendu ».",
+          "Le subjonctif imparfait (qu'il fît) appartient au registre littéraire ; à l'écrit courant, on emploie le présent."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Avant que → subjonctif, après que → indicatif. » Le couple est symétrique dans la forme mais opposé dans le mode : ce qui précède n'est pas encore réalisé, ce qui suit l'est."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « Après qu'il ______ (partir), nous avons décidé, bien que cela ______ (paraître) risqué. »",
+        "answer": "« Après qu'il EST PARTI (indicatif), nous avons décidé, bien que cela PARAISSE risqué (subjonctif). »",
+        "hint": "Les deux conjonctions n'imposent pas le même mode."
+      }
+    ]
+  },
+  {
+    "id": "voc-conjugaison-pieges",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Pièges de conjugaison",
+    "tagline": "Vous faites, vous dites, ils croient, je vaincs : les formes qu'on déforme spontanément.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-subjonctif",
+      "voc-participe-passe",
+      "voc-homophones",
+      "voc-barbarismes"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Formes correctes contre formes fautives",
+        "headers": [
+          "Correct",
+          "Fautif fréquent"
+        ],
+        "rows": [
+          [
+            "vous faites",
+            "vous faisez"
+          ],
+          [
+            "vous dites",
+            "vous disez"
+          ],
+          [
+            "ils croient, ils voient",
+            "ils croivent, ils voyent"
+          ],
+          [
+            "que je voie",
+            "que je vois"
+          ],
+          [
+            "que je puisse",
+            "que je peux"
+          ],
+          [
+            "je vaincs, il vainc",
+            "je vainque, il vainct"
+          ],
+          [
+            "il résout, ils résolvent",
+            "il résoud"
+          ],
+          [
+            "je courrai (futur)",
+            "je courrais (c'est le conditionnel)"
+          ],
+          [
+            "il conclut (présent et passé simple)",
+            "il conclue"
+          ],
+          [
+            "vous contredisez, vous prédisez",
+            "vous contredites"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Futur ou conditionnel ?",
+        "body": "À la première personne, le futur se termine par −ai, le conditionnel par −ais. « Je viendrai demain » (futur, c'est sûr) contre « je viendrais si je pouvais » (conditionnel, c'est hypothétique). Test : remplace par la troisième personne — *il viendra* (futur) ou *il viendrait* (conditionnel)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « Si vous le disez, je le ferais dès que je peux. »",
+        "reveal": "« Si vous le DITES, je le FERAI dès que je POURRAI. » — *vous dites* (verbe *dire*), futur après « si » au présent, et *pouvoir* au futur après « dès que »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *dire* et ses composés. On dit *vous dites*, mais *vous contredisez*, *vous prédisez*, *vous interdisez* — seul *redire* suit *dire* (*vous redites*). Une exception dans l'exception."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les cinq verbes en −ites à la deuxième personne du pluriel : *vous êtes, vous faites, vous dites, vous redites*. Tous les autres verbes prennent −ez. La liste est fermée."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « Il faut que je voie le dossier et que je puisse le résoudre avant qu'il ne conclue. »",
+        "answer": "La phrase est déjà correcte : *que je voie*, *que je puisse*, *qu'il ne conclue* sont les subjonctifs attendus. Les formes *que je vois* ou *que je peux* seraient fautives.",
+        "hint": "Attention, l'énoncé peut être juste."
+      }
+    ]
+  },
+  {
+    "id": "voc-ponctuation",
+    "domain": "vocabulaire",
+    "category": "Orthographe",
+    "title": "Ponctuation et typographie",
+    "tagline": "En français, deux-points, point-virgule, point d'interrogation et guillemets prennent une espace avant.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pieges",
+      "vocabulaire"
+    ],
+    "related": [
+      "voc-connecteurs-logiques",
+      "voc-accords-difficiles",
+      "voc-niveaux-langue",
+      "comp-structure-texte"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les espaces en typographie française",
+        "headers": [
+          "Signe",
+          "Espace avant",
+          "Espace après"
+        ],
+        "rows": [
+          [
+            "virgule , point .",
+            "non",
+            "oui"
+          ],
+          [
+            "point-virgule ; deux-points :",
+            "oui (insécable)",
+            "oui"
+          ],
+          [
+            "point d'interrogation ? et d'exclamation !",
+            "oui (insécable)",
+            "oui"
+          ],
+          [
+            "guillemets « »",
+            "« suivi d'une espace ; » précédé d'une espace",
+            "—"
+          ],
+          [
+            "parenthèses ( )",
+            "espace avant (, pas après",
+            "pas avant ), espace après"
+          ],
+          [
+            "tiret d'incise —",
+            "oui des deux côtés",
+            "oui"
+          ],
+          [
+            "apostrophe '",
+            "non",
+            "non"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La virgule",
+        "body": "On met une virgule devant *mais*, *car*, *donc* quand ils relient deux propositions. On n'en met pas devant *et* ni *ou* reliant deux éléments d'une énumération — sauf pour éviter une ambiguïté ou lorsque les propositions ont des sujets différents. Et jamais de virgule entre le sujet et son verbe."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Où se place la virgule : « Le directeur commercial que nous avons recruté en mars a doublé les ventes » ?",
+        "reveal": "Nulle part. La relative « que nous avons recruté en mars » est déterminative : elle identifie de quel directeur il s'agit, donc pas de virgules. Avec des virgules, elle deviendrait une simple précision, et supposerait qu'il n'y a qu'un directeur commercial."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la virgule entre le sujet et le verbe. « Les décisions prises hier, ont été annulées » est fautif, même si le sujet est long. Aucune virgule ne peut séparer un sujet de son verbe, sauf si une incise entre deux virgules s'intercale."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les signes « hauts » (; : ? !) prennent une espace avant en français, les signes « bas » (, .) n'en prennent pas. C'est une règle typographique propre au français : l'anglais ne met jamais d'espace avant."
+      },
+      {
+        "type": "quiz",
+        "question": "La phrase « Il a répondu: \"Non\" ! » comporte deux erreurs de typographie française. Lesquelles ?",
+        "answer": "Il manque l'espace avant les deux-points, et les guillemets doivent être français : « Non ». La forme correcte est : Il a répondu : « Non » !",
+        "hint": "Un signe haut et une paire de guillemets."
+      }
+    ]
+  },
+  {
+    "id": "voc-pleonasmes",
+    "domain": "vocabulaire",
+    "category": "Registre & style",
+    "title": "Les pléonasmes à éviter",
+    "tagline": "« Prévoir à l'avance » dit deux fois la même chose : prévoir, c'est déjà voir avant.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pieges",
+      "vocabulaire",
+      "expressions"
+    ],
+    "related": [
+      "voc-barbarismes",
+      "voc-anglicismes",
+      "voc-expressions-deformees",
+      "voc-niveaux-langue"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Pléonasmes courants et forme correcte",
+        "headers": [
+          "Pléonasme",
+          "Pourquoi",
+          "Forme correcte"
+        ],
+        "rows": [
+          [
+            "au jour d'aujourd'hui",
+            "aujourd'hui contient déjà « au jour de ce jour »",
+            "aujourd'hui"
+          ],
+          [
+            "prévoir à l'avance",
+            "prévoir = voir avant",
+            "prévoir"
+          ],
+          [
+            "réserver à l'avance",
+            "une réservation est par nature anticipée",
+            "réserver"
+          ],
+          [
+            "monter en haut / descendre en bas",
+            "la direction est dans le verbe",
+            "monter / descendre"
+          ],
+          [
+            "voire même",
+            "voire signifie déjà « et même »",
+            "voire"
+          ],
+          [
+            "s'avérer vrai",
+            "avérer vient de verus, le vrai",
+            "s'avérer, se révéler exact"
+          ],
+          [
+            "une panacée universelle",
+            "une panacée soigne déjà tout",
+            "une panacée"
+          ],
+          [
+            "collaborer ensemble",
+            "collaborer = travailler avec",
+            "collaborer"
+          ],
+          [
+            "la première priorité",
+            "une priorité est déjà première",
+            "la priorité"
+          ],
+          [
+            "comparer entre eux",
+            "comparer suppose la mise en relation",
+            "comparer"
+          ],
+          [
+            "car en effet",
+            "les deux marquent la cause",
+            "car, ou en effet"
+          ],
+          [
+            "achever complètement",
+            "achever = mener à son terme",
+            "achever"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un pléonasme répète une information déjà contenue dans un mot. Il n'est pas toujours fautif — certaines répétitions servent l'insistance — mais dans un test d'expression écrite, il est compté comme une maladresse. Le remède est de connaître le sens exact du mot principal."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *s'avérer*. Le verbe signifie « se révéler vrai » : « s'avérer vrai » est donc redondant, et « s'avérer faux » est contradictoire. La langue soignée préfère « se révéler exact » ou « se révéler faux »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test : supprime le mot suspect. Si la phrase garde exactement le même sens, c'était un pléonasme. « Prévoir à l'avance » → « prévoir » : rien n'est perdu, donc « à l'avance » était de trop."
+      },
+      {
+        "type": "quiz",
+        "question": "Repère les deux pléonasmes : « Au jour d'aujourd'hui, il faut prévoir à l'avance les besoins. »",
+        "answer": "« Au jour d'aujourd'hui » et « prévoir à l'avance ». Forme correcte : « Aujourd'hui, il faut prévoir les besoins. »",
+        "hint": "Applique le test de suppression sur chaque groupe."
+      }
+    ]
+  },
+  {
+    "id": "voc-barbarismes",
+    "domain": "vocabulaire",
+    "category": "Registre & style",
+    "title": "Barbarismes et solécismes",
+    "tagline": "« Rénumérer », « dilemne », « pallier à » : des mots ou des constructions qui n'existent pas.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "pieges",
+      "vocabulaire",
+      "paronymes"
+    ],
+    "related": [
+      "voc-pleonasmes",
+      "voc-anglicismes",
+      "voc-expressions-deformees",
+      "voc-conjugaison-pieges"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Formes fautives fréquentes",
+        "headers": [
+          "Fautif",
+          "Correct",
+          "Type"
+        ],
+        "rows": [
+          [
+            "rénumérer",
+            "rémunérer",
+            "barbarisme (lettres inversées)"
+          ],
+          [
+            "dilemne",
+            "dilemme",
+            "barbarisme orthographique"
+          ],
+          [
+            "aréoport",
+            "aéroport",
+            "barbarisme"
+          ],
+          [
+            "infractus",
+            "infarctus",
+            "barbarisme"
+          ],
+          [
+            "pécunier",
+            "pécuniaire",
+            "barbarisme"
+          ],
+          [
+            "malgré que",
+            "bien que, quoique",
+            "solécisme"
+          ],
+          [
+            "pallier à",
+            "pallier (transitif direct)",
+            "solécisme"
+          ],
+          [
+            "se rappeler de",
+            "se rappeler quelque chose",
+            "solécisme"
+          ],
+          [
+            "aller au coiffeur",
+            "aller chez le coiffeur",
+            "solécisme"
+          ],
+          [
+            "je m'excuse",
+            "excusez-moi, je vous prie de m'excuser",
+            "impropriété"
+          ],
+          [
+            "au niveau de (abusif)",
+            "en matière de, dans le domaine de",
+            "impropriété"
+          ],
+          [
+            "solutionner",
+            "résoudre",
+            "critiqué"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Barbarisme ou solécisme ?",
+        "body": "Un BARBARISME est un mot déformé ou inexistant : *rénumérer*, *dilemne*. Un SOLÉCISME est une construction fautive avec des mots existants : *pallier à*, *malgré que*. Le premier concerne l'orthographe ou la forme du mot, le second la syntaxe."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi « je m'excuse » est-il critiqué ?",
+        "reveal": "Parce qu'on ne peut pas s'excuser soi-même : l'excuse est accordée par autrui. La formule correcte est « excusez-moi » ou « je vous prie de m'excuser ». L'usage l'a largement banalisé, mais un test d'expression écrite le sanctionne."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *rémunérer*. Le mot vient du latin *munus* (le don, la charge), pas de *numerus* (le nombre). D'où l'ordre des lettres : RÉ-MU-NÉ-RER. C'est l'un des barbarismes les plus fréquents dans les courriers professionnels."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour *rémunérer*, pense à *munificent* (généreux) : la même racine. Pour *dilemme*, pense à *emme* comme dans *dilemme entre deux termes* — deux M, comme les deux branches du dilemme."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « Malgré qu'il soit bien rénuméré, ce dilemne l'empêche de solutionner le problème. »",
+        "answer": "« Bien qu'il soit bien rémunéré, ce dilemme l'empêche de résoudre le problème. » — un solécisme et trois formes fautives.",
+        "hint": "Une conjonction, deux orthographes, un verbe critiqué."
+      }
+    ]
+  },
+  {
+    "id": "voc-anglicismes",
+    "domain": "vocabulaire",
+    "category": "Registre & style",
+    "title": "Anglicismes et faux sens",
+    "tagline": "« Une alternative » est un choix entre deux, pas une solution de rechange. « Opportunité » n'est pas une occasion.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "pieges",
+      "vocabulaire",
+      "nuances",
+      "synonymes"
+    ],
+    "related": [
+      "voc-barbarismes",
+      "voc-pleonasmes",
+      "voc-niveaux-langue",
+      "angv-faux-amis-essentiels"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Anglicismes de sens",
+        "headers": [
+          "Emploi critiqué",
+          "Sens correct en français",
+          "Terme recommandé"
+        ],
+        "rows": [
+          [
+            "impacter un résultat",
+            "impacter = percuter",
+            "affecter, influer sur"
+          ],
+          [
+            "supporter une équipe",
+            "supporter = endurer",
+            "soutenir, encourager"
+          ],
+          [
+            "une opportunité à saisir",
+            "opportunité = caractère opportun",
+            "une occasion"
+          ],
+          [
+            "basé sur",
+            "être basé = avoir sa base (militaire)",
+            "fondé sur, reposant sur"
+          ],
+          [
+            "digital",
+            "digital = relatif aux doigts",
+            "numérique"
+          ],
+          [
+            "adresser un problème",
+            "adresser = envoyer",
+            "traiter, aborder"
+          ],
+          [
+            "initier un projet",
+            "initier = introduire à une connaissance",
+            "lancer, engager"
+          ],
+          [
+            "définitivement d'accord",
+            "définitivement = de façon définitive",
+            "certainement, tout à fait"
+          ],
+          [
+            "une alternative (= une option)",
+            "alternative = choix entre DEUX possibilités",
+            "une solution de rechange"
+          ],
+          [
+            "réaliser que",
+            "réaliser = rendre réel",
+            "se rendre compte que"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un anglicisme de sens attribue à un mot français existant le sens de son sosie anglais. *Réaliser* signifie « rendre réel » en français ; c'est *to realize* qui signifie « se rendre compte ». Ces glissements sont largement entrés dans l'usage, mais restent sanctionnés dans un test d'expression écrite."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi « nous avons trois alternatives » est-il critiqué ?",
+        "reveal": "Parce qu'une alternative EST un choix entre deux termes. On a donc une alternative, ou trois options, trois possibilités, trois solutions. « Trois alternatives » signifierait six possibilités réparties en trois couples."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : distinguer l'anglicisme DE SENS (un mot français employé au sens anglais) de l'emprunt pur (un mot anglais utilisé tel quel, comme *marketing*). Le second est souvent admis faute d'équivalent ; le premier est une impropriété."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test : le mot français a-t-il déjà un sens différent ? *Supporter* veut dire endurer, *digital* concerne les doigts, *réaliser* veut dire accomplir. Si oui, l'emploi anglais crée une ambiguïté et un autre mot existe."
+      },
+      {
+        "type": "quiz",
+        "question": "Reformule sans anglicisme : « J'ai réalisé que cette décision allait impacter tout le digital. »",
+        "answer": "« Je me suis rendu compte que cette décision allait affecter tout le numérique. »",
+        "hint": "Trois anglicismes de sens."
+      }
+    ]
+  },
+  {
+    "id": "voc-niveaux-langue",
+    "domain": "vocabulaire",
+    "category": "Registre & style",
+    "title": "Écrire dans le bon registre",
+    "tagline": "Un mot soutenu dans une phrase familière détonne autant qu'une faute d'orthographe.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire",
+      "synonymes",
+      "nuances",
+      "expressions"
+    ],
+    "related": [
+      "voc-synonymes-registre",
+      "voc-anglicismes",
+      "voc-connecteurs-logiques",
+      "voc-connotation"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Marqueurs de registre",
+        "headers": [
+          "Registre",
+          "Marqueurs typiques"
+        ],
+        "rows": [
+          [
+            "Familier",
+            "élision du ne (« je sais pas »), on pour nous, mots tronqués (info, ciné), interjections"
+          ],
+          [
+            "Courant",
+            "phrases simples, vocabulaire usuel, négation complète"
+          ],
+          [
+            "Soutenu",
+            "subjonctif imparfait, inversion sujet-verbe, connecteurs (nonobstant, en outre), vocabulaire rare"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le registre se construit par accumulation de signaux : vocabulaire, syntaxe, connecteurs, temps verbaux. Il doit rester COHÉRENT du début à la fin. Un texte qui mêle « il convient de souligner » et « c'est un truc compliqué » est incohérent, même si chaque expression est correcte isolément."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Reformule en registre courant : « Nonobstant les difficultés susmentionnées, il siérait de différer ladite décision. »",
+        "reveal": "« Malgré les difficultés évoquées, il vaudrait mieux reporter cette décision. » Le sens est identique ; seul le registre change. Le premier convient à un texte juridique, le second à un courrier professionnel ordinaire."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que « plus soutenu » est toujours « meilleur ». Un registre excessivement soutenu dans un contexte courant paraît affecté, et dans un test d'expression écrite c'est une maladresse au même titre qu'un familier déplacé. Le bon registre est celui du contexte."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère le registre du CONTEXTE donné dans l'énoncé (un mail à un client, une note interne, un article de presse), puis choisis le mot qui s'y accorde. L'énoncé indique presque toujours le destinataire."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans une note interne à des collègues, laquelle de ces phrases convient : a) « Faut qu'on revoie ça » b) « Il conviendrait de réexaminer ce point » c) « Il siérait de procéder à un nouvel examen » ?",
+        "answer": "La b) : registre courant soutenu, adapté à une note professionnelle. La a) est familière, la c) est excessivement soutenue et paraît affectée.",
+        "hint": "Ni trop bas, ni trop haut."
+      }
+    ]
+  },
+  {
+    "id": "voc-connecteurs-logiques",
+    "domain": "vocabulaire",
+    "category": "Registre & style",
+    "title": "Les connecteurs logiques",
+    "tagline": "« Or » n'est pas « donc » : il introduit le fait qui fait basculer le raisonnement.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "expressions",
+      "vocabulaire",
+      "nuances"
+    ],
+    "related": [
+      "voc-niveaux-langue",
+      "voc-ponctuation",
+      "comp-structure-texte",
+      "voc-subjonctif"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les connecteurs par fonction",
+        "headers": [
+          "Fonction",
+          "Connecteurs"
+        ],
+        "rows": [
+          [
+            "Addition",
+            "de plus, en outre, par ailleurs, également"
+          ],
+          [
+            "Opposition",
+            "cependant, néanmoins, toutefois, en revanche, or"
+          ],
+          [
+            "Cause",
+            "car, en effet, puisque, étant donné que"
+          ],
+          [
+            "Conséquence",
+            "donc, ainsi, par conséquent, dès lors, c'est pourquoi"
+          ],
+          [
+            "Concession",
+            "certes… mais, bien que, quoique, il n'en reste pas moins que"
+          ],
+          [
+            "Illustration",
+            "ainsi, par exemple, notamment, en particulier"
+          ],
+          [
+            "Reformulation",
+            "autrement dit, c'est-à-dire, en d'autres termes"
+          ],
+          [
+            "Conclusion",
+            "en somme, en définitive, au total, finalement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Le cas particulier de « or »",
+        "body": "*Or* n'exprime ni la cause ni la conséquence : il introduit un fait NOUVEAU qui modifie le raisonnement en cours. « Tous les candidats doivent avoir le bac. Or, il ne l'a pas. Donc il ne peut pas candidater. » C'est le pivot du raisonnement, entre la règle générale et la conclusion."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quel connecteur choisir : « Les ventes progressent. ______ , la marge se dégrade. »",
+        "reveal": "*Cependant*, *toutefois*, *en revanche* : il y a opposition entre deux faits. *Donc* serait absurde (la hausse des ventes ne cause pas la baisse de marge), et *en effet* signalerait à tort une explication."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *en effet* et *en fait*. *En effet* CONFIRME et explique ce qui précède. *En fait* RECTIFIE, il introduit une correction. « Il n'est pas venu : en effet, il était malade » (explication) contre « On le croyait absent ; en fait, il était dans l'autre salle » (rectification)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En compréhension de texte, les connecteurs annoncent la suite : après *cependant* attends un renversement, après *ainsi* une conséquence ou un exemple, après *or* le fait qui fait basculer. Les repérer permet d'anticiper la structure."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « Tous les dossiers doivent être signés. ______ , celui-ci ne l'est pas. ______ , il est irrecevable. »",
+        "answer": "« OR, celui-ci ne l'est pas. DONC, il est irrecevable. » — *or* introduit le fait particulier, *donc* la conséquence.",
+        "hint": "Un pivot, puis une conclusion."
+      }
+    ]
+  },
+  {
+    "id": "voc-vocabulaire-economique",
+    "domain": "vocabulaire",
+    "category": "Vocabulaire thématique",
+    "title": "Le vocabulaire économique en français",
+    "tagline": "Désinflation n'est pas déflation : dans un cas les prix montent moins vite, dans l'autre ils baissent.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire",
+      "culture-generale",
+      "nuances",
+      "synonymes"
+    ],
+    "related": [
+      "voc-vocabulaire-juridique",
+      "voc-paronymes-conjecture",
+      "eco-inflation",
+      "log-lecture-donnees"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Termes à ne pas confondre",
+        "headers": [
+          "Terme",
+          "Définition"
+        ],
+        "rows": [
+          [
+            "inflation",
+            "hausse générale et durable des prix"
+          ],
+          [
+            "désinflation",
+            "ralentissement de l'inflation : les prix montent moins vite"
+          ],
+          [
+            "déflation",
+            "baisse générale et durable des prix (inflation négative)"
+          ],
+          [
+            "stagflation",
+            "stagnation de l'activité accompagnée d'inflation"
+          ],
+          [
+            "récession",
+            "recul du PIB sur au moins deux trimestres consécutifs"
+          ],
+          [
+            "dépression",
+            "récession profonde et prolongée"
+          ],
+          [
+            "croissance",
+            "augmentation du PIB"
+          ],
+          [
+            "conjoncture",
+            "situation économique à un moment donné"
+          ],
+          [
+            "pouvoir d'achat",
+            "quantité de biens qu'un revenu permet d'acheter"
+          ],
+          [
+            "déficit",
+            "excès des dépenses sur les recettes, sur une année"
+          ],
+          [
+            "dette",
+            "cumul des déficits passés non remboursés"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Déficit et dette : le flux et le stock",
+        "body": "Le DÉFICIT est un flux annuel : ce qui manque sur un exercice. La DETTE est un stock : le cumul des déficits passés. On peut réduire le déficit tout en augmentant la dette, puisqu'un déficit positif, même réduit, s'ajoute encore au stock. C'est la confusion la plus fréquente dans les débats publics."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Le déficit public s'est réduit, mais la dette a continué d'augmenter. » Est-ce contradictoire ?",
+        "reveal": "Non. Tant que le déficit reste positif, il s'ajoute à la dette. La dette ne diminue que si le budget devient excédentaire, ou si la croissance du PIB dépasse celle de la dette — auquel cas le RATIO dette/PIB baisse sans que la dette recule."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « les prix ont baissé » pour décrire une désinflation. Si l'inflation passe de 5 % à 2 %, les prix continuent d'augmenter, simplement moins vite. Seule la déflation correspond à une baisse effective des prix."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Déficit = le trou de l'année. Dette = la somme de tous les trous. » Et pour l'inflation : désinflation = la voiture ralentit, déflation = elle recule."
+      },
+      {
+        "type": "quiz",
+        "question": "L'inflation passe de 3,3 % à 2,4 %. Comment nomme-t-on ce mouvement, et les prix baissent-ils ?",
+        "answer": "C'est une désinflation. Les prix continuent d'augmenter, mais à un rythme moindre. Il faudrait un taux négatif pour parler de déflation.",
+        "hint": "Le taux reste positif."
+      }
+    ]
+  },
+  {
+    "id": "voc-vocabulaire-juridique",
+    "domain": "vocabulaire",
+    "category": "Vocabulaire thématique",
+    "title": "Le vocabulaire juridique de base",
+    "tagline": "Résiliation vaut pour l'avenir, résolution efface le passé. Un mot, deux effets opposés.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "juridique",
+      "vocabulaire",
+      "nuances",
+      "culture-generale"
+    ],
+    "related": [
+      "voc-vocabulaire-economique",
+      "voc-paronymes-accident",
+      "voc-paronymes-recouvrer",
+      "angv-contrats-juridique"
+    ],
+    "subtests": [
+      "lexiphrase",
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les termes à connaître",
+        "headers": [
+          "Terme",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "jurisprudence",
+            "ensemble des décisions de justice faisant référence"
+          ],
+          [
+            "litige / contentieux",
+            "désaccord porté ou susceptible d'être porté devant un juge"
+          ],
+          [
+            "préjudice",
+            "dommage subi, susceptible de réparation"
+          ],
+          [
+            "dommages-intérêts",
+            "somme versée en réparation d'un préjudice"
+          ],
+          [
+            "prescription",
+            "extinction d'un droit par l'écoulement du temps"
+          ],
+          [
+            "nullité",
+            "anéantissement d'un acte irrégulier dès l'origine"
+          ],
+          [
+            "caducité",
+            "perte de validité d'un acte pourtant régulier à l'origine"
+          ],
+          [
+            "résiliation",
+            "fin du contrat POUR L'AVENIR"
+          ],
+          [
+            "résolution",
+            "anéantissement RÉTROACTIF du contrat"
+          ],
+          [
+            "mise en demeure",
+            "sommation formelle d'exécuter une obligation"
+          ],
+          [
+            "force majeure",
+            "événement imprévisible, irrésistible et extérieur"
+          ],
+          [
+            "dol",
+            "manœuvre frauduleuse ayant provoqué le consentement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Résiliation ou résolution ?",
+        "body": "La RÉSILIATION met fin au contrat pour l'avenir : ce qui a été exécuté reste acquis. La RÉSOLUTION anéantit le contrat rétroactivement : les parties doivent se restituer ce qu'elles ont reçu, comme si le contrat n'avait jamais existé. Deux mots proches, des conséquences financières opposées."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un abonnement annuel est interrompu au bout de six mois. Résiliation ou résolution ?",
+        "reveal": "En principe une résiliation : les six mois consommés restent dus, seul l'avenir est libéré. Une résolution impliquerait le remboursement intégral, ce qui n'a de sens que si le contrat n'a jamais été correctement exécuté."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *prescription*. En droit, elle éteint un droit par le temps écoulé — une créance prescrite ne peut plus être réclamée. Rien à voir avec le sens médical (une ordonnance) ni avec *proscription* (interdiction)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Résiliation = on arrête. Résolution = on efface. » Le préfixe RE- de résolution renvoie au retour en arrière, comme dans « revenir »."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle est la différence entre nullité et caducité ?",
+        "answer": "La nullité frappe un acte irrégulier DÈS L'ORIGINE (un vice de consentement, par exemple). La caducité frappe un acte régulier à l'origine, mais qui perd sa validité par la suite (par disparition de son objet, ou expiration d'un délai).",
+        "hint": "Le moment où le défaut apparaît."
+      }
+    ]
+  },
+  {
+    "id": "voc-prefixes-suffixes",
+    "domain": "vocabulaire",
+    "category": "Vocabulaire thématique",
+    "title": "Préfixes et suffixes : deviner un mot inconnu",
+    "tagline": "Hypo- est en dessous, hyper- au-dessus. Connaître trente préfixes permet de décoder des milliers de mots.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire",
+      "antonymes",
+      "synonymes",
+      "nuances"
+    ],
+    "related": [
+      "voc-antonymes",
+      "voc-pluriels",
+      "voc-paronymes-eminent",
+      "voc-hyperonymes"
+    ],
+    "subtests": [
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Préfixes à connaître",
+        "headers": [
+          "Préfixe",
+          "Sens",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "pré− / anté−",
+            "avant",
+            "préavis, antérieur, antédiluvien"
+          ],
+          [
+            "post−",
+            "après",
+            "postérieur, post-scriptum, postposer"
+          ],
+          [
+            "rétro−",
+            "en arrière",
+            "rétroactif, rétrospective"
+          ],
+          [
+            "inter−",
+            "entre",
+            "interlocuteur, intermédiaire, international"
+          ],
+          [
+            "intra−",
+            "à l'intérieur",
+            "intranet, intraveineux, intra-muros"
+          ],
+          [
+            "trans−",
+            "à travers",
+            "transaction, transfert, transparence"
+          ],
+          [
+            "hyper−",
+            "au-dessus, excès",
+            "hypertension, hypermarché"
+          ],
+          [
+            "hypo−",
+            "en dessous, insuffisance",
+            "hypotension, hypothèse"
+          ],
+          [
+            "co− / con−",
+            "avec",
+            "cosigner, coopérer, connexion"
+          ],
+          [
+            "circon−",
+            "autour",
+            "circonstance, circonscrire, circonlocution"
+          ],
+          [
+            "sub−",
+            "sous",
+            "subalterne, subordonné, subvention"
+          ],
+          [
+            "extra−",
+            "hors de, au-delà",
+            "extraordinaire, extrapoler"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Suffixes et nature du mot",
+        "headers": [
+          "Suffixe",
+          "Nature et sens"
+        ],
+        "rows": [
+          [
+            "−tion, −ment",
+            "nom d'action : réalisation, engagement"
+          ],
+          [
+            "−ité, −esse",
+            "nom de qualité : rigidité, justesse"
+          ],
+          [
+            "−isme / −iste",
+            "doctrine / partisan : libéralisme / libéraliste"
+          ],
+          [
+            "−able, −ible",
+            "adjectif de possibilité : recevable, lisible"
+          ],
+          [
+            "−âtre",
+            "adjectif péjoratif ou approximatif : verdâtre, douceâtre"
+          ],
+          [
+            "−ure",
+            "résultat : fermeture, écriture"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Décomposer un mot inconnu en préfixe, radical et suffixe permet d'en deviner le sens et la nature. *Circonlocution* = circon (autour) + locution (parole) : une façon de tourner autour du sujet. Cette méthode est la plus rentable pour affronter un vocabulaire qu'on n'a pas mémorisé."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *hypo-* et *hyper-*. Deux préfixes de sens opposés qui ne diffèrent que par deux lettres. L'hypotension est une tension trop basse, l'hypertension trop haute. Même opposition entre hypoglycémie et hyperglycémie."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Hyper comme hyper-marché : c'est grand. Hypo comme hypothèse : c'est ce qui est posé en dessous, la base d'un raisonnement. » Les deux images fixent durablement l'opposition."
+      },
+      {
+        "type": "quiz",
+        "question": "Décompose et devine le sens de « circonspect » et « rétrocession ».",
+        "answer": "*Circonspect* : circon- (autour) + spect- (regarder) → qui regarde autour de lui avant d'agir, donc prudent. *Rétrocession* : rétro- (en arrière) + cession (fait de céder) → fait de céder en retour ce qu'on avait reçu.",
+        "hint": "Cherche le préfixe, puis la racine latine."
+      }
+    ]
   }
 ]
