@@ -81,5 +81,2307 @@
         "body": "N'essaie pas de réciter des chiffres précis (ils datent vite) : montre plutôt que tu comprends le mécanisme (pourquoi cette entreprise a relocalisé, pourquoi ce secteur attire les investisseurs) — c'est ce qui impressionne un jury, pas la mémorisation de statistiques."
       }
     ]
+  },
+  {
+    "id": "fr-institutions-ve-republique",
+    "domain": "culture-generale",
+    "category": "Institutions françaises",
+    "title": "La Ve République : l'architecture du pouvoir",
+    "tagline": "Un exécutif à deux têtes, un Parlement bicaméral, un juge de la Constitution : le schéma à connaître par cœur.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "institutions-france",
+      "histoire-xxe"
+    ],
+    "related": [
+      "fr-institutions-parlement",
+      "fr-president",
+      "fr-conseil-constitutionnel",
+      "fr-collectivites"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "La Constitution de la Ve République date du 4 octobre 1958. Elle organise un exécutif bicéphale — le président de la République et le gouvernement dirigé par le Premier ministre — face à un Parlement composé de deux chambres, l'Assemblée nationale et le Sénat. Le Conseil constitutionnel contrôle la conformité des lois à la Constitution."
+      },
+      {
+        "type": "table",
+        "title": "Qui fait quoi",
+        "headers": [
+          "Organe",
+          "Rôle principal",
+          "Désignation"
+        ],
+        "rows": [
+          [
+            "Président de la République",
+            "chef de l'État et des armées, nomme le Premier ministre, peut dissoudre l'Assemblée",
+            "élu au suffrage universel direct pour 5 ans"
+          ],
+          [
+            "Gouvernement",
+            "détermine et conduit la politique de la nation",
+            "Premier ministre nommé par le président, ministres nommés sur sa proposition"
+          ],
+          [
+            "Assemblée nationale",
+            "vote la loi, peut renverser le gouvernement",
+            "577 députés élus pour 5 ans au suffrage direct"
+          ],
+          [
+            "Sénat",
+            "vote la loi, représente les collectivités territoriales",
+            "348 sénateurs élus pour 6 ans au suffrage indirect"
+          ],
+          [
+            "Conseil constitutionnel",
+            "contrôle la constitutionnalité des lois",
+            "9 membres nommés pour 9 ans, non renouvelables"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les mécanismes structurants",
+        "items": [
+          "Le gouvernement est responsable devant l'Assemblée nationale, pas devant le Sénat : seule l'Assemblée peut le renverser par une motion de censure.",
+          "Le président peut dissoudre l'Assemblée nationale ; il ne peut pas dissoudre le Sénat.",
+          "L'article 49 alinéa 3 permet au gouvernement de faire adopter un texte sans vote, sauf si une motion de censure est votée.",
+          "Depuis la révision de 2000, le mandat présidentiel est de 5 ans (quinquennat) et non plus de 7 ans.",
+          "Depuis 2008, un mandat présidentiel n'est renouvelable qu'une fois consécutivement."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre « le président nomme le Premier ministre » et « le président choisit librement le Premier ministre ». Juridiquement il le nomme seul, mais politiquement il doit choisir quelqu'un qui survivra à une motion de censure de l'Assemblée. C'est ce qui produit les cohabitations : quand la majorité parlementaire est opposée au président, le pouvoir réel bascule vers Matignon."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retenez les trois chiffres par ordre croissant de durée de mandat : Assemblée 5 ans (577 députés), président 5 ans, Sénat 6 ans (348 sénateurs), Conseil constitutionnel 9 ans (9 membres). Le « 9-9 » du Conseil constitutionnel est facile à ancrer."
+      },
+      {
+        "type": "quiz",
+        "question": "Le Sénat peut-il renverser le gouvernement ?",
+        "answer": "Non. Seule l'Assemblée nationale peut voter une motion de censure et contraindre le gouvernement à démissionner. Le Sénat vote la loi mais n'engage pas la responsabilité gouvernementale — en contrepartie, il ne peut pas être dissous.",
+        "hint": "Qui est élu au suffrage direct, et donc porteur de la légitimité populaire ?"
+      }
+    ]
+  },
+  {
+    "id": "fr-institutions-parlement",
+    "domain": "culture-generale",
+    "category": "Institutions françaises",
+    "title": "Le Parlement et la fabrique de la loi",
+    "tagline": "Navette, commission mixte paritaire, dernier mot à l'Assemblée : le circuit d'un texte.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "institutions-france",
+      "finances-publiques"
+    ],
+    "related": [
+      "fr-institutions-ve-republique",
+      "eco-budget-etat",
+      "fr-conseil-constitutionnel",
+      "ue-institutions"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Le Parlement français est bicaméral : 577 députés à l'Assemblée nationale, élus pour 5 ans au scrutin majoritaire à deux tours, et 348 sénateurs élus pour 6 ans au suffrage indirect par un collège de grands électeurs. Un texte doit être voté dans les mêmes termes par les deux chambres ; à défaut, l'Assemblée nationale peut avoir le dernier mot si le gouvernement le demande."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le parcours d'une loi",
+        "items": [
+          "Un texte d'origine gouvernementale est un projet de loi ; d'origine parlementaire, une proposition de loi.",
+          "Le texte est d'abord examiné en commission, puis en séance publique.",
+          "La navette parlementaire fait circuler le texte entre les deux chambres jusqu'à un vote identique.",
+          "En cas de désaccord persistant, le gouvernement peut convoquer une commission mixte paritaire (7 députés, 7 sénateurs).",
+          "Si elle échoue, le gouvernement peut donner le dernier mot à l'Assemblée nationale.",
+          "La loi est ensuite promulguée par le président dans les 15 jours."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Pourquoi le Sénat est renouvelé par moitié",
+        "prompt": "Les sénateurs ont un mandat de 6 ans. Pourquoi le Sénat n'est-il jamais entièrement renouvelé d'un coup ?",
+        "reveal": "Le Sénat est renouvelé par moitié tous les 3 ans. Cela lui donne une continuité institutionnelle : contrairement à l'Assemblée, il ne peut pas basculer intégralement lors d'une seule élection, ce qui en fait une chambre de stabilité — d'où son surnom de « chambre haute » ou de chambre de réflexion."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que le Sénat a un pouvoir de blocage absolu. Il n'en a un que sur les révisions constitutionnelles, où l'accord des deux chambres est indispensable. Sur les lois ordinaires, l'Assemblée peut trancher seule si le gouvernement le décide."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Direct = dernier mot. » L'Assemblée est élue au suffrage direct, donc c'est elle qui tranche. Le Sénat, élu indirectement, a un pouvoir de ralentissement, pas de veto — sauf sur la Constitution."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans quel cas précis le Sénat dispose-t-il d'un véritable droit de veto ?",
+        "answer": "Sur les révisions constitutionnelles votées par la voie parlementaire : l'article 89 exige un vote conforme des deux chambres avant le Congrès ou le référendum. L'Assemblée ne peut pas passer outre.",
+        "hint": "Sur quel texte le désaccord ne peut-il pas être tranché par la seule Assemblée ?"
+      }
+    ]
+  },
+  {
+    "id": "fr-president",
+    "domain": "culture-generale",
+    "category": "Institutions françaises",
+    "title": "Le président de la République : pouvoirs et limites",
+    "tagline": "Pouvoirs propres contre pouvoirs partagés : la distinction qui explique tout.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "institutions-france"
+    ],
+    "related": [
+      "fr-institutions-ve-republique",
+      "fr-institutions-parlement",
+      "fr-conseil-constitutionnel"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Le président est élu au suffrage universel direct pour 5 ans, renouvelable une seule fois consécutivement. Ses pouvoirs se divisent en deux catégories : les pouvoirs propres, qu'il exerce seul, et les pouvoirs partagés, qui exigent le contreseing du Premier ministre."
+      },
+      {
+        "type": "table",
+        "title": "Les deux catégories de pouvoirs",
+        "headers": [
+          "Pouvoirs propres (sans contreseing)",
+          "Pouvoirs partagés (avec contreseing)"
+        ],
+        "rows": [
+          [
+            "Nommer le Premier ministre",
+            "Nommer les autres ministres"
+          ],
+          [
+            "Dissoudre l'Assemblée nationale",
+            "Signer les ordonnances et décrets en conseil des ministres"
+          ],
+          [
+            "Saisir le Conseil constitutionnel",
+            "Nommer aux emplois civils et militaires"
+          ],
+          [
+            "Recourir à l'article 16 (pouvoirs exceptionnels)",
+            "Ratifier les traités"
+          ],
+          [
+            "Adresser des messages au Parlement",
+            "Exercer le droit de grâce"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Repères",
+        "items": [
+          "Le président est le chef des armées et négocie les traités.",
+          "La prochaine élection présidentielle a lieu en 2027.",
+          "L'élection se tient au scrutin majoritaire à deux tours ; seuls les deux premiers candidats accèdent au second tour.",
+          "Le président ne peut pas être destitué par le Parlement pour raison politique : seule une procédure de destitution pour « manquement incompatible avec l'exercice de son mandat » existe, devant la Haute Cour."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : penser que le président « gouverne ». La Constitution dit que c'est le gouvernement qui « détermine et conduit la politique de la nation » (article 20). Dans les faits, la présidentialisation vient du fait majoritaire — quand le président a une majorité à l'Assemblée, il dirige de fait. En cohabitation, la lettre du texte reprend ses droits."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour repérer un pouvoir propre : demandez-vous si le contreseing aurait un sens. Le président ne peut pas demander au Premier ministre de contresigner sa propre nomination, ni la dissolution de l'Assemblée qui le soutient. C'est logique, pas à apprendre par cœur."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi la nomination du Premier ministre est-elle un pouvoir propre alors que celle des ministres ne l'est pas ?",
+        "answer": "Parce qu'au moment où le président nomme le Premier ministre, il n'y a précisément pas de Premier ministre en fonction pour contresigner. Les ministres, eux, sont nommés « sur proposition du Premier ministre », donc avec son contreseing.",
+        "hint": "Qui contresignerait, et à quel moment ?"
+      }
+    ]
+  },
+  {
+    "id": "fr-conseil-constitutionnel",
+    "domain": "culture-generale",
+    "category": "Institutions françaises",
+    "title": "Conseil constitutionnel, Conseil d'État, Cour de cassation",
+    "tagline": "Trois juridictions suprêmes qu'on confond systématiquement.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "institutions-france"
+    ],
+    "related": [
+      "fr-institutions-ve-republique",
+      "fr-institutions-parlement",
+      "ue-institutions"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Ne pas confondre",
+        "headers": [
+          "Juridiction",
+          "Contrôle quoi",
+          "Composition"
+        ],
+        "rows": [
+          [
+            "Conseil constitutionnel",
+            "la conformité des lois à la Constitution",
+            "9 membres nommés pour 9 ans (3 par le président, 3 par le président de l'Assemblée, 3 par celui du Sénat)"
+          ],
+          [
+            "Conseil d'État",
+            "les actes de l'administration ; conseille le gouvernement sur les projets de loi",
+            "magistrats administratifs"
+          ],
+          [
+            "Cour de cassation",
+            "la bonne application du droit par les juridictions judiciaires (civil, pénal)",
+            "magistrats judiciaires"
+          ],
+          [
+            "Cour des comptes",
+            "la régularité des comptes publics",
+            "magistrats financiers"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La France a deux ordres de juridiction : l'ordre judiciaire, couronné par la Cour de cassation, qui juge les litiges entre particuliers et les infractions pénales ; et l'ordre administratif, couronné par le Conseil d'État, qui juge les litiges entre les citoyens et l'administration. Le Conseil constitutionnel n'appartient à aucun des deux : il juge les lois, pas les affaires."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Points souvent testés",
+        "items": [
+          "Les anciens présidents de la République sont membres de droit à vie du Conseil constitutionnel.",
+          "Depuis 2010, la question prioritaire de constitutionnalité (QPC) permet à tout justiciable de contester une loi déjà en vigueur.",
+          "Avant 2010, le contrôle n'était possible qu'avant la promulgation de la loi.",
+          "Le Conseil constitutionnel valide aussi les élections nationales et les référendums.",
+          "La Cour de cassation ne rejuge pas les faits : elle vérifie l'application du droit, puis renvoie éventuellement devant une autre cour d'appel."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dire que la Cour de cassation est une « troisième instance ». Elle ne rejuge jamais les faits. Elle casse ou rejette. C'est pourquoi on parle de pourvoi en cassation et non d'appel."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Constitution → Conseil constitutionnel. Administration → Conseil d'État. Cassation → les juges ordinaires. Comptes → Cour des comptes. » Le mot-clé de chaque nom donne la compétence."
+      },
+      {
+        "type": "quiz",
+        "question": "Qu'a changé la QPC introduite en 2010 ?",
+        "answer": "Elle a rendu possible le contrôle de constitutionnalité d'une loi DÉJÀ promulguée, à l'initiative d'un justiciable au cours d'un procès. Auparavant, le contrôle était uniquement a priori, avant la promulgation, et réservé à des autorités politiques.",
+        "hint": "Avant ou après la promulgation ?"
+      }
+    ]
+  },
+  {
+    "id": "fr-collectivites",
+    "domain": "culture-generale",
+    "category": "Institutions françaises",
+    "title": "Les collectivités territoriales",
+    "tagline": "Commune, département, région : qui gère quoi, et avec quel argent.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "institutions-france",
+      "finances-publiques"
+    ],
+    "related": [
+      "fr-institutions-ve-republique",
+      "eco-budget-etat",
+      "fr-institutions-parlement"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois niveaux",
+        "headers": [
+          "Niveau",
+          "Assemblée élue",
+          "Compétences emblématiques"
+        ],
+        "rows": [
+          [
+            "Commune",
+            "conseil municipal, dirigé par le maire",
+            "écoles primaires, urbanisme, état civil, voirie communale"
+          ],
+          [
+            "Département",
+            "conseil départemental",
+            "collèges, action sociale (RSA, aide à l'enfance), routes départementales"
+          ],
+          [
+            "Région",
+            "conseil régional",
+            "lycées, formation professionnelle, transports régionaux, développement économique"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "La France est un État unitaire décentralisé : les collectivités s'administrent librement mais ne disposent d'aucun pouvoir législatif propre — à la différence des Länder allemands ou des communautés autonomes espagnoles, qui relèvent d'États fédéraux ou régionalisés. La décentralisation a été engagée par les lois Defferre de 1982."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Repères utiles",
+        "items": [
+          "La France compte environ 35 000 communes, un record en Europe.",
+          "Depuis 2016, la France métropolitaine compte 13 régions au lieu de 22.",
+          "Les intercommunalités (communautés de communes, métropoles) regroupent des compétences communales.",
+          "Les collectivités sont financées par des impôts locaux, des dotations de l'État et des emprunts.",
+          "L'article 72 de la Constitution garantit leur libre administration."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre décentralisation et déconcentration. La décentralisation transfère des compétences à des élus locaux autonomes. La déconcentration délègue des pouvoirs à des représentants de l'État sur le terrain — le préfet — qui restent sous autorité hiérarchique du gouvernement."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "L'école suit l'âge et le niveau : école primaire → commune, collège → département, lycée → région. Les trois compétences les plus souvent demandées se retiennent en une seule phrase."
+      },
+      {
+        "type": "quiz",
+        "question": "Le préfet relève-t-il de la décentralisation ou de la déconcentration ?",
+        "answer": "De la déconcentration. Le préfet n'est pas élu : il est nommé par le gouvernement et représente l'État dans le département ou la région. Il incarne l'autorité étatique sur le terrain, pas l'autonomie locale.",
+        "hint": "Est-il élu par les habitants ?"
+      }
+    ]
+  },
+  {
+    "id": "ue-institutions",
+    "domain": "culture-generale",
+    "category": "Union européenne",
+    "title": "Les institutions de l'Union européenne",
+    "tagline": "Commission, Conseil, Parlement : le triangle institutionnel et ses pièges de nommage.",
+    "level": "fondamental",
+    "readMinutes": 5,
+    "tags": [
+      "institutions-europeennes",
+      "organisations-internationales"
+    ],
+    "related": [
+      "ue-marche-interieur",
+      "ue-zone-euro",
+      "ue-histoire",
+      "eco-politique-monetaire"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'Union européenne compte 27 États membres. Son fonctionnement repose sur un triangle : la Commission propose, le Conseil de l'Union européenne et le Parlement européen décident conjointement. Le Conseil européen, lui, fixe les grandes orientations politiques — il ne légifère pas."
+      },
+      {
+        "type": "table",
+        "title": "Qui fait quoi",
+        "headers": [
+          "Institution",
+          "Composition",
+          "Rôle"
+        ],
+        "rows": [
+          [
+            "Commission européenne",
+            "un commissaire par État membre",
+            "monopole de l'initiative législative, gardienne des traités"
+          ],
+          [
+            "Conseil de l'UE (Conseil des ministres)",
+            "les ministres compétents des 27 États",
+            "co-législateur avec le Parlement"
+          ],
+          [
+            "Parlement européen",
+            "720 députés élus au suffrage direct (mandature 2024-2029)",
+            "co-législateur, vote le budget, investit la Commission"
+          ],
+          [
+            "Conseil européen",
+            "les 27 chefs d'État ou de gouvernement",
+            "définit les orientations politiques générales"
+          ],
+          [
+            "Banque centrale européenne",
+            "indépendante, siège à Francfort",
+            "politique monétaire de la zone euro"
+          ],
+          [
+            "Cour de justice de l'UE",
+            "un juge par État membre, siège à Luxembourg",
+            "interprète le droit de l'Union"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Repères datés (septembre 2026)",
+        "items": [
+          "Présidence du Conseil européen : António Costa, depuis le 1er décembre 2024.",
+          "Présidence de la Commission : Ursula von der Leyen, en fonction depuis 2019, mandat en cours 2024-2029.",
+          "Présidence du Parlement européen : Roberta Metsola, depuis janvier 2022, réélue en 2024.",
+          "Présidence de la BCE : Christine Lagarde, depuis le 1er novembre 2019, pour un mandat de 8 ans non renouvelable.",
+          "Le Parlement européen siège à Strasbourg pour ses sessions plénières et à Bruxelles pour ses commissions."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique, et il est fréquent aux concours : trois organes portent un nom voisin. Le Conseil de l'Union européenne réunit les ministres et légifère. Le Conseil européen réunit les chefs d'État et donne le cap. Le Conseil de l'Europe n'a rien à voir avec l'UE : c'est une organisation distincte de 46 États, siégeant à Strasbourg, dont relève la Cour européenne des droits de l'homme."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« La Commission propose, le Parlement et le Conseil disposent, la Cour contrôle. » Et pour les trois Conseils : ministres = Conseil DE l'UE, chefs d'État = Conseil européen, droits de l'homme = Conseil DE L'EUROPE (hors UE)."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle institution détient le monopole de l'initiative législative dans l'UE ?",
+        "answer": "La Commission européenne. Ni le Parlement ni le Conseil ne peuvent déposer un texte de leur propre chef : ils peuvent seulement inviter la Commission à le faire. Ce monopole est une singularité de l'UE par rapport aux systèmes parlementaires nationaux.",
+        "hint": "Qui est « gardienne des traités » ?"
+      }
+    ]
+  },
+  {
+    "id": "ue-marche-interieur",
+    "domain": "culture-generale",
+    "category": "Union européenne",
+    "title": "Le marché intérieur et les quatre libertés",
+    "tagline": "Marchandises, services, capitaux, personnes : le cœur économique de l'UE.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "institutions-europeennes",
+      "commerce-international",
+      "marche",
+      "economie"
+    ],
+    "related": [
+      "ue-institutions",
+      "ue-zone-euro",
+      "eco-concurrence",
+      "eco-mondialisation"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les quatre libertés de circulation",
+        "items": [
+          "Libre circulation des MARCHANDISES : union douanière, tarif extérieur commun, aucune barrière interne.",
+          "Libre circulation des SERVICES : une entreprise peut prester dans tout autre État membre.",
+          "Libre circulation des CAPITAUX : investissements et mouvements financiers sans entrave.",
+          "Libre circulation des PERSONNES : droit de résider et de travailler dans tout État membre."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le marché unique est né de l'Acte unique européen de 1986, entré pleinement en vigueur le 1er janvier 1993. Il repose sur deux piliers : la suppression des barrières internes et une politique de concurrence commune qui empêche les États et les entreprises de reconstituer ces barrières par des aides d'État ou des ententes. L'UE négocie sa politique commerciale extérieure d'un seul bloc : aucun État membre n'a de politique douanière propre."
+      },
+      {
+        "type": "table",
+        "title": "Trois périmètres à ne pas confondre",
+        "headers": [
+          "Périmètre",
+          "Nombre",
+          "Nature"
+        ],
+        "rows": [
+          [
+            "Union européenne",
+            "27 États",
+            "union politique et économique"
+          ],
+          [
+            "Zone euro",
+            "21 États depuis le 1er janvier 2026",
+            "monnaie unique"
+          ],
+          [
+            "Espace Schengen",
+            "29 pays, dont 4 hors UE (Suisse, Norvège, Islande, Liechtenstein)",
+            "suppression des contrôles aux frontières intérieures"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que l'UE, la zone euro et Schengen se superposent. Ils ne coïncident pas du tout. L'Irlande est dans l'UE et dans la zone euro mais pas dans Schengen. La Suisse est dans Schengen sans être dans l'UE. La Bulgarie et la Roumanie ont vu leurs contrôles aux frontières terrestres levés le 1er janvier 2025."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les quatre libertés se retiennent par « M-S-C-P » : Marchandises, Services, Capitaux, Personnes. Et pour les trois cercles : 27 (UE) > 21 (euro), Schengen (29) déborde de l'UE."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien d'États utilisent l'euro, et depuis quand le dernier entrant ?",
+        "answer": "21 États, depuis l'entrée de la Bulgarie le 1er janvier 2026. C'est un chiffre qui évolue : toujours le dater. Les autres États membres de l'UE ont soit une dérogation, soit ne remplissent pas encore les critères de convergence.",
+        "hint": "Un pays a rejoint la zone euro au tout début de l'année 2026."
+      }
+    ]
+  },
+  {
+    "id": "ue-zone-euro",
+    "domain": "culture-generale",
+    "category": "Union européenne",
+    "title": "La zone euro et les critères de convergence",
+    "tagline": "Une monnaie unique sans budget commun : la tension originelle de l'euro.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "institutions-europeennes",
+      "politique-monetaire",
+      "economie",
+      "inflation"
+    ],
+    "related": [
+      "ue-marche-interieur",
+      "eco-politique-monetaire",
+      "eco-dette-deficit",
+      "ue-institutions"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'euro est né le 1er janvier 1999 comme monnaie scripturale et le 1er janvier 2002 sous forme de pièces et de billets. La zone euro compte 21 États depuis l'entrée de la Bulgarie le 1er janvier 2026. La politique monétaire est unique, confiée à la Banque centrale européenne ; les politiques budgétaires restent nationales, simplement encadrées par des règles communes."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les critères de convergence (traité de Maastricht, 1992)",
+        "items": [
+          "Déficit public inférieur à 3 % du PIB.",
+          "Dette publique inférieure à 60 % du PIB, ou en décroissance suffisante vers ce seuil.",
+          "Inflation ne dépassant pas de plus de 1,5 point celle des trois États les plus performants.",
+          "Taux d'intérêt à long terme proches de ceux des meilleurs élèves.",
+          "Stabilité du taux de change pendant au moins deux ans."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Pourquoi une monnaie unique contraint les États",
+        "prompt": "Un pays de la zone euro subit une récession pendant que ses voisins sont en croissance. Quels leviers a-t-il perdus ?",
+        "reveal": "Il ne peut plus dévaluer sa monnaie pour regagner en compétitivité, ni baisser ses taux d'intérêt : ces deux outils appartiennent désormais à la BCE, qui fixe une politique unique pour 21 économies. Il lui reste la politique budgétaire — elle-même limitée par les règles de déficit — et les « dévaluations internes » (modération salariale, réformes). C'est le cœur du débat sur la zone monétaire optimale."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre l'objectif de la BCE et celui de la Réserve fédérale américaine. La BCE a un mandat principal unique — la stabilité des prix, visée autour de 2 % d'inflation à moyen terme. La Fed a un double mandat : stabilité des prix ET plein emploi. Cette différence explique des réactions différentes aux mêmes chocs."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« 3 et 60 » : 3 % de déficit, 60 % de dette. Ces deux nombres de Maastricht sont les plus demandés de toute la culture économique européenne."
+      },
+      {
+        "type": "quiz",
+        "question": "La BCE et la Fed ont-elles le même mandat ?",
+        "answer": "Non. La BCE poursuit à titre principal la stabilité des prix (environ 2 % d'inflation à moyen terme). La Réserve fédérale américaine a un double mandat : stabilité des prix et plein emploi. La BCE peut soutenir les politiques économiques générales de l'Union, mais seulement sans préjudice de son objectif de prix.",
+        "hint": "L'une a un objectif, l'autre en a deux."
+      }
+    ]
+  },
+  {
+    "id": "ue-histoire",
+    "domain": "culture-generale",
+    "category": "Union européenne",
+    "title": "La construction européenne : les grandes dates",
+    "tagline": "De la CECA au Brexit, sept jalons qui reviennent à chaque concours.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "institutions-europeennes",
+      "histoire-xxe",
+      "histoire-xxi"
+    ],
+    "related": [
+      "ue-institutions",
+      "ue-marche-interieur",
+      "ue-zone-euro",
+      "monde-guerre-froide"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les jalons",
+        "headers": [
+          "Date",
+          "Événement",
+          "Portée"
+        ],
+        "rows": [
+          [
+            "9 mai 1950",
+            "déclaration Schuman",
+            "acte fondateur, célébré comme la journée de l'Europe"
+          ],
+          [
+            "1951",
+            "traité de Paris, CECA",
+            "communauté du charbon et de l'acier, 6 pays fondateurs"
+          ],
+          [
+            "1957",
+            "traité de Rome, CEE",
+            "marché commun"
+          ],
+          [
+            "1986",
+            "Acte unique européen",
+            "lance le marché unique, effectif au 1er janvier 1993"
+          ],
+          [
+            "1992",
+            "traité de Maastricht",
+            "crée l'Union européenne et prépare l'euro"
+          ],
+          [
+            "2002",
+            "mise en circulation des pièces et billets",
+            "l'euro devient tangible"
+          ],
+          [
+            "2004",
+            "élargissement à 10 pays",
+            "principalement l'Europe centrale et orientale"
+          ],
+          [
+            "2009",
+            "traité de Lisbonne",
+            "réforme institutionnelle après l'échec du traité constitutionnel"
+          ],
+          [
+            "2020",
+            "Brexit",
+            "sortie effective du Royaume-Uni, l'UE passe de 28 à 27"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les six pays fondateurs",
+        "items": [
+          "Allemagne (RFA à l'époque)",
+          "Belgique",
+          "France",
+          "Italie",
+          "Luxembourg",
+          "Pays-Bas"
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La logique fondatrice est celle de Jean Monnet et Robert Schuman : placer sous une autorité commune le charbon et l'acier, c'est-à-dire les ressources de l'industrie de guerre, pour rendre un conflit franco-allemand matériellement impossible. L'intégration économique était le moyen ; la paix était la fin. Cette méthode des « petits pas » — l'engrenage fonctionnaliste — a ensuite structuré toute la construction."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dater l'UE de 1957. Le traité de Rome crée la Communauté économique européenne ; c'est le traité de Maastricht, en 1992, qui crée l'Union européenne au sens propre et institue la citoyenneté européenne. Autre confusion fréquente : le référendum français de 2005 a rejeté le traité établissant une Constitution pour l'Europe, dont une partie du contenu a été reprise dans le traité de Lisbonne."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retenez trois « traités-villes » dans l'ordre alphabétique inverse de leur portée : Rome 1957 (marché), Maastricht 1992 (Union + euro), Lisbonne 2009 (institutions). Et 1950 = Schuman = la date fondatrice symbolique."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel traité crée l'Union européenne, et en quelle année ?",
+        "answer": "Le traité de Maastricht, signé en 1992 et entré en vigueur en 1993. Il institue l'Union européenne, la citoyenneté européenne et fixe les critères de convergence préparant la monnaie unique. Avant lui, on parlait de Communauté économique européenne.",
+        "hint": "Le même traité fixe les seuils de 3 % et 60 %."
+      }
+    ]
+  },
+  {
+    "id": "monde-organisations-internationales",
+    "domain": "culture-generale",
+    "category": "Organisations internationales",
+    "title": "L'ONU et le système onusien",
+    "tagline": "193 États, 15 membres au Conseil de sécurité, 5 vetos : la carte d'identité de l'ONU.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "organisations-internationales",
+      "geopolitique",
+      "histoire-xxe"
+    ],
+    "related": [
+      "monde-institutions-economiques",
+      "monde-geopolitique-puissances",
+      "monde-guerre-froide",
+      "ue-institutions"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'Organisation des Nations unies est fondée en 1945 par la charte de San Francisco, au lendemain de la Seconde Guerre mondiale, en remplacement de la Société des Nations. Elle compte 193 États membres, plus deux observateurs permanents non membres : le Saint-Siège et la Palestine. Son siège est à New York."
+      },
+      {
+        "type": "table",
+        "title": "Les organes principaux",
+        "headers": [
+          "Organe",
+          "Composition",
+          "Pouvoir"
+        ],
+        "rows": [
+          [
+            "Assemblée générale",
+            "193 États, un État une voix",
+            "résolutions non contraignantes"
+          ],
+          [
+            "Conseil de sécurité",
+            "15 membres : 5 permanents + 10 élus pour 2 ans",
+            "résolutions contraignantes, autorise le recours à la force"
+          ],
+          [
+            "Secrétariat",
+            "dirigé par le secrétaire général",
+            "administration, bons offices"
+          ],
+          [
+            "Cour internationale de justice",
+            "siège à La Haye",
+            "règle les différends entre États"
+          ],
+          [
+            "Conseil économique et social",
+            "54 membres",
+            "coordonne les agences spécialisées"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les cinq membres permanents (P5)",
+        "items": [
+          "Chine",
+          "États-Unis",
+          "France",
+          "Royaume-Uni",
+          "Russie (qui a succédé à l'URSS en 1991)"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre Assemblée générale et Conseil de sécurité. Seul le Conseil de sécurité adopte des résolutions juridiquement contraignantes, et un seul veto d'un membre permanent suffit à bloquer un texte. L'Assemblée générale, malgré ses 193 voix, ne produit que des recommandations. Autre confusion : la Cour internationale de justice (différends entre États, La Haye) n'est pas la Cour pénale internationale (individus, également à La Haye) ni la Cour européenne des droits de l'homme (Strasbourg, Conseil de l'Europe)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les cinq vetos sont les vainqueurs de 1945 : « CEFRU » — Chine, États-Unis, France, Royaume-Uni, URSS devenue Russie. Cette composition, figée depuis 80 ans, est précisément l'argument central des partisans d'une réforme du Conseil."
+      },
+      {
+        "type": "quiz",
+        "question": "Une résolution votée à l'unanimité par l'Assemblée générale s'impose-t-elle aux États ?",
+        "answer": "Non. Les résolutions de l'Assemblée générale sont des recommandations, quelle que soit la majorité obtenue. Seules les résolutions du Conseil de sécurité prises au titre du chapitre VII de la Charte ont une force contraignante.",
+        "hint": "Quel organe peut autoriser le recours à la force ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-institutions-economiques",
+    "domain": "culture-generale",
+    "category": "Organisations internationales",
+    "title": "FMI, Banque mondiale, OMC, OCDE",
+    "tagline": "Quatre institutions économiques mondiales, quatre missions radicalement différentes.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "organisations-internationales",
+      "commerce-international",
+      "economie",
+      "histoire-economique"
+    ],
+    "related": [
+      "monde-organisations-internationales",
+      "eco-commerce-international",
+      "eco-mondialisation",
+      "monde-geopolitique-puissances"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre à ne jamais confondre",
+        "headers": [
+          "Institution",
+          "Mission",
+          "Siège",
+          "Créée en"
+        ],
+        "rows": [
+          [
+            "FMI (Fonds monétaire international)",
+            "stabilité monétaire et financière, prêts d'urgence aux États en crise",
+            "Washington",
+            "1944"
+          ],
+          [
+            "Banque mondiale",
+            "financement du développement à long terme",
+            "Washington",
+            "1944"
+          ],
+          [
+            "OMC (Organisation mondiale du commerce)",
+            "règles du commerce multilatéral, règlement des différends",
+            "Genève",
+            "1995"
+          ],
+          [
+            "OCDE",
+            "analyse, comparaison et recommandations de politiques publiques entre pays développés",
+            "Paris",
+            "1961"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le FMI et la Banque mondiale sont issus des accords de Bretton Woods, en juillet 1944. Ce sont les « institutions jumelles », mais leurs horizons diffèrent : le FMI intervient à court terme sur les déséquilibres de balance des paiements, la Banque mondiale finance des projets de développement à long terme. L'OMC succède en 1995 au GATT, signé en 1947, qui n'était qu'un accord et non une organisation."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Chiffres et repères vérifiés",
+        "items": [
+          "L'OCDE compte 38 États membres ; le dernier entré est le Costa Rica, en 2021.",
+          "L'OCDE est souvent appelée « club des pays développés », mais elle inclut aussi des économies émergentes comme le Mexique, la Turquie, le Chili ou la Colombie.",
+          "Au FMI, les droits de vote sont pondérés par les quotes-parts, donc par le poids économique : ce n'est pas « un État, une voix ».",
+          "L'OMC fonctionne au consensus, ce qui explique le blocage des grands cycles de négociation.",
+          "Le G20 réunit 19 pays, l'Union européenne et, depuis septembre 2023, l'Union africaine."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : attribuer au FMI le financement du développement. Le FMI prête à des États en difficulté de paiement, sous conditions ; c'est la Banque mondiale qui finance les infrastructures et les programmes de développement. Autre piège : reprendre un effectif d'organisation vu dans un manuel ancien. L'OCDE est passée à 38 membres, et une source secondaire l'annonce encore parfois à 36."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Le FMI éteint l'incendie, la Banque mondiale reconstruit la maison, l'OMC écrit les règles du marché, l'OCDE note les copies. » Quatre verbes, quatre missions."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle différence entre le GATT et l'OMC ?",
+        "answer": "Le GATT, signé en 1947, était un accord commercial sans personnalité juridique propre. L'OMC, créée en 1995 à l'issue du cycle d'Uruguay, est une véritable organisation internationale, dotée d'un organe de règlement des différends capable d'autoriser des sanctions commerciales.",
+        "hint": "L'un est un accord, l'autre une organisation."
+      }
+    ]
+  },
+  {
+    "id": "monde-geopolitique-puissances",
+    "domain": "culture-generale",
+    "category": "Géopolitique",
+    "title": "G7, G20, BRICS+, OTAN : les groupes de puissances",
+    "tagline": "Les effectifs exacts en 2026 — et les quatre pièges de comptage les plus fréquents.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "geopolitique",
+      "organisations-internationales",
+      "histoire-xxi"
+    ],
+    "related": [
+      "monde-organisations-internationales",
+      "monde-institutions-economiques",
+      "eco-mondialisation",
+      "monde-guerre-froide"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Effectifs vérifiés en septembre 2026",
+        "headers": [
+          "Groupe",
+          "Effectif",
+          "Précision décisive"
+        ],
+        "rows": [
+          [
+            "G7",
+            "7 pays",
+            "Allemagne, Canada, États-Unis, France, Italie, Japon, Royaume-Uni — l'UE participe sans être membre à part entière"
+          ],
+          [
+            "G20",
+            "19 pays + 2 organisations",
+            "l'Union européenne, et l'Union africaine depuis septembre 2023"
+          ],
+          [
+            "OTAN",
+            "32 pays",
+            "Finlande 31e en 2023, Suède 32e le 7 mars 2024"
+          ],
+          [
+            "BRICS+",
+            "10 membres de plein droit",
+            "les 5 fondateurs, plus Iran, Égypte, Émirats arabes unis, Éthiopie (2024) et Indonésie (2025)"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les quatre pièges de comptage",
+        "items": [
+          "Le G20 n'a PAS 20 pays membres : 19 pays plus deux organisations régionales.",
+          "L'OTAN est à 32, pas à 30 : il faut compter la Finlande et la Suède.",
+          "Les BRICS ne sont plus cinq : parler de « BRICS » pour cinq pays est périmé depuis 2024.",
+          "L'Arabie saoudite reste en suspens dans les BRICS+ et l'Argentine a décliné son invitation : toujours dater l'effectif."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces groupes n'ont pas la même nature juridique. Le G7 et le G20 sont des forums informels, sans traité ni secrétariat permanent : leurs communiqués n'engagent personne juridiquement. L'OTAN est une alliance militaire fondée sur un traité, celui de Washington de 1949, dont l'article 5 prévoit la défense collective. Les BRICS+ sont un regroupement diplomatique d'économies émergentes, sans traité fondateur ni clause de défense."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Poids des BRICS+ en 2026",
+        "items": [
+          "Environ 47,6 % de la population mondiale.",
+          "Environ 42,4 % du PIB mondial en parité de pouvoir d'achat.",
+          "Un statut de « pays partenaires » a été créé, réunissant 9 États supplémentaires.",
+          "Les cinq fondateurs sont le Brésil, la Russie, l'Inde, la Chine et l'Afrique du Sud — cette dernière ayant rejoint en 2010, d'où le « S » de BRICS."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'une décision du G20 s'impose. Aucun de ces forums ne produit de droit contraignant. Seule l'OTAN repose sur un engagement juridique, et son article 5 n'a été invoqué qu'une seule fois dans l'histoire : après les attentats du 11 septembre 2001."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour le G20, comptez « 19 + 2 ». Pour l'OTAN, ancrez la date : 7 mars 2024 = Suède = 32. Si un QCM propose « 30 » pour l'OTAN ou « 5 » pour les BRICS, l'énoncé vient d'un manuel d'avant 2023."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi dit-on que le G20 compte 21 membres alors qu'il s'appelle G20 ?",
+        "answer": "Parce qu'aux 19 pays et à l'Union européenne s'est ajoutée l'Union africaine, admise au sommet de New Delhi en septembre 2023. C'est la première organisation régionale à y obtenir un statut égal à celui d'un État membre. Le nom, lui, n'a pas changé.",
+        "hint": "Une organisation régionale a été admise en 2023."
+      }
+    ]
+  },
+  {
+    "id": "monde-guerre-froide",
+    "domain": "culture-generale",
+    "category": "Histoire du XXe siècle",
+    "title": "La guerre froide : les jalons indispensables",
+    "tagline": "1945-1991 : quarante-six ans d'affrontement bipolaire en huit dates.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "histoire-xxe",
+      "geopolitique",
+      "organisations-internationales"
+    ],
+    "related": [
+      "monde-organisations-internationales",
+      "monde-geopolitique-puissances",
+      "ue-histoire",
+      "monde-decolonisation"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les jalons",
+        "headers": [
+          "Date",
+          "Événement"
+        ],
+        "rows": [
+          [
+            "1945",
+            "conférences de Yalta et Potsdam, fin de la Seconde Guerre mondiale, création de l'ONU"
+          ],
+          [
+            "1947",
+            "doctrine Truman et plan Marshall ; début officieux de la guerre froide"
+          ],
+          [
+            "1948-1949",
+            "blocus de Berlin et pont aérien ; création de l'OTAN en 1949"
+          ],
+          [
+            "1955",
+            "pacte de Varsovie, réplique du bloc soviétique"
+          ],
+          [
+            "1961",
+            "construction du mur de Berlin"
+          ],
+          [
+            "1962",
+            "crise des missiles de Cuba, sommet de la tension nucléaire"
+          ],
+          [
+            "1989",
+            "chute du mur de Berlin, effondrement des régimes d'Europe de l'Est"
+          ],
+          [
+            "1991",
+            "dissolution de l'URSS ; la Russie succède à son siège au Conseil de sécurité"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La guerre froide oppose deux blocs — l'Ouest mené par les États-Unis, l'Est par l'URSS — sans affrontement militaire direct entre eux, d'où le terme de « froide ». L'équilibre de la terreur nucléaire, la dissuasion mutuelle, rend une guerre totale trop coûteuse pour les deux camps ; le conflit se déporte donc sur des théâtres périphériques : Corée, Vietnam, Afghanistan, Amérique latine, Afrique."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les notions à maîtriser",
+        "items": [
+          "Bipolarité : le monde structuré autour de deux superpuissances.",
+          "Rideau de fer : expression popularisée par Winston Churchill en 1946.",
+          "Détente : la période de relative accalmie des années 1960-1970.",
+          "Non-alignement : le refus des deux blocs, formalisé à la conférence de Bandung en 1955.",
+          "Course aux armements et course à l'espace comme substituts à l'affrontement direct."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre la chute du mur de Berlin (9 novembre 1989) avec la réunification allemande (3 octobre 1990) et la dissolution de l'URSS (décembre 1991). Trois événements, trois années différentes. Autre piège : l'OTAN (1949) précède le pacte de Varsovie (1955), et non l'inverse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retenez la séquence finale par années consécutives : 1989 le mur, 1990 l'Allemagne, 1991 l'URSS. Trois ans, trois effondrements, dans l'ordre du plus symbolique au plus structurel."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi parle-t-on de guerre « froide » ?",
+        "answer": "Parce que les deux superpuissances ne se sont jamais affrontées militairement de façon directe. La dissuasion nucléaire rendait le coût d'une guerre totale inacceptable pour les deux camps. L'affrontement a donc pris des formes indirectes : guerres par procuration, propagande, espionnage, compétition technologique et spatiale.",
+        "hint": "Que rendait impossible l'arme nucléaire ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-decolonisation",
+    "domain": "culture-generale",
+    "category": "Histoire du XXe siècle",
+    "title": "Décolonisation et émergence du Sud",
+    "tagline": "De 51 à 193 États membres de l'ONU : la recomposition du monde après 1945.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "histoire-xxe",
+      "geopolitique",
+      "organisations-internationales"
+    ],
+    "related": [
+      "monde-guerre-froide",
+      "monde-organisations-internationales",
+      "monde-geopolitique-puissances",
+      "eco-mondialisation"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'ONU comptait 51 États membres à sa fondation en 1945 ; elle en compte 193 aujourd'hui. Cet écart raconte l'essentiel : la décolonisation a multiplié par près de quatre le nombre d'États souverains, principalement en Asie puis en Afrique, entre 1945 et 1975."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les repères chronologiques",
+        "items": [
+          "1947 : indépendance de l'Inde et du Pakistan, premier grand basculement.",
+          "1954 : défaite française à Diên Biên Phu, fin de l'Indochine française.",
+          "1955 : conférence de Bandung, acte de naissance politique du tiers-monde.",
+          "1960 : « année de l'Afrique », dix-sept pays africains accèdent à l'indépendance.",
+          "1962 : indépendance de l'Algérie après huit ans de guerre.",
+          "1961 : fondation du Mouvement des non-alignés à Belgrade."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le terme « tiers-monde » a été forgé en 1952 par le démographe Alfred Sauvy, par analogie avec le tiers état de 1789 : un ensemble ignoré qui revendique d'exister. Il désignait les pays refusant l'alignement sur l'un des deux blocs. Le terme a vieilli parce que ce groupe s'est différencié : les pays émergents, les pays exportateurs de pétrole et les pays les moins avancés n'ont plus de trajectoire commune. On parle aujourd'hui de « Sud global », notion elle-même discutée."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : traiter le tiers-monde comme un bloc économique homogène. Dès les années 1970, la Corée du Sud, le Brésil et le Nigeria suivent des trajectoires totalement divergentes. La montée des BRICS+ au XXIe siècle est l'aboutissement de cette différenciation, pas sa contradiction."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux dates suffisent à structurer la période : 1955 Bandung (la parole politique du Sud) et 1960 l'année de l'Afrique (la souveraineté effective). Le reste s'y rattache."
+      },
+      {
+        "type": "quiz",
+        "question": "Qui a forgé le terme « tiers-monde », et par analogie avec quoi ?",
+        "answer": "Alfred Sauvy, en 1952, par analogie avec le tiers état de la France de 1789 : un ensemble nombreux, ignoré des puissants, et qui réclame d'être compté. L'expression désignait les pays refusant l'alignement sur l'un des deux blocs de la guerre froide.",
+        "hint": "Un démographe français, une analogie avec 1789."
+      }
+    ]
+  },
+  {
+    "id": "monde-conflits-contemporains",
+    "domain": "culture-generale",
+    "category": "Géopolitique",
+    "title": "Lire une crise géopolitique : la grille d'analyse",
+    "tagline": "Acteurs, enjeux, ressources, alliances : une méthode plutôt qu'une liste d'actualités.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "geopolitique",
+      "histoire-xxi",
+      "energie",
+      "organisations-internationales"
+    ],
+    "related": [
+      "monde-geopolitique-puissances",
+      "monde-energie",
+      "monde-organisations-internationales",
+      "meth-culture-actualite"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Une épreuve de culture générale ne teste presque jamais le détail d'une actualité — il serait périmé avant la correction. Elle teste votre capacité à situer une crise : qui s'affronte, pour quoi, avec quels soutiens, et quelles institutions sont compétentes. Apprenez la grille, pas le fil d'actualité."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les cinq questions à poser à toute crise",
+        "items": [
+          "ACTEURS : États, groupes armés non étatiques, organisations internationales, entreprises.",
+          "ENJEU : territoire, ressources, accès maritime, identité, régime politique, influence.",
+          "RESSOURCES : hydrocarbures, minerais critiques, eau, terres arables, routes commerciales.",
+          "ALLIANCES : qui soutient qui, et au nom de quel intérêt propre.",
+          "CADRE JURIDIQUE : quelle organisation est compétente, et que peut-elle réellement faire."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Appliquer la grille",
+        "prompt": "Un conflit éclate autour d'un détroit maritime stratégique. Que faut-il regarder en priorité ?",
+        "reveal": "Le volume et la nature du trafic qui y transite (pétrole, conteneurs, gaz), les États riverains et leurs revendications de souveraineté, l'existence ou non d'une route de contournement — et son coût supplémentaire en jours et en carburant. Un détroit n'a de valeur stratégique que parce qu'il n'a pas de substitut économique acceptable. C'est ce raisonnement, et non le nom du détroit, qui est évalué."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Notions structurantes à maîtriser",
+        "items": [
+          "Multipolarité : plusieurs pôles de puissance, contre la bipolarité de la guerre froide.",
+          "Soft power : influence par la culture, les valeurs, l'attractivité — notion de Joseph Nye.",
+          "Hard power : contrainte par la force militaire ou économique.",
+          "Souveraineté et intégrité territoriale : principes fondateurs de la Charte des Nations unies.",
+          "Sanctions économiques : instrument intermédiaire entre la diplomatie et la force."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : mémoriser des chiffres d'actualité (nombre de victimes, dernier sommet, dernière sanction). Ces données changent, et une réponse datée devient fausse. Ce qui ne change pas : la géographie, les institutions compétentes et les mécanismes d'alliance."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retenez « A-E-R-A-C » : Acteurs, Enjeu, Ressources, Alliances, Cadre. Cinq questions applicables à n'importe quelle crise, y compris une que vous découvrez le jour de l'épreuve."
+      },
+      {
+        "type": "quiz",
+        "question": "Qu'est-ce que le soft power, et qui a forgé la notion ?",
+        "answer": "Le pouvoir d'obtenir ce que l'on veut par l'attraction plutôt que par la contrainte ou le paiement : culture, valeurs politiques, diplomatie. La notion a été forgée par le politologue américain Joseph Nye à la fin des années 1980.",
+        "hint": "L'opposé du hard power, chez un politologue américain."
+      }
+    ]
+  },
+  {
+    "id": "monde-entreprises-france",
+    "domain": "culture-generale",
+    "category": "Entreprises et marques",
+    "title": "Les grands groupes français : dates et métiers",
+    "tagline": "Ce qui ne change pas — créations, fusions, activités — plutôt que des classements périmés.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "luxe",
+      "automobile",
+      "aeronautique",
+      "energie"
+    ],
+    "related": [
+      "monde-entreprises-internationales",
+      "eco-cac40",
+      "monde-secteurs-industriels",
+      "monde-energie"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre groupes emblématiques",
+        "headers": [
+          "Groupe",
+          "Origine",
+          "Métier"
+        ],
+        "rows": [
+          [
+            "LVMH",
+            "créé le 3 juin 1987 par la fusion de Moët Hennessy et Louis Vuitton",
+            "luxe : mode et maroquinerie, vins et spiritueux, parfums, montres et joaillerie, distribution sélective"
+          ],
+          [
+            "TotalEnergies",
+            "fondée en 1924 sous le nom de Compagnie française des pétroles, renommée en mai 2021",
+            "énergie : hydrocarbures, électricité, renouvelables"
+          ],
+          [
+            "Airbus",
+            "consortium créé le 18 décembre 1970",
+            "aéronautique civile, défense, hélicoptères"
+          ],
+          [
+            "Stellantis",
+            "fusion de PSA et Fiat Chrysler, effective le 16 janvier 2021",
+            "automobile : 14 marques, dont Peugeot, Citroën, Fiat, Jeep, Opel"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces quatre groupes illustrent les quatre forces industrielles françaises : le luxe, l'énergie, l'aéronautique et l'automobile. Leur histoire est faite de fusions : LVMH agrège des maisons, TotalEnergies a absorbé Petrofina en 1999 et Elf Aquitaine en 2000, Airbus est né d'une coopération franco-allemande élargie, Stellantis d'un rapprochement franco-italo-américain. La concentration est la règle, pas l'exception."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Repères complémentaires",
+        "items": [
+          "Airbus associe à l'origine la France, l'Allemagne et l'Espagne, rejointes par le Royaume-Uni en 1979 ; son siège est à Blagnac, près de Toulouse.",
+          "Le principal concurrent d'Airbus est Boeing : le marché des avions de ligne est un duopole.",
+          "LVMH réunit plus de 70 maisons ; Bernard Arnault le dirige depuis 1987 et en a pris le contrôle en 1990.",
+          "Le luxe pèse environ un quart de la capitalisation du CAC 40, l'énergie et la finance environ 15 % chacune.",
+          "L'État français reste actionnaire de plusieurs grands groupes, via l'Agence des participations de l'État."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : apprendre un classement des plus grandes entreprises par chiffre d'affaires. Ces palmarès changent tous les ans et les questions de concours portent bien plus souvent sur une date de fusion, un secteur ou une marque détenue par un groupe. Un QCM vous demandera « quel groupe détient Sephora ? » avant de vous demander un chiffre d'affaires."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux dates très proches à ne pas inverser : Airbus 1970 (le consortium), LVMH 1987 (la fusion). Et deux renommages récents : TotalEnergies en 2021, Stellantis en 2021 également."
+      },
+      {
+        "type": "quiz",
+        "question": "De quelle fusion LVMH est-il né, et en quelle année ?",
+        "answer": "De la fusion de Moët Hennessy — lui-même issu du rapprochement du champagne Moët et Chandon et du cognac Hennessy — avec le maroquinier Louis Vuitton, le 3 juin 1987. Le sigle LVMH reprend les initiales des trois maisons.",
+        "hint": "Les trois lettres du sigle sont trois maisons."
+      }
+    ]
+  },
+  {
+    "id": "monde-entreprises-internationales",
+    "domain": "culture-generale",
+    "category": "Entreprises et marques",
+    "title": "Multinationales et firmes technologiques",
+    "tagline": "Ce qu'est vraiment une multinationale, et pourquoi les géants du numérique posent un problème inédit.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-internationales",
+      "numerique",
+      "commerce-international",
+      "marche"
+    ],
+    "related": [
+      "monde-entreprises-france",
+      "monde-numerique",
+      "eco-mondialisation",
+      "eco-monopole"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Une firme multinationale est une entreprise qui possède ou contrôle des unités de production dans au moins deux pays. Ce qui la définit n'est pas d'exporter — n'importe quelle PME peut exporter — mais d'investir directement à l'étranger. L'indicateur pertinent est donc l'investissement direct étranger, ou IDE."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Pourquoi une entreprise s'implante à l'étranger",
+        "items": [
+          "Accéder à un marché protégé par des barrières douanières ou réglementaires.",
+          "Réduire les coûts de production (main-d'œuvre, énergie, fiscalité).",
+          "Se rapprocher d'une ressource ou d'un savoir-faire localisé.",
+          "Contourner le risque de change en produisant dans la zone monétaire de vente.",
+          "Suivre un client industriel qui s'est lui-même délocalisé."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La chaîne de valeur mondiale",
+        "body": "Les multinationales ont fragmenté la production : conception dans un pays, composants dans plusieurs autres, assemblage dans un dernier. Un produit n'est plus « fabriqué » dans un pays mais assemblé à partir d'une chaîne. Cela rend la statistique du commerce extérieur trompeuse : la valeur d'un smartphone importé est attribuée en totalité au pays d'assemblage, alors que celui-ci n'en capte qu'une faible part."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre exportation et investissement direct étranger. Vendre à l'étranger, c'est exporter. Acheter ou créer une usine à l'étranger, c'est un IDE. Une entreprise peut réaliser 80 % de son chiffre d'affaires à l'export sans être multinationale, si elle produit tout chez elle."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La spécificité des géants du numérique",
+        "items": [
+          "Leurs coûts marginaux sont quasi nuls : un utilisateur supplémentaire ne coûte presque rien.",
+          "Les effets de réseau créent des positions dominantes difficiles à contester : un réseau social vaut par le nombre de ses membres.",
+          "Leurs actifs sont immatériels et donc facilement localisables dans des juridictions à faible fiscalité.",
+          "C'est cette dernière caractéristique qui a motivé l'accord international sur un impôt minimum mondial sur les bénéfices des multinationales.",
+          "L'Union européenne a répondu par une régulation spécifique : DMA, DSA, AI Act."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour distinguer les deux notions : « j'exporte un produit, j'investis dans une usine ». Le premier traverse la frontière, le second s'y installe."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi la statistique du commerce extérieur surestime-t-elle le poids du pays d'assemblage ?",
+        "answer": "Parce qu'elle attribue la valeur totale du produit importé au dernier pays qui l'a expédié, alors que la valeur ajoutée y est souvent faible : la conception, les composants les plus chers et le logiciel viennent d'ailleurs. D'où les statistiques dites « en valeur ajoutée », qui corrigent ce biais.",
+        "hint": "Où est créée la valeur, et où est-elle comptabilisée ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-secteurs-industriels",
+    "domain": "culture-generale",
+    "category": "Entreprises et marques",
+    "title": "Les secteurs d'activité et la désindustrialisation",
+    "tagline": "Primaire, secondaire, tertiaire : une classification ancienne mais toujours testée.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "economie",
+      "entreprises-france",
+      "marche-travail",
+      "agroalimentaire"
+    ],
+    "related": [
+      "monde-entreprises-france",
+      "eco-croissance-facteurs",
+      "eco-productivite",
+      "monde-entreprises-internationales"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois secteurs de Colin Clark",
+        "headers": [
+          "Secteur",
+          "Contenu",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Primaire",
+            "extraction de ressources naturelles",
+            "agriculture, pêche, mines, sylviculture"
+          ],
+          [
+            "Secondaire",
+            "transformation des matières premières",
+            "industrie manufacturière, BTP, agroalimentaire"
+          ],
+          [
+            "Tertiaire",
+            "services",
+            "commerce, banque, santé, éducation, transport"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une économie développée, le tertiaire représente l'essentiel de l'emploi et de la valeur ajoutée. Ce glissement, décrit par Jean Fourastié, s'explique par deux forces : les gains de productivité sont plus rapides dans l'industrie que dans les services, donc l'industrie libère de la main-d'œuvre ; et la demande de services croît plus vite que le revenu, alors que la demande alimentaire sature."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La désindustrialisation en question",
+        "items": [
+          "Une partie du recul de l'emploi industriel est statistique : l'externalisation d'activités (nettoyage, informatique, logistique) transfère des emplois du secondaire vers le tertiaire sans rien changer à la production.",
+          "Une autre partie est réelle : délocalisations et perte de compétitivité.",
+          "Une troisième vient des gains de productivité : produire autant avec moins de salariés.",
+          "L'agroalimentaire est le premier secteur industriel français en emploi.",
+          "Les notions de « quaternaire » (recherche, information) n'ont pas de définition statistique officielle en France."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : déduire d'une baisse de l'emploi industriel une baisse de la production industrielle. Les deux peuvent diverger : avec des gains de productivité, la production peut croître alors que l'emploi recule. Toujours demander si l'indicateur porte sur l'emploi, la valeur ajoutée ou le volume produit."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« J'extrais, je transforme, je sers. » Trois verbes dans l'ordre des secteurs. L'agroalimentaire piège souvent : le blé est primaire, la farine et le pain industriel sont secondaires, la boulangerie de quartier relève du commerce, donc du tertiaire."
+      },
+      {
+        "type": "quiz",
+        "question": "Une entreprise industrielle externalise son service informatique vers un prestataire. Qu'arrive-t-il aux statistiques sectorielles ?",
+        "answer": "Les emplois concernés quittent le secondaire pour le tertiaire, alors que le travail effectué est identique. La désindustrialisation apparente est en partie un artefact de ce type de réorganisation, ce qui impose de lire les séries longues avec prudence.",
+        "hint": "Le travail change-t-il, ou seulement l'employeur ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-energie",
+    "domain": "culture-generale",
+    "category": "Énergie et environnement",
+    "title": "Le mix énergétique français",
+    "tagline": "Deux tiers de nucléaire, plus de 95 % de bas carbone : les ordres de grandeur du bilan RTE 2025.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "energie",
+      "environnement",
+      "entreprises-france"
+    ],
+    "related": [
+      "monde-climat",
+      "monde-entreprises-france",
+      "eco-externalites",
+      "monde-conflits-contemporains"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Production d'électricité en France — bilan RTE 2025",
+        "headers": [
+          "Source",
+          "Production",
+          "Part du mix"
+        ],
+        "rows": [
+          [
+            "Nucléaire",
+            "373,0 TWh",
+            "68,1 %"
+          ],
+          [
+            "Hydraulique",
+            "62,4 TWh",
+            "11,4 %"
+          ],
+          [
+            "Éolien terrestre et en mer",
+            "49,6 TWh",
+            "9,1 %"
+          ],
+          [
+            "Solaire",
+            "32,9 TWh",
+            "6,0 %"
+          ],
+          [
+            "Gaz",
+            "16,4 TWh",
+            "3,0 %"
+          ],
+          [
+            "Total",
+            "547,5 TWh",
+            "100 %"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qu'il faut retenir du bilan 2025",
+        "items": [
+          "La production bas carbone a atteint un maximum historique : 521,1 TWh, soit plus de 95 % du mix.",
+          "La production thermique fossile est à son plus bas niveau depuis 75 ans.",
+          "L'intensité carbone de l'électricité française est l'une des plus faibles au monde : 19,6 gCO₂eq par kWh en 2025.",
+          "Ces parts varient chaque année selon la disponibilité du parc nucléaire et la pluviométrie : citez toujours l'année du bilan."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique, et il est majeur : confondre mix ÉLECTRIQUE et mix ÉNERGÉTIQUE. L'électricité ne représente qu'environ un quart de l'énergie finale consommée en France. Le reste — transport, chauffage, industrie — repose encore largement sur les produits pétroliers et le gaz. Dire « la France est décarbonée à 95 % » est faux : c'est son électricité qui l'est."
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Décarboner l'énergie française suppose donc d'électrifier des usages aujourd'hui fossiles : véhicules électriques à la place des moteurs thermiques, pompes à chaleur à la place des chaudières à gaz, électrification des procédés industriels. C'est le sens du terme « électrification des usages » : on ne décarbone pas l'électricité, déjà propre, on remplace du pétrole par de l'électricité."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retenez « 2/3 nucléaire, 1/10 hydraulique, 95 % bas carbone » — trois ordres de grandeur suffisent. Et la phrase de garde : « électrique ≠ énergétique »."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi l'électricité française est-elle très peu carbonée alors que l'énergie française ne l'est pas ?",
+        "answer": "Parce que l'électricité ne représente qu'environ un quart de l'énergie finale consommée. Le transport routier, le chauffage et une partie de l'industrie fonctionnent encore au pétrole et au gaz. Le nucléaire et l'hydraulique décarbonent la production électrique, pas ces usages-là.",
+        "hint": "Quelle part de l'énergie consommée passe par une prise de courant ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-climat",
+    "domain": "culture-generale",
+    "category": "Énergie et environnement",
+    "title": "L'accord de Paris et la gouvernance climatique",
+    "tagline": "2015, 1,5 °C, 194 Parties : les repères, et ce qui distingue une COP d'un traité.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "environnement",
+      "organisations-internationales",
+      "geopolitique",
+      "energie"
+    ],
+    "related": [
+      "monde-energie",
+      "eco-externalites",
+      "eco-rse",
+      "monde-organisations-internationales"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'accord de Paris a été adopté le 12 décembre 2015 à la COP21 et est entré en vigueur le 4 novembre 2016. Il compte 194 Parties — 193 pays et l'Union européenne — à la date de septembre 2026. Son objectif : contenir le réchauffement bien en dessous de 2 °C par rapport à l'ère préindustrielle, et poursuivre les efforts pour le limiter à 1,5 °C."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le mécanisme de l'accord",
+        "items": [
+          "Chaque pays définit lui-même ses engagements : ce sont les contributions déterminées au niveau national, ou CDN.",
+          "Ces contributions sont révisées tous les cinq ans, avec une exigence de progression.",
+          "Un bilan mondial périodique mesure l'écart entre la somme des engagements et la trajectoire nécessaire ; le premier a eu lieu en 2023.",
+          "Aucune sanction n'est prévue en cas de non-respect : l'accord repose sur la transparence et la pression des pairs.",
+          "La COP — Conférence des Parties — est l'organe de négociation annuel de la Convention-cadre des Nations unies sur les changements climatiques."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : présenter l'accord de Paris comme contraignant. L'obligation juridique porte sur la PROCÉDURE — déposer une contribution, la réviser, rendre compte — et non sur le RÉSULTAT. Aucun État ne peut être sanctionné pour avoir manqué sa cible. C'est la différence de fond avec le protocole de Kyoto de 1997, qui imposait des objectifs chiffrés à un petit groupe de pays développés."
+      },
+      {
+        "type": "table",
+        "title": "Kyoto contre Paris",
+        "headers": [
+          "Critère",
+          "Protocole de Kyoto (1997)",
+          "Accord de Paris (2015)"
+        ],
+        "rows": [
+          [
+            "Pays concernés",
+            "pays développés seulement",
+            "tous les pays"
+          ],
+          [
+            "Objectifs",
+            "imposés et chiffrés",
+            "définis par chaque pays"
+          ],
+          [
+            "Nature de l'obligation",
+            "de résultat",
+            "de procédure"
+          ],
+          [
+            "Sanction",
+            "prévue",
+            "aucune"
+          ]
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Kyoto impose à quelques-uns, Paris engage tout le monde à se fixer une cible. » L'un est plus contraignant mais étroit, l'autre est universel mais souple. Ce compromis explique qu'il ait été ratifié si vite."
+      },
+      {
+        "type": "quiz",
+        "question": "Que sont les CDN, et à quel rythme doivent-elles être révisées ?",
+        "answer": "Les contributions déterminées au niveau national : les engagements de réduction d'émissions et d'adaptation que chaque Partie définit elle-même. Elles doivent être révisées tous les cinq ans, avec une exigence de progression — une nouvelle contribution ne peut pas être moins ambitieuse que la précédente.",
+        "hint": "Qui fixe l'objectif : l'ONU ou le pays lui-même ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-numerique",
+    "domain": "culture-generale",
+    "category": "Numérique",
+    "title": "La régulation européenne du numérique",
+    "tagline": "RGPD, DMA, DSA, AI Act : quatre textes, quatre objets différents.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "numerique",
+      "institutions-europeennes",
+      "marche",
+      "entreprises-internationales"
+    ],
+    "related": [
+      "monde-entreprises-internationales",
+      "ue-institutions",
+      "ue-marche-interieur",
+      "eco-monopole"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre textes",
+        "headers": [
+          "Texte",
+          "Objet",
+          "Entrée en application"
+        ],
+        "rows": [
+          [
+            "RGPD",
+            "protection des données personnelles",
+            "25 mai 2018"
+          ],
+          [
+            "DMA (Digital Markets Act)",
+            "concurrence : encadrer les plateformes dites « contrôleurs d'accès »",
+            "2 mai 2023"
+          ],
+          [
+            "DSA (Digital Services Act)",
+            "responsabilité des plateformes sur les contenus illicites",
+            "17 février 2024"
+          ],
+          [
+            "AI Act",
+            "encadrement de l'intelligence artificielle par niveaux de risque",
+            "par étapes, de février 2025 à août 2026"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que chaque texte impose",
+        "items": [
+          "RGPD : consentement, droit d'accès, droit à l'effacement, portabilité des données, obligation de sécurité.",
+          "DMA : interdiction pour une grande plateforme de favoriser ses propres services, obligation d'interopérabilité.",
+          "DSA : retrait des contenus illicites signalés, transparence des algorithmes de recommandation, obligations renforcées pour les très grandes plateformes.",
+          "AI Act : approche par le risque — pratiques interdites, systèmes à haut risque soumis à obligations, systèmes à risque limité soumis à transparence."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Le régime de sanctions du RGPD",
+        "body": "L'article 83 prévoit deux paliers : jusqu'à 10 millions d'euros ou 2 % du chiffre d'affaires annuel mondial pour les manquements ordinaires, et jusqu'à 20 millions d'euros ou 4 % pour les plus graves — atteinte aux principes de traitement, aux droits des personnes, ou refus d'obtempérer à l'autorité. Dans les deux cas, c'est le montant le PLUS ÉLEVÉ des deux qui s'applique, ce qui rend la sanction réellement dissuasive pour un géant mondial."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre l'entrée en vigueur et l'entrée en application du RGPD. Le règlement est entré en vigueur le 24 mai 2016 ; il n'est devenu applicable que deux ans plus tard, le 25 mai 2018, pour laisser aux organisations le temps de se mettre en conformité. Beaucoup de sources mélangent les deux dates."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quatre textes, quatre mots-clés : RGPD = données, DMA = concurrence, DSA = contenus, AI Act = risque. Et la sanction phare : « 20 millions ou 4 % — le plus élevé »."
+      },
+      {
+        "type": "quiz",
+        "question": "Une entreprise réalise 10 milliards d'euros de chiffre d'affaires mondial et commet un manquement grave au RGPD. Quel est le plafond de l'amende ?",
+        "answer": "400 millions d'euros, soit 4 % de 10 milliards. Le texte retient le montant le plus élevé entre 20 millions d'euros et 4 % du chiffre d'affaires ; ici le pourcentage l'emporte très largement sur le plafond forfaitaire.",
+        "hint": "4 % de 10 milliards, comparés à 20 millions."
+      }
+    ]
+  },
+  {
+    "id": "culture-numerique",
+    "domain": "culture-generale",
+    "category": "Numérique",
+    "title": "Vocabulaire du numérique et de la data",
+    "tagline": "Cloud, API, algorithme, big data : les mots qu'on emploie sans toujours savoir les définir.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "numerique",
+      "entreprises-internationales",
+      "marche"
+    ],
+    "related": [
+      "monde-numerique",
+      "monde-entreprises-internationales",
+      "angv-informatique",
+      "eco-strategie-outils"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Définitions précises",
+        "headers": [
+          "Terme",
+          "Définition"
+        ],
+        "rows": [
+          [
+            "Algorithme",
+            "suite finie d'instructions permettant de résoudre un problème ; ne suppose ni ordinateur ni intelligence artificielle"
+          ],
+          [
+            "Cloud",
+            "mise à disposition de ressources informatiques à distance, facturées à l'usage ; ce sont les serveurs de quelqu'un d'autre"
+          ],
+          [
+            "API",
+            "interface de programmation permettant à deux logiciels d'échanger des données de façon standardisée"
+          ],
+          [
+            "Big data",
+            "données trop volumineuses, trop rapides ou trop variées pour les outils classiques — les « 3 V » : volume, vélocité, variété"
+          ],
+          [
+            "SaaS",
+            "logiciel en tant que service : accessible par abonnement via un navigateur, sans installation"
+          ],
+          [
+            "Open source",
+            "logiciel dont le code source est librement consultable, modifiable et redistribuable"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Notions économiques associées",
+        "items": [
+          "Effet de réseau : la valeur du service croît avec le nombre d'utilisateurs, ce qui protège les positions acquises.",
+          "Coût marginal quasi nul : servir un utilisateur de plus ne coûte presque rien, d'où des rendements croissants.",
+          "Modèle freemium : gratuité de base, monétisation des fonctions avancées.",
+          "Économie de plateforme : l'entreprise n'est pas le producteur mais l'intermédiaire entre deux marchés, dits marchés bifaces.",
+          "Donnée personnelle : toute information se rapportant à une personne identifiée ou identifiable, au sens du RGPD."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : employer « algorithme » comme synonyme d'intelligence artificielle. Une recette de cuisine est un algorithme. Le tri alphabétique est un algorithme. L'apprentissage automatique est une famille particulière d'algorithmes, qui ajustent leurs paramètres à partir de données plutôt que de suivre des règles écrites à l'avance."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour le big data, les « 3 V » : Volume, Vélocité, Variété. On y ajoute parfois Véracité et Valeur, mais les trois premiers suffisent à un QCM."
+      },
+      {
+        "type": "quiz",
+        "question": "Qu'est-ce qui distingue un marché biface d'un marché classique ?",
+        "answer": "La plateforme met en relation deux catégories d'utilisateurs distinctes — par exemple des chauffeurs et des passagers, ou des développeurs et des utilisateurs d'applications — dont la valeur pour l'une dépend du nombre présent dans l'autre. La tarification peut être asymétrique : un côté est souvent subventionné pour attirer l'autre.",
+        "hint": "Combien de catégories d'utilisateurs, et qui paie ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-crises-economiques",
+    "domain": "culture-generale",
+    "category": "Histoire économique",
+    "title": "Les grandes crises économiques",
+    "tagline": "1929, 1973, 2008, 2020 : quatre crises, quatre mécanismes différents.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "histoire-economique",
+      "economie",
+      "bourse",
+      "histoire-xxe",
+      "histoire-xxi"
+    ],
+    "related": [
+      "eco-cycles",
+      "monde-bretton-woods",
+      "eco-keynes-liberaux",
+      "eco-bourse"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre crises, quatre origines",
+        "headers": [
+          "Crise",
+          "Déclencheur",
+          "Mécanisme dominant"
+        ],
+        "rows": [
+          [
+            "1929",
+            "krach boursier de Wall Street en octobre",
+            "effondrement bancaire, déflation, contraction du crédit"
+          ],
+          [
+            "1973 et 1979",
+            "chocs pétroliers",
+            "choc d'offre : inflation et chômage simultanés, la stagflation"
+          ],
+          [
+            "2008",
+            "crise des subprimes aux États-Unis",
+            "crise financière puis crise de liquidité bancaire mondiale"
+          ],
+          [
+            "2020",
+            "pandémie de Covid-19",
+            "arrêt simultané de l'offre et de la demande, choc exogène"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces crises n'appellent pas les mêmes remèdes, et c'est là tout l'enjeu. Une crise de demande (1929, 2008) se combat par la relance budgétaire et monétaire. Un choc d'offre (1973) ne se soigne pas par la relance : stimuler la demande face à une offre contrainte ne produit que de l'inflation supplémentaire. La crise de 2020 a été traitée comme un arrêt temporaire à compenser, d'où les dispositifs de soutien massifs et les « quoi qu'il en coûte »."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que chaque crise a laissé",
+        "items": [
+          "1929 a produit le New Deal aux États-Unis et légitimé l'intervention de l'État, théorisée par Keynes en 1936.",
+          "1973 a mis fin aux Trente Glorieuses et introduit la stagflation, que les modèles keynésiens n'expliquaient pas.",
+          "2008 a débouché sur un durcissement de la réglementation bancaire et sur des politiques monétaires non conventionnelles.",
+          "2020 a normalisé le recours massif à la dette publique et aux achats d'actifs par les banques centrales.",
+          "La chaîne 2008 → crise des dettes souveraines européennes (2010-2012) illustre comment une crise privée se transforme en crise publique."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre récession et dépression. Une récession est techniquement définie comme au moins deux trimestres consécutifs de recul du PIB. Une dépression est une contraction profonde et durable, sans définition chiffrée consensuelle — 1929 en est le cas d'école. Autre confusion : la crise de 2008 n'est pas un krach boursier, elle part du marché immobilier et du crédit."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Associez chaque crise à son mot : 1929 = déflation, 1973 = stagflation, 2008 = subprimes, 2020 = confinement. Quatre mots, quatre mécanismes."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi une relance budgétaire est-elle inefficace face à un choc pétrolier ?",
+        "answer": "Parce que le problème vient de l'offre, pas de la demande. Le renchérissement de l'énergie réduit la capacité de production et pousse les prix à la hausse. Stimuler la demande dans ce contexte alimente l'inflation sans débloquer l'offre — c'est précisément ce qui a produit la stagflation des années 1970.",
+        "hint": "Le problème vient-il du côté de ceux qui achètent ou de ceux qui produisent ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-bretton-woods",
+    "domain": "culture-generale",
+    "category": "Histoire économique",
+    "title": "Bretton Woods et les Trente Glorieuses",
+    "tagline": "1944-1973 : l'ordre monétaire qui a encadré la plus forte croissance de l'histoire.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "histoire-economique",
+      "organisations-internationales",
+      "economie",
+      "histoire-xxe"
+    ],
+    "related": [
+      "monde-institutions-economiques",
+      "monde-crises-economiques",
+      "eco-change",
+      "eco-croissance-facteurs"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Les accords de Bretton Woods, signés en juillet 1944, instaurent un système de changes fixes ajustables : chaque monnaie est définie par rapport au dollar, et le dollar seul est convertible en or, au taux de 35 dollars l'once. Le FMI et la Banque mondiale sont créés pour faire fonctionner ce système. Il s'effondre en 1971, quand les États-Unis suspendent la convertibilité du dollar en or."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les Trente Glorieuses (1945-1975)",
+        "items": [
+          "Expression forgée par l'économiste Jean Fourastié en 1979.",
+          "Croissance forte et régulière, plein emploi, généralisation de la protection sociale.",
+          "Moteurs : reconstruction, rattrapage technologique, gains de productivité, expansion de la consommation de masse.",
+          "Le terme est franco-centré : la période a d'autres noms ailleurs, comme le « miracle économique » allemand ou italien.",
+          "La fin est datée du premier choc pétrolier de 1973, qui coïncide avec la fin du système de Bretton Woods."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Le paradoxe de Triffin",
+        "prompt": "Pourquoi un système fondé sur une monnaie nationale convertible en or était-il condamné ?",
+        "reveal": "Pour alimenter le commerce mondial en liquidités, les États-Unis devaient émettre toujours plus de dollars. Mais plus il y avait de dollars en circulation, moins leur convertibilité en or — dont le stock est fini — était crédible. Assurer la liquidité mondiale et maintenir la confiance étaient donc contradictoires : c'est le dilemme énoncé par l'économiste Robert Triffin dès 1960."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dater la fin de Bretton Woods de 1973 plutôt que de 1971. La suspension de la convertibilité du dollar en or intervient en août 1971 ; le passage généralisé aux changes flottants est entériné ensuite, au milieu des années 1970. Et attention : dans ce système, seul le DOLLAR était convertible en or, pas les autres monnaies."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« 1944 on fixe, 1971 on décroche, 1973 on flotte. » Trois dates, trois verbes. Et l'once à 35 dollars est le chiffre le plus demandé de toute la période."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans le système de Bretton Woods, toutes les monnaies étaient-elles convertibles en or ?",
+        "answer": "Non. C'est un système d'étalon de change-or : seul le dollar était convertible en or, à 35 dollars l'once. Les autres monnaies étaient définies par un taux fixe par rapport au dollar. C'est ce qui a donné au dollar son statut de monnaie de réserve mondiale, conservé après 1971.",
+        "hint": "Une seule monnaie servait de pivot."
+      }
+    ]
+  },
+  {
+    "id": "monde-france-xxe",
+    "domain": "culture-generale",
+    "category": "Histoire du XXe siècle",
+    "title": "La France au XXe siècle : les repères",
+    "tagline": "Deux guerres, quatre Républiques, une décolonisation : les dates à ne pas inverser.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "histoire-xxe",
+      "institutions-france"
+    ],
+    "related": [
+      "fr-institutions-ve-republique",
+      "monde-guerre-froide",
+      "monde-decolonisation",
+      "ue-histoire"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les jalons",
+        "headers": [
+          "Période",
+          "Événement"
+        ],
+        "rows": [
+          [
+            "1914-1918",
+            "Première Guerre mondiale ; armistice le 11 novembre 1918"
+          ],
+          [
+            "1936",
+            "Front populaire : congés payés, semaine de 40 heures, conventions collectives"
+          ],
+          [
+            "1939-1945",
+            "Seconde Guerre mondiale ; régime de Vichy à partir de juillet 1940 ; Libération en 1944"
+          ],
+          [
+            "1944",
+            "droit de vote accordé aux femmes en France"
+          ],
+          [
+            "1946",
+            "IVe République ; création de la Sécurité sociale l'année précédente"
+          ],
+          [
+            "1958",
+            "retour de De Gaulle, fondation de la Ve République"
+          ],
+          [
+            "1962",
+            "indépendance de l'Algérie ; élection du président au suffrage universel direct"
+          ],
+          [
+            "1968",
+            "mai 68, accords de Grenelle"
+          ],
+          [
+            "1981",
+            "alternance politique ; abolition de la peine de mort"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les acquis sociaux structurants",
+        "items": [
+          "1936 : congés payés et semaine de 40 heures.",
+          "1945 : création de la Sécurité sociale, par ordonnances.",
+          "1944 : droit de vote et d'éligibilité des femmes ; premier vote effectif en 1945.",
+          "1974 : majorité abaissée à 18 ans.",
+          "1981 : abolition de la peine de mort."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dater le droit de vote des femmes de 1945. L'ordonnance date d'avril 1944 ; c'est le premier exercice effectif du droit qui a lieu en 1945. Autre piège fréquent : le suffrage universel direct pour l'élection présidentielle date de la révision de 1962, pas de la fondation de la Ve République en 1958 — le premier président de la Ve a été élu par un collège de grands électeurs."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux paires à ne pas confondre : 1958 (Constitution) / 1962 (suffrage universel direct), et 1944 (droit accordé) / 1945 (premier vote). Dans les deux cas, la règle précède l'usage."
+      },
+      {
+        "type": "quiz",
+        "question": "Le premier président de la Ve République a-t-il été élu au suffrage universel direct ?",
+        "answer": "Non. En 1958, le président était élu par un collège d'environ 80 000 grands électeurs. C'est le référendum de 1962 qui a instauré l'élection au suffrage universel direct, appliquée pour la première fois en 1965.",
+        "hint": "Quelle révision constitutionnelle a eu lieu en 1962 ?"
+      }
+    ]
+  },
+  {
+    "id": "monde-demographie",
+    "domain": "culture-generale",
+    "category": "Société et démographie",
+    "title": "Démographie : les indicateurs à savoir lire",
+    "tagline": "Fécondité, espérance de vie, vieillissement : ce qui pilote les débats sur les retraites.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "indicateurs",
+      "marche-travail",
+      "economie",
+      "histoire-recente"
+    ],
+    "related": [
+      "eco-protection-sociale",
+      "eco-marche-travail",
+      "eco-croissance-facteurs",
+      "monde-secteurs-industriels"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les indicateurs clés",
+        "headers": [
+          "Indicateur",
+          "Définition"
+        ],
+        "rows": [
+          [
+            "Indice conjoncturel de fécondité",
+            "nombre moyen d'enfants par femme si les comportements d'une année se maintenaient"
+          ],
+          [
+            "Seuil de renouvellement des générations",
+            "environ 2,1 enfants par femme dans un pays développé"
+          ],
+          [
+            "Espérance de vie à la naissance",
+            "durée de vie moyenne d'une génération fictive soumise aux conditions de mortalité de l'année"
+          ],
+          [
+            "Solde naturel",
+            "naissances moins décès"
+          ],
+          [
+            "Solde migratoire",
+            "entrées moins sorties sur le territoire"
+          ],
+          [
+            "Ratio de dépendance",
+            "rapport entre inactifs âgés et actifs"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La variation de la population d'un pays est la somme de son solde naturel et de son solde migratoire. Le vieillissement démographique résulte de deux causes distinctes : l'allongement de l'espérance de vie, par le haut de la pyramide des âges, et la baisse de la fécondité, par le bas. La seconde pèse souvent davantage, car elle réduit les générations futures d'actifs."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Pourquoi cela commande le débat sur les retraites",
+        "items": [
+          "Un système par répartition finance les pensions des retraités par les cotisations des actifs de l'année.",
+          "Il dépend donc directement du ratio entre cotisants et pensionnés.",
+          "Trois leviers seulement existent : augmenter les cotisations, baisser les pensions, ou allonger la durée de travail.",
+          "Un système par capitalisation, lui, dépend du rendement des marchés financiers et non du ratio démographique.",
+          "La transition démographique décrit le passage d'un régime à forte natalité et forte mortalité à un régime où les deux sont faibles."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre espérance de vie à la naissance et durée de vie effective d'une génération. L'espérance de vie à la naissance est un indicateur du moment : elle suppose que les conditions de mortalité de l'année en cours vaudront toute la vie. Elle est donc très sensible aux décès de jeunes enfants — c'est pourquoi les espérances de vie anciennes, très basses, ne signifient pas que personne n'atteignait la vieillesse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« 2,1 » est le seuil de renouvellement. Et pour la variation de population : « naturel + migratoire ». Deux termes, jamais un seul — une erreur fréquente consiste à raisonner uniquement sur les naissances."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi le seuil de renouvellement est-il de 2,1 et non de 2,0 enfants par femme ?",
+        "answer": "Parce qu'il naît légèrement plus de garçons que de filles, et qu'une petite fraction des femmes n'atteint pas l'âge de procréer. Il faut donc un peu plus de deux enfants par femme pour que chaque génération soit exactement remplacée. Dans les pays à forte mortalité infantile, ce seuil est nettement supérieur à 2,1.",
+        "hint": "Tout le monde n'atteint pas l'âge d'avoir des enfants."
+      }
+    ]
+  },
+  {
+    "id": "monde-medias",
+    "domain": "culture-generale",
+    "category": "Société et démographie",
+    "title": "Médias, information et esprit critique",
+    "tagline": "Distinguer un fait d'une opinion, une source primaire d'un relais : une compétence évaluée.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "numerique",
+      "histoire-recente",
+      "institutions-france"
+    ],
+    "related": [
+      "culture-numerique",
+      "monde-conflits-contemporains",
+      "meth-culture-actualite",
+      "comp-ton-auteur"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Hiérarchiser une information",
+        "items": [
+          "Source primaire : l'auteur direct de la donnée — Insee, Banque de France, institution publiée, article scientifique original.",
+          "Source secondaire : un média qui rapporte une source primaire.",
+          "Source tertiaire : un contenu qui reprend un média, sans remonter à l'origine.",
+          "Plus on descend dans cette chaîne, plus le risque d'erreur de transcription augmente.",
+          "Un chiffre sans date ni source n'est pas une information : c'est une affirmation."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Fait, opinion, jugement de valeur",
+        "body": "Un FAIT est vérifiable et réfutable : « la production nucléaire a atteint 373 TWh en 2025 ». Une OPINION exprime une appréciation subjective : « le nucléaire est la meilleure solution ». Un JUGEMENT DE VALEUR mobilise une norme morale ou esthétique : « il est injuste de fermer cette centrale ». Les épreuves de compréhension testent constamment cette distinction, en glissant une opinion dans un texte factuel."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Repères sur la presse et l'information",
+        "items": [
+          "La liberté de la presse en France est garantie par la loi du 29 juillet 1881.",
+          "Le secret des sources des journalistes est protégé par la loi.",
+          "L'Arcom régule l'audiovisuel et le numérique en France.",
+          "Le DSA européen impose aux très grandes plateformes des obligations de transparence sur leurs algorithmes de recommandation.",
+          "La bulle de filtre désigne l'enfermement algorithmique dans des contenus conformes à ses opinions."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre « l'information est ancienne » et « l'information est fausse ». Un chiffre de 2019 n'est pas faux, il est daté. À l'inverse, un chiffre récent repris sans source peut être parfaitement erroné. Le bon réflexe n'est pas de préférer le récent, c'est de remonter à la source primaire."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois questions devant tout chiffre : « Qui le produit ? De quand date-t-il ? Que mesure-t-il exactement ? » La troisième est la plus souvent oubliée et la plus décisive — chômage au sens du BIT ou inscrits à France Travail, ce ne sont pas les mêmes données."
+      },
+      {
+        "type": "quiz",
+        "question": "« Le chômage a baissé de 0,2 point ce trimestre, ce qui prouve l'efficacité de la réforme. » Combien d'énoncés distincts cette phrase contient-elle ?",
+        "answer": "Deux. Un fait vérifiable — la baisse de 0,2 point — et une interprétation causale, non démontrée, qui l'attribue à la réforme. Une corrélation temporelle n'établit pas une causalité : la baisse peut tenir à la conjoncture, à un effet de mesure ou à une autre politique.",
+        "hint": "Séparez ce qui est mesuré de ce qui est expliqué."
+      }
+    ]
   }
 ]

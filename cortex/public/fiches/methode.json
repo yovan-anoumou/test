@@ -27,5 +27,1534 @@
         "body": "Quelques minutes de lecture d'actu chaque jour, avec un vrai effort pour reformuler ce que tu as compris (à voix haute ou par écrit), retiennent bien mieux qu'une session de révision intensive une fois par mois."
       }
     ]
+  },
+  {
+    "id": "meth-strategie-qcm",
+    "domain": "methode",
+    "category": "Stratégie d'épreuve",
+    "title": "Stratégie face à un QCM",
+    "tagline": "Un QCM ne se traite pas comme un exercice : la réponse est déjà devant vous.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "piege-logique",
+      "arbitrage-priorisation",
+      "pieges"
+    ],
+    "related": [
+      "meth-elimination",
+      "meth-gestion-temps-epreuve",
+      "meth-lecture-enonce",
+      "meth-ordre-de-grandeur"
+    ],
+    "subtests": [
+      "raisonnement",
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Dans un QCM, la bonne réponse est physiquement présente sur la feuille. Vous n'avez donc pas à la produire, seulement à la reconnaître parmi des leurres. Cela change complètement la stratégie : sur beaucoup de questions, éliminer est plus rapide que résoudre."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les quatre gestes de base",
+        "items": [
+          "LIRE la question en entier avant de regarder les propositions, pour ne pas se laisser orienter par un distracteur.",
+          "ÉLIMINER ce qui est manifestement faux : une proposition absurde en ordre de grandeur, un signe inversé, une unité incohérente.",
+          "ARBITRER : si deux propositions restent et que le temps presse, trancher et avancer plutôt que s'enliser.",
+          "MARQUER les questions laissées en suspens pour y revenir, plutôt que de les abandonner définitivement."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Éliminer plutôt que calculer",
+        "prompt": "Un article à 80 € subit une hausse de 15 %, puis une baisse de 15 %. Propositions : a) 80 € b) 78,20 € c) 81,80 € d) 76 €.",
+        "reveal": "Sans poser le calcul : deux variations opposées de même taux ne se compensent jamais, donc a) est faux. Le résultat est toujours INFÉRIEUR au prix de départ, donc c) est faux. Il reste b) et d). 80 × 1,15 = 92, puis 92 × 0,85 = 78,20 : c'est b). Deux éliminations de raisonnement ont divisé le travail par deux avant tout calcul."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : changer une réponse au dernier moment sur une simple intuition. Ne modifiez une réponse que si vous identifiez une RAISON précise — une erreur de lecture, un calcul refait, une unité oubliée. Un doute vague n'est pas une raison."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le calcul du risque selon le barème",
+        "items": [
+          "Sans pénalité pour erreur, il ne faut JAMAIS laisser une case vide : une réponse au hasard a une espérance positive.",
+          "Avec pénalité, répondre au hasard entre quatre propositions a une espérance négative ; éliminer ne serait-ce qu'une proposition peut la rendre positive.",
+          "Le barème du TAGE MAGE ne comporte plus de pénalité pour mauvaise réponse depuis la refonte de 2025.",
+          "Dans CORTEX, les questions comportent quatre propositions et aucune pénalité : répondez toujours."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Lire, éliminer, arbitrer, marquer. » Quatre verbes, dans cet ordre. Et une règle de conduite : une question non répondue rapporte zéro à coup sûr ; une question devinée rapporte parfois."
+      },
+      {
+        "type": "quiz",
+        "question": "Avec une pénalité de -1/3 point par erreur et quatre propositions, quelle est l'espérance d'une réponse au hasard ?",
+        "answer": "Nulle. Une chance sur quatre de gagner 1 point, trois chances sur quatre de perdre 1/3 : (1/4 × 1) + (3/4 × -1/3) = 0,25 - 0,25 = 0. C'est le principe de ce type de barème : il neutralise le hasard pur. Dès que vous éliminez une seule proposition, l'espérance devient positive.",
+        "hint": "Calculez (1/4 × 1) + (3/4 × −1/3)."
+      }
+    ]
+  },
+  {
+    "id": "meth-elimination",
+    "domain": "methode",
+    "category": "Stratégie d'épreuve",
+    "title": "La méthode d'élimination",
+    "tagline": "Repérer un distracteur est souvent plus rapide que trouver la bonne réponse.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "piege-logique",
+      "distracteurs",
+      "pieges"
+    ],
+    "related": [
+      "meth-strategie-qcm",
+      "meth-ordre-de-grandeur",
+      "comp-distracteurs",
+      "meth-lecture-enonce"
+    ],
+    "subtests": [
+      "raisonnement",
+      "comprehension"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Un concepteur de QCM ne tire pas les mauvaises réponses au hasard. Chaque distracteur correspond à une erreur prévisible : oubli d'une étape, signe inversé, confusion d'unité, réponse à une autre question. Connaître ces familles d'erreurs permet de les reconnaître dans les propositions."
+      },
+      {
+        "type": "table",
+        "title": "Les familles de distracteurs",
+        "headers": [
+          "Type",
+          "Ce qu'il exploite",
+          "Comment le repérer"
+        ],
+        "rows": [
+          [
+            "Erreur d'étape",
+            "on s'arrête avant la fin du calcul",
+            "la proposition correspond à un résultat intermédiaire plausible"
+          ],
+          [
+            "Signe ou sens inversé",
+            "on confond hausse et baisse, avant et après",
+            "deux propositions symétriques autour d'une valeur"
+          ],
+          [
+            "Unité ou échelle",
+            "on oublie de convertir",
+            "la proposition est la bonne valeur à un facteur 10, 100 ou 60 près"
+          ],
+          [
+            "Réponse à une autre question",
+            "on répond à ce qu'on croit lu",
+            "la proposition est juste mais répond à une question voisine"
+          ],
+          [
+            "Vrai mais non demandé",
+            "on valide une affirmation exacte hors sujet",
+            "l'énoncé est exact mais ne répond pas à la question posée"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : éliminer une proposition parce qu'elle « a l'air trop simple ». Les concepteurs placent régulièrement la bonne réponse sous une forme évidente, précisément parce que les candidats la trouvent suspecte. N'éliminez que sur un argument vérifiable, jamais sur une impression."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Devant une proposition, posez une seule question : « quelle erreur faudrait-il commettre pour arriver là ? » Si vous identifiez l'erreur, vous tenez un distracteur. Si aucune erreur plausible n'y mène, c'est peut-être la bonne réponse."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans un exercice de pourcentages, une proposition vaut exactement 100 fois la bonne réponse. Que s'est-il probablement passé ?",
+        "answer": "Une confusion entre taux exprimé en pourcentage et coefficient. Multiplier par 15 au lieu de 0,15, ou oublier de diviser par 100. C'est un distracteur d'échelle : sa présence signale que le concepteur attend cette erreur précise, ce qui est un bon indice de la nature du calcul demandé.",
+        "hint": "Un facteur 100, dans un exercice de pourcentages."
+      }
+    ]
+  },
+  {
+    "id": "meth-lecture-enonce",
+    "domain": "methode",
+    "category": "Stratégie d'épreuve",
+    "title": "Lire un énoncé sans se faire piéger",
+    "tagline": "La majorité des erreurs ne viennent pas du calcul mais de la lecture.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "piege-chiffre",
+      "piege-logique",
+      "lecture-donnees-chiffrees"
+    ],
+    "related": [
+      "meth-strategie-qcm",
+      "meth-elimination",
+      "comp-question-negative",
+      "meth-erreurs-journal"
+    ],
+    "subtests": [
+      "raisonnement",
+      "calcul"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les mots qui changent tout",
+        "items": [
+          "« au moins », « au plus » : bornes inclusives, à ne pas confondre avec « plus de » et « moins de ».",
+          "« sauf », « ne... pas », « lequel n'est pas » : question négative, la bonne réponse est celle qui est FAUSSE.",
+          "« environ », « approximativement » : un calcul exact n'est pas attendu, un ordre de grandeur suffit.",
+          "« sachant que » : une probabilité conditionnelle, pas une probabilité simple.",
+          "« augmente DE » contre « augmente À » : l'un est une variation, l'autre une valeur finale."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "De ou À",
+        "prompt": "« Le taux passe de 4 % à 6 % » et « le taux augmente de 2 points » et « le taux augmente de 50 % » : ces trois phrases décrivent-elles la même chose ?",
+        "reveal": "Oui, toutes les trois. Passer de 4 % à 6 %, c'est +2 POINTS de pourcentage, ce qui représente une hausse de 50 % en valeur relative (2/4 = 0,5). Un QCM proposera « 2 % » et « 50 % » comme deux réponses distinctes : seule la lecture exacte de l'énoncé permet de trancher. Point de pourcentage et pourcentage ne sont pas la même unité."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : commencer à calculer avant d'avoir fini de lire. Le dernier membre de phrase contient souvent la contrainte décisive — « arrondi à l'entier », « hors taxes », « par personne », « en un an ». Lisez l'énoncé jusqu'au point final avant d'écrire quoi que ce soit."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Entourez systématiquement trois éléments dans l'énoncé : ce qui est DONNÉ, ce qui est CHERCHÉ, et l'UNITÉ attendue. Trois secondes de marquage évitent la plupart des erreurs de lecture."
+      },
+      {
+        "type": "quiz",
+        "question": "« Quelle proposition est incorrecte ? » Combien de propositions devez-vous valider comme vraies ?",
+        "answer": "Toutes sauf une. Dans une question négative, le travail consiste à confirmer la véracité des autres propositions pour isoler l'intruse. C'est plus long qu'une question directe — raison pour laquelle il faut repérer la négation dès la première lecture et ajuster son temps en conséquence.",
+        "hint": "Combien de propositions sont vraies dans une question négative ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-ordre-de-grandeur",
+    "domain": "methode",
+    "category": "Stratégie d'épreuve",
+    "title": "Vérifier par l'ordre de grandeur",
+    "tagline": "Un résultat absurde se repère en trois secondes, sans refaire le calcul.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "ordre-de-grandeur",
+      "multiplication-approchee",
+      "piege-chiffre"
+    ],
+    "related": [
+      "meth-calcul-sans-calculatrice",
+      "meth-strategie-qcm",
+      "meth-elimination",
+      "vit-ordre-de-grandeur"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Avant de valider un résultat, estimez-le grossièrement en arrondissant chaque nombre à un chiffre significatif. Si votre résultat exact s'écarte fortement de cette estimation, il y a une erreur — presque toujours un facteur 10, un signe, ou une opération inversée."
+      },
+      {
+        "type": "example",
+        "title": "L'estimation en trois secondes",
+        "prompt": "Calculer 187 × 43, et vérifier le résultat.",
+        "reveal": "Estimation : 200 × 40 = 8 000. Le résultat doit être un peu en dessous, autour de 8 000. Calcul exact : 187 × 43 = 8 041. Cohérent. Si vous aviez trouvé 804 ou 80 410, l'estimation vous alertait immédiatement. Notez que l'estimation surestime ici sur un facteur (200 > 187) et sous-estime sur l'autre (40 < 43) : les deux erreurs se compensent partiellement, ce qui rend l'approximation très bonne."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les repères d'ordre de grandeur utiles",
+        "items": [
+          "Un pourcentage de quelque chose est toujours plus petit que ce quelque chose, sauf si le taux dépasse 100 %.",
+          "Une moyenne est toujours comprise entre la plus petite et la plus grande des valeurs.",
+          "Une probabilité est comprise entre 0 et 1 : une réponse négative ou supérieure à 1 est fausse, sans discussion.",
+          "Une remise ne peut pas rendre le prix final supérieur au prix initial.",
+          "Deux variations successives en sens opposé et de même taux donnent toujours un résultat inférieur au point de départ."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : faire l'estimation APRÈS avoir vu le résultat. L'esprit rationalise alors ce qu'il a déjà écrit. Estimez avant de calculer, ou au minimum avant de regarder les propositions."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Arrondissez toujours dans des sens opposés quand c'est possible : si vous arrondissez un facteur vers le haut, arrondissez l'autre vers le bas. Les erreurs se compensent et l'estimation devient remarquablement précise."
+      },
+      {
+        "type": "quiz",
+        "question": "Un candidat trouve une probabilité de 1,4. Que peut-on affirmer sans refaire le calcul ?",
+        "answer": "Que le résultat est faux, avec certitude. Une probabilité appartient nécessairement à l'intervalle [0 ; 1]. L'erreur typique est d'avoir additionné des probabilités d'événements non incompatibles, ou d'avoir additionné là où il fallait multiplier.",
+        "hint": "Quel est l'intervalle de définition d'une probabilité ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-gestion-temps-epreuve",
+    "domain": "methode",
+    "category": "Stratégie d'épreuve",
+    "title": "Gérer son temps pendant l'épreuve",
+    "tagline": "Le temps est une ressource à répartir, pas une contrainte à subir.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "arbitrage-priorisation",
+      "matrice-eisenhower",
+      "piege-logique"
+    ],
+    "related": [
+      "meth-strategie-qcm",
+      "meth-points-arbitrage",
+      "vit-gestion-temps",
+      "meth-gestion-stress"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Calculez votre budget par question AVANT de commencer : durée totale divisée par nombre de questions. C'est votre référence. Une question qui dépasse le double de ce budget doit être abandonnée provisoirement — pas parce qu'elle est insoluble, mais parce que le temps qu'elle consomme vaut deux autres questions."
+      },
+      {
+        "type": "example",
+        "title": "Calculer son budget",
+        "prompt": "Un sous-test compte 15 questions en 20 minutes. Quel est le budget par question, et le seuil d'abandon ?",
+        "reveal": "20 minutes = 1 200 secondes, divisées par 15 questions = 80 secondes par question. Le seuil d'abandon est donc d'environ 160 secondes, soit 2 minutes 40. Au-delà, on marque la question et on passe. En pratique, visez plus court sur les questions faciles pour constituer une réserve : finir les 5 premières en 4 minutes au lieu de 6 vous offre 2 minutes pour les difficiles."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les trois passes",
+        "items": [
+          "PREMIÈRE PASSE : traiter toutes les questions dont la méthode est immédiate. Ne jamais s'arrêter sur une difficulté.",
+          "DEUXIÈME PASSE : reprendre les questions marquées, en commençant par celles dont on voit l'angle d'attaque.",
+          "TROISIÈME PASSE : répondre à tout ce qui reste, même au jugé, si le barème ne pénalise pas l'erreur.",
+          "Réservez la dernière minute au report des réponses et à la vérification qu'aucune case n'est vide.",
+          "Ne relisez pas systématiquement : relire tout coûte le temps de plusieurs questions non traitées."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : l'entêtement. Après trois minutes sur une question, l'engagement déjà consenti pousse à continuer — c'est le biais des coûts irrécupérables. Le temps passé est perdu quoi qu'il arrive ; la seule question pertinente est : « ce que je vais investir maintenant rapporte-t-il plus ici ou ailleurs ? »"
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Fixez-vous un repère intermédiaire : à la moitié du temps, vous devez avoir traité un peu plus de la moitié des questions. Un seul contrôle à mi-parcours suffit à détecter une dérive, sans passer son temps à regarder l'horloge."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi faut-il traiter les questions faciles en premier, même si elles rapportent autant que les difficiles ?",
+        "answer": "Parce qu'à barème égal, elles offrent un meilleur rendement par minute. Une question résolue en 40 secondes et une question résolue en 4 minutes valent le même nombre de points ; la première vous en laisse donc pour six autres. La priorité ne se décide pas sur la valeur, mais sur le rapport points/temps.",
+        "hint": "Comparez les points par minute, pas les points."
+      }
+    ]
+  },
+  {
+    "id": "meth-points-arbitrage",
+    "domain": "methode",
+    "category": "Stratégie d'épreuve",
+    "title": "Arbitrer selon le barème",
+    "tagline": "Toutes les questions ne valent pas la même chose : savoir où sont les points.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "arbitrage-priorisation",
+      "roi",
+      "calcul-rentabilite"
+    ],
+    "related": [
+      "meth-gestion-temps-epreuve",
+      "meth-strategie-qcm",
+      "meth-plan-revision",
+      "vit-gestion-temps"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Avant de préparer un concours, lisez son barème. Une épreuve où 20 questions valent 100 points et 50 questions valent 100 points n'appelle pas le même effort de révision : dans le premier cas, chaque question vaut deux fois et demie plus. C'est un calcul de rentabilité, pas une préférence personnelle."
+      },
+      {
+        "type": "example",
+        "title": "Un cas réel : le Score IAE-Message",
+        "prompt": "Le sous-test de raisonnement logique et numérique compte 20 questions pour 100 points. Un autre sous-test compte 50 questions pour 100 points. Que vaut une question dans chacun ?",
+        "reveal": "5 points dans le premier cas, 2 points dans le second. Une seule erreur en logique numérique coûte autant que deux erreurs et demie ailleurs. Conséquence pratique : le raisonnement logique et numérique mérite une part de révision très supérieure à son poids apparent en nombre de questions. Et comme la calculatrice y est interdite, la vitesse de calcul mental devient directement un enjeu de points."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les questions à se poser sur tout barème",
+        "items": [
+          "Combien de questions par section, et combien de points par section ?",
+          "Y a-t-il une pénalité pour mauvaise réponse ?",
+          "Les sections sont-elles chronométrées séparément, ou le temps est-il global ?",
+          "Une note éliminatoire existe-t-elle sur une section ?",
+          "Les outils sont-ils autorisés : calculatrice, brouillon, dictionnaire ?"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : réviser le plus agréable plutôt que le plus rentable. On révise volontiers ce que l'on maîtrise déjà, parce que c'est gratifiant. La règle inverse est la bonne : le rendement d'une heure de révision est maximal là où l'écart entre votre niveau et le niveau requis est le plus grand ET où les points sont les plus denses."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Fabriquez-vous une ligne par section : « points par question × nombre de questions que je rate aujourd'hui = points perdus ». La section en tête de ce classement est votre priorité, quel que soit votre goût pour elle."
+      },
+      {
+        "type": "quiz",
+        "question": "Deux sections : A, où vous ratez 4 questions à 5 points ; B, où vous en ratez 10 à 2 points. Où réviser en priorité ?",
+        "answer": "Les deux représentent exactement 20 points perdus — l'arbitrage ne se fait donc pas sur ce critère seul. Il se fait sur le coût de progression : si vos erreurs en A viennent d'un manque de méthode identifiable et celles de B d'un vocabulaire à acquérir mot à mot, A progressera plus vite à effort égal. Comparez toujours points récupérables ET temps nécessaire.",
+        "hint": "Calculez d'abord les points perdus de chaque côté."
+      }
+    ]
+  },
+  {
+    "id": "meth-recuperation-active",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "La récupération active : se tester, pas se relire",
+    "tagline": "La technique la mieux établie par la recherche — et la moins pratiquée.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "biais-cognitif",
+      "exces-de-confiance"
+    ],
+    "related": [
+      "meth-illusion-maitrise",
+      "meth-repetition-espacee",
+      "meth-entrelacement",
+      "meth-erreurs-journal"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Se tester sur un contenu — le récupérer en mémoire sans le regarder — produit une mémorisation nettement plus durable que le relire. Dans la synthèse de Dunlosky et ses collègues publiée en 2013, l'auto-test et la pratique espacée sont les deux seules techniques classées en utilité ÉLEVÉE, sur dix techniques évaluées."
+      },
+      {
+        "type": "table",
+        "title": "Le classement de Dunlosky et al. (2013)",
+        "headers": [
+          "Utilité",
+          "Techniques"
+        ],
+        "rows": [
+          [
+            "Élevée",
+            "s'auto-tester (practice testing), pratique espacée (distributed practice)"
+          ],
+          [
+            "Modérée",
+            "entrelacement, interrogation élaborative (« pourquoi ? »), auto-explication"
+          ],
+          [
+            "Faible",
+            "relecture, surlignage, résumé, mnémonique par mot-clé, imagerie mentale"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Comment s'auto-tester correctement",
+        "items": [
+          "Exiger une RÉCUPÉRATION, pas une reconnaissance : répondre de mémoire avant de voir la solution.",
+          "Se donner un retour immédiat : vérifier la réponse juste après l'avoir formulée.",
+          "Poursuivre jusqu'au rappel correct, pas seulement jusqu'à la première tentative.",
+          "Refaire le jour même, puis les jours suivants.",
+          "Deux courtes sessions dans la semaine valent mieux qu'un bachotage unique."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : se « tester » en lisant la question puis la réponse dans la foulée. Cela reste de la relecture déguisée. L'effet bénéfique vient de l'effort de récupération — du moment inconfortable où l'on cherche. Si vous ne ressentez pas cet effort, vous ne vous testez pas."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retenez la règle du « cache » : dès qu'une information est devant vous, cachez-la et essayez de la restituer à voix haute ou par écrit. C'est la différence, en une seconde de geste, entre la technique la plus efficace et l'une des moins efficaces."
+      },
+      {
+        "type": "quiz",
+        "question": "Le surlignage figure parmi les techniques de faible utilité. Pourquoi peut-il même nuire ?",
+        "answer": "Parce qu'il concentre l'attention sur des éléments isolés et détourne du travail de mise en relation des idées. Surligner donne le sentiment d'avoir traité le texte alors qu'on s'est contenté de le parcourir. La synthèse de Dunlosky note qu'il peut réduire la compréhension chez certains lecteurs.",
+        "hint": "Que fait-on des liens entre les idées quand on surligne ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-repetition-espacee",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "La répétition espacée et l'intervalle optimal",
+    "tagline": "Espacer n'est pas seulement mieux : il existe un écart optimal, et il est calculable.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "biais-cognitif",
+      "arbitrage-priorisation"
+    ],
+    "related": [
+      "meth-recuperation-active",
+      "meth-plan-revision",
+      "meth-illusion-maitrise",
+      "meth-sommeil"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Réviser une notion plusieurs fois à intervalles espacés produit une mémoire bien plus durable que de concentrer le même temps total en une seule séance. Mais l'espacement a un optimum : trop court, il n'apporte rien de plus qu'un bachotage ; trop long, l'information est déjà perdue au moment de la révision."
+      },
+      {
+        "type": "keyfacts",
+        "title": "L'étude de Cepeda et al. (2008)",
+        "items": [
+          "1 350 participants, apprentissage de faits, révision après un délai allant jusqu'à 3,5 mois, test final jusqu'à un an plus tard.",
+          "À délai de test donné, augmenter l'écart entre les deux études améliore d'abord la performance, puis la dégrade.",
+          "L'écart optimal vaut environ 20 % du délai avant le test pour des échéances de quelques semaines.",
+          "Il tombe à environ 5 % pour une échéance d'un an.",
+          "Conclusion des auteurs : beaucoup de pratiques pédagogiques courantes sont probablement très inefficaces."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Appliquer le calcul à votre concours",
+        "prompt": "Votre concours a lieu dans 6 mois. À quelle fréquence revoir une notion donnée ?",
+        "reveal": "Entre 5 % et 20 % de 6 mois, soit entre 9 jours et 36 jours environ : concrètement, chaque notion toutes les 2 à 4 semaines. Si le concours est dans 1 mois, la fenêtre descend à 2-6 jours. Notez que l'intervalle optimal dépend de la DATE DU TEST, pas seulement de la difficulté de la notion : le même contenu se révise plus souvent à l'approche de l'échéance."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'un intervalle plus long est toujours meilleur parce que « plus difficile donc plus formateur ». L'étude montre une courbe en cloche, pas une droite croissante. Au-delà de l'optimum, la performance se dégrade : l'effort de récupération devient un échec de récupération, ce qui n'apprend rien."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Règle de poche : « environ un dixième du temps qui reste ». Concours dans 60 jours, révision tous les 6 jours. C'est un compromis entre les 5 % et les 20 % de l'étude, facile à calculer de tête et suffisamment proche de l'optimum."
+      },
+      {
+        "type": "quiz",
+        "question": "Concours dans 10 semaines. Quel intervalle de révision viser pour une notion donnée ?",
+        "answer": "Entre 5 % et 20 % de 10 semaines, soit entre 3 ou 4 jours et 2 semaines. Une révision hebdomadaire de chaque notion tombe dans cette fenêtre et reste simple à organiser. À mesure que l'échéance approche, l'intervalle optimal se resserre mécaniquement.",
+        "hint": "Calculez 5 % et 20 % de 70 jours."
+      }
+    ]
+  },
+  {
+    "id": "meth-illusion-maitrise",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "L'illusion de maîtrise",
+    "tagline": "Se sentir prêt et être prêt sont deux choses différentes — et elles divergent systématiquement.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "exces-de-confiance",
+      "biais-cognitif",
+      "biais-retrospectif"
+    ],
+    "related": [
+      "meth-recuperation-active",
+      "meth-auto-evaluation",
+      "meth-erreurs-journal",
+      "meth-repetition-espacee"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Roediger et Karpicke ont montré en 2006 que les étudiants qui relisent un texte se jugent MIEUX préparés que ceux qui se testent, alors qu'ils retiennent nettement MOINS une fois passé un délai de quelques jours. La relecture produit une fluidité de lecture que l'esprit interprète à tort comme une maîtrise du contenu."
+      },
+      {
+        "type": "table",
+        "title": "Le résultat de Roediger et Karpicke (2006)",
+        "headers": [
+          "Délai avant le test final",
+          "Méthode la plus efficace"
+        ],
+        "rows": [
+          [
+            "5 minutes",
+            "la relecture répétée"
+          ],
+          [
+            "2 jours",
+            "le test répété, nettement"
+          ],
+          [
+            "1 semaine",
+            "le test répété, nettement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Pourquoi ce piège est si robuste",
+        "body": "Plus vous relisez une page, plus elle vous devient familière, et plus elle se lit vite. Cette fluidité est réelle, mais elle mesure votre aisance à RECONNAÎTRE le texte, pas votre capacité à le RESTITUER sans lui. Or c'est la restitution qui est évaluée le jour de l'épreuve. Le fait que les relecteurs soient les plus confiants rend le biais particulièrement dangereux : le signal d'alarme est inversé."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : juger de son niveau pendant la révision. Le seul moment où votre jugement est fiable, c'est quand vous vous testez à froid, sans le support sous les yeux, après un délai. Tout jugement porté le support ouvert surestime votre niveau."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les signaux qui trompent",
+        "items": [
+          "« Je reconnais cette question » n'est pas « je sais y répondre ».",
+          "« Ça me revient quand je vois la réponse » signifie précisément que vous ne l'aviez pas récupérée.",
+          "« J'ai tout compris en cours » ne dit rien de ce que vous restituerez dans trois semaines.",
+          "Un exercice refait juste après l'avoir corrigé ne teste rien : vous vous souvenez de la correction, pas de la méthode.",
+          "Le seul indicateur fiable est un test à froid, sur du contenu revu il y a plusieurs jours."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Si c'est confortable, ça n'apprend pas. » L'effort de récupération est désagréable — c'est son signe distinctif. Le confort de la relecture est exactement ce qui la rend inefficace."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi le résultat de Roediger et Karpicke s'inverse-t-il selon le délai du test ?",
+        "answer": "À 5 minutes, le texte est encore accessible en mémoire de travail : la relecture récente l'emporte. À 2 jours ou une semaine, seule la trace consolidée compte, et c'est l'effort de récupération répété qui l'a renforcée. Comme les concours se passent des semaines après la révision, c'est le second régime qui compte.",
+        "hint": "Que teste-t-on à 5 minutes, et que teste-t-on à une semaine ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-entrelacement",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "L'entrelacement : mélanger les types d'exercices",
+    "tagline": "Travailler en blocs homogènes donne de meilleurs résultats aujourd'hui et de moins bons dans un mois.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "biais-cognitif",
+      "arbitrage-priorisation"
+    ],
+    "related": [
+      "meth-recuperation-active",
+      "meth-repetition-espacee",
+      "meth-plan-revision",
+      "meth-connexions"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'entrelacement consiste à alterner les types de problèmes au sein d'une même séance, au lieu de traiter vingt exercices du même type à la suite. La synthèse de Dunlosky et al. le classe en utilité MODÉRÉE — moins bien établi que l'auto-test et l'espacement, mais avec des effets documentés, particulièrement en mathématiques."
+      },
+      {
+        "type": "example",
+        "title": "Bloc contre entrelacement",
+        "prompt": "Vous devez travailler pourcentages, probabilités et suites. Vaut-il mieux 20 exercices de chaque d'affilée, ou un mélange ?",
+        "reveal": "Le bloc homogène donne de meilleurs résultats PENDANT la séance : une fois la méthode en tête, les exercices s'enchaînent. Mais il ne travaille jamais la compétence réellement testée le jour J — RECONNAÎTRE de quel type est le problème. En bloc, la question « quelle méthode appliquer ? » ne se pose jamais, puisque la réponse est donnée par le titre de la série. L'entrelacement la pose à chaque exercice."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que l'entrelacement entraîne réellement",
+        "items": [
+          "La discrimination : distinguer deux problèmes qui se ressemblent mais appellent des méthodes différentes.",
+          "La sélection de méthode, qui est précisément ce qu'un QCM évalue.",
+          "La résistance à l'oubli entre deux occurrences d'un même type.",
+          "Il rend la séance plus difficile et les résultats immédiats moins bons : c'est normal et attendu.",
+          "Il se combine naturellement avec la révision espacée, puisque mélanger implique d'espacer chaque type."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : abandonner l'entrelacement parce que le taux de réussite baisse en séance. Cette baisse est le prix de l'efficacité à long terme — les psychologues parlent de « difficultés désirables ». Une méthode qui rend la séance confortable est souvent une méthode qui n'apprend rien."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Faites vos premiers exercices d'un chapitre en bloc, pour installer la méthode. Puis passez en mélange dès que la méthode est comprise. Bloc pour apprendre, mélange pour ancrer."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi l'entraînement en blocs homogènes surestime-t-il votre niveau réel ?",
+        "answer": "Parce qu'il vous dispense de la plus difficile des étapes : identifier de quel type est le problème. En série homogène, cette information est fournie gratuitement par le contexte. Le jour de l'épreuve, elle ne l'est pas — et c'est souvent là que l'erreur se produit, pas dans le calcul.",
+        "hint": "Quelle question ne se pose jamais dans une série d'exercices identiques ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-erreurs-journal",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "Le carnet d'erreurs",
+    "tagline": "Vos erreurs ne sont pas aléatoires : elles se répètent, donc elles se corrigent.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "biais-cognitif",
+      "biais-retrospectif",
+      "exces-de-confiance"
+    ],
+    "related": [
+      "meth-illusion-maitrise",
+      "meth-auto-evaluation",
+      "meth-recuperation-active",
+      "meth-lecture-enonce"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Notez chaque erreur avec sa CAUSE, pas seulement la bonne réponse. Trois catégories suffisent : erreur de connaissance (je ne savais pas), erreur de méthode (je savais mais j'ai mal appliqué), erreur d'inattention (je savais et je pouvais, mais j'ai mal lu ou mal reporté). Ces trois causes n'appellent pas du tout les mêmes remèdes."
+      },
+      {
+        "type": "table",
+        "title": "Trois causes, trois remèdes",
+        "headers": [
+          "Cause",
+          "Signe",
+          "Remède"
+        ],
+        "rows": [
+          [
+            "Connaissance",
+            "je ne connaissais pas la règle ou le mot",
+            "apprendre la fiche, puis s'auto-tester à froid"
+          ],
+          [
+            "Méthode",
+            "je connaissais la règle mais j'ai mal choisi ou mal enchaîné",
+            "refaire des exercices variés du même type, en entrelacement"
+          ],
+          [
+            "Inattention",
+            "j'aurais eu juste en relisant l'énoncé",
+            "ralentir la lecture, marquer donné/cherché/unité"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : tout classer en « inattention ». C'est la catégorie rassurante — elle suggère que le savoir est acquis et que seule la vigilance a manqué. Vérifiez-le : si la même « inattention » revient trois fois sur le même type de question, ce n'est pas de l'inattention, c'est une méthode mal installée."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Comment tenir le carnet",
+        "items": [
+          "Une ligne par erreur : la question, la cause, la correction en une phrase.",
+          "Relire le carnet avant chaque séance, pas seulement avant l'épreuve.",
+          "Compter les occurrences par cause : la répartition révèle où investir.",
+          "Rayer une ligne uniquement après avoir refait le type de question avec succès, à froid.",
+          "Un carnet court et relu vaut infiniment mieux qu'un carnet exhaustif jamais rouvert."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois lettres pour classer : C comme connaissance, M comme méthode, I comme inattention. Une erreur, une lettre. Au bout de trente erreurs, la lettre dominante vous dit exactement quoi réviser."
+      },
+      {
+        "type": "quiz",
+        "question": "La même erreur de signe revient quatre fois en deux semaines. Est-ce de l'inattention ?",
+        "answer": "Non. Une erreur qui se répète de façon systématique sur le même type d'opération est une erreur de méthode : la règle est mal installée ou mal comprise, pas simplement oubliée un jour de fatigue. Le remède n'est pas « faire attention » mais reprendre la règle et la réancrer par des exercices ciblés.",
+        "hint": "Qu'est-ce qui distingue une erreur ponctuelle d'une erreur systématique ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-sommeil",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "Sommeil, fatigue et consolidation",
+    "tagline": "Une nuit écourtée avant l'épreuve coûte plus que la révision qu'elle a permise.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "biais-cognitif",
+      "exces-de-confiance"
+    ],
+    "related": [
+      "meth-repetition-espacee",
+      "meth-plan-revision",
+      "meth-gestion-stress",
+      "meth-recuperation-active"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Le sommeil ne se contente pas de reposer : il consolide activement ce qui a été appris dans la journée. Les régions cérébrales actives pendant l'apprentissage se réactivent pendant le sommeil qui suit — l'apprentissage est en quelque sorte « rejoué ». La mémoire déclarative, celle des faits et des connaissances, est consolidée en particulier pendant le sommeil lent profond."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qui est établi",
+        "items": [
+          "Le sommeil facilite la consolidation de la mémoire déclarative (les faits) et de la mémoire procédurale (les gestes et automatismes).",
+          "Ce n'est pas seulement la durée totale qui compte, mais aussi l'architecture du sommeil : la séquence sommeil lent puis sommeil paradoxal.",
+          "Une étude publiée dans la revue Sleep en janvier 2022 par des équipes de l'Université Paris Cité et de l'Université libre de Bruxelles a mis en évidence ce rôle de la séquence des stades.",
+          "Réviser puis dormir vaut mieux que réviser puis enchaîner une autre activité intense.",
+          "La privation de sommeil dégrade l'attention soutenue, qui est précisément ce qu'exige une épreuve chronométrée."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la nuit blanche de dernière minute. Elle permet de relire quelques pages — la technique la moins efficace de toutes — au prix d'une consolidation compromise et d'une attention dégradée le jour même. L'arbitrage est presque toujours perdant."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Placez votre révision la plus exigeante en fin de journée, puis dormez dessus. Vous exploitez la consolidation nocturne au lieu de la contrarier. Et testez-vous sur ce contenu le lendemain matin : c'est un test à froid gratuit."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi une nuit blanche avant une épreuve est-elle presque toujours un mauvais calcul ?",
+        "answer": "Parce qu'elle échange une consolidation mnésique certaine contre quelques heures de relecture, qui est la technique la moins efficace. Elle dégrade en plus l'attention soutenue le jour de l'épreuve, c'est-à-dire la ressource dont dépendent la lecture d'énoncé et le calcul sans erreur.",
+        "hint": "Que perd-on, et que gagne-t-on exactement ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-plan-revision",
+    "domain": "methode",
+    "category": "Organiser son travail",
+    "title": "Construire un plan de révision",
+    "tagline": "Partir de la date de l'épreuve et remonter, plutôt que d'avancer au jour le jour.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "arbitrage-priorisation",
+      "matrice-eisenhower",
+      "gestion-stocks"
+    ],
+    "related": [
+      "meth-repetition-espacee",
+      "meth-points-arbitrage",
+      "meth-auto-evaluation",
+      "meth-entrelacement"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Un plan de révision se construit à l'envers : date de l'épreuve, puis rétroplanning. Réservez le dernier dixième du temps disponible aux épreuves blanches et à la relecture du carnet d'erreurs, et non à l'apprentissage de contenu neuf. Apprendre du neuf dans les derniers jours déstabilise plus qu'il ne rapporte."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les cinq étapes",
+        "items": [
+          "DIAGNOSTIQUER : un test initial sur chaque domaine, pour mesurer l'écart réel, pas l'écart supposé.",
+          "HIÉRARCHISER : croiser l'écart mesuré avec la densité de points du barème.",
+          "DÉCOUPER : transformer chaque domaine en notions de la taille d'une séance.",
+          "ESPACER : programmer chaque notion plusieurs fois, à un intervalle d'environ un dixième du temps restant.",
+          "AJUSTER : recaler le plan toutes les deux semaines sur les résultats mesurés, pas sur l'impression."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Un rétroplanning sur 8 semaines",
+        "prompt": "Épreuve dans 8 semaines, 5 heures de travail par semaine. Comment répartir ?",
+        "reveal": "40 heures au total. Semaines 1 à 6 : apprentissage et exercices, environ 30 heures, avec chaque notion revue à 5 ou 6 jours d'intervalle. Semaines 7 et 8 : environ 10 heures d'épreuves blanches chronométrées et de relecture du carnet d'erreurs, sans contenu nouveau. Le ratio deux tiers / un tiers entre acquisition et consolidation est un point de départ raisonnable, à ajuster selon l'écart mesuré au diagnostic."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : planifier en heures de travail sans critère d'arrêt. « Deux heures de calcul mental » n'est pas un objectif : on peut les passer à refaire ce qu'on maîtrise. « Atteindre 80 % de réussite sur les pourcentages en moins de 30 secondes par question » en est un, parce qu'il est vérifiable."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Un plan tient sur une page. S'il tient sur cinq, il ne sera pas suivi. Une ligne par semaine, deux ou trois notions par ligne, une colonne pour cocher la deuxième passe."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi réserver la dernière période aux épreuves blanches plutôt qu'à du contenu nouveau ?",
+        "answer": "Parce qu'une notion apprise quelques jours avant l'épreuve n'aura pas le temps d'être consolidée, et parce que l'épreuve blanche entraîne des compétences qu'aucune révision ne développe : la gestion du temps, l'endurance attentionnelle et la sélection de méthode sous contrainte.",
+        "hint": "Qu'est-ce qu'une épreuve blanche entraîne, que la révision n'entraîne pas ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-auto-evaluation",
+    "domain": "methode",
+    "category": "Organiser son travail",
+    "title": "S'auto-évaluer honnêtement",
+    "tagline": "Distinguer quatre niveaux : ignoré, découvert, maîtrisé, automatisé.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "exces-de-confiance",
+      "biais-cognitif",
+      "ancrage"
+    ],
+    "related": [
+      "meth-illusion-maitrise",
+      "meth-erreurs-journal",
+      "meth-plan-revision",
+      "meth-automatisation"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre niveaux, quatre tests",
+        "headers": [
+          "Niveau",
+          "Ce que vous savez faire",
+          "Comment le vérifier"
+        ],
+        "rows": [
+          [
+            "Ignoré",
+            "rien, ou une vague idée du vocabulaire",
+            "vous ne pouvez pas énoncer la règle"
+          ],
+          [
+            "Découvert",
+            "vous comprenez en lisant l'explication",
+            "vous savez suivre une correction, pas la produire"
+          ],
+          [
+            "Maîtrisé",
+            "vous résolvez correctement, sans aide",
+            "réussite élevée sur des exercices variés, à froid"
+          ],
+          [
+            "Automatisé",
+            "vous résolvez correctement ET vite",
+            "réussite élevée ET temps inférieur à votre budget par question"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Pourquoi distinguer maîtrisé et automatisé",
+        "body": "C'est la distinction la plus utile et la plus négligée. Une notion maîtrisée mais non automatisée vous fait réussir un exercice en trois minutes, alors que l'épreuve vous en accorde quatre-vingts secondes. Vous savez faire, et vous perdez quand même les points — non par ignorance, mais par lenteur. Le remède n'est pas de réviser la règle, c'est de répéter jusqu'à ce que l'application devienne réflexe."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : s'évaluer sur la seule justesse. Un tableau de bord qui n'affiche que le taux de réussite masque le problème de vitesse. Mesurez toujours les deux : combien de bonnes réponses, et en combien de temps. C'est exactement pourquoi CORTEX distingue « maîtrisé » et « automatique » dans le suivi des fiches."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les conditions d'une auto-évaluation fiable",
+        "items": [
+          "À froid : sur une notion revue il y a plusieurs jours, pas à l'instant.",
+          "Sans support : aucune fiche ouverte, aucun brouillon préparé.",
+          "Sur des exercices variés, pas sur ceux que vous avez déjà faits.",
+          "Chronométrée, pour capter la dimension de vitesse.",
+          "Répétée : un seul test peut être un coup de chance ou un mauvais jour."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux questions pour tout auto-diagnostic : « est-ce juste ? » et « est-ce assez rapide ? ». Un non à la première est un problème de connaissance ou de méthode ; un non à la seule seconde est un problème d'automatisation."
+      },
+      {
+        "type": "quiz",
+        "question": "Vous réussissez 90 % des exercices de pourcentages, mais en 2 minutes chacun, pour un budget de 80 secondes. Quel est votre niveau réel ?",
+        "answer": "Maîtrisé, mais non automatisé. La connaissance et la méthode sont acquises ; c'est la vitesse d'exécution qui manque. Réviser la règle serait du temps perdu : il faut répéter des exercices simples en série chronométrée jusqu'à ce que le calcul devienne réflexe.",
+        "hint": "Qu'est-ce qui est en défaut : la justesse ou le temps ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-automatisation",
+    "domain": "methode",
+    "category": "Organiser son travail",
+    "title": "Automatiser : du savoir au réflexe",
+    "tagline": "Savoir faire ne suffit pas quand le temps par question se compte en secondes.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "ordre-de-grandeur",
+      "fractions-usuelles",
+      "exces-de-confiance"
+    ],
+    "related": [
+      "meth-auto-evaluation",
+      "meth-calcul-sans-calculatrice",
+      "vit-gestion-temps",
+      "meth-recuperation-active"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'automatisation consiste à faire passer une opération du raisonnement conscient, coûteux et lent, à la récupération directe en mémoire, quasi instantanée. Ce n'est pas un raccourci intellectuel : c'est ce qui libère votre attention pour la partie réellement difficile du problème."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qui mérite d'être automatisé",
+        "items": [
+          "Les tables de multiplication jusqu'à 15, et les carrés jusqu'à 25.",
+          "Les fractions usuelles en pourcentage : 1/3 ≈ 33,3 %, 1/6 ≈ 16,7 %, 1/8 = 12,5 %, 1/7 ≈ 14,3 %.",
+          "Les puissances de 2 jusqu'à 2¹⁰ = 1 024.",
+          "Les coefficients multiplicateurs : +20 % → ×1,2, −20 % → ×0,8, +50 % → ×1,5.",
+          "Les conversions d'unités de temps et les principales équivalences métriques."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Pourquoi cela change le résultat",
+        "body": "Votre mémoire de travail ne traite qu'un nombre très limité d'éléments à la fois. Si elle est occupée à reconstituer 7 × 8, elle n'est pas disponible pour suivre la structure du problème. Automatiser les briques de base ne vous rend pas plus intelligent : cela rend votre intelligence disponible pour ce qui en a besoin."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : considérer l'automatisation comme du « par cœur » indigne d'un raisonnement de haut niveau. C'est l'inverse : les candidats qui raisonnent le mieux sont ceux qui n'ont plus à raisonner sur les mécanismes de base. L'automatisme est au service du raisonnement, pas son substitut."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Testez-vous en série courte et chronométrée : vingt items, un chronomètre, un score. L'automatisation se travaille par répétition brève et fréquente — cinq minutes par jour valent mieux qu'une heure par semaine."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi automatiser les fractions usuelles change-t-il votre performance sur les problèmes complexes ?",
+        "answer": "Parce que la mémoire de travail est limitée. Chaque conversion reconstruite à la main en occupe une partie et réduit d'autant la ressource disponible pour comprendre la structure du problème. Automatiser les briques libère l'attention pour le raisonnement — c'est un gain sur les questions difficiles, pas seulement sur les faciles.",
+        "hint": "Quelle ressource cognitive est limitée pendant un calcul ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-connexions",
+    "domain": "methode",
+    "category": "Organiser son travail",
+    "title": "Relier les notions entre elles",
+    "tagline": "Une notion isolée s'oublie ; une notion reliée à trois autres se retrouve par trois chemins.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "analogie-verbale",
+      "biais-cognitif",
+      "logique-deductive"
+    ],
+    "related": [
+      "meth-entrelacement",
+      "meth-recuperation-active",
+      "meth-elaboration",
+      "meth-auto-evaluation"
+    ],
+    "subtests": [
+      "raisonnement",
+      "logique-verbale-numerique"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "La mémoire fonctionne par association. Une information reliée à plusieurs autres devient accessible par plusieurs chemins : si l'un est bloqué le jour de l'épreuve, un autre fonctionne. C'est la raison pratique pour laquelle il faut relier explicitement ce qu'on apprend, au lieu d'empiler des fiches indépendantes."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Quatre types de liens à créer",
+        "items": [
+          "MÉCANISME COMMUN : deux notions reposent sur le même calcul — les remises successives et les intérêts composés sont tous deux des produits de coefficients.",
+          "OPPOSITION : deux notions se définissent l'une contre l'autre — taux de marge et taux de marque, inflation et déflation.",
+          "HIÉRARCHIE : une notion est un cas particulier d'une autre — un carré est un rectangle, une moyenne pondérée est une généralisation de la moyenne simple.",
+          "TRANSFERT DE DOMAINE : le même raisonnement sert ailleurs — le seuil de rentabilité en gestion est une résolution d'équation en mathématiques."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Un lien qui fait gagner du temps",
+        "prompt": "Quel est le lien entre « deux remises successives de 10 % » et « des intérêts composés à 10 % sur deux ans » ?",
+        "reveal": "Le même mécanisme, dans deux sens opposés : un produit de coefficients. Les remises donnent 0,9 × 0,9 = 0,81, soit −19 %. Les intérêts donnent 1,1 × 1,1 = 1,21, soit +21 %. Dans les deux cas, on multiplie les coefficients plutôt que d'additionner les taux. Comprendre ce lien une fois, c'est maîtriser les deux chapitres — et voir immédiatement pourquoi −10 % puis +10 % ne ramène pas au point de départ."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : réviser chaque chapitre dans son silo, comme si c'étaient des matières différentes. Les concours testent au contraire la capacité à reconnaître un mécanisme connu dans un habillage nouveau. Un problème de dilution, de mélange d'alliages et de moyenne pondérée sont le même exercice sous trois costumes."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Après chaque fiche, une seule question : « à quoi d'autre est-ce que cela ressemble ? » Si vous ne trouvez rien, vous n'avez pas encore compris la notion, seulement mémorisé son énoncé. C'est le rôle de la section « À relier avec » de chaque fiche."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel mécanisme commun relient les mélanges d'alliages, les problèmes de dilution et le calcul d'un prix moyen ?",
+        "answer": "La moyenne pondérée. Dans les trois cas, on combine des quantités de composition différente et le résultat est la moyenne des compositions, pondérée par les quantités. Reconnaître ce mécanisme unique évite d'apprendre trois méthodes distinctes.",
+        "hint": "Que fait-on quand on combine des quantités de concentrations différentes ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-elaboration",
+    "domain": "methode",
+    "category": "Apprendre efficacement",
+    "title": "Se demander « pourquoi ? »",
+    "tagline": "L'interrogation élaborative : transformer un fait à retenir en fait qui se déduit.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "logique-deductive",
+      "biais-cognitif"
+    ],
+    "related": [
+      "meth-connexions",
+      "meth-recuperation-active",
+      "meth-illusion-maitrise",
+      "meth-entrelacement"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'interrogation élaborative consiste à se demander POURQUOI un fait est vrai, plutôt que de le mémoriser tel quel. La synthèse de Dunlosky et ses collègues la classe en utilité MODÉRÉE, aux côtés de l'auto-explication et de l'entrelacement. Son intérêt pratique : un fait compris se reconstruit, alors qu'un fait appris se perd."
+      },
+      {
+        "type": "example",
+        "title": "Mémoriser ou déduire",
+        "prompt": "« Le seuil de renouvellement des générations est de 2,1 enfants par femme. » Faut-il le retenir ou le comprendre ?",
+        "reveal": "Le comprendre : il naît un peu plus de garçons que de filles, et une petite fraction des femmes n'atteint pas l'âge de procréer. Il faut donc un peu plus de 2 enfants par femme pour remplacer exactement une génération. Une fois cette raison comprise, vous ne pouvez plus confondre 2,1 avec 2,0 — et vous savez en plus pourquoi ce seuil est plus élevé dans un pays à forte mortalité infantile. Un fait appris devient deux faits déduits."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les bonnes questions élaboratives",
+        "items": [
+          "« Pourquoi est-ce vrai ? » — cherche le mécanisme.",
+          "« Pourquoi pas l'inverse ? » — teste la nécessité de la règle.",
+          "« À quoi cela ressemble-t-il ? » — crée un lien avec du connu.",
+          "« Dans quel cas cela ne marche-t-il plus ? » — délimite la règle, ce qui est exactement ce qu'un piège de QCM exploite.",
+          "« Comment l'expliquerais-je à quelqu'un ? » — révèle immédiatement les trous."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : chercher une explication à ce qui n'en a pas. Certains faits sont purement conventionnels — une date, un sigle, un effectif d'organisation. Les élaborer artificiellement fait perdre du temps. Réservez cette technique aux règles et aux mécanismes ; pour les conventions, l'auto-test espacé est plus efficace."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "La question la plus rentable de toutes : « dans quel cas cette règle cesse-t-elle de s'appliquer ? » Les concepteurs de QCM construisent précisément leurs pièges sur ces cas limites."
+      },
+      {
+        "type": "quiz",
+        "question": "Sur quel type de contenu l'interrogation élaborative est-elle peu utile ?",
+        "answer": "Sur les faits purement conventionnels : une date, un sigle, le nombre de membres d'une organisation. Il n'y a rien à déduire d'un effectif décidé par un traité. Pour ces contenus, l'auto-test répété et espacé reste la méthode de référence.",
+        "hint": "Que se passe-t-il quand il n'y a pas de mécanisme à comprendre ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-culture-actualite",
+    "domain": "methode",
+    "category": "Méthode par domaine",
+    "title": "Réviser la culture générale sans courir après l'actualité",
+    "tagline": "Séparer le stable, qui s'apprend, de l'actualité, qui se suit.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "economie",
+      "geopolitique",
+      "indicateurs"
+    ],
+    "related": [
+      "culture-methode-veille",
+      "monde-conflits-contemporains",
+      "monde-medias",
+      "meth-repetition-espacee"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "La culture générale d'un concours de commerce se divise en deux blocs très différents. Le STABLE — institutions, définitions, mécanismes économiques, dates historiques — s'apprend une fois et se révise par auto-test espacé. L'ACTUALITÉ — conjoncture, dirigeants, derniers sommets — ne s'apprend pas : elle se suit. Confondre les deux fait perdre énormément de temps."
+      },
+      {
+        "type": "table",
+        "title": "Deux blocs, deux traitements",
+        "headers": [
+          "Type de contenu",
+          "Exemples",
+          "Méthode"
+        ],
+        "rows": [
+          [
+            "Stable",
+            "nombre de députés, critères de Maastricht, mission du FMI, définition du chômage au sens du BIT",
+            "fiche + auto-test espacé"
+          ],
+          [
+            "Semi-stable",
+            "effectif d'une organisation, composition d'un groupe de pays",
+            "fiche DATÉE, à revérifier avant l'épreuve"
+          ],
+          [
+            "Volatil",
+            "taux d'inflation du mois, dirigeant en poste, dernier sommet",
+            "veille régulière, jamais de mémorisation figée"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Une veille de dix minutes par jour",
+        "items": [
+          "Lire les titres économiques d'un quotidien de référence, pas l'intégralité des articles.",
+          "Pour chaque information : de quel MÉCANISME connu est-ce une illustration ?",
+          "Noter uniquement ce qui éclaire une notion de fiche — pas le fait divers.",
+          "Une fois par semaine, vérifier deux ou trois chiffres semi-stables à la source primaire.",
+          "Ne jamais reprendre un effectif d'organisation depuis un manuel : ces chiffres bougent."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : mémoriser un chiffre de conjoncture sans sa date. « L'inflation est à 2 % » est une affirmation sans valeur si l'on ignore de quand elle date. Un chiffre daté reste juste indéfiniment ; un chiffre non daté devient faux en quelques mois. C'est pourquoi chaque fiche de culture générale de CORTEX porte une date de mise à jour."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Règle de tri en une question : « ce fait sera-t-il encore vrai dans deux ans ? » Si oui, il s'apprend. Si non, il se date ou il se suit. Appliquée systématiquement, elle divise par deux le volume à mémoriser."
+      },
+      {
+        "type": "quiz",
+        "question": "Un QCM demande le nombre de membres de l'OTAN. Dans quel bloc classer cette information ?",
+        "answer": "Semi-stable. L'effectif change rarement mais il change : 30, puis 31 avec la Finlande en 2023, puis 32 avec la Suède le 7 mars 2024. Il faut donc l'apprendre AVEC sa date et le revérifier avant l'épreuve, plutôt que de le tenir pour définitif.",
+        "hint": "Cet effectif a changé deux fois en deux ans."
+      }
+    ]
+  },
+  {
+    "id": "meth-calcul-sans-calculatrice",
+    "domain": "methode",
+    "category": "Méthode par domaine",
+    "title": "Méthode du calcul sans calculatrice",
+    "tagline": "Choisir la route avant de calculer : la plupart des calculs longs sont évitables.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "multiplication-approchee",
+      "ordre-de-grandeur",
+      "fractions-usuelles",
+      "pourcentages"
+    ],
+    "related": [
+      "meth-automatisation",
+      "meth-ordre-de-grandeur",
+      "vit-gestion-temps",
+      "meth-strategie-qcm"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Avant de poser un calcul, prenez deux secondes pour choisir la méthode. Un même résultat peut demander trente secondes ou trois minutes selon la route choisie. Cette décision initiale rapporte plus que n'importe quelle amélioration de votre vitesse d'exécution."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les cinq réflexes de choix de route",
+        "items": [
+          "SIMPLIFIER AVANT de multiplier : dans une fraction, éliminez les facteurs communs plutôt que de calculer numérateur et dénominateur.",
+          "DÉCOMPOSER : 17 × 24 = 17 × 25 − 17 = 425 − 17 = 408.",
+          "PASSER PAR LES FRACTIONS : 37,5 % de 240 = 3/8 × 240 = 90, immédiat.",
+          "CHERCHER LA COMPENSATION : 48 × 52 = (50 − 2)(50 + 2) = 2 500 − 4 = 2 496.",
+          "ESTIMER D'ABORD si la question dit « environ » : une estimation suffit et va dix fois plus vite."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Deux routes, un résultat",
+        "prompt": "Calculer 875 / 25.",
+        "reveal": "Route longue : poser la division. Route courte : diviser par 25 revient à multiplier par 4 puis diviser par 100, car 25 = 100/4. Donc 875 × 4 = 3 500, puis 3 500/100 = 35. Le même principe vaut pour 50 (×2 puis /100) et pour 12,5 (×8 puis /100). Reconnaître ces diviseurs vous fait gagner plusieurs secondes par question, ce qui se compte en questions supplémentaires traitées."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : se lancer dans le calcul exact quand l'énoncé ou les propositions n'en demandent pas. Si les quatre propositions sont 12, 48, 120 et 480, une estimation à un facteur près suffit. Regardez les propositions AVANT de calculer : elles vous disent la précision requise."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux secondes de choix de route valent trente secondes de calcul. Et une règle qui sert constamment : diviser par 25, c'est multiplier par 4 et diviser par 100 ; diviser par 5, c'est multiplier par 2 et diviser par 10."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi faut-il regarder les propositions avant de commencer un calcul ?",
+        "answer": "Parce qu'elles indiquent la précision nécessaire. Si elles sont très éloignées les unes des autres, une estimation grossière tranche. Si elles sont proches, le calcul exact est requis. Décider de la précision avant de calculer évite de dépenser une minute là où dix secondes suffisaient.",
+        "hint": "Que vous apprend l'écart entre les propositions ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-anglais-progression",
+    "domain": "methode",
+    "category": "Méthode par domaine",
+    "title": "Méthode pour progresser en anglais",
+    "tagline": "La grammaire se révise par règles, le vocabulaire par exposition répétée : deux méthodes distinctes.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "temps-verbaux",
+      "faux-amis",
+      "collocation",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "meth-vocabulaire-methode",
+      "meth-repetition-espacee",
+      "anglais-grammaire-prioritaire",
+      "meth-recuperation-active"
+    ],
+    "subtests": [
+      "grammaire",
+      "vocabulaire",
+      "comprehension"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "L'anglais d'examen se travaille sur trois fronts qui n'ont pas la même méthode. La GRAMMAIRE est un ensemble fini de règles : elle s'apprend et se teste. Le VOCABULAIRE est un ensemble ouvert : il s'acquiert par exposition répétée et par récupération espacée. La COMPRÉHENSION est une compétence : elle se travaille par pratique chronométrée."
+      },
+      {
+        "type": "table",
+        "title": "Trois fronts, trois méthodes",
+        "headers": [
+          "Front",
+          "Nature",
+          "Méthode"
+        ],
+        "rows": [
+          [
+            "Grammaire",
+            "règles en nombre fini",
+            "fiche par règle, exercices ciblés, carnet d'erreurs"
+          ],
+          [
+            "Vocabulaire",
+            "ensemble ouvert",
+            "auto-test espacé, par familles et collocations"
+          ],
+          [
+            "Compréhension",
+            "compétence de traitement",
+            "textes chronométrés, questions avant lecture"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les priorités à fort rendement",
+        "items": [
+          "Les temps verbaux, en particulier present perfect contre past simple : c'est le point le plus testé et le plus raté par les francophones.",
+          "Les faux amis, qui produisent des erreurs de sens et non de forme — donc plus coûteuses.",
+          "Les verbes à particule (phrasal verbs) du registre professionnel.",
+          "Les prépositions, qui ne se déduisent pas et doivent s'apprendre en bloc avec le verbe.",
+          "Les collocations : « make a decision » et non « do a decision » — un mot juste dans un assemblage faux reste une erreur."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : apprendre le vocabulaire en listes de mots isolés avec leur traduction. Un mot anglais n'a presque jamais un seul équivalent français, et son emploi dépend de ses collocations. Apprenez « to meet a deadline », pas « deadline = échéance » : vous retenez le mot, sa construction et son registre d'un seul coup."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour le vocabulaire, la règle du groupe de trois : chaque mot nouveau s'apprend avec un verbe qui l'accompagne et un exemple de phrase. Trois éléments au lieu d'un, et une mémorisation bien plus solide."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi apprendre une collocation plutôt qu'un mot seul ?",
+        "answer": "Parce que le choix du mot qui accompagne n'est pas déductible de la traduction. « Prendre une décision » se dit « make a decision » et non « take » ni « do ». Apprendre le mot isolé vous laisse choisir au hasard l'assemblage, qui est précisément ce que les QCM de vocabulaire testent.",
+        "hint": "Que teste un QCM de vocabulaire : le mot, ou son assemblage ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-vocabulaire-methode",
+    "domain": "methode",
+    "category": "Méthode par domaine",
+    "title": "Méthode pour apprendre du vocabulaire",
+    "tagline": "Par familles et par contrastes, jamais par listes alphabétiques.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "synonymes",
+      "antonymes",
+      "paronymes",
+      "nuances"
+    ],
+    "related": [
+      "meth-anglais-progression",
+      "meth-repetition-espacee",
+      "meth-connexions",
+      "vocabulaire-synonymie"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "lexiphrase"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Le vocabulaire ne s'apprend pas par listes alphabétiques : il s'apprend par réseaux. Regroupez les mots par famille de sens, par contraste, par racine commune. Un mot appris seul s'oublie ; un mot appris avec son contraire et son paronyme se retrouve par plusieurs chemins et, surtout, ne se confond plus avec eux."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Quatre regroupements efficaces",
+        "items": [
+          "PAR CONTRASTE : apprendre un mot avec son antonyme — prolixe / laconique, exacerber / atténuer.",
+          "PAR PARONYMIE : apprendre ensemble les mots qui se ressemblent et se confondent — éminent / imminent, effraction / infraction.",
+          "PAR RACINE : une racine latine ou grecque éclaire plusieurs dizaines de mots — « chrono » pour le temps, « anthropo » pour l'humain.",
+          "PAR REGISTRE : savoir si un mot est courant, soutenu ou technique, car les QCM de lexiphrase testent souvent le niveau de langue."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Pourquoi le contraste est plus efficace",
+        "prompt": "Apprendre « prolixe » seul, ou avec « laconique » ?",
+        "reveal": "Avec son antonyme. Prolixe veut dire qui parle ou écrit trop abondamment ; laconique, qui s'exprime en très peu de mots. Appris ensemble, les deux mots se définissent mutuellement et ne peuvent plus être inversés. Appris séparément, ils risquent au contraire d'être confondus, puisque les deux décrivent une manière de s'exprimer."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : se contenter de reconnaître un mot. « Je l'ai déjà vu » n'est pas « je peux le définir ». Les QCM de vocabulaire exigent de discriminer entre quatre sens voisins, ce qui suppose une définition précise, pas une impression de familiarité. Testez-vous en produisant la définition, pas en la reconnaissant."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour chaque mot nouveau, écrivez trois choses : une définition en vos propres mots, un antonyme, et une phrase où le mot est indispensable. Si vous ne trouvez pas de phrase où il est indispensable, vous n'avez pas encore saisi sa nuance."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi apprendre les paronymes par paires plutôt que séparément ?",
+        "answer": "Parce que le risque n'est pas d'ignorer le mot mais de le confondre avec son paronyme. Les apprendre séparément laisse la confusion intacte ; les apprendre face à face installe la distinction, qui est exactement ce que le QCM évalue.",
+        "hint": "Quel est le risque réel avec un paronyme : l'ignorance ou la confusion ?"
+      }
+    ]
+  },
+  {
+    "id": "meth-gestion-stress",
+    "domain": "methode",
+    "category": "Le jour de l'épreuve",
+    "title": "Gérer le stress le jour de l'épreuve",
+    "tagline": "Un protocole préparé à l'avance remplace les décisions prises sous pression.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "exces-de-confiance",
+      "biais-cognitif",
+      "arbitrage-priorisation"
+    ],
+    "related": [
+      "meth-gestion-temps-epreuve",
+      "meth-sommeil",
+      "meth-plan-revision",
+      "meth-strategie-qcm"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "À retenir",
+        "body": "Le stress ne se combat pas par la volonté le jour même : il se réduit en amont, en supprimant les décisions à prendre sous pression. Tout ce qui est décidé à l'avance — budget par question, seuil d'abandon, ordre de traitement, moment du contrôle horaire — n'a plus à être arbitré dans l'urgence."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qui se décide avant, pas pendant",
+        "items": [
+          "Votre budget de temps par question, calculé et connu par cœur.",
+          "Votre seuil d'abandon provisoire, environ le double du budget.",
+          "Votre ordre de traitement : première passe rapide, puis reprises.",
+          "Votre gestion des blancs : répondre systématiquement s'il n'y a pas de pénalité.",
+          "Votre repère de mi-parcours : un seul contrôle de l'horloge à la moitié du temps."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Que faire pendant un blocage",
+        "body": "Un blocage momentané est normal et transitoire. La conduite utile est simple : marquez la question, passez à la suivante, et revenez-y plus tard. Le fait de traiter deux ou trois questions accessibles entre-temps suffit souvent à débloquer la première — la mémoire continue de travailler dessus en arrière-plan. S'acharner immédiatement produit l'inverse : la pression monte et l'accès à l'information se dégrade."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : interpréter un stress normal comme un signe d'impréparation. Un certain niveau d'activation améliore la performance ; c'est son excès qui la dégrade. Le fait d'être tendu avant une épreuve ne dit rien de votre niveau — la seule information fiable sur votre niveau, c'est ce que vos tests à froid ont mesuré."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois gestes en cas de blocage : marquer, respirer une fois lentement, passer. Dans cet ordre, sans délibérer. Un protocole appliqué sans réfléchir est précisément ce dont on a besoin quand réfléchir devient difficile."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi revenir à une question bloquante après en avoir traité d'autres fonctionne-t-il souvent ?",
+        "answer": "Parce que passer à autre chose interrompt la piste de raisonnement infructueuse dans laquelle on s'était enfermé. Au retour, on relit l'énoncé sans l'ancrage de la première approche, ce qui rend accessible une autre entrée dans le problème — en plus du gain de temps immédiat sur les questions traitées entre-temps.",
+        "hint": "Qu'est-ce qui change dans votre lecture, au retour ?"
+      }
+    ]
   }
 ]

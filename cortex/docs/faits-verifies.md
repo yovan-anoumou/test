@@ -572,3 +572,105 @@ externe** ; les 5 forces de Porter portent sur **un secteur**, pas sur une
 entreprise.
 
 Sources : [Blog gestion de projet — outils d'analyse stratégique](https://blog-gestion-de-projet.com/gestion-entreprise/outils-methodes-strategie/), [MyStudies — quel outil choisir](https://ai.mystudies.com/blog/nos-astuces/quel-outil-marketing-choisir-presenter-entreprise-12-03-2026.html)
+
+---
+
+## Climat et accord de Paris (vérifié le 2026-09-23)
+
+| Donnée | Valeur |
+|---|---|
+| Adoption de l'accord de Paris | 12 décembre 2015, COP21, Paris |
+| Entrée en vigueur | 4 novembre 2016 |
+| Parties | 194 (193 pays + l'Union européenne) |
+| Objectif de température | contenir le réchauffement « bien en dessous de 2 °C » par rapport à l'ère préindustrielle, et poursuivre l'action pour le limiter à 1,5 °C |
+| CDN | contributions déterminées au niveau national, révisées tous les 5 ans |
+| Bilan mondial | premier bilan mondial en 2023 |
+
+Sources : [Nations unies](https://www.un.org/fr/climatechange/paris-agreement), [CCNUCC](https://unfccc.int/process-and-meetings/the-paris-agreement)
+
+⚠️ Piège : les sources donnent 195 ou 196 Parties **à l'adoption** et 194 Parties
+**aujourd'hui** (des retraits ayant eu lieu). Dans les fiches : donner 194 en le
+datant, et ne pas présenter ce nombre comme figé.
+
+---
+
+## Mix électrique français — bilan RTE 2025 (vérifié le 2026-09-23)
+
+| Source | Production 2025 | Part |
+|---|---|---|
+| Nucléaire | 373,0 TWh | 68,1 % |
+| Hydraulique | 62,4 TWh | 11,4 % |
+| Éolien (terrestre + en mer) | 49,6 TWh | 9,1 % |
+| Solaire | 32,9 TWh | 6,0 % |
+| Gaz | 16,4 TWh | 3,0 % |
+| **Total** | **547,5 TWh** | — |
+
+- Production bas carbone : 521,1 TWh, soit **plus de 95 %** du mix (maximum historique).
+- Production thermique fossile : plus bas niveau depuis 75 ans.
+- Intensité carbone de l'électricité française : **19,6 gCO₂eq/kWh** en 2025.
+
+Sources : [RTE — bilan électrique 2025](https://www.rte-france.com/actualites/bilan-electrique-2025-conditions-sont-reunies-permettre-france-accelerer-electrification), [rapport complet PDF](https://assets.rte-france.com/prod/public/2026-03/Bilan-electrique-2025-rapport-complet_0.pdf)
+
+Décision de rédaction : ces parts évoluent chaque année. Dans les fiches,
+**dater « bilan RTE 2025 »** et enseigner l'ordre de grandeur (≈ deux tiers de
+nucléaire, > 90 % de bas carbone), pas la décimale.
+
+---
+
+## Réglementation européenne du numérique (vérifié le 2026-09-23)
+
+| Texte | Adoption / entrée en vigueur | Entrée en application |
+|---|---|---|
+| **RGPD** | adopté le 27 avril 2016, en vigueur le 24 mai 2016 | **25 mai 2018** |
+| **DMA** (Digital Markets Act) | en vigueur le 1er novembre 2022 | 2 mai 2023 |
+| **DSA** (Digital Services Act) | en vigueur le 16 novembre 2022 | 17 février 2024 |
+| **AI Act** | en vigueur le 1er août 2024 | par étapes : pratiques interdites le 2 février 2025, modèles à usage général le 2 août 2025, régime général le 2 août 2026 |
+
+Sanctions RGPD (article 83) : deux paliers — jusqu'à 10 M€ ou 2 % du chiffre
+d'affaires annuel mondial, et jusqu'à 20 M€ ou 4 % pour les manquements les plus
+graves ; **le montant le plus élevé des deux** s'applique.
+
+Sources : [CNIL](https://www.cnil.fr/fr/reglement-europeen-protection-donnees), [Wikipédia — RGPD](https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es), [Parlement européen — DMA/DSA](https://www.europarl.europa.eu/topics/en/article/20211209STO19124/eu-digital-markets-act-and-digital-services-act-explained), [Commission européenne — AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
+
+⚠️ Piège fréquent : confondre entrée en vigueur (24 mai 2016) et entrée en
+application (25 mai 2018) du RGPD. Une source consultée donnait « entrée en
+vigueur le 24 mai 2018 », ce qui mélange les deux. Vérifié sur une seconde
+source.
+
+---
+
+## Entreprises françaises — faits stables (vérifié le 2026-09-23)
+
+| Groupe | Fait vérifié |
+|---|---|
+| **LVMH** | créé le 3 juin 1987 par la fusion de Moët Hennessy (Moët et Chandon + Hennessy) et de Louis Vuitton. Bernard Arnault le dirige depuis 1987, contrôle acquis en 1990. Plus de 70 maisons, organisées en pôles : vins et spiritueux, mode et maroquinerie, parfums et cosmétiques, montres et joaillerie, distribution sélective, hôtellerie, médias. |
+| **TotalEnergies** | fondée en 1924 sous le nom de Compagnie française des pétroles. Fusion avec Petrofina en 1999, acquisition d'Elf Aquitaine en 2000. Renommée **TotalEnergies en mai 2021** (annonce en février, approbation par les actionnaires en mai). Siège à La Défense. |
+| **Airbus** | consortium créé le **18 décembre 1970**. Partenaires : France, Allemagne, Espagne, puis Royaume-Uni en 1979. Siège à Blagnac, près de Toulouse. Concurrent principal : Boeing. L'A320 a établi Airbus comme acteur majeur. |
+| **Stellantis** | fusion de PSA et de Fiat Chrysler Automobiles, effective le **16 janvier 2021**. 14 marques automobiles, dont Peugeot, Citroën, DS, Opel, Fiat, Jeep, Alfa Romeo, Maserati. |
+
+Sources : [LVMH](https://fr.wikipedia.org/wiki/LVMH), [TotalEnergies](https://fr.wikipedia.org/wiki/TotalEnergies), [Airbus](https://fr.wikipedia.org/wiki/Airbus), [Stellantis](https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed)
+
+Décision de rédaction : **aucun chiffre d'affaires, aucun classement, aucun
+effectif** dans les fiches entreprises. Ces données changent tous les ans. On
+enseigne les dates de création, les fusions structurantes et les métiers — qui,
+eux, ne bougent pas.
+
+---
+
+## Sommeil et consolidation mnésique (vérifié le 2026-09-23)
+
+- Le sommeil facilite la consolidation de la mémoire **déclarative** (faits,
+  connaissances) et **procédurale** (gestes, automatismes).
+- La consolidation des souvenirs déclaratifs, dépendants de l'hippocampe, est
+  favorisée par le **sommeil lent profond** (non-REM).
+- Les régions cérébrales actives pendant l'apprentissage se réactivent pendant
+  le sommeil qui suit : l'apprentissage est « rejoué ».
+- Une étude publiée dans *Sleep* en janvier 2022 (Université Paris Cité /
+  Université libre de Bruxelles) montre que c'est la **séquence** des stades
+  (sommeil lent puis paradoxal) qui compte, et pas seulement la durée totale.
+
+Sources : [CNRS Biologie](https://www.insb.cnrs.fr/fr/cnrsinfo/larchitecture-du-sommeil-la-cle-pour-une-memoire-optimale), [Université Paris Cité](https://u-paris.fr/consolidation-de-la-memoire-le-cycle-de-sommeil-en-question/), [Revue de neuropsychologie — Cairn](https://stm.cairn.info/revue-de-neuropsychologie-2013-4-page-273?lang=fr)
+
+Décision de rédaction : **aucun chiffre de gain de mémorisation** dans les
+fiches (les effets rapportés varient beaucoup selon les protocoles). On énonce
+le sens du résultat et le mécanisme, qui sont établis.
