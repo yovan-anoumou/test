@@ -114,5 +114,4165 @@
         "body": "Si un mot anglais « te semble trop familier », méfie-toi : c'est souvent le signe d'un faux ami. Vérifie le sens dans le contexte de la phrase plutôt que de te fier à la ressemblance avec le français."
       }
     ]
+  },
+  {
+    "id": "angv-faux-amis-essentiels",
+    "domain": "anglais",
+    "category": "Faux amis",
+    "title": "Les quinze faux amis à ne plus rater",
+    "tagline": "Actually = en fait. Eventually = finalement. Sensible = raisonnable. Trois mots, trois contresens.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "faux-amis",
+      "paronymes",
+      "confusion-frequente",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-actually-eventually",
+      "angv-efficient-effective",
+      "anglais-pieges-francophones",
+      "angv-faux-amis-business"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les faux amis vérifiés",
+        "headers": [
+          "Anglais",
+          "Vrai sens",
+          "Confondu avec",
+          "Le mot français se dit"
+        ],
+        "rows": [
+          [
+            "actually",
+            "en fait",
+            "actuellement",
+            "currently, at the moment"
+          ],
+          [
+            "eventually",
+            "finalement",
+            "éventuellement",
+            "possibly, perhaps"
+          ],
+          [
+            "sensible",
+            "raisonnable",
+            "sensible (émotif)",
+            "sensitive"
+          ],
+          [
+            "comprehensive",
+            "complet, exhaustif",
+            "compréhensif",
+            "understanding"
+          ],
+          [
+            "deception",
+            "tromperie",
+            "déception",
+            "disappointment"
+          ],
+          [
+            "to deceive",
+            "tromper",
+            "décevoir",
+            "to disappoint"
+          ],
+          [
+            "evidence",
+            "preuve(s)",
+            "évidence",
+            "obvious fact"
+          ],
+          [
+            "efficient",
+            "efficient (sans gaspillage)",
+            "efficace (qui atteint le but)",
+            "effective"
+          ],
+          [
+            "to demand",
+            "exiger",
+            "demander",
+            "to ask"
+          ],
+          [
+            "to resume",
+            "reprendre",
+            "résumer",
+            "to summarize"
+          ],
+          [
+            "library",
+            "bibliothèque",
+            "librairie",
+            "bookshop, bookstore"
+          ],
+          [
+            "to assist",
+            "aider",
+            "assister à",
+            "to attend"
+          ],
+          [
+            "to pretend",
+            "faire semblant",
+            "prétendre",
+            "to claim"
+          ],
+          [
+            "appointment",
+            "rendez-vous",
+            "appointements (salaire)",
+            "salary"
+          ],
+          [
+            "to support",
+            "soutenir financièrement",
+            "supporter (endurer)",
+            "to put up with"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un faux ami est un mot qui ressemble à un mot français mais n'en a pas le sens. Ils sont particulièrement dangereux parce qu'ils ne déclenchent aucun doute : on croit comprendre. En compréhension écrite, un seul faux ami mal lu peut inverser le sens d'un paragraphe entier."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie réellement : « Actually, we eventually accepted a comprehensive agreement » ?",
+        "reveal": "« En fait, nous avons FINALEMENT accepté un accord COMPLET. » La lecture naïve — « actuellement, nous accepterions éventuellement un accord compréhensif » — dit presque l'inverse."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en QCM : la proposition qui traduit le faux ami par son sosie français est toujours présente, et c'est celle que l'on choisit par réflexe. Quand un mot anglais ressemble trop à du français, méfie-toi précisément à cause de cette ressemblance."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Apprends-les par PAIRES, avec les deux traductions dans les deux sens : « actually = en fait / actuellement = currently ». Retenir un seul sens laisse l'erreur possible dans l'autre direction."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Il est actuellement en réunion, mais il pourra éventuellement nous aider. »",
+        "answer": "« He is currently in a meeting, but he may possibly help us. » — surtout pas *actually* ni *eventually*.",
+        "hint": "Les deux faux amis les plus coûteux sont dans cette phrase."
+      }
+    ]
+  },
+  {
+    "id": "angv-actually-eventually",
+    "domain": "anglais",
+    "category": "Faux amis",
+    "title": "Actually, eventually, finally, in the end",
+    "tagline": "Quatre adverbes proches en apparence, quatre sens distincts — et deux faux amis parmi eux.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "faux-amis",
+      "nuances",
+      "confusion-frequente"
+    ],
+    "related": [
+      "angv-faux-amis-essentiels",
+      "ang-connecteurs-temps",
+      "angv-nuances",
+      "angv-registre-formel"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre adverbes",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "actually",
+            "en fait, à vrai dire (rectification)",
+            "Actually, the figure is 12 %, not 20 %."
+          ],
+          [
+            "eventually",
+            "finalement, au bout du compte",
+            "After months of talks, they eventually agreed."
+          ],
+          [
+            "finally",
+            "enfin (dernier élément d'une série)",
+            "Finally, let me thank the team."
+          ],
+          [
+            "in the end",
+            "au final, après des difficultés",
+            "In the end, we chose the cheaper option."
+          ],
+          [
+            "currently",
+            "actuellement, en ce moment",
+            "He is currently on assignment in Berlin."
+          ],
+          [
+            "possibly / perhaps",
+            "éventuellement, peut-être",
+            "We could possibly extend the deadline."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Actually* rectifie une information erronée : il annonce une correction. *Eventually* décrit l'aboutissement d'un processus long. *Finally* ordonne un discours. *In the end* insiste sur le résultat après des péripéties. Aucun des quatre ne signifie « actuellement » ni « éventuellement »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quel mot choisir : « ______, the merger took three years to complete. »",
+        "reveal": "*Eventually* : l'opération a fini par aboutir au terme d'un long processus. *Finally* serait acceptable si l'on énumérait des étapes ; *actually* changerait le sens en « en réalité »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en compréhension : *actually* placé en tête de réponse signale une CORRECTION de ce qui vient d'être dit. Si une question demande « what does the speaker imply? », un *actually* indique presque toujours que l'interlocuteur se trompait."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Actually corrige, eventually aboutit, finally conclut. » Et pour « actuellement », pense à *current account* (compte courant) : *current* = d'aujourd'hui."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « En fait, le projet a finalement été validé, et il est actuellement en cours. »",
+        "answer": "« Actually, the project was eventually approved, and it is currently under way. » — les trois adverbes dans le bon ordre de sens.",
+        "hint": "Les trois pièges d'un coup."
+      }
+    ]
+  },
+  {
+    "id": "angv-efficient-effective",
+    "domain": "anglais",
+    "category": "Faux amis",
+    "title": "Efficient, effective, efficacy",
+    "tagline": "Effective = ça marche. Efficient = ça marche sans gaspiller. Les deux ne se remplacent pas.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "faux-amis",
+      "nuances",
+      "adjectifs",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-faux-amis-essentiels",
+      "angv-adjectifs-business",
+      "angv-nuances",
+      "eco-productivite"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "La distinction",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "effective",
+            "qui produit le résultat visé",
+            "The campaign was effective: sales doubled."
+          ],
+          [
+            "efficient",
+            "qui produit le résultat avec peu de moyens",
+            "The new process is efficient: same output, half the energy."
+          ],
+          [
+            "effectively",
+            "efficacement, ou « en réalité »",
+            "The team works effectively. / We are effectively bankrupt."
+          ],
+          [
+            "efficiency",
+            "rendement, productivité",
+            "Energy efficiency improved by 15 %."
+          ],
+          [
+            "effectiveness",
+            "efficacité (atteinte du but)",
+            "We measured the effectiveness of the training."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Effective* porte sur le RÉSULTAT : l'objectif est-il atteint ? *Efficient* porte sur le RAPPORT entre le résultat et les moyens engagés. Une action peut être efficace et inefficiente : atteindre son but en gaspillant. C'est exactement la distinction entre efficacité et efficience en gestion."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une campagne qui double les ventes mais coûte trois fois son budget est-elle effective ou efficient ?",
+        "reveal": "Effective mais pas efficient : elle atteint son objectif (les ventes doublent), mais au prix d'une consommation de ressources disproportionnée. En français : efficace mais pas efficiente."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *effectively* a deux sens. « The team works effectively » = l'équipe travaille efficacement. « We are effectively out of stock » = en réalité, nous sommes en rupture. Le second sens (« de fait ») est très fréquent dans la presse économique."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Effective = le but. Efficient = le rapport. » Retiens que *efficient* parle toujours de ressources : énergie, temps, argent, personnel."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « The new software is more ______ : it does the same job with fewer servers. »",
+        "answer": "*efficient* : même résultat, moins de moyens. *Effective* parlerait de la qualité du résultat lui-même.",
+        "hint": "L'énoncé compare les moyens consommés."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-particules",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "La logique des particules",
+    "tagline": "Up = achever ou augmenter. Down = réduire. Off = interrompre. Out = épuiser ou révéler.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "verbes-a-particule",
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-phrasal-reunions",
+      "angv-phrasal-projets",
+      "angv-phrasal-separables",
+      "angv-phrasal-finances"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Ce que chaque particule ajoute",
+        "headers": [
+          "Particule",
+          "Idée générale",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "up",
+            "achèvement, augmentation",
+            "wrap up (conclure), step up (intensifier), set up (mettre en place)"
+          ],
+          [
+            "down",
+            "réduction, arrêt définitif",
+            "bring down (réduire), close down (fermer), write down (déprécier)"
+          ],
+          [
+            "off",
+            "interruption, séparation",
+            "call off (annuler), lay off (licencier), put off (reporter)"
+          ],
+          [
+            "out",
+            "épuisement, révélation, extérieur",
+            "carry out (mener à bien), sort out (régler), find out (découvrir)"
+          ],
+          [
+            "over",
+            "transfert, reprise",
+            "take over (reprendre), hand over (transmettre)"
+          ],
+          [
+            "through",
+            "traversée, aboutissement",
+            "get through (venir à bout), follow through (mener à terme)"
+          ],
+          [
+            "on",
+            "continuation",
+            "carry on (continuer), go on (poursuivre)"
+          ],
+          [
+            "in",
+            "participation, entrée",
+            "bring in (faire intervenir), check in (faire un point)"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les particules ne sont pas arbitraires : chacune porte une nuance récurrente. Connaître ces nuances permet de DEVINER le sens d'un verbe à particule inconnu, ce qui est précieux en compréhension. Ce n'est pas une règle absolue, mais un guide fiable dans la majorité des cas."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Sans connaître l'expression, devine le sens de « to scale up production » et « to scale down production ».",
+        "reveal": "*Scale up* = augmenter la production, monter en échelle. *Scale down* = la réduire. La particule suffit : *up* augmente, *down* réduit."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les couples trompeurs. *Step up* signifie prendre plus de responsabilités, *step down* démissionner — ils ne sont pas symétriques. Et *put off* (reporter) n'a rien à voir avec *put up with* (supporter). La logique des particules oriente, elle ne garantit pas."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En compréhension, si un verbe à particule t'échappe, lis la particule et le contexte : tu obtiendras le bon sens dans huit cas sur dix, ce qui suffit pour répondre à une question de sens général."
+      },
+      {
+        "type": "quiz",
+        "question": "Devine le sens de « to phase out a product » à partir de la particule.",
+        "answer": "*Out* indique la sortie et l'épuisement progressif : retirer progressivement un produit du marché, l'abandonner par étapes.",
+        "hint": "Out = faire sortir, épuiser."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-reunions",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "Les verbes à particule des réunions",
+    "tagline": "Bring up, go over, wrap up, put off : le vocabulaire de toute réunion en anglais.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "verbes-a-particule",
+      "vocabulaire-affaires",
+      "expressions-figees"
+    ],
+    "related": [
+      "angv-reunions",
+      "angv-phrasal-particules",
+      "angv-phrasal-communication",
+      "angv-phrasal-projets"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "À connaître par cœur",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "bring up",
+            "aborder un sujet",
+            "She brought up the budget issue."
+          ],
+          [
+            "go over",
+            "passer en revue en détail",
+            "Let's go over the figures."
+          ],
+          [
+            "run through",
+            "parcourir rapidement",
+            "I'll run through the agenda."
+          ],
+          [
+            "wrap up",
+            "conclure",
+            "Let's wrap up and reconvene Friday."
+          ],
+          [
+            "put off",
+            "reporter",
+            "We had to put off the decision."
+          ],
+          [
+            "call off",
+            "annuler",
+            "The workshop was called off."
+          ],
+          [
+            "sum up",
+            "résumer",
+            "To sum up, we need more data."
+          ],
+          [
+            "point out",
+            "faire remarquer",
+            "He pointed out a flaw in the plan."
+          ],
+          [
+            "follow up",
+            "faire un suivi, relancer",
+            "I'll follow up with the client."
+          ],
+          [
+            "check in",
+            "faire un point",
+            "Let's check in next Tuesday."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une réunion en anglais s'articule autour d'une dizaine de verbes à particule. Les connaître n'améliore pas seulement l'expression : c'est indispensable en compréhension orale et écrite, car aucun de ces sens ne se devine à partir du verbe seul."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Before we wrap up, I'd like to bring up one last item and go over the action points » ?",
+        "reveal": "« Avant de conclure, je voudrais aborder un dernier point et passer en revue les actions à mener. » Trois verbes à particule dans une seule phrase — c'est la norme en réunion."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *put off* et *call off*. *Put off* reporte à plus tard, *call off* annule purement et simplement. « The meeting has been put off » signifie qu'elle aura lieu plus tard ; « called off », qu'elle n'aura pas lieu."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois verbes pour trois niveaux de détail : *run through* (survol), *go over* (examen), *look into* (enquête approfondie). L'intensité augmente dans cet ordre."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le client a annulé la réunion, nous la reporterons donc à la semaine prochaine. »",
+        "answer": "« The client called off the meeting, so we will put it off until next week. » — *call off* pour l'annulation, *put off* pour le report.",
+        "hint": "Deux verbes différents pour annuler et reporter."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-projets",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "Piloter un projet en anglais",
+    "tagline": "Carry out, set up, work out, sort out, move forward : le cycle de vie d'un projet.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "verbes-a-particule",
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-phrasal-reunions",
+      "angv-phrasal-particules",
+      "angv-collocations-verbes",
+      "angv-phrasal-communication"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Du lancement à la livraison",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "set up",
+            "mettre en place, créer",
+            "We set up a task force."
+          ],
+          [
+            "carry out",
+            "mener à bien, réaliser",
+            "They carried out a feasibility study."
+          ],
+          [
+            "work out",
+            "élaborer, trouver une solution",
+            "We worked out a compromise."
+          ],
+          [
+            "sort out",
+            "régler un problème",
+            "Let's sort out the delivery issue."
+          ],
+          [
+            "look into",
+            "enquêter sur",
+            "IT is looking into the bug."
+          ],
+          [
+            "move forward",
+            "avancer, progresser",
+            "The project can move forward."
+          ],
+          [
+            "hold off",
+            "différer, attendre",
+            "Let's hold off until we get approval."
+          ],
+          [
+            "get through",
+            "venir à bout de",
+            "We got through the validation phase."
+          ],
+          [
+            "follow through",
+            "mener à terme",
+            "She always follows through on commitments."
+          ],
+          [
+            "hand over",
+            "transmettre la responsabilité",
+            "He handed the project over to me."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces verbes couvrent les étapes classiques d'un projet : constituer, étudier, résoudre, avancer, transmettre. Ils sont le registre standard de l'anglais professionnel : dans un compte rendu de projet, on les rencontre systématiquement à la place de leurs équivalents latins plus formels."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Reformule en anglais plus courant : « We will conduct an audit, then resolve the discrepancies and proceed. »",
+        "reveal": "« We will carry out an audit, then sort out the discrepancies and move forward. » Les verbes à particule sont plus naturels que *conduct*, *resolve*, *proceed* dans un échange interne."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *work out* a trois sens. « We worked out a solution » (élaborer), « It worked out well » (bien se terminer), « I work out twice a week » (faire du sport). Le contexte tranche, mais le premier sens est le plus fréquent en entreprise."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens la paire *sort out* / *look into* : la première règle un problème identifié, la seconde enquête sur un problème dont on ignore la cause. L'enquête précède la résolution."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Nous allons enquêter sur le retard, régler le problème et avancer. »",
+        "answer": "« We are going to look into the delay, sort out the problem and move forward. »",
+        "hint": "Enquêter, régler, avancer : trois verbes à particule."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-communication",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "Communiquer : get across, pass on, back up",
+    "tagline": "Get across = faire passer le message. Back up = étayer par des preuves.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "verbes-a-particule",
+      "vocabulaire-affaires",
+      "expressions-figees"
+    ],
+    "related": [
+      "angv-phrasal-reunions",
+      "angv-phrasal-projets",
+      "angv-mails-formules",
+      "angv-phrasal-particules"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le registre de la communication",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "get across",
+            "faire passer un message",
+            "We failed to get our point across."
+          ],
+          [
+            "put forward",
+            "proposer, avancer une idée",
+            "He put forward an alternative."
+          ],
+          [
+            "lay out",
+            "exposer clairement",
+            "She laid out the plan in three slides."
+          ],
+          [
+            "back up",
+            "étayer par des preuves",
+            "Back up your claims with data."
+          ],
+          [
+            "pass on",
+            "transmettre une information",
+            "I'll pass your message on."
+          ],
+          [
+            "get back to",
+            "recontacter",
+            "I'll get back to you by Friday."
+          ],
+          [
+            "write up",
+            "rédiger (un compte rendu)",
+            "Could you write up the minutes?"
+          ],
+          [
+            "note down",
+            "noter",
+            "I noted down the main figures."
+          ],
+          [
+            "bring in",
+            "faire intervenir quelqu'un",
+            "We brought in an external expert."
+          ],
+          [
+            "look over",
+            "examiner, relire",
+            "Please look over the draft."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ce registre distingue trois actes : formuler (*put forward*, *lay out*), justifier (*back up*), et transmettre (*pass on*, *get back to*). En contexte professionnel anglophone, un argument non étayé sera signalé par « you need to back that up »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que demande-t-on avec « Can you back that up? »",
+        "reveal": "Des preuves, des données, une source. Ce n'est pas une mise en doute de la personne mais une exigence de justification — formule très courante en réunion anglo-saxonne."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *back up* a aussi le sens informatique de « sauvegarder » (*back up your files*) et celui de « soutenir quelqu'un » (*I'll back you up in the meeting*). Trois sens, distingués par le complément."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Get across* prend souvent la forme *get one's point across* : l'objet se place entre le verbe et la particule. C'est un verbe séparable, comme beaucoup de ceux de cette liste."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Il a exposé sa proposition mais n'a pas réussi à faire passer son message, faute de données pour l'étayer. »",
+        "answer": "« He laid out his proposal but failed to get his point across, as he had no data to back it up. »",
+        "hint": "Trois verbes à particule dans la même phrase."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-separables",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "Verbes séparables et inséparables",
+    "tagline": "Avec un pronom, l'objet se glisse toujours entre le verbe et la particule : « call it off », jamais « call off it ».",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "verbes-a-particule",
+      "collocation",
+      "prepositions"
+    ],
+    "related": [
+      "angv-phrasal-particules",
+      "angv-phrasal-reunions",
+      "ang-ordre-des-mots",
+      "angv-phrasal-projets"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un verbe à particule SÉPARABLE admet son objet entre le verbe et la particule : *call off the meeting* ou *call the meeting off*. Si l'objet est un PRONOM, la séparation devient obligatoire : *call it off*. Un verbe INSÉPARABLE garde toujours sa particule collée : *look into the issue*, *look into it*."
+      },
+      {
+        "type": "table",
+        "title": "Les deux familles",
+        "headers": [
+          "Séparables (objet possible au milieu)",
+          "Inséparables (particule collée)"
+        ],
+        "rows": [
+          [
+            "call off, put off, set up",
+            "look into, look after, deal with"
+          ],
+          [
+            "carry out, sort out, work out",
+            "get through, come across, run into"
+          ],
+          [
+            "hand over, take over, bring up",
+            "look forward to, put up with, get on with"
+          ],
+          [
+            "write up, note down, back up",
+            "stand for, account for, consist of"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « They called off it yesterday and we are looking forward it. »",
+        "reveal": "« They called it off yesterday and we are looking forward TO it. » — *call off* est séparable, donc le pronom se met au milieu ; *look forward to* est inséparable et garde sa préposition."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *look forward to*, dont on oublie le *to*, et *put up with*, dont on oublie le *with*. Les verbes à trois éléments (*put up with*, *get on with*, *come up with*) ne se séparent jamais : les trois mots restent solidaires."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un pronom ne finit jamais une phrase après une particule séparable. » Si tu hésites, remplace l'objet par *it* : si *verbe + particule + it* sonne faux, le verbe est séparable."
+      },
+      {
+        "type": "quiz",
+        "question": "Réécris avec un pronom : « We need to carry out the audit » et « We need to look into the complaint ».",
+        "answer": "« We need to carry it out » (séparable, pronom au milieu) et « We need to look into it » (inséparable, pronom après la particule).",
+        "hint": "L'un est séparable, l'autre non."
+      }
+    ]
+  },
+  {
+    "id": "angv-entreprise-structure",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "L'entreprise : structure et gouvernance",
+    "tagline": "Board, shareholder, stakeholder, subsidiary : savoir qui décide et qui détient.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-management-carriere",
+      "angv-finance-comptabilite",
+      "angv-contrats-juridique",
+      "culture-entreprise-enjeux"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les mots de la gouvernance",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "board of directors",
+            "conseil d'administration"
+          ],
+          [
+            "shareholder",
+            "actionnaire"
+          ],
+          [
+            "stakeholder",
+            "partie prenante"
+          ],
+          [
+            "chief executive officer (CEO)",
+            "directeur général"
+          ],
+          [
+            "chief financial officer (CFO)",
+            "directeur financier"
+          ],
+          [
+            "headquarters (HQ)",
+            "siège social"
+          ],
+          [
+            "subsidiary",
+            "filiale"
+          ],
+          [
+            "parent company",
+            "société mère"
+          ],
+          [
+            "branch",
+            "succursale, agence"
+          ],
+          [
+            "merger",
+            "fusion"
+          ],
+          [
+            "acquisition / takeover",
+            "acquisition / rachat"
+          ],
+          [
+            "joint venture",
+            "coentreprise"
+          ],
+          [
+            "annual general meeting (AGM)",
+            "assemblée générale annuelle"
+          ],
+          [
+            "sole trader",
+            "entrepreneur individuel"
+          ],
+          [
+            "limited company (Ltd)",
+            "société à responsabilité limitée"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Shareholder ou stakeholder ?",
+        "body": "Un *shareholder* détient des actions : son intérêt est financier. Un *stakeholder* est toute partie concernée par l'activité — salariés, clients, fournisseurs, riverains, pouvoirs publics — qu'elle détienne du capital ou non. Tout shareholder est un stakeholder, l'inverse est faux."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The parent company acquired a 60 % stake in its former competitor, which became a subsidiary » ?",
+        "reveal": "« La société mère a acquis une participation de 60 % dans son ancien concurrent, qui est devenu une filiale. » *Stake* désigne la participation au capital ; au-delà de 50 %, la société contrôlée devient une filiale."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *turnover*. En anglais britannique, il signifie le chiffre d'affaires ; mais *staff turnover* désigne la rotation du personnel. Deux notions sans rapport pour un même mot, et le complément seul permet de trancher."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Share* = action, *stake* = participation, *stock* = action (usage américain) ou stock de marchandises. Trois mots proches, trois emplois : le contexte financier ou logistique décide."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le conseil d'administration a approuvé la fusion lors de l'assemblée générale annuelle. »",
+        "answer": "« The board of directors approved the merger at the annual general meeting. »",
+        "hint": "Trois termes de gouvernance."
+      }
+    ]
+  },
+  {
+    "id": "angv-rh-recrutement",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Ressources humaines et recrutement",
+    "tagline": "Applicant, shortlist, probation period, notice period : le parcours d'une embauche.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-management-carriere",
+      "angv-entreprise-structure",
+      "angv-phrasal-rh",
+      "angv-mails-formules"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Du recrutement au départ",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "job opening / vacancy",
+            "poste à pourvoir"
+          ],
+          [
+            "job description",
+            "fiche de poste"
+          ],
+          [
+            "applicant / candidate",
+            "candidat"
+          ],
+          [
+            "CV (GB) / résumé (US)",
+            "curriculum vitae"
+          ],
+          [
+            "cover letter",
+            "lettre de motivation"
+          ],
+          [
+            "to shortlist",
+            "retenir en présélection"
+          ],
+          [
+            "interview",
+            "entretien"
+          ],
+          [
+            "probation period / trial period",
+            "période d'essai"
+          ],
+          [
+            "permanent contract",
+            "contrat à durée indéterminée"
+          ],
+          [
+            "fixed-term contract",
+            "contrat à durée déterminée"
+          ],
+          [
+            "notice period",
+            "préavis"
+          ],
+          [
+            "to resign",
+            "démissionner"
+          ],
+          [
+            "to dismiss / to fire",
+            "licencier (pour motif personnel)"
+          ],
+          [
+            "to lay off / redundancy",
+            "licencier pour motif économique"
+          ],
+          [
+            "severance pay",
+            "indemnité de départ"
+          ],
+          [
+            "appraisal / performance review",
+            "entretien annuel d'évaluation"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Licenciement : trois mots, trois situations",
+        "body": "*To dismiss* ou *to fire* désigne un licenciement pour faute ou insuffisance. *To lay off* et *redundancy* désignent une suppression de poste pour motif économique — le salarié n'a rien à se reprocher. *To resign* est le départ à l'initiative du salarié. Confondre les trois change complètement le sens d'un document RH."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Two hundred employees were made redundant after the restructuring » ?",
+        "reveal": "« Deux cents salariés ont été licenciés pour motif économique après la restructuration. » *To be made redundant* est la formule britannique standard : le poste est supprimé, pas le salarié sanctionné."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *wage* et *salary*. *Wage* désigne une rémunération horaire ou hebdomadaire (souvent ouvrière), *salary* une rémunération mensuelle ou annuelle (souvent cadre). Et *payroll* désigne la masse salariale ou le service paie, pas le bulletin de salaire (*payslip*)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens le trio du départ : *resign* (je pars), *dismiss* (on me renvoie pour faute), *lay off* (mon poste disparaît). Les questions de compréhension RH portent presque toujours sur cette distinction."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Après une période d'essai de trois mois, elle a obtenu un contrat à durée indéterminée. »",
+        "answer": "« After a three-month probation period, she was offered a permanent contract. »",
+        "hint": "Période d'essai et CDI."
+      }
+    ]
+  },
+  {
+    "id": "angv-reunions",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Le vocabulaire des réunions",
+    "tagline": "Agenda = ordre du jour, minutes = compte rendu. Deux faux amis dans le même mot.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire-affaires",
+      "faux-amis",
+      "expressions-figees"
+    ],
+    "related": [
+      "angv-phrasal-reunions",
+      "angv-mails-formules",
+      "angv-registre-formel",
+      "angv-faux-amis-business"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les termes indispensables",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "agenda",
+            "ordre du jour (pas « agenda » !)"
+          ],
+          [
+            "minutes",
+            "compte rendu, procès-verbal"
+          ],
+          [
+            "to chair a meeting",
+            "présider une réunion"
+          ],
+          [
+            "attendee / participant",
+            "participant"
+          ],
+          [
+            "apologies",
+            "excuses des absents"
+          ],
+          [
+            "item",
+            "point à l'ordre du jour"
+          ],
+          [
+            "action point",
+            "action à mener"
+          ],
+          [
+            "to table an item (GB)",
+            "inscrire un point à l'ordre du jour"
+          ],
+          [
+            "quorum",
+            "quorum"
+          ],
+          [
+            "unanimous",
+            "unanime"
+          ],
+          [
+            "to abstain",
+            "s'abstenir"
+          ],
+          [
+            "deadline",
+            "date limite"
+          ],
+          [
+            "update",
+            "point d'avancement"
+          ],
+          [
+            "briefing / debriefing",
+            "réunion de cadrage / de bilan"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Agenda* est l'ordre du jour d'une réunion, pas un carnet de rendez-vous (qui se dit *diary* en anglais britannique, *calendar* en américain). *Minutes* au pluriel désigne le compte rendu écrit — rien à voir avec les minutes de durée."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que veut dire « Could you take the minutes and circulate them before Friday? »",
+        "reveal": "« Pourriez-vous rédiger le compte rendu et le diffuser avant vendredi ? » *Take the minutes* = prendre des notes officielles ; *circulate* = faire circuler, diffuser."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *to table* n'a pas le même sens de part et d'autre de l'Atlantique. En anglais britannique, *to table an item* signifie l'inscrire à l'ordre du jour ; en anglais américain, cela signifie l'ajourner, le mettre de côté. Sens opposés."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Agenda = ce qu'on va traiter. Minutes = ce qui a été dit. » L'un précède la réunion, l'autre la suit."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « L'ordre du jour comporte quatre points, et le compte rendu de la dernière réunion a été approuvé à l'unanimité. »",
+        "answer": "« The agenda has four items, and the minutes of the last meeting were approved unanimously. »",
+        "hint": "Deux faux amis dans la même phrase."
+      }
+    ]
+  },
+  {
+    "id": "angv-finance-comptabilite",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Finance et comptabilité",
+    "tagline": "Revenue, profit, assets, liabilities : lire un état financier en anglais.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-banque-paiement",
+      "angv-entreprise-structure",
+      "angv-chiffres-tendances",
+      "eco-indicateurs-lecture"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le compte de résultat",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "revenue / turnover (GB)",
+            "chiffre d'affaires"
+          ],
+          [
+            "cost of goods sold",
+            "coût des marchandises vendues"
+          ],
+          [
+            "gross profit",
+            "marge brute"
+          ],
+          [
+            "operating expenses / overheads",
+            "charges d'exploitation / frais généraux"
+          ],
+          [
+            "operating profit",
+            "résultat d'exploitation"
+          ],
+          [
+            "net profit / bottom line",
+            "résultat net"
+          ],
+          [
+            "earnings",
+            "bénéfices"
+          ],
+          [
+            "loss",
+            "perte"
+          ],
+          [
+            "to break even",
+            "atteindre l'équilibre"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Le bilan et la trésorerie",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "balance sheet",
+            "bilan"
+          ],
+          [
+            "assets",
+            "actif"
+          ],
+          [
+            "liabilities",
+            "passif, dettes"
+          ],
+          [
+            "equity / shareholders' funds",
+            "capitaux propres"
+          ],
+          [
+            "cash flow",
+            "flux de trésorerie"
+          ],
+          [
+            "working capital",
+            "fonds de roulement"
+          ],
+          [
+            "depreciation",
+            "amortissement"
+          ],
+          [
+            "invoice",
+            "facture"
+          ],
+          [
+            "receipt",
+            "reçu, justificatif"
+          ],
+          [
+            "audit",
+            "audit"
+          ],
+          [
+            "forecast",
+            "prévision"
+          ],
+          [
+            "budget",
+            "budget"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'anglais distingue nettement *revenue* (ce qui entre, avant toute déduction) de *profit* (ce qui reste). *Gross* signifie « brut », *net* signifie « net » : *gross profit* est la marge après le coût des produits, *net profit* le résultat après toutes les charges. La *bottom line* désigne littéralement la dernière ligne du compte de résultat, donc le résultat net."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Revenue grew 12 % but the bottom line was flat due to rising overheads » ?",
+        "reveal": "« Le chiffre d'affaires a progressé de 12 % mais le résultat net est resté stable, en raison de la hausse des frais généraux. » L'écart entre les deux est exactement l'objet de la phrase."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *income* et *revenue*. *Revenue* est le chiffre d'affaires de l'entreprise ; *income* peut désigner un revenu, un produit financier, ou le résultat (*net income* = résultat net). Et *benefit* ne signifie jamais bénéfice comptable : c'est un avantage, ou une prestation sociale."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Top line = revenue, bottom line = net profit. » Les deux extrémités du compte de résultat, et deux expressions très courantes dans la presse économique anglophone."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le bénéfice net a chuté malgré une hausse du chiffre d'affaires, car les charges d'exploitation ont doublé. »",
+        "answer": "« Net profit fell despite higher revenue, because operating expenses doubled. »",
+        "hint": "Ne confonds pas revenue et profit."
+      }
+    ]
+  },
+  {
+    "id": "angv-vente-marketing",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Vente et marketing",
+    "tagline": "Lead, prospect, quote, market share : le tunnel commercial en anglais.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-logistique-achats",
+      "angv-chiffres-tendances",
+      "angv-collocations-verbes",
+      "angv-finance-comptabilite"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Du prospect au client fidèle",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "lead",
+            "piste commerciale"
+          ],
+          [
+            "prospect",
+            "prospect, client potentiel"
+          ],
+          [
+            "quote / quotation",
+            "devis"
+          ],
+          [
+            "tender / bid",
+            "appel d'offres / offre"
+          ],
+          [
+            "order",
+            "commande"
+          ],
+          [
+            "discount",
+            "remise"
+          ],
+          [
+            "rebate",
+            "ristourne, remise différée"
+          ],
+          [
+            "target",
+            "objectif, cible"
+          ],
+          [
+            "market share",
+            "part de marché"
+          ],
+          [
+            "brand",
+            "marque"
+          ],
+          [
+            "brand awareness",
+            "notoriété de la marque"
+          ],
+          [
+            "campaign",
+            "campagne"
+          ],
+          [
+            "to launch",
+            "lancer"
+          ],
+          [
+            "retailer / wholesaler",
+            "détaillant / grossiste"
+          ],
+          [
+            "distribution channel",
+            "circuit de distribution"
+          ],
+          [
+            "customer retention",
+            "fidélisation"
+          ],
+          [
+            "churn rate",
+            "taux d'attrition"
+          ],
+          [
+            "after-sales service",
+            "service après-vente"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le vocabulaire commercial anglais suit le parcours client : un *lead* devient un *prospect*, reçoit un *quote*, passe une *order*, puis devient un client à fidéliser (*retention*) ou perdu (*churn*). Connaître cette progression permet de deviner le sens d'un passage même sans tout comprendre."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « We gained two points of market share but our churn rate rose to 18 % » ?",
+        "reveal": "« Nous avons gagné deux points de part de marché mais notre taux d'attrition est monté à 18 %. » Autrement dit : on recrute des clients, mais on en perd beaucoup — la croissance est fragile."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *discount* et *rebate*. Un *discount* s'applique au moment de l'achat ; un *rebate* est reversé après coup, souvent en fonction du volume atteint. Et *bargain* ne signifie pas remise mais « bonne affaire »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens les verbes qui vont avec : *to place an order*, *to meet a target*, *to gain market share*, *to launch a campaign*. Ce sont des collocations figées, et le TOEIC teste le verbe autant que le nom."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Nous avons envoyé un devis, mais le client a passé commande chez un concurrent. »",
+        "answer": "« We sent a quote, but the customer placed an order with a competitor. » — *quote* pour le devis, *place an order* pour la commande.",
+        "hint": "Deux collocations figées."
+      }
+    ]
+  },
+  {
+    "id": "angv-logistique-achats",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Achats, stocks et logistique",
+    "tagline": "Supplier, lead time, inventory, shipment : la chaîne d'approvisionnement en anglais.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-vente-marketing",
+      "angv-commerce-international",
+      "angv-production-qualite",
+      "angv-contrats-juridique"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le vocabulaire de la supply chain",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "supplier / vendor",
+            "fournisseur"
+          ],
+          [
+            "procurement / purchasing",
+            "achats, approvisionnement"
+          ],
+          [
+            "purchase order (PO)",
+            "bon de commande"
+          ],
+          [
+            "lead time",
+            "délai de livraison"
+          ],
+          [
+            "inventory (US) / stock (GB)",
+            "stock"
+          ],
+          [
+            "stock shortage / stockout",
+            "rupture de stock"
+          ],
+          [
+            "backorder",
+            "commande en attente"
+          ],
+          [
+            "warehouse",
+            "entrepôt"
+          ],
+          [
+            "shipment / consignment",
+            "expédition, envoi"
+          ],
+          [
+            "freight",
+            "fret"
+          ],
+          [
+            "carrier",
+            "transporteur"
+          ],
+          [
+            "delivery note",
+            "bon de livraison"
+          ],
+          [
+            "tracking number",
+            "numéro de suivi"
+          ],
+          [
+            "to dispatch",
+            "expédier"
+          ],
+          [
+            "pallet",
+            "palette"
+          ],
+          [
+            "just-in-time",
+            "juste-à-temps"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le *lead time* est le délai entre la commande et la réception : c'est l'indicateur central de la logistique, car il détermine le niveau de stock nécessaire. Plus le lead time est long et variable, plus il faut de stock de sécurité (*safety stock*)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The supplier extended its lead time to six weeks, so we are facing a stockout on two references » ?",
+        "reveal": "« Le fournisseur a allongé son délai de livraison à six semaines, nous sommes donc en rupture de stock sur deux références. » Le lien de cause à effet est explicite : un délai plus long épuise le stock."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *stock* en anglais américain désigne surtout une action en bourse, et le stock de marchandises se dit *inventory*. Dans un texte américain, *stock prices* parle de la bourse, pas des marchandises. Le contexte tranche, mais l'ambiguïté est réelle."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Vendor* signifie fournisseur en anglais des affaires — et non « vendeur » au sens de commercial, qui se dit *sales representative* ou *salesperson*. C'est un faux ami discret mais fréquent dans les appels d'offres."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le bon de commande a été envoyé, mais l'entrepôt signale une rupture de stock. »",
+        "answer": "« The purchase order has been sent, but the warehouse reports a stockout. »",
+        "hint": "Bon de commande et rupture de stock."
+      }
+    ]
+  },
+  {
+    "id": "angv-contrats-juridique",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Contrats et vocabulaire juridique",
+    "tagline": "Clause, breach, liability, terms and conditions : lire un contrat sans se tromper.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-logistique-achats",
+      "angv-entreprise-structure",
+      "angv-registre-formel",
+      "angv-rh-recrutement"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les termes contractuels",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "agreement",
+            "accord, convention"
+          ],
+          [
+            "clause / provision",
+            "clause, disposition"
+          ],
+          [
+            "terms and conditions (T&Cs)",
+            "conditions générales"
+          ],
+          [
+            "party (the parties)",
+            "partie (les parties)"
+          ],
+          [
+            "to enter into a contract",
+            "conclure un contrat"
+          ],
+          [
+            "breach of contract",
+            "rupture, violation du contrat"
+          ],
+          [
+            "liability",
+            "responsabilité"
+          ],
+          [
+            "warranty",
+            "garantie"
+          ],
+          [
+            "indemnity",
+            "indemnisation, garantie d'indemnisation"
+          ],
+          [
+            "non-disclosure agreement (NDA)",
+            "accord de confidentialité"
+          ],
+          [
+            "to waive",
+            "renoncer à (un droit)"
+          ],
+          [
+            "to terminate",
+            "résilier"
+          ],
+          [
+            "amendment",
+            "avenant, modification"
+          ],
+          [
+            "arbitration",
+            "arbitrage"
+          ],
+          [
+            "governing law / jurisdiction",
+            "droit applicable / juridiction compétente"
+          ],
+          [
+            "force majeure",
+            "force majeure"
+          ],
+          [
+            "binding",
+            "contraignant, qui engage"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'anglais juridique est très stable : les mêmes formules reviennent dans tous les contrats. *Binding* signifie qu'un engagement est juridiquement contraignant ; *non-binding* qu'il ne l'est pas — distinction cruciale dans une lettre d'intention (*letter of intent*)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Either party may terminate this agreement with three months' written notice » ?",
+        "reveal": "« Chacune des parties peut résilier le présent contrat moyennant un préavis écrit de trois mois. » *Either party* = l'une ou l'autre des parties ; *may* exprime ici un droit, non une possibilité."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *shall* dans un contrat. Il n'exprime pas le futur mais une OBLIGATION : « the supplier shall deliver » signifie « le fournisseur est tenu de livrer ». De même, *may* exprime un droit et *must* une obligation absolue. Ces trois modaux structurent tout contrat anglophone."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois modaux, trois valeurs juridiques : *shall* = obligation, *may* = faculté, *shall not* = interdiction. Repère-les en premier dans un extrait de contrat : ils disent qui doit faire quoi."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie exactement « The parties shall not be liable for delays caused by force majeure » ?",
+        "answer": "« Les parties ne sauraient être tenues pour responsables des retards dus à un cas de force majeure. » *Shall not be liable* = exclusion d'obligation de responsabilité.",
+        "hint": "Shall not exprime une exclusion, pas un futur."
+      }
+    ]
+  },
+  {
+    "id": "angv-banque-paiement",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Banque et moyens de paiement",
+    "tagline": "Transfer, overdraft, interest rate, collateral : parler argent en anglais.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-finance-comptabilite",
+      "angv-commerce-international",
+      "angv-chiffres-tendances",
+      "eco-taux-interet"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le vocabulaire bancaire",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "current account (GB) / checking account (US)",
+            "compte courant"
+          ],
+          [
+            "savings account",
+            "compte d'épargne"
+          ],
+          [
+            "bank transfer / wire transfer",
+            "virement"
+          ],
+          [
+            "direct debit",
+            "prélèvement automatique"
+          ],
+          [
+            "standing order",
+            "virement permanent"
+          ],
+          [
+            "overdraft",
+            "découvert"
+          ],
+          [
+            "loan",
+            "prêt"
+          ],
+          [
+            "mortgage",
+            "prêt immobilier"
+          ],
+          [
+            "interest rate",
+            "taux d'intérêt"
+          ],
+          [
+            "collateral / security",
+            "garantie, nantissement"
+          ],
+          [
+            "bank statement",
+            "relevé de compte"
+          ],
+          [
+            "exchange rate",
+            "taux de change"
+          ],
+          [
+            "to settle an invoice",
+            "régler une facture"
+          ],
+          [
+            "outstanding payment",
+            "paiement en attente, impayé"
+          ],
+          [
+            "due date",
+            "date d'échéance"
+          ],
+          [
+            "instalment",
+            "échéance, mensualité"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Attention à la différence entre *direct debit* et *standing order* : dans le premier cas, c'est le créancier qui prélève un montant variable (facture d'électricité) ; dans le second, c'est le débiteur qui programme un virement d'un montant fixe (loyer). Cette nuance apparaît régulièrement en compréhension."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The invoice is now 30 days overdue and remains outstanding » ?",
+        "reveal": "« La facture a désormais 30 jours de retard et reste impayée. » *Overdue* = échu, en retard ; *outstanding* = non réglé, en souffrance."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *outstanding* a deux sens opposés en apparence. *An outstanding payment* est un impayé ; *an outstanding performance* est une performance remarquable. Le premier sens domine en contexte financier, le second en contexte d'évaluation."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*To settle* signifie régler — un paiement, mais aussi un litige (*to settle a dispute*). Retiens-le : c'est l'un des verbes les plus fréquents de l'anglais des affaires."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le virement a été effectué avant la date d'échéance, mais deux factures restent impayées. »",
+        "answer": "« The transfer was made before the due date, but two invoices remain outstanding. »",
+        "hint": "Virement, échéance, impayé."
+      }
+    ]
+  },
+  {
+    "id": "angv-production-qualite",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Production et qualité",
+    "tagline": "Output, capacity, defect, compliance : l'usine et la conformité en anglais.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-logistique-achats",
+      "angv-informatique",
+      "angv-vente-marketing",
+      "eco-productivite"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le vocabulaire industriel",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "manufacturing / production",
+            "fabrication, production"
+          ],
+          [
+            "assembly line",
+            "chaîne de montage"
+          ],
+          [
+            "output",
+            "production réalisée, rendement"
+          ],
+          [
+            "capacity",
+            "capacité de production"
+          ],
+          [
+            "throughput",
+            "débit, volume traité"
+          ],
+          [
+            "defect / flaw",
+            "défaut"
+          ],
+          [
+            "defective / faulty",
+            "défectueux"
+          ],
+          [
+            "quality control (QC)",
+            "contrôle qualité"
+          ],
+          [
+            "quality assurance (QA)",
+            "assurance qualité"
+          ],
+          [
+            "compliance",
+            "conformité"
+          ],
+          [
+            "to comply with standards",
+            "respecter des normes"
+          ],
+          [
+            "certification",
+            "certification"
+          ],
+          [
+            "downtime",
+            "temps d'arrêt"
+          ],
+          [
+            "maintenance",
+            "entretien"
+          ],
+          [
+            "scrap / waste",
+            "rebut / déchet"
+          ],
+          [
+            "lean manufacturing",
+            "production au plus juste"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Quality control ou quality assurance ?",
+        "body": "Le *quality control* détecte les défauts sur les produits déjà fabriqués : c'est un contrôle a posteriori. La *quality assurance* organise les processus pour que les défauts n'apparaissent pas : c'est de la prévention. L'un inspecte, l'autre conçoit."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Unplanned downtime cut output by 8 % last quarter » ?",
+        "reveal": "« Les arrêts non planifiés ont réduit la production de 8 % au dernier trimestre. » *Downtime* désigne le temps pendant lequel une machine ou un système ne fonctionne pas."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *output* et *capacity*. *Capacity* est ce que l'on POURRAIT produire au maximum, *output* est ce que l'on produit réellement. Le rapport des deux est le taux d'utilisation (*capacity utilisation rate*) — une question classique de lecture de données."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Compliance* est un mot-clé de l'anglais des affaires contemporain : il désigne le respect des règles, qu'elles soient légales, normatives ou internes. *Non-compliance* expose à des sanctions."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le contrôle qualité a détecté trois pièces défectueuses, et l'usine fonctionne à 80 % de sa capacité. »",
+        "answer": "« Quality control detected three defective parts, and the plant is running at 80 % of capacity. »",
+        "hint": "Contrôle qualité, défectueux, capacité."
+      }
+    ]
+  },
+  {
+    "id": "angv-commerce-international",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Commerce international",
+    "tagline": "Tariff, quota, customs, letter of credit : le vocabulaire de l'import-export.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-logistique-achats",
+      "angv-banque-paiement",
+      "angv-contrats-juridique",
+      "eco-commerce-international"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les termes du commerce extérieur",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "export / import",
+            "exportation / importation"
+          ],
+          [
+            "customs",
+            "douane"
+          ],
+          [
+            "customs duty / tariff",
+            "droit de douane"
+          ],
+          [
+            "quota",
+            "contingent, quota"
+          ],
+          [
+            "free trade agreement",
+            "accord de libre-échange"
+          ],
+          [
+            "trade barrier",
+            "barrière commerciale"
+          ],
+          [
+            "trade surplus / deficit",
+            "excédent / déficit commercial"
+          ],
+          [
+            "balance of trade",
+            "balance commerciale"
+          ],
+          [
+            "letter of credit",
+            "crédit documentaire"
+          ],
+          [
+            "bill of lading",
+            "connaissement"
+          ],
+          [
+            "certificate of origin",
+            "certificat d'origine"
+          ],
+          [
+            "incoterms",
+            "incoterms (règles de répartition des frais et risques)"
+          ],
+          [
+            "freight forwarder",
+            "commissionnaire de transport"
+          ],
+          [
+            "embargo / sanctions",
+            "embargo / sanctions"
+          ],
+          [
+            "dumping",
+            "dumping"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une *tariff* est une taxe à l'importation qui renchérit le produit étranger ; un *quota* limite la quantité importée sans toucher au prix. Ce sont les deux instruments classiques du protectionnisme, et leurs effets diffèrent : le premier rapporte des recettes à l'État, le second non."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The new tariffs on steel raised our input costs by 9 % » ?",
+        "reveal": "« Les nouveaux droits de douane sur l'acier ont augmenté le coût de nos intrants de 9 %. » *Input costs* = coûts des matières et composants achetés."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *trade deficit*. Un déficit commercial signifie que le pays IMPORTE plus qu'il n'exporte. Un excédent (*surplus*) est l'inverse. L'erreur de sens inverse complètement la lecture d'un article économique."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens la paire *letter of credit* / *bill of lading* : le premier est l'engagement de paiement d'une banque, le second le titre de transport des marchandises. Ce sont les deux documents clés d'une opération d'import-export."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Les droits de douane et les quotas sont deux barrières commerciales, mais seuls les premiers génèrent des recettes fiscales. »",
+        "answer": "« Tariffs and quotas are both trade barriers, but only the former generate tax revenue. »",
+        "hint": "Tariff pour la taxe, quota pour la limite quantitative."
+      }
+    ]
+  },
+  {
+    "id": "angv-management-carriere",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Management et carrière",
+    "tagline": "To report to, to be in charge of, to be promoted : dire sa place dans l'organisation.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation",
+      "verbes-a-particule"
+    ],
+    "related": [
+      "angv-rh-recrutement",
+      "angv-entreprise-structure",
+      "angv-phrasal-rh",
+      "angv-mails-formules"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Se situer dans l'organisation",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "to report to someone",
+            "être rattaché à quelqu'un"
+          ],
+          [
+            "to be in charge of",
+            "être responsable de"
+          ],
+          [
+            "to oversee",
+            "superviser"
+          ],
+          [
+            "line manager",
+            "supérieur hiérarchique direct"
+          ],
+          [
+            "direct report",
+            "collaborateur direct"
+          ],
+          [
+            "peer",
+            "pair, collègue de même niveau"
+          ],
+          [
+            "to delegate",
+            "déléguer"
+          ],
+          [
+            "to empower",
+            "responsabiliser, donner les moyens"
+          ],
+          [
+            "workload",
+            "charge de travail"
+          ],
+          [
+            "to be promoted",
+            "être promu"
+          ],
+          [
+            "career path",
+            "parcours professionnel"
+          ],
+          [
+            "secondment",
+            "détachement"
+          ],
+          [
+            "to take on a role",
+            "prendre un poste"
+          ],
+          [
+            "to step down",
+            "quitter ses fonctions"
+          ],
+          [
+            "to step up",
+            "prendre plus de responsabilités"
+          ],
+          [
+            "mentoring / coaching",
+            "mentorat / accompagnement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*To report to* est la formule standard pour décrire un lien hiérarchique : « I report to the sales director » signifie « je suis rattaché au directeur commercial ». Elle n'a rien à voir avec l'idée de rédiger un rapport, qui se dit *to write a report*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « She oversees three teams and reports directly to the CFO » ?",
+        "reveal": "« Elle supervise trois équipes et est rattachée directement au directeur financier. » Deux relations hiérarchiques opposées dans la même phrase : vers le bas (*oversee*) et vers le haut (*report to*)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *step up* et *step down*. Ils ne sont pas symétriques : *step down* signifie démissionner d'un poste de responsabilité, *step up* signifie s'engager davantage ou combler un manque. « She stepped up when the manager left » veut dire qu'elle a assumé le rôle."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Report to = au-dessus de moi. Direct report = en dessous de moi. » Le même mot désigne les deux directions selon sa construction : c'est la source de confusion la plus fréquente dans les organigrammes anglophones."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Il est responsable du service achats et a trois collaborateurs directs. »",
+        "answer": "« He is in charge of the purchasing department and has three direct reports. »",
+        "hint": "Responsable de, et collaborateurs directs."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-rh",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "Verbes à particule des ressources humaines",
+    "tagline": "Take on, lay off, step down, fill in : les mouvements de personnel en anglais.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "verbes-a-particule",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-rh-recrutement",
+      "angv-management-carriere",
+      "angv-phrasal-particules",
+      "angv-phrasal-projets"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Entrées, sorties et remplacements",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "take on",
+            "embaucher, prendre en charge",
+            "We took on five interns."
+          ],
+          [
+            "lay off",
+            "licencier pour motif économique",
+            "The plant laid off 40 workers."
+          ],
+          [
+            "step down",
+            "quitter ses fonctions",
+            "The CEO stepped down in March."
+          ],
+          [
+            "step up",
+            "prendre plus de responsabilités",
+            "She stepped up during the transition."
+          ],
+          [
+            "fill in (for)",
+            "remplacer temporairement",
+            "I'm filling in for the manager."
+          ],
+          [
+            "hand over",
+            "transmettre ses dossiers",
+            "He handed over before leaving."
+          ],
+          [
+            "bring in",
+            "faire venir de l'extérieur",
+            "They brought in a consultant."
+          ],
+          [
+            "look after",
+            "s'occuper de, gérer",
+            "She looks after the Nordic accounts."
+          ],
+          [
+            "carry on",
+            "poursuivre",
+            "The team carried on without him."
+          ],
+          [
+            "work out",
+            "s'avérer, bien se passer",
+            "The new organisation worked out well."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces verbes décrivent les mouvements de personnel, et ils sont préférés à leurs équivalents formels dans la communication interne. Un communiqué écrira *to resign*, un collègue dira *to step down* ; l'un et l'autre désignent le même départ."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « After the CFO stepped down, the deputy stepped up and we brought in an interim consultant » ?",
+        "reveal": "« Après le départ du directeur financier, son adjoint a pris le relais et nous avons fait venir un consultant en intérim. » Trois mouvements en une phrase."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *take on* a deux sens. *To take on staff* = embaucher ; *to take on a project* = se charger d'un projet ; *to take on a competitor* = affronter un concurrent. Le complément change tout."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Fill in* signifie remplacer une personne, mais aussi remplir un formulaire (*fill in a form*, ou *fill out* en anglais américain). Les deux sens sont très fréquents au TOEIC."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Nous avons embauché deux personnes et licencié dix pour motif économique. »",
+        "answer": "« We took on two people and laid off ten. » — *take on* pour l'embauche, *lay off* pour le licenciement économique.",
+        "hint": "Deux verbes opposés."
+      }
+    ]
+  },
+  {
+    "id": "angv-phrasal-finances",
+    "domain": "anglais",
+    "category": "Verbes à particule",
+    "title": "Verbes à particule de la finance",
+    "tagline": "Bring down, write off, pull out, cut back : agir sur les coûts et les engagements.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "verbes-a-particule",
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-finance-comptabilite",
+      "angv-phrasal-particules",
+      "angv-chiffres-tendances",
+      "angv-banque-paiement"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le registre financier",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "bring down",
+            "réduire (des coûts, un prix)",
+            "We brought down production costs by 12 %."
+          ],
+          [
+            "cut back (on)",
+            "réduire les dépenses",
+            "They cut back on travel expenses."
+          ],
+          [
+            "write off",
+            "passer en perte, amortir",
+            "The bank wrote off the debt."
+          ],
+          [
+            "pull out (of)",
+            "se retirer d'un accord",
+            "The investor pulled out at the last minute."
+          ],
+          [
+            "take over",
+            "racheter, reprendre",
+            "A rival took over the company."
+          ],
+          [
+            "break even",
+            "atteindre l'équilibre",
+            "We expect to break even in year three."
+          ],
+          [
+            "run up",
+            "accumuler (des dettes)",
+            "They ran up substantial debts."
+          ],
+          [
+            "pay off",
+            "rembourser ; être payant",
+            "We paid off the loan. / The strategy paid off."
+          ],
+          [
+            "set aside",
+            "mettre de côté, provisionner",
+            "We set aside funds for litigation."
+          ],
+          [
+            "account for",
+            "représenter, expliquer",
+            "Exports account for 40 % of revenue."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces verbes reviennent constamment dans la presse économique anglophone et dans les rapports annuels. *Write off* est particulièrement important : il désigne la constatation comptable d'une perte définitive, sur une créance irrécouvrable ou un actif déprécié."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The strategy paid off: we brought down costs and broke even a year early » ?",
+        "reveal": "« La stratégie a porté ses fruits : nous avons réduit les coûts et atteint l'équilibre un an plus tôt que prévu. » *Pay off* signifie ici « s'avérer payant », pas « rembourser »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *pay off* a deux sens opposés en apparence. *To pay off a loan* = rembourser un emprunt ; *the investment paid off* = l'investissement a été rentable. Le premier prend un complément d'objet, le second est intransitif."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Account for* signifie « représenter » (une part) ou « expliquer » (un écart). Dans un rapport financier, *this accounts for the gap* veut dire « cela explique l'écart » — l'un des verbes les plus utiles du registre."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « L'investisseur s'est retiré, nous avons donc réduit les dépenses et provisionné des fonds. »",
+        "answer": "« The investor pulled out, so we cut back on spending and set aside funds. »",
+        "hint": "Se retirer, réduire, provisionner."
+      }
+    ]
+  },
+  {
+    "id": "angv-collocations-make-do",
+    "domain": "anglais",
+    "category": "Collocations",
+    "title": "Make ou do ?",
+    "tagline": "Make quand on crée un résultat. Do quand on accomplit une tâche.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "collocation",
+      "vocabulaire-affaires",
+      "confusion-frequente"
+    ],
+    "related": [
+      "angv-collocations-verbes",
+      "angv-adjectifs-business",
+      "angv-verbes-irreguliers",
+      "angv-phrasal-projets"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les collocations à mémoriser",
+        "headers": [
+          "MAKE",
+          "DO"
+        ],
+        "rows": [
+          [
+            "make a decision",
+            "do business"
+          ],
+          [
+            "make a profit",
+            "do research"
+          ],
+          [
+            "make an offer",
+            "do the accounts"
+          ],
+          [
+            "make progress",
+            "do paperwork"
+          ],
+          [
+            "make an appointment",
+            "do a course"
+          ],
+          [
+            "make a mistake",
+            "do your best"
+          ],
+          [
+            "make arrangements",
+            "do someone a favour"
+          ],
+          [
+            "make a payment",
+            "do the washing-up"
+          ],
+          [
+            "make a complaint",
+            "do overtime"
+          ],
+          [
+            "make a suggestion",
+            "do a good job"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La règle générale : *make* produit quelque chose de nouveau (une décision, un profit, une erreur), *do* accomplit une activité ou une tâche (des recherches, la comptabilité, un cours). Mais un certain nombre de collocations sont simplement figées et doivent se mémoriser."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « We did a decision after doing a profit and making some research. »",
+        "reveal": "« We made a decision after making a profit and doing some research. » — *make* pour la décision et le profit, *do* pour la recherche."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *do business* et *make money*. On fait des affaires (*do business*) mais on gagne de l'argent (*make money*). Et *make a living* signifie gagner sa vie. Trois collocations très fréquentes, sans logique déductible."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Make = je fabrique un résultat. Do = j'effectue une activité. » En cas de doute, demande-toi si quelque chose de nouveau apparaît : une décision, un bénéfice, une offre — alors c'est *make*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « They ______ business in Asia, ______ a profit last year and ______ good progress on quality. »",
+        "answer": "« They DO business in Asia, MADE a profit last year and MADE good progress on quality. »",
+        "hint": "Un do et deux make."
+      }
+    ]
+  },
+  {
+    "id": "angv-collocations-verbes",
+    "domain": "anglais",
+    "category": "Collocations",
+    "title": "Verbe + nom : les associations figées",
+    "tagline": "On « meet » une deadline, on « place » une commande, on « raise » des fonds : le verbe n'est pas libre.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "collocation",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-collocations-make-do",
+      "angv-vente-marketing",
+      "angv-verbes-irreguliers",
+      "ang-prepositions-collocations"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les collocations les plus testées",
+        "headers": [
+          "Collocation",
+          "Français"
+        ],
+        "rows": [
+          [
+            "to meet a deadline",
+            "respecter un délai"
+          ],
+          [
+            "to meet requirements",
+            "satisfaire des exigences"
+          ],
+          [
+            "to reach an agreement",
+            "parvenir à un accord"
+          ],
+          [
+            "to place an order",
+            "passer une commande"
+          ],
+          [
+            "to raise capital / funds",
+            "lever des fonds"
+          ],
+          [
+            "to cut costs",
+            "réduire les coûts"
+          ],
+          [
+            "to hold a meeting",
+            "tenir une réunion"
+          ],
+          [
+            "to take minutes",
+            "rédiger un compte rendu"
+          ],
+          [
+            "to draw up a contract",
+            "rédiger un contrat"
+          ],
+          [
+            "to close a deal",
+            "conclure une affaire"
+          ],
+          [
+            "to submit a proposal",
+            "soumettre une proposition"
+          ],
+          [
+            "to set a target",
+            "fixer un objectif"
+          ],
+          [
+            "to gain market share",
+            "gagner des parts de marché"
+          ],
+          [
+            "to launch a product",
+            "lancer un produit"
+          ],
+          [
+            "to issue an invoice",
+            "émettre une facture"
+          ],
+          [
+            "to conduct a survey",
+            "réaliser une enquête"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une collocation est une association de mots que l'usage a figée. Le français « respecter un délai » ne se traduit pas par *to respect a deadline* mais par *to meet a deadline*. Aucune logique à déduire : ces paires s'apprennent ensemble, et elles constituent une part importante du vocabulaire testé."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « We respected the deadline, did an order and found an agreement. »",
+        "reveal": "« We met the deadline, placed an order and reached an agreement. » Trois collocations fautives, chacune traduite trop littéralement du français."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *to make a meeting*. On dit *to hold a meeting* (tenir) ou *to have a meeting* (avoir). De même, on ne « fait » pas une enquête (*to conduct a survey*) ni une erreur de calcul (*to make a mistake*, mais *to miscalculate*)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Apprends toujours le verbe AVEC son nom, jamais séparément. « Deadline » seul ne sert à rien ; « meet a deadline » est directement utilisable et répond aux questions de la partie 5."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « We must ______ the deadline, ______ costs and ______ an agreement before Friday. »",
+        "answer": "« We must MEET the deadline, CUT costs and REACH an agreement before Friday. »",
+        "hint": "Trois collocations figées."
+      }
+    ]
+  },
+  {
+    "id": "angv-verbes-irreguliers",
+    "domain": "anglais",
+    "category": "Collocations",
+    "title": "Verbes irréguliers du monde professionnel",
+    "tagline": "Rise monte tout seul, raise fait monter quelque chose. L'un est irrégulier, l'autre non.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "verbes-irreguliers",
+      "vocabulaire-affaires",
+      "confusion-frequente"
+    ],
+    "related": [
+      "angv-chiffres-tendances",
+      "angv-collocations-verbes",
+      "ang-present-perfect",
+      "angv-collocations-make-do"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les irréguliers les plus utiles",
+        "headers": [
+          "Infinitif",
+          "Passé",
+          "Participe passé",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "buy",
+            "bought",
+            "bought",
+            "acheter"
+          ],
+          [
+            "sell",
+            "sold",
+            "sold",
+            "vendre"
+          ],
+          [
+            "pay",
+            "paid",
+            "paid",
+            "payer"
+          ],
+          [
+            "lend",
+            "lent",
+            "lent",
+            "prêter"
+          ],
+          [
+            "rise",
+            "rose",
+            "risen",
+            "monter (intransitif)"
+          ],
+          [
+            "fall",
+            "fell",
+            "fallen",
+            "baisser"
+          ],
+          [
+            "grow",
+            "grew",
+            "grown",
+            "croître"
+          ],
+          [
+            "deal",
+            "dealt",
+            "dealt",
+            "traiter"
+          ],
+          [
+            "cost",
+            "cost",
+            "cost",
+            "coûter"
+          ],
+          [
+            "spend",
+            "spent",
+            "spent",
+            "dépenser"
+          ],
+          [
+            "lead",
+            "led",
+            "led",
+            "diriger"
+          ],
+          [
+            "forecast",
+            "forecast",
+            "forecast",
+            "prévoir"
+          ],
+          [
+            "undertake",
+            "undertook",
+            "undertaken",
+            "entreprendre"
+          ],
+          [
+            "withdraw",
+            "withdrew",
+            "withdrawn",
+            "retirer"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Rise et raise : la confusion majeure",
+        "body": "*Rise* est INTRANSITIF et irrégulier : quelque chose monte tout seul (*prices rose*). *Raise* est TRANSITIF et régulier : on fait monter quelque chose (*they raised prices*). On ne peut pas dire *prices raised* ni *they rose prices*. Même opposition entre *lie / lay* et *sit / set*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Costs ______ by 5 %, so the company ______ its prices. » (rise / raise)",
+        "reveal": "« Costs ROSE by 5 %, so the company RAISED its prices. » — *rose* sans complément (les coûts montent d'eux-mêmes), *raised* avec complément (l'entreprise fait monter les prix)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *cost* et *forecast* ont un passé identique à l'infinitif. « The project cost more than planned » est au passé, pas au présent — seul le contexte le révèle. Même chose pour *forecast*, *cut*, *set*, *put*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Rise n'a pas de complément, raise en a toujours un. » Test : si tu peux poser la question « quoi ? » après le verbe, c'est *raise*. Sinon c'est *rise*."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « Sales raised last quarter and we rose our forecast. »",
+        "answer": "« Sales ROSE last quarter and we RAISED our forecast. » — les deux verbes sont inversés.",
+        "hint": "Lequel des deux a un complément d'objet ?"
+      }
+    ]
+  },
+  {
+    "id": "angv-faux-amis-business",
+    "domain": "anglais",
+    "category": "Faux amis",
+    "title": "Faux amis du monde professionnel",
+    "tagline": "Agenda, delay, actual, formation, engagement : cinq mots que tout francophone traduit de travers au bureau.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "faux-amis",
+      "vocabulaire-affaires",
+      "paronymes",
+      "confusion-frequente"
+    ],
+    "related": [
+      "angv-faux-amis-essentiels",
+      "angv-reunions",
+      "angv-efficient-effective",
+      "anglais-pieges-francophones"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les faux amis en contexte professionnel",
+        "headers": [
+          "Anglais",
+          "Vrai sens",
+          "Le mot français se dit"
+        ],
+        "rows": [
+          [
+            "agenda",
+            "ordre du jour",
+            "un agenda = a diary (GB), a calendar (US)"
+          ],
+          [
+            "delay",
+            "retard",
+            "un délai = a deadline, a time frame"
+          ],
+          [
+            "actual",
+            "réel, effectif",
+            "actuel = current"
+          ],
+          [
+            "formation",
+            "constitution, création (d'une société)",
+            "une formation = training"
+          ],
+          [
+            "engagement",
+            "rendez-vous, obligation",
+            "un engagement = a commitment"
+          ],
+          [
+            "notice",
+            "préavis, avis",
+            "une notice = instructions, a manual"
+          ],
+          [
+            "society",
+            "société (au sens de communauté)",
+            "une société = a company"
+          ],
+          [
+            "achievement",
+            "réalisation, réussite",
+            "un achèvement = completion"
+          ],
+          [
+            "patron",
+            "client habituel, mécène",
+            "un patron = a boss, an employer"
+          ],
+          [
+            "command",
+            "ordre militaire, maîtrise",
+            "une commande = an order"
+          ],
+          [
+            "injury",
+            "blessure",
+            "une injure = an insult"
+          ],
+          [
+            "location",
+            "emplacement",
+            "une location = a rental, a lease"
+          ],
+          [
+            "figure",
+            "chiffre, silhouette",
+            "une figure = a face"
+          ],
+          [
+            "material",
+            "matière, matériau",
+            "le matériel = equipment"
+          ],
+          [
+            "control",
+            "maîtrise, pilotage",
+            "un contrôle = an inspection, a check"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces faux amis sont d'autant plus dangereux qu'ils apparaissent dans des documents professionnels courants. Confondre *delay* (retard) et « délai » peut inverser le sens d'un courrier commercial : *we apologise for the delay* signifie qu'on s'excuse d'un RETARD, pas qu'on accorde un délai."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The actual figures differ from the forecast, and the delay was due to a control at customs » ?",
+        "reveal": "« Les chiffres RÉELS diffèrent des prévisions, et le RETARD était dû à un CONTRÔLE en douane. » Trois faux amis dans une seule phrase : *actual*, *delay*, *control*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *to demand*. Il signifie EXIGER, avec une connotation d'autorité. Écrire *I demand a meeting* dans un mail professionnel est perçu comme agressif ; la formule attendue est *I would like to request a meeting*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Company* pour une entreprise, *society* pour la société au sens sociologique. Et *notice* pour un préavis, *manual* pour une notice d'utilisation : deux paires à fixer en premier."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Le retard est dû à un contrôle qualité ; les chiffres réels seront communiqués à l'ordre du jour de lundi. »",
+        "answer": "« The delay is due to a quality inspection; the actual figures will be presented in Monday's agenda. »",
+        "hint": "Retard, contrôle, réel, ordre du jour."
+      }
+    ]
+  },
+  {
+    "id": "angv-adjectifs-business",
+    "domain": "anglais",
+    "category": "Nuances",
+    "title": "Adjectifs à ne pas confondre",
+    "tagline": "Economic parle d'économie, economical parle d'économies. Un suffixe, deux sens.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "adjectifs",
+      "nuances",
+      "paronymes",
+      "confusion-frequente"
+    ],
+    "related": [
+      "angv-efficient-effective",
+      "angv-nuances",
+      "angv-faux-amis-business",
+      "ang-formes-de-mots"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les paires piégeuses",
+        "headers": [
+          "Adjectif",
+          "Sens",
+          "Adjectif voisin",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "economic",
+            "relatif à l'économie",
+            "economical",
+            "économe, peu coûteux"
+          ],
+          [
+            "historic",
+            "qui marque l'histoire",
+            "historical",
+            "relatif au passé"
+          ],
+          [
+            "continual",
+            "répété, avec des interruptions",
+            "continuous",
+            "ininterrompu"
+          ],
+          [
+            "personal",
+            "personnel (individuel)",
+            "personnel (nom)",
+            "le personnel d'une entreprise"
+          ],
+          [
+            "classic",
+            "qui fait référence",
+            "classical",
+            "classique (musique, antiquité)"
+          ],
+          [
+            "industrious",
+            "travailleur",
+            "industrial",
+            "industriel"
+          ],
+          [
+            "sensible",
+            "raisonnable",
+            "sensitive",
+            "sensible, délicat"
+          ],
+          [
+            "literal",
+            "littéral",
+            "literary",
+            "littéraire"
+          ],
+          [
+            "comprehensive",
+            "exhaustif",
+            "comprehensible",
+            "compréhensible"
+          ],
+          [
+            "respectful",
+            "respectueux",
+            "respectable",
+            "honorable"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces paires partagent une racine mais pas un sens. *Economic growth* est la croissance économique ; *an economical car* est une voiture peu gourmande. *Continual complaints* sont des plaintes répétées ; *continuous service* est un service sans interruption. Le suffixe porte toute la différence."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle différence entre « continual delays » et « continuous production » ?",
+        "reveal": "*Continual delays* : des retards qui se répètent, avec des périodes normales entre eux. *Continuous production* : une production qui ne s'arrête jamais, 24 h sur 24. Le premier est discontinu par nature, le second ininterrompu."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *personnel* et *personal*. *Personnel* (avec deux n et l'accent sur la fin) est un NOM désignant le personnel d'une entreprise ; *personal* est un ADJECTIF signifiant « personnel, privé ». Une erreur de lettre change la nature du mot."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« −ic parle du domaine, −ical parle du rapport ou de la qualité. » *Economic* = de l'économie ; *economical* = qui économise. La règle n'est pas absolue mais elle guide bien sur ces paires."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « This is an ______ decision that will improve our ______ performance. » — economic / economical",
+        "answer": "« an ECONOMICAL decision that will improve our ECONOMIC performance » — une décision économe, qui améliore la performance économique.",
+        "hint": "L'un qualifie la décision, l'autre le domaine."
+      }
+    ]
+  },
+  {
+    "id": "angv-nuances",
+    "domain": "anglais",
+    "category": "Nuances",
+    "title": "Job, work, travel, trip : des noms mal traduits",
+    "tagline": "Work est indénombrable, job se compte. Travel est général, trip est un déplacement précis.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "nuances",
+      "confusion-frequente",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-adjectifs-business",
+      "ang-noms-indenombrables",
+      "angv-faux-amis-business",
+      "angv-synonymes"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les distinctions à connaître",
+        "headers": [
+          "Mots",
+          "Différence"
+        ],
+        "rows": [
+          [
+            "work / job",
+            "*work* est indénombrable (le travail en général) ; *a job* est un poste, un emploi précis"
+          ],
+          [
+            "travel / trip / journey",
+            "*travel* = le fait de voyager (indénombrable) ; *a trip* = un déplacement aller-retour ; *a journey* = un trajet"
+          ],
+          [
+            "opportunity / possibility",
+            "*opportunity* = une occasion à saisir ; *possibility* = une éventualité"
+          ],
+          [
+            "price / cost / fee / charge",
+            "*price* = prix de vente ; *cost* = coût ; *fee* = honoraires ; *charge* = frais facturés"
+          ],
+          [
+            "rise / increase / growth",
+            "*rise* et *increase* = hausse ponctuelle ; *growth* = croissance dans le temps"
+          ],
+          [
+            "client / customer",
+            "*client* = pour un service professionnel ; *customer* = pour un achat de biens"
+          ],
+          [
+            "staff / employees / workforce",
+            "*staff* = le personnel (collectif) ; *workforce* = l'ensemble des salariés"
+          ],
+          [
+            "target / goal / objective",
+            "*target* = chiffré ; *goal* = but général ; *objective* = objectif formalisé"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le français emploie souvent un seul mot là où l'anglais en distingue plusieurs. « Travail » couvre *work* et *job* ; « voyage » couvre *travel*, *trip* et *journey* ; « prix » couvre *price*, *cost*, *fee* et *charge*. Choisir le mauvais terme n'est pas incompréhensible, mais c'est immédiatement repéré."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « I have a lot of works and I found a new work last month, after a business travel to Milan. »",
+        "reveal": "« I have a lot of WORK and I found a new JOB last month, after a business TRIP to Milan. » — *work* est indénombrable, *job* désigne le poste, *trip* le déplacement."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *a travel*. Ce mot ne s'emploie pas au singulier avec un article dans ce sens. On dit *a trip*, *a journey*, ou *travel* sans article : *travel broadens the mind*. En revanche *travels* au pluriel existe, au sens de « périples »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Job = un poste, work = de l'activité. » Test : si tu peux dire « deux », c'est *jobs*. Si tu ne peux dire que « beaucoup », c'est *work*."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Elle a beaucoup de travail et part en déplacement professionnel demain. »",
+        "answer": "« She has a lot of work and is going on a business trip tomorrow. » — *work* sans article ni pluriel, *trip* pour le déplacement.",
+        "hint": "Deux pièges : travail indénombrable, déplacement = trip."
+      }
+    ]
+  },
+  {
+    "id": "angv-synonymes",
+    "domain": "anglais",
+    "category": "Nuances",
+    "title": "Choisir entre deux synonymes",
+    "tagline": "En QCM de vocabulaire, les quatre propositions sont souvent toutes plausibles : c'est la collocation qui tranche.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "synonymes",
+      "nuances",
+      "collocation",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-nuances",
+      "angv-collocations-verbes",
+      "angv-adjectifs-business",
+      "angv-registre-formel"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Synonymes et emplois réservés",
+        "headers": [
+          "Mots",
+          "Ce qui les distingue"
+        ],
+        "rows": [
+          [
+            "to raise / to increase / to boost",
+            "*raise* un prix ou un salaire ; *increase* une quantité ; *boost* les ventes ou le moral"
+          ],
+          [
+            "to reduce / to cut / to lower",
+            "*reduce* de façon générale ; *cut* des coûts ou des effectifs ; *lower* un prix ou un taux"
+          ],
+          [
+            "important / significant / substantial",
+            "*important* pour l'enjeu ; *significant* pour l'écart mesuré ; *substantial* pour le volume"
+          ],
+          [
+            "to allow / to enable / to permit",
+            "*allow* une permission ; *enable* une capacité technique ; *permit* dans un registre officiel"
+          ],
+          [
+            "to ensure / to insure / to assure",
+            "*ensure* garantir un résultat ; *insure* assurer contre un risque ; *assure* rassurer quelqu'un"
+          ],
+          [
+            "to affect / to effect",
+            "*affect* (verbe) = influencer ; *effect* (nom) = l'effet ; *to effect* = réaliser (rare, formel)"
+          ],
+          [
+            "to inform / to notify / to advise",
+            "*inform* neutre ; *notify* formel et officiel ; *advise* conseiller ou informer formellement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une question de vocabulaire, les distracteurs sont choisis pour être proches du sens attendu. Ce qui départage n'est pas le sens global mais la COLLOCATION : on *cuts* des coûts, on *lowers* un taux, on *raises* un salaire. Le mot juste est celui qui s'associe habituellement au complément donné."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« The company decided to ______ costs by 15 %. » Propositions : reduce / lower / raise / boost.",
+        "reveal": "*Reduce* et *cut* sont les collocations naturelles avec *costs*. *Lower* s'emploie plutôt avec *prices*, *rates*, *standards*. *Raise* et *boost* vont dans le sens inverse. Si seul *reduce* est proposé, c'est la réponse."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *ensure* et *insure*. *Ensure* signifie faire en sorte que quelque chose arrive ; *insure* signifie assurer contre un risque. « Please ensure the door is locked » n'a rien à voir avec une police d'assurance."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Face à quatre synonymes, regarde le COMPLÉMENT avant le verbe. C'est lui qui impose la collocation, et c'est presque toujours la clé de la question."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « These new figures will ______ our strategy, and we must ______ that everyone is informed. » — affect/effect, ensure/insure",
+        "answer": "« will AFFECT our strategy » (verbe = influencer) et « must ENSURE that everyone is informed » (faire en sorte que).",
+        "hint": "Un verbe d'influence, un verbe de garantie."
+      }
+    ]
+  },
+  {
+    "id": "angv-chiffres-tendances",
+    "domain": "anglais",
+    "category": "Nuances",
+    "title": "Décrire une évolution chiffrée",
+    "tagline": "Rise, soar, plummet, level off : le vocabulaire des courbes et des variations.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation",
+      "verbes-irreguliers"
+    ],
+    "related": [
+      "angv-verbes-irreguliers",
+      "angv-finance-comptabilite",
+      "log-lecture-donnees",
+      "angv-phrasal-finances"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les verbes de variation",
+        "headers": [
+          "Sens",
+          "Verbes",
+          "Intensité"
+        ],
+        "rows": [
+          [
+            "Hausse",
+            "rise, increase, grow, go up",
+            "neutre"
+          ],
+          [
+            "Hausse forte",
+            "soar, surge, rocket, jump",
+            "forte"
+          ],
+          [
+            "Baisse",
+            "fall, decrease, decline, drop, go down",
+            "neutre"
+          ],
+          [
+            "Baisse forte",
+            "plummet, plunge, collapse, slump",
+            "forte"
+          ],
+          [
+            "Stabilité",
+            "remain stable, level off, plateau, stagnate",
+            "—"
+          ],
+          [
+            "Sommet / creux",
+            "peak, bottom out",
+            "point d'inflexion"
+          ],
+          [
+            "Irrégularité",
+            "fluctuate, be volatile",
+            "—"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Les adverbes d'intensité",
+        "headers": [
+          "Adverbe",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "sharply / steeply",
+            "fortement, brutalement"
+          ],
+          [
+            "significantly / considerably",
+            "sensiblement"
+          ],
+          [
+            "slightly / marginally",
+            "légèrement"
+          ],
+          [
+            "steadily / gradually",
+            "régulièrement, progressivement"
+          ],
+          [
+            "dramatically",
+            "spectaculairement"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Comment exprimer la quantité",
+        "body": "Deux constructions : *rise BY 5 %* (l'ampleur de la hausse) ou *rise TO 45 million* (le niveau atteint). Et on emploie *from … to …* pour donner les deux bornes : *sales rose from 40 to 45 million*. Confondre *by* et *to* change complètement le chiffre annoncé."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle différence entre « Profits rose by 20 million » et « Profits rose to 20 million » ?",
+        "reveal": "*By 20 million* : le bénéfice a augmenté de 20 millions, on ne sait pas son niveau final. *To 20 million* : il atteint 20 millions, on ne sait pas de combien il a augmenté. Deux informations différentes."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *rise* et *raise*. *Prices rose* (les prix ont monté) est intransitif ; *the company raised prices* (l'entreprise a augmenté les prix) est transitif. Et *rise* est un nom aussi : *a rise in prices* — alors que *raise* comme nom signifie une augmentation de salaire en anglais américain."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« By = l'écart, to = le niveau. » Pose-toi la question : le chiffre donné est-il la variation ou le résultat ? C'est la question la plus fréquente sur les graphiques au TOEIC."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Les ventes ont chuté de 12 % puis se sont stabilisées à 3,4 millions. »",
+        "answer": "« Sales fell by 12 % and then levelled off at 3.4 million. » — *by* pour la variation, *at* pour le palier atteint.",
+        "hint": "Une variation, puis un palier."
+      }
+    ]
+  },
+  {
+    "id": "angv-mails-formules",
+    "domain": "anglais",
+    "category": "Communication écrite",
+    "title": "Écrire un mail professionnel",
+    "tagline": "Dear Sir or Madam → Yours faithfully. Dear Mr Smith → Yours sincerely. La formule finale dépend de l'ouverture.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "expressions-figees",
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-registre-formel",
+      "angv-abreviations",
+      "angv-reunions",
+      "angv-phrasal-communication"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Ouverture et clôture (usage britannique)",
+        "headers": [
+          "Ouverture",
+          "Clôture correspondante",
+          "Contexte"
+        ],
+        "rows": [
+          [
+            "Dear Sir or Madam,",
+            "Yours faithfully,",
+            "destinataire inconnu"
+          ],
+          [
+            "Dear Mr Smith,",
+            "Yours sincerely,",
+            "destinataire nommé"
+          ],
+          [
+            "Dear Anna,",
+            "Best regards, / Kind regards,",
+            "relation établie"
+          ],
+          [
+            "Hi Tom,",
+            "Best, / Thanks,",
+            "interne, informel"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les formules du corps du message",
+        "items": [
+          "*I am writing to enquire about / to confirm / to follow up on…* — annoncer l'objet.",
+          "*Further to our conversation…* / *With reference to your email of 12 May…* — rappeler le contexte.",
+          "*Please find attached…* — annoncer une pièce jointe (jamais *you will find in attachment*).",
+          "*Could you please…* / *I would appreciate it if you could…* — formuler une demande.",
+          "*Please do not hesitate to contact me should you need further information.* — se rendre disponible.",
+          "*I look forward to hearing from you.* — clore en attendant une réponse (et non *to hear*)."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La correspondance professionnelle anglaise est très codifiée : la formule de clôture dépend de l'ouverture. Si l'on ne connaît pas le nom du destinataire (*Dear Sir or Madam*), on clôt par *Yours faithfully* ; si on le nomme, par *Yours sincerely*. L'usage américain simplifie en *Sincerely* dans les deux cas."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *I look forward to hear from you*. Faux — après *look forward to*, le *to* est une préposition, donc *hearing*. C'est l'erreur la plus fréquente des francophones dans les mails professionnels, et elle est très visible."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Nom inconnu → faithfully. Nom connu → sincerely. » Et dans le doute, *Kind regards* passe partout : c'est la formule la plus sûre en contexte professionnel courant."
+      },
+      {
+        "type": "quiz",
+        "question": "Un mail commence par « Dear Sir or Madam ». Par quoi doit-il se terminer, et quelle formule de clôture serait fautive ?",
+        "answer": "Par *Yours faithfully*. *Yours sincerely* serait fautif puisque le destinataire n'est pas nommé.",
+        "hint": "La clôture reflète l'ouverture."
+      }
+    ]
+  },
+  {
+    "id": "angv-registre-formel",
+    "domain": "anglais",
+    "category": "Communication écrite",
+    "title": "Registre formel ou courant ?",
+    "tagline": "Le mot d'origine latine est plus formel que le verbe à particule : purchase contre buy, request contre ask for.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "synonymes",
+      "nuances",
+      "vocabulaire-affaires",
+      "verbes-a-particule"
+    ],
+    "related": [
+      "angv-mails-formules",
+      "angv-synonymes",
+      "angv-phrasal-particules",
+      "angv-contrats-juridique"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Deux registres pour la même idée",
+        "headers": [
+          "Formel (origine latine)",
+          "Courant (souvent à particule)"
+        ],
+        "rows": [
+          [
+            "to purchase",
+            "to buy"
+          ],
+          [
+            "to request",
+            "to ask for"
+          ],
+          [
+            "to require",
+            "to need"
+          ],
+          [
+            "to commence",
+            "to start"
+          ],
+          [
+            "to terminate",
+            "to end"
+          ],
+          [
+            "to postpone",
+            "to put off"
+          ],
+          [
+            "to investigate",
+            "to look into"
+          ],
+          [
+            "to increase",
+            "to go up"
+          ],
+          [
+            "to assist",
+            "to help"
+          ],
+          [
+            "to inform",
+            "to tell"
+          ],
+          [
+            "to resolve",
+            "to sort out"
+          ],
+          [
+            "to submit",
+            "to hand in"
+          ],
+          [
+            "to withdraw",
+            "to pull out"
+          ],
+          [
+            "to compensate",
+            "to make up for"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'anglais dispose de deux couches lexicales : une couche germanique, courte et courante, souvent construite avec des particules ; une couche latine, plus longue et plus formelle. Un contrat emploiera *to terminate*, un collègue dira *to end*. Les deux sont corrects, mais pas dans le même contexte."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Rends cette phrase plus formelle : « We need to put off the meeting and sort out the problem. »",
+        "reveal": "« We are required to postpone the meeting and resolve the issue. » Trois substitutions : *need* → *be required to*, *put off* → *postpone*, *sort out* → *resolve*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : l'excès de formalisme. Un mail interne rédigé entièrement en registre latin paraît raide et artificiel. À l'inverse, un contrat ou un courrier à un client inconnu exige le registre formel. Le registre se choisit selon le destinataire, pas selon le niveau d'anglais."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Mot long d'origine latine = formel. Verbe court + particule = courant. » En compréhension, cette règle aide aussi à identifier le type de document : contrat, mail interne, communiqué."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel verbe choisir dans un contrat : « Either party may ______ this agreement » — end / terminate ?",
+        "answer": "*terminate* : c'est le registre juridique attendu. *End* serait compris mais inapproprié dans un contrat.",
+        "hint": "Quel registre impose un contrat ?"
+      }
+    ]
+  },
+  {
+    "id": "angv-abreviations",
+    "domain": "anglais",
+    "category": "Communication écrite",
+    "title": "Abréviations et sigles du bureau",
+    "tagline": "ASAP, EOD, TBC, e.g. et i.e. : les raccourcis qu'il faut savoir lire, même si on ne les écrit pas.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "expressions-figees",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-mails-formules",
+      "angv-informatique",
+      "angv-finance-comptabilite",
+      "angv-registre-formel"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Abréviations de correspondance",
+        "headers": [
+          "Sigle",
+          "Signification",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "ASAP",
+            "as soon as possible",
+            "dès que possible"
+          ],
+          [
+            "FYI",
+            "for your information",
+            "pour information"
+          ],
+          [
+            "EOD / COB",
+            "end of day / close of business",
+            "avant la fin de la journée"
+          ],
+          [
+            "ETA",
+            "estimated time of arrival",
+            "heure d'arrivée prévue"
+          ],
+          [
+            "TBC / TBD",
+            "to be confirmed / to be determined",
+            "à confirmer / à définir"
+          ],
+          [
+            "N/A",
+            "not applicable / not available",
+            "sans objet / non disponible"
+          ],
+          [
+            "RSVP",
+            "répondez s'il vous plaît",
+            "réponse souhaitée"
+          ],
+          [
+            "cc / bcc",
+            "carbon copy / blind carbon copy",
+            "copie / copie cachée"
+          ],
+          [
+            "e.g.",
+            "exempli gratia",
+            "par exemple"
+          ],
+          [
+            "i.e.",
+            "id est",
+            "c'est-à-dire"
+          ],
+          [
+            "attn",
+            "attention",
+            "à l'attention de"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Sigles de gestion",
+        "headers": [
+          "Sigle",
+          "Signification"
+        ],
+        "rows": [
+          [
+            "KPI",
+            "key performance indicator — indicateur clé de performance"
+          ],
+          [
+            "ROI",
+            "return on investment — retour sur investissement"
+          ],
+          [
+            "P&L",
+            "profit and loss — compte de résultat"
+          ],
+          [
+            "B2B / B2C",
+            "business to business / to consumer"
+          ],
+          [
+            "R&D",
+            "research and development — recherche et développement"
+          ],
+          [
+            "HR",
+            "human resources — ressources humaines"
+          ],
+          [
+            "Q1 à Q4",
+            "quarters — trimestres"
+          ],
+          [
+            "FY",
+            "fiscal year — exercice comptable"
+          ],
+          [
+            "YoY",
+            "year on year — en glissement annuel"
+          ],
+          [
+            "NDA",
+            "non-disclosure agreement — accord de confidentialité"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *e.g.* et *i.e.* On les confond constamment. *E.g.* introduit un EXEMPLE parmi d'autres ; *i.e.* introduit une REFORMULATION exhaustive. « Our main markets, e.g. Germany » = l'Allemagne entre autres ; « Our main market, i.e. Germany » = l'Allemagne, et c'est tout."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« e.g. = example given. i.e. = in essence. » Deux moyens mnémotechniques approximatifs mais efficaces pour ne plus les inverser."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie « Please send the P&L to HR, cc the CFO, ASAP — ETA for the audit is TBC » ?",
+        "answer": "« Envoyez le compte de résultat aux ressources humaines, en copie au directeur financier, dès que possible — la date prévue de l'audit reste à confirmer. »",
+        "hint": "Cinq sigles à décoder."
+      }
+    ]
+  },
+  {
+    "id": "angv-expressions-figees",
+    "domain": "anglais",
+    "category": "Communication écrite",
+    "title": "Expressions figées du monde du travail",
+    "tagline": "Touch base, bottom line, bear in mind : des images qu'il faut reconnaître, pas traduire.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "expressions-figees",
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [
+      "angv-phrasal-reunions",
+      "angv-registre-formel",
+      "angv-mails-formules",
+      "angv-nuances"
+    ],
+    "subtests": [
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les expressions les plus courantes",
+        "headers": [
+          "Expression",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "the bottom line",
+            "l'essentiel, le résultat net"
+          ],
+          [
+            "to touch base (with someone)",
+            "reprendre contact brièvement"
+          ],
+          [
+            "to bear in mind",
+            "garder à l'esprit"
+          ],
+          [
+            "to be on the same page",
+            "être d'accord, partager la même compréhension"
+          ],
+          [
+            "to think outside the box",
+            "sortir des schémas habituels"
+          ],
+          [
+            "a win-win situation",
+            "une situation avantageuse pour tous"
+          ],
+          [
+            "to cut corners",
+            "bâcler, rogner sur la qualité"
+          ],
+          [
+            "to be in the red / in the black",
+            "être en déficit / en bénéfice"
+          ],
+          [
+            "to take something on board",
+            "prendre en compte"
+          ],
+          [
+            "a ballpark figure",
+            "un ordre de grandeur"
+          ],
+          [
+            "to raise a red flag",
+            "signaler un problème"
+          ],
+          [
+            "to go the extra mile",
+            "faire plus que le nécessaire"
+          ],
+          [
+            "to be up in the air",
+            "ne pas être encore décidé"
+          ],
+          [
+            "to get the ball rolling",
+            "lancer les choses"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces expressions ne se traduisent pas mot à mot : *to cut corners* ne parle pas de coins, *to be in the red* fait référence à l'encre rouge des comptes déficitaires. Il faut les reconnaître comme des blocs, comme on reconnaît « avoir le bras long » en français."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « Let's touch base next week — the timeline is still up in the air, but the bottom line is we need a ballpark figure » ?",
+        "reveal": "« Refaisons un point la semaine prochaine — le calendrier n'est pas encore arrêté, mais l'essentiel est qu'il nous faut un ordre de grandeur. » Trois expressions figées dans une phrase de réunion ordinaire."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *in the red* et *in the black*. Être *in the black* est POSITIF (bénéficiaire), *in the red* est négatif (déficitaire). L'intuition française associe plutôt le noir au négatif, d'où l'inversion fréquente."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En compréhension, une expression figée non comprise se déduit du contexte : cherche si le ton général est positif ou négatif, cela suffit souvent à répondre à une question de sens global."
+      },
+      {
+        "type": "quiz",
+        "question": "Que veut dire « The company is finally back in the black after cutting corners for two years » ?",
+        "answer": "« L'entreprise est enfin redevenue bénéficiaire après avoir rogné sur la qualité pendant deux ans. » *In the black* = bénéficiaire ; *cut corners* = bâcler.",
+        "hint": "Une bonne nouvelle obtenue par un moyen critiquable."
+      }
+    ]
+  },
+  {
+    "id": "angv-informatique",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Informatique et outils numériques",
+    "tagline": "Update n'est pas upgrade, et un bug n'est pas une feature : le vocabulaire numérique au bureau.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire-affaires",
+      "nuances"
+    ],
+    "related": [
+      "angv-abreviations",
+      "angv-production-qualite",
+      "angv-finance-comptabilite",
+      "culture-numerique"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le vocabulaire numérique",
+        "headers": [
+          "Anglais",
+          "Français"
+        ],
+        "rows": [
+          [
+            "software / hardware",
+            "logiciel / matériel"
+          ],
+          [
+            "spreadsheet",
+            "tableur"
+          ],
+          [
+            "database",
+            "base de données"
+          ],
+          [
+            "server",
+            "serveur"
+          ],
+          [
+            "cloud computing",
+            "informatique en nuage"
+          ],
+          [
+            "backup",
+            "sauvegarde"
+          ],
+          [
+            "update",
+            "mise à jour (corrective)"
+          ],
+          [
+            "upgrade",
+            "montée de version, amélioration"
+          ],
+          [
+            "bug / glitch",
+            "bogue / anomalie passagère"
+          ],
+          [
+            "feature",
+            "fonctionnalité"
+          ],
+          [
+            "deployment / rollout",
+            "déploiement"
+          ],
+          [
+            "dashboard",
+            "tableau de bord"
+          ],
+          [
+            "data breach",
+            "fuite de données"
+          ],
+          [
+            "encryption",
+            "chiffrement"
+          ],
+          [
+            "troubleshooting",
+            "dépannage, diagnostic"
+          ],
+          [
+            "user-friendly",
+            "facile à utiliser"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Update ou upgrade ?",
+        "body": "Un *update* corrige ou actualise une version existante, généralement sans coût. Un *upgrade* fait passer à une version supérieure, avec de nouvelles fonctionnalités et souvent un coût. On dit *to update the data* mais *to upgrade the system*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The rollout was delayed by a bug, so we postponed the upgrade and applied a security update instead » ?",
+        "reveal": "« Le déploiement a été retardé par un bogue, nous avons donc reporté la montée de version et appliqué une mise à jour de sécurité à la place. »"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *data* est en principe le pluriel de *datum*, mais l'usage courant le traite comme un indénombrable singulier : *the data is clear* est aujourd'hui accepté, *the data are clear* reste correct en registre scientifique. Dans les deux cas, jamais de −s : *datas* n'existe pas."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "*Backup* en un mot est un nom (une sauvegarde) ; *to back up* en deux mots est le verbe. Même logique pour *login* / *to log in* et *setup* / *to set up*."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Nous avons perdu des données faute de sauvegarde, et le tableau de bord n'est pas encore déployé. »",
+        "answer": "« We lost data because there was no backup, and the dashboard has not been deployed yet. »",
+        "hint": "Data sans -s, backup en un mot pour le nom."
+      }
+    ]
+  },
+  {
+    "id": "angv-paronymes-anglais",
+    "domain": "anglais",
+    "category": "Nuances",
+    "title": "Paronymes anglais : une lettre, deux sens",
+    "tagline": "Principal ou principle ? Complement ou compliment ? Un caractère change tout.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "paronymes",
+      "confusion-frequente",
+      "nuances",
+      "vocabulaire-affaires"
+    ],
+    "related": [
+      "angv-adjectifs-business",
+      "angv-synonymes",
+      "angv-faux-amis-business",
+      "vocabulaire-pieges"
+    ],
+    "subtests": [
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les paires à distinguer",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Mot",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "principal",
+            "principal ; un capital",
+            "principle",
+            "un principe"
+          ],
+          [
+            "complement",
+            "complément",
+            "compliment",
+            "compliment"
+          ],
+          [
+            "stationary",
+            "immobile",
+            "stationery",
+            "fournitures de bureau"
+          ],
+          [
+            "affect",
+            "influencer (verbe)",
+            "effect",
+            "l'effet (nom)"
+          ],
+          [
+            "accept",
+            "accepter",
+            "except",
+            "sauf"
+          ],
+          [
+            "assure",
+            "rassurer quelqu'un",
+            "ensure",
+            "garantir un résultat"
+          ],
+          [
+            "advice",
+            "un conseil (nom)",
+            "advise",
+            "conseiller (verbe)"
+          ],
+          [
+            "practice",
+            "la pratique (nom, GB)",
+            "practise",
+            "pratiquer (verbe, GB)"
+          ],
+          [
+            "loose",
+            "desserré",
+            "lose",
+            "perdre"
+          ],
+          [
+            "personal",
+            "personnel (adjectif)",
+            "personnel",
+            "le personnel (nom)"
+          ],
+          [
+            "formerly",
+            "autrefois",
+            "formally",
+            "formellement"
+          ],
+          [
+            "eminent",
+            "éminent",
+            "imminent",
+            "imminent"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces paires se prononcent souvent de façon identique ou très proche, mais leurs sens n'ont aucun rapport. En compréhension écrite, une lecture rapide peut inverser le sens d'une phrase : *stationary vehicles* (véhicules à l'arrêt) n'a rien à voir avec des fournitures de bureau."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Que signifie « The principal issue is a matter of principle, not of cost » ?",
+        "reveal": "« Le problème PRINCIPAL est une question de PRINCIPE, non de coût. » Deux mots quasi homophones dans la même phrase, avec des sens totalement distincts."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *advice* et *advise*. *Advice* est le nom, indénombrable (*some advice*, jamais *an advice*) ; *advise* est le verbe. Même schéma pour *practice* (nom) et *practise* (verbe) en orthographe britannique — l'anglais américain écrit *practice* dans les deux cas."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Le nom en −ice, le verbe en −ise. » Cela vaut pour advice/advise, practice/practise, licence/license (GB), device/devise. La règle est régulière en anglais britannique."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « Her ______ will ______ our decision. » — advice/advise, affect/effect",
+        "answer": "« Her ADVICE will AFFECT our decision. » — le nom *advice*, le verbe *affect*.",
+        "hint": "Un nom, puis un verbe."
+      }
+    ]
   }
 ]
