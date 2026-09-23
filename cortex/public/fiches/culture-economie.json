@@ -33,5 +33,3242 @@
         "body": "Quand l'inflation monte, la banque centrale relève souvent ses taux directeurs pour la freiner — mais des taux plus élevés ralentissent l'investissement des entreprises et donc, in fine, la croissance du PIB. Retiens cet enchaînement plutôt que chaque notion isolément."
       }
     ]
+  },
+  {
+    "id": "eco-pib",
+    "domain": "culture-generale",
+    "category": "Indicateurs",
+    "title": "Le PIB : ce qu'il mesure et ce qu'il ignore",
+    "tagline": "Le PIB est la somme des valeurs ajoutées produites sur un territoire pendant un an. Rien de plus.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "economie",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-croissance-facteurs",
+      "eco-indicateurs-lecture",
+      "eco-inflation",
+      "culture-economie-indicateurs"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le produit intérieur brut mesure la richesse créée sur un territoire pendant une période donnée. On l'obtient en additionnant les VALEURS AJOUTÉES de toutes les unités productives — la valeur ajoutée étant la production moins les consommations intermédiaires. « Intérieur » signifie sur le territoire, quelle que soit la nationalité du producteur."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois façons de le calculer, un seul résultat",
+        "items": [
+          "Par la PRODUCTION : somme des valeurs ajoutées (plus TVA et droits de douane, moins subventions).",
+          "Par la DEMANDE : consommation + investissement + dépenses publiques + exportations − importations.",
+          "Par les REVENUS : salaires + profits + impôts liés à la production.",
+          "PIB nominal (en valeur) contre PIB réel (en volume, corrigé de l'inflation) : seul le second mesure une croissance réelle.",
+          "PIB par habitant : le PIB divisé par la population, indicateur de niveau de vie moyen."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le PIB nominal augmente de 4 % et l'inflation est de 3 %. Quelle est la croissance réelle ?",
+        "reveal": "Environ 1 %. La croissance réelle est ce qui reste après avoir retiré l'effet de la hausse des prix. Un PIB nominal en hausse avec une inflation supérieure signifie que la production a en réalité RECULÉ."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre PIB et bien-être. Le PIB ignore le travail domestique et bénévole, l'économie informelle, les inégalités de répartition, et compte positivement des dépenses de réparation (un accident qui génère des soins augmente le PIB). Il ne déduit pas non plus la dégradation de l'environnement."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens la formule par la demande : **C + I + G + (X − M)**. C'est celle qui apparaît le plus souvent dans les questions, et elle montre immédiatement qu'une hausse des importations pèse négativement sur le PIB."
+      },
+      {
+        "type": "quiz",
+        "question": "Une entreprise produit pour 500 000 € et achète pour 300 000 € de matières premières. Quelle est sa contribution au PIB ?",
+        "answer": "200 000 €, sa valeur ajoutée. Compter les 500 000 € reviendrait à compter deux fois la valeur des matières premières, déjà comptée chez le fournisseur.",
+        "hint": "Production moins consommations intermédiaires."
+      }
+    ]
+  },
+  {
+    "id": "eco-inflation",
+    "domain": "culture-generale",
+    "category": "Inflation & monnaie",
+    "title": "L'inflation : mesure, causes, effets",
+    "tagline": "Hausse générale et durable des prix. Désinflation = elle ralentit. Déflation = les prix baissent.",
+    "level": "fondamental",
+    "readMinutes": 5,
+    "tags": [
+      "inflation",
+      "economie",
+      "indicateurs",
+      "politique-monetaire"
+    ],
+    "related": [
+      "eco-politique-monetaire",
+      "eco-pouvoir-achat",
+      "eco-deflation",
+      "voc-vocabulaire-economique"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'inflation est la hausse générale et durable du niveau des prix. En France, elle est mesurée mensuellement par l'Insee au moyen de l'IPC (indice des prix à la consommation) et de l'IPCH (indice harmonisé, qui permet les comparaisons européennes). Les deux reposent sur un panier de biens pondéré par la structure de consommation des ménages."
+      },
+      {
+        "type": "table",
+        "title": "Les quatre origines de l'inflation",
+        "headers": [
+          "Type",
+          "Mécanisme"
+        ],
+        "rows": [
+          [
+            "Par la demande",
+            "la demande dépasse les capacités de production, les prix montent"
+          ],
+          [
+            "Par les coûts",
+            "hausse des salaires, de l'énergie ou des matières premières, répercutée sur les prix"
+          ],
+          [
+            "Importée",
+            "renchérissement des produits achetés à l'étranger, ou dépréciation de la monnaie"
+          ],
+          [
+            "Monétaire",
+            "création monétaire excessive au regard de la production"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ses effets, gagnants et perdants",
+        "items": [
+          "Perte de pouvoir d'achat si les revenus progressent moins vite que les prix.",
+          "Avantage aux DÉBITEURS : ils remboursent une dette dont la valeur réelle diminue.",
+          "Désavantage aux CRÉANCIERS et aux détenteurs d'épargne peu rémunérée.",
+          "Perte de compétitivité si l'inflation est plus forte que chez les partenaires commerciaux.",
+          "Risque de spirale prix-salaires si les salaires sont indexés sur les prix."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "État des lieux au 23 septembre 2026",
+        "prompt": "Où en est l'inflation en zone euro et en France ?",
+        "reveal": "En août 2026, l'inflation annuelle atteignait 3,3 % en zone euro (contre 2,9 % en juillet) et 2,6 % en France (contre 2,4 %). Elle était donc supérieure à la cible de 2 % de la BCE, tirée par l'énergie (+14,3 % sur ce poste)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dire que « les prix ont baissé » quand l'inflation ralentit. Une DÉSINFLATION signifie que les prix montent moins vite ; ils montent toujours. Seule la DÉFLATION correspond à une baisse effective des prix, donc à un taux d'inflation négatif."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Inflation = la voiture accélère. Désinflation = elle ralentit mais avance. Déflation = elle recule. » L'image évite la confusion la plus fréquente sur ce chapitre."
+      },
+      {
+        "type": "quiz",
+        "question": "L'inflation passe de 5 % à 2 %. Le pouvoir d'achat d'un salarié dont le salaire est gelé augmente-t-il ?",
+        "answer": "Non, il continue de baisser, mais moins vite. Avec 2 % d'inflation et un salaire inchangé, le pouvoir d'achat recule de près de 2 %. Il n'augmenterait qu'en cas de déflation, ou si le salaire progressait de plus de 2 %.",
+        "hint": "L'inflation reste positive."
+      }
+    ]
+  },
+  {
+    "id": "eco-politique-monetaire",
+    "domain": "culture-generale",
+    "category": "Inflation & monnaie",
+    "title": "La BCE et la politique monétaire",
+    "tagline": "Mission principale : la stabilité des prix, définie comme 2 % d'inflation à moyen terme.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "politique-monetaire",
+      "institutions-europeennes",
+      "economie",
+      "inflation"
+    ],
+    "related": [
+      "eco-inflation",
+      "eco-taux-interet",
+      "eco-creation-monetaire",
+      "ue-institutions"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La Banque centrale européenne conduit la politique monétaire de la zone euro. Son objectif principal, fixé par les traités, est la STABILITÉ DES PRIX, qu'elle définit comme une inflation de 2 % à moyen terme. Elle est indépendante des gouvernements : ni la Commission ni les États ne peuvent lui donner d'instruction."
+      },
+      {
+        "type": "table",
+        "title": "Les trois taux directeurs (au 23/09/2026)",
+        "headers": [
+          "Taux",
+          "Rôle",
+          "Niveau"
+        ],
+        "rows": [
+          [
+            "Facilité de dépôt",
+            "rémunère les dépôts des banques auprès de la BCE",
+            "2,00 %"
+          ],
+          [
+            "Opérations principales de refinancement",
+            "taux auquel les banques empruntent à une semaine",
+            "2,15 %"
+          ],
+          [
+            "Facilité de prêt marginal",
+            "prêt au jour le jour, plafond du corridor",
+            "2,40 %"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ses instruments",
+        "items": [
+          "Les TAUX DIRECTEURS : les relever renchérit le crédit et freine la demande ; les baisser fait l'inverse.",
+          "Les opérations d'open market : prêts aux banques contre garanties.",
+          "Les réserves obligatoires : part des dépôts que les banques doivent conserver.",
+          "L'assouplissement quantitatif : achats massifs de titres pour faire baisser les taux longs.",
+          "La communication (« forward guidance ») : annoncer ses intentions pour orienter les anticipations."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "L'inflation dépasse la cible. Que fait la BCE, et par quel mécanisme cela agit-il ?",
+        "reveal": "Elle relève ses taux directeurs. Le crédit devient plus cher, les ménages empruntent et consomment moins, les entreprises investissent moins : la demande ralentit, et la pression sur les prix diminue. L'effet met plusieurs trimestres à se diffuser."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre l'Eurosystème et le SEBC. L'EUROSYSTÈME réunit la BCE et les banques centrales des pays ayant adopté l'euro. Le SEBC (Système européen de banques centrales) réunit la BCE et TOUTES les banques centrales de l'Union, y compris celles des pays hors zone euro."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens l'ordre des trois taux : dépôt < refinancement < prêt marginal. C'est logique : on est toujours moins rémunéré pour déposer qu'on ne paie pour emprunter, et le prêt d'urgence est le plus cher."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi l'indépendance de la BCE est-elle inscrite dans les traités ?",
+        "answer": "Pour éviter qu'un gouvernement ne l'incite à financer ses déficits par la création monétaire, ou à baisser les taux à l'approche d'une élection — deux comportements inflationnistes. L'indépendance protège la crédibilité de l'objectif de stabilité des prix.",
+        "hint": "Quel serait l'intérêt de court terme d'un gouvernement ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-taux-interet",
+    "domain": "culture-generale",
+    "category": "Inflation & monnaie",
+    "title": "Taux nominal et taux réel",
+    "tagline": "Taux réel ≈ taux nominal − inflation. Avec 3 % d'intérêt et 4 % d'inflation, le prêteur perd de l'argent.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "politique-monetaire",
+      "economie",
+      "inflation",
+      "bourse"
+    ],
+    "related": [
+      "eco-politique-monetaire",
+      "eco-inflation",
+      "eco-obligations-actions",
+      "calc-interets-composes"
+    ],
+    "subtests": [
+      "culture-generale",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le taux NOMINAL est celui affiché sur un contrat. Le taux RÉEL est ce qui reste après déduction de l'inflation : il mesure le gain de pouvoir d'achat. Approximation usuelle : taux réel ≈ taux nominal − taux d'inflation. Un taux réel négatif signifie que l'épargne perd du pouvoir d'achat malgré les intérêts perçus."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un livret rapporte 3 % et l'inflation est de 4 %. Que gagne l'épargnant ?",
+        "reveal": "Il perd environ 1 % de pouvoir d'achat par an. Son capital augmente nominalement de 3 %, mais les prix montent de 4 % : il peut acheter moins de biens qu'avant. Le taux réel est de −1 %."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que les taux influencent",
+        "items": [
+          "L'INVESTISSEMENT : des taux élevés rendent les projets moins rentables, l'investissement recule.",
+          "La CONSOMMATION à crédit : des taux élevés la freinent.",
+          "L'ÉPARGNE : des taux élevés incitent à épargner plutôt qu'à consommer.",
+          "Le CHANGE : des taux élevés attirent les capitaux étrangers et font monter la monnaie.",
+          "Le PRIX DES OBLIGATIONS : il évolue en sens INVERSE des taux."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la relation inverse entre taux et prix des obligations. Si les taux montent, les obligations anciennes, moins rémunératrices, perdent de la valeur. C'est mécanique : personne n'achètera une obligation à 2 % au prix d'émission si les nouvelles rapportent 4 %."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Taux haut = crédit cher = économie freinée = monnaie forte. » La chaîne complète se déduit d'un seul repère, et elle répond à la plupart des questions sur les taux."
+      },
+      {
+        "type": "quiz",
+        "question": "Les taux directeurs passent de 2 % à 4 %. Qu'arrive-t-il au prix d'une obligation déjà émise à 2 % ?",
+        "answer": "Son prix baisse. Elle rapporte moins que les nouvelles émissions ; pour qu'elle reste attractive, son prix doit diminuer jusqu'à ce que son rendement effectif rejoigne celui du marché.",
+        "hint": "Relation inverse entre taux et prix des obligations."
+      }
+    ]
+  },
+  {
+    "id": "eco-creation-monetaire",
+    "domain": "culture-generale",
+    "category": "Inflation & monnaie",
+    "title": "Qui crée la monnaie ?",
+    "tagline": "Les banques commerciales, en accordant des crédits. « Les crédits font les dépôts », pas l'inverse.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "politique-monetaire",
+      "economie",
+      "inflation"
+    ],
+    "related": [
+      "eco-politique-monetaire",
+      "eco-taux-interet",
+      "eco-inflation",
+      "eco-change"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Contrairement à l'intuition, l'essentiel de la monnaie en circulation n'est pas créé par la banque centrale mais par les BANQUES COMMERCIALES, lorsqu'elles accordent des crédits. Quand une banque prête, elle inscrit simultanément une créance à son actif et un dépôt au compte du client : la monnaie est créée par cette écriture. Le remboursement la détruit."
+      },
+      {
+        "type": "table",
+        "title": "Les formes de monnaie",
+        "headers": [
+          "Forme",
+          "Émetteur",
+          "Part"
+        ],
+        "rows": [
+          [
+            "Pièces et billets",
+            "banque centrale",
+            "minoritaire"
+          ],
+          [
+            "Monnaie scripturale (dépôts à vue)",
+            "banques commerciales",
+            "l'essentiel"
+          ],
+          [
+            "Réserves des banques à la banque centrale",
+            "banque centrale",
+            "monnaie « centrale »"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les limites à la création monétaire",
+        "items": [
+          "Les réserves obligatoires : une fraction des dépôts doit être conservée à la banque centrale.",
+          "Le coût du refinancement : plus les taux directeurs sont élevés, moins il est rentable de prêter.",
+          "Les ratios prudentiels : les règles de solvabilité limitent le volume de crédit par rapport aux fonds propres.",
+          "La demande de crédit : une banque ne peut pas prêter si personne n'emprunte.",
+          "Le risque : une banque refuse les emprunteurs qu'elle juge insolvables."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que les banques prêtent l'argent que les épargnants ont déposé. Dans les faits, c'est le crédit qui crée le dépôt. C'est la formule consacrée : « les crédits font les dépôts ». Les dépôts préexistants ne sont pas la source du prêt, mais une conséquence de l'activité de crédit dans l'économie."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Crédit accordé = monnaie créée. Crédit remboursé = monnaie détruite. » La masse monétaire augmente donc quand le crédit nouveau dépasse les remboursements."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi une hausse des taux directeurs réduit-elle la masse monétaire ?",
+        "answer": "Parce qu'elle renchérit le crédit : moins de prêts sont accordés, donc moins de monnaie est créée, tandis que les remboursements des crédits anciens continuent d'en détruire. Le solde fait reculer la masse monétaire.",
+        "hint": "Que se passe-t-il quand la création ralentit et que la destruction continue ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-chomage",
+    "domain": "culture-generale",
+    "category": "Croissance & emploi",
+    "title": "Mesurer le chômage",
+    "tagline": "Trois critères du BIT : sans emploi, en recherche active dans les 4 dernières semaines, disponible sous 2 semaines.",
+    "level": "fondamental",
+    "readMinutes": 5,
+    "tags": [
+      "marche-travail",
+      "economie",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-marche-travail",
+      "eco-pib",
+      "eco-indicateurs-lecture",
+      "eco-croissance-facteurs"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "La définition du BIT",
+        "body": "Selon l'Insee, est chômeuse au sens du Bureau international du travail une personne de 15 ans ou plus qui remplit SIMULTANÉMENT trois conditions : être sans emploi au cours d'une semaine donnée ; avoir effectué au moins une démarche active de recherche d'emploi au cours des quatre semaines précédentes ; être disponible pour travailler dans les deux semaines à venir."
+      },
+      {
+        "type": "table",
+        "title": "Les indicateurs du marché du travail",
+        "headers": [
+          "Indicateur",
+          "Définition"
+        ],
+        "rows": [
+          [
+            "Population active",
+            "personnes en emploi OU au chômage"
+          ],
+          [
+            "Taux de chômage",
+            "chômeurs ÷ population active"
+          ],
+          [
+            "Taux d'emploi",
+            "personnes en emploi ÷ population de la tranche d'âge"
+          ],
+          [
+            "Halo autour du chômage",
+            "sans emploi, en cherchent, mais ne remplissent pas tous les critères du BIT"
+          ],
+          [
+            "Sous-emploi",
+            "en emploi à temps partiel, souhaitant travailler davantage"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "État des lieux au T2 2026",
+        "prompt": "Où en est le chômage en France ?",
+        "reveal": "Au deuxième trimestre 2026, le taux de chômage s'établissait à 8,3 % de la population active, soit environ 2,7 millions de personnes, en hausse de 0,2 point par rapport au trimestre précédent (source : Insee)."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les types de chômage",
+        "items": [
+          "FRICTIONNEL : lié au temps de transition entre deux emplois. Il est inévitable et même sain.",
+          "STRUCTUREL : inadéquation durable entre les qualifications offertes et demandées.",
+          "CONJONCTUREL : lié au ralentissement de l'activité économique.",
+          "SAISONNIER : lié au rythme de certaines activités (tourisme, agriculture)."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le taux d'activité et le taux d'emploi. Le taux d'ACTIVITÉ inclut les chômeurs en plus des personnes en emploi ; il est donc TOUJOURS supérieur au taux d'EMPLOI. Une source qui annonce un taux d'activité inférieur au taux d'emploi se contredit par construction."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les trois critères du BIT en trois mots : « sans emploi, cherche, disponible ». Le halo regroupe précisément ceux qui échouent sur l'un des deux derniers — ils voudraient travailler mais n'ont pas cherché récemment, ou ne sont pas immédiatement disponibles."
+      },
+      {
+        "type": "quiz",
+        "question": "Une personne sans emploi, qui souhaite travailler mais n'a fait aucune démarche depuis deux mois, est-elle comptée comme chômeuse au sens du BIT ?",
+        "answer": "Non. Elle ne remplit pas le critère de recherche active dans les quatre dernières semaines. Elle appartient au « halo autour du chômage », que l'Insee mesure séparément.",
+        "hint": "Un seul critère manquant suffit à sortir de la définition."
+      }
+    ]
+  },
+  {
+    "id": "eco-marche-travail",
+    "domain": "culture-generale",
+    "category": "Croissance & emploi",
+    "title": "Le marché du travail",
+    "tagline": "Le coût du travail n'est pas le salaire net : entre les deux, il y a les cotisations.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "marche-travail",
+      "economie",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-chomage",
+      "eco-protection-sociale",
+      "eco-prelevements",
+      "eco-productivite"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Du coût employeur au salaire net",
+        "headers": [
+          "Niveau",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Coût total du travail",
+            "salaire brut + cotisations patronales"
+          ],
+          [
+            "Salaire brut",
+            "base de calcul des cotisations"
+          ],
+          [
+            "Salaire net avant impôt",
+            "brut − cotisations salariales"
+          ],
+          [
+            "Salaire net après impôt",
+            "net − prélèvement à la source"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le coût du travail pour l'employeur est nettement supérieur au salaire perçu par le salarié : les cotisations sociales, patronales et salariales, financent la protection sociale (retraite, maladie, chômage, famille). C'est le fameux « coin fiscalo-social », central dans les débats sur la compétitivité."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les notions à connaître",
+        "items": [
+          "SMIC : salaire minimum légal, revalorisé au moins une fois par an et automatiquement si l'inflation dépasse un seuil.",
+          "Flexibilité : capacité d'ajuster l'emploi (externe) ou le temps de travail et les tâches (interne).",
+          "Segmentation : coexistence d'emplois stables et d'emplois précaires.",
+          "Employabilité : capacité d'un actif à trouver et garder un emploi.",
+          "Rigidité salariale : les salaires nominaux baissent rarement, ce qui fait porter l'ajustement sur l'emploi."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un employeur paie 3 000 € de coût total pour un salarié. Peut-on en déduire son salaire net ?",
+        "reveal": "Non, pas sans connaître les taux de cotisations applicables, qui varient selon le niveau de salaire, le secteur et les allégements en vigueur. On sait seulement que le net sera nettement inférieur à 3 000 €."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : parler du « salaire » sans préciser lequel. Brut, net avant impôt, net après impôt, coût total employeur : quatre montants différents pour un même poste. Toute comparaison internationale exige de préciser lequel est utilisé."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Le coût du travail est ce que paie l'entreprise, le salaire net est ce que reçoit le salarié, et l'écart finance la protection sociale. » Cette phrase suffit à résoudre la plupart des questions sur le sujet."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi une baisse des cotisations patronales peut-elle favoriser l'emploi sans augmenter les salaires nets ?",
+        "answer": "Parce qu'elle réduit le coût du travail pour l'employeur sans modifier le salaire brut. L'embauche devient moins chère à salaire inchangé — c'est le raisonnement des politiques d'allégement de charges.",
+        "hint": "Quel niveau de la chaîne est modifié ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-croissance-facteurs",
+    "domain": "culture-generale",
+    "category": "Croissance & emploi",
+    "title": "Les moteurs de la croissance",
+    "tagline": "Plus de travail, plus de capital, ou mieux les combiner : la troisième voie est la productivité.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "economie",
+      "indicateurs",
+      "marche-travail"
+    ],
+    "related": [
+      "eco-pib",
+      "eco-productivite",
+      "eco-cycles",
+      "eco-chomage"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La croissance vient de trois sources : l'augmentation de la quantité de TRAVAIL (démographie, taux d'emploi, durée du travail), l'accumulation de CAPITAL (investissement en machines, infrastructures, logiciels) et le PROGRÈS TECHNIQUE, qui améliore l'efficacité de la combinaison des deux — c'est la productivité globale des facteurs."
+      },
+      {
+        "type": "table",
+        "title": "Croissance extensive ou intensive",
+        "headers": [
+          "Type",
+          "Mécanisme",
+          "Limite"
+        ],
+        "rows": [
+          [
+            "Extensive",
+            "plus de facteurs de production",
+            "les ressources sont finies"
+          ],
+          [
+            "Intensive",
+            "meilleure efficacité des facteurs",
+            "dépend de l'innovation et de la formation"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qui soutient la croissance intensive",
+        "items": [
+          "L'INNOVATION : nouveaux produits, nouveaux procédés, nouvelles organisations.",
+          "Le CAPITAL HUMAIN : formation, qualification, santé de la population active.",
+          "Les INSTITUTIONS : droits de propriété, État de droit, stabilité, qualité de l'administration.",
+          "Les INFRASTRUCTURES : transport, énergie, réseaux numériques.",
+          "L'OUVERTURE : accès à des marchés plus larges et à la concurrence internationale."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un pays voit sa population active reculer. Peut-il encore croître ?",
+        "reveal": "Oui, par la croissance intensive : en augmentant la productivité par travailleur (automatisation, formation, meilleure organisation) ou en relevant le taux d'emploi des personnes déjà présentes. C'est précisément le défi des économies vieillissantes."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre croissance et développement. La CROISSANCE est quantitative, c'est l'augmentation du PIB. Le DÉVELOPPEMENT est qualitatif : il englobe la santé, l'éducation, les institutions, la réduction des inégalités. Une croissance forte peut aller de pair avec un développement médiocre."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois moteurs, trois mots : travail, capital, productivité. Les deux premiers sont quantitatifs et butent sur des limites ; le troisième est le seul illimité en théorie, et c'est pourquoi l'innovation est au centre des politiques de croissance."
+      },
+      {
+        "type": "quiz",
+        "question": "Qu'est-ce que la productivité globale des facteurs ?",
+        "answer": "La part de la croissance qui ne s'explique ni par l'augmentation du travail ni par celle du capital : elle mesure l'efficacité avec laquelle ces facteurs sont combinés, et reflète essentiellement le progrès technique et organisationnel.",
+        "hint": "C'est le résidu, après avoir tenu compte des quantités de facteurs."
+      }
+    ]
+  },
+  {
+    "id": "eco-productivite",
+    "domain": "culture-generale",
+    "category": "Croissance & emploi",
+    "title": "La productivité",
+    "tagline": "Production divisée par les moyens engagés. Une hausse de productivité n'est pas une hausse de production.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "economie",
+      "indicateurs",
+      "marche-travail"
+    ],
+    "related": [
+      "eco-croissance-facteurs",
+      "eco-marche-travail",
+      "angv-efficient-effective",
+      "eco-cycles"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La productivité est un RAPPORT : production divisée par les moyens engagés. La productivité du travail se mesure par salarié ou par heure travaillée. Celle par heure est plus pertinente pour comparer des pays où la durée du travail diffère : un pays peut avoir une productivité horaire élevée et une production par habitant modeste s'il travaille moins d'heures."
+      },
+      {
+        "type": "table",
+        "title": "Les différentes mesures",
+        "headers": [
+          "Mesure",
+          "Formule"
+        ],
+        "rows": [
+          [
+            "Productivité du travail par salarié",
+            "production ÷ nombre de salariés"
+          ],
+          [
+            "Productivité horaire du travail",
+            "production ÷ nombre d'heures travaillées"
+          ],
+          [
+            "Productivité du capital",
+            "production ÷ capital engagé"
+          ],
+          [
+            "Productivité globale des facteurs",
+            "part de la croissance non expliquée par les quantités de facteurs"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une usine produit 1 000 unités avec 20 salariés, puis 1 100 unités avec 25 salariés. La productivité a-t-elle augmenté ?",
+        "reveal": "Non, elle a baissé : de 50 unités par salarié à 44. La production augmente de 10 %, mais l'effectif de 25 % : chaque salarié produit moins. C'est l'exemple type du piège sur ce chapitre."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre volume produit et productivité. La productivité est un RATIO. Produire davantage en embauchant proportionnellement plus fait baisser la productivité. Inversement, une entreprise qui réduit ses effectifs sans réduire sa production augmente mécaniquement sa productivité."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Devant toute question sur la productivité, écris le ratio avant de calculer. Le numérateur et le dénominateur doivent évoluer dans le bon sens : plus de production ET moins de moyens, ou l'un des deux à l'identique."
+      },
+      {
+        "type": "quiz",
+        "question": "Comment expliquer qu'un pays ait une productivité horaire élevée mais un PIB par habitant moyen ?",
+        "answer": "Parce que le nombre d'heures travaillées par habitant est faible : durée du travail plus courte, taux d'emploi plus bas, ou les deux. Chaque heure est très productive, mais il y en a moins.",
+        "hint": "PIB par habitant = productivité horaire × heures par habitant."
+      }
+    ]
+  },
+  {
+    "id": "eco-dette-deficit",
+    "domain": "culture-generale",
+    "category": "Finances publiques",
+    "title": "Dette et déficit : le stock et le flux",
+    "tagline": "Le déficit est le trou de l'année ; la dette est la somme de tous les trous passés.",
+    "level": "fondamental",
+    "readMinutes": 5,
+    "tags": [
+      "finances-publiques",
+      "economie",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-budget-etat",
+      "eco-prelevements",
+      "eco-politique-budgetaire",
+      "voc-vocabulaire-economique"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le DÉFICIT public est un flux annuel : l'excès des dépenses sur les recettes au cours d'un exercice. La DETTE publique est un stock : le cumul des déficits passés non remboursés. Les deux se mesurent en pourcentage du PIB pour permettre les comparaisons dans le temps et entre pays."
+      },
+      {
+        "type": "table",
+        "title": "Les chiffres français (au 23/09/2026)",
+        "headers": [
+          "Indicateur",
+          "Valeur",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Déficit public 2025",
+            "5,1 % du PIB, soit 152,5 Md€",
+            "Insee"
+          ],
+          [
+            "Dette publique fin 2025 (Maastricht)",
+            "115,6 % du PIB",
+            "Insee"
+          ],
+          [
+            "Dette publique prévue 2026",
+            "≈ 119,3 % du PIB",
+            "ministère de l'Économie"
+          ],
+          [
+            "Taux de prélèvements obligatoires 2025",
+            "43,6 % du PIB",
+            "Insee"
+          ],
+          [
+            "Critères de Maastricht",
+            "déficit ≤ 3 %, dette ≤ 60 % du PIB",
+            "traités européens"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le déficit passe de 5,1 % à 4,5 % du PIB. La dette diminue-t-elle ?",
+        "reveal": "Non. Tant que le déficit est positif, il s'ajoute encore à la dette : celle-ci continue d'augmenter, simplement moins vite. La dette ne recule en valeur absolue que si le budget devient excédentaire. En revanche, le RATIO dette/PIB peut baisser si le PIB croît plus vite que la dette."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « réduire le déficit fait baisser la dette ». Faux tant que le déficit reste positif. Second piège : une dette exprimée en pourcentage du PIB peut baisser sans qu'un euro soit remboursé, simplement parce que le dénominateur grossit — par la croissance ou par l'inflation."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les notions associées",
+        "items": [
+          "Déficit PRIMAIRE : déficit hors charge de la dette. Il indique si le budget serait à l'équilibre sans les intérêts.",
+          "Charge de la dette : les intérêts payés chaque année, qui figurent dans les dépenses.",
+          "Effet « boule de neige » : quand le taux d'intérêt dépasse le taux de croissance, la dette s'auto-alimente.",
+          "Soutenabilité : capacité à rembourser sans ajustement brutal, qui dépend du taux, de la croissance et du solde primaire."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Déficit = la baignoire qui fuit cette année. Dette = le niveau d'eau accumulé. » Réduire la fuite ralentit la montée, mais ne vide pas la baignoire."
+      },
+      {
+        "type": "quiz",
+        "question": "Un pays a un déficit de 3 % du PIB et une croissance nominale de 4 %. Son ratio dette/PIB peut-il baisser ?",
+        "answer": "Oui. Si la dette augmente de 3 % du PIB par an mais que le PIB croît de 4 %, le dénominateur progresse plus vite que le numérateur : le ratio diminue, même si la dette en euros augmente.",
+        "hint": "Compare la croissance du numérateur et du dénominateur."
+      }
+    ]
+  },
+  {
+    "id": "eco-budget-etat",
+    "domain": "culture-generale",
+    "category": "Finances publiques",
+    "title": "Le budget de l'État",
+    "tagline": "Voté chaque automne par une loi de finances, il distingue les recettes fiscales des dépenses par mission.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "finances-publiques",
+      "institutions-france",
+      "economie"
+    ],
+    "related": [
+      "eco-dette-deficit",
+      "eco-prelevements",
+      "eco-politique-budgetaire",
+      "fr-institutions-parlement"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le budget de l'État est fixé par la LOI DE FINANCES, votée par le Parlement à l'automne pour l'année suivante. Elle autorise les recettes et plafonne les dépenses. Des lois de finances rectificatives peuvent la modifier en cours d'année, et une loi de règlement constate l'exécution effective."
+      },
+      {
+        "type": "table",
+        "title": "Les grandes masses",
+        "headers": [
+          "Recettes principales",
+          "Dépenses principales"
+        ],
+        "rows": [
+          [
+            "TVA",
+            "enseignement scolaire"
+          ],
+          [
+            "impôt sur le revenu",
+            "charge de la dette"
+          ],
+          [
+            "impôt sur les sociétés",
+            "défense"
+          ],
+          [
+            "taxe intérieure sur les produits énergétiques",
+            "recherche et enseignement supérieur"
+          ],
+          [
+            "autres recettes fiscales et non fiscales",
+            "sécurité, justice, solidarité"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le périmètre : État ≠ administrations publiques",
+        "items": [
+          "Le budget de l'ÉTAT ne couvre ni la Sécurité sociale ni les collectivités locales.",
+          "Le DÉFICIT PUBLIC, celui dont parlent les critères européens, agrège les trois : État, administrations de sécurité sociale, collectivités territoriales.",
+          "Les comptes de la Sécurité sociale sont fixés par une loi distincte, la loi de financement de la sécurité sociale.",
+          "Les collectivités locales ne peuvent pas voter un budget de fonctionnement en déficit : la règle d'équilibre s'applique à elles."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre le déficit de l'État et le déficit public. Le second est plus large et c'est lui qui est comparé au seuil de 3 % du PIB des critères de Maastricht. Un article qui cite « le déficit » sans préciser le périmètre reste ambigu."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois blocs pour le déficit public : État, Sécurité sociale, collectivités locales. C'est la somme des trois qui est comparée aux 3 % du PIB, et seul le premier fait l'objet de la loi de finances."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle est la différence entre une loi de finances initiale et une loi de finances rectificative ?",
+        "answer": "La loi de finances initiale fixe le budget avant le début de l'exercice ; une loi rectificative le modifie en cours d'année, pour tenir compte d'événements imprévus ou de recettes différentes des prévisions.",
+        "hint": "L'une précède l'exercice, l'autre le corrige."
+      }
+    ]
+  },
+  {
+    "id": "eco-prelevements",
+    "domain": "culture-generale",
+    "category": "Finances publiques",
+    "title": "Impôts et prélèvements obligatoires",
+    "tagline": "Direct ou indirect, progressif ou proportionnel : quatre mots qui classent toute la fiscalité.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "finances-publiques",
+      "economie",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-budget-etat",
+      "eco-dette-deficit",
+      "calc-tva-ht-ttc",
+      "eco-inegalites"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les classifications à connaître",
+        "headers": [
+          "Critère",
+          "Types",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Qui le verse",
+            "direct (payé par le redevable) / indirect (collecté par un tiers)",
+            "impôt sur le revenu / TVA"
+          ],
+          [
+            "Structure du taux",
+            "progressif / proportionnel / forfaitaire",
+            "impôt sur le revenu / TVA / taxe fixe"
+          ],
+          [
+            "Assiette",
+            "revenu / consommation / patrimoine",
+            "IR / TVA / taxe foncière"
+          ],
+          [
+            "Bénéficiaire",
+            "État / collectivités / Sécurité sociale",
+            "TVA / taxe foncière / cotisations"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Progressif ou proportionnel ?",
+        "body": "Un impôt PROGRESSIF applique un taux qui augmente avec l'assiette : l'impôt sur le revenu, par tranches. Un impôt PROPORTIONNEL applique un taux unique : la TVA. Conséquence importante : la TVA pèse relativement plus lourd sur les bas revenus, qui consomment une part plus élevée de leur revenu — on dit qu'elle est régressive en termes de revenu."
+      },
+      {
+        "type": "example",
+        "title": "Chiffre repère (au 23/09/2026)",
+        "prompt": "Quel est le taux de prélèvements obligatoires en France ?",
+        "reveal": "43,6 % du PIB en 2025, selon l'Insee. Ce taux agrège impôts et cotisations sociales, tous bénéficiaires confondus. Il place la France parmi les pays où ce taux est le plus élevé, ce qui s'explique largement par un financement public important de la santé et des retraites."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les tranches de l'impôt sur le revenu. Un taux marginal de 30 % ne signifie pas que 30 % du revenu total est prélevé : seul le revenu situé DANS la tranche est taxé à ce taux. Le taux moyen effectivement payé est toujours inférieur au taux marginal."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Direct = je le paie moi-même au Trésor. Indirect = quelqu'un le collecte pour moi. » La TVA est indirecte : c'est le commerçant qui la verse, même si c'est le consommateur qui la supporte."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi dit-on que la TVA est régressive alors que son taux est le même pour tous ?",
+        "answer": "Parce que les ménages modestes consomment une part plus élevée de leur revenu, tandis que les ménages aisés en épargnent davantage. À taux identique, la TVA représente donc une fraction plus importante du revenu des premiers.",
+        "hint": "Compare la part du revenu consommée selon le niveau de revenu."
+      }
+    ]
+  },
+  {
+    "id": "eco-pouvoir-achat",
+    "domain": "culture-generale",
+    "category": "Indicateurs",
+    "title": "Le pouvoir d'achat",
+    "tagline": "Ce n'est pas le revenu, c'est ce que le revenu permet d'acheter : revenu divisé par les prix.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "indicateurs",
+      "inflation",
+      "economie",
+      "marche-travail"
+    ],
+    "related": [
+      "eco-inflation",
+      "eco-marche-travail",
+      "eco-inegalites",
+      "eco-indicateurs-lecture"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le pouvoir d'achat est le rapport entre le revenu disponible et le niveau des prix. Il augmente si le revenu progresse PLUS VITE que les prix, stagne si les deux évoluent au même rythme, et baisse dans le cas contraire. Un salaire en hausse de 2 % avec 3 % d'inflation correspond à une perte de pouvoir d'achat d'environ 1 %."
+      },
+      {
+        "type": "table",
+        "title": "Les notions associées",
+        "headers": [
+          "Notion",
+          "Définition"
+        ],
+        "rows": [
+          [
+            "Revenu nominal",
+            "montant en euros courants"
+          ],
+          [
+            "Revenu réel",
+            "revenu nominal corrigé de l'inflation"
+          ],
+          [
+            "Revenu disponible brut",
+            "revenus perçus + prestations − impôts et cotisations"
+          ],
+          [
+            "Niveau de vie",
+            "revenu disponible du ménage ÷ unités de consommation"
+          ],
+          [
+            "Dépenses contraintes",
+            "loyer, assurances, abonnements : difficilement compressibles"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un salaire passe de 2 000 € à 2 060 € tandis que les prix augmentent de 4 %. Que devient le pouvoir d'achat ?",
+        "reveal": "Le salaire progresse de 3 % (60/2 000), les prix de 4 % : le pouvoir d'achat recule d'environ 1 %. Précisément : 1,03 / 1,04 = 0,990, soit −1,0 %."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : raisonner sur le pouvoir d'achat MOYEN pour décrire une situation individuelle. Une hausse moyenne du pouvoir d'achat est compatible avec une baisse pour une majorité de ménages, si les gains sont concentrés. C'est le même problème que la moyenne face à la médiane."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour un calcul exact, divise les coefficients : (1 + hausse du revenu) ÷ (1 + inflation). La soustraction simple des pourcentages n'est qu'une approximation, acceptable pour de petits taux."
+      },
+      {
+        "type": "quiz",
+        "question": "L'inflation est de 2 % et un salaire augmente de 2 %. Le pouvoir d'achat augmente-t-il ?",
+        "answer": "Non, il reste stable : le salaire suit exactement les prix. Il n'y a ni gain ni perte de pouvoir d'achat.",
+        "hint": "Compare les deux taux."
+      }
+    ]
+  },
+  {
+    "id": "eco-indicateurs-lecture",
+    "domain": "culture-generale",
+    "category": "Indicateurs",
+    "title": "Lire un indicateur économique",
+    "tagline": "Indice base 100, glissement annuel, données corrigées : trois précautions avant d'interpréter un chiffre.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "indicateurs",
+      "economie",
+      "inflation"
+    ],
+    "related": [
+      "eco-pib",
+      "eco-inflation",
+      "log-lecture-donnees",
+      "log-piege-chiffre"
+    ],
+    "subtests": [
+      "culture-generale",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les conventions à connaître",
+        "headers": [
+          "Notion",
+          "Signification"
+        ],
+        "rows": [
+          [
+            "Indice base 100",
+            "la valeur 100 correspond à l'année de référence ; 118 signifie +18 % depuis cette année"
+          ],
+          [
+            "Glissement annuel",
+            "variation par rapport au même mois de l'année précédente"
+          ],
+          [
+            "Variation trimestrielle",
+            "variation par rapport au trimestre précédent"
+          ],
+          [
+            "Données CVS-CJO",
+            "corrigées des variations saisonnières et des jours ouvrables"
+          ],
+          [
+            "En volume",
+            "corrigé de l'inflation ; en valeur = en euros courants"
+          ],
+          [
+            "Moyenne annuelle",
+            "moyenne des douze mois, différente du glissement de décembre"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un même phénomène produit des chiffres différents selon la convention retenue. L'inflation en « glissement annuel » compare août à août ; l'inflation « en moyenne annuelle » compare la moyenne de l'année à celle de la précédente. Les deux sont exacts et peuvent différer de plus d'un point."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un indice des prix vaut 100 en 2020 et 118 en 2026. De combien les prix ont-ils augmenté ?",
+        "reveal": "De 18 % sur la période, par rapport à 2020. Attention : ce n'est pas 18 points d'inflation annuelle, et cela ne dit rien du rythme — les prix ont pu monter régulièrement ou par à-coups."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : comparer deux indices de bases différentes. Un indice base 100 en 2015 et un autre base 100 en 2020 ne se comparent pas directement : il faut les ramener à une base commune. Vérifie toujours l'année de référence avant toute comparaison."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Un indice se lit directement en pourcentage par rapport à sa base : 118 = +18 %, 92 = −8 %. C'est la seule grandeur économique où le pourcentage est lisible sans calcul — à condition de connaître l'année de base."
+      },
+      {
+        "type": "quiz",
+        "question": "L'indice des prix passe de 110 à 115. Quelle est la hausse en pourcentage ?",
+        "answer": "(115 − 110) / 110 = 4,5 %. Ce n'est pas 5 % : le point de départ est 110, pas 100. Les écarts d'indices ne se lisent en pourcentage que par rapport à la base.",
+        "hint": "Divise par la valeur de départ, pas par 100."
+      }
+    ]
+  },
+  {
+    "id": "eco-balance-commerciale",
+    "domain": "culture-generale",
+    "category": "Indicateurs",
+    "title": "Balance commerciale et balance courante",
+    "tagline": "La balance commerciale ne porte que sur les BIENS. Les services sont ailleurs.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "commerce-international",
+      "indicateurs",
+      "economie"
+    ],
+    "related": [
+      "eco-change",
+      "eco-commerce-international",
+      "eco-pib",
+      "eco-mondialisation"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "L'emboîtement des soldes",
+        "headers": [
+          "Solde",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Balance commerciale",
+            "exportations − importations de BIENS"
+          ],
+          [
+            "Balance des services",
+            "tourisme, transport, conseil, licences"
+          ],
+          [
+            "Balance des revenus",
+            "salaires, dividendes, intérêts perçus ou versés à l'étranger"
+          ],
+          [
+            "Transferts courants",
+            "aide publique, envois de fonds des migrants"
+          ],
+          [
+            "Balance des transactions courantes",
+            "la somme des quatre précédents"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un pays peut avoir un déficit commercial et un solde courant équilibré, si ses exportations de services ou ses revenus d'investissements à l'étranger compensent. C'est pourquoi l'indicateur pertinent pour juger de la position extérieure d'un pays est la balance des transactions COURANTES, non la seule balance commerciale."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un pays importe massivement des biens mais accueille beaucoup de touristes étrangers. Que peut-on dire de ses soldes ?",
+        "reveal": "Sa balance commerciale est déficitaire (plus d'importations de biens que d'exportations), mais sa balance des services est excédentaire (le tourisme est une exportation de services). Le solde courant dépend de l'ampleur respective des deux."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le tourisme. Un touriste étranger qui dépense en France constitue une EXPORTATION de services pour la France, même s'il n'y a aucun franchissement de frontière par une marchandise. Symétriquement, un Français qui voyage à l'étranger réalise une importation de services."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Balance commerciale = ce qui passe la douane. Balance courante = tout ce qui circule, marchandises, services, revenus. » Le mot « commerciale » est trompeur : il ne couvre que les biens."
+      },
+      {
+        "type": "quiz",
+        "question": "Un excédent de la balance courante signifie-t-il que le pays exporte plus de marchandises qu'il n'en importe ?",
+        "answer": "Pas nécessairement. Le solde courant peut être excédentaire grâce aux services ou aux revenus d'investissements, malgré un déficit commercial sur les biens.",
+        "hint": "La balance courante agrège quatre composantes."
+      }
+    ]
+  },
+  {
+    "id": "eco-change",
+    "domain": "culture-generale",
+    "category": "Inflation & monnaie",
+    "title": "Taux de change et compétitivité",
+    "tagline": "Une monnaie qui baisse rend les exportations moins chères et les importations plus chères.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "commerce-international",
+      "politique-monetaire",
+      "economie",
+      "inflation"
+    ],
+    "related": [
+      "eco-balance-commerciale",
+      "eco-politique-monetaire",
+      "eco-taux-interet",
+      "eco-commerce-international"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les effets d'une variation de change",
+        "headers": [
+          "Mouvement",
+          "Exportations",
+          "Importations",
+          "Inflation"
+        ],
+        "rows": [
+          [
+            "Dépréciation (la monnaie baisse)",
+            "moins chères pour l'étranger → favorisées",
+            "plus chères → freinées",
+            "importée, en hausse"
+          ],
+          [
+            "Appréciation (la monnaie monte)",
+            "plus chères → pénalisées",
+            "moins chères → favorisées",
+            "importée, en baisse"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le taux de change est le prix d'une monnaie exprimé dans une autre. Une DÉPRÉCIATION (régime flottant) ou une DÉVALUATION (décision en régime fixe) rend les produits nationaux moins chers à l'étranger : la compétitivité-prix s'améliore. Mais elle renchérit les importations — notamment l'énergie et les matières premières — ce qui nourrit l'inflation importée."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "L'euro passe de 1,10 à 1,00 dollar. Un produit français à 100 € coûte combien à un acheteur américain, avant et après ?",
+        "reveal": "Avant : 110 dollars. Après : 100 dollars. Le produit devient 9 % moins cher pour l'acheteur américain sans que le prix en euros ait changé. C'est le gain de compétitivité-prix lié à la dépréciation."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le sens de la cotation. « L'euro baisse à 1,00 dollar » signifie qu'un euro s'échange contre moins de dollars : l'euro s'est DÉPRÉCIÉ. Lire le mouvement comme une hausse parce que le chiffre paraît plus « simple » est une erreur fréquente."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Monnaie faible = exportations faciles, importations chères. » Et retiens que dans la zone euro, les pays n'ont plus de levier de change entre eux : l'ajustement passe par les coûts et la productivité."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi une dépréciation peut-elle être défavorable à un pays très dépendant des importations d'énergie ?",
+        "answer": "Parce que sa facture énergétique, libellée en devises, augmente mécaniquement. Le gain de compétitivité à l'exportation peut être plus que compensé par le renchérissement des intrants importés, qui se répercute sur tous les prix intérieurs.",
+        "hint": "Que devient le coût des importations ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-deflation",
+    "domain": "culture-generale",
+    "category": "Inflation & monnaie",
+    "title": "Déflation et stagflation",
+    "tagline": "La déflation est plus dangereuse que l'inflation : elle s'auto-entretient et alourdit les dettes.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "inflation",
+      "economie",
+      "politique-monetaire",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-inflation",
+      "eco-politique-monetaire",
+      "eco-cycles",
+      "voc-vocabulaire-economique"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La DÉFLATION est une baisse générale, durable et cumulative des prix. Elle est redoutée parce qu'elle s'auto-entretient : anticipant des prix plus bas, les ménages reportent leurs achats ; la demande recule ; les entreprises baissent encore leurs prix et leurs effectifs. C'est la spirale déflationniste."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Pourquoi la déflation est plus dangereuse",
+        "items": [
+          "Elle ALOURDIT le poids réel des dettes : les revenus baissent, les échéances restent nominalement identiques.",
+          "Elle incite à reporter les achats et les investissements, ce qui aggrave la baisse de la demande.",
+          "Elle rend la politique monétaire impuissante : on ne peut pas baisser les taux nominaux beaucoup sous zéro.",
+          "Elle fait porter l'ajustement sur l'emploi, car les salaires nominaux baissent difficilement."
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Quatre configurations",
+        "headers": [
+          "Situation",
+          "Prix",
+          "Activité"
+        ],
+        "rows": [
+          [
+            "Inflation",
+            "en hausse",
+            "généralement soutenue"
+          ],
+          [
+            "Désinflation",
+            "en hausse plus lente",
+            "variable"
+          ],
+          [
+            "Déflation",
+            "en baisse",
+            "en recul"
+          ],
+          [
+            "Stagflation",
+            "en hausse",
+            "stagnante ou en recul"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la stagflation. Elle combine deux maux que la théorie considérait comme incompatibles — l'inflation accompagne normalement une activité soutenue. Elle est particulièrement difficile à traiter : relancer aggrave l'inflation, freiner aggrave le chômage. Toute politique arbitre entre les deux."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« La déflation punit les endettés, l'inflation les épargnants. » Ce repère explique pourquoi les banques centrales visent une inflation faible mais POSITIVE plutôt que zéro : elles veulent une marge de sécurité au-dessus de la déflation."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi un endetté est-il pénalisé par la déflation ?",
+        "answer": "Parce que sa dette reste identique en euros tandis que ses revenus et les prix baissent : le poids RÉEL de sa dette augmente. À l'inverse, l'inflation érode la valeur réelle des dettes et favorise les emprunteurs.",
+        "hint": "La dette est fixée en euros, pas en pouvoir d'achat."
+      }
+    ]
+  },
+  {
+    "id": "eco-cycles",
+    "domain": "culture-generale",
+    "category": "Croissance & emploi",
+    "title": "Les cycles économiques",
+    "tagline": "Expansion, ralentissement, récession, reprise : l'activité ne croît jamais en ligne droite.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "economie",
+      "indicateurs",
+      "histoire-economique"
+    ],
+    "related": [
+      "eco-croissance-facteurs",
+      "eco-deflation",
+      "eco-politique-budgetaire",
+      "eco-chomage"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'activité économique suit des mouvements alternés autour de sa tendance longue. Quatre phases se succèdent : EXPANSION (croissance supérieure au potentiel), RALENTISSEMENT, RÉCESSION (recul de l'activité), puis REPRISE. Selon l'Insee, on parle de récession lorsque le PIB recule sur au moins DEUX trimestres consécutifs."
+      },
+      {
+        "type": "table",
+        "title": "Trois durées de cycle repérées par les économistes",
+        "headers": [
+          "Cycle",
+          "Durée approximative",
+          "Facteur dominant"
+        ],
+        "rows": [
+          [
+            "Kitchin",
+            "3 à 4 ans",
+            "variations de stocks"
+          ],
+          [
+            "Juglar",
+            "8 à 10 ans",
+            "cycle du crédit et de l'investissement"
+          ],
+          [
+            "Kondratiev",
+            "40 à 60 ans",
+            "vagues d'innovations majeures"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le vocabulaire des phases",
+        "items": [
+          "Croissance potentielle : rythme soutenable à long terme, compatible avec le plein emploi des facteurs.",
+          "Écart de production (output gap) : différence entre PIB effectif et PIB potentiel.",
+          "Surchauffe : activité au-delà du potentiel, tensions inflationnistes.",
+          "Dépression : récession particulièrement profonde et prolongée.",
+          "Reprise en V, en U, en L : formes de sortie de crise selon la rapidité du rebond."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre ralentissement et récession. Une croissance qui passe de 2 % à 0,5 % est un RALENTISSEMENT : l'activité progresse encore. La récession suppose un recul, c'est-à-dire une croissance négative, et pendant deux trimestres consécutifs pour la définition usuelle."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Ralentissement : la voiture décélère mais avance. Récession : elle recule. » Le même repère que pour inflation et déflation, appliqué au PIB."
+      },
+      {
+        "type": "quiz",
+        "question": "Le PIB recule de 0,2 % au premier trimestre, progresse de 0,1 % au second, recule de 0,3 % au troisième. Y a-t-il récession ?",
+        "answer": "Non, au sens usuel : il n'y a pas deux trimestres consécutifs de recul. La définition exige une succession, ce qui est précisément ce qui la rend contestée comme critère unique.",
+        "hint": "Vérifie la condition de consécutivité."
+      }
+    ]
+  },
+  {
+    "id": "eco-inegalites",
+    "domain": "culture-generale",
+    "category": "Croissance & emploi",
+    "title": "Mesurer les inégalités",
+    "tagline": "Gini de 0 = égalité parfaite, de 1 = un seul détient tout. Le rapport interdécile dit combien de fois plus.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "indicateurs",
+      "economie",
+      "marche-travail"
+    ],
+    "related": [
+      "eco-pouvoir-achat",
+      "eco-prelevements",
+      "eco-protection-sociale",
+      "calc-mediane-vs-moyenne"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les indicateurs d'inégalité",
+        "headers": [
+          "Indicateur",
+          "Ce qu'il mesure"
+        ],
+        "rows": [
+          [
+            "Coefficient de Gini",
+            "de 0 (égalité parfaite) à 1 (une seule personne détient tout)"
+          ],
+          [
+            "Rapport interdécile D9/D1",
+            "combien de fois le seuil des 10 % les plus aisés dépasse celui des 10 % les plus modestes"
+          ],
+          [
+            "Courbe de Lorenz",
+            "représentation graphique de la concentration des revenus"
+          ],
+          [
+            "Part des 10 % / 1 % les plus riches",
+            "concentration au sommet de la distribution"
+          ],
+          [
+            "Taux de pauvreté",
+            "part de la population sous un seuil, fixé en France et dans l'UE à 60 % du niveau de vie médian"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le seuil de pauvreté est RELATIF en Europe : il se définit par rapport au niveau de vie médian, non par un panier de biens absolu. Conséquence contre-intuitive : si tous les revenus augmentent de 10 %, le seuil monte aussi et le taux de pauvreté ne bouge pas. C'est une mesure d'inégalité, pas de privation absolue."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le rapport interdécile est de 3,5. Qu'est-ce que cela signifie ?",
+        "reveal": "Le niveau de vie plancher des 10 % les plus aisés est 3,5 fois supérieur au niveau de vie plafond des 10 % les plus modestes. Attention : ce n'est pas un rapport entre moyennes, mais entre deux SEUILS de la distribution."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la médiane et la moyenne. Dans une distribution de revenus, la moyenne est toujours supérieure à la médiane, parce que les très hauts revenus la tirent vers le haut. Un « revenu moyen » de 2 700 € est compatible avec une majorité de ménages en dessous de ce montant."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Gini proche de 0 = société égalitaire. Gini proche de 1 = société très inégale. » Les valeurs réelles des pays développés se situent en général entre 0,25 et 0,40."
+      },
+      {
+        "type": "quiz",
+        "question": "Si tous les revenus d'un pays doublent, que devient le taux de pauvreté mesuré à 60 % du niveau de vie médian ?",
+        "answer": "Il reste identique. Le seuil double aussi, puisqu'il est défini par rapport à la médiane. Le taux de pauvreté relative mesure la dispersion des revenus, pas le niveau absolu de vie.",
+        "hint": "Le seuil est relatif, pas absolu."
+      }
+    ]
+  },
+  {
+    "id": "eco-politique-budgetaire",
+    "domain": "culture-generale",
+    "category": "Finances publiques",
+    "title": "Politique budgétaire : relance ou rigueur",
+    "tagline": "Dépenser plus pour soutenir la demande, ou réduire le déficit pour rassurer les créanciers : l'arbitrage central.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "finances-publiques",
+      "economie",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-dette-deficit",
+      "eco-budget-etat",
+      "eco-cycles",
+      "eco-keynes-liberaux"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les deux orientations",
+        "headers": [
+          "Politique",
+          "Instruments",
+          "Objectif",
+          "Risque"
+        ],
+        "rows": [
+          [
+            "Relance (expansionniste)",
+            "hausse des dépenses, baisse des impôts",
+            "soutenir la demande et l'emploi",
+            "creuse le déficit, peut nourrir l'inflation"
+          ],
+          [
+            "Rigueur (restrictive)",
+            "baisse des dépenses, hausse des impôts",
+            "réduire le déficit et la dette",
+            "freine l'activité, peut aggraver le chômage"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Le multiplicateur budgétaire",
+        "body": "Un euro de dépense publique supplémentaire génère, par effets en chaîne, plus d'un euro d'activité si le multiplicateur est supérieur à 1 : les revenus distribués sont en partie dépensés, ce qui crée de nouveaux revenus. Son ampleur dépend du contexte : il est plus élevé en récession, avec des capacités de production inemployées, et plus faible quand une partie de la demande fuit vers les importations."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les stabilisateurs automatiques",
+        "items": [
+          "En récession, les recettes fiscales baissent mécaniquement et les dépenses d'indemnisation augmentent.",
+          "Le déficit se creuse donc sans qu'aucune décision ne soit prise : c'est un soutien automatique à la demande.",
+          "En expansion, l'effet joue en sens inverse et freine la surchauffe.",
+          "Ces mécanismes sont d'autant plus puissants que la protection sociale est développée."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : juger une politique budgétaire sur le seul solde. Un déficit qui se creuse en récession peut être le simple résultat des stabilisateurs automatiques, sans aucune décision de relance. Pour mesurer l'orientation VOLONTAIRE, les économistes regardent le solde structurel, corrigé du cycle."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Relance = on met de l'essence. Rigueur = on freine. » Et le multiplicateur mesure le rendement de l'essence : il est plus élevé quand le moteur tourne au ralenti que quand il est déjà à plein régime."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi le multiplicateur budgétaire est-il plus élevé en récession ?",
+        "answer": "Parce que des capacités de production et de la main-d'œuvre sont inemployées : la dépense supplémentaire se traduit en production réelle, non en hausse des prix. En période de plein emploi, la même dépense alimente surtout l'inflation et les importations.",
+        "hint": "Que fait la dépense quand l'économie est déjà saturée ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-protection-sociale",
+    "domain": "culture-generale",
+    "category": "Finances publiques",
+    "title": "La protection sociale française",
+    "tagline": "Cinq branches de la Sécurité sociale, financées principalement par les cotisations et la CSG.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "finances-publiques",
+      "institutions-france",
+      "economie",
+      "marche-travail"
+    ],
+    "related": [
+      "eco-prelevements",
+      "eco-marche-travail",
+      "eco-inegalites",
+      "fr-institutions-parlement"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les cinq branches de la Sécurité sociale",
+        "headers": [
+          "Branche",
+          "Couvre"
+        ],
+        "rows": [
+          [
+            "Maladie",
+            "soins, maternité, invalidité, décès"
+          ],
+          [
+            "Accidents du travail et maladies professionnelles",
+            "risques liés à l'activité professionnelle"
+          ],
+          [
+            "Vieillesse",
+            "retraites du régime général"
+          ],
+          [
+            "Famille",
+            "prestations familiales, aides au logement"
+          ],
+          [
+            "Autonomie",
+            "perte d'autonomie liée à l'âge ou au handicap (créée en 2020)"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Deux logiques de protection",
+        "body": "La logique d'ASSURANCE lie les droits aux cotisations versées : c'est le principe des retraites et de l'assurance chômage. La logique de SOLIDARITÉ ouvre des droits en fonction du besoin, indépendamment des cotisations : c'est le principe des minima sociaux. Le système français combine les deux."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le financement",
+        "items": [
+          "Les COTISATIONS sociales, assises sur les salaires, restent la principale ressource.",
+          "La CSG (contribution sociale généralisée) élargit l'assiette à l'ensemble des revenus, y compris le capital et les retraites.",
+          "Des impôts et taxes affectés complètent le financement.",
+          "Le budget de la Sécurité sociale est fixé par une loi distincte de la loi de finances : la loi de financement de la sécurité sociale."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre le budget de l'État et celui de la Sécurité sociale. Ce sont deux ensembles distincts, votés par deux lois différentes. Le « déficit public » comparé au seuil européen de 3 % agrège les deux, plus les collectivités locales."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Cinq branches, cinq risques : la maladie, l'accident du travail, la vieillesse, la famille, l'autonomie. La cinquième est la plus récente, créée en 2020 face au vieillissement de la population."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle est la différence entre la logique d'assurance et la logique de solidarité ?",
+        "answer": "L'assurance ouvre des droits en proportion des cotisations versées (retraite, chômage) ; la solidarité ouvre des droits en fonction du besoin, sans contrepartie contributive (minima sociaux). Le système français mêle les deux.",
+        "hint": "L'une est contributive, l'autre pas."
+      }
+    ]
+  },
+  {
+    "id": "eco-marge-marque",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "Taux de marge et taux de marque",
+    "tagline": "Taux de marge : marge sur le prix d'ACHAT. Taux de marque : marge sur le prix de VENTE.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "economie",
+      "marche"
+    ],
+    "related": [
+      "eco-bilan-resultat",
+      "log-seuil-rentabilite",
+      "calc-coefficient-multiplicateur",
+      "eco-financement-entreprise"
+    ],
+    "subtests": [
+      "culture-generale",
+      "calcul"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre indicateurs commerciaux",
+        "headers": [
+          "Indicateur",
+          "Formule",
+          "Base"
+        ],
+        "rows": [
+          [
+            "Marge commerciale",
+            "prix de vente HT − coût d'achat HT",
+            "—"
+          ],
+          [
+            "Taux de marge",
+            "marge ÷ prix d'ACHAT HT",
+            "le coût"
+          ],
+          [
+            "Taux de marque",
+            "marge ÷ prix de VENTE HT",
+            "le chiffre d'affaires"
+          ],
+          [
+            "Coefficient multiplicateur",
+            "prix de vente HT ÷ coût d'achat HT",
+            "—"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Les conversions",
+        "body": "Taux de marque = taux de marge ÷ (1 + taux de marge). Taux de marge = taux de marque ÷ (1 − taux de marque). Conséquence à retenir : le taux de marque est TOUJOURS inférieur au taux de marge, puisque son dénominateur (le prix de vente) est plus grand."
+      },
+      {
+        "type": "example",
+        "title": "Exemple vérifié",
+        "prompt": "Un article est acheté 100 € HT et vendu 150 € HT. Calcule les quatre indicateurs.",
+        "reveal": "Marge = 50 €. Taux de marge = 50/100 = 50 %. Taux de marque = 50/150 = 33,33 %. Coefficient multiplicateur = 150/100 = 1,5. Contrôle par les formules de conversion : 0,50/(1+0,50) = 0,333 ✔ et 0,333/(1−0,333) = 0,50 ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : annoncer un taux sans préciser lequel. « Nous faisons 40 % de marge » peut signifier un taux de marge de 40 % (coefficient 1,4) ou un taux de marque de 40 % (coefficient 1,67). L'écart de prix de vente est considérable, et les QCM proposent systématiquement les deux résultats."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« MarGe → prix d'achat (le G du coût de Gros). MarQue → prix de vente (le Q du Quotient sur le chiffre d'affaires). » Et le contrôle est immédiat : la marque est toujours le plus petit des deux."
+      },
+      {
+        "type": "quiz",
+        "question": "Un produit coûte 80 € HT et se vend 120 € HT. Quel est le taux de marque ?",
+        "answer": "Marge = 40 €. Taux de marque = 40/120 = 33,33 %. Le taux de marge, lui, serait de 40/80 = 50 %.",
+        "hint": "Le taux de marque se calcule sur le prix de vente."
+      }
+    ]
+  },
+  {
+    "id": "eco-bilan-resultat",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "Bilan et compte de résultat",
+    "tagline": "Le bilan est une photo du patrimoine ; le compte de résultat est un film de l'activité.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "economie",
+      "marche"
+    ],
+    "related": [
+      "eco-marge-marque",
+      "eco-financement-entreprise",
+      "log-seuil-rentabilite",
+      "angv-finance-comptabilite"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Deux documents, deux logiques",
+        "headers": [
+          "Document",
+          "Nature",
+          "Contenu"
+        ],
+        "rows": [
+          [
+            "Bilan",
+            "état à une DATE donnée (stock)",
+            "actif = ce que l'entreprise possède ; passif = comment elle l'a financé"
+          ],
+          [
+            "Compte de résultat",
+            "flux sur une PÉRIODE",
+            "produits − charges = résultat de l'exercice"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "La structure du bilan",
+        "headers": [
+          "ACTIF (emplois)",
+          "PASSIF (ressources)"
+        ],
+        "rows": [
+          [
+            "Immobilisations (bâtiments, machines, brevets)",
+            "Capitaux propres (capital, réserves, résultat)"
+          ],
+          [
+            "Stocks",
+            "Dettes financières (emprunts)"
+          ],
+          [
+            "Créances clients",
+            "Dettes d'exploitation (fournisseurs, fiscales, sociales)"
+          ],
+          [
+            "Trésorerie",
+            "—"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le bilan est toujours ÉQUILIBRÉ : total de l'actif = total du passif, par construction. Chaque euro possédé a bien une origine. Le résultat de l'exercice figure dans les deux documents : il est le solde du compte de résultat, et il s'ajoute aux capitaux propres au passif du bilan."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre bénéfice et trésorerie. Une entreprise peut être bénéficiaire et manquer de liquidités, si ses clients paient tard et ses fournisseurs vite. C'est le problème du besoin en fonds de roulement, et c'est une cause fréquente de défaillance d'entreprises pourtant rentables."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Bilan = photo, compte de résultat = film. » Un bilan se lit toujours « au 31 décembre », un compte de résultat « pour l'exercice clos le 31 décembre ». La préposition révèle la nature du document."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi une entreprise bénéficiaire peut-elle se trouver en cessation de paiement ?",
+        "answer": "Parce que le bénéfice est comptable, pas monétaire. Si les créances clients ne sont pas encaissées alors que les fournisseurs et les salaires doivent être payés, la trésorerie s'épuise malgré un résultat positif. C'est un problème de besoin en fonds de roulement.",
+        "hint": "Le bénéfice et l'argent disponible ne sont pas la même chose."
+      }
+    ]
+  },
+  {
+    "id": "eco-financement-entreprise",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "Comment une entreprise se finance",
+    "tagline": "Fonds propres ou dette : le choix entre diluer son capital et s'engager à rembourser.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "bourse",
+      "economie",
+      "marche"
+    ],
+    "related": [
+      "eco-bilan-resultat",
+      "eco-obligations-actions",
+      "eco-bourse",
+      "eco-marge-marque"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les sources de financement",
+        "headers": [
+          "Source",
+          "Type",
+          "Contrepartie"
+        ],
+        "rows": [
+          [
+            "Autofinancement",
+            "interne",
+            "aucune, mais limite la distribution de dividendes"
+          ],
+          [
+            "Augmentation de capital",
+            "fonds propres",
+            "dilution du pouvoir des actionnaires existants"
+          ],
+          [
+            "Emprunt bancaire",
+            "dette",
+            "intérêts et remboursement, garanties exigées"
+          ],
+          [
+            "Émission d'obligations",
+            "dette",
+            "intérêts (coupons), accessible aux grandes entreprises"
+          ],
+          [
+            "Crédit-bail",
+            "dette déguisée",
+            "loyers, le bien reste au bailleur jusqu'à l'option d'achat"
+          ],
+          [
+            "Affacturage",
+            "financement court terme",
+            "cession des créances clients avec décote"
+          ],
+          [
+            "Capital-risque",
+            "fonds propres",
+            "entrée d'investisseurs au capital, objectif de revente"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "L'arbitrage fondamental",
+        "body": "Se financer par DETTE ne dilue pas le pouvoir des actionnaires, et les intérêts sont déductibles du résultat imposable — mais l'entreprise s'engage à rembourser quoi qu'il arrive. Se financer par FONDS PROPRES n'impose aucun remboursement, mais partage le pouvoir et les bénéfices futurs."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une jeune entreprise sans historique et sans garanties cherche 500 000 €. Quelle source est la plus réaliste ?",
+        "reveal": "Le capital-risque ou des investisseurs en fonds propres. Une banque exigerait des garanties et un historique de résultats que l'entreprise n'a pas. C'est précisément la raison d'être du capital-risque : financer un risque que la dette ne peut pas porter."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « effet de levier ». L'endettement AMPLIFIE la rentabilité des fonds propres quand la rentabilité économique dépasse le coût de la dette — mais il l'amplifie aussi à la baisse dans le cas inverse. Le levier joue dans les deux sens, et c'est ce second sens qu'on oublie."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« La dette coûte des intérêts, les fonds propres coûtent du pouvoir. » Toute décision de financement arbitre entre ces deux prix, et le contexte (maturité, risque, rentabilité attendue) désigne le moins cher."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans quelle situation l'effet de levier se retourne-t-il contre l'entreprise ?",
+        "answer": "Quand la rentabilité économique tombe en dessous du coût de la dette. L'entreprise paie alors ses intérêts avec une rentabilité insuffisante, et la rentabilité de ses fonds propres chute plus vite que sa rentabilité économique.",
+        "hint": "Compare rentabilité économique et taux d'intérêt."
+      }
+    ]
+  },
+  {
+    "id": "eco-formes-juridiques",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "Les formes juridiques d'entreprise",
+    "tagline": "SARL, SAS, SA : le choix porte sur la responsabilité, le capital et la liberté des statuts.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "economie",
+      "institutions-france"
+    ],
+    "related": [
+      "eco-financement-entreprise",
+      "eco-bilan-resultat",
+      "eco-bourse",
+      "voc-vocabulaire-juridique"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les principales formes en France",
+        "headers": [
+          "Forme",
+          "Associés",
+          "Capital minimum",
+          "Particularité"
+        ],
+        "rows": [
+          [
+            "Entreprise individuelle",
+            "1",
+            "aucun",
+            "pas de personne morale distincte"
+          ],
+          [
+            "EURL",
+            "1",
+            "libre",
+            "SARL à associé unique"
+          ],
+          [
+            "SARL",
+            "2 à 100",
+            "libre",
+            "statuts encadrés par la loi"
+          ],
+          [
+            "SASU / SAS",
+            "1 / 1 ou plus",
+            "libre",
+            "grande liberté statutaire"
+          ],
+          [
+            "SA",
+            "2 (7 si cotée)",
+            "37 000 €",
+            "forme des grandes sociétés cotées"
+          ],
+          [
+            "SNC",
+            "2 ou plus",
+            "libre",
+            "responsabilité indéfinie et solidaire"
+          ],
+          [
+            "SCOP",
+            "variable",
+            "libre",
+            "société coopérative, salariés associés majoritaires"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Le critère décisif : la responsabilité",
+        "body": "Dans une société à responsabilité LIMITÉE (SARL, SAS, SA), les associés ne risquent que leurs apports : le patrimoine personnel est protégé. Dans une SNC, la responsabilité est indéfinie et SOLIDAIRE : chaque associé peut être poursuivi pour la totalité des dettes sociales. C'est la différence la plus lourde de conséquences."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Deux associés créent une société avec 10 000 € d'apports. Elle accumule 200 000 € de dettes. Que risquent-ils en SARL, puis en SNC ?",
+        "reveal": "En SARL : au maximum leurs 10 000 € d'apports, sauf faute de gestion caractérisée. En SNC : la totalité des 200 000 €, sur leur patrimoine personnel, et chacun peut être poursuivi pour le tout."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre SAS et SA. Les deux sont des sociétés par actions, mais la SAS offre une grande liberté de rédaction des statuts et n'a pas de capital minimum, tandis que la SA est très encadrée, exige 37 000 € de capital et est la forme requise pour une introduction en bourse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« SARL = cadre légal rigide mais rassurant. SAS = liberté contractuelle. SA = grande entreprise et bourse. » Ce classement par degré de contrainte suffit à répondre à la plupart des questions."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle forme choisir pour une start-up qui prévoit plusieurs tours de financement avec des investisseurs ?",
+        "answer": "La SAS : sa liberté statutaire permet d'aménager finement les droits de vote, les clauses de sortie et les catégories d'actions, ce que le cadre rigide de la SARL ne permet pas. Elle n'exige pas non plus de capital minimum.",
+        "hint": "Quelle forme laisse le plus de liberté dans les statuts ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-strategie-outils",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "SWOT, PESTEL, Porter, BCG",
+    "tagline": "SWOT croise interne et externe. PESTEL est exclusivement externe. Porter analyse un secteur, pas une entreprise.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "entreprises-france",
+      "economie",
+      "marche",
+      "entreprises-internationales"
+    ],
+    "related": [
+      "eco-marketing-mix",
+      "eco-concurrence",
+      "eco-rse",
+      "log-arbitrage"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre outils, quatre objets",
+        "headers": [
+          "Outil",
+          "Ce qu'il analyse",
+          "Dimensions"
+        ],
+        "rows": [
+          [
+            "SWOT",
+            "une entreprise dans son environnement",
+            "forces et faiblesses (interne) × opportunités et menaces (externe)"
+          ],
+          [
+            "PESTEL",
+            "le macro-environnement",
+            "Politique, Économique, Sociologique, Technologique, Écologique, Légal"
+          ],
+          [
+            "5 forces de Porter",
+            "l'intensité concurrentielle d'un SECTEUR",
+            "nouveaux entrants, clients, fournisseurs, substituts, concurrence"
+          ],
+          [
+            "Matrice BCG",
+            "un portefeuille de produits",
+            "part de marché relative × croissance du marché"
+          ],
+          [
+            "Marketing mix (4P)",
+            "les leviers opérationnels",
+            "Produit, Prix, Place, Promotion"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La matrice BCG",
+        "body": "Créée par le Boston Consulting Group, elle classe les activités selon deux axes. Les VEDETTES (forte part, forte croissance) exigent des investissements. Les VACHES À LAIT (forte part, faible croissance) génèrent la trésorerie. Les DILEMMES (faible part, forte croissance) demandent un choix. Les POIDS MORTS (faible part, faible croissance) sont candidats à l'abandon."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une entreprise veut évaluer l'attractivité d'un nouveau secteur avant d'y entrer. Quel outil, et pourquoi pas le SWOT ?",
+        "reveal": "Les 5 forces de Porter : elles mesurent précisément l'attractivité structurelle d'un SECTEUR, indépendamment de l'entreprise. Le SWOT, lui, suppose qu'on analyse une entreprise donnée — il ne dit rien du secteur en soi."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre SWOT et PESTEL. Le SWOT croise deux dimensions dont une est INTERNE à l'entreprise (ses forces et faiblesses). Le PESTEL est intégralement externe : il ne dit rien de l'entreprise elle-même. Les deux sont complémentaires, pas interchangeables."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« PESTEL : le monde. Porter : le secteur. SWOT : l'entreprise dans le monde. BCG : les produits de l'entreprise. 4P : les décisions du quotidien. » L'ordre va du plus large au plus opérationnel."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans la matrice BCG, quelle catégorie finance les autres, et laquelle exige un arbitrage ?",
+        "answer": "Les vaches à lait financent les autres (forte part de marché, marché mature, peu d'investissement nécessaire). Les dilemmes exigent un arbitrage : investir massivement pour gagner des parts, ou se retirer.",
+        "hint": "L'une génère du cash, l'autre en consomme sans certitude."
+      }
+    ]
+  },
+  {
+    "id": "eco-marketing-mix",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "Le marketing mix",
+    "tagline": "Produit, Prix, Place, Promotion : les quatre leviers que l'entreprise contrôle réellement.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "marche",
+      "economie"
+    ],
+    "related": [
+      "eco-strategie-outils",
+      "eco-concurrence",
+      "eco-offre-demande",
+      "angv-vente-marketing"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre P",
+        "headers": [
+          "Levier",
+          "Décisions concernées"
+        ],
+        "rows": [
+          [
+            "Produit",
+            "caractéristiques, qualité, gamme, marque, emballage, services associés"
+          ],
+          [
+            "Prix",
+            "niveau, remises, conditions de paiement, positionnement"
+          ],
+          [
+            "Place (distribution)",
+            "circuits, points de vente, logistique, présence en ligne"
+          ],
+          [
+            "Promotion (communication)",
+            "publicité, promotion des ventes, relations presse, réseaux sociaux"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le marketing mix regroupe les variables que l'entreprise maîtrise, par opposition à l'environnement qu'elle subit. La cohérence entre les quatre est essentielle : un produit haut de gamme vendu à prix bas dans un circuit discount avec une communication de masse envoie des signaux contradictoires et détruit le positionnement."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les extensions du modèle",
+        "items": [
+          "Pour les SERVICES, on ajoute souvent trois P : People (personnel en contact), Process (déroulement du service), Physical evidence (preuves matérielles).",
+          "Certains auteurs proposent les 4C, centrés sur le client : Consumer, Cost, Convenience, Communication.",
+          "Le mix doit être cohérent avec le SEGMENT visé et le POSITIONNEMENT choisi.",
+          "La segmentation précède le mix : on choisit d'abord à qui l'on s'adresse."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une marque de luxe vend en grande surface à prix réduit. Quel principe est violé ?",
+        "reveal": "La cohérence du mix. Le produit et la communication positionnent la marque en haut de gamme ; le prix et le circuit de distribution la positionnent en bas. Le consommateur reçoit des signaux contradictoires, et le positionnement haut de gamme se dégrade durablement."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : réduire le marketing à la communication. Le « P » de Promotion n'est qu'un levier sur quatre. Une politique de prix ou un choix de circuit de distribution sont des décisions marketing au même titre qu'une campagne publicitaire."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En anglais les quatre P sont Product, Price, Place, Promotion — c'est de là que vient le nom. En français, « Place » désigne la distribution, ce qui n'est pas évident : c'est le P le plus souvent mal interprété."
+      },
+      {
+        "type": "quiz",
+        "question": "Décider de ne vendre un produit qu'en ligne, sans réseau physique, relève de quel P ?",
+        "answer": "Place, la distribution. Ce n'est ni le produit, ni le prix, ni la communication : c'est le choix du circuit par lequel le client accède à l'offre.",
+        "hint": "Comment le client accède-t-il au produit ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-rse",
+    "domain": "culture-generale",
+    "category": "Entreprises",
+    "title": "Responsabilité sociétale et enjeux ESG",
+    "tagline": "Environnement, Social, Gouvernance : trois critères devenus des exigences de financement.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "entreprises-france",
+      "environnement",
+      "economie",
+      "entreprises-internationales"
+    ],
+    "related": [
+      "eco-externalites",
+      "eco-strategie-outils",
+      "eco-bourse",
+      "monde-climat"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La responsabilité sociétale des entreprises (RSE) désigne la prise en compte, par une entreprise, des conséquences sociales et environnementales de son activité, au-delà de ses obligations légales. Les critères ESG — Environnement, Social, Gouvernance — en sont la traduction chiffrée utilisée par les investisseurs."
+      },
+      {
+        "type": "table",
+        "title": "Les trois piliers ESG",
+        "headers": [
+          "Pilier",
+          "Exemples d'indicateurs"
+        ],
+        "rows": [
+          [
+            "Environnement",
+            "émissions de gaz à effet de serre, consommation d'eau, gestion des déchets"
+          ],
+          [
+            "Social",
+            "conditions de travail, diversité, formation, sécurité, relations fournisseurs"
+          ],
+          [
+            "Gouvernance",
+            "composition du conseil, rémunération des dirigeants, lutte contre la corruption, transparence"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Pourquoi cela pèse économiquement",
+        "items": [
+          "Les investisseurs intègrent les critères ESG dans leurs décisions : un mauvais score renchérit l'accès au capital.",
+          "Les obligations de reporting extra-financier se sont renforcées pour les grandes entreprises européennes.",
+          "Le risque de réputation peut affecter le chiffre d'affaires plus vite qu'une amende.",
+          "Les appels d'offres publics intègrent de plus en plus de critères environnementaux et sociaux.",
+          "Le « greenwashing » — afficher un engagement sans le tenir — expose à un risque juridique et réputationnel."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi une entreprise très rentable peut-elle voir son coût de financement augmenter pour des raisons ESG ?",
+        "reveal": "Parce que des investisseurs institutionnels excluent de leur portefeuille les entreprises mal notées, ce qui réduit la demande pour ses titres. Moins de candidats acheteurs signifie un prix plus bas et un coût du capital plus élevé, indépendamment de la rentabilité."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : considérer la RSE comme une simple contrainte de communication. Elle est devenue un déterminant du coût du capital, de l'accès aux marchés publics et du risque juridique. L'écart entre le discours et les pratiques est précisément ce que les régulateurs sanctionnent."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« E pour la planète, S pour les personnes, G pour les règles du jeu interne. » Les questions d'examen portent souvent sur l'attribution d'un exemple au bon pilier : la rémunération des dirigeants relève de la Gouvernance, pas du Social."
+      },
+      {
+        "type": "quiz",
+        "question": "La parité au conseil d'administration relève-t-elle du pilier Social ou Gouvernance ?",
+        "answer": "Gouvernance : elle concerne la composition et le fonctionnement des organes de direction. Le pilier Social porte sur les conditions de travail et les relations avec les salariés et fournisseurs.",
+        "hint": "De quel organe parle-t-on ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-bourse",
+    "domain": "culture-generale",
+    "category": "Marchés & bourse",
+    "title": "À quoi sert la bourse",
+    "tagline": "Marché primaire : l'entreprise lève des fonds. Marché secondaire : les investisseurs s'échangent les titres.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "bourse",
+      "marche",
+      "economie",
+      "entreprises-france"
+    ],
+    "related": [
+      "eco-cac40",
+      "eco-obligations-actions",
+      "eco-financement-entreprise",
+      "eco-taux-interet"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le marché PRIMAIRE est celui de l'émission : l'entreprise vend des titres neufs et reçoit l'argent. Le marché SECONDAIRE est celui de la revente entre investisseurs : l'entreprise n'y reçoit rien. Pourtant le second est indispensable au premier — personne n'achèterait un titre neuf s'il ne pouvait pas le revendre."
+      },
+      {
+        "type": "table",
+        "title": "Les fonctions de la bourse",
+        "headers": [
+          "Fonction",
+          "Explication"
+        ],
+        "rows": [
+          [
+            "Financer",
+            "permettre aux entreprises de lever des fonds propres sans s'endetter"
+          ],
+          [
+            "Liquidité",
+            "permettre aux investisseurs d'entrer et sortir facilement"
+          ],
+          [
+            "Valorisation",
+            "fixer un prix par confrontation de l'offre et de la demande"
+          ],
+          [
+            "Transfert de risque",
+            "répartir le risque entre de nombreux porteurs"
+          ],
+          [
+            "Signal",
+            "le cours reflète les anticipations du marché sur l'entreprise"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une entreprise s'introduit en bourse (IPO) et lève 200 M€. Six mois plus tard, son cours double. Combien reçoit-elle de cette hausse ?",
+        "reveal": "Rien. La hausse profite aux actionnaires qui revendent, sur le marché secondaire. L'entreprise n'encaisserait de nouveaux fonds qu'en émettant de NOUVELLES actions, lors d'une augmentation de capital."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'une hausse du cours enrichit directement l'entreprise. Elle améliore sa capacité à lever des fonds futurs et à racheter d'autres sociétés en payant en actions, mais elle ne lui apporte aucune trésorerie immédiate."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Primaire = neuf, l'argent va à l'entreprise. Secondaire = occasion, l'argent va au vendeur. » Comme pour une voiture : le constructeur ne touche rien sur la revente."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi le marché secondaire est-il indispensable au marché primaire ?",
+        "answer": "Parce que sans possibilité de revendre, un investisseur exigerait une rémunération beaucoup plus élevée pour immobiliser son argent — ou n'achèterait pas. La liquidité du secondaire rend le primaire attractif.",
+        "hint": "Qu'exigerait un investisseur qui ne pourrait jamais revendre ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-cac40",
+    "domain": "culture-generale",
+    "category": "Marchés & bourse",
+    "title": "Le CAC 40 et les indices boursiers",
+    "tagline": "Créé en 1987, il réunit 40 grandes capitalisations d'Euronext Paris, révisées chaque trimestre.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "bourse",
+      "marche",
+      "entreprises-france",
+      "economie"
+    ],
+    "related": [
+      "eco-bourse",
+      "eco-obligations-actions",
+      "eco-financement-entreprise",
+      "monde-entreprises-france"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Ce qu'il faut savoir sur le CAC 40",
+        "items": [
+          "Créé en 1987, il est l'indice de référence de la place de Paris.",
+          "Il réunit 40 des plus grandes capitalisations FLOTTANTES cotées sur Euronext Paris — le flottant étant la part réellement échangeable sur le marché.",
+          "Sa composition est révisée quatre fois par an (mars, juin, septembre, décembre) par le Conseil scientifique des indices d'Euronext.",
+          "Les dix premières pondérations pèsent environ 55 à 60 % de l'indice : il est très concentré.",
+          "Les secteurs dominants sont le luxe (≈ 25 %), l'énergie (≈ 15 %) et la finance (≈ 15 %)."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Indice nu ou dividendes réinvestis",
+        "body": "Le CAC 40 que citent les médias est un indice de PRIX : il ne tient pas compte des dividendes versés. Il existe une version « gross return » qui les réinvestit, et dont la performance de long terme est nettement supérieure. Comparer la performance d'un placement au CAC 40 nu sous-estime donc le rendement réel des actions."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi une entreprise géante peut-elle avoir une pondération modeste dans l'indice ?",
+        "reveal": "Parce que la pondération dépend du FLOTTANT, non de la capitalisation totale. Une société dont l'État ou une famille détient 70 % du capital n'a que 30 % de son poids réellement échangeable : son influence sur l'indice est réduite d'autant."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que le CAC 40 mesure l'économie française. Ses entreprises réalisent une large part de leur chiffre d'affaires à l'étranger : l'indice reflète davantage la santé de grandes multinationales que celle du tissu économique national, largement composé de PME non cotées."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les grands indices à connaître : CAC 40 (Paris), DAX (Francfort), FTSE 100 (Londres), Euro Stoxx 50 (zone euro), S&P 500 et Dow Jones (New York), Nasdaq (technologies), Nikkei (Tokyo)."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi la composition du CAC 40 change-t-elle régulièrement ?",
+        "answer": "Parce qu'elle est révisée chaque trimestre selon la capitalisation flottante et les volumes échangés. Une entreprise dont la valorisation décroche sort de l'indice, une autre y entre. L'indice suit le marché, il ne le fixe pas.",
+        "hint": "Quelle est la fréquence de révision ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-obligations-actions",
+    "domain": "culture-generale",
+    "category": "Marchés & bourse",
+    "title": "Actions et obligations",
+    "tagline": "L'actionnaire est propriétaire et prend le risque ; l'obligataire est créancier et passe avant lui.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "bourse",
+      "marche",
+      "economie",
+      "entreprises-france"
+    ],
+    "related": [
+      "eco-bourse",
+      "eco-taux-interet",
+      "eco-financement-entreprise",
+      "eco-cac40"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Deux titres, deux statuts",
+        "headers": [
+          "",
+          "Action",
+          "Obligation"
+        ],
+        "rows": [
+          [
+            "Statut du porteur",
+            "associé, copropriétaire",
+            "créancier"
+          ],
+          [
+            "Rémunération",
+            "dividende, variable et non garanti",
+            "coupon, fixé à l'émission"
+          ],
+          [
+            "Durée",
+            "illimitée",
+            "limitée, avec échéance de remboursement"
+          ],
+          [
+            "Droit de vote",
+            "oui",
+            "non"
+          ],
+          [
+            "En cas de faillite",
+            "remboursé en dernier, souvent rien",
+            "remboursé avant les actionnaires"
+          ],
+          [
+            "Risque",
+            "élevé",
+            "plus faible, mais non nul"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une ACTION représente une part du capital : son porteur devient copropriétaire, participe aux décisions et aux bénéfices, mais supporte le risque en premier. Une OBLIGATION est un titre de créance : son porteur a prêté de l'argent, perçoit des intérêts convenus et sera remboursé à l'échéance, avant les actionnaires en cas de liquidation."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une entreprise dépose le bilan. Dans quel ordre les créanciers et actionnaires sont-ils servis ?",
+        "reveal": "D'abord les créanciers privilégiés (salariés, Trésor), puis les créanciers ordinaires dont les obligataires, et enfin les actionnaires sur le solde éventuel — qui est le plus souvent nul. C'est le prix du statut de propriétaire : la rémunération potentielle est illimitée, mais le risque est servi en premier."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'une obligation est sans risque. Elle comporte un risque de DÉFAUT (l'émetteur ne rembourse pas), un risque de TAUX (si les taux montent, sa valeur de revente baisse) et un risque d'INFLATION (le coupon fixe perd du pouvoir d'achat)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Action = je possède une part. Obligation = je possède une créance. » Et l'ordre de remboursement suit la logique : celui qui a prêté passe avant celui qui a investi."
+      },
+      {
+        "type": "quiz",
+        "question": "Les taux d'intérêt du marché montent de 2 % à 4 %. Que devient la valeur de revente d'une obligation émise à 2 % ?",
+        "answer": "Elle baisse. Son coupon fixe de 2 % est moins attractif que les nouvelles émissions à 4 % : pour trouver un acheteur, son prix doit diminuer jusqu'à ce que son rendement effectif rejoigne 4 %.",
+        "hint": "Relation inverse entre taux et prix des obligations."
+      }
+    ]
+  },
+  {
+    "id": "eco-offre-demande",
+    "domain": "culture-generale",
+    "category": "Théories économiques",
+    "title": "Offre, demande et élasticité",
+    "tagline": "L'élasticité mesure la sensibilité de la demande au prix : c'est elle qui décide si une hausse de prix rapporte.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "economie",
+      "marche",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-concurrence",
+      "eco-marketing-mix",
+      "eco-monopole",
+      "calc-taux-evolution"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'ÉLASTICITÉ-PRIX de la demande mesure la variation en pourcentage de la quantité demandée pour une variation de 1 % du prix. Elle est presque toujours négative : le prix monte, la demande baisse. On parle de demande ÉLASTIQUE quand la valeur absolue dépasse 1 (la quantité réagit fortement) et INÉLASTIQUE quand elle est inférieure à 1."
+      },
+      {
+        "type": "table",
+        "title": "Ce que l'élasticité implique pour le chiffre d'affaires",
+        "headers": [
+          "Demande",
+          "Élasticité",
+          "Effet d'une hausse de prix"
+        ],
+        "rows": [
+          [
+            "Élastique",
+            "|e| > 1",
+            "le chiffre d'affaires BAISSE : le volume perdu dépasse le gain de prix"
+          ],
+          [
+            "Inélastique",
+            "|e| < 1",
+            "le chiffre d'affaires MONTE : le gain de prix dépasse le volume perdu"
+          ],
+          [
+            "Unitaire",
+            "|e| = 1",
+            "le chiffre d'affaires est inchangé"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le prix augmente de 10 % et la quantité vendue baisse de 4 %. Quelle est l'élasticité, et le chiffre d'affaires progresse-t-il ?",
+        "reveal": "Élasticité = −4/10 = −0,4, donc demande inélastique. Le chiffre d'affaires augmente : 1,10 × 0,96 = 1,056, soit +5,6 %. La hausse de prix est rentable."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qui rend une demande inélastique",
+        "items": [
+          "L'absence de substituts : on ne remplace pas facilement un médicament vital.",
+          "La nécessité : les biens de première nécessité ont une demande peu élastique.",
+          "Le poids faible dans le budget : une hausse de 10 % sur le sel passe inaperçue.",
+          "Le court terme : les habitudes mettent du temps à changer.",
+          "L'addiction ou l'habitude installée."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : conclure qu'une hausse de prix augmente toujours le chiffre d'affaires. Cela dépend entièrement de l'élasticité. Sur un marché concurrentiel où les clients peuvent changer de fournisseur, la demande est très élastique et une hausse de prix fait perdre plus de volume qu'elle ne rapporte."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Substituts nombreux = demande élastique = hausse de prix dangereuse. » L'élasticité se devine par la question : « le client a-t-il une alternative facile ? »"
+      },
+      {
+        "type": "quiz",
+        "question": "Une entreprise baisse ses prix de 5 % et voit ses volumes augmenter de 15 %. Que devient son chiffre d'affaires ?",
+        "answer": "Élasticité = −15/−5 = −3, demande très élastique. Chiffre d'affaires : 0,95 × 1,15 = 1,0925, soit +9,25 %. La baisse de prix est payante — sous réserve que la marge unitaire reste positive.",
+        "hint": "Multiplie les deux coefficients."
+      }
+    ]
+  },
+  {
+    "id": "eco-concurrence",
+    "domain": "culture-generale",
+    "category": "Marchés & bourse",
+    "title": "La concurrence et ses conditions",
+    "tagline": "La concurrence pure et parfaite suppose cinq conditions, presque jamais réunies dans la réalité.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "marche",
+      "economie",
+      "entreprises-france"
+    ],
+    "related": [
+      "eco-monopole",
+      "eco-offre-demande",
+      "eco-strategie-outils",
+      "ue-marche-interieur"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les cinq conditions de la concurrence pure et parfaite",
+        "items": [
+          "ATOMICITÉ : les acteurs sont si nombreux qu'aucun ne peut influencer le prix.",
+          "HOMOGÉNÉITÉ : les produits sont identiques, le choix se fait sur le seul prix.",
+          "TRANSPARENCE : l'information sur les prix et la qualité est parfaite et gratuite.",
+          "LIBRE ENTRÉE ET SORTIE : aucune barrière à l'entrée ni coût de sortie.",
+          "MOBILITÉ PARFAITE DES FACTEURS : capital et travail se déplacent librement."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ce modèle est un cas théorique de référence, non une description de la réalité. Il sert à identifier ce qui MANQUE sur un marché réel : différenciation des produits, information imparfaite, barrières à l'entrée. Ces écarts expliquent pourquoi les entreprises disposent d'un pouvoir de marché."
+      },
+      {
+        "type": "table",
+        "title": "Les structures de marché",
+        "headers": [
+          "Structure",
+          "Nombre d'offreurs",
+          "Exemple de configuration"
+        ],
+        "rows": [
+          [
+            "Concurrence parfaite",
+            "très nombreux",
+            "modèle théorique"
+          ],
+          [
+            "Concurrence monopolistique",
+            "nombreux, produits différenciés",
+            "restauration, coiffure"
+          ],
+          [
+            "Oligopole",
+            "quelques-uns",
+            "télécoms, aéronautique"
+          ],
+          [
+            "Duopole",
+            "deux",
+            "certains marchés très concentrés"
+          ],
+          [
+            "Monopole",
+            "un seul",
+            "réseaux, brevets"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre concentration et abus. Détenir une position dominante n'est PAS illégal ; c'est l'ABUS de cette position qui l'est — prix prédateurs, refus de vente, ventes liées. De même, un cartel (entente sur les prix) est illicite, mais un oligopole en soi ne l'est pas."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Cinq conditions, cinq mots : atomicité, homogénéité, transparence, libre entrée, mobilité. Les questions d'examen demandent souvent laquelle FAIT DÉFAUT dans un exemple donné : la différenciation des produits viole l'homogénéité, un brevet viole la libre entrée."
+      },
+      {
+        "type": "quiz",
+        "question": "Un brevet de vingt ans sur un médicament viole laquelle des cinq conditions ?",
+        "answer": "La libre entrée : aucun concurrent ne peut produire ce médicament pendant la durée du brevet. C'est un monopole légal, délibérément accordé pour rémunérer l'innovation.",
+        "hint": "Qu'empêche un brevet ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-monopole",
+    "domain": "culture-generale",
+    "category": "Marchés & bourse",
+    "title": "Monopole, oligopole, cartel",
+    "tagline": "Un oligopole est légal ; une entente sur les prix ne l'est pas. La frontière est le comportement, pas la structure.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "marche",
+      "economie",
+      "entreprises-france",
+      "institutions-europeennes"
+    ],
+    "related": [
+      "eco-concurrence",
+      "eco-offre-demande",
+      "ue-marche-interieur",
+      "eco-strategie-outils"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Structures et pratiques",
+        "headers": [
+          "Notion",
+          "Définition",
+          "Légalité"
+        ],
+        "rows": [
+          [
+            "Monopole",
+            "un seul offreur sur le marché",
+            "légal en soi ; l'abus de position dominante ne l'est pas"
+          ],
+          [
+            "Monopole naturel",
+            "coûts fixes tels qu'un seul acteur est efficace (réseaux)",
+            "légal, souvent régulé"
+          ],
+          [
+            "Oligopole",
+            "quelques offreurs seulement",
+            "légal"
+          ],
+          [
+            "Cartel",
+            "entente entre concurrents sur prix ou parts de marché",
+            "ILLÉGAL"
+          ],
+          [
+            "Abus de position dominante",
+            "prix prédateurs, refus de vente, ventes liées",
+            "ILLÉGAL"
+          ],
+          [
+            "Concentration",
+            "fusion ou acquisition réduisant le nombre d'acteurs",
+            "soumise à autorisation"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le droit de la concurrence ne sanctionne pas la taille mais le COMPORTEMENT. Une entreprise peut devenir dominante par la qualité de son offre : c'est légitime. Elle devient répréhensible quand elle utilise cette position pour évincer ses concurrents autrement que par ses mérites. Les autorités de concurrence, nationales et européennes, contrôlent aussi les fusions en amont."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Trois entreprises se partagent un marché et alignent leurs prix. Y a-t-il infraction ?",
+        "reveal": "Si l'alignement résulte d'une ENTENTE — réunions, échanges d'informations, accord tacite — c'est un cartel, et c'est illégal. Si chacune fixe son prix indépendamment en observant simplement le marché, il n'y a pas infraction : la difficulté probatoire est précisément là."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le monopole naturel. Dans les réseaux (rail, électricité, eau), dupliquer l'infrastructure serait absurdement coûteux : un seul opérateur est économiquement efficace. La réponse n'est alors pas d'imposer la concurrence sur l'infrastructure, mais de la réguler et d'ouvrir les services qui l'utilisent."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« La structure n'est pas le délit, le comportement l'est. » Un oligopole est une situation, un cartel est un acte. Les questions d'examen jouent constamment sur cette distinction."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi le rail ferroviaire est-il souvent considéré comme un monopole naturel ?",
+        "answer": "Parce que les coûts fixes de l'infrastructure sont si élevés que sa duplication serait économiquement absurde : un seul réseau dessert le marché au moindre coût. La concurrence est donc organisée sur les services de transport, pas sur les voies.",
+        "hint": "Que coûterait la construction d'un second réseau parallèle ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-keynes-liberaux",
+    "domain": "culture-generale",
+    "category": "Théories économiques",
+    "title": "Keynésiens et libéraux",
+    "tagline": "Pour les uns, la demande fait l'offre ; pour les autres, l'offre crée sa propre demande.",
+    "level": "avance",
+    "readMinutes": 5,
+    "tags": [
+      "economie",
+      "histoire-economique",
+      "indicateurs"
+    ],
+    "related": [
+      "eco-politique-budgetaire",
+      "eco-cycles",
+      "eco-croissance-facteurs",
+      "eco-externalites"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Deux lectures de la crise",
+        "headers": [
+          "",
+          "Approche keynésienne",
+          "Approche libérale (classique et néoclassique)"
+        ],
+        "rows": [
+          [
+            "Origine du chômage",
+            "insuffisance de la demande",
+            "rigidités du marché du travail"
+          ],
+          [
+            "Rôle de l'État",
+            "stabiliser l'activité par la dépense",
+            "fixer le cadre, éviter d'intervenir"
+          ],
+          [
+            "Politique en récession",
+            "relance budgétaire, multiplicateur",
+            "réformes de l'offre, flexibilité"
+          ],
+          [
+            "Vision du marché",
+            "peut rester durablement en sous-emploi",
+            "s'ajuste spontanément vers l'équilibre"
+          ],
+          [
+            "Économiste de référence",
+            "John Maynard Keynes",
+            "Adam Smith, David Ricardo, Milton Friedman"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour KEYNES, la demande détermine le niveau de production : si les agents anticipent mal, l'économie peut se stabiliser durablement en sous-emploi, et seule une impulsion publique en sort. Pour les LIBÉRAUX, les marchés s'ajustent d'eux-mêmes ; le chômage durable révèle des entraves (salaire minimum, protection excessive, fiscalité). L'un regarde la demande, l'autre l'offre."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois autres courants à connaître",
+        "items": [
+          "MONÉTARISME (Friedman) : l'inflation est d'origine monétaire ; la priorité est de maîtriser la masse monétaire.",
+          "SCHUMPETER : la croissance vient de l'innovation et de la « destruction créatrice » — les activités nouvelles détruisent les anciennes.",
+          "ÉCONOMIE INSTITUTIONNELLE : la qualité des institutions (droit, contrats, administration) explique les écarts de développement.",
+          "ÉCONOMIE COMPORTEMENTALE (Kahneman, Tversky) : les agents ne sont pas parfaitement rationnels, ce qui invalide certaines prédictions des modèles classiques."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : caricaturer les deux positions. Aucun économiste sérieux ne nie que l'offre ET la demande comptent ; le débat porte sur ce qui BLOQUE à un moment donné. Une politique de relance est pertinente face à une demande déficiente, inutile face à une contrainte de capacité de production."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Keynes regarde le carnet de commandes, les libéraux regardent le coût de production. » Face à un cas concret, demande-toi laquelle des deux contraintes est active : y a-t-il des clients sans capacité, ou des capacités sans clients ?"
+      },
+      {
+        "type": "quiz",
+        "question": "Une économie a des usines à l'arrêt et une demande faible. Quelle analyse s'applique le mieux ?",
+        "answer": "L'analyse keynésienne : les capacités de production existent mais ne trouvent pas de débouchés. Une politique de l'offre (baisse des coûts) n'y changerait rien puisque la contrainte n'est pas la capacité mais la demande.",
+        "hint": "Quelle est la contrainte active ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-externalites",
+    "domain": "culture-generale",
+    "category": "Théories économiques",
+    "title": "Externalités et biens publics",
+    "tagline": "Une externalité est un effet non facturé : la pollution ne figure sur aucune facture, mais quelqu'un la paie.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "economie",
+      "environnement",
+      "marche"
+    ],
+    "related": [
+      "eco-rse",
+      "eco-concurrence",
+      "eco-keynes-liberaux",
+      "monde-climat"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une EXTERNALITÉ est un effet de l'activité d'un agent sur un tiers, sans compensation monétaire. Négative : une usine pollue une rivière, les riverains supportent un coût qu'ils n'ont pas choisi. Positive : un apiculteur pollinise les vergers voisins sans être payé pour cela. Dans les deux cas, le prix de marché ne reflète pas le coût ou le bénéfice social réel."
+      },
+      {
+        "type": "table",
+        "title": "Comment les traiter",
+        "headers": [
+          "Instrument",
+          "Principe"
+        ],
+        "rows": [
+          [
+            "Taxe (dite pigouvienne)",
+            "faire payer au pollueur le coût qu'il impose : le prix intègre l'externalité"
+          ],
+          [
+            "Subvention",
+            "encourager une activité aux externalités positives (recherche, formation)"
+          ],
+          [
+            "Norme réglementaire",
+            "interdire ou plafonner directement"
+          ],
+          [
+            "Marché de quotas",
+            "plafonner la quantité totale et laisser s'échanger les droits d'émission"
+          ],
+          [
+            "Négociation privée",
+            "possible si les droits de propriété sont clairs et les parties peu nombreuses"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Les biens publics",
+        "body": "Un bien public pur a deux propriétés : la NON-RIVALITÉ (la consommation de l'un ne prive pas l'autre) et la NON-EXCLUSION (on ne peut empêcher personne d'en profiter). L'éclairage public, la défense nationale, un phare en sont des exemples. Comme personne ne peut être exclu, personne n'a intérêt à payer : le marché ne les produit pas spontanément."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre bien public et bien gratuit ou public au sens de « géré par l'État ». Un bien public se définit par ses PROPRIÉTÉS économiques, pas par son propriétaire. Une route à péage est un bien privé au sens économique, même si elle appartient à l'État."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Externalité = effet non facturé. Bien public = personne ne peut être exclu, donc personne ne veut payer. » Les deux notions expliquent pourquoi le marché seul ne produit pas l'optimum, et justifient l'intervention publique."
+      },
+      {
+        "type": "quiz",
+        "question": "La vaccination produit-elle une externalité, et de quel signe ?",
+        "answer": "Positive : une personne vaccinée réduit le risque de contamination pour les autres, y compris non vaccinées, sans être rémunérée pour ce bénéfice. C'est un argument économique classique en faveur du subventionnement, voire de l'obligation.",
+        "hint": "Qui bénéficie de la vaccination d'autrui ?"
+      }
+    ]
+  },
+  {
+    "id": "eco-mondialisation",
+    "domain": "culture-generale",
+    "category": "Théories économiques",
+    "title": "Mondialisation et avantages comparatifs",
+    "tagline": "Ricardo : chaque pays gagne à se spécialiser là où il est relativement le plus efficace, même s'il est moins bon partout.",
+    "level": "avance",
+    "readMinutes": 5,
+    "tags": [
+      "commerce-international",
+      "economie",
+      "geopolitique",
+      "histoire-economique"
+    ],
+    "related": [
+      "eco-commerce-international",
+      "eco-balance-commerciale",
+      "eco-change",
+      "monde-geopolitique-puissances"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "L'avantage comparatif",
+        "body": "David Ricardo a montré au début du XIXᵉ siècle qu'un pays gagne à l'échange même s'il est moins productif que son partenaire dans TOUS les domaines. Ce qui compte n'est pas l'avantage absolu mais l'avantage RELATIF : chaque pays doit se spécialiser dans ce qu'il produit au coût d'opportunité le plus faible."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le pays A produit 1 voiture ou 4 tonnes de blé par unité de travail. Le pays B produit 1 voiture ou 2 tonnes de blé. Qui doit produire quoi ?",
+        "reveal": "En renonçant à une voiture, A obtient 4 tonnes de blé, B seulement 2 : A est relativement meilleur en blé. Inversement, une voiture coûte 4 tonnes de blé à A mais seulement 2 à B : B est relativement meilleur en voitures. A se spécialise dans le blé, B dans les voitures, et les deux y gagnent."
+      },
+      {
+        "type": "table",
+        "title": "Arguments du débat",
+        "headers": [
+          "En faveur du libre-échange",
+          "En faveur du protectionnisme"
+        ],
+        "rows": [
+          [
+            "gains de spécialisation et d'échelle",
+            "protection des industries naissantes"
+          ],
+          [
+            "baisse des prix pour les consommateurs",
+            "préservation de l'emploi dans les secteurs exposés"
+          ],
+          [
+            "accès à des marchés plus larges",
+            "souveraineté sur les productions stratégiques"
+          ],
+          [
+            "diffusion des technologies",
+            "correction du dumping social ou environnemental"
+          ],
+          [
+            "concurrence stimulant la productivité",
+            "réduction de la dépendance aux chaînes longues"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : conclure du théorème de Ricardo que le libre-échange profite à TOUT LE MONDE. Il démontre un gain AGRÉGÉ pour chaque pays, pas une amélioration pour chaque individu. Les travailleurs des secteurs perdants supportent un coût réel, et la question de leur compensation est politique, non économique."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Avantage absolu : je suis meilleur. Avantage comparatif : je suis relativement moins mauvais ici qu'ailleurs. » Seul le second détermine la spécialisation optimale — c'est tout l'apport de Ricardo."
+      },
+      {
+        "type": "quiz",
+        "question": "Un pays est moins productif que son partenaire dans absolument tous les secteurs. A-t-il intérêt à commercer ?",
+        "answer": "Oui. Il possède nécessairement un avantage comparatif dans au moins un secteur, celui où son désavantage relatif est le plus faible. En s'y spécialisant, il obtient les autres biens à un coût inférieur à celui de leur production interne.",
+        "hint": "L'avantage comparatif est toujours défini, même sans avantage absolu."
+      }
+    ]
+  },
+  {
+    "id": "eco-commerce-international",
+    "domain": "culture-generale",
+    "category": "Théories économiques",
+    "title": "Instruments de politique commerciale",
+    "tagline": "Droits de douane, quotas, normes, subventions : quatre façons de protéger un marché, aux effets différents.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "commerce-international",
+      "organisations-internationales",
+      "economie",
+      "geopolitique"
+    ],
+    "related": [
+      "eco-mondialisation",
+      "eco-balance-commerciale",
+      "monde-organisations-internationales",
+      "eco-change"
+    ],
+    "subtests": [
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les instruments et leurs effets",
+        "headers": [
+          "Instrument",
+          "Mécanisme",
+          "Effet sur les recettes publiques"
+        ],
+        "rows": [
+          [
+            "Droit de douane (tarif)",
+            "taxe à l'importation, renchérit le produit étranger",
+            "génère des recettes"
+          ],
+          [
+            "Quota (contingent)",
+            "limite la quantité importée",
+            "aucune recette"
+          ],
+          [
+            "Norme technique ou sanitaire",
+            "barrière non tarifaire",
+            "aucune recette"
+          ],
+          [
+            "Subvention à l'exportation",
+            "abaisse le prix à l'export",
+            "coûte de l'argent public"
+          ],
+          [
+            "Dévaluation compétitive",
+            "rend toutes les exportations moins chères",
+            "aucun effet budgétaire direct"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un tarif agit sur le PRIX et rapporte des recettes fiscales ; un quota agit sur la QUANTITÉ et ne rapporte rien à l'État — la rente va aux détenteurs des licences d'importation. Les barrières non tarifaires (normes, procédures) sont devenues l'instrument dominant, car les tarifs sont encadrés par les accords commerciaux internationaux."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Le cadre institutionnel",
+        "items": [
+          "L'Organisation mondiale du commerce (OMC), dont le siège est à Genève, encadre les règles du commerce multilatéral.",
+          "Le principe de non-discrimination (clause de la nation la plus favorisée) impose de traiter tous les partenaires de la même façon.",
+          "Les accords de libre-échange bilatéraux ou régionaux dérogent à ce principe.",
+          "Le dumping — vendre à l'étranger en dessous du coût — peut justifier des droits antidumping.",
+          "L'Union européenne négocie sa politique commerciale en bloc : les États membres n'ont pas de politique douanière propre."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'un droit de douane est payé par le pays exportateur. Il est acquitté par l'IMPORTATEUR et se répercute largement sur le prix payé par le consommateur du pays qui l'a instauré. La protection a donc un coût intérieur, souvent supérieur aux emplois qu'elle préserve."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Tarif = je taxe le prix et j'encaisse. Quota = je limite la quantité et je n'encaisse rien. » Cette différence de recettes est la distinction la plus fréquemment testée."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi un quota crée-t-il une rente, et pour qui ?",
+        "answer": "Parce qu'il raréfie l'offre et fait monter le prix intérieur sans que l'État perçoive de taxe. L'écart de prix bénéficie aux détenteurs des licences d'importation, qui achètent au prix mondial et revendent au prix intérieur plus élevé.",
+        "hint": "Qui capte l'écart de prix, à défaut de l'État ?"
+      }
+    ]
   }
 ]

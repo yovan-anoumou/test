@@ -29,5 +29,1646 @@
         "body": "Ils indiquent la structure argumentative du texte : mais, cependant, en revanche (opposition) — par conséquent, donc (conséquence) — en effet, car (justification). Les questions portent très souvent exactement sur ces articulations logiques."
       }
     ]
+  },
+  {
+    "id": "comp-methode-lecture",
+    "domain": "comprehension",
+    "category": "Méthode",
+    "title": "Lire un texte d'examen : la méthode",
+    "tagline": "Lis les questions d'abord, le texte ensuite. Tu sauras quoi chercher au lieu de tout retenir.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "idee-principale"
+    ],
+    "related": [
+      "comp-scanning-skimming",
+      "comp-types-questions",
+      "comp-gestion-temps",
+      "vocabulaire-comprehension-texte"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un texte d'examen ne se lit pas comme un article : on ne cherche pas à le comprendre entièrement, on cherche à répondre à des questions précises. Lire les questions AVANT le texte transforme une lecture passive en recherche ciblée, et divise le temps par deux."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La procédure en cinq étapes",
+        "items": [
+          "1. Lire le TITRE et la source : ils donnent le sujet et le type de texte en trois secondes.",
+          "2. Lire les QUESTIONS (pas les propositions) pour savoir ce qu'on cherche.",
+          "3. Parcourir le texte en repérant les mots-clés des questions.",
+          "4. Lire attentivement SEULEMENT les passages concernés.",
+          "5. Vérifier chaque réponse en pointant la ligne exacte qui la justifie."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi ne faut-il pas lire les propositions de réponse avant le texte ?",
+        "reveal": "Parce que trois propositions sur quatre sont fausses : les lire d'abord installe dans l'esprit des informations erronées qu'on croira ensuite avoir lues dans le texte. On lit la QUESTION seule, pas les options."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : vouloir tout comprendre. Un texte d'examen contient délibérément des passages qui ne servent à aucune question. Chercher à les maîtriser consomme le temps nécessaire aux passages utiles."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour chaque réponse, tu dois pouvoir désigner LA phrase du texte qui la justifie. Si tu ne peux pas, tu as répondu de mémoire ou par déduction — et c'est exactement là que sont placés les distracteurs."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans quel ordre faut-il procéder : texte, questions, propositions ?",
+        "answer": "Questions d'abord (sans les propositions), puis lecture ciblée du texte, puis propositions. Les propositions arrivent en dernier, une fois qu'on a déjà sa réponse en tête.",
+        "hint": "Les propositions sont trois quarts fausses."
+      }
+    ]
+  },
+  {
+    "id": "comp-scanning-skimming",
+    "domain": "comprehension",
+    "category": "Méthode",
+    "title": "Survoler ou chercher : deux lectures différentes",
+    "tagline": "Le survol donne l'idée générale en trente secondes. Le balayage trouve une information précise en dix.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "detail-precis",
+      "detail-specifique"
+    ],
+    "related": [
+      "comp-methode-lecture",
+      "comp-idee-principale",
+      "comp-detail-precis",
+      "comp-gestion-temps"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Deux techniques, deux usages",
+        "headers": [
+          "Technique",
+          "Objectif",
+          "Comment"
+        ],
+        "rows": [
+          [
+            "Survol (skimming)",
+            "saisir l'idée générale et la structure",
+            "lire titre, première et dernière phrase de chaque paragraphe"
+          ],
+          [
+            "Balayage (scanning)",
+            "trouver une donnée précise",
+            "chercher visuellement un chiffre, un nom propre, une date, un mot-clé"
+          ],
+          [
+            "Lecture attentive",
+            "comprendre un raisonnement",
+            "lire mot à mot, uniquement sur le passage identifié"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le SURVOL répond aux questions d'idée principale et d'objectif du texte. Le BALAYAGE répond aux questions de détail : on ne lit pas, on cherche une forme visuelle — un nombre, une majuscule, un mot du champ lexical de la question. La lecture attentive n'intervient que sur trois ou quatre phrases par texte."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "La question demande « en quelle année l'entreprise a-t-elle ouvert sa filiale allemande ? ». Quelle technique ?",
+        "reveal": "Balayage : on cherche visuellement des chiffres à quatre chiffres dans le texte, puis on vérifie que la phrase parle bien de l'Allemagne. Inutile de lire une seule phrase complète avant d'avoir repéré le candidat."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : balayer en cherchant le mot exact de la question. Le texte emploie presque toujours un SYNONYME. Si la question parle de « filiale », le texte peut dire « antenne », « bureau », « succursale ». Cherche le concept, pas le mot."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les nombres, les dates, les noms propres et les majuscules se repèrent visuellement sans être lus. Ce sont les cibles idéales du balayage, et elles portent la plupart des questions de détail."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle technique employer pour répondre à « quel est le but principal de ce texte ? »",
+        "answer": "Le survol : titre, première phrase de chaque paragraphe, dernière phrase du texte. Le but général ne se trouve jamais dans un détail isolé.",
+        "hint": "La question porte sur l'ensemble, pas sur un point."
+      }
+    ]
+  },
+  {
+    "id": "comp-idee-principale",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Trouver l'idée principale",
+    "tagline": "L'idée principale couvre TOUT le texte. Si une proposition ne couvre qu'un paragraphe, elle est fausse.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "idee-principale",
+      "comprehension",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "comp-objectif-texte",
+      "comp-structure-texte",
+      "comp-scanning-skimming",
+      "comp-distracteurs"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'idée principale est ce que le texte veut établir dans son ensemble. Elle se trouve le plus souvent dans le titre, la première phrase du premier paragraphe, ou la dernière du dernier. Le test décisif : la proposition retenue doit couvrir TOUT le texte, ni plus, ni moins."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les trois formes de mauvaise réponse",
+        "items": [
+          "TROP ÉTROITE : vraie, mais ne concerne qu'un paragraphe. C'est le distracteur le plus fréquent.",
+          "TROP LARGE : elle dépasse ce que le texte affirme, elle généralise.",
+          "HORS TEXTE : plausible et conforme au bon sens, mais absente du texte.",
+          "PARTIELLEMENT FAUSSE : exacte sur la première moitié, inexacte sur la seconde — lis toute la proposition."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un texte décrit trois causes de la pénurie de main-d'œuvre, puis deux solutions. Quelle formulation est l'idée principale ?",
+        "reveal": "« Les causes de la pénurie de main-d'œuvre et les réponses possibles. » Une proposition portant uniquement sur les causes serait trop étroite, et une portant sur « le marché du travail en général » serait trop large."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre l'idée principale avec le SUJET. Le sujet est ce dont on parle (« la pénurie de main-d'œuvre ») ; l'idée principale est ce qu'on en DIT. Une proposition qui se contente de nommer le sujet est incomplète."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Résume le texte en une phrase AVANT de lire les propositions. Puis cherche celle qui s'en rapproche le plus. Cet ordre empêche les distracteurs de contaminer ta compréhension."
+      },
+      {
+        "type": "quiz",
+        "question": "Comment distinguer une proposition « trop étroite » d'une bonne réponse ?",
+        "answer": "En vérifiant qu'elle couvre tous les paragraphes. Si un paragraphe entier du texte n'est pas concerné par la proposition, elle est trop étroite — même si elle est exacte.",
+        "hint": "Compte les paragraphes couverts."
+      }
+    ]
+  },
+  {
+    "id": "comp-detail-precis",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Les questions de détail",
+    "tagline": "La réponse est écrite dans le texte, mais jamais avec les mêmes mots que la question.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "detail-precis",
+      "detail-specifique",
+      "comprehension",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "comp-scanning-skimming",
+      "comp-piege-reformulation",
+      "comp-question-negative",
+      "comp-distracteurs"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une question de détail a sa réponse explicitement dans le texte : il n'y a rien à déduire. La seule difficulté est de la localiser, et le texte la formule toujours autrement que la question. On repère donc le passage par un mot-clé peu reformulable : un nom propre, un chiffre, une date, un terme technique."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Question : « Combien de salariés l'entreprise compte-t-elle ? » Le texte dit : « L'effectif s'élève à 340 personnes. » Comment as-tu trouvé ?",
+        "reveal": "En cherchant un nombre, pas le mot « salariés ». Le texte emploie *effectif* et *personnes*. La cible du balayage était le format numérique, qui ne se reformule pas."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les mots-clés qui ne se reformulent pas",
+        "items": [
+          "Les nombres et pourcentages.",
+          "Les dates et les durées.",
+          "Les noms propres (personnes, entreprises, villes).",
+          "Les termes techniques propres au domaine.",
+          "Les unités (euros, tonnes, kilomètres)."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le texte contient PLUSIEURS chiffres. Une question sur l'effectif face à un texte qui cite 340 personnes, 12 sites et 45 millions d'euros exige de vérifier à quoi chaque nombre se rapporte. Le distracteur reprend toujours un autre chiffre du texte."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Une fois la réponse trouvée, relis la phrase complète du texte : c'est là que se cachent les négations, les restrictions (« sauf », « à l'exception de ») et les conditions qui changent la réponse."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel mot de la question « Quand la nouvelle usine ouvrira-t-elle ? » faut-il utiliser pour balayer le texte ?",
+        "answer": "Aucun mot de la question : on cherche un format DATE (une année, un mois, un trimestre). Le texte dira peut-être « mise en service », « inauguration » ou « démarrage » — mais la date, elle, ne se reformule pas.",
+        "hint": "Cherche un format, pas un mot."
+      }
+    ]
+  },
+  {
+    "id": "comp-inference",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Les questions d'inférence",
+    "tagline": "Une inférence est une déduction NÉCESSAIRE à partir du texte, pas une supposition vraisemblable.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "inference",
+      "comprehension",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "comp-implicite",
+      "comp-distracteurs",
+      "comp-ton-auteur",
+      "log-syllogisme"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une question d'inférence (« on peut déduire que… », « le texte suggère que… ») demande une conclusion que le texte n'énonce pas mais qui en découle NÉCESSAIREMENT. La bonne réponse ne peut pas être fausse si le texte est vrai. Une réponse simplement plausible ne suffit pas."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le texte dit : « Malgré trois campagnes de recrutement, l'entreprise n'a pourvu que la moitié des postes. » Que peut-on déduire ?",
+        "reveal": "Que le recrutement est difficile dans ce secteur ou pour ces profils : les trois campagnes prouvent l'effort, la moitié seulement prouve l'échec partiel. On ne peut PAS déduire que les salaires sont trop bas, ni que l'entreprise a mauvaise réputation : ce sont des explications possibles, pas des conséquences nécessaires."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les indices qui autorisent une inférence",
+        "items": [
+          "Les connecteurs d'opposition (*malgré*, *pourtant*, *bien que*) : ils signalent un contraste que l'auteur juge notable.",
+          "Les adverbes d'appréciation (*seulement*, *déjà*, *encore*, *à peine*) : ils portent un jugement implicite.",
+          "Les comparaisons : « plus que l'an dernier » implique une valeur antérieure.",
+          "Les présupposés : « il a cessé de fumer » implique qu'il fumait avant."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la proposition qui explique CAUSE ce que décrit le texte. Le texte constate un fait ; le distracteur en propose une cause vraisemblable. Une cause n'est jamais déductible d'un constat : plusieurs causes produiraient le même effet."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test : « Si le texte est vrai, cette proposition peut-elle être fausse ? » Si la réponse est oui, ce n'est pas une inférence valide, même si elle est probable."
+      },
+      {
+        "type": "quiz",
+        "question": "Le texte dit : « Les ventes en ligne ont dépassé les ventes en magasin pour la première fois. » Quelle déduction est valide ?",
+        "answer": "Qu'auparavant, les ventes en magasin étaient supérieures — c'est contenu dans « pour la première fois ». En revanche, on ne peut pas déduire que les ventes en magasin ont baissé : elles peuvent avoir augmenté moins vite.",
+        "hint": "« Pour la première fois » présuppose quelque chose sur le passé."
+      }
+    ]
+  },
+  {
+    "id": "comp-objectif-texte",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Quel est le but du texte ?",
+    "tagline": "Informer, convaincre, annoncer, demander : identifie l'intention, pas le sujet.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "objectif-du-texte",
+      "comprehension-ecrite",
+      "comprehension",
+      "idee-principale"
+    ],
+    "related": [
+      "comp-idee-principale",
+      "comp-ton-auteur",
+      "comp-emails-annonces",
+      "comp-structure-texte"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les intentions les plus fréquentes",
+        "headers": [
+          "But",
+          "Indices dans le texte"
+        ],
+        "rows": [
+          [
+            "Informer",
+            "faits, chiffres, ton neutre, pas d'appel à l'action"
+          ],
+          [
+            "Convaincre",
+            "arguments, connecteurs logiques, réfutation d'objections"
+          ],
+          [
+            "Annoncer",
+            "date, nouveauté, formule d'ouverture (« nous avons le plaisir de »)"
+          ],
+          [
+            "Demander",
+            "question directe, impératif poli, formule de requête"
+          ],
+          [
+            "Rappeler",
+            "référence à un échange antérieur, échéance proche"
+          ],
+          [
+            "S'excuser / expliquer un problème",
+            "regret exprimé, cause donnée, compensation proposée"
+          ],
+          [
+            "Promouvoir",
+            "avantages, offre limitée, appel à l'action"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le but d'un texte se lit surtout dans sa PREMIÈRE et sa DERNIÈRE phrase. Le début annonce l'intention (« Je vous écris pour… »), la fin indique ce qui est attendu du lecteur (« Merci de nous confirmer… »). Le corps donne le détail, rarement l'intention."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un courriel décrit longuement un retard de livraison, puis se termine par « Nous vous proposons une remise de 10 % sur votre prochaine commande. » Quel est son but ?",
+        "reveal": "S'excuser et compenser. Le corps du texte explique la cause, mais l'intention se révèle à la fin : l'auteur veut préserver la relation commerciale, pas seulement informer d'un retard."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre le but et le CONTENU. Un texte qui parle de chiffres de vente n'a pas pour but « de présenter des chiffres de vente » : il a pour but de justifier une décision, d'alerter, ou de rassurer. Cherche ce que l'auteur veut OBTENIR."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Demande-toi : « Que doit faire ou penser le lecteur après avoir lu ce texte ? » La réponse est le but. Si rien n'est attendu du lecteur, le but est d'informer."
+      },
+      {
+        "type": "quiz",
+        "question": "Une annonce se termine par « Les inscriptions sont ouvertes jusqu'au 15 mars. » Quel est le but probable ?",
+        "answer": "Inciter à s'inscrire avant une échéance — donc annoncer ET appeler à l'action. Une simple information n'aurait pas mentionné de date limite.",
+        "hint": "Que doit faire le lecteur ?"
+      }
+    ]
+  },
+  {
+    "id": "comp-ton-auteur",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Identifier le ton de l'auteur",
+    "tagline": "Le ton se lit dans les adjectifs et les adverbes, jamais dans les faits rapportés.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "ton-auteur",
+      "comprehension",
+      "inference"
+    ],
+    "related": [
+      "comp-inference",
+      "comp-objectif-texte",
+      "voc-connotation",
+      "comp-implicite"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les tons à distinguer",
+        "headers": [
+          "Ton",
+          "Indices"
+        ],
+        "rows": [
+          [
+            "neutre, informatif",
+            "aucun adjectif évaluatif, verbes de constat"
+          ],
+          [
+            "critique",
+            "adjectifs péjoratifs, questions rhétoriques, ironie"
+          ],
+          [
+            "enthousiaste",
+            "superlatifs, adverbes d'intensité positifs"
+          ],
+          [
+            "prudent, nuancé",
+            "modalisateurs : *semble*, *pourrait*, *dans une certaine mesure*"
+          ],
+          [
+            "alarmiste",
+            "vocabulaire du danger, urgence, conséquences graves"
+          ],
+          [
+            "ironique",
+            "décalage entre le vocabulaire valorisant et les faits décrits"
+          ],
+          [
+            "didactique",
+            "définitions, exemples, progression du simple au complexe"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le ton ne se trouve pas dans les FAITS mais dans la manière de les présenter. Deux textes peuvent rapporter la même information avec des tons opposés, selon les adjectifs, les adverbes et les verbes de parole choisis (« affirme » contre « prétend »)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Compare : « L'entreprise a annoncé une hausse de 3 % » et « L'entreprise se félicite d'une maigre hausse de 3 % ». Même fait, quel ton ?",
+        "reveal": "La seconde est critique, voire ironique : *se félicite* opposé à *maigre* crée un décalage qui suggère que l'auteur trouve la satisfaction disproportionnée. Le fait chiffré est pourtant identique."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : attribuer à l'auteur le ton d'une personne CITÉE. Si le texte rapporte « selon les syndicats, la direction est irresponsable », le jugement appartient aux syndicats. L'auteur, lui, reste peut-être neutre. Repère toujours qui parle."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Souligne les adjectifs et les adverbes du texte. S'ils sont tous descriptifs (*annuel*, *européen*, *trimestriel*), le ton est neutre. S'ils sont évaluatifs (*décevant*, *remarquable*, *hélas*), ils donnent le ton."
+      },
+      {
+        "type": "quiz",
+        "question": "Un texte multiplie les formules « il semblerait que », « selon certaines sources », « dans une certaine mesure ». Quel ton ?",
+        "answer": "Prudent et nuancé. L'auteur se protège en modalisant ses affirmations : il n'engage pas sa certitude. Ce n'est ni de la critique ni de l'enthousiasme.",
+        "hint": "Ces formules affaiblissent volontairement les affirmations."
+      }
+    ]
+  },
+  {
+    "id": "comp-vocabulaire-contexte",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Deviner un mot par le contexte",
+    "tagline": "Tu n'as pas besoin de connaître le mot : la phrase te dit s'il est positif ou négatif, et sa fonction.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "vocabulaire-contexte",
+      "comprehension-ecrite",
+      "comprehension",
+      "inference"
+    ],
+    "related": [
+      "comp-inference",
+      "comp-detail-precis",
+      "voc-prefixes-suffixes",
+      "voc-polysemie"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les quatre indices du contexte",
+        "items": [
+          "La POLARITÉ : les connecteurs (*mais*, *en revanche*) indiquent si le mot va dans le sens du reste de la phrase ou contre.",
+          "La NATURE : la place dans la phrase indique s'il s'agit d'un nom, d'un verbe ou d'un adjectif.",
+          "La MORPHOLOGIE : préfixe et suffixe donnent souvent le sens (*in-*, *hyper-*, *−able*).",
+          "L'EXEMPLE : une énumération ou un exemple qui suit éclaire le terme.",
+          "La REPRISE : le mot est parfois reformulé une phrase plus loin."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une question de vocabulaire en contexte ne teste pas ta mémoire lexicale mais ta capacité à exploiter la phrase. Même face à un mot totalement inconnu, la polarité et la nature grammaticale éliminent souvent trois propositions sur quatre."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« La mesure a été jugée trop onéreuse, et le conseil a donc cherché une solution moins coûteuse. » Que signifie *onéreuse* ?",
+        "reveal": "Chère. La suite de la phrase fournit la reformulation : « moins coûteuse » s'oppose implicitement à *onéreuse*, ce qui en donne le sens sans dictionnaire."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : choisir le sens le plus courant d'un mot polysémique sans vérifier le contexte. Dans un texte économique, « action » désigne un titre financier ; dans un texte juridique, « prescription » désigne l'extinction d'un droit. Le domaine du texte oriente le sens."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Remplace le mot inconnu par un blanc et relis la phrase : quel mot MET-TU spontanément ? Puis cherche la proposition la plus proche. Le contexte fournit presque toujours la réponse, même sans le vocabulaire."
+      },
+      {
+        "type": "quiz",
+        "question": "« Contrairement à son prédécesseur, réputé intransigeant, le nouveau directeur se montre conciliant. » Que signifie *conciliant* ?",
+        "answer": "Accommodant, prêt au compromis. Le connecteur *contrairement à* impose un sens opposé à *intransigeant*, qui refuse tout compromis.",
+        "hint": "Le connecteur donne la polarité."
+      }
+    ]
+  },
+  {
+    "id": "comp-question-negative",
+    "domain": "comprehension",
+    "category": "Types de questions",
+    "title": "Les questions négatives",
+    "tagline": "« Laquelle n'est PAS mentionnée ? » : trois propositions sont vraies, et la bonne réponse est la fausse.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "detail-precis",
+      "comprehension-ecrite",
+      "comprehension",
+      "detail-specifique"
+    ],
+    "related": [
+      "comp-detail-precis",
+      "comp-distracteurs",
+      "comp-piege-reformulation",
+      "comp-methode-lecture"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les questions du type « laquelle des propositions suivantes n'est PAS vraie / n'est PAS mentionnée / EXCEPTÉ » inversent la logique habituelle : il faut vérifier chaque proposition une par une et cocher celle qu'on ne retrouve PAS dans le texte. C'est plus long, donc plus rentable à traiter méthodiquement."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La procédure",
+        "items": [
+          "Entoure le mot négatif (NOT, EXCEPT, « sauf », « ne … pas ») dès la lecture de la question.",
+          "Traite les propositions une par une, en cherchant chacune dans le texte.",
+          "Coche mentalement celles que tu TROUVES : elles sont éliminées.",
+          "La proposition qui reste introuvable est la réponse.",
+          "Ne t'arrête pas dès qu'une proposition te semble fausse : vérifie les autres, c'est la seule garantie."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Tous les services suivants sont inclus SAUF : a) le transport b) l'assurance c) le montage d) la maintenance. » Comment procéder ?",
+        "reveal": "Balayer le texte pour chacun des quatre termes. Si on trouve transport, assurance et montage, la réponse est la maintenance — même si on n'a jamais lu le mot « maintenance » dans le texte, c'est précisément l'absence qui fait la réponse."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier la négation en cours de résolution. Après avoir lu quatre propositions, on répond à la question habituelle (« laquelle est vraie ») au lieu de la question posée. Entourer le mot négatif prend une seconde et évite cette erreur très coûteuse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Une question négative demande QUATRE vérifications au lieu d'une : elle coûte donc quatre fois plus de temps. Si le temps manque, c'est le type de question à laisser en dernier."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi ne faut-il pas s'arrêter dès qu'une proposition semble absente du texte ?",
+        "answer": "Parce qu'elle peut être formulée autrement plus loin. Il faut vérifier les trois autres : si elles sont toutes présentes, la conclusion est sûre. Sinon, il faut chercher davantage.",
+        "hint": "Le texte reformule systématiquement."
+      }
+    ]
+  },
+  {
+    "id": "comp-structure-texte",
+    "domain": "comprehension",
+    "category": "Structure",
+    "title": "Repérer la structure d'un texte",
+    "tagline": "Un paragraphe = une idée. Sa première phrase l'annonce presque toujours.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "structure-argumentative",
+      "comprehension",
+      "idee-principale",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "comp-idee-principale",
+      "comp-connecteurs-reperage",
+      "comp-these-arguments",
+      "voc-connecteurs-logiques"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les structures les plus fréquentes",
+        "headers": [
+          "Structure",
+          "Reconnaissable à"
+        ],
+        "rows": [
+          [
+            "Problème → solution",
+            "un constat négatif, puis des propositions"
+          ],
+          [
+            "Cause → conséquence",
+            "connecteurs de cause puis de conséquence"
+          ],
+          [
+            "Thèse → arguments → conclusion",
+            "affirmation initiale, puis justifications"
+          ],
+          [
+            "Comparaison",
+            "deux objets traités en parallèle, connecteurs d'opposition"
+          ],
+          [
+            "Chronologique",
+            "dates, marqueurs temporels, étapes"
+          ],
+          [
+            "Général → particulier",
+            "principe énoncé puis exemples détaillés"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La phrase-clé du paragraphe",
+        "body": "Dans un texte structuré, chaque paragraphe développe UNE idée, annoncée par sa première phrase (la phrase-clé). Lire uniquement les premières phrases de tous les paragraphes donne le plan du texte en trente secondes — et répond souvent aux questions d'idée principale et de structure."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un texte dont les paragraphes commencent par « D'abord… », « Par ailleurs… », « Enfin… », « En définitive… ». Quelle structure ?",
+        "reveal": "Une accumulation d'arguments suivie d'une conclusion. Les connecteurs d'ouverture donnent la structure sans qu'on ait lu une seule phrase complète."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les textes non structurés. Un courriel, une annonce ou un article de presse ne suivent pas toujours cette logique. La méthode de la phrase-clé vaut pour les textes argumentatifs ou explicatifs, pas pour un échange de messages."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Note en marge un mot par paragraphe pendant la lecture. À la fin, ces quatre ou cinq mots forment le plan, et permettent de retrouver instantanément le passage utile pour chaque question."
+      },
+      {
+        "type": "quiz",
+        "question": "Un texte présente une difficulté dans les deux premiers paragraphes, puis trois mesures envisagées. Quelle structure, et où chercher l'idée principale ?",
+        "answer": "Structure problème → solution. L'idée principale doit englober les deux parties : ni « les difficultés rencontrées » seul, ni « les mesures envisagées » seul.",
+        "hint": "L'idée principale couvre tout le texte."
+      }
+    ]
+  },
+  {
+    "id": "comp-connecteurs-reperage",
+    "domain": "comprehension",
+    "category": "Structure",
+    "title": "Les connecteurs comme balises de lecture",
+    "tagline": "« Cependant » annonce un renversement, « ainsi » une conséquence : ils disent ce qui arrive avant de le lire.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "structure-argumentative",
+      "comprehension",
+      "comprehension-ecrite",
+      "inference"
+    ],
+    "related": [
+      "comp-structure-texte",
+      "voc-connecteurs-logiques",
+      "comp-these-arguments",
+      "ang-connecteurs-opposition"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Ce qu'annonce chaque connecteur",
+        "headers": [
+          "Connecteur",
+          "Ce qui suit"
+        ],
+        "rows": [
+          [
+            "cependant, toutefois, néanmoins, or",
+            "un renversement : l'idée qui suit s'oppose à la précédente"
+          ],
+          [
+            "en effet, car, puisque",
+            "une justification de ce qui vient d'être dit"
+          ],
+          [
+            "ainsi, donc, par conséquent",
+            "une conséquence ou un exemple"
+          ],
+          [
+            "de plus, en outre, par ailleurs",
+            "un argument supplémentaire dans le même sens"
+          ],
+          [
+            "certes… mais",
+            "une concession suivie de l'argument principal — c'est le MAIS qui porte la thèse"
+          ],
+          [
+            "en somme, en définitive",
+            "la conclusion, souvent la réponse aux questions d'idée principale"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les connecteurs sont les panneaux de signalisation du texte. Les repérer permet d'anticiper : après *cependant*, on sait qu'on va lire le contraire de ce qui précède, ce qui rend la lecture deux fois plus rapide. Ils indiquent aussi où se trouve la thèse de l'auteur."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Certes, cette solution est coûteuse. Mais elle règle le problème de façon durable. » Quelle est la position de l'auteur ?",
+        "reveal": "Il est FAVORABLE à la solution. La structure *certes… mais* concède d'abord un point à l'adversaire pour mieux affirmer ensuite sa propre thèse. C'est toujours l'argument après le *mais* qui porte la position de l'auteur."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : prendre la concession pour la thèse. Un lecteur pressé retient « cette solution est coûteuse » et conclut que l'auteur y est opposé. La concession existe précisément pour désamorcer l'objection avant de la dépasser."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dans une structure concessive, souligne ce qui suit le *mais* : c'est là qu'est la position défendue. Ce réflexe résout à lui seul beaucoup de questions sur l'opinion de l'auteur."
+      },
+      {
+        "type": "quiz",
+        "question": "« Les résultats sont encourageants. En revanche, la trésorerie reste tendue. » Sur quoi porte l'accent ?",
+        "answer": "Sur la trésorerie tendue : *en revanche* introduit le renversement, et c'est l'élément qui suit le connecteur d'opposition qui pèse le plus dans le propos.",
+        "hint": "L'élément qui suit le connecteur d'opposition."
+      }
+    ]
+  },
+  {
+    "id": "comp-these-arguments",
+    "domain": "comprehension",
+    "category": "Structure",
+    "title": "Thèse, arguments, exemples",
+    "tagline": "Distinguer les trois niveaux : ce qu'on affirme, ce qui le justifie, ce qui l'illustre.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "structure-argumentative",
+      "comprehension",
+      "idee-principale",
+      "inference"
+    ],
+    "related": [
+      "comp-structure-texte",
+      "comp-connecteurs-reperage",
+      "comp-idee-principale",
+      "log-piege-logique"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un texte argumentatif s'organise en trois niveaux. La THÈSE est la position défendue, une seule par texte. Les ARGUMENTS sont les raisons qui la soutiennent, plusieurs par texte. Les EXEMPLES illustrent les arguments sans rien démontrer. Confondre ces niveaux est la première cause d'erreur sur les questions d'idée principale."
+      },
+      {
+        "type": "table",
+        "title": "Comment les reconnaître",
+        "headers": [
+          "Niveau",
+          "Signaux"
+        ],
+        "rows": [
+          [
+            "Thèse",
+            "en début ou en fin de texte, formulation générale, verbe d'opinion ou de nécessité"
+          ],
+          [
+            "Argument",
+            "introduit par *car*, *en effet*, *d'abord*, *par ailleurs* ; formulation générale"
+          ],
+          [
+            "Exemple",
+            "introduit par *par exemple*, *ainsi*, *comme* ; cas particulier, nom propre, chiffre"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Il faut investir dans la formation. En effet, les entreprises qui forment retiennent mieux leurs salariés. Ainsi, tel groupe a réduit son turnover de 30 %. » Identifie les trois niveaux.",
+        "reveal": "Thèse : « il faut investir dans la formation ». Argument : « les entreprises qui forment retiennent mieux ». Exemple : « tel groupe a réduit son turnover de 30 % ». Le chiffre n'est pas la thèse, il illustre l'argument."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : prendre un exemple frappant pour l'idée principale. Un chiffre spectaculaire retient l'attention, mais il n'occupe que le niveau le plus bas de l'argumentation. Une proposition de réponse qui reprend un exemple est presque toujours « trop étroite »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test de généralité : plus une affirmation est générale, plus elle est haute dans la hiérarchie. Un nom propre ou un chiffre précis signalent un exemple, jamais une thèse."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans un texte, on lit : « Les PME sont les plus touchées : en 2025, 60 % des défaillances les concernaient. » Lequel des deux éléments est l'argument ?",
+        "answer": "« Les PME sont les plus touchées » est l'argument (formulation générale). Le chiffre de 60 % est l'exemple ou la preuve chiffrée qui l'appuie.",
+        "hint": "Lequel des deux est général ?"
+      }
+    ]
+  },
+  {
+    "id": "comp-implicite",
+    "domain": "comprehension",
+    "category": "Structure",
+    "title": "L'implicite et le présupposé",
+    "tagline": "« Il a cessé de fumer » présuppose qu'il fumait. Le présupposé est vrai même si la phrase est niée.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "inference",
+      "comprehension",
+      "ton-auteur",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "comp-inference",
+      "comp-ton-auteur",
+      "comp-these-arguments",
+      "log-quantificateurs"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un PRÉSUPPOSÉ est une information tenue pour acquise par la formulation même de la phrase. Son test : il survit à la négation. « Il a cessé de fumer » et « il n'a pas cessé de fumer » présupposent tous deux qu'il fumait. Un SOUS-ENTENDU, lui, dépend du contexte et disparaît quand il change."
+      },
+      {
+        "type": "table",
+        "title": "Les déclencheurs de présupposé",
+        "headers": [
+          "Formulation",
+          "Présupposé"
+        ],
+        "rows": [
+          [
+            "« il a cessé de… »",
+            "il le faisait avant"
+          ],
+          [
+            "« encore une fois »",
+            "cela s'est déjà produit"
+          ],
+          [
+            "« pour la première fois »",
+            "cela ne s'était jamais produit"
+          ],
+          [
+            "« le nouveau directeur »",
+            "il y en avait un avant"
+          ],
+          [
+            "« même les cadres ont accepté »",
+            "les cadres étaient les plus réticents"
+          ],
+          [
+            "« il a enfin répondu »",
+            "la réponse a tardé, on l'attendait"
+          ],
+          [
+            "« seulement 3 % »",
+            "l'auteur juge ce chiffre faible"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« L'entreprise a enfin publié ses résultats annuels. » Que présuppose cette phrase ?",
+        "reveal": "Que la publication a tardé, et que l'auteur l'attendait — voire qu'il juge le retard anormal. L'adverbe *enfin* porte un jugement que la phrase ne formule pas explicitement, mais qu'aucune négation ne supprime."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre le présupposé et l'inférence. Le présupposé est dans la FORMULATION, il est certain. L'inférence est une déduction à partir du contenu, elle exige un raisonnement. Une question sur « ce que la phrase implique » porte souvent sur le présupposé, donc sur un mot précis."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère les adverbes *enfin*, *encore*, *toujours*, *déjà*, *seulement*, *même* : ils portent presque tous un présupposé ou un jugement. Ce sont les mots les plus rentables à souligner dans un texte."
+      },
+      {
+        "type": "quiz",
+        "question": "Que présuppose « Même les syndicats ont approuvé le projet » ?",
+        "answer": "Que les syndicats étaient les plus susceptibles de s'y opposer, et que leur approbation était la plus difficile à obtenir. L'adverbe *même* désigne le cas extrême d'une gradation implicite.",
+        "hint": "« Même » suppose une gradation."
+      }
+    ]
+  },
+  {
+    "id": "comp-distracteurs",
+    "domain": "comprehension",
+    "category": "Pièges",
+    "title": "Comment sont fabriqués les distracteurs",
+    "tagline": "Les trois mauvaises réponses ne sont pas au hasard : chacune correspond à une erreur prévue.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "detail-precis",
+      "inference"
+    ],
+    "related": [
+      "comp-piege-reformulation",
+      "comp-piege-hors-sujet",
+      "comp-idee-principale",
+      "comp-question-negative"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les cinq familles de distracteurs",
+        "headers": [
+          "Type",
+          "Mécanisme"
+        ],
+        "rows": [
+          [
+            "Vrai mais hors question",
+            "exact selon le texte, mais ne répond pas à ce qui est demandé"
+          ],
+          [
+            "Trop étroit",
+            "vrai d'un paragraphe seulement, présenté comme l'idée d'ensemble"
+          ],
+          [
+            "Trop général",
+            "va au-delà de ce que le texte affirme, généralise"
+          ],
+          [
+            "Mots du texte, sens inversé",
+            "reprend le vocabulaire du texte mais inverse la relation"
+          ],
+          [
+            "Plausible hors texte",
+            "conforme au bon sens, mais absent du texte"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un bon distracteur doit attirer le candidat qui a mal lu, pas celui qui n'a rien lu. Il reprend donc du vocabulaire du texte et reste crédible. Cela explique pourquoi une réponse « qui sonne juste » n'est pas une garantie : le distracteur est conçu pour sonner juste."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le texte dit : « Les exportations ont soutenu la croissance, malgré une consommation intérieure atone. » Quel distracteur reprend les mots en inversant le sens ?",
+        "reveal": "« La consommation intérieure a soutenu la croissance malgré de faibles exportations. » Tous les mots viennent du texte, mais les deux rôles sont échangés. C'est le distracteur le plus efficace, car il paraît familier."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : reconnaître des mots et conclure. Si une proposition contient trois mots du texte, cela ne prouve rien — c'est même un signal d'alerte. Vérifie la RELATION entre les mots, pas leur présence."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour chaque proposition, demande-toi : « le texte dit-il exactement cela, ou quelque chose qui y ressemble ? » Et exige de pouvoir pointer la ligne. Sans ligne, pas de réponse."
+      },
+      {
+        "type": "quiz",
+        "question": "Une proposition est parfaitement vraie d'après le texte, mais la question portait sur autre chose. Faut-il la cocher ?",
+        "answer": "Non. C'est le distracteur « vrai mais hors question », le plus fréquent de tous. Relire la question avant de valider est le seul remède.",
+        "hint": "Vrai ne suffit pas : il faut répondre à la question posée."
+      }
+    ]
+  },
+  {
+    "id": "comp-piege-reformulation",
+    "domain": "comprehension",
+    "category": "Pièges",
+    "title": "La bonne réponse est toujours reformulée",
+    "tagline": "Si une proposition reprend mot pour mot une phrase du texte, méfie-toi : c'est souvent le piège.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "detail-precis",
+      "vocabulaire-contexte"
+    ],
+    "related": [
+      "comp-distracteurs",
+      "comp-detail-precis",
+      "comp-piege-hors-sujet",
+      "comp-vocabulaire-contexte"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une question de compréhension teste la compréhension, pas la reconnaissance visuelle. La bonne réponse est donc presque toujours une REFORMULATION : synonymes, changement de construction, voix passive à la place de l'active. À l'inverse, un distracteur reprend souvent des mots identiques pour attirer l'œil."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Texte : « Le prototype n'a pas passé les tests de résistance. » Quelle proposition est la bonne reformulation ?",
+        "reveal": "« Le prototype a échoué aux essais de solidité. » Trois substitutions : *n'a pas passé* → *a échoué*, *tests* → *essais*, *résistance* → *solidité*. Une proposition qui garderait « tests de résistance » tel quel serait plus suspecte."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les transformations les plus employées",
+        "items": [
+          "Synonymes : *augmenter* → *progresser*, *réduire* → *diminuer*.",
+          "Nominalisation : *les prix ont augmenté* → *la hausse des prix*.",
+          "Voix passive : *l'équipe a validé le projet* → *le projet a été validé*.",
+          "Négation d'un contraire : *insuffisant* → *pas assez élevé*.",
+          "Changement de point de vue : *A a vendu à B* → *B a acheté à A*."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : la proposition qui recopie la phrase du texte en changeant UN seul mot — souvent un quantificateur (*tous* au lieu de *certains*), une négation, ou un connecteur. La ressemblance endort la vigilance, et le mot modifié fausse tout."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Lis la proposition et le passage du texte MOT À MOT en parallèle, en te concentrant sur les quantificateurs et les négations. Ce sont eux qui portent le piège dans la quasi-totalité des cas."
+      },
+      {
+        "type": "quiz",
+        "question": "Texte : « Certains fournisseurs ont accepté la nouvelle grille tarifaire. » Pourquoi « Les fournisseurs ont accepté la nouvelle grille » est-elle fausse ?",
+        "answer": "Parce que *certains* devient *les*, ce qui transforme une affirmation partielle en affirmation générale. Un seul mot supprimé change complètement la portée.",
+        "hint": "Compare les quantificateurs."
+      }
+    ]
+  },
+  {
+    "id": "comp-piege-hors-sujet",
+    "domain": "comprehension",
+    "category": "Pièges",
+    "title": "Vrai, mais pas la réponse",
+    "tagline": "La question la plus ratée n'est pas la plus difficile : c'est celle où l'on répond juste à une autre question.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "detail-precis",
+      "objectif-du-texte"
+    ],
+    "related": [
+      "comp-distracteurs",
+      "comp-piege-reformulation",
+      "comp-methode-lecture",
+      "comp-question-negative"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le distracteur le plus efficace est une information EXACTE du texte, qui ne répond simplement pas à la question posée. Le candidat la retrouve dans le texte, se sent confirmé, et coche. Le seul remède est de relire la question juste avant de valider."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Question : « Pourquoi la réunion a-t-elle été reportée ? » Le texte mentionne le lieu, la date et l'absence du directeur financier. Quel distracteur fonctionne ?",
+        "reveal": "N'importe quelle proposition reprenant le lieu ou la nouvelle date : elle est exacte, mais elle répond à « où » ou « quand », pas à « pourquoi ». Seule l'absence du directeur répond à la question posée."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les mots interrogatifs à repérer",
+        "items": [
+          "POURQUOI → cherche une cause, un connecteur de cause.",
+          "COMMENT → cherche une méthode, un moyen.",
+          "QUI → cherche une personne ou une fonction.",
+          "QUAND / OÙ → cherche une date ou un lieu.",
+          "COMBIEN → cherche un nombre, et vérifie son unité.",
+          "QUEL EST LE BUT → cherche l'intention, pas le contenu."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les questions à double contrainte. « Selon l'auteur, quel est le principal obstacle ? » impose deux vérifications : c'est bien un obstacle, et c'est bien le PRINCIPAL. Une proposition citant un obstacle secondaire est exacte mais fausse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Entoure le mot interrogatif de chaque question dès la première lecture. Puis, avant de valider, relis-le. Ce geste de trois secondes récupère plus de points que n'importe quelle relecture du texte."
+      },
+      {
+        "type": "quiz",
+        "question": "Question : « Quelle solution l'auteur recommande-t-il ? » Une proposition cite une solution que l'auteur mentionne pour la critiquer. Est-elle correcte ?",
+        "answer": "Non. Elle figure bien dans le texte, mais l'auteur ne la recommande pas — il la rejette. La question porte sur la recommandation, pas sur la mention.",
+        "hint": "Mentionner n'est pas recommander."
+      }
+    ]
+  },
+  {
+    "id": "comp-gestion-temps",
+    "domain": "comprehension",
+    "category": "Méthode",
+    "title": "Gérer son temps sur un texte",
+    "tagline": "Le temps se répartit par question, pas par texte : une question de détail vaut autant qu'une question d'idée principale.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "detail-precis",
+      "idee-principale"
+    ],
+    "related": [
+      "comp-methode-lecture",
+      "comp-scanning-skimming",
+      "comp-textes-longs",
+      "vit-gestion-temps"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Au Score IAE-Message, la compréhension écrite compte 15 questions sur les 50 de l'épreuve de français, pour 30 points sur 100 (format vérifié au 23/09/2026). Chaque question vaut donc environ 2 points, exactement comme une question d'expression. Un texte long qui porte trois questions ne mérite pas plus de temps que trois questions de grammaire."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois règles de répartition",
+        "items": [
+          "Commence par les textes COURTS : même rendement en points, coût en temps bien moindre.",
+          "Dans un texte, traite d'abord les questions de DÉTAIL (localisables), puis celles d'idée principale (qui exigent une vue d'ensemble).",
+          "Fixe-toi un plafond : si une question résiste plus de 90 secondes, coche la proposition la plus probable et passe.",
+          "Sans pénalité pour mauvaise réponse, ne laisse jamais une case vide."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Il te reste 10 minutes : un texte long avec 4 questions, et deux textes courts avec 2 questions chacun. Que fais-tu ?",
+        "reveal": "Les deux textes courts d'abord : 4 questions pour peut-être 5 minutes de lecture. Le texte long demanderait 4 minutes de lecture avant la première réponse. Le rendement par minute est plus élevé sur les textes courts, à points égaux par question."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : lire intégralement un texte long avant de regarder les questions. Si le texte porte trois questions de détail, la lecture complète est du temps perdu. Les questions déterminent la quantité de texte à lire."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Compte le nombre de questions par texte AVANT de choisir par où commencer. Le ratio « questions ÷ longueur du texte » est le seul critère pertinent de priorité."
+      },
+      {
+        "type": "quiz",
+        "question": "Un texte de 400 mots porte 2 questions, un autre de 150 mots en porte 3. Lequel traiter d'abord ?",
+        "answer": "Le second : 3 questions pour 150 mots, contre 2 pour 400. Le rendement en points par minute de lecture est environ quatre fois meilleur.",
+        "hint": "Calcule les questions par mot de texte."
+      }
+    ]
+  },
+  {
+    "id": "comp-textes-longs",
+    "domain": "comprehension",
+    "category": "Pièges",
+    "title": "Affronter un texte long",
+    "tagline": "Un texte long se découpe : chaque question renvoie à un paragraphe, rarement à l'ensemble.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "detail-specifique",
+      "structure-argumentative"
+    ],
+    "related": [
+      "comp-gestion-temps",
+      "comp-structure-texte",
+      "comp-scanning-skimming",
+      "comp-methode-lecture"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les questions d'un texte long suivent généralement l'ORDRE du texte : la première question porte sur le début, la dernière sur la fin. Cette régularité permet de lire par tranches, en répondant au fur et à mesure au lieu de tout lire d'abord."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La méthode par tranches",
+        "items": [
+          "Lire les questions et repérer leur ordre.",
+          "Lire le premier paragraphe, répondre à la première question.",
+          "Continuer paragraphe par paragraphe, en cochant au fil de la lecture.",
+          "Garder pour la fin les questions d'idée principale, de but et de ton : elles exigent la vue d'ensemble, qu'on a désormais.",
+          "Exception : si les questions ne suivent pas l'ordre du texte, revenir à la méthode du balayage."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un texte de cinq paragraphes porte cinq questions, dont la dernière demande « quel est le titre le plus approprié ? ». Dans quel ordre travailler ?",
+        "reveal": "Les quatre premières au fil de la lecture, paragraphe par paragraphe. La question de titre en dernier : elle porte sur l'ensemble, et on l'aura lu entièrement à ce moment-là, sans relecture."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les textes doubles (deux documents liés, par exemple une annonce et une réponse). Certaines questions exigent de croiser les deux : une information du premier document et une du second. Repère-les, elles sont souvent les plus rentables car les autres candidats les ratent."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Numérote les paragraphes et note à côté de chaque question le numéro du paragraphe où tu as trouvé la réponse. En cas de doute final, tu sais exactement où relire."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi garder la question sur l'idée principale pour la fin d'un texte long ?",
+        "answer": "Parce qu'elle exige d'avoir lu tout le texte. La traiter en premier obligerait à une lecture complète avant toute réponse ; la garder pour la fin la rend gratuite, puisque la lecture est déjà faite.",
+        "hint": "Quelle question nécessite l'ensemble du texte ?"
+      }
+    ]
+  },
+  {
+    "id": "comp-graphiques",
+    "domain": "comprehension",
+    "category": "Pièges",
+    "title": "Lire un document chiffré",
+    "tagline": "Titre, unité, bornes des axes : trois lectures avant de regarder la courbe.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "detail-precis",
+      "comprehension",
+      "detail-specifique",
+      "comprehension-ecrite"
+    ],
+    "related": [
+      "log-lecture-donnees",
+      "log-piege-chiffre",
+      "comp-detail-precis",
+      "angv-chiffres-tendances"
+    ],
+    "subtests": [
+      "paratexte",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un tableau ou un graphique dans un texte d'examen porte presque toujours une question. La méthode est fixe : lire le TITRE (de quoi parle-t-on), l'UNITÉ (euros, milliers, pourcentages), les BORNES des axes ou des colonnes. Ce n'est qu'ensuite qu'on lit les valeurs."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les cinq vérifications",
+        "items": [
+          "L'unité : « en milliers d'euros » change tous les résultats par mille.",
+          "La période : les colonnes couvrent-elles des durées comparables ?",
+          "La nature : est-ce un niveau ou une variation ?",
+          "Le total : la somme des parts fait-elle 100 % ? Sinon, une catégorie manque.",
+          "L'échelle : l'axe vertical commence-t-il à zéro ?"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un tableau indique « Chiffre d'affaires (en k€) : 2025 → 4 250 ; 2026 → 4 800 ». Quelle est la progression en euros ?",
+        "reveal": "550 k€, soit 550 000 €. En pourcentage : 550 / 4 250 ≈ 12,9 %. L'unité en milliers est le piège : une réponse de 550 € serait fausse d'un facteur mille."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner des pourcentages de lignes différentes d'un tableau. Si chaque ligne est un pourcentage de son propre total, les additionner n'a aucun sens. Vérifie toujours par rapport à quoi chaque pourcentage est calculé."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris l'unité à côté de ta réponse avant de la comparer aux propositions. Si tu obtiens « 550 » mais que l'unité est le millier d'euros, la proposition juste est 550 000 € — et 550 € figurera dans les distracteurs."
+      },
+      {
+        "type": "quiz",
+        "question": "Un graphique dont l'axe vertical va de 95 à 100 montre une courbe qui semble s'effondrer. Quelle est la variation réelle maximale ?",
+        "answer": "Au maximum 5 points sur une base d'environ 100, soit environ 5 %. L'échelle tronquée amplifie visuellement une variation modeste : il faut toujours lire les bornes de l'axe.",
+        "hint": "Regarde les bornes avant la pente."
+      }
+    ]
+  },
+  {
+    "id": "comp-emails-annonces",
+    "domain": "comprehension",
+    "category": "Formats",
+    "title": "Courriels, annonces et notes internes",
+    "tagline": "Chaque format a sa structure : l'objet donne le sujet, la dernière ligne donne l'action attendue.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "comprehension-ecrite",
+      "objectif-du-texte",
+      "comprehension",
+      "detail-specifique"
+    ],
+    "related": [
+      "comp-objectif-texte",
+      "comp-methode-lecture",
+      "angv-mails-formules",
+      "comp-textes-longs"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Où chercher selon le format",
+        "headers": [
+          "Format",
+          "Sujet",
+          "Action attendue",
+          "Détails"
+        ],
+        "rows": [
+          [
+            "Courriel",
+            "l'objet",
+            "la dernière phrase",
+            "le corps"
+          ],
+          [
+            "Annonce / offre d'emploi",
+            "le titre",
+            "les modalités de candidature",
+            "le profil recherché"
+          ],
+          [
+            "Note interne",
+            "l'intitulé et le destinataire",
+            "la consigne",
+            "les raisons"
+          ],
+          [
+            "Facture / bon de commande",
+            "la référence",
+            "l'échéance de paiement",
+            "les lignes et montants"
+          ],
+          [
+            "Article de presse",
+            "le titre et le chapeau",
+            "aucune",
+            "les paragraphes"
+          ],
+          [
+            "Publicité",
+            "l'accroche",
+            "l'appel à l'action",
+            "les avantages"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces documents sont très codifiés, et l'information utile se trouve toujours au même endroit. Un courriel professionnel annonce son objet dans la ligne « Objet », son intention dans la première phrase et l'action attendue dans la dernière. Lire ces trois éléments répond souvent à deux questions sur trois."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un courriel a pour objet « Réunion du 12 mars — report ». Que peut-on déjà savoir ?",
+        "reveal": "Le sujet (une réunion prévue le 12 mars) et l'intention (annoncer un report). Il ne reste à chercher que la nouvelle date et, éventuellement, la raison — soit deux informations très localisables."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les documents doubles. Une annonce suivie d'une candidature, ou un courriel suivi de sa réponse. Certaines questions portent sur la CONTRADICTION entre les deux, ou sur une information présente dans un seul. Identifie qui écrit quoi avant de répondre."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dans un courriel, l'expéditeur, le destinataire et la date répondent à eux seuls aux questions « qui », « à qui » et « quand ». Ces trois lignes se lisent en deux secondes et sont souvent négligées."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans un échange de deux courriels, la question demande ce que le destinataire du premier message doit faire. Où chercher ?",
+        "answer": "Dans la dernière phrase du PREMIER courriel, qui contient la demande. La réponse du second courriel indique ce qu'il a effectivement fait — ce qui n'est pas la même question.",
+        "hint": "Qui demande, qui répond ?"
+      }
+    ]
+  },
+  {
+    "id": "comp-types-questions",
+    "domain": "comprehension",
+    "category": "Méthode",
+    "title": "Reconnaître le type de question",
+    "tagline": "Le type de question dicte la technique : détail, idée principale, inférence ou vocabulaire.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "idee-principale",
+      "inference"
+    ],
+    "related": [
+      "comp-methode-lecture",
+      "comp-idee-principale",
+      "comp-inference",
+      "comp-detail-precis"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre types, quatre techniques",
+        "headers": [
+          "Formulation de la question",
+          "Type",
+          "Technique"
+        ],
+        "rows": [
+          [
+            "« Selon le texte, combien… / quand… / qui… »",
+            "détail",
+            "balayage d'un mot-clé non reformulable"
+          ],
+          [
+            "« Quel est le sujet / le titre / l'idée principale ? »",
+            "idée principale",
+            "survol des premières phrases"
+          ],
+          [
+            "« On peut déduire que… / le texte suggère… »",
+            "inférence",
+            "lecture attentive + test de nécessité"
+          ],
+          [
+            "« Dans la ligne 8, le mot X signifie… »",
+            "vocabulaire en contexte",
+            "polarité et reformulation voisine"
+          ],
+          [
+            "« Quel est le but de ce texte ? »",
+            "intention",
+            "première et dernière phrase"
+          ],
+          [
+            "« Laquelle n'est PAS mentionnée ? »",
+            "négative",
+            "vérification des quatre propositions"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Identifier le type de question en trois secondes évite d'appliquer la mauvaise méthode. Chercher une idée principale par balayage est inefficace ; lire attentivement tout le texte pour trouver un chiffre est du gaspillage. La formulation de la question indique la technique."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« D'après le passage, pourquoi le projet a-t-il été suspendu ? » Quel type, et quelle technique ?",
+        "reveal": "Question de détail (avec une nuance causale). Technique : balayer les connecteurs de cause — *en raison de*, *à cause de*, *faute de*, *car* — dans la zone où le projet est évoqué. La cause est explicite dans le texte."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : traiter une question d'inférence comme une question de détail. Si la réponse était écrite noir sur blanc, la question ne dirait pas « on peut déduire ». Chercher la phrase exacte fait perdre du temps et conduit à choisir un distracteur littéral."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Note une lettre à côté de chaque question dès la première lecture : D pour détail, I pour idée principale, N pour inférence, V pour vocabulaire. Tu sauras ensuite dans quel ordre les traiter et comment."
+      },
+      {
+        "type": "quiz",
+        "question": "« Quel titre conviendrait le mieux à ce texte ? » — quel type de question, et où chercher ?",
+        "answer": "Question d'idée principale. On cherche dans le survol : première phrase du premier paragraphe et dernière du texte. Un titre doit couvrir l'ensemble, donc aucun détail ne convient.",
+        "hint": "Un titre résume tout le texte."
+      }
+    ]
+  },
+  {
+    "id": "comp-questions-avant",
+    "domain": "comprehension",
+    "category": "Méthode",
+    "title": "Pourquoi lire les questions d'abord",
+    "tagline": "Sans les questions, tu lis tout. Avec elles, tu lis un tiers du texte et tu réponds pareil.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "comprehension",
+      "comprehension-ecrite",
+      "idee-principale",
+      "detail-precis"
+    ],
+    "related": [
+      "comp-methode-lecture",
+      "comp-types-questions",
+      "comp-gestion-temps",
+      "comp-scanning-skimming"
+    ],
+    "subtests": [
+      "comprehension",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Lire les questions d'abord transforme la lecture : au lieu de mémoriser un texte entier dans l'espoir d'y trouver ce qu'on cherchera ensuite, on sait exactement quoi chercher. La mémoire de travail n'est plus saturée, et les passages inutiles sont survolés sans culpabilité."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qu'il faut lire, et ce qu'il faut éviter",
+        "items": [
+          "LIRE : l'énoncé de chaque question, et repérer son mot interrogatif.",
+          "NE PAS LIRE : les propositions de réponse — trois sur quatre sont fausses et polluent la compréhension.",
+          "REPÉRER : les mots-clés non reformulables (chiffres, noms propres, termes techniques).",
+          "NOTER : le type de chaque question, pour savoir quelle technique appliquer."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi les propositions de réponse nuisent-elles à la compréhension si on les lit avant le texte ?",
+        "reveal": "Parce qu'elles installent en mémoire des affirmations fausses formulées avec le vocabulaire du texte. À la lecture, on a l'impression de reconnaître ces affirmations : c'est exactement l'effet recherché par l'auteur des distracteurs."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : lire les questions trop vite et n'en retenir que le thème. « Pourquoi le projet a-t-il été suspendu ? » et « Quand le projet a-t-il été suspendu ? » portent sur le même passage mais demandent deux informations différentes. Le mot interrogatif est l'essentiel."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois questions à mémoriser avant de lire un texte, pas plus. Au-delà, la mémoire de travail sature et l'avantage disparaît. Sur un texte à six questions, procède en deux vagues de trois."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien de questions peut-on garder en tête efficacement avant de lire un texte ?",
+        "answer": "Environ trois. Au-delà, la mémoire de travail sature et on relit de toute façon les questions. Mieux vaut traiter un texte long en deux vagues.",
+        "hint": "La mémoire de travail a une capacité limitée."
+      }
+    ]
   }
 ]
