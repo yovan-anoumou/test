@@ -1,0 +1,37 @@
+[
+  {
+    "id": "culture-economie-indicateurs",
+    "domain": "culture-generale",
+    "category": "Économie",
+    "title": "Économie — les indicateurs clés",
+    "tagline": "Trois notions qui reviennent dans presque toutes les questions d'économie.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "economie",
+      "inflation",
+      "indicateurs",
+      "politique-monetaire"
+    ],
+    "related": [],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "À connaître",
+        "items": [
+          "Inflation : hausse générale et durable des prix, mesurée en France par l'indice des prix à la consommation (IPC).",
+          "Taux directeurs : taux d'intérêt fixés par une banque centrale, qui influencent le coût du crédit dans toute l'économie — les remonter freine l'inflation, mais aussi la croissance.",
+          "PIB (produit intérieur brut) : valeur totale des richesses produites par un pays sur une année — l'indicateur macroéconomique le plus cité pour mesurer l'activité économique."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Le lien entre les trois",
+        "body": "Quand l'inflation monte, la banque centrale relève souvent ses taux directeurs pour la freiner — mais des taux plus élevés ralentissent l'investissement des entreprises et donc, in fine, la croissance du PIB. Retiens cet enchaînement plutôt que chaque notion isolément."
+      }
+    ]
+  }
+]

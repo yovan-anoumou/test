@@ -2,8 +2,11 @@ import { getDB } from "../db/db";
 import type { CortexDBSchema } from "../db/schema";
 
 export interface CortexBackup {
-  /** 1 = sauvegarde avant les plans/diagnostics, 2 = format actuel. */
-  version: 1 | 2;
+  /**
+   * 1 = avant les plans/diagnostics, 2 = avant la progression des fiches,
+   * 3 = format actuel. Les anciens formats restent importables.
+   */
+  version: 1 | 2 | 3;
   exportedAt: string;
   cards: CortexDBSchema["cards"]["value"][];
   reviews: CortexDBSchema["reviews"]["value"][];
@@ -11,20 +14,23 @@ export interface CortexBackup {
   settings: CortexDBSchema["settings"]["value"][];
   diagnostics?: CortexDBSchema["diagnostics"]["value"][];
   plans?: CortexDBSchema["plans"]["value"][];
+  ficheProgress?: CortexDBSchema["ficheProgress"]["value"][];
 }
 
 export async function exportBackup(): Promise<CortexBackup> {
   const db = await getDB();
-  const [cards, reviews, sessions, settings, diagnostics, plans] = await Promise.all([
-    db.getAll("cards"),
-    db.getAll("reviews"),
-    db.getAll("sessions"),
-    db.getAll("settings"),
-    db.getAll("diagnostics"),
-    db.getAll("plans"),
-  ]);
+  const [cards, reviews, sessions, settings, diagnostics, plans, ficheProgress] =
+    await Promise.all([
+      db.getAll("cards"),
+      db.getAll("reviews"),
+      db.getAll("sessions"),
+      db.getAll("settings"),
+      db.getAll("diagnostics"),
+      db.getAll("plans"),
+      db.getAll("ficheProgress"),
+    ]);
   return {
-    version: 2,
+    version: 3,
     exportedAt: new Date().toISOString(),
     cards,
     reviews,
@@ -32,6 +38,7 @@ export async function exportBackup(): Promise<CortexBackup> {
     settings,
     diagnostics,
     plans,
+    ficheProgress,
   };
 }
 
@@ -51,12 +58,12 @@ export function downloadBackup(backup: CortexBackup): void {
  * diagnostics et plans y sont simplement absents.
  */
 export async function importBackup(backup: CortexBackup): Promise<void> {
-  if (backup.version !== 1 && backup.version !== 2) {
+  if (![1, 2, 3].includes(backup.version)) {
     throw new Error("Version de sauvegarde non reconnue");
   }
   const db = await getDB();
   const tx = db.transaction(
-    ["cards", "reviews", "sessions", "settings", "diagnostics", "plans"],
+    ["cards", "reviews", "sessions", "settings", "diagnostics", "plans", "ficheProgress"],
     "readwrite",
   );
   await Promise.all([
@@ -66,6 +73,7 @@ export async function importBackup(backup: CortexBackup): Promise<void> {
     tx.objectStore("settings").clear(),
     tx.objectStore("diagnostics").clear(),
     tx.objectStore("plans").clear(),
+    tx.objectStore("ficheProgress").clear(),
   ]);
   await Promise.all([
     ...backup.cards.map((c) => tx.objectStore("cards").put(c)),
@@ -74,6 +82,7 @@ export async function importBackup(backup: CortexBackup): Promise<void> {
     ...backup.settings.map((s) => tx.objectStore("settings").put(s)),
     ...(backup.diagnostics ?? []).map((d) => tx.objectStore("diagnostics").put(d)),
     ...(backup.plans ?? []).map((p) => tx.objectStore("plans").put(p)),
+    ...(backup.ficheProgress ?? []).map((f) => tx.objectStore("ficheProgress").put(f)),
   ]);
   await tx.done;
 }
@@ -81,7 +90,7 @@ export async function importBackup(backup: CortexBackup): Promise<void> {
 export function parseBackupFile(text: string): CortexBackup {
   const data = JSON.parse(text) as Partial<CortexBackup>;
   if (
-    (data.version !== 1 && data.version !== 2) ||
+    !(typeof data.version === "number" && [1, 2, 3].includes(data.version)) ||
     !Array.isArray(data.cards) ||
     !Array.isArray(data.reviews)
   ) {

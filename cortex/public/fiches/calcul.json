@@ -1,0 +1,3093 @@
+[
+  {
+    "id": "calcul-pourcentages",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Pourcentages",
+    "tagline": "La source n°1 de points perdus bêtement au TAGE 2.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "evolution",
+      "remise",
+      "tva",
+      "taux-evolution"
+    ],
+    "related": [
+      "calc-coefficient-multiplicateur",
+      "calc-pourcentages-successifs",
+      "calc-valeur-initiale",
+      "calc-taux-evolution"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Appliquer un pourcentage",
+        "body": "Hausse de t % : valeur × (1 + t/100). Baisse de t % : valeur × (1 − t/100). Toujours multiplier, jamais additionner ou soustraire le pourcentage brut à la valeur."
+      },
+      {
+        "type": "warning",
+        "body": "Des pourcentages successifs ne s'additionnent JAMAIS. +10 % puis +10 % ne fait pas +20 %, mais ×1,10 × 1,10 = +21 %."
+      },
+      {
+        "type": "diagram",
+        "kind": "percent-chain"
+      },
+      {
+        "type": "rule",
+        "title": "Retrouver la valeur de départ",
+        "body": "Si le prix final est 120 après +20 %, la valeur initiale est 120 ÷ 1,2 = 100 — jamais 120 − 20 %. On divise toujours par (1 + t/100), on ne soustrait jamais t % du résultat final."
+      },
+      {
+        "type": "rule",
+        "title": "Taux d'évolution",
+        "body": "(valeur finale − valeur initiale) ÷ valeur initiale × 100. C'est la formule à ressortir dès qu'on te donne deux valeurs et qu'on te demande « de combien a évolué… »."
+      },
+      {
+        "type": "example",
+        "title": "Pourcentages successifs",
+        "prompt": "Un article à 80 € subit +15 % puis −10 %. Quel est le prix final ?",
+        "reveal": "80 × 1,15 × 0,9 = 82,80 €. Le piège classique est de faire 80 × 1,05 (en croyant que +15 % − 10 % = +5 %) : c'est faux, il faut enchaîner les deux multiplications, pas les additionner."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Le réflexe à avoir",
+        "body": "Dès que tu vois « puis » entre deux pourcentages, pense chaîne de multiplications, pas addition."
+      }
+    ]
+  },
+  {
+    "id": "calcul-fractions",
+    "domain": "calcul",
+    "category": "Proportionnalité",
+    "title": "Fractions & proportionnalité",
+    "tagline": "Le produit en croix : l'outil le plus utilisé du sous-test calcul.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "proportions",
+      "regle-de-trois",
+      "proportionnalite-inverse",
+      "echelle"
+    ],
+    "related": [
+      "calc-fractions-operations",
+      "calc-fractions-comparaison",
+      "calc-fractions-pourcentages",
+      "calc-regle-de-trois"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Produit en croix",
+        "body": "a/b = c/d ⇔ a × d = b × c. C'est la technique la plus rentable du sous-test calcul : dès que tu vois deux rapports égaux (ou à comparer), croise-les."
+      },
+      {
+        "type": "rule",
+        "title": "Additionner des fractions",
+        "body": "Il faut le même dénominateur (utilise le PPCM quand c'est possible, sinon multiplie simplement les deux dénominateurs entre eux)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Comparer deux fractions vite",
+        "body": "Pas besoin de calculer les décimales : fais directement le produit en croix. Si a×d > b×c alors a/b > c/d."
+      },
+      {
+        "type": "example",
+        "title": "Proportionnalité",
+        "prompt": "Une recette pour 4 personnes utilise 250 g de farine. Il en faut combien pour 7 personnes ?",
+        "reveal": "250/4 = x/7 → produit en croix : 4x = 250 × 7 = 1750 → x = 437,5 g."
+      }
+    ]
+  },
+  {
+    "id": "calcul-equations",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Équations",
+    "tagline": "2nd degré et systèmes à 2 inconnues : deux classiques à automatiser.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "equations",
+      "systeme"
+    ],
+    "related": [
+      "calc-mise-en-equation",
+      "calc-equations-premier-degre",
+      "calc-systemes",
+      "calc-equations-fractions"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Équation du second degré",
+        "body": "ax² + bx + c = 0 → calcule Δ = b² − 4ac."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Lire le discriminant",
+        "items": [
+          "Δ > 0 → deux solutions réelles : x = (−b ± √Δ) / 2a",
+          "Δ = 0 → une seule solution : x = −b / 2a",
+          "Δ < 0 → aucune solution réelle"
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Système à deux inconnues",
+        "body": "Substitution si un coefficient vaut 1 (isole une variable, remplace dans l'autre ligne). Sinon, combinaison linéaire : multiplie une ou deux lignes pour faire disparaître une inconnue par addition ou soustraction."
+      },
+      {
+        "type": "example",
+        "title": "Système par combinaison",
+        "prompt": "2x + y = 14 et x − y = 1. Trouve x et y.",
+        "reveal": "Les deux lignes s'additionnent directement (le y disparaît) : 3x = 15 → x = 5. En remplaçant dans x − y = 1 : y = 4."
+      }
+    ]
+  },
+  {
+    "id": "calcul-puissances",
+    "domain": "calcul",
+    "category": "Puissances",
+    "title": "Puissances — les carrés à savoir par cœur",
+    "tagline": "Les reconnaître instantanément fait gagner un temps fou.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "carres",
+      "puissances"
+    ],
+    "related": [
+      "calc-interets-composes",
+      "calc-regle-72",
+      "calc-conversions-unites"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Pourquoi les apprendre",
+        "body": "Le sous-test calcul regorge de racines carrées et de factorisations qui se résolvent en 2 secondes si tu reconnais le carré, et en 30 secondes de calcul posé sinon."
+      },
+      {
+        "type": "table",
+        "title": "Carrés de 11 à 20",
+        "headers": [
+          "n",
+          "n²",
+          "n",
+          "n²"
+        ],
+        "rows": [
+          [
+            "11",
+            "121",
+            "16",
+            "256"
+          ],
+          [
+            "12",
+            "144",
+            "17",
+            "289"
+          ],
+          [
+            "13",
+            "169",
+            "18",
+            "324"
+          ],
+          [
+            "14",
+            "196",
+            "19",
+            "361"
+          ],
+          [
+            "15",
+            "225",
+            "20",
+            "400"
+          ]
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Deux ancrages faciles",
+        "body": "12² = 144, comme les 144 œufs d'une palette (12 douzaines). 15² = 225, un chiffre rond facile à retenir en plein milieu de la liste — utilise-le comme point de repère pour retrouver les voisins."
+      }
+    ]
+  },
+  {
+    "id": "calcul-moyennes-vitesses",
+    "domain": "calcul",
+    "category": "Moyennes & vitesses",
+    "title": "Moyennes, taux, vitesses",
+    "tagline": "Le piège des effectifs différents revient à chaque session.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "moyenne",
+      "moyenne-ponderee",
+      "vitesse",
+      "conversion"
+    ],
+    "related": [
+      "calc-moyenne-simple",
+      "calc-moyenne-ponderee",
+      "calc-vitesse-moyenne",
+      "calc-mediane-vs-moyenne"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Moyenne pondérée",
+        "body": "Σ(valeur × poids) ÷ Σ(poids). Piège classique : si les effectifs (ou les poids) sont différents entre les groupes, tu ne peux jamais faire une simple moyenne des moyennes."
+      },
+      {
+        "type": "rule",
+        "title": "Vitesse",
+        "body": "v = d / t (vitesse = distance ÷ temps). Conversion km/h → m/s : divise par 3,6. Conversion m/s → km/h : multiplie par 3,6."
+      },
+      {
+        "type": "example",
+        "title": "Conversion de vitesse",
+        "prompt": "Une voiture roule à 90 km/h pendant 40 secondes. Quelle distance parcourt-elle ?",
+        "reveal": "90 km/h ÷ 3,6 = 25 m/s. Puis 25 × 40 = 1000 m = 1 km."
+      }
+    ]
+  },
+  {
+    "id": "calc-coefficient-multiplicateur",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Le coefficient multiplicateur",
+    "tagline": "Un pourcentage ne s'ajoute pas, il multiplie : +t % c'est ×(1 + t/100), −t % c'est ×(1 − t/100).",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "evolution",
+      "taux-evolution"
+    ],
+    "related": [
+      "calc-pourcentages-successifs",
+      "calc-valeur-initiale",
+      "calc-taux-evolution",
+      "calcul-pourcentages"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Toute évolution en pourcentage se traduit par UN nombre, le coefficient multiplicateur (CM). +15 % → CM = 1,15. −15 % → CM = 0,85. ×2 → CM = 2, soit +100 %. Une fois le réflexe pris, tous les problèmes de pourcentages deviennent des multiplications et des divisions, jamais des additions."
+      },
+      {
+        "type": "table",
+        "title": "Les coefficients à connaître par cœur",
+        "headers": [
+          "Évolution",
+          "Coefficient",
+          "Évolution",
+          "Coefficient"
+        ],
+        "rows": [
+          [
+            "+5 %",
+            "1,05",
+            "−5 %",
+            "0,95"
+          ],
+          [
+            "+10 %",
+            "1,10",
+            "−10 %",
+            "0,90"
+          ],
+          [
+            "+20 %",
+            "1,20",
+            "−20 %",
+            "0,80"
+          ],
+          [
+            "+25 %",
+            "1,25",
+            "−25 %",
+            "0,75"
+          ],
+          [
+            "+50 %",
+            "1,50",
+            "−50 %",
+            "0,50"
+          ],
+          [
+            "+100 %",
+            "2",
+            "−75 %",
+            "0,25"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un loyer de 740 € augmente de 3,5 %. Quel est le nouveau loyer ?",
+        "reveal": "740 × 1,035 = 765,90 €. Astuce de calcul mental : 1 % de 740 = 7,40 ; 3,5 % = 7,40 × 3,5 = 25,90 ; donc 740 + 25,90 = 765,90 €."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre le coefficient et le pourcentage. Un CM de 1,3 correspond à +30 %, pas à +130 %. Et un CM de 0,7 correspond à −30 %, pas à −70 %. Pour passer du CM au pourcentage : (CM − 1) × 100."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le coefficient est toujours « autour de 1 » pour une variation raisonnable. Si tu obtiens 0,015 ou 115, tu t'es trompé d'un facteur 100 : relis ta division par 100."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel est le coefficient multiplicateur d'une baisse de 12 %, et que vaut 850 € après cette baisse ?",
+        "answer": "CM = 1 − 0,12 = 0,88. 850 × 0,88 = 748 €.",
+        "hint": "1 − t/100."
+      }
+    ]
+  },
+  {
+    "id": "calc-pourcentages-successifs",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Pourcentages successifs",
+    "tagline": "Deux évolutions à la suite se MULTIPLIENT : +10 % puis +10 % fait +21 %, jamais +20 %.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "remises-successives",
+      "evolution",
+      "taux-evolution"
+    ],
+    "related": [
+      "calc-coefficient-multiplicateur",
+      "calc-remises-successives",
+      "calc-taux-moyen-annuel",
+      "calc-valeur-initiale"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour enchaîner des évolutions, on multiplie les coefficients : CM global = CM₁ × CM₂ × … Le pourcentage global vaut (CM global − 1) × 100. C'est vrai quel que soit l'ordre : +10 % puis −20 % donne exactement le même résultat que −20 % puis +10 % (1,1 × 0,8 = 0,8 × 1,1 = 0,88)."
+      },
+      {
+        "type": "diagram",
+        "kind": "percent-chain"
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un chiffre d'affaires progresse de 25 % une année, puis baisse de 20 % l'année suivante. Quelle est l'évolution globale ?",
+        "reveal": "1,25 × 0,80 = 1,00 → évolution globale nulle, le CA est revenu exactement à son niveau de départ. C'est le cas remarquable à connaître : +25 % puis −20 % s'annulent, parce que 1/0,8 = 1,25."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner les taux. +25 % puis −20 % ne fait pas +5 %. Et une hausse de 50 % suivie d'une baisse de 50 % ne ramène pas au point de départ mais à −25 % (1,5 × 0,5 = 0,75)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Une hausse puis une baisse du même taux donne TOUJOURS une perte : (1 + t)(1 − t) = 1 − t², et t² est positif. Si l'énoncé prétend qu'on revient au point de départ, la réponse est fausse."
+      },
+      {
+        "type": "quiz",
+        "question": "Un prix subit trois baisses successives de 10 %. De combien a-t-il baissé au total ?",
+        "answer": "0,9³ = 0,729 → baisse de 27,1 %, et non de 30 %.",
+        "hint": "0,9 × 0,9 = 0,81, puis × 0,9."
+      }
+    ]
+  },
+  {
+    "id": "calc-valeur-initiale",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Remonter à la valeur de départ",
+    "tagline": "Pour défaire une évolution, on DIVISE par le coefficient — on ne soustrait jamais le pourcentage du résultat final.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "evolution",
+      "taux-evolution",
+      "prix"
+    ],
+    "related": [
+      "calc-coefficient-multiplicateur",
+      "calc-tva-ht-ttc",
+      "calc-pourcentages-successifs",
+      "calc-taux-evolution"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Si une valeur V a subi +t % pour donner F, alors F = V × (1 + t/100), donc V = F ÷ (1 + t/100). Même logique pour une baisse : V = F ÷ (1 − t/100). Ce sont les énoncés en « après une hausse de 20 %, le prix est de 240 € : quel était le prix avant ? »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Après une remise de 30 %, un article coûte 91 €. Quel était son prix affiché ?",
+        "reveal": "91 ÷ 0,70 = 130 €. Vérification : 130 × 0,7 = 91. ✔ Le réflexe de vérification est indispensable, il coûte 3 secondes et élimine l'erreur de sens (multiplier au lieu de diviser)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : reprendre le pourcentage sur la valeur finale. Ici, 91 + 30 % = 118,30 € — faux, car les 30 % portaient sur 130 €, pas sur 91 €. Le pourcentage se calcule toujours sur la valeur de RÉFÉRENCE, celle d'avant l'évolution."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Le pourcentage a été appliqué dans un sens ? Je divise pour revenir. » Et contrôle l'ordre de grandeur : après une baisse, la valeur d'origine est forcément PLUS GRANDE que la valeur finale."
+      },
+      {
+        "type": "quiz",
+        "question": "Une population a diminué de 4 % et compte maintenant 28 800 habitants. Combien étaient-ils avant ?",
+        "answer": "28 800 ÷ 0,96 = 30 000 habitants.",
+        "hint": "Diviser par 0,96, pas ajouter 4 %."
+      }
+    ]
+  },
+  {
+    "id": "calc-taux-evolution",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Calculer un taux d'évolution",
+    "tagline": "Taux = (arrivée − départ) ÷ départ × 100. Le dénominateur est toujours la valeur de DÉPART.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "taux-evolution",
+      "evolution",
+      "pourcentages"
+    ],
+    "related": [
+      "calc-coefficient-multiplicateur",
+      "calc-valeur-initiale",
+      "calc-points-vs-pourcent",
+      "calcul-pourcentages"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dès qu'un énoncé te donne deux valeurs et demande « de combien cela a-t-il évolué, en pourcentage ? », la formule est : (V_finale − V_initiale) ÷ V_initiale × 100. Autre écriture, souvent plus rapide : (V_finale ÷ V_initiale − 1) × 100."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un abonnement passe de 24 € à 30 €. Quelle est la hausse en pourcentage ?",
+        "reveal": "(30 − 24) ÷ 24 = 6 ÷ 24 = 0,25 → +25 %. Avec la seconde écriture : 30 ÷ 24 = 1,25 → +25 %."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : diviser par la valeur d'arrivée. (30 − 24) ÷ 30 = 20 %, ce qui est le taux de baisse pour revenir de 30 à 24 — pas le taux de hausse. Une hausse et la baisse inverse n'ont JAMAIS le même pourcentage."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Divisé par ce qu'on avait au départ. » Et retiens l'asymétrie type : passer de 4 à 5 c'est +25 %, revenir de 5 à 4 c'est −20 %."
+      },
+      {
+        "type": "quiz",
+        "question": "Le nombre de commandes passe de 1 250 à 1 100. Quelle est l'évolution ?",
+        "answer": "(1 100 − 1 250) ÷ 1 250 = −150 ÷ 1 250 = −0,12 → baisse de 12 %.",
+        "hint": "150 ÷ 1 250, en simplifiant par 50 : 3 ÷ 25."
+      }
+    ]
+  },
+  {
+    "id": "calc-points-vs-pourcent",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Points de pourcentage ≠ pourcentage",
+    "tagline": "Passer de 4 % à 6 %, c'est +2 POINTS mais +50 % : deux chiffres justes qui ne disent pas la même chose.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "taux-evolution",
+      "indicateurs"
+    ],
+    "related": [
+      "calc-taux-evolution",
+      "calc-coefficient-multiplicateur"
+    ],
+    "subtests": [
+      "calcul",
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Quand la grandeur qui évolue est ELLE-MÊME un pourcentage (taux de chômage, marge, taux d'intérêt, part de marché), il y a deux façons de décrire son évolution. L'écart absolu s'exprime en POINTS (ou points de pourcentage) : de 4 % à 6 %, c'est +2 points. L'évolution relative s'exprime en pourcentage : (6 − 4) ÷ 4 = +50 %."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les deux lectures, sur le même exemple",
+        "items": [
+          "Taux de marge de 8 % → 10 % : +2 points.",
+          "Le même fait, en relatif : +25 %.",
+          "« Le taux a augmenté de 2 % » est ambigu et souvent faux : ce serait 8 % × 1,02 = 8,16 %.",
+          "Une communication cherchant à impressionner choisit le relatif ; une communication cherchant à rassurer choisit les points."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique des QCM : l'énoncé dit « le taux de chômage a augmenté de 10 % » et propose à la fois 7,7 % et 17 % comme réponses, en partant de 7 %. La bonne lecture est 7 × 1,10 = 7,7 %. Si l'énoncé avait dit « de 10 points », ce serait 17 %."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Point = soustraction, pourcentage = division. » Dès que l'unité de départ est déjà un %, demande-toi laquelle des deux on te demande — la réponse fausse est presque toujours l'autre."
+      },
+      {
+        "type": "quiz",
+        "question": "Le taux de réussite d'un concours passe de 20 % à 25 %. Exprime l'évolution de deux façons.",
+        "answer": "+5 points de pourcentage, ou +25 % en relatif (5 ÷ 20 = 0,25).",
+        "hint": "Une soustraction, puis une division par la valeur de départ."
+      }
+    ]
+  },
+  {
+    "id": "calc-remises-successives",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Remises successives et remise équivalente",
+    "tagline": "−20 % puis −30 % fait −44 %, pas −50 % : la seconde remise porte sur un prix déjà réduit.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "remises-successives",
+      "remise",
+      "pourcentages",
+      "prix"
+    ],
+    "related": [
+      "calc-pourcentages-successifs",
+      "calc-coefficient-multiplicateur",
+      "calc-tva-ht-ttc",
+      "calc-valeur-initiale"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La remise équivalente à plusieurs remises successives s'obtient par le produit des coefficients : 0,80 × 0,70 = 0,56, soit −44 %. Formule utile pour deux remises a et b (en %) : remise globale = a + b − (a × b / 100). Ici : 20 + 30 − (20 × 30 / 100) = 50 − 6 = 44 %."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un manteau à 180 € est soldé à −30 %, puis une carte de fidélité donne −10 % supplémentaires en caisse. Prix final ?",
+        "reveal": "180 × 0,70 = 126 €, puis 126 × 0,90 = 113,40 €. Remise équivalente : 0,7 × 0,9 = 0,63 → −37 %, et non −40 %."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : « −30 % puis −10 % » et « −40 % » sont présentés comme équivalents. Ils ne le sont jamais : la remise cumulée est toujours INFÉRIEURE à la somme des remises. C'est d'ailleurs ce qui rend l'affichage « jusqu'à −60 % cumulables » commercialement intéressant."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour deux remises, retiens le terme correcteur : somme des taux MOINS leur produit divisé par 100. Et le cas le plus fréquent en QCM : −50 % puis −20 % = −60 % (0,5 × 0,8 = 0,4)."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle remise unique équivaut à −25 % puis −20 % ?",
+        "answer": "0,75 × 0,80 = 0,60 → −40 %.",
+        "hint": "25 + 20 − (25 × 20 / 100)."
+      }
+    ]
+  },
+  {
+    "id": "calc-tva-ht-ttc",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "HT, TTC et TVA",
+    "tagline": "TTC = HT × (1 + taux) ; HT = TTC ÷ (1 + taux). Ne jamais retirer le taux du prix TTC.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "tva",
+      "pourcentages",
+      "prix",
+      "evolution"
+    ],
+    "related": [
+      "calc-valeur-initiale",
+      "calc-coefficient-multiplicateur",
+      "calc-remises-successives"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "updatedAt": "2026-09-22",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La TVA s'applique sur le prix hors taxes. Avec un taux de 20 % : TTC = HT × 1,20, et HT = TTC ÷ 1,20. Le montant de TVA vaut TTC − HT, soit HT × 0,20, soit encore TTC ÷ 6 quand le taux est de 20 % (car 0,2/1,2 = 1/6)."
+      },
+      {
+        "type": "table",
+        "title": "Taux de TVA en France métropolitaine (au 22/09/2026)",
+        "headers": [
+          "Taux",
+          "Coefficient",
+          "Exemples de biens concernés"
+        ],
+        "rows": [
+          [
+            "20 % (normal)",
+            "1,20",
+            "La plupart des biens et services"
+          ],
+          [
+            "10 % (intermédiaire)",
+            "1,10",
+            "Restauration, transport de voyageurs, travaux de rénovation"
+          ],
+          [
+            "5,5 % (réduit)",
+            "1,055",
+            "Produits alimentaires de base, livres, abonnements gaz/électricité"
+          ],
+          [
+            "2,1 % (particulier)",
+            "1,021",
+            "Médicaments remboursables, presse"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une facture affiche 3 600 € TTC avec une TVA à 20 %. Quel est le montant HT, et le montant de TVA ?",
+        "reveal": "HT = 3 600 ÷ 1,20 = 3 000 €. TVA = 3 600 − 3 000 = 600 €, ce qui est bien 3 600 ÷ 6."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : calculer 3 600 × 0,20 = 720 € de TVA. Faux : 720 € serait la TVA d'un prix HT de 3 600 €, donc d'une facture de 4 320 € TTC. La TVA se calcule sur le HT, jamais sur le TTC."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Avec une TVA à 20 %, retiens deux raccourcis : « le TTC divisé par 6 donne la TVA » et « le HT, c'est 5/6 du TTC ». Pour 1 200 € TTC : TVA = 200 €, HT = 1 000 €."
+      },
+      {
+        "type": "quiz",
+        "question": "Un repas au restaurant coûte 44 € TTC (TVA 10 %). Quel est le prix hors taxes ?",
+        "answer": "44 ÷ 1,10 = 40 €. La TVA est donc de 4 €.",
+        "hint": "Diviser par 1,10, pas soustraire 10 %."
+      }
+    ]
+  },
+  {
+    "id": "calc-taux-moyen-annuel",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Taux d'évolution moyen",
+    "tagline": "Le taux moyen n'est pas la moyenne des taux : c'est la racine n-ième du coefficient global.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "taux-evolution",
+      "pourcentages",
+      "interets-composes",
+      "evolution"
+    ],
+    "related": [
+      "calc-pourcentages-successifs",
+      "calc-interets-composes",
+      "calc-regle-72",
+      "calc-coefficient-multiplicateur"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le taux moyen annuel t vérifie : (1 + t)ⁿ = coefficient global sur n périodes. Donc 1 + t = (CM global)^(1/n), c'est-à-dire la racine n-ième. C'est une moyenne GÉOMÉTRIQUE, pas arithmétique : elle est toujours inférieure ou égale à la moyenne des taux."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un chiffre d'affaires a progressé de 44 % en 2 ans. Quel est le taux de croissance annuel moyen ?",
+        "reveal": "CM global = 1,44. Taux moyen : √1,44 = 1,20 → +20 % par an. Vérification : 1,2 × 1,2 = 1,44. ✔ Attention, ce n'est pas 44 ÷ 2 = 22 %."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Racines utiles à reconnaître de tête",
+        "items": [
+          "√1,21 = 1,10 → +21 % en 2 ans = +10 % par an.",
+          "√1,44 = 1,20 → +44 % en 2 ans = +20 % par an.",
+          "√2 ≈ 1,414 → doubler en 2 ans ≈ +41,4 % par an.",
+          "1,1³ = 1,331 → +33,1 % en 3 ans = +10 % par an."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : moyenner les taux. Une année à +50 % et une année à −50 % ne font pas 0 % de moyenne mais −25 % au total, soit environ −13,4 % par an (√0,75 ≈ 0,866). Dès qu'il y a des pourcentages composés, la moyenne arithmétique est fausse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Des pourcentages qui se composent ? Racine, pas division. » Et pour vérifier vite sans calculette : élève ta réponse à la puissance n, tu dois retrouver le coefficient global."
+      },
+      {
+        "type": "quiz",
+        "question": "Un loyer a augmenté de 33,1 % en 3 ans. Quel est le taux annuel moyen ?",
+        "answer": "1,331^(1/3) = 1,10 → +10 % par an, puisque 1,1³ = 1,331.",
+        "hint": "Cherche un coefficient simple dont le cube vaut 1,331."
+      }
+    ]
+  },
+  {
+    "id": "calc-pourcentage-de-pourcentage",
+    "domain": "calcul",
+    "category": "Pourcentages",
+    "title": "Pourcentage d'un pourcentage",
+    "tagline": "« 30 % des 60 % » se calcule en multipliant les proportions : 0,30 × 0,60 = 18 % du total.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "proportions",
+      "partage"
+    ],
+    "related": [
+      "calc-coefficient-multiplicateur",
+      "calc-proportions-partage",
+      "calc-points-vs-pourcent"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Quand un pourcentage porte sur un sous-ensemble lui-même défini en pourcentage, on multiplie les deux proportions. La question à se poser systématiquement : « pourcentage DE QUOI ? ». Le résultat 18 % se rapporte au total, pas au sous-ensemble."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Dans une entreprise, 60 % des salariés sont des femmes, et 30 % des femmes sont cadres. Quelle part du personnel total est composée de femmes cadres ?",
+        "reveal": "0,60 × 0,30 = 0,18 → 18 % du personnel total. Sur 500 salariés : 300 femmes, dont 90 cadres, soit bien 90/500 = 18 %."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner (90 %) ou répondre 30 %. 30 % est la part des cadres PARMI LES FEMMES, pas dans l'entreprise. Un QCM propose presque toujours les deux valeurs : celle qui répond à la question posée et celle qui répond à une autre question."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Prends toujours un total fictif de 100 ou 1 000 et raisonne en effectifs : c'est plus lent de 5 secondes, mais ça élimine l'erreur de référence. Les proportions se retrouvent ensuite d'elles-mêmes."
+      },
+      {
+        "type": "quiz",
+        "question": "40 % des clients d'un site sont abonnés ; 25 % des abonnés utilisent l'application mobile. Quelle part des clients utilise l'application ?",
+        "answer": "0,40 × 0,25 = 0,10 → 10 % des clients.",
+        "hint": "Sur 1 000 clients : 400 abonnés, dont 100 sur mobile."
+      }
+    ]
+  },
+  {
+    "id": "calc-regle-de-trois",
+    "domain": "calcul",
+    "category": "Proportionnalité",
+    "title": "Règle de trois et produit en croix",
+    "tagline": "Passe par la valeur pour UNE unité : c'est plus lent à écrire, mais tu ne te trompes jamais de sens.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "regle-de-trois",
+      "proportions",
+      "proportionnalite-inverse"
+    ],
+    "related": [
+      "calc-proportionnalite-inverse",
+      "calc-proportions-partage",
+      "calc-echelles",
+      "calcul-fractions"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux grandeurs sont proportionnelles si leur quotient est constant. Pour trouver la quatrième valeur, deux méthodes équivalentes : la valeur unitaire (je divise pour 1, je multiplie pour n), ou le produit en croix (a/b = c/d donne a × d = b × c). La première est plus sûre en QCM parce qu'elle laisse une trace vérifiable."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "7 cahiers coûtent 10,50 €. Combien coûtent 12 cahiers ?",
+        "reveal": "Un cahier : 10,50 ÷ 7 = 1,50 €. Douze cahiers : 1,50 × 12 = 18 €. Par produit en croix : 10,50 × 12 ÷ 7 = 126 ÷ 7 = 18 €."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : appliquer la proportionnalité là où elle n'existe pas. Un abonnement avec frais de dossier, un tarif dégressif, une durée de trajet quand la vitesse change : ce ne sont PAS des situations proportionnelles. Vérifie toujours que « deux fois plus de A donne bien deux fois plus de B »."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris les deux grandeurs en colonnes avec leurs unités. Si l'unité du résultat ne sort pas juste (des euros et pas des euros par cahier), tu as inversé la division."
+      },
+      {
+        "type": "quiz",
+        "question": "Une imprimante produit 250 pages en 4 minutes. Combien de pages en 10 minutes ?",
+        "answer": "250 ÷ 4 = 62,5 pages par minute, × 10 = 625 pages.",
+        "hint": "Passe par le débit pour une minute."
+      }
+    ]
+  },
+  {
+    "id": "calc-proportionnalite-inverse",
+    "domain": "calcul",
+    "category": "Proportionnalité",
+    "title": "Proportionnalité inverse",
+    "tagline": "Quand l'un augmente et l'autre diminue, c'est le PRODUIT qui reste constant, pas le quotient.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "proportionnalite-inverse",
+      "proportions",
+      "travail",
+      "temps"
+    ],
+    "related": [
+      "calc-regle-de-trois",
+      "calc-travail-debits",
+      "calc-vitesse-moyenne",
+      "calc-proportions-partage"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux grandeurs sont inversement proportionnelles si leur PRODUIT est constant : x × y = k. Cas typiques : nombre d'ouvriers et durée du chantier, vitesse et temps de trajet, nombre de parts et taille d'une part. La méthode : calcule d'abord la constante k, puis divise."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "6 ouvriers réalisent un chantier en 10 jours. Combien de jours faudrait-il à 4 ouvriers, au même rythme ?",
+        "reveal": "Charge totale : 6 × 10 = 60 jours-ouvrier. Avec 4 ouvriers : 60 ÷ 4 = 15 jours. Contrôle de bon sens : moins d'ouvriers → plus de jours, donc le résultat doit être supérieur à 10. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : appliquer la règle de trois directe. 6 → 10 jours, donc 4 → 6,67 jours ? Absurde : moins de main-d'œuvre ne peut pas accélérer le chantier. Avant de calculer, demande-toi dans quel SENS la réponse doit aller."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Les deux vont dans le même sens → je divise (quotient constant). Les deux vont en sens contraire → je multiplie (produit constant). »"
+      },
+      {
+        "type": "quiz",
+        "question": "À 90 km/h un trajet prend 40 minutes. Combien de temps à 120 km/h ?",
+        "answer": "Distance = 90 × 40 = 3 600 (en km·min/h), donc 3 600 ÷ 120 = 30 minutes.",
+        "hint": "Vitesse × temps est constant à distance fixée."
+      }
+    ]
+  },
+  {
+    "id": "calc-proportions-partage",
+    "domain": "calcul",
+    "category": "Proportionnalité",
+    "title": "Partages proportionnels",
+    "tagline": "Compte le nombre total de parts, trouve la valeur d'UNE part, puis distribue.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "partage",
+      "proportions",
+      "regle-de-trois"
+    ],
+    "related": [
+      "calc-regle-de-trois",
+      "calc-pourcentage-de-pourcentage",
+      "calc-melange-prix",
+      "calc-moyenne-ponderee"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour partager une somme S proportionnellement à des parts a, b, c : la valeur d'une part est S ÷ (a + b + c), puis chaque bénéficiaire reçoit sa part multipliée par cette valeur. La vérification est immédiate : la somme des lots doit redonner S."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "4 200 € sont partagés entre trois associés proportionnellement à leurs apports : 2, 3 et 2. Combien reçoit chacun ?",
+        "reveal": "Total des parts : 2 + 3 + 2 = 7. Valeur d'une part : 4 200 ÷ 7 = 600 €. Lots : 1 200 €, 1 800 €, 1 200 €. Vérification : 1 200 + 1 800 + 1 200 = 4 200 €. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : un partage INVERSEMENT proportionnel. « Partagé inversement proportionnellement à 2, 3 et 6 » signifie proportionnellement à 1/2, 1/3 et 1/6, soit après mise au même dénominateur (6) : 3, 2 et 1. Le plus petit coefficient reçoit alors le plus gros lot."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand la somme n'est pas divisible par le total des parts, ne t'affole pas : garde une fraction jusqu'au bout plutôt qu'un arrondi intermédiaire, qui fait rater la bonne réponse de quelques centimes."
+      },
+      {
+        "type": "quiz",
+        "question": "Une prime de 9 000 € est répartie entre trois vendeurs proportionnellement à leurs ventes : 30, 45 et 15 (en milliers d'euros). Quelle prime pour le deuxième ?",
+        "answer": "Total des parts = 90. Une part = 100 €. Le deuxième reçoit 45 × 100 = 4 500 €.",
+        "hint": "9 000 ÷ 90."
+      }
+    ]
+  },
+  {
+    "id": "calc-echelles",
+    "domain": "calcul",
+    "category": "Proportionnalité",
+    "title": "Échelles de plans et de cartes",
+    "tagline": "Une échelle 1/25 000 signifie : 1 cm sur le plan = 25 000 cm en réalité, soit 250 m.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "echelle",
+      "proportions",
+      "conversion",
+      "conversions"
+    ],
+    "related": [
+      "calc-conversions-unites",
+      "calc-regle-de-trois",
+      "calc-aires-perimetres"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'échelle est le rapport distance sur le plan ÷ distance réelle, exprimé dans la MÊME unité. Pour passer du plan au réel : multiplier par le dénominateur. Pour passer du réel au plan : diviser. Le travail difficile n'est pas la multiplication, c'est la conversion d'unités qui suit."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Sur une carte à l'échelle 1/25 000, deux villages sont distants de 4,4 cm. Quelle est la distance réelle ?",
+        "reveal": "4,4 × 25 000 = 110 000 cm = 1 100 m = 1,1 km. Le passage cm → km se fait en divisant par 100 000 (100 cm par m, 1 000 m par km)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les AIRES. Si les longueurs sont divisées par 25 000, les aires le sont par 25 000² — soit 625 millions. Une parcelle de 1 cm² sur cette carte représente 62 500 m², c'est-à-dire 6,25 hectares."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens les repères de conversion : 1 km = 100 000 cm, 1 ha = 10 000 m². Et rappelle-toi que plus le dénominateur est grand, plus l'échelle est PETITE : le 1/1 000 000 d'un atlas montre un pays, le 1/100 d'un plan montre une pièce."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle longueur, sur un plan à l'échelle 1/200, représente une façade de 18 m ?",
+        "answer": "18 m = 1 800 cm, donc 1 800 ÷ 200 = 9 cm.",
+        "hint": "Convertis d'abord en centimètres."
+      }
+    ]
+  },
+  {
+    "id": "calc-fractions-operations",
+    "domain": "calcul",
+    "category": "Fractions",
+    "title": "Les quatre opérations sur les fractions",
+    "tagline": "Additionner exige un dénominateur commun ; multiplier et diviser n'en ont pas besoin.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "fractions-usuelles",
+      "proportions",
+      "arithmetique"
+    ],
+    "related": [
+      "calc-fractions-comparaison",
+      "calc-fractions-pourcentages",
+      "calcul-fractions",
+      "calc-equations-fractions"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les quatre règles",
+        "items": [
+          "Addition / soustraction : même dénominateur obligatoire. a/b + c/d = (ad + bc)/bd.",
+          "Multiplication : numérateurs entre eux, dénominateurs entre eux. (a/b) × (c/d) = ac/bd.",
+          "Division : on multiplie par l'inverse. (a/b) ÷ (c/d) = (a/b) × (d/c) = ad/bc.",
+          "Simplifier AVANT de multiplier : on divise un numérateur et un dénominateur par le même facteur."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 2/3 + 3/4, puis 3/5 ÷ 2/7.",
+        "reveal": "2/3 + 3/4 : dénominateur commun 12 → 8/12 + 9/12 = 17/12 (soit 1 + 5/12). 3/5 ÷ 2/7 = 3/5 × 7/2 = 21/10 = 2,1."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner numérateurs et dénominateurs séparément. 2/3 + 3/4 n'est pas 5/7. Contrôle immédiat : 2/3 vaut déjà 0,67 et 3/4 vaut 0,75, donc la somme dépasse forcément 1 — alors que 5/7 ≈ 0,71."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Simplifie toujours en croix avant de multiplier : (14/15) × (25/21) devient (2/3) × (5/3) = 10/9 en divisant 14 et 21 par 7, puis 15 et 25 par 5. Tu manipules des petits nombres au lieu de 350/315."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien vaut (5/6) − (2/9) ?",
+        "answer": "Dénominateur commun 18 : 15/18 − 4/18 = 11/18 ≈ 0,611.",
+        "hint": "Le PPCM de 6 et 9 est 18, pas 54."
+      }
+    ]
+  },
+  {
+    "id": "calc-fractions-comparaison",
+    "domain": "calcul",
+    "category": "Fractions",
+    "title": "Comparer deux fractions vite",
+    "tagline": "Le produit en croix tranche en une seconde : a/b > c/d si ad > bc (avec b et d positifs).",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "fractions-usuelles",
+      "proportions",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "calc-fractions-operations",
+      "calc-fractions-pourcentages"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour comparer a/b et c/d (dénominateurs positifs), compare les produits croisés a × d et c × b. Le plus grand produit désigne la plus grande fraction. C'est la méthode la plus rapide quand les nombres ne se prêtent pas à un dénominateur commun évident."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Qui est le plus grand : 5/7 ou 7/10 ?",
+        "reveal": "5 × 10 = 50 et 7 × 7 = 49. Comme 50 > 49, on a 5/7 > 7/10. En décimal : 0,714 contre 0,700. ✔"
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois autres réflexes de comparaison",
+        "items": [
+          "Même numérateur : la plus grande fraction est celle qui a le PLUS PETIT dénominateur (3/7 > 3/8).",
+          "Même dénominateur : on compare les numérateurs (5/9 > 4/9).",
+          "Encadrer par 1/2 ou 1 : 4/9 < 1/2 < 5/9, donc pas besoin de calculer."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le produit en croix ne fonctionne tel quel qu'avec des dénominateurs POSITIFS. Avec une fraction négative, le sens de l'inégalité s'inverse — comme dans toute multiplication par un nombre négatif."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris les produits croisés juste au-dessus de chaque fraction : le chiffre posé au-dessus de 5/7 est 5 × 10, celui au-dessus de 7/10 est 7 × 7. Le plus gros chiffre gagne, au-dessus de sa fraction."
+      },
+      {
+        "type": "quiz",
+        "question": "Classe par ordre croissant : 3/8, 2/5 et 5/13.",
+        "answer": "3/8 = 0,375 ; 5/13 ≈ 0,385 ; 2/5 = 0,400. Donc 3/8 < 5/13 < 2/5.",
+        "hint": "Compare chacune à 0,4 = 2/5."
+      }
+    ]
+  },
+  {
+    "id": "calc-fractions-pourcentages",
+    "domain": "calcul",
+    "category": "Fractions",
+    "title": "Fractions usuelles ↔ pourcentages",
+    "tagline": "Connaître 1/8 = 12,5 % par cœur transforme un calcul de 30 secondes en une reconnaissance instantanée.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "fractions-usuelles",
+      "pourcentages",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "calc-fractions-comparaison",
+      "calc-coefficient-multiplicateur",
+      "calcul-mental-astuces"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "À savoir sans réfléchir",
+        "headers": [
+          "Fraction",
+          "Décimal",
+          "Pourcentage"
+        ],
+        "rows": [
+          [
+            "1/2",
+            "0,5",
+            "50 %"
+          ],
+          [
+            "1/3",
+            "0,333…",
+            "33,33 %"
+          ],
+          [
+            "1/4",
+            "0,25",
+            "25 %"
+          ],
+          [
+            "1/5",
+            "0,2",
+            "20 %"
+          ],
+          [
+            "1/6",
+            "0,1666…",
+            "16,67 %"
+          ],
+          [
+            "1/7",
+            "0,1428…",
+            "14,29 %"
+          ],
+          [
+            "1/8",
+            "0,125",
+            "12,5 %"
+          ],
+          [
+            "1/9",
+            "0,111…",
+            "11,11 %"
+          ],
+          [
+            "1/12",
+            "0,0833…",
+            "8,33 %"
+          ],
+          [
+            "1/16",
+            "0,0625",
+            "6,25 %"
+          ],
+          [
+            "3/8",
+            "0,375",
+            "37,5 %"
+          ],
+          [
+            "5/8",
+            "0,625",
+            "62,5 %"
+          ],
+          [
+            "2/3",
+            "0,666…",
+            "66,67 %"
+          ],
+          [
+            "3/4",
+            "0,75",
+            "75 %"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces équivalences servent dans les deux sens. Vers le pourcentage, pour lire un énoncé : « un tiers des candidats » = 33,3 %. Vers la fraction, pour calculer vite : 37,5 % de 240, c'est 3/8 de 240, donc 240 ÷ 8 × 3 = 90 — bien plus rapide que 240 × 0,375."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 62,5 % de 320 sans calculatrice.",
+        "reveal": "62,5 % = 5/8. 320 ÷ 8 = 40, puis 40 × 5 = 200."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : arrondir trop tôt. 1/3 n'est pas 33 % mais 33,33… % ; sur une base de 90 000, la différence entre les deux est de 300. Garde la fraction jusqu'au bout et n'arrondis qu'à la toute fin."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les huitièmes se construisent en partant de 12,5 et en ajoutant 12,5 : 12,5 — 25 — 37,5 — 50 — 62,5 — 75 — 87,5. Les sixièmes en partant de 16,67 : 16,67 — 33,33 — 50 — 66,67 — 83,33."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 87,5 % de 480 ?",
+        "answer": "87,5 % = 7/8. 480 ÷ 8 = 60, × 7 = 420.",
+        "hint": "C'est « tout sauf un huitième » : 480 − 60."
+      }
+    ]
+  },
+  {
+    "id": "calc-conversions-unites",
+    "domain": "calcul",
+    "category": "Unités",
+    "title": "Conversions d'unités sans erreur",
+    "tagline": "Écris l'unité à chaque étape : la conversion fausse se voit immédiatement dans l'unité du résultat.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "conversions",
+      "conversion",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "calc-echelles",
+      "calc-vitesse-moyenne",
+      "calc-aires-perimetres"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les conversions qui tombent le plus",
+        "items": [
+          "Vitesse : 1 m/s = 3,6 km/h. Donc 72 km/h = 20 m/s (on divise par 3,6).",
+          "Longueur : 1 km = 1 000 m = 100 000 cm.",
+          "Aire : 1 m² = 10 000 cm² ; 1 ha = 10 000 m² ; 1 km² = 100 ha.",
+          "Volume : 1 L = 1 dm³ ; 1 m³ = 1 000 L.",
+          "Temps : 1 h = 3 600 s ; 0,25 h = 15 min ; 1,5 h = 90 min."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour les unités de surface, chaque changement de préfixe se traduit par un facteur 100 (et non 10) ; pour les volumes, par un facteur 1 000. C'est la source d'erreur la plus fréquente : passer de m² à cm² en multipliant par 100 au lieu de 10 000."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un coureur parcourt 100 m en 12,5 s. Quelle est sa vitesse en km/h ?",
+        "reveal": "100 ÷ 12,5 = 8 m/s, puis 8 × 3,6 = 28,8 km/h."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les minutes en décimales. 2 h 45 min vaut 2,75 h et non 2,45 h. Pour convertir des minutes en heures décimales, on divise par 60 : 45 ÷ 60 = 0,75. Cette confusion fausse tous les calculs de vitesse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le facteur 3,6 est facile à retrouver : 1 m/s c'est 3 600 m en une heure, donc 3,6 km/h. Pas besoin de mémoriser le sens : on multiplie par 3,6 pour aller de m/s vers km/h, on divise dans l'autre sens."
+      },
+      {
+        "type": "quiz",
+        "question": "Un terrain mesure 0,8 ha. Combien de m² cela représente-t-il, et quel serait le côté d'un carré de cette surface ?",
+        "answer": "0,8 × 10 000 = 8 000 m². Côté : √8 000 ≈ 89,4 m.",
+        "hint": "1 ha = 10 000 m²."
+      }
+    ]
+  },
+  {
+    "id": "calc-mise-en-equation",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Mettre un énoncé en équation",
+    "tagline": "Nomme l'inconnue par ce que la question demande, puis traduis chaque phrase en une égalité.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "equations",
+      "systeme",
+      "ages"
+    ],
+    "related": [
+      "calc-equations-premier-degre",
+      "calc-systemes",
+      "calc-problemes-ages",
+      "calcul-equations"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La difficulté d'un problème n'est presque jamais la résolution, c'est la traduction. Trois étapes : (1) poser x = exactement ce qu'on te demande, (2) exprimer toutes les autres quantités EN FONCTION de x, (3) écrire l'égalité fournie par l'énoncé, souvent un total ou une comparaison."
+      },
+      {
+        "type": "table",
+        "title": "Dictionnaire français → algèbre",
+        "headers": [
+          "Formulation",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "« de plus que x »",
+            "x + a"
+          ],
+          [
+            "« fois plus que x »",
+            "a × x"
+          ],
+          [
+            "« le tiers de x »",
+            "x/3"
+          ],
+          [
+            "« x augmenté de 20 % »",
+            "1,2x"
+          ],
+          [
+            "« la somme vaut 50 »",
+            "x + y = 50"
+          ],
+          [
+            "« deux fois plus jeune »",
+            "x/2 (formulation fautive mais fréquente)"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Trois enfants se partagent 78 billes. Le deuxième en a 6 de plus que le premier, le troisième en a le double du premier. Combien en a le premier ?",
+        "reveal": "x = billes du premier. Deuxième : x + 6. Troisième : 2x. Total : x + (x + 6) + 2x = 78 → 4x + 6 = 78 → 4x = 72 → x = 18. Vérification : 18 + 24 + 36 = 78. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : poser x sur la mauvaise quantité, puis oublier de revenir à la question. Si tu poses x = billes du deuxième, tu trouves x = 24 — un nombre juste, qui ne répond pas à la question posée. Les QCM proposent systématiquement les deux."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Souligne la question avant de lire l'énoncé, et écris en toutes lettres « x = … ». Le temps investi est récupéré au moment de choisir la réponse."
+      },
+      {
+        "type": "quiz",
+        "question": "Un stylo et un cahier coûtent 7,50 € ensemble. Le cahier coûte 2,50 € de plus que le stylo. Prix du stylo ?",
+        "answer": "x + (x + 2,50) = 7,50 → 2x = 5 → x = 2,50 €. Le cahier coûte 5 €.",
+        "hint": "Retire l'écart du total avant de diviser par deux."
+      }
+    ]
+  },
+  {
+    "id": "calc-equations-premier-degre",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Équations du premier degré",
+    "tagline": "Isoler x : tout ce qui contient x d'un côté, tout le reste de l'autre, puis diviser.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "equations",
+      "arithmetique"
+    ],
+    "related": [
+      "calc-mise-en-equation",
+      "calc-equations-fractions",
+      "calc-inequations",
+      "calc-systemes"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une équation reste vraie si on effectue la même opération des deux côtés : ajouter, soustraire, multiplier ou diviser par un nombre non nul. On regroupe donc les termes en x d'un côté, les constantes de l'autre, puis on divise par le coefficient de x."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Résous 3x + 7 = 2x + 19.",
+        "reveal": "3x − 2x = 19 − 7 → x = 12. Vérification : 3 × 12 + 7 = 43 et 2 × 12 + 19 = 43. ✔ La vérification prend 5 secondes et élimine toute erreur de signe."
+      },
+      {
+        "type": "example",
+        "title": "Un cas avec parenthèses",
+        "prompt": "Résous 5(x − 2) = 3x + 4.",
+        "reveal": "5x − 10 = 3x + 4 → 2x = 14 → x = 7. L'erreur à éviter est de distribuer le 5 sur x seulement : 5(x − 2) = 5x − 10, pas 5x − 2."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le signe en passant un terme de l'autre côté. −4x = 12 donne x = −3, et non x = 3. Quand tu divises (ou multiplies) par un nombre négatif, le signe du résultat change."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En QCM, la substitution est souvent plus rapide que la résolution : teste directement les propositions dans l'équation. Commence par la valeur du milieu, elle t'indique de quel côté chercher."
+      },
+      {
+        "type": "quiz",
+        "question": "Résous 4 − 2(x + 3) = 3x − 12.",
+        "answer": "4 − 2x − 6 = 3x − 12 → −2x − 2 = 3x − 12 → 10 = 5x → x = 2.",
+        "hint": "Distribue le −2 sur les deux termes de la parenthèse."
+      }
+    ]
+  },
+  {
+    "id": "calc-systemes",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Systèmes de deux équations",
+    "tagline": "Substitution quand une inconnue s'isole facilement, combinaison quand les coefficients s'annulent bien.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "systeme",
+      "equations"
+    ],
+    "related": [
+      "calc-equations-premier-degre",
+      "calc-mise-en-equation",
+      "calc-melange-prix",
+      "calc-problemes-ages"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux méthodes. SUBSTITUTION : on isole une inconnue dans l'équation la plus simple et on la remplace dans l'autre. COMBINAISON : on multiplie une ou deux équations pour que les coefficients d'une inconnue s'opposent, puis on additionne. Choisis la substitution dès qu'une équation contient un « x + y = … »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Résous : 2x + 3y = 34 et x + y = 13.",
+        "reveal": "De la seconde : x = 13 − y. Dans la première : 2(13 − y) + 3y = 34 → 26 − 2y + 3y = 34 → y = 8, puis x = 5. Vérification : 2 × 5 + 3 × 8 = 10 + 24 = 34. ✔"
+      },
+      {
+        "type": "example",
+        "title": "Un cas typique de concours",
+        "prompt": "Trois cafés et deux croissants coûtent 9,40 €. Deux cafés et quatre croissants coûtent 10,80 €. Prix d'un café ?",
+        "reveal": "3c + 2r = 9,40 et 2c + 4r = 10,80. On multiplie la première par 2 : 6c + 4r = 18,80, puis on soustrait la seconde : 4c = 8 → c = 2 €. Un croissant coûte alors r = (9,40 − 6) ÷ 2 = 1,70 €."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : s'arrêter dès qu'on a trouvé une inconnue. Beaucoup de QCM demandent la SOMME, la DIFFÉRENCE ou le prix d'un autre article — relis la question après avoir résolu."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand l'énoncé donne « somme » et « différence » de deux nombres, pas besoin de système : le plus grand vaut (somme + différence)/2, le plus petit (somme − différence)/2."
+      },
+      {
+        "type": "quiz",
+        "question": "La somme de deux nombres est 46, leur différence est 12. Quels sont ces nombres ?",
+        "answer": "(46 + 12)/2 = 29 et (46 − 12)/2 = 17.",
+        "hint": "Demi-somme plus ou moins la demi-différence."
+      }
+    ]
+  },
+  {
+    "id": "calc-equations-fractions",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Équations avec fractions",
+    "tagline": "Multiplie toute l'équation par le dénominateur commun : tu retombes sur une équation entière.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "equations",
+      "fractions-usuelles",
+      "proportions"
+    ],
+    "related": [
+      "calc-equations-premier-degre",
+      "calc-fractions-operations",
+      "calc-mise-en-equation",
+      "calc-travail-debits"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Multiplier les DEUX membres par le PPCM des dénominateurs élimine toutes les fractions d'un coup. Il faut multiplier chaque terme, y compris les constantes, sinon l'équation devient fausse."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Résous x/3 + x/4 = 7.",
+        "reveal": "PPCM(3, 4) = 12. On multiplie tout par 12 : 4x + 3x = 84 → 7x = 84 → x = 12. Vérification : 12/3 + 12/4 = 4 + 3 = 7. ✔"
+      },
+      {
+        "type": "example",
+        "title": "Un cas avec x au dénominateur",
+        "prompt": "Résous 12/x = 4.",
+        "reveal": "On multiplie par x (non nul) : 12 = 4x → x = 3. Toujours vérifier que la solution ne rend pas un dénominateur nul : ici x = 3 est bien acceptable."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier de multiplier le terme constant. x/3 + x/4 = 7 devient 4x + 3x = 7 au lieu de 84 : on trouve x = 1, une réponse fausse qui figure presque toujours dans les propositions."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Une fois l'équation débarrassée des fractions, refais le calcul à l'envers avec ta solution dans l'équation D'ORIGINE, pas dans la version transformée : c'est le seul contrôle qui détecte une erreur de multiplication."
+      },
+      {
+        "type": "quiz",
+        "question": "Résous (2x)/5 − 1 = x/3.",
+        "answer": "PPCM = 15 : 6x − 15 = 5x → x = 15. Vérification : 30/5 − 1 = 5 et 15/3 = 5. ✔",
+        "hint": "Multiplie les trois termes par 15."
+      }
+    ]
+  },
+  {
+    "id": "calc-inequations",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Inéquations et changement de sens",
+    "tagline": "Multiplier ou diviser par un nombre négatif RETOURNE l'inégalité. C'est la seule règle à retenir.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "equations",
+      "arithmetique"
+    ],
+    "related": [
+      "calc-equations-premier-degre",
+      "calc-mise-en-equation",
+      "calc-fractions-comparaison"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une inéquation se manipule comme une équation, avec une exception : la multiplication ou la division par un nombre strictement négatif inverse le sens du symbole. Ajouter ou soustraire un nombre, même négatif, ne change jamais le sens."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Résous −2x + 5 < 11.",
+        "reveal": "−2x < 6, puis on divise par −2 EN RETOURNANT le sens : x > −3. Test rapide avec x = 0 : −0 + 5 = 5 < 11 ✔, et 0 > −3 ✔ — cohérent."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois usages concrets",
+        "items": [
+          "Seuil de rentabilité : à partir de combien d'unités le bénéfice devient-il positif ?",
+          "Comparaison d'offres : à partir de quelle consommation l'abonnement devient-il plus intéressant ?",
+          "Contrainte de budget : combien d'articles au maximum peut-on acheter ?"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier l'arrondi imposé par le contexte. Si x > 12,4 et que x est un nombre d'articles, la réponse est 13. Et si x < 12,4, la réponse est 12 : on n'arrondit pas au plus proche, on respecte le sens de l'inégalité."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Après résolution, teste une valeur dans l'inéquation de départ. Si elle vérifie l'inégalité initiale mais pas ta solution, tu as oublié de retourner le sens."
+      },
+      {
+        "type": "quiz",
+        "question": "Un forfait A coûte 15 € + 0,20 €/min, un forfait B coûte 25 € fixe. À partir de combien de minutes B devient-il plus avantageux ?",
+        "answer": "15 + 0,2m > 25 → 0,2m > 10 → m > 50. Au-delà de 50 minutes, B est plus avantageux ; à 50 minutes exactement, les deux coûtent 25 €.",
+        "hint": "Écris l'inégalité « coût de A supérieur au coût de B »."
+      }
+    ]
+  },
+  {
+    "id": "calc-problemes-ages",
+    "domain": "calcul",
+    "category": "Équations",
+    "title": "Problèmes d'âges",
+    "tagline": "Dans x années, TOUT LE MONDE vieillit de x : l'écart d'âge, lui, ne change jamais.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "ages",
+      "equations",
+      "systeme"
+    ],
+    "related": [
+      "calc-mise-en-equation",
+      "calc-systemes",
+      "calc-equations-premier-degre"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux propriétés résolvent presque tous ces problèmes. (1) La différence d'âge est constante dans le temps. (2) Dans x années, chaque âge devient « âge actuel + x » ; il y a x ans, « âge actuel − x ». Pose un tableau à trois colonnes : passé, présent, futur."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un père a 40 ans, son fils 10 ans. Dans combien d'années le père aura-t-il exactement le double de l'âge de son fils ?",
+        "reveal": "40 + x = 2(10 + x) → 40 + x = 20 + 2x → x = 20. Dans 20 ans : le père aura 60 ans, le fils 30 ans. ✔ L'écart reste 30 ans, comme toujours."
+      },
+      {
+        "type": "example",
+        "title": "Un cas « il y a … ans »",
+        "prompt": "Anna a 32 ans et Bruno 20 ans. Il y a combien d'années Anna avait-elle le triple de l'âge de Bruno ?",
+        "reveal": "32 − x = 3(20 − x) → 32 − x = 60 − 3x → 2x = 28 → x = 14. Il y a 14 ans : Anna avait 18 ans, Bruno 6 ans, et 18 = 3 × 6. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : n'ajouter x qu'à un seul âge. « Dans 20 ans le père aura 60 ans et le fils toujours 10 » n'a aucun sens, mais l'erreur se fait mécaniquement quand on résout sans tableau."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le rapport des âges tend vers 1 avec le temps : un père deux fois plus âgé que son fils ne le sera jamais trois fois plus à l'avenir. Si tu trouves un x négatif pour un rapport plus grand, c'est normal : l'événement est dans le passé."
+      },
+      {
+        "type": "quiz",
+        "question": "La somme des âges de deux sœurs est 34 ans ; l'aînée a 6 ans de plus. Quel âge a chacune ?",
+        "answer": "(34 + 6)/2 = 20 ans pour l'aînée, (34 − 6)/2 = 14 ans pour la cadette.",
+        "hint": "Demi-somme et demi-différence."
+      }
+    ]
+  },
+  {
+    "id": "calc-moyenne-simple",
+    "domain": "calcul",
+    "category": "Moyennes & statistiques",
+    "title": "Moyenne arithmétique",
+    "tagline": "Moyenne = somme ÷ effectif. Donc somme = moyenne × effectif : c'est cette seconde écriture qui résout les problèmes.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "moyenne",
+      "statistiques",
+      "somme"
+    ],
+    "related": [
+      "calc-moyenne-ponderee",
+      "calc-effet-ajout-moyenne",
+      "calc-mediane-vs-moyenne",
+      "calcul-moyennes-vitesses"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La moyenne est le nombre qui, répété autant de fois qu'il y a de valeurs, donnerait la même somme. La formule utile en concours est donc la forme inversée : SOMME = moyenne × effectif. Dès qu'on te parle de moyenne, reconstitue la somme totale, c'est elle qui se manipule."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un élève a 12, 15, 9 et 14. Quelle est sa moyenne ?",
+        "reveal": "Somme = 12 + 15 + 9 + 14 = 50. Moyenne = 50 ÷ 4 = 12,5."
+      },
+      {
+        "type": "example",
+        "title": "Le vrai type d'exercice",
+        "prompt": "La moyenne de 5 nombres est 18. On retire un nombre et la moyenne des 4 restants est 16. Quel nombre a été retiré ?",
+        "reveal": "Somme initiale : 18 × 5 = 90. Somme restante : 16 × 4 = 64. Le nombre retiré vaut 90 − 64 = 26."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'ajouter une valeur égale à la moyenne change quelque chose. Elle ne change rien — c'est justement la définition. À l'inverse, toute valeur au-dessus de la moyenne la fait monter, toute valeur en dessous la fait baisser, quelle que soit l'ampleur."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour calculer vite une moyenne, prends un pivot et somme les écarts. Pour 12, 15, 9, 14 avec un pivot à 12 : écarts 0, +3, −3, +2 → total +2 → moyenne = 12 + 2/4 = 12,5."
+      },
+      {
+        "type": "quiz",
+        "question": "La moyenne de 8 nombres est 21. Quelle est leur somme ?",
+        "answer": "21 × 8 = 168.",
+        "hint": "Somme = moyenne × effectif."
+      }
+    ]
+  },
+  {
+    "id": "calc-moyenne-ponderee",
+    "domain": "calcul",
+    "category": "Moyennes & statistiques",
+    "title": "Moyenne pondérée",
+    "tagline": "On multiplie chaque valeur par son poids, on additionne, et on divise par la SOMME DES POIDS.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "moyenne-ponderee",
+      "moyenne",
+      "statistiques"
+    ],
+    "related": [
+      "calc-moyenne-simple",
+      "calc-moyenne-de-moyennes",
+      "calc-melange-prix"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Moyenne pondérée = Σ(valeur × poids) ÷ Σ(poids). L'oubli le plus coûteux est le dénominateur : diviser par le nombre de valeurs au lieu de la somme des coefficients donne un résultat toujours faux, et toujours proposé en QCM."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Trois notes : 12 (coefficient 3), 15 (coefficient 2), 8 (coefficient 1). Quelle est la moyenne ?",
+        "reveal": "(12 × 3 + 15 × 2 + 8 × 1) ÷ (3 + 2 + 1) = (36 + 30 + 8) ÷ 6 = 74 ÷ 6 ≈ 12,33."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les trois situations où elle apparaît",
+        "items": [
+          "Notes avec coefficients.",
+          "Prix moyen d'un panier : chaque prix pondéré par la quantité achetée.",
+          "Indice des prix : chaque poste pondéré par sa part dans le budget des ménages.",
+          "Taux moyen d'un portefeuille : chaque taux pondéré par le montant investi."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : diviser par le nombre de valeurs. Ici 74 ÷ 3 = 24,7 — une note impossible sur 20, ce qui devrait alerter immédiatement. Le résultat d'une moyenne pondérée est toujours COMPRIS entre la plus petite et la plus grande valeur."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Contrôle de cohérence gratuit : la moyenne pondérée penche vers la valeur la mieux pondérée. Ici le coefficient 3 est sur le 12, donc la moyenne doit être proche de 12 — ce qui exclut d'emblée toute réponse au-dessus de 13,5."
+      },
+      {
+        "type": "quiz",
+        "question": "Un candidat obtient 14 à l'écrit (coefficient 4) et 9 à l'oral (coefficient 6). Quelle est sa moyenne ?",
+        "answer": "(14 × 4 + 9 × 6) ÷ 10 = (56 + 54) ÷ 10 = 11.",
+        "hint": "La somme des coefficients vaut 10, ce qui simplifie la division."
+      }
+    ]
+  },
+  {
+    "id": "calc-effet-ajout-moyenne",
+    "domain": "calcul",
+    "category": "Moyennes & statistiques",
+    "title": "Effet d'une valeur ajoutée sur la moyenne",
+    "tagline": "Une valeur nouvelle déplace la moyenne de (valeur − moyenne) ÷ nouvel effectif.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "moyenne",
+      "statistiques",
+      "somme"
+    ],
+    "related": [
+      "calc-moyenne-simple",
+      "calc-moyenne-ponderee",
+      "calc-mediane-vs-moyenne",
+      "calc-moyenne-de-moyennes"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Si la moyenne de n valeurs est m et qu'on ajoute une valeur v, la nouvelle moyenne vaut (n·m + v) ÷ (n + 1). On peut aussi raisonner en déplacement : la moyenne bouge de (v − m) ÷ (n + 1). Cette seconde forme se calcule de tête et explique pourquoi une seule très bonne note change peu de choses quand il y en a déjà beaucoup."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un élève a 11 de moyenne sur 9 notes. Il obtient 20 à la dixième. Quelle est sa nouvelle moyenne ?",
+        "reveal": "Somme initiale : 11 × 9 = 99. Nouvelle somme : 119. Moyenne : 119 ÷ 10 = 11,9. Par le déplacement : (20 − 11) ÷ 10 = +0,9, donc 11,9. ✔"
+      },
+      {
+        "type": "example",
+        "title": "Question inverse, plus fréquente",
+        "prompt": "Il a 11 de moyenne sur 9 notes. Quelle note lui faut-il à la dixième pour atteindre 12 de moyenne ?",
+        "reveal": "Somme visée : 12 × 10 = 120. Somme actuelle : 99. Il lui faut 21 — donc c'est impossible sur 20. Une réponse « impossible » est parfaitement valide et régulièrement attendue."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : penser qu'une note de 20 « rattrape » une moyenne basse. Plus l'effectif est grand, plus chaque nouvelle note pèse peu : avec 19 notes déjà, un 20 ne déplace la moyenne que de (20 − m) ÷ 20."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« L'écart à la moyenne, divisé par le nouvel effectif. » C'est la formule à utiliser en QCM : elle donne la réponse en une seule division, sans reconstituer les sommes."
+      },
+      {
+        "type": "quiz",
+        "question": "Une équipe a une moyenne de 2,5 buts sur 4 matchs. Elle en marque 5 au cinquième. Nouvelle moyenne ?",
+        "answer": "Déplacement : (5 − 2,5) ÷ 5 = +0,5 → nouvelle moyenne 3 buts. Vérification : (10 + 5) ÷ 5 = 3. ✔",
+        "hint": "L'écart vaut 2,5 et le nouvel effectif 5."
+      }
+    ]
+  },
+  {
+    "id": "calc-mediane-vs-moyenne",
+    "domain": "calcul",
+    "category": "Moyennes & statistiques",
+    "title": "Médiane ou moyenne ?",
+    "tagline": "La moyenne se laisse tirer par les valeurs extrêmes ; la médiane, non. C'est tout l'enjeu des statistiques de salaires.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "mediane",
+      "statistiques",
+      "moyenne"
+    ],
+    "related": [
+      "calc-moyenne-simple",
+      "calc-dispersion",
+      "calc-effet-ajout-moyenne"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La médiane est la valeur qui sépare la série ordonnée en deux moitiés de même effectif. Avec un effectif impair, c'est la valeur du milieu ; avec un effectif pair, c'est la moyenne des deux valeurs centrales. Il faut TOUJOURS ordonner la série avant de la lire."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Série : 1, 2, 2, 3, 50. Calcule la moyenne et la médiane, puis commente.",
+        "reveal": "Moyenne = 58 ÷ 5 = 11,6. Médiane = 2 (troisième valeur de la série ordonnée). La moyenne ne décrit ici AUCUN individu : quatre valeurs sur cinq sont inférieures à 3. C'est le 50 qui tire tout."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Comment les lire, concrètement",
+        "items": [
+          "Salaire médian : la moitié des salariés gagne moins, la moitié gagne plus.",
+          "Salaire moyen : toujours supérieur au médian dans une distribution de revenus, car les très hauts revenus tirent la moyenne vers le haut.",
+          "Un écart important entre moyenne et médiane signale une distribution asymétrique ou des valeurs extrêmes.",
+          "Pour comparer deux populations, la médiane est plus robuste ; pour calculer une masse totale, il faut la moyenne."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : calculer la médiane sans ordonner la série. Sur 7, 3, 9, la médiane est 7, pas 9. Second piège : avec un effectif pair, la médiane peut ne correspondre à aucune valeur observée (série 4, 6 → médiane 5)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Médiane = position, moyenne = masse. » Si l'énoncé parle d'un individu typique, c'est la médiane ; s'il parle d'un total à répartir, c'est la moyenne."
+      },
+      {
+        "type": "quiz",
+        "question": "Série des salaires (en k€) : 22, 24, 25, 27, 30, 32, 180. Moyenne et médiane ?",
+        "answer": "Somme = 340, moyenne ≈ 48,6 k€. Médiane = 27 k€ (quatrième valeur sur sept). Six salariés sur sept gagnent moins que la moyenne.",
+        "hint": "La série est déjà ordonnée ; sept valeurs, donc la quatrième."
+      }
+    ]
+  },
+  {
+    "id": "calc-moyenne-de-moyennes",
+    "domain": "calcul",
+    "category": "Moyennes & statistiques",
+    "title": "La moyenne de moyennes est un piège",
+    "tagline": "On ne fait pas la moyenne de deux moyennes sans tenir compte des effectifs.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "moyenne-ponderee",
+      "statistiques",
+      "moyenne"
+    ],
+    "related": [
+      "calc-moyenne-ponderee",
+      "calc-moyenne-simple",
+      "calc-vitesse-moyenne"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour fusionner deux groupes, on additionne les SOMMES et on divise par l'effectif TOTAL. La moyenne globale est donc une moyenne pondérée par les effectifs — elle n'est égale à la moyenne des moyennes que si les deux groupes ont exactement la même taille."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Groupe A : 20 élèves, moyenne 10. Groupe B : 5 élèves, moyenne 15. Quelle est la moyenne de l'ensemble ?",
+        "reveal": "Somme A = 200, somme B = 75, total 275 pour 25 élèves → 11. Et non 12,5, qui serait la moyenne des deux moyennes. La moyenne globale est tirée vers le groupe le plus nombreux."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en QCM : (10 + 15) ÷ 2 = 12,5 est proposé en premier, parce que c'est le réflexe. Demande-toi toujours : « les groupes ont-ils la même taille ? » Si non, la moyenne simple est fausse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "La moyenne globale est toujours plus proche de la moyenne du groupe le plus GROS. Ici 20 contre 5, donc la réponse doit être nettement plus proche de 10 que de 15 : cela suffit à éliminer 12,5 sans calcul."
+      },
+      {
+        "type": "quiz",
+        "question": "Une entreprise compte 30 ouvriers payés 1 900 € et 10 cadres payés 3 500 €. Quel est le salaire moyen ?",
+        "answer": "(30 × 1 900 + 10 × 3 500) ÷ 40 = (57 000 + 35 000) ÷ 40 = 2 300 €.",
+        "hint": "Ce n'est pas 2 700 € : les ouvriers sont trois fois plus nombreux."
+      }
+    ]
+  },
+  {
+    "id": "calc-dispersion",
+    "domain": "calcul",
+    "category": "Moyennes & statistiques",
+    "title": "Étendue, écart-type, quartiles",
+    "tagline": "Deux séries de même moyenne peuvent être radicalement différentes : c'est la dispersion qui les distingue.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "statistiques",
+      "mediane",
+      "moyenne"
+    ],
+    "related": [
+      "calc-mediane-vs-moyenne",
+      "calc-moyenne-simple"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les quatre indicateurs de dispersion",
+        "items": [
+          "Étendue = maximum − minimum. Très simple, mais dépend entièrement des deux valeurs extrêmes.",
+          "Écart-type (σ) = racine de la moyenne des carrés des écarts à la moyenne. Plus il est grand, plus les valeurs sont dispersées.",
+          "Quartiles Q1, Q2 (= médiane), Q3 : ils découpent la série ordonnée en quatre parts d'effectif égal.",
+          "Écart interquartile = Q3 − Q1 : contient la moitié centrale des observations, insensible aux extrêmes."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Série X : 10, 10, 10. Série Y : 0, 10, 20. Compare moyenne et écart-type.",
+        "reveal": "Les deux ont une moyenne de 10. Pour X, tous les écarts sont nuls → σ = 0. Pour Y, les écarts sont −10, 0, +10 → variance = (100 + 0 + 100) ÷ 3 ≈ 66,7 → σ ≈ 8,2. Même moyenne, réalités opposées."
+      },
+      {
+        "type": "rule",
+        "title": "Ce qu'il faut savoir sans calculer",
+        "body": "Au TAGE 2 on demande rarement de calculer un écart-type à la main ; on demande de l'INTERPRÉTER. Un écart-type nul signifie que toutes les valeurs sont identiques. Un écart-type qui double signifie une dispersion deux fois plus grande, à moyenne éventuellement inchangée."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre écart-type et étendue, ou croire qu'une moyenne plus élevée implique une dispersion plus élevée. Les deux dimensions sont indépendantes : une classe peut avoir une meilleure moyenne ET être plus homogène."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« La moyenne dit où, la dispersion dit à quel point c'est fiable. » Un rendement moyen de 6 % avec σ = 1 % et un rendement moyen de 6 % avec σ = 20 % ne se comparent pas."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans une série, Q1 = 18, médiane = 24 et Q3 = 40. Que peux-tu affirmer ?",
+        "answer": "La moitié des observations se situe entre 18 et 40, un quart est inférieur à 18, un quart supérieur à 40. L'écart interquartile vaut 22. La distribution est asymétrique : l'écart Q3 − médiane (16) est bien plus grand que médiane − Q1 (6).",
+        "hint": "Chaque quartile borne un quart de l'effectif."
+      }
+    ]
+  },
+  {
+    "id": "calc-vitesse-moyenne",
+    "domain": "calcul",
+    "category": "Vitesses & débits",
+    "title": "Vitesse moyenne : le piège de l'aller-retour",
+    "tagline": "Vitesse moyenne = distance TOTALE ÷ temps TOTAL. Jamais la moyenne des deux vitesses.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "vitesse",
+      "temps",
+      "moyenne",
+      "conversions"
+    ],
+    "related": [
+      "calc-rattrapage",
+      "calc-croisement",
+      "calc-conversions-unites",
+      "calc-moyenne-de-moyennes"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La vitesse moyenne n'est pas une moyenne de vitesses : c'est un quotient global, distance totale divisée par temps total. Comme on passe plus de temps à la vitesse la plus lente, la vitesse moyenne est toujours plus proche de la plus petite des deux."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un trajet de 120 km est parcouru à 60 km/h à l'aller et à 40 km/h au retour. Quelle est la vitesse moyenne sur l'ensemble ?",
+        "reveal": "Aller : 120 ÷ 60 = 2 h. Retour : 120 ÷ 40 = 3 h. Distance totale 240 km, temps total 5 h → 48 km/h. Et non 50 km/h. Formule directe pour un aller-retour : (2 × v₁ × v₂) ÷ (v₁ + v₂) = 4 800 ÷ 100 = 48."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : (60 + 40) ÷ 2 = 50 km/h, systématiquement proposé. Cette moyenne simple ne serait juste que si les deux vitesses étaient tenues pendant la même DURÉE — pas sur la même distance. Vérifie toujours si l'énoncé égalise les distances ou les temps."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les trois formules à avoir",
+        "items": [
+          "d = v × t, donc v = d/t et t = d/v.",
+          "Aller-retour sur la même distance : v_moy = 2·v₁·v₂ / (v₁ + v₂) — c'est une moyenne harmonique.",
+          "Même durée à chaque vitesse : là, v_moy = (v₁ + v₂) / 2 est correcte.",
+          "Unités : divise par 3,6 pour passer de km/h à m/s."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "La vitesse moyenne d'un aller-retour est toujours STRICTEMENT inférieure à la moyenne arithmétique des deux vitesses. Si la réponse proposée est pile la moyenne simple, elle est fausse."
+      },
+      {
+        "type": "quiz",
+        "question": "Un cycliste monte un col à 10 km/h et le redescend par la même route à 30 km/h. Vitesse moyenne ?",
+        "answer": "(2 × 10 × 30) ÷ 40 = 600 ÷ 40 = 15 km/h. Pas 20 km/h.",
+        "hint": "Il passe trois fois plus de temps à monter qu'à descendre."
+      }
+    ]
+  },
+  {
+    "id": "calc-rattrapage",
+    "domain": "calcul",
+    "category": "Vitesses & débits",
+    "title": "Problèmes de rattrapage",
+    "tagline": "On raisonne sur la vitesse RELATIVE : l'écart se comble à la vitesse (v_rapide − v_lent).",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "rattrapage",
+      "vitesse",
+      "temps"
+    ],
+    "related": [
+      "calc-croisement",
+      "calc-vitesse-moyenne",
+      "calc-mise-en-equation",
+      "calc-proportionnalite-inverse"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux mobiles vont dans le MÊME sens. Le plus rapide réduit l'écart d'exactement (v₁ − v₂) kilomètres par heure. Temps de rattrapage = avance initiale ÷ (v₁ − v₂). L'avance initiale se calcule comme la distance parcourue par le premier pendant son temps d'avance."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un camion part à 8 h à 60 km/h. Une voiture part du même point à 9 h à 80 km/h. À quelle heure rattrape-t-elle le camion, et à quelle distance du départ ?",
+        "reveal": "À 9 h, le camion a 60 km d'avance. Vitesse relative : 80 − 60 = 20 km/h. Temps : 60 ÷ 20 = 3 h → rattrapage à 12 h. Distance : 80 × 3 = 240 km (vérification : le camion a roulé 4 h à 60 km/h = 240 km ✔)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : répondre 3 h alors qu'on demande une HEURE (12 h), ou l'inverse. Second piège : oublier que la distance de rencontre se calcule depuis le départ, pas depuis le point où se trouvait le camion à 9 h."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Même sens → je soustrais les vitesses. Sens contraires → je les additionne. » Cette seule phrase couvre tous les problèmes de rattrapage et de croisement."
+      },
+      {
+        "type": "quiz",
+        "question": "Un coureur a 400 m d'avance sur un autre. Le premier court à 12 km/h, le second à 16 km/h. En combien de temps est-il rejoint ?",
+        "answer": "Vitesse relative : 4 km/h. Temps : 0,4 ÷ 4 = 0,1 h = 6 minutes.",
+        "hint": "Convertis 400 m en 0,4 km avant de diviser."
+      }
+    ]
+  },
+  {
+    "id": "calc-croisement",
+    "domain": "calcul",
+    "category": "Vitesses & débits",
+    "title": "Problèmes de croisement",
+    "tagline": "Face à face, les vitesses s'ADDITIONNENT : la distance se réduit à (v₁ + v₂) par heure.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "croisement",
+      "vitesse",
+      "temps"
+    ],
+    "related": [
+      "calc-rattrapage",
+      "calc-vitesse-moyenne",
+      "calc-mise-en-equation",
+      "calc-conversions-unites"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux mobiles partent l'un vers l'autre. La distance qui les sépare diminue de (v₁ + v₂) par unité de temps. Temps avant rencontre = distance initiale ÷ (v₁ + v₂). Le point de rencontre se situe à v₁ × t du premier départ."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Deux villes sont distantes de 300 km. Deux trains partent en même temps l'un vers l'autre, à 70 et 80 km/h. Quand et où se croisent-ils ?",
+        "reveal": "Vitesse de rapprochement : 150 km/h. Temps : 300 ÷ 150 = 2 h. Le premier train a parcouru 70 × 2 = 140 km, le second 160 km. Total 300 km. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : des départs décalés. Si le second train part une heure plus tard, il faut d'abord retirer la distance déjà parcourue par le premier (70 km), puis appliquer la formule sur la distance restante (230 km ÷ 150 ≈ 1 h 32 min)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le point de rencontre est toujours plus proche du départ du plus LENT. Si les vitesses sont proches, il est vers le milieu. Ce contrôle élimine la moitié des propositions en deux secondes."
+      },
+      {
+        "type": "quiz",
+        "question": "Deux cyclistes séparés de 45 km roulent l'un vers l'autre à 15 et 20 km/h. Après combien de temps se rencontrent-ils ?",
+        "answer": "45 ÷ 35 = 9/7 h ≈ 1 h 17 min.",
+        "hint": "Additionne les vitesses avant de diviser."
+      }
+    ]
+  },
+  {
+    "id": "calc-travail-debits",
+    "domain": "calcul",
+    "category": "Vitesses & débits",
+    "title": "Travaux et débits cumulés",
+    "tagline": "On additionne les DÉBITS (part de travail par heure), jamais les durées.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "travail",
+      "debit",
+      "proportionnalite-inverse",
+      "temps"
+    ],
+    "related": [
+      "calc-proportionnalite-inverse",
+      "calc-equations-fractions",
+      "calc-vitesse-moyenne",
+      "calc-fractions-operations"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Si un robinet remplit un bassin en a heures, son débit est 1/a bassin par heure. Deux robinets ensemble ont un débit de 1/a + 1/b, donc la durée commune vaut 1 ÷ (1/a + 1/b) = ab/(a + b). On raisonne toujours en « part de travail par unité de temps »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un robinet remplit un bassin en 6 h, un autre en 4 h. En combien de temps les deux ensemble ?",
+        "reveal": "Débits : 1/6 et 1/4, soit 2/12 + 3/12 = 5/12 de bassin par heure. Durée : 12/5 = 2,4 h = 2 h 24 min. Contrôle : c'est bien inférieur à 4 h, la durée du plus rapide seul. ✔"
+      },
+      {
+        "type": "example",
+        "title": "Avec une fuite",
+        "prompt": "Un robinet remplit en 3 h, une fuite vide en 9 h. Temps de remplissage avec la fuite ouverte ?",
+        "reveal": "Débit net : 1/3 − 1/9 = 3/9 − 1/9 = 2/9 par heure → 9/2 = 4,5 h. Ce qui vide se SOUSTRAIT du débit."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner ou moyenner les durées. 6 h et 4 h ne donnent ni 10 h, ni 5 h. Le résultat doit toujours être INFÉRIEUR à la plus petite des durées individuelles : ce contrôle élimine d'emblée la plupart des propositions."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour deux durées a et b, retiens la formule « produit sur somme » : ab/(a + b). Pour 6 et 4 : 24/10 = 2,4 h. Elle ne marche que pour deux intervenants ; à trois, repasse par les débits."
+      },
+      {
+        "type": "quiz",
+        "question": "Deux ouvriers font un mur en 12 h et 8 h respectivement. Ensemble ?",
+        "answer": "(12 × 8) ÷ (12 + 8) = 96 ÷ 20 = 4,8 h = 4 h 48 min.",
+        "hint": "Produit sur somme."
+      }
+    ]
+  },
+  {
+    "id": "calc-melange-prix",
+    "domain": "calcul",
+    "category": "Mélanges",
+    "title": "Mélanges et prix moyen",
+    "tagline": "Le prix moyen d'un mélange est la moyenne pondérée des prix par les quantités.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "melanges",
+      "prix-moyen",
+      "moyenne-ponderee",
+      "alliage"
+    ],
+    "related": [
+      "calc-moyenne-ponderee",
+      "calc-dilution",
+      "calc-systemes",
+      "calc-proportions-partage"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Prix moyen = coût total ÷ quantité totale. C'est exactement une moyenne pondérée, où les poids sont les quantités. Le raisonnement est identique pour un alliage (masse de chaque métal) ou un portefeuille (montant investi)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "On mélange 3 kg de café à 8 €/kg et 2 kg à 13 €/kg. Prix du mélange au kilo ?",
+        "reveal": "Coût total : 3 × 8 + 2 × 13 = 24 + 26 = 50 €. Quantité : 5 kg. Prix moyen : 10 €/kg. Contrôle : le résultat est entre 8 et 13, plus proche de 8 puisqu'il y a plus de café bon marché. ✔"
+      },
+      {
+        "type": "example",
+        "title": "Question inverse (très fréquente)",
+        "prompt": "Combien de kg de café à 13 €/kg ajouter à 3 kg de café à 8 €/kg pour obtenir un mélange à 11 €/kg ?",
+        "reveal": "(24 + 13x) ÷ (3 + x) = 11 → 24 + 13x = 33 + 11x → 2x = 9 → x = 4,5 kg."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : faire la moyenne simple des prix (8 + 13) ÷ 2 = 10,50 €. Ici le hasard la rend proche du bon résultat, mais avec 1 kg et 9 kg elle serait complètement fausse. Toujours pondérer."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Méthode des écarts : le prix cible partage l'écart entre les deux prix dans le rapport INVERSE des quantités. Pour un mélange à 10 € entre 8 € et 13 €, les écarts sont 2 et 3 → les quantités sont dans le rapport 3 : 2, soit 3 kg et 2 kg. ✔"
+      },
+      {
+        "type": "quiz",
+        "question": "On mélange 4 L de sirop à 6 €/L et 6 L à 11 €/L. Prix au litre du mélange ?",
+        "answer": "(24 + 66) ÷ 10 = 9 €/L.",
+        "hint": "Le résultat penche vers 11 €, il y a plus de sirop cher."
+      }
+    ]
+  },
+  {
+    "id": "calc-dilution",
+    "domain": "calcul",
+    "category": "Mélanges",
+    "title": "Dilutions et concentrations",
+    "tagline": "Dans une dilution, la quantité de SOLUTÉ ne change pas : seul le volume total augmente.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "dilution",
+      "melanges",
+      "pourcentages",
+      "proportions"
+    ],
+    "related": [
+      "calc-melange-prix",
+      "calc-coefficient-multiplicateur",
+      "calc-mise-en-equation",
+      "calc-proportions-partage"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La grandeur invariante est la quantité de produit actif : volume × concentration. Ajouter du solvant augmente le volume sans changer cette quantité, donc la concentration baisse. L'équation universelle : V₁ × c₁ = V₂ × c₂."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "On a 200 mL d'une solution à 30 %. Combien d'eau ajouter pour obtenir une solution à 20 % ?",
+        "reveal": "Soluté : 200 × 0,30 = 60 mL, et il reste 60 mL après dilution. Volume final : 60 ÷ 0,20 = 300 mL. Il faut donc ajouter 300 − 200 = 100 mL d'eau."
+      },
+      {
+        "type": "example",
+        "title": "Concentration par évaporation",
+        "prompt": "500 g d'une solution à 4 % de sel. Combien d'eau faire évaporer pour atteindre 10 % ?",
+        "reveal": "Sel : 20 g, invariant. Masse finale : 20 ÷ 0,10 = 200 g. Il faut évaporer 500 − 200 = 300 g d'eau."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : appliquer le pourcentage au volume ajouté. « Ajouter 10 % d'eau » ne fait pas passer la concentration de 30 % à 20 %. Il faut TOUJOURS repartir de la quantité de soluté, qui est le seul élément stable de l'énoncé."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Ce qui est dissous ne disparaît pas. » Écris en premier la quantité de soluté en grammes ou millilitres, avant même de lire la question : la suite se déduit toujours de là."
+      },
+      {
+        "type": "quiz",
+        "question": "600 mL d'un jus à 15 % de fruits. Quelle concentration après ajout de 300 mL d'eau ?",
+        "answer": "Fruits : 90 mL. Volume final : 900 mL. Concentration : 90 ÷ 900 = 10 %.",
+        "hint": "Le soluté reste à 90 mL."
+      }
+    ]
+  },
+  {
+    "id": "calc-probabilite-simple",
+    "domain": "calcul",
+    "category": "Probabilités",
+    "title": "Probabilité d'un événement",
+    "tagline": "P = cas favorables ÷ cas possibles, à condition que tous les cas soient équiprobables.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "probabilites",
+      "fractions-usuelles"
+    ],
+    "related": [
+      "calc-proba-complementaire",
+      "calc-tirages-remise",
+      "calc-proba-independance",
+      "calc-denombrement"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une situation d'équiprobabilité, P(A) = nombre de cas favorables ÷ nombre de cas possibles. Une probabilité est toujours comprise entre 0 et 1 : un résultat négatif ou supérieur à 1 signale une erreur, sans avoir à relire le calcul."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les trois règles de base",
+        "items": [
+          "P(A ou B) = P(A) + P(B) − P(A et B). Le terme soustrait évite de compter deux fois l'intersection.",
+          "Si A et B sont incompatibles (jamais ensemble), P(A et B) = 0 et les probabilités s'additionnent simplement.",
+          "P(A et B) = P(A) × P(B) uniquement si A et B sont indépendants.",
+          "P(contraire de A) = 1 − P(A)."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "On tire une carte dans un jeu de 32 cartes. Quelle est la probabilité d'obtenir un cœur OU un roi ?",
+        "reveal": "P(cœur) = 8/32, P(roi) = 4/32, P(cœur ET roi) = 1/32 (le roi de cœur). Donc P = 8/32 + 4/32 − 1/32 = 11/32. Sans soustraire l'intersection, on trouverait 12/32 : le roi de cœur serait compté deux fois."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner des probabilités d'événements qui peuvent se produire ensemble. Second piège : supposer l'équiprobabilité alors que l'énoncé ne la donne pas (une urne avec des boules de tailles différentes, un dé pipé)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« OU → j'additionne, ET → je multiplie. » Et devant un « au moins », pense immédiatement au complémentaire : c'est presque toujours beaucoup plus court."
+      },
+      {
+        "type": "quiz",
+        "question": "On lance un dé à six faces. Probabilité d'obtenir un nombre pair ou supérieur à 4 ?",
+        "answer": "Pairs : {2, 4, 6} → 3/6. Supérieurs à 4 : {5, 6} → 2/6. Intersection : {6} → 1/6. P = 3/6 + 2/6 − 1/6 = 4/6 = 2/3.",
+        "hint": "Le 6 appartient aux deux ensembles."
+      }
+    ]
+  },
+  {
+    "id": "calc-proba-complementaire",
+    "domain": "calcul",
+    "category": "Probabilités",
+    "title": "Le passage par le complémentaire",
+    "tagline": "« Au moins un » se calcule presque toujours par 1 − P(aucun).",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "complementaire",
+      "probabilites"
+    ],
+    "related": [
+      "calc-probabilite-simple",
+      "calc-proba-independance",
+      "calc-tirages-remise"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Énumérer tous les cas « au moins un » est long et source d'oublis ; l'événement contraire, lui, est unique : « aucun ». D'où P(au moins un) = 1 − P(aucun). C'est le raccourci le plus rentable de tout le chapitre."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "On lance deux dés. Quelle est la probabilité d'obtenir au moins un six ?",
+        "reveal": "P(aucun six) = (5/6) × (5/6) = 25/36. Donc P(au moins un six) = 1 − 25/36 = 11/36 ≈ 30,6 %. L'énumération directe demanderait de compter 11 couples — beaucoup plus lent et risqué."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : répondre 1/6 + 1/6 = 1/3 = 12/36. C'est faux d'exactement 1/36, le cas du double six compté deux fois. Sur trois dés, l'erreur deviendrait grossière : 3/6 = 1/2 contre une vraie valeur de 1 − (5/6)³ ≈ 42 %."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dès que tu lis « au moins un », « au minimum » ou « il y en a qui », écris tout de suite « 1 − P(aucun) » avant même d'avoir compris l'énoncé en détail."
+      },
+      {
+        "type": "quiz",
+        "question": "Un contrôle qualité rejette 5 % des pièces. Sur 3 pièces tirées au hasard, quelle est la probabilité qu'au moins une soit défectueuse ?",
+        "answer": "1 − 0,95³ = 1 − 0,857 = 0,143 → environ 14,3 %.",
+        "hint": "0,95³ ≈ 0,857."
+      }
+    ]
+  },
+  {
+    "id": "calc-tirages-remise",
+    "domain": "calcul",
+    "category": "Probabilités",
+    "title": "Tirages avec ou sans remise",
+    "tagline": "Sans remise, le dénominateur diminue à chaque tirage : les tirages ne sont plus indépendants.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "tirage-sans-remise",
+      "tirage-avec-remise",
+      "probabilites",
+      "independance"
+    ],
+    "related": [
+      "calc-proba-independance",
+      "calc-probabilite-simple",
+      "calc-proba-complementaire",
+      "calc-denombrement"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "AVEC remise : la composition de l'urne est identique à chaque tirage, les probabilités sont constantes et les tirages indépendants. SANS remise : chaque tirage modifie l'urne, il faut mettre à jour numérateur ET dénominateur à chaque étape."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une urne contient 5 boules rouges et 3 noires. On tire 2 boules SANS remise. Probabilité d'obtenir deux rouges ?",
+        "reveal": "Premier tirage : 5/8. Deuxième tirage : il reste 4 rouges sur 7 boules → 4/7. P = (5/8) × (4/7) = 20/56 = 5/14 ≈ 35,7 %."
+      },
+      {
+        "type": "example",
+        "title": "La même question avec remise",
+        "prompt": "Même urne, 2 tirages AVEC remise. Probabilité de deux rouges ?",
+        "reveal": "(5/8) × (5/8) = 25/64 ≈ 39,1 %. La probabilité est plus élevée qu'en tirage sans remise : retirer une rouge appauvrit l'urne en rouges."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : garder 5/8 au second tirage en mode sans remise. Autre piège : oublier de multiplier par 2 quand l'ordre est indifférent. « Une rouge et une noire » sans remise vaut (5/8)(3/7) + (3/8)(5/7) = 30/56 = 15/28, et non 15/56."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris la fraction de chaque tirage l'une après l'autre avant de multiplier, en notant explicitement le total restant au dénominateur : 5/8 puis 4/7. L'erreur devient visible."
+      },
+      {
+        "type": "quiz",
+        "question": "Un sac contient 4 jetons gagnants et 6 perdants. On en tire 2 sans remise. Probabilité de deux gagnants ?",
+        "answer": "(4/10) × (3/9) = 12/90 = 2/15 ≈ 13,3 %.",
+        "hint": "Après un jeton gagnant retiré, il reste 3 gagnants sur 9 jetons."
+      }
+    ]
+  },
+  {
+    "id": "calc-proba-independance",
+    "domain": "calcul",
+    "category": "Probabilités",
+    "title": "Indépendance et probabilités conditionnelles",
+    "tagline": "Indépendants = savoir que A s'est produit ne change rien à la probabilité de B.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "independance",
+      "probabilites",
+      "tirage-avec-remise"
+    ],
+    "related": [
+      "calc-tirages-remise",
+      "calc-probabilite-simple",
+      "calc-proba-complementaire"
+    ],
+    "subtests": [
+      "calcul",
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Deux événements sont indépendants si P(A et B) = P(A) × P(B). Sinon, il faut passer par la probabilité conditionnelle : P(A et B) = P(A) × P(B sachant A). Les tirages avec remise, les lancers de dés et de pièces successifs sont indépendants ; les tirages sans remise ne le sont pas."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "On lance deux pièces équilibrées. Probabilité de deux « face » ? Probabilité d'exactement une « face » ?",
+        "reveal": "Deux faces : (1/2) × (1/2) = 1/4. Exactement une face : deux cas (FP et PF), soit 2 × (1/2)(1/2) = 1/2. Les quatre issues FF, FP, PF, PP sont équiprobables à 1/4 chacune."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique s'appelle l'erreur du joueur : après cinq « pile » consécutifs, croire que « face » devient plus probable. La pièce n'a pas de mémoire — la probabilité reste 1/2. En revanche, la probabilité d'obtenir six « pile » d'affilée AVANT de commencer vaut bien (1/2)⁶ = 1/64."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Avant les lancers, on multiplie. Après les lancers, on oublie. » Une probabilité calculée à l'avance sur une séquence n'a rien à voir avec la probabilité du prochain tirage pris isolément."
+      },
+      {
+        "type": "quiz",
+        "question": "Deux machines fonctionnent indépendamment, avec 90 % de fiabilité chacune. Probabilité que les deux fonctionnent ? Qu'au moins une fonctionne ?",
+        "answer": "Les deux : 0,9 × 0,9 = 0,81. Au moins une : 1 − (0,1 × 0,1) = 0,99.",
+        "hint": "Pour « au moins une », passe par le cas où les deux tombent en panne."
+      }
+    ]
+  },
+  {
+    "id": "calc-denombrement",
+    "domain": "calcul",
+    "category": "Probabilités",
+    "title": "Compter les possibilités",
+    "tagline": "L'ordre compte-t-il ? Peut-on répéter ? Ces deux questions déterminent la formule à appliquer.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "probabilites",
+      "somme",
+      "arithmetique"
+    ],
+    "related": [
+      "calc-probabilite-simple",
+      "calc-tirages-remise",
+      "calc-proba-independance"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre cas",
+        "headers": [
+          "Ordre compte ?",
+          "Répétition ?",
+          "Formule",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Oui",
+            "Oui",
+            "nᵏ",
+            "Codes de 4 chiffres : 10⁴ = 10 000"
+          ],
+          [
+            "Oui",
+            "Non",
+            "n!/(n−k)!",
+            "Podium de 3 parmi 8 : 8×7×6 = 336"
+          ],
+          [
+            "Non",
+            "Non",
+            "n!/(k!(n−k)!)",
+            "Comité de 2 parmi 5 : 10"
+          ],
+          [
+            "—",
+            "Permutations",
+            "n!",
+            "Ordres de 5 livres : 120"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Avant toute formule, pose-toi deux questions. L'ordre distingue-t-il deux résultats (un podium, oui ; un comité, non) ? Un même élément peut-il revenir (un code, oui ; un tirage sans remise, non) ? Les deux réponses désignent une seule ligne du tableau."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "De combien de façons choisir 2 délégués parmi 5 candidats ?",
+        "reveal": "L'ordre ne compte pas, pas de répétition : 5!/(2!×3!) = 120/(2×6) = 10. On peut aussi les compter à la main : 4 + 3 + 2 + 1 = 10."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre choisir et ordonner. « 3 médailles parmi 8 athlètes » compte l'ordre (336 possibilités) ; « 3 qualifiés parmi 8 » ne le compte pas (56 possibilités), soit 336 ÷ 3! car chaque trio a 6 ordres possibles."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens les petites factorielles : 3! = 6, 4! = 24, 5! = 120, 6! = 720. Et pour les combinaisons de 2 parmi n, la formule courte n(n−1)/2 suffit presque toujours."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien de codes de 3 lettres peut-on former avec l'alphabet latin (26 lettres) si les répétitions sont autorisées ?",
+        "answer": "26³ = 17 576.",
+        "hint": "Ordre important, répétitions possibles."
+      }
+    ]
+  },
+  {
+    "id": "calc-interets-composes",
+    "domain": "calcul",
+    "category": "Intérêts & croissance",
+    "title": "Intérêts simples et composés",
+    "tagline": "Simples : les intérêts ne rapportent rien. Composés : ils s'ajoutent au capital et rapportent à leur tour.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "interets-composes",
+      "pourcentages",
+      "taux-evolution"
+    ],
+    "related": [
+      "calc-regle-72",
+      "calc-actualisation",
+      "calc-taux-moyen-annuel",
+      "calc-pourcentages-successifs"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Intérêts SIMPLES : le capital final vaut C × (1 + n·t), les intérêts sont calculés chaque année sur le capital initial seulement. Intérêts COMPOSÉS : le capital final vaut C × (1 + t)ⁿ, les intérêts de chaque année produisent eux-mêmes des intérêts. La différence devient énorme sur longue période."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "1 000 € placés à 5 % pendant 3 ans. Capital final en intérêts simples, puis en intérêts composés ?",
+        "reveal": "Simples : 1 000 × (1 + 3 × 0,05) = 1 150 €. Composés : 1 000 × 1,05³ = 1 157,63 €. Écart : 7,63 € sur 3 ans — mais sur 30 ans, 2 500 € contre 4 322 €."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce qu'il faut savoir en QCM",
+        "items": [
+          "En l'absence de précision, un placement bancaire se calcule en intérêts composés.",
+          "Sur une seule période, les deux méthodes donnent exactement le même résultat.",
+          "Les intérêts composés sont toujours supérieurs dès la deuxième période.",
+          "1,05² = 1,1025 ; 1,05³ ≈ 1,1576 ; 1,1² = 1,21 ; 1,1³ = 1,331 — utiles à connaître."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : multiplier le taux par le nombre d'années en intérêts composés. « 5 % pendant 3 ans » ne fait pas +15 % mais +15,76 %. Et à l'inverse, attention aux énoncés qui précisent explicitement « intérêts simples » : là, +15 % est la bonne réponse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Simple = multiplication, composé = puissance. » Et vérifie l'ordre de grandeur : le résultat composé doit toujours dépasser légèrement le résultat simple, jamais l'inverse."
+      },
+      {
+        "type": "quiz",
+        "question": "2 000 € placés à 4 % pendant 2 ans en intérêts composés. Capital final ?",
+        "answer": "2 000 × 1,04² = 2 000 × 1,0816 = 2 163,20 €.",
+        "hint": "1,04² = 1,0816."
+      }
+    ]
+  },
+  {
+    "id": "calc-regle-72",
+    "domain": "calcul",
+    "category": "Intérêts & croissance",
+    "title": "La règle de 72",
+    "tagline": "Un capital double en environ 72 ÷ taux années. À 6 %, il faut 12 ans.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "interets-composes",
+      "taux-evolution",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "calc-interets-composes",
+      "calc-taux-moyen-annuel",
+      "calc-actualisation"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour un taux de croissance annuel t (en %), le temps de doublement vaut approximativement 72 ÷ t années. C'est une approximation, mais elle est excellente entre 4 % et 12 % — la zone où tombent la quasi-totalité des énoncés."
+      },
+      {
+        "type": "table",
+        "title": "Précision de l'approximation",
+        "headers": [
+          "Taux",
+          "Règle de 72",
+          "Valeur exacte"
+        ],
+        "rows": [
+          [
+            "2 %",
+            "36 ans",
+            "35,0 ans"
+          ],
+          [
+            "4 %",
+            "18 ans",
+            "17,7 ans"
+          ],
+          [
+            "6 %",
+            "12 ans",
+            "11,9 ans"
+          ],
+          [
+            "8 %",
+            "9 ans",
+            "9,0 ans"
+          ],
+          [
+            "10 %",
+            "7,2 ans",
+            "7,3 ans"
+          ],
+          [
+            "12 %",
+            "6 ans",
+            "6,1 ans"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un placement rapporte 9 % par an. En combien de temps double-t-il ? Et que devient-il en 24 ans ?",
+        "reveal": "Doublement : 72 ÷ 9 = 8 ans. En 24 ans, il double trois fois → ×8. Un capital de 5 000 € atteindrait donc environ 40 000 €. Vérification : 1,09²⁴ ≈ 7,91. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : utiliser la règle pour de très gros taux. À 50 %, elle donnerait 1,44 an alors que la valeur exacte est 1,71 an. Au-delà de 15 %, repasse par les puissances."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "72 est divisible par 2, 3, 4, 6, 8, 9 et 12 : les taux courants tombent toujours juste. C'est précisément pourquoi on utilise 72 plutôt que 70, mathématiquement un peu plus exact."
+      },
+      {
+        "type": "quiz",
+        "question": "À quel taux annuel un capital double-t-il en 6 ans ?",
+        "answer": "72 ÷ 6 = 12 % par an environ. Vérification : 1,12⁶ ≈ 1,97. ✔",
+        "hint": "La règle s'utilise dans les deux sens."
+      }
+    ]
+  },
+  {
+    "id": "calc-actualisation",
+    "domain": "calcul",
+    "category": "Intérêts & croissance",
+    "title": "Valeur actuelle et actualisation",
+    "tagline": "1 100 € dans un an, à 10 %, valent 1 000 € aujourd'hui : on DIVISE par (1 + t)ⁿ.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "interets-composes",
+      "pourcentages",
+      "taux-evolution"
+    ],
+    "related": [
+      "calc-interets-composes",
+      "calc-regle-72",
+      "calc-valeur-initiale"
+    ],
+    "subtests": [
+      "calcul",
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Actualiser, c'est ramener une somme future à sa valeur d'aujourd'hui : VA = VF ÷ (1 + t)ⁿ. C'est l'opération inverse de la capitalisation. Le taux t s'appelle taux d'actualisation : plus il est élevé, moins une somme future vaut cher aujourd'hui."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle est la valeur actuelle de 1 210 € encaissés dans 2 ans, avec un taux d'actualisation de 10 % ?",
+        "reveal": "1 210 ÷ 1,10² = 1 210 ÷ 1,21 = 1 000 €. Autrement dit, placer 1 000 € aujourd'hui à 10 % donnerait exactement 1 210 € dans 2 ans."
+      },
+      {
+        "type": "rule",
+        "title": "Pourquoi ça compte en gestion",
+        "body": "C'est le principe de la valeur actuelle nette (VAN) d'un projet : on actualise tous les flux futurs, on en soustrait l'investissement initial. Une VAN positive signifie que le projet rapporte plus que le taux exigé. C'est un raisonnement qu'on retrouve dans les cas de gestion du TAGE 2."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner des flux de plusieurs années sans les actualiser. 100 € par an pendant 3 ans ne valent pas 300 € aujourd'hui, mais 100/1,1 + 100/1,21 + 100/1,331 ≈ 248,7 € à 10 %."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un euro demain vaut moins qu'un euro aujourd'hui. » Toute valeur actuelle est donc inférieure à la valeur future : si tu obtiens l'inverse, tu as multiplié au lieu de diviser."
+      },
+      {
+        "type": "quiz",
+        "question": "Valeur actuelle de 5 000 € encaissés dans 3 ans, au taux de 5 % ?",
+        "answer": "5 000 ÷ 1,05³ = 5 000 ÷ 1,1576 ≈ 4 319 €.",
+        "hint": "1,05³ ≈ 1,1576."
+      }
+    ]
+  },
+  {
+    "id": "calc-aires-perimetres",
+    "domain": "calcul",
+    "category": "Géométrie",
+    "title": "Aires et périmètres à connaître",
+    "tagline": "Doubler les longueurs multiplie l'aire par 4 et le volume par 8 : les dimensions ne se comportent pas pareil.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "aire",
+      "geometrie",
+      "cercle",
+      "conversions"
+    ],
+    "related": [
+      "calc-pythagore",
+      "calc-echelles",
+      "calc-conversions-unites"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les formules indispensables",
+        "headers": [
+          "Figure",
+          "Périmètre",
+          "Aire"
+        ],
+        "rows": [
+          [
+            "Rectangle",
+            "2(L + l)",
+            "L × l"
+          ],
+          [
+            "Carré de côté a",
+            "4a",
+            "a²"
+          ],
+          [
+            "Triangle",
+            "somme des côtés",
+            "base × hauteur ÷ 2"
+          ],
+          [
+            "Cercle de rayon r",
+            "2πr",
+            "πr²"
+          ],
+          [
+            "Trapèze",
+            "somme des côtés",
+            "(grande base + petite base) × hauteur ÷ 2"
+          ],
+          [
+            "Parallélogramme",
+            "2(a + b)",
+            "base × hauteur"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un disque a un rayon de 5 cm. Aire et circonférence ?",
+        "reveal": "Aire = π × 25 ≈ 78,5 cm². Circonférence = 2π × 5 ≈ 31,4 cm. Retiens π ≈ 3,14 et, si tu dois aller vite, 2π ≈ 6,28."
+      },
+      {
+        "type": "rule",
+        "title": "L'effet d'échelle",
+        "body": "Si toutes les longueurs sont multipliées par k, les aires le sont par k² et les volumes par k³. Un cube dont l'arête double a une surface 4 fois plus grande et un volume 8 fois plus grand. C'est la propriété testée en QCM, bien plus souvent que les formules elles-mêmes."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre rayon et diamètre. Une roue de 70 cm de diamètre a un périmètre de π × 0,70 ≈ 2,20 m, pas de 4,40 m. Relis toujours si l'énoncé donne r ou d."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour les aires, fais un contrôle par encadrement : l'aire d'un disque de rayon 5 est comprise entre celle du carré inscrit (50) et celle du carré circonscrit (100). 78,5 est bien dans l'intervalle. ✔"
+      },
+      {
+        "type": "quiz",
+        "question": "Un terrain rectangulaire mesure 40 m sur 25 m. On double ses deux dimensions. Que devient son aire ?",
+        "answer": "Aire initiale : 1 000 m². Après doublement des deux côtés : 80 × 50 = 4 000 m², soit ×4.",
+        "hint": "Deux longueurs doublées, donc k² = 4."
+      }
+    ]
+  },
+  {
+    "id": "calc-pythagore",
+    "domain": "calcul",
+    "category": "Géométrie",
+    "title": "Pythagore et triplets utiles",
+    "tagline": "Dans un triangle rectangle, hypoténuse² = somme des carrés des deux autres côtés.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "pythagore",
+      "geometrie",
+      "aire"
+    ],
+    "related": [
+      "calc-aires-perimetres",
+      "calc-conversions-unites",
+      "calc-equations-premier-degre"
+    ],
+    "subtests": [
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Si le triangle ABC est rectangle en A, alors BC² = AB² + AC², où BC est l'hypoténuse — le côté opposé à l'angle droit, toujours le plus long. La réciproque est vraie aussi : si les carrés vérifient l'égalité, le triangle est rectangle."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les triplets pythagoriciens à reconnaître",
+        "items": [
+          "3 – 4 – 5 (et tous ses multiples : 6-8-10, 9-12-15, 30-40-50).",
+          "5 – 12 – 13.",
+          "8 – 15 – 17.",
+          "7 – 24 – 25.",
+          "9 – 40 – 41."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une échelle de 13 m est posée contre un mur, son pied à 5 m du mur. À quelle hauteur touche-t-elle le mur ?",
+        "reveal": "h² = 13² − 5² = 169 − 25 = 144, donc h = 12 m. Le triplet 5-12-13 permettait de répondre sans calcul."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Deux longueurs à connaître par cœur",
+        "items": [
+          "Diagonale d'un carré de côté a : a√2 ≈ 1,414 a.",
+          "Hauteur d'un triangle équilatéral de côté a : a√3/2 ≈ 0,866 a.",
+          "√2 ≈ 1,414 et √3 ≈ 1,732."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : additionner les côtés au lieu de leurs carrés. Un triangle de côtés 3 et 4 a une hypoténuse de 5, pas de 7. Autre piège : appliquer Pythagore à un triangle qui n'est pas rectangle — l'énoncé ou la figure doit le préciser."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "L'hypoténuse est toujours plus courte que la somme des deux autres côtés et plus longue que chacun d'eux pris isolément. Cet encadrement élimine la plupart des mauvaises réponses en QCM."
+      },
+      {
+        "type": "quiz",
+        "question": "Un écran de télévision mesure 96 cm de large et 54 cm de haut. Quelle est la longueur de sa diagonale ?",
+        "answer": "√(96² + 54²) = √(9 216 + 2 916) = √12 132 ≈ 110 cm.",
+        "hint": "Presque 110 : l'ordre de grandeur suffit souvent en QCM."
+      }
+    ]
+  }
+]

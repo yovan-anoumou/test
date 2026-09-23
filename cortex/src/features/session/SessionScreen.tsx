@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "preact/hooks";
 import {
   buildDailySession,
+  buildFicheSession,
   buildFocusedSession,
+  buildTimeBoxedSession,
   buildWeakReviewSession,
   type CardMeta,
   type SessionPlan,
@@ -20,6 +22,8 @@ import { loadQuestionBank, findSimilarQuestion } from "../../domain/questionBank
 import { getStrugglingQuestionIds } from "../../domain/scoring";
 import { difficultyTargets } from "../../domain/adaptive-difficulty";
 import { findFicheForQuestion } from "../../domain/fiches/links";
+import { loadFiches, ficheById } from "../../domain/fiches/bank";
+import type { Fiche } from "../../domain/fiches/types";
 import { SKILL_AREAS, difficultyLabel, type SkillAreaId } from "../../domain/skills";
 import type { Question } from "../../domain/question";
 import type {
@@ -73,6 +77,10 @@ function sessionKindFor(spec: SessionSpec): SessionKindRecord {
       return "focus";
     case "plan":
       return "plan";
+    case "fiche":
+      return "focus";
+    case "time":
+      return "custom";
   }
 }
 
@@ -83,6 +91,9 @@ function practiceModeFor(spec: SessionSpec): PracticeMode {
 function emptyMessageFor(spec: SessionSpec): string {
   if (spec.kind === "weak-review") {
     return "Aucune question marquée « Difficile » ou « À revoir » pour l'instant — continue comme ça !";
+  }
+  if (spec.kind === "fiche") {
+    return "Aucune question de la banque ne porte encore exactement sur les notions de cette fiche. Entraîne-toi sur le domaine complet, ou ajoute tes propres questions dans les réglages.";
   }
   if (spec.kind === "learning" || spec.kind === "focus") {
     return "Plus de questions disponibles sur ce domaine pour le moment. Reviens après avoir révisé d'autres matières, ou ajoute tes propres questions dans les réglages.";
@@ -109,6 +120,7 @@ export function SessionScreen({ spec }: Props) {
   const startRef = useRef<number>(performance.now());
   const planBlockRef = useRef<{ planId: string; block: PlanBlock } | null>(null);
   const bankRef = useRef<Question[]>([]);
+  const fichesRef = useRef<Fiche[]>([]);
   const queuedIdsRef = useRef<Set<string>>(new Set());
 
   const specKey = JSON.stringify(spec);
@@ -135,9 +147,15 @@ export function SessionScreen({ spec }: Props) {
     sessionStartedAtRef.current = new Date().toISOString();
 
     void (async () => {
-      const bank = await loadQuestionBank();
+      // Les fiches servent au renvoi « revoir la règle » après une erreur : leur
+      // échec de chargement ne doit jamais empêcher la session de démarrer.
+      const [bank, fiches] = await Promise.all([
+        loadQuestionBank(),
+        loadFiches().catch(() => [] as Fiche[]),
+      ]);
       if (cancelled) return;
       bankRef.current = bank;
+      fichesRef.current = fiches;
       const qMap = new Map(bank.map((q) => [q.id, q]));
       const meta = (card: CardRecord): CardMeta => {
         const question = qMap.get(card.questionId);
@@ -220,6 +238,39 @@ export function SessionScreen({ spec }: Props) {
           "learning",
         );
         label = spec.area ? `Apprentissage — ${SKILL_AREAS[spec.area].label}` : "Apprentissage";
+      } else if (spec.kind === "fiche") {
+        const fiche = ficheById(fiches, spec.ficheId);
+        if (!fiche) {
+          if (!cancelled) setPhase("empty");
+          return;
+        }
+        const ficheTags = new Set(fiche.tags);
+        const allowed = new Set(
+          bank.filter((q) => q.tags.some((t) => ficheTags.has(t))).map((q) => q.id),
+        );
+        const options =
+          spec.variant === "quick"
+            ? { budgetSeconds: 2 * 60, maxItems: 1, difficultyOrder: "asc" as const }
+            : spec.variant === "hard"
+              ? { budgetSeconds: 6 * 60, maxItems: 3, difficultyOrder: "desc" as const }
+              : { budgetSeconds: 8 * 60, maxItems: 8 };
+        rawPlan = buildFicheSession(due, fresh, allowed, meta, options);
+        label =
+          spec.variant === "quick"
+            ? `Question rapide — ${fiche.title}`
+            : spec.variant === "hard"
+              ? `Niveau concours — ${fiche.title}`
+              : `Test — ${fiche.title}`;
+      } else if (spec.kind === "time") {
+        rawPlan = buildTimeBoxedSession(
+          due,
+          fresh,
+          new Set(getStrugglingQuestionIds(reviews)),
+          spec.minutes * 60,
+          meta,
+          targets,
+        );
+        label = `${spec.minutes} minutes`;
       } else {
         rawPlan = buildDailySession(due, fresh, meta, spec.kind, targets);
         label = spec.kind === "short" ? "Session courte" : "Session du jour";
@@ -320,7 +371,13 @@ export function SessionScreen({ spec }: Props) {
 
   const item = plan.items[index];
   const question = questions.get(item.card.questionId)!;
-  const fiche = isLearning ? findFicheForQuestion(question.subtest, question.tags) : undefined;
+  const answeredWrong = phase === "revealed" && selected !== question.correctIndex;
+  // La fiche correspondante est proposée en apprentissage (toujours) et dans les
+  // autres modes uniquement après une erreur : c'est là qu'elle sert.
+  const fiche =
+    isLearning || answeredWrong
+      ? findFicheForQuestion(fichesRef.current, question.subtest, question.tags)
+      : undefined;
 
   function handleSelect(choiceIndex: number) {
     if (phase !== "answering") return;
@@ -423,7 +480,9 @@ export function SessionScreen({ spec }: Props) {
     <div class="screen stack">
       <div class="row" style={{ justifyContent: "space-between" }}>
         <span class="badge badge-muted">
-          {isLearning ? headerLabel : PHASE_LABELS[item.phase]}
+          {spec.kind === "learning" || spec.kind === "fiche" || spec.kind === "time"
+            ? headerLabel
+            : PHASE_LABELS[item.phase]}
         </span>
         <span class="text-muted" style={{ fontSize: 13 }}>
           {index + 1} / {plan.items.length}
@@ -527,12 +586,12 @@ export function SessionScreen({ spec }: Props) {
               <strong>Méthode</strong>
               <p style={{ margin: "4px 0 0" }}>{question.explanation.method}</p>
             </div>
-            {isLearning && fiche && (
+            {fiche && (
               <button
                 class="btn btn-secondary btn-block"
                 onClick={() => navigate({ name: "fiche", id: fiche.id })}
               >
-                📖 Revoir la fiche : {fiche.title}
+                📖 {answeredWrong && !isLearning ? "Revoir la règle" : "Revoir la fiche"} : {fiche.title}
               </button>
             )}
             {isLearning && selected === question.correctIndex && (

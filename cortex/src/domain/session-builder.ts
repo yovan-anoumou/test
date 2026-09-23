@@ -2,7 +2,7 @@ import type { CardRecord } from "../db/schema";
 import { interleaveBySubtest } from "../fsrs/queue";
 import type { SubtestId } from "./modules";
 
-export type SessionKind = "short" | "daily" | "weak-review" | "focus" | "learning";
+export type SessionKind = "short" | "daily" | "weak-review" | "focus" | "learning" | "fiche" | "time";
 
 export type SessionPhase = "warmup" | "due-mix" | "new-content" | "weak-review" | "focus";
 
@@ -173,6 +173,83 @@ export function buildFocusedSession(
 
   return {
     kind,
+    totalBudgetSeconds: budgetSeconds,
+    items: selected.map((card) => ({ card, phase: "focus" as const })),
+  };
+}
+
+/**
+ * Session ciblée sur les notions d'une fiche mémo : on ne tire que dans les
+ * questions dont les tags recoupent ceux de la fiche. C'est ce qui rend le
+ * bouton « Me tester » honnête — sinon on interrogerait tout le domaine.
+ *
+ * `difficultyOrder` sert aux variantes : « question rapide » prend le plus
+ * accessible, « question difficile » le plus exigeant.
+ */
+export function buildFicheSession(
+  dueCards: CardRecord[],
+  newCards: CardRecord[],
+  allowedQuestionIds: Set<string>,
+  meta: CardMetaLookup,
+  options: { budgetSeconds: number; maxItems?: number; difficultyOrder?: "asc" | "desc" },
+): SessionPlan {
+  const inScope = (card: CardRecord) => allowedQuestionIds.has(card.questionId);
+  const due = dueCards.filter(inScope);
+  const fresh = newCards.filter(inScope);
+
+  let ordered: CardRecord[];
+  if (options.difficultyOrder) {
+    const sign = options.difficultyOrder === "asc" ? 1 : -1;
+    ordered = [...due, ...fresh].sort(
+      (a, b) => sign * (meta(a).difficulty - meta(b).difficulty),
+    );
+  } else {
+    // Les cartes dues d'abord : consolider avant d'élargir.
+    ordered = [...interleaveBySubtest(due), ...interleaveBySubtest(fresh)];
+  }
+
+  let selected = fillByBudget(ordered, options.budgetSeconds, meta);
+  if (options.maxItems !== undefined) selected = selected.slice(0, options.maxItems);
+  // Une variante « une seule question » ne doit jamais rendre une session vide
+  // quand des cartes existent : fillByBudget peut tout écarter sur un budget ras.
+  if (selected.length === 0 && ordered.length > 0) selected = ordered.slice(0, options.maxItems ?? 1);
+
+  return {
+    kind: "fiche",
+    totalBudgetSeconds: selected.reduce(
+      (sum, c) => sum + meta(c).targetTimeSeconds * TIME_OVERHEAD_FACTOR,
+      0,
+    ),
+    items: selected.map((card) => ({ card, phase: "focus" as const })),
+  };
+}
+
+/**
+ * « J'ai N minutes » : ce qui rapporte le plus dans le temps disponible.
+ * Priorité aux questions déjà ratées, puis aux cartes dues (la répétition
+ * espacée a une raison de les proposer maintenant), puis au nouveau contenu.
+ */
+export function buildTimeBoxedSession(
+  dueCards: CardRecord[],
+  newCards: CardRecord[],
+  strugglingQuestionIds: Set<string>,
+  budgetSeconds: number,
+  meta: CardMetaLookup,
+  difficultyTargets: Map<SubtestId, number> = new Map(),
+): SessionPlan {
+  const struggling = dueCards.filter((c) => strugglingQuestionIds.has(c.questionId));
+  const strugglingIds = new Set(struggling.map((c) => c.questionId));
+  const otherDue = dueCards.filter((c) => !strugglingIds.has(c.questionId));
+
+  const ordered = [
+    ...interleaveBySubtest(struggling),
+    ...interleaveBySubtest(otherDue),
+    ...sortByDifficultyTarget(newCards, meta, difficultyTargets),
+  ];
+
+  const selected = fillByBudget(ordered, budgetSeconds, meta);
+  return {
+    kind: "time",
     totalBudgetSeconds: budgetSeconds,
     items: selected.map((card) => ({ card, phase: "focus" as const })),
   };

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "calcul-mental-astuces",
+    "domain": "vitesse",
+    "category": "Calcul mental",
+    "title": "Astuces de calcul mental",
+    "tagline": "De quoi accélérer chaque question, pas seulement le sous-test calcul mental.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "multiplication-approchee",
+      "division-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "calc-fractions-pourcentages",
+      "calc-coefficient-multiplicateur",
+      "calc-conversions-unites"
+    ],
+    "subtests": [
+      "calcul",
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Trois multiplications à automatiser",
+        "items": [
+          "×5 : multiplie par 10 puis divise par 2.",
+          "×11 (nombre à 2 chiffres) : additionne les deux chiffres et insère le résultat au milieu. Ex : 34 × 11 → 3+4=7 → 374.",
+          "×9 : multiplie par 10 puis soustrais le nombre de départ. Ex : 27 × 9 = 270 − 27 = 243."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La preuve par 9",
+        "body": "Pour vérifier un produit sans tout recalculer : réduis chaque facteur à un seul chiffre en additionnant ses chiffres (répète si besoin), multiplie ces deux chiffres réduits, réduis encore le résultat — il doit être égal à la réduction du produit final."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Le bon réflexe en session",
+        "body": "Sur le sous-test calcul mental, si un calcul te prend plus de 3 secondes de tête, c'est probablement qu'il existe une de ces astuces à appliquer plutôt que de poser l'opération."
+      }
+    ]
+  }
+]

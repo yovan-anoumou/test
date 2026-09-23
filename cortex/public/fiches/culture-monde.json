@@ -1,0 +1,85 @@
+[
+  {
+    "id": "culture-institutions",
+    "domain": "culture-generale",
+    "category": "Institutions",
+    "title": "Institutions à connaître",
+    "tagline": "BCE, CAC 40, AMF : trois acronymes, trois rôles bien distincts.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "institutions-europeennes",
+      "institutions-france",
+      "organisations-internationales"
+    ],
+    "related": [],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Qui fait quoi",
+        "headers": [
+          "Institution",
+          "Rôle"
+        ],
+        "rows": [
+          [
+            "BCE",
+            "Banque centrale européenne — fixe la politique monétaire de la zone euro, dont les taux directeurs."
+          ],
+          [
+            "CAC 40",
+            "Indice boursier regroupant les 40 plus grandes capitalisations cotées à la Bourse de Paris — c'est un indicateur, pas une institution qui régule."
+          ],
+          [
+            "AMF",
+            "Autorité des marchés financiers — régulateur français qui surveille les marchés financiers et protège les épargnants."
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Piège classique : confondre le CAC 40 (un indice, un thermomètre du marché) avec une autorité de régulation. C'est l'AMF qui régule en France, pas le CAC 40."
+      }
+    ]
+  },
+  {
+    "id": "culture-entreprise-enjeux",
+    "domain": "culture-generale",
+    "category": "Entreprises & enjeux",
+    "title": "Actualité entreprise & grands enjeux",
+    "tagline": "Les thèmes qui reviennent en entretien de motivation IAE / SKEMA.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "entreprises-france",
+      "entreprises-internationales",
+      "geopolitique",
+      "environnement"
+    ],
+    "related": [],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Thèmes à suivre",
+        "items": [
+          "Fusions-acquisitions récentes et résultats des grands groupes français (LVMH, TotalEnergies, Airbus…).",
+          "Levées de fonds notables dans les secteurs en croissance.",
+          "Transition écologique et son impact sur les modèles économiques des entreprises.",
+          "Intelligence artificielle et transformation des métiers.",
+          "Géopolitique et chaînes d'approvisionnement (relocalisation, dépendances stratégiques)."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Comment en parler en entretien",
+        "body": "N'essaie pas de réciter des chiffres précis (ils datent vite) : montre plutôt que tu comprends le mécanisme (pourquoi cette entreprise a relocalisé, pourquoi ce secteur attire les investisseurs) — c'est ce qui impressionne un jury, pas la mémorisation de statistiques."
+      }
+    ]
+  }
+]

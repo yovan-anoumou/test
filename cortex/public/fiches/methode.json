@@ -1,0 +1,31 @@
+[
+  {
+    "id": "culture-methode-veille",
+    "domain": "methode",
+    "category": "Méthode",
+    "title": "Méthode — comment réviser un domaine qui bouge vite",
+    "tagline": "Suivre un flux d'actu plutôt qu'apprendre une liste figée.",
+    "level": "fondamental",
+    "readMinutes": 1,
+    "tags": [
+      "economie",
+      "geopolitique"
+    ],
+    "related": [],
+    "subtests": [
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Le bon réflexe",
+        "body": "La culture générale business est un domaine qui évolue vite : une liste de faits appris par cœur aujourd'hui sera partiellement obsolète dans six mois. Mieux vaut suivre régulièrement un flux d'actualité économique (Les Échos, Le Figaro Économie…) que d'essayer de tout mémoriser d'un coup."
+      },
+      {
+        "type": "mnemonic",
+        "title": "10 minutes par jour suffisent",
+        "body": "Quelques minutes de lecture d'actu chaque jour, avec un vrai effort pour reformuler ce que tu as compris (à voix haute ou par écrit), retiennent bien mieux qu'une session de révision intensive une fois par mois."
+      }
+    ]
+  }
+]

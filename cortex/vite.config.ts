@@ -45,6 +45,11 @@ export default defineConfig({
             handler: "CacheFirst",
             options: { cacheName: "cortex-questions" },
           },
+          {
+            urlPattern: /\/fiches\/.*\.json$/,
+            handler: "CacheFirst",
+            options: { cacheName: "cortex-fiches" },
+          },
         ],
       },
       devOptions: { enabled: false },

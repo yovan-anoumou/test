@@ -1,0 +1,118 @@
+[
+  {
+    "id": "anglais-vocabulaire-business",
+    "domain": "anglais",
+    "category": "Vocabulaire business",
+    "title": "Vocabulaire business — les 12 thèmes à couvrir",
+    "tagline": "Le TOEIC teste la vie professionnelle courante, pas la littérature.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "vocabulaire-affaires",
+      "collocation"
+    ],
+    "related": [],
+    "subtests": [
+      "grammaire",
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les thèmes à réviser",
+        "items": [
+          "Appels téléphoniques",
+          "Achats et ventes",
+          "Droit et fiscalité",
+          "Entreprise et produit",
+          "Vie d'entreprise",
+          "Commercialisation et publicité",
+          "Ressources humaines",
+          "Banque et finances",
+          "Immobilier",
+          "Paiement",
+          "Voyages d'affaires",
+          "Transports"
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Comment réviser efficacement",
+        "body": "Priorise les emails, réunions, contrats et chiffres d'affaires — c'est exactement ce que teste le TOEIC. Le vocabulaire littéraire ou familier n'apparaît quasiment jamais."
+      }
+    ]
+  },
+  {
+    "id": "anglais-pieges-francophones",
+    "domain": "anglais",
+    "category": "Faux amis",
+    "title": "Les pièges classiques pour francophones",
+    "tagline": "Faux amis, homonymes, paronymes : les erreurs qui reviennent le plus.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "faux-amis",
+      "paronymes",
+      "confusion-frequente"
+    ],
+    "related": [],
+    "subtests": [
+      "grammaire",
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "warning",
+        "body": "Un mot anglais qui ressemble à un mot français n'a pas forcément le même sens. Ces faux amis sont l'un des pièges les plus fréquents du TOEIC pour un francophone."
+      },
+      {
+        "type": "table",
+        "title": "Faux amis fréquents au TOEIC",
+        "headers": [
+          "Mot anglais",
+          "Piège",
+          "Sens réel"
+        ],
+        "rows": [
+          [
+            "actually",
+            "≠ actuellement",
+            "en fait / en réalité"
+          ],
+          [
+            "eventually",
+            "≠ éventuellement",
+            "finalement / à terme"
+          ],
+          [
+            "assist",
+            "≠ assister (à une réunion)",
+            "aider"
+          ],
+          [
+            "attend",
+            "≠ attendre",
+            "assister à / participer à"
+          ],
+          [
+            "sensible",
+            "≠ sensible",
+            "raisonnable / sensé"
+          ],
+          [
+            "library",
+            "≠ librairie",
+            "bibliothèque"
+          ]
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Le réflexe à avoir",
+        "body": "Si un mot anglais « te semble trop familier », méfie-toi : c'est souvent le signe d'un faux ami. Vérifie le sens dans le contexte de la phrase plutôt que de te fier à la ressemblance avec le français."
+      }
+    ]
+  }
+]

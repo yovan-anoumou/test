@@ -18,11 +18,38 @@ recherche :
 - **Interleaving** — les matières sont mélangées dans chaque session, jamais
   en blocs par thème.
 
+## Les fiches mémo
+
 En complément des QCM, l'onglet **Fiches mémo** propose des fiches de
-référence (règles, exemples à révéler, astuces, pièges classiques, petits
-diagrammes) pour découvrir ou consolider les bases avant de s'entraîner —
-lecture active plutôt que passive, avec un renvoi direct vers une session de
-QCM à la fin de chaque fiche. Contenu dans `src/domain/fiches/`.
+référence structurées de la même façon : *à retenir* en une phrase,
+explication, exemple à révéler, **piège classique**, astuce, notions à relier,
+et une **mini-question** à laquelle on répond de tête avant de dérouler la
+réponse. Lecture active, jamais passive.
+
+- **Recherche et filtres** — recherche plein texte (insensible aux accents) sur
+  le titre, les tags et le corps des fiches ; filtres par état de maîtrise
+  (non étudiée / à revoir / point faible / en cours / maîtrisée / automatique)
+  et par niveau (fondamental, intermédiaire, avancé).
+- **Favoris** — « Mes fiches » regroupe celles que tu as marquées comme
+  importantes.
+- **Maîtrise calculée, pas déclarative** (`src/domain/fiches/mastery.ts`) — une
+  fiche n'est pas « acquise » parce qu'on l'a lue : son état est déduit des
+  réponses aux QCM portant sur ses tags, précision **et** vitesse. D'où la
+  distinction entre *maîtrisée* (je sais faire) et *automatique* (je sais faire
+  vite) : c'est cette dernière marche qui compte sur une épreuve chronométrée.
+- **Lien fiche ↔ QCM** — depuis une fiche, *Me tester* / *Question rapide* /
+  *Question difficile* tirent uniquement dans les questions qui partagent ses
+  tags. Inversement, après une erreur en session, l'app propose la fiche qui
+  explique la règle.
+- **« J'ai quelques minutes »** — 5, 10, 15, 30 ou 60 minutes : Cortex compose
+  une session avec ce qui rapporte le plus dans le temps disponible (questions
+  déjà ratées d'abord, puis cartes dues, puis nouveau contenu).
+- **Relecture espacée** — après lecture, une fiche revient dans « À revoir »
+  selon son état de maîtrise (2 jours en découverte, 30 jours en automatique).
+
+Le contenu des fiches est en JSON dans
+[`public/fiches/`](public/fiches/SCHEMA.md) (chargé à la demande, comme les
+questions), et le modèle de données dans `src/domain/fiches/`.
 
 ## Le coach : diagnostic → plan → adaptation
 
@@ -79,6 +106,9 @@ npm run test                # tests unitaires (vitest) : moteur FSRS,
                              # estimation de score
 npm run validate:questions  # valide toutes les banques de questions
                              # (public/questions/*.json) contre le schéma
+npm run validate:fiches     # valide les fiches mémo (public/fiches/*.json) :
+                             # schéma, liens entre fiches, et cohérence des
+                             # tags avec la banque de questions
 npm run generate:icons      # régénère les icônes PWA (public/icons/)
 ```
 
@@ -92,6 +122,7 @@ src/
                  construction de session (interleaving), difficulté adaptative,
                  analyse des compétences, diagnostic, plan d'entraînement,
                  scoring, estimation de score TAGE 2, test blanc, fiches mémo
+                 (chargement, recherche, maîtrise, liens vers les QCM)
   services/      Orchestration (chargement et adaptation du plan)
   features/      Écrans (home, session, diagnostic, plan, mock-exam, dashboard,
                  historique, réglages, onboarding, fiches mémo)
@@ -99,6 +130,7 @@ src/
                  maîtrise, icônes, diagrammes des fiches mémo)
 public/
   questions/     Banque de questions (JSON), voir SCHEMA.md
+  fiches/        Banque de fiches mémo (JSON), voir SCHEMA.md
   icons/         Icônes PWA
 ```
 
@@ -116,7 +148,7 @@ ou import direct depuis l'app dans *Réglages*).
 ## Sauvegarder mes données
 
 Toutes tes données (progression FSRS, historique de réponses, sessions,
-tests blancs) sont stockées uniquement dans le navigateur (IndexedDB) —
+tests blancs, diagnostics, plan, fiches lues et favorites) sont stockées uniquement dans le navigateur (IndexedDB) —
 rien n'est envoyé nulle part.
 
 Pour ne rien perdre (changement d'appareil, réinstallation, nettoyage du

@@ -1,13 +1,17 @@
-// Relie une question à la fiche mémo la plus pertinente : en mode
-// apprentissage, on doit pouvoir passer de l'erreur à la règle correspondante.
+// Relie une question à la fiche mémo la plus pertinente, et inversement : en
+// mode apprentissage on doit pouvoir passer de l'erreur à la règle, et depuis
+// une fiche lancer un entraînement sur exactement ses notions.
+//
+// Le lien principal passe par les *tags* : les tags des fiches sont écrits pour
+// correspondre à ceux de la banque de questions (voir public/fiches/SCHEMA.md).
 
 import type { SubtestId } from "../modules";
-import { ALL_FICHES } from "./index";
+import { SKILL_AREAS, type SkillAreaId } from "../skills";
 import type { Fiche, FicheDomainId } from "./types";
 
 const SUBTEST_TO_FICHE_DOMAIN: Record<SubtestId, FicheDomainId> = {
   calcul: "calcul",
-  "calcul-mental": "calcul",
+  "calcul-mental": "vitesse",
   "logique-verbale-numerique": "logique",
   "logique-spatiale": "logique",
   raisonnement: "logique",
@@ -15,7 +19,7 @@ const SUBTEST_TO_FICHE_DOMAIN: Record<SubtestId, FicheDomainId> = {
   vocabulaire: "anglais",
   comprehension: "anglais",
   lexiphrase: "vocabulaire",
-  paratexte: "vocabulaire",
+  paratexte: "comprehension",
   "culture-generale": "culture-generale",
 };
 
@@ -23,42 +27,50 @@ export function ficheDomainForSubtest(subtest: SubtestId): FicheDomainId {
   return SUBTEST_TO_FICHE_DOMAIN[subtest];
 }
 
-function normalize(text: string): string[] {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .split(/[^a-z0-9]+/)
-    .filter((word) => word.length > 3);
+/** Domaine de compétences correspondant à un domaine de fiches (pour un entraînement ciblé). */
+export function areaForFicheDomain(domain: FicheDomainId): SkillAreaId {
+  switch (domain) {
+    case "vitesse":
+      return "calcul";
+    case "methode":
+      return "culture-generale";
+    default:
+      return domain;
+  }
+}
+
+/** Sous-tests à interroger pour s'entraîner sur une fiche donnée. */
+export function subtestsForFiche(fiche: Fiche): SubtestId[] {
+  if (fiche.subtests && fiche.subtests.length > 0) return fiche.subtests;
+  return SKILL_AREAS[areaForFicheDomain(fiche.domain)].subtests;
 }
 
 /**
- * Fiche la plus proche d'une question : même domaine, puis meilleur
- * recouvrement de mots entre les tags de la question et le titre/résumé de la
- * fiche. À défaut, la première fiche du domaine (toujours pertinente).
+ * Fiches candidates pour une question, les plus pertinentes d'abord.
+ * Score : tags en commun (fort), puis même sous-test déclaré, puis même domaine.
  */
-export function findFicheForQuestion(subtest: SubtestId, tags: string[]): Fiche | undefined {
+export function fichesForQuestion(all: Fiche[], subtest: SubtestId, tags: string[]): Fiche[] {
   const domain = ficheDomainForSubtest(subtest);
-  const candidates = ALL_FICHES.filter((f) => f.domain === domain);
-  if (candidates.length === 0) return undefined;
+  const questionTags = new Set(tags);
 
-  const tagWords = new Set(tags.flatMap(normalize));
-  if (tagWords.size === 0) return candidates[0];
+  const scored = all
+    .map((fiche) => {
+      const sharedTags = fiche.tags.filter((t) => questionTags.has(t)).length;
+      const sameSubtest = fiche.subtests?.includes(subtest) ? 1 : 0;
+      const sameDomain = fiche.domain === domain ? 1 : 0;
+      return { fiche, score: sharedTags * 10 + sameSubtest * 3 + sameDomain };
+    })
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score);
 
-  let best = candidates[0];
-  let bestScore = 0;
-  for (const fiche of candidates) {
-    const ficheWords = new Set([
-      ...normalize(fiche.id),
-      ...normalize(fiche.title),
-      ...normalize(fiche.tagline),
-    ]);
-    let score = 0;
-    for (const word of tagWords) if (ficheWords.has(word)) score++;
-    if (score > bestScore) {
-      best = fiche;
-      bestScore = score;
-    }
-  }
-  return best;
+  return scored.map((s) => s.fiche);
+}
+
+/** Fiche la plus proche d'une question — celle à proposer après une erreur. */
+export function findFicheForQuestion(
+  all: Fiche[],
+  subtest: SubtestId,
+  tags: string[],
+): Fiche | undefined {
+  return fichesForQuestion(all, subtest, tags)[0];
 }

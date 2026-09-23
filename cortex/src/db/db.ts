@@ -46,6 +46,11 @@ export function getDB(): Promise<IDBPDatabase<CortexDBSchema>> {
           const plans = db.createObjectStore("plans", { keyPath: "id" });
           plans.createIndex("by-createdAt", "createdAt");
         }
+
+        if (oldVersion < 3) {
+          const ficheProgress = db.createObjectStore("ficheProgress", { keyPath: "ficheId" });
+          ficheProgress.createIndex("by-lastReadAt", "lastReadAt");
+        }
       },
     });
     dbPromise.then(async (db) => {

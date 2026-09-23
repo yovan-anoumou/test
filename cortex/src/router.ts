@@ -1,5 +1,5 @@
 import { signal } from "@preact/signals";
-import type { FicheDomainId } from "./domain/fiches/types";
+import { FICHE_DOMAIN_IDS, type FicheDomainId } from "./domain/fiches/types";
 import { SKILL_AREA_IDS, type SkillAreaId } from "./domain/skills";
 
 /** Ce qu'une session doit contenir — décidé par l'URL, exécuté par SessionScreen. */
@@ -9,7 +9,16 @@ export type SessionSpec =
   | { kind: "weak-review" }
   | { kind: "learning"; area: SkillAreaId | null }
   | { kind: "focus"; area: SkillAreaId; minutes: number }
-  | { kind: "plan"; blockId: string };
+  | { kind: "plan"; blockId: string }
+  /** Entraînement ciblé sur les notions d'une fiche mémo. */
+  | { kind: "fiche"; ficheId: string; variant: FicheSessionVariant }
+  /** « J'ai N minutes » : ce qui rapporte le plus dans le temps disponible. */
+  | { kind: "time"; minutes: number };
+
+/** Ce qu'on demande depuis une fiche : un vrai test, un rappel éclair, ou le niveau concours. */
+export type FicheSessionVariant = "test" | "quick" | "hard";
+
+const FICHE_SESSION_VARIANTS: FicheSessionVariant[] = ["test", "quick", "hard"];
 
 export type Route =
   | { name: "home" }
@@ -25,14 +34,6 @@ export type Route =
   | { name: "diagnostic" }
   | { name: "diagnostic-result"; id: string }
   | { name: "plan" };
-
-const FICHE_DOMAIN_IDS: FicheDomainId[] = [
-  "calcul",
-  "logique",
-  "anglais",
-  "vocabulaire",
-  "culture-generale",
-];
 
 function parseArea(value: string | undefined): SkillAreaId | null {
   return SKILL_AREA_IDS.find((a) => a === value) ?? null;
@@ -56,6 +57,14 @@ function parseSessionSpec(p1: string | undefined, p2: string | undefined, p3: st
     }
     case "plan":
       return p2 ? { kind: "plan", blockId: p2 } : { kind: "daily" };
+    case "fiche": {
+      const variant = FICHE_SESSION_VARIANTS.find((v) => v === p3) ?? "test";
+      return p2 ? { kind: "fiche", ficheId: p2, variant } : { kind: "daily" };
+    }
+    case "time": {
+      const minutes = Number(p2);
+      return Number.isFinite(minutes) && minutes > 0 ? { kind: "time", minutes } : { kind: "daily" };
+    }
     default:
       return { kind: "daily" };
   }
@@ -69,6 +78,10 @@ function sessionPath(spec: SessionSpec): string {
       return `session/focus/${spec.area}/${spec.minutes}`;
     case "plan":
       return `session/plan/${spec.blockId}`;
+    case "fiche":
+      return `session/fiche/${spec.ficheId}/${spec.variant}`;
+    case "time":
+      return `session/time/${spec.minutes}`;
     default:
       return `session/${spec.kind}`;
   }

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "vocabulaire-comprehension-texte",
+    "domain": "comprehension",
+    "category": "Méthode de lecture",
+    "title": "Méthode — compréhension de texte",
+    "tagline": "L'ordre de lecture change tout : questions avant le texte.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "comprehension",
+      "idee-principale",
+      "structure-argumentative"
+    ],
+    "related": [],
+    "subtests": [
+      "lexiphrase",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "mnemonic",
+        "title": "Lire les questions avant le texte",
+        "body": "Tu sais alors exactement quoi chercher pendant la lecture, au lieu de devoir relire le texte une deuxième fois une fois les questions découvertes. Ça fait gagner un temps précieux, la vraie contrainte de ce sous-test."
+      },
+      {
+        "type": "rule",
+        "title": "Repérer les mots de liaison",
+        "body": "Ils indiquent la structure argumentative du texte : mais, cependant, en revanche (opposition) — par conséquent, donc (conséquence) — en effet, car (justification). Les questions portent très souvent exactement sur ces articulations logiques."
+      }
+    ]
+  }
+]

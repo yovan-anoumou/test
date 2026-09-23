@@ -1,0 +1,47 @@
+[
+  {
+    "id": "anglais-grammaire-prioritaire",
+    "domain": "anglais",
+    "category": "Grammaire",
+    "title": "Grammaire TOEIC — les points prioritaires",
+    "tagline": "Ce qui revient le plus souvent dans les « Incomplete Sentences ».",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "temps-verbaux",
+      "voix-passive",
+      "modaux",
+      "prepositions",
+      "connecteurs"
+    ],
+    "related": [],
+    "subtests": [
+      "grammaire",
+      "vocabulaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "10 points à maîtriser en priorité",
+        "items": [
+          "Voix passive vs active — qui SUBIT l'action détermine la voix à utiliser.",
+          "Verbes modaux (must, should, might, can…) — chacun porte un degré d'obligation ou de certitude différent.",
+          "Prépositions figées après un nom, un verbe ou un adjectif précis (ex : responsible FOR, interested IN) — ça s'apprend par cœur, pas par logique.",
+          "Comparatifs et superlatifs — attention aux formes irrégulières (good → better → best).",
+          "Gérondif vs infinitif (verbe + -ing vs verbe + to) — certains verbes n'acceptent que l'un des deux.",
+          "Temps du présent, du passé et le futur — repère toujours le marqueur temporel dans la phrase (yesterday, next month, since…).",
+          "Verbes à particules (phrasal verbs) — le sens change complètement selon la particule (look FOR ≠ look AFTER).",
+          "Pronoms et adjectifs possessifs.",
+          "Mots de liaison (however, therefore, although…) — ils indiquent la logique de la phrase (opposition, conséquence…).",
+          "Question tags."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Le réflexe Part 5",
+        "body": "Avant de lire les 4 choix, repère d'abord la fonction du mot qui manque (verbe ? préposition ? connecteur ?) — ça élimine déjà la moitié des pièges sans même comparer les options entre elles."
+      }
+    ]
+  }
+]

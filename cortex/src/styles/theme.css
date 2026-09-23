@@ -24,6 +24,11 @@
   --color-pink-bg: rgba(255, 45, 85, 0.12);
   --color-indigo: #5856d6;
   --color-indigo-bg: rgba(88, 86, 214, 0.12);
+  --color-green: #34c759; /* systemGreen */
+  --color-green-bg: rgba(52, 199, 89, 0.12);
+  --color-orange: #ff9500; /* systemOrange */
+  --color-orange-bg: rgba(255, 149, 0, 0.12);
+  --color-text-tertiary: #8a8a8e; /* tertiaryLabel */
   --radius-sm: 10px;
   --radius-md: 14px;
   --radius-lg: 20px;
@@ -57,6 +62,11 @@
     --color-pink-bg: rgba(255, 55, 95, 0.18);
     --color-indigo: #5e5ce6;
     --color-indigo-bg: rgba(94, 92, 230, 0.18);
+    --color-green: #30d158;
+    --color-green-bg: rgba(48, 209, 88, 0.18);
+    --color-orange: #ff9f0a;
+    --color-orange-bg: rgba(255, 159, 10, 0.18);
+    --color-text-tertiary: #7c7c81;
   }
 }
 
@@ -84,4 +94,9 @@
   --color-pink-bg: rgba(255, 55, 95, 0.18);
   --color-indigo: #5e5ce6;
   --color-indigo-bg: rgba(94, 92, 230, 0.18);
+  --color-green: #30d158;
+  --color-green-bg: rgba(48, 209, 88, 0.18);
+  --color-orange: #ff9f0a;
+  --color-orange-bg: rgba(255, 159, 10, 0.18);
+  --color-text-tertiary: #7c7c81;
 }

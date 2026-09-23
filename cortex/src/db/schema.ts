@@ -191,6 +191,29 @@ export interface TrainingPlanRecord {
   archivedAt: string | null;
 }
 
+// ---------------------------------------------------------------------------
+// Fiches mémo (progression de lecture)
+// ---------------------------------------------------------------------------
+
+/**
+ * Ce que l'app sait d'une fiche pour *cet* utilisateur. Le contenu de la fiche
+ * lui-même reste statique (public/fiches/*.json) ; ici on ne stocke que la
+ * trace d'usage. La maîtrise, elle, est recalculée à partir des réponses aux
+ * questions liées (voir `domain/fiches/mastery.ts`) — on ne la stocke pas pour
+ * qu'elle reste toujours cohérente avec l'historique réel.
+ * Ajouté en v3.
+ */
+export interface FicheProgressRecord {
+  ficheId: string;
+  readCount: number;
+  lastReadAt: string | null;
+  /** Marquée comme importante par l'utilisateur (« Mes fiches »). */
+  favorite: boolean;
+  /** Mini-questions de la fiche : tentatives et auto-évaluations réussies. */
+  quizAttempts: number;
+  quizCorrect: number;
+}
+
 export interface CortexDBSchema extends DBSchema {
   cards: {
     key: string; // questionId
@@ -221,7 +244,12 @@ export interface CortexDBSchema extends DBSchema {
     value: TrainingPlanRecord;
     indexes: { "by-createdAt": string };
   };
+  ficheProgress: {
+    key: string; // ficheId
+    value: FicheProgressRecord;
+    indexes: { "by-lastReadAt": string };
+  };
 }
 
 export const DB_NAME = "cortex-db";
-export const DB_VERSION = 2;
+export const DB_VERSION = 3;

@@ -2,7 +2,14 @@ import { useState } from "preact/hooks";
 import type { FicheBlock } from "../../domain/fiches/types";
 import { SeriesMethodDiagram, ReasoningTypesDiagram, PercentChainDiagram } from "../../components/FicheDiagrams";
 
-export function FicheBlockView({ block }: { block: FicheBlock }) {
+export function FicheBlockView({
+  block,
+  onSelfCheck,
+}: {
+  block: FicheBlock;
+  /** Auto-évaluation sur une mini-question, quand la fiche est ouverte en détail. */
+  onSelfCheck?: (correct: boolean) => void;
+}) {
   switch (block.type) {
     case "rule":
       return (
@@ -84,6 +91,9 @@ export function FicheBlockView({ block }: { block: FicheBlock }) {
         </div>
       );
 
+    case "quiz":
+      return <QuizBlock block={block} onSelfCheck={onSelfCheck} />;
+
     case "diagram":
       return <DiagramBlock kind={block.kind} />;
 
@@ -106,6 +116,88 @@ function ExampleBlock({ block }: { block: Extract<FicheBlock, { type: "example" 
       ) : (
         <button class="btn btn-secondary" style={{ padding: "8px 14px", fontSize: 14 }} onClick={() => setRevealed(true)}>
           Voir la solution
+        </button>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Mini-question de fin de fiche : on répond de tête, puis on déroule. Le rappel
+ * actif est ce qui fait tenir la notion — d'où la réponse masquée par défaut.
+ */
+function QuizBlock({
+  block,
+  onSelfCheck,
+}: {
+  block: Extract<FicheBlock, { type: "quiz" }>;
+  onSelfCheck?: (correct: boolean) => void;
+}) {
+  const [revealed, setRevealed] = useState(false);
+  const [hintShown, setHintShown] = useState(false);
+  const [answered, setAnswered] = useState<boolean | null>(null);
+
+  return (
+    <div class="fiche-quiz">
+      <div class="fiche-quiz-label">Mini-question</div>
+      <p style={{ margin: "0 0 10px", fontWeight: 600 }}>{block.question}</p>
+
+      {block.hint && !revealed && (
+        hintShown ? (
+          <p class="text-muted" style={{ margin: "0 0 10px", fontSize: 14 }}>
+            Indice : {block.hint}
+          </p>
+        ) : (
+          <button
+            class="btn btn-secondary"
+            style={{ padding: "6px 12px", fontSize: 13.5, marginBottom: 10 }}
+            onClick={() => setHintShown(true)}
+          >
+            Un indice
+          </button>
+        )
+      )}
+
+      {revealed ? (
+        <>
+          <p style={{ margin: 0 }}>{block.answer}</p>
+          {onSelfCheck &&
+            (answered === null ? (
+              <div class="fiche-selfcheck">
+                <button
+                  class="btn btn-secondary"
+                  onClick={() => {
+                    setAnswered(true);
+                    onSelfCheck(true);
+                  }}
+                >
+                  J'avais juste
+                </button>
+                <button
+                  class="btn btn-secondary"
+                  onClick={() => {
+                    setAnswered(false);
+                    onSelfCheck(false);
+                  }}
+                >
+                  J'avais faux
+                </button>
+              </div>
+            ) : (
+              <p class="text-muted" style={{ margin: "10px 0 0", fontSize: 13.5 }}>
+                {answered
+                  ? "Noté. Enchaîne sur « Me tester » pour vérifier que ça tient en conditions réelles."
+                  : "Noté — cette fiche reviendra plus tôt dans « À revoir »."}
+              </p>
+            ))}
+        </>
+      ) : (
+        <button
+          class="btn btn-secondary"
+          style={{ padding: "8px 14px", fontSize: 14 }}
+          onClick={() => setRevealed(true)}
+        >
+          Voir la réponse
         </button>
       )}
     </div>
