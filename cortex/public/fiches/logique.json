@@ -13,7 +13,12 @@
       "geometrique",
       "suites-entrelacees"
     ],
-    "related": [],
+    "related": [
+      "log-suites-methode",
+      "log-suites-arithmetiques",
+      "log-suites-geometriques",
+      "log-suites-entrelacees"
+    ],
     "subtests": [
       "logique-verbale-numerique",
       "logique-spatiale",
@@ -52,8 +57,15 @@
         "title": "Suites imbriquées",
         "prompt": "7, 8, 6, 9, 5, 10, 4, 11, ?",
         "reveal": "En séparant les positions impaires et paires, on obtient deux sous-suites : 7, 6, 5, 4… (qui descend) et 8, 9, 10, 11… (qui monte). La suite continue sur la sous-suite qui descend → 3."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans quel ordre tester les hypothèses face à une série numérique ?",
+        "answer": "Les écarts d'abord (différences successives), puis les ratios. Environ 80 % des séries se résolvent à l'une de ces deux étapes. Les suites imbriquées ne viennent qu'ensuite : les tester en premier fait perdre du temps sur des séries en réalité simples.",
+        "hint": "Deux tests suffisent dans la grande majorité des cas."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "logique-series-lettres",
@@ -67,7 +79,12 @@
       "suites-lettres",
       "alternance"
     ],
-    "related": [],
+    "related": [
+      "log-lettres-alphabet",
+      "log-lettres-ecarts",
+      "log-lettres-entrelacees",
+      "log-suites-methode"
+    ],
     "subtests": [
       "logique-verbale-numerique",
       "logique-spatiale",
@@ -87,8 +104,15 @@
         "type": "mnemonic",
         "title": "L'astuce qui débloque tout",
         "body": "Bloqué ? Numérote les lettres (A=1, B=2, C=3…) pour transformer la série de lettres en série numérique, puis applique la méthode des 4 réflexes vue juste avant."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle transformation débloque une série de lettres qui résiste ?",
+        "answer": "Remplacer chaque lettre par son rang dans l'alphabet (A = 1, B = 2, C = 3…). La série de lettres devient une série numérique, sur laquelle s'applique la méthode habituelle : écarts, puis ratios. Un décalage constant dans l'alphabet devient une différence constante entre les nombres.",
+        "hint": "Transformez les lettres en nombres."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "logique-spatiale",
@@ -105,7 +129,12 @@
       "pliage",
       "cube"
     ],
-    "related": [],
+    "related": [
+      "log-spatiale-rotation",
+      "log-spatiale-symetrie",
+      "log-spatiale-pliage",
+      "log-spatiale-cube"
+    ],
     "subtests": [
       "logique-verbale-numerique",
       "logique-spatiale",
@@ -125,8 +154,21 @@
       {
         "type": "warning",
         "body": "C'est le sous-test le plus chronophage si tu n'es pas entraîné. Vise 10 questions en 4 minutes maximum — au-delà, tu grignotes sur le temps des autres sous-tests le jour du test blanc."
+      },
+      {
+        "type": "example",
+        "title": "L'invariant situe, un second élément tranche",
+        "prompt": "Figure 1 : triangle noir en haut à gauche, cercle blanc au centre, croix en bas à droite. Figure 2 : triangle noir en haut à droite, cercle blanc au centre, croix en bas à gauche. Demi-tour ou symétrie d'axe vertical ?",
+        "reveal": "Symétrie d'axe vertical. Le cercle central est l'invariant : il situe le centre ou l'axe de la transformation, mais ne dit pas encore laquelle. C'est le triangle qui tranche. Un demi-tour l'aurait envoyé du coin haut gauche au coin bas droite, en diagonale. Une symétrie d'axe vertical l'envoie en haut à droite, ce qui est le cas ici — et la croix confirme, de bas droite à bas gauche. Méthode : l'invariant localise la transformation, un élément mobile en détermine la nature."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel est le point d'ancrage à chercher en premier sur une question de logique spatiale ?",
+        "answer": "L'élément qui NE change PAS d'une figure à l'autre. Il sert de repère fixe : en le suivant, on identifie précisément la transformation appliquée au reste — rotation et de combien de degrés, symétrie et selon quel axe, ajout ou suppression d'un élément.",
+        "hint": "Cherchez l'invariant avant la variation."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "logique-raisonnement",
@@ -142,7 +184,12 @@
       "biais-cognitif",
       "piege-logique"
     ],
-    "related": [],
+    "related": [
+      "log-syllogisme",
+      "log-implication",
+      "log-piege-logique",
+      "log-biais-cognitifs"
+    ],
     "subtests": [
       "logique-verbale-numerique",
       "logique-spatiale",
@@ -163,8 +210,15 @@
         "title": "Repérer l'hypothèse implicite",
         "prompt": "« Les ventes de parapluies ont augmenté de 30 % ce trimestre, donc il a beaucoup plu. » Quelle est l'hypothèse implicite ?",
         "reveal": "Que la hausse des ventes de parapluies n'a qu'une seule cause possible (la pluie). Pour affaiblir l'argument, il suffit de proposer une autre cause plausible (une campagne marketing, un magasin qui ouvre, une mode). Pour le renforcer, il faudrait exclure ces causes alternatives."
+      },
+      {
+        "type": "quiz",
+        "question": "« Les ventes de parapluies ont augmenté de 30 %, donc il a beaucoup plu. » Quelle est l'hypothèse implicite ?",
+        "answer": "Que la pluie est la seule cause possible d'une hausse des ventes de parapluies. Or une promotion, un nouveau point de vente, un effet de mode ou un réapprovisionnement après pénurie l'expliqueraient aussi. C'est cette hypothèse non démontrée qu'il faut attaquer pour affaiblir l'argument.",
+        "hint": "Quelle autre cause l'auteur a-t-il écartée sans le dire ?"
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "log-suites-methode",

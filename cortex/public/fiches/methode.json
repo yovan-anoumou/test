@@ -11,7 +11,12 @@
       "economie",
       "geopolitique"
     ],
-    "related": [],
+    "related": [
+      "meth-culture-actualite",
+      "meth-recuperation-active",
+      "monde-medias",
+      "meth-repetition-espacee"
+    ],
     "subtests": [
       "culture-generale"
     ],
@@ -25,8 +30,26 @@
         "type": "mnemonic",
         "title": "10 minutes par jour suffisent",
         "body": "Quelques minutes de lecture d'actu chaque jour, avec un vrai effort pour reformuler ce que tu as compris (à voix haute ou par écrit), retiennent bien mieux qu'une session de révision intensive une fois par mois."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Une routine de dix minutes",
+        "items": [
+          "Parcourir les titres économiques d'un quotidien de référence, sans lire les articles en entier.",
+          "Pour chaque information retenue : de quel mécanisme déjà connu est-elle une illustration ?",
+          "Reformuler à voix haute ou par écrit, sans regarder l'article — c'est l'étape qui fait mémoriser.",
+          "Ne noter que ce qui éclaire une notion de fiche, jamais le fait divers.",
+          "Une fois par semaine, revérifier deux ou trois chiffres à la source primaire (Insee, Banque de France, institution concernée)."
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi reformuler à voix haute ce qu'on vient de lire dans l'actualité ?",
+        "answer": "Parce que reformuler est une récupération active : on restitue sans le support sous les yeux. C'est la technique la mieux établie par la recherche, alors que la simple relecture de l'article figure parmi les moins efficaces. Quelques minutes par jour avec reformulation valent mieux qu'une longue session de lecture passive.",
+        "hint": "Que faites-vous de plus que lire ?"
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "meth-strategie-qcm",

@@ -13,7 +13,12 @@
       "indicateurs",
       "politique-monetaire"
     ],
-    "related": [],
+    "related": [
+      "eco-inflation",
+      "eco-politique-monetaire",
+      "eco-taux-interet",
+      "eco-pib"
+    ],
     "subtests": [
       "culture-generale"
     ],
@@ -31,8 +36,15 @@
         "type": "mnemonic",
         "title": "Le lien entre les trois",
         "body": "Quand l'inflation monte, la banque centrale relève souvent ses taux directeurs pour la freiner — mais des taux plus élevés ralentissent l'investissement des entreprises et donc, in fine, la croissance du PIB. Retiens cet enchaînement plutôt que chaque notion isolément."
+      },
+      {
+        "type": "quiz",
+        "question": "Par quel enchaînement une hausse des taux directeurs freine-t-elle l'inflation ?",
+        "answer": "Des taux directeurs plus élevés renchérissent le crédit bancaire ; les ménages et les entreprises empruntent moins, donc consomment et investissent moins ; la demande globale ralentit, ce qui réduit la pression sur les prix. Le coût de ce freinage est un ralentissement de la croissance.",
+        "hint": "Taux → crédit → demande → prix."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "eco-pib",

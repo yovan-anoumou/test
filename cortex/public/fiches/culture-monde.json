@@ -12,7 +12,12 @@
       "institutions-france",
       "organisations-internationales"
     ],
-    "related": [],
+    "related": [
+      "eco-cac40",
+      "ue-institutions",
+      "eco-bourse",
+      "eco-politique-monetaire"
+    ],
     "subtests": [
       "culture-generale"
     ],
@@ -42,8 +47,15 @@
       {
         "type": "warning",
         "body": "Piège classique : confondre le CAC 40 (un indice, un thermomètre du marché) avec une autorité de régulation. C'est l'AMF qui régule en France, pas le CAC 40."
+      },
+      {
+        "type": "quiz",
+        "question": "Le CAC 40 régule-t-il les marchés financiers français ?",
+        "answer": "Non. Le CAC 40 est un INDICE boursier : un thermomètre qui mesure l'évolution des 40 plus grandes capitalisations cotées à Paris. Le régulateur français est l'Autorité des marchés financiers (AMF), qui surveille les marchés et protège les épargnants.",
+        "hint": "Un indice mesure ; une autorité surveille."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "culture-entreprise-enjeux",
@@ -59,7 +71,12 @@
       "geopolitique",
       "environnement"
     ],
-    "related": [],
+    "related": [
+      "monde-entreprises-france",
+      "eco-rse",
+      "monde-climat",
+      "meth-culture-actualite"
+    ],
     "subtests": [
       "culture-generale"
     ],
@@ -79,8 +96,15 @@
         "type": "mnemonic",
         "title": "Comment en parler en entretien",
         "body": "N'essaie pas de réciter des chiffres précis (ils datent vite) : montre plutôt que tu comprends le mécanisme (pourquoi cette entreprise a relocalisé, pourquoi ce secteur attire les investisseurs) — c'est ce qui impressionne un jury, pas la mémorisation de statistiques."
+      },
+      {
+        "type": "quiz",
+        "question": "En entretien, faut-il citer des chiffres précis sur une entreprise ?",
+        "answer": "Non, c'est risqué et peu valorisé : les chiffres datent vite et une erreur se remarque. Montrez plutôt que vous comprenez le MÉCANISME — pourquoi ce groupe a relocalisé, pourquoi ce secteur attire les investisseurs. Le raisonnement se démode moins vite que la donnée.",
+        "hint": "Qu'est-ce qui reste vrai plus longtemps : un chiffre ou un mécanisme ?"
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "fr-institutions-ve-republique",

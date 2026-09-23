@@ -12,7 +12,12 @@
       "vocabulaire",
       "nuances"
     ],
-    "related": [],
+    "related": [
+      "voc-synonymes-methode",
+      "voc-nuances-intensite",
+      "voc-synonymes-registre",
+      "voc-connotation"
+    ],
     "subtests": [
       "lexiphrase",
       "paratexte"
@@ -32,8 +37,21 @@
         "type": "mnemonic",
         "title": "Le réflexe à avoir",
         "body": "Relis toujours la phrase complète avec ton choix inséré avant de valider — l'oreille détecte souvent une incohérence syntaxique que l'œil seul avait laissée passer."
+      },
+      {
+        "type": "example",
+        "title": "Le sens seul ne suffit pas",
+        "prompt": "« Il a réagi ___ à la critique. » Propositions : a) violent b) violence c) violemment d) violenter. Toutes tournent autour du même sens : laquelle choisir ?",
+        "reveal": "c) violemment. Le trou suit le verbe « a réagi » et en modifie la manière : la phrase attend un ADVERBE. « Violent » est un adjectif, « violence » un nom, « violenter » un verbe à l'infinitif. Le sens est identique dans les quatre propositions — seule la nature grammaticale tranche. C'est le mécanisme de la majorité des questions de cohérence : le concepteur donne quatre mots de même famille et teste la syntaxe, pas le vocabulaire."
+      },
+      {
+        "type": "quiz",
+        "question": "Un mot au sens parfait peut-il être une mauvaise réponse dans un exercice de cohérence ?",
+        "answer": "Oui. Le mot doit respecter le sens ET la syntaxe de la phrase. Un adjectif là où la construction attend un adverbe, ou un verbe transitif là où il faut un intransitif, est faux malgré un sens juste. Relisez toujours la phrase complète avec votre choix inséré.",
+        "hint": "Le sens suffit-il, ou la construction compte-t-elle aussi ?"
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "vocabulaire-locutions-latines",
@@ -47,7 +65,12 @@
       "expressions",
       "vocabulaire"
     ],
-    "related": [],
+    "related": [
+      "voc-latin-raisonnement",
+      "voc-latin-temps",
+      "voc-latin-sens",
+      "voc-latin-vie-pro"
+    ],
     "subtests": [
       "lexiphrase",
       "paratexte"
@@ -101,8 +124,15 @@
         "type": "mnemonic",
         "title": "Comment les mémoriser",
         "body": "Associe chaque locution à une phrase concrète que tu pourrais vraiment prononcer, plutôt qu'à sa seule définition — c'est ce qui les fait rester en mémoire le plus longtemps."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifient « sine qua non » et « de facto » ?",
+        "answer": "« Sine qua non » désigne une condition absolument indispensable, sans laquelle rien n'est possible. « De facto » signifie de fait, dans les faits — par opposition à « de jure », en droit : une situation établie en pratique mais non reconnue officiellement.",
+        "hint": "L'une est une condition, l'autre une opposition entre le fait et le droit."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "vocabulaire-pieges",
@@ -116,7 +146,12 @@
       "paronymes",
       "pieges"
     ],
-    "related": [],
+    "related": [
+      "voc-paronymes-methode",
+      "voc-paronymes-eminent",
+      "voc-homophones",
+      "voc-accords-difficiles"
+    ],
     "subtests": [
       "lexiphrase",
       "paratexte"
@@ -159,8 +194,15 @@
       {
         "type": "warning",
         "body": "Les paronymes (mots proches par le son mais différents par le sens) sont le piège n°1 du sous-test vocabulaire. Ne te fie jamais à la sonorité, relis toujours le sens exact."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle différence entre « éminent » et « imminent » ?",
+        "answer": "« Éminent » qualifie ce qui est remarquable, de haut rang : un juriste éminent. « Imminent » qualifie ce qui est sur le point de se produire : un départ imminent. Un seul phonème les sépare, et les deux sens n'ont aucun rapport — c'est le profil type du paronyme piégeux.",
+        "hint": "L'un parle de valeur, l'autre de temps."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "voc-paronymes-methode",

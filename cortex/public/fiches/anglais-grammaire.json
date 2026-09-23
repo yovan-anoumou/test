@@ -14,7 +14,12 @@
       "prepositions",
       "connecteurs"
     ],
-    "related": [],
+    "related": [
+      "ang-present-perfect-vs-past",
+      "ang-voix-passive",
+      "ang-modaux-base",
+      "ang-prepositions-collocations"
+    ],
     "subtests": [
       "grammaire",
       "vocabulaire",
@@ -41,8 +46,15 @@
         "type": "mnemonic",
         "title": "Le réflexe Part 5",
         "body": "Avant de lire les 4 choix, repère d'abord la fonction du mot qui manque (verbe ? préposition ? connecteur ?) — ça élimine déjà la moitié des pièges sans même comparer les options entre elles."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans une phrase à compléter, quel est le premier geste avant de comparer les quatre propositions ?",
+        "answer": "Identifier la FONCTION du mot manquant : verbe, préposition, connecteur, nom ou adjectif. Cette seule identification élimine généralement la moitié des propositions, sans même avoir à peser leur sens.",
+        "hint": "Quelle nature grammaticale le trou attend-il ?"
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "ang-present-simple-continu",

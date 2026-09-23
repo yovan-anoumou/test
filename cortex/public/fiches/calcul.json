@@ -18,7 +18,7 @@
       "calc-coefficient-multiplicateur",
       "calc-pourcentages-successifs",
       "calc-valeur-initiale",
-      "calc-taux-evolution"
+      "calc-points-vs-pourcent"
     ],
     "subtests": [
       "calcul",
@@ -58,8 +58,15 @@
         "type": "mnemonic",
         "title": "Le réflexe à avoir",
         "body": "Dès que tu vois « puis » entre deux pourcentages, pense chaîne de multiplications, pas addition."
+      },
+      {
+        "type": "quiz",
+        "question": "Un prix vaut 120 € après une hausse de 20 %. Quel était le prix initial ?",
+        "answer": "100 €. On divise par le coefficient : 120 ÷ 1,2 = 100. Le piège consiste à retirer 20 % de 120, ce qui donnerait 96 € — faux, car les 20 % portaient sur le prix INITIAL et non sur le prix final.",
+        "hint": "Divisez par 1,2, ne retirez pas 20 % de 120."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "calcul-fractions",
@@ -76,10 +83,10 @@
       "echelle"
     ],
     "related": [
-      "calc-fractions-operations",
+      "calc-regle-de-trois",
       "calc-fractions-comparaison",
-      "calc-fractions-pourcentages",
-      "calc-regle-de-trois"
+      "calc-proportionnalite-inverse",
+      "calc-echelles"
     ],
     "subtests": [
       "calcul",
@@ -106,8 +113,15 @@
         "title": "Proportionnalité",
         "prompt": "Une recette pour 4 personnes utilise 250 g de farine. Il en faut combien pour 7 personnes ?",
         "reveal": "250/4 = x/7 → produit en croix : 4x = 250 × 7 = 1750 → x = 437,5 g."
+      },
+      {
+        "type": "quiz",
+        "question": "Comment comparer 7/12 et 5/9 sans calculer les décimales ?",
+        "answer": "Par produit en croix : 7 × 9 = 63 et 12 × 5 = 60. Comme 63 > 60, on a 7/12 > 5/9. La comparaison se fait en deux multiplications, sans aucune division.",
+        "hint": "Croisez les termes et comparez les deux produits."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "calcul-equations",
@@ -122,10 +136,10 @@
       "systeme"
     ],
     "related": [
-      "calc-mise-en-equation",
       "calc-equations-premier-degre",
       "calc-systemes",
-      "calc-equations-fractions"
+      "calc-mise-en-equation",
+      "calc-inequations"
     ],
     "subtests": [
       "calcul",
@@ -156,8 +170,15 @@
         "title": "Système par combinaison",
         "prompt": "2x + y = 14 et x − y = 1. Trouve x et y.",
         "reveal": "Les deux lignes s'additionnent directement (le y disparaît) : 3x = 15 → x = 5. En remplaçant dans x − y = 1 : y = 4."
+      },
+      {
+        "type": "quiz",
+        "question": "Que signifie un discriminant nul ?",
+        "answer": "Que l'équation du second degré admet une solution réelle unique, appelée racine double : x = −b / 2a. Δ > 0 donne deux solutions distinctes, Δ < 0 aucune solution réelle.",
+        "hint": "Combien de solutions quand Δ = 0 ?"
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "calcul-puissances",
@@ -172,9 +193,10 @@
       "puissances"
     ],
     "related": [
-      "calc-interets-composes",
-      "calc-regle-72",
-      "calc-conversions-unites"
+      "vit-tables-carres",
+      "vit-carres-en-5",
+      "vit-difference-carres",
+      "meth-automatisation"
     ],
     "subtests": [
       "calcul",
@@ -232,8 +254,15 @@
         "type": "mnemonic",
         "title": "Deux ancrages faciles",
         "body": "12² = 144, comme les 144 œufs d'une palette (12 douzaines). 15² = 225, un chiffre rond facile à retenir en plein milieu de la liste — utilise-le comme point de repère pour retrouver les voisins."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi reconnaître instantanément que 144 est un carré fait-il gagner du temps ?",
+        "answer": "Parce qu'une racine carrée ou une factorisation se résout alors immédiatement, au lieu d'exiger un calcul posé. 144 = 12², donc √144 = 12 sans aucune opération. Sur un sous-test chronométré, cette reconnaissance vaut plusieurs dizaines de secondes cumulées.",
+        "hint": "12 × 12."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "calcul-moyennes-vitesses",
@@ -250,10 +279,10 @@
       "conversion"
     ],
     "related": [
-      "calc-moyenne-simple",
       "calc-moyenne-ponderee",
+      "calc-moyenne-de-moyennes",
       "calc-vitesse-moyenne",
-      "calc-mediane-vs-moyenne"
+      "calc-conversions-unites"
     ],
     "subtests": [
       "calcul",
@@ -275,8 +304,15 @@
         "title": "Conversion de vitesse",
         "prompt": "Une voiture roule à 90 km/h pendant 40 secondes. Quelle distance parcourt-elle ?",
         "reveal": "90 km/h ÷ 3,6 = 25 m/s. Puis 25 × 40 = 1000 m = 1 km."
+      },
+      {
+        "type": "quiz",
+        "question": "Deux groupes de 10 et 30 élèves ont pour moyennes 12 et 16. Quelle est la moyenne d'ensemble ?",
+        "answer": "15, et non 14. La moyenne des moyennes (12 + 16) / 2 = 14 est fausse car les effectifs diffèrent. Le calcul correct est pondéré : (10 × 12 + 30 × 16) / 40 = (120 + 480) / 40 = 15. Le groupe le plus nombreux tire la moyenne vers lui.",
+        "hint": "Les effectifs sont différents : pondérez."
       }
-    ]
+    ],
+    "updatedAt": "2026-09-23"
   },
   {
     "id": "calc-coefficient-multiplicateur",
