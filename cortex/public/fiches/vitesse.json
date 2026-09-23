@@ -42,5 +42,1809 @@
         "body": "Sur le sous-test calcul mental, si un calcul te prend plus de 3 secondes de tête, c'est probablement qu'il existe une de ces astuces à appliquer plutôt que de poser l'opération."
       }
     ]
+  },
+  {
+    "id": "vit-tables-carres",
+    "domain": "vitesse",
+    "category": "Repères à mémoriser",
+    "title": "Tables et carrés jusqu'à 25",
+    "tagline": "Tout ce qui est mémorisé n'est plus à calculer : c'est là que se gagnent les secondes.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "ordre-de-grandeur",
+      "multiplication-approchee",
+      "puissances"
+    ],
+    "related": [
+      "vit-carres-en-5",
+      "vit-difference-carres",
+      "vit-racines-approx",
+      "calcul-mental-astuces"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Au Score IAE-Message comme au TAGE, la calculatrice est interdite au raisonnement numérique. Chaque produit que tu dois reconstruire te coûte 5 à 10 secondes ; chaque produit que tu reconnais t'en coûte zéro. Les tables jusqu'à 20 et les carrés jusqu'à 25 sont le socle : ils reviennent dans les suites, les pourcentages, les racines et les aires."
+      },
+      {
+        "type": "table",
+        "title": "Les carrés à connaître par cœur",
+        "headers": [
+          "n",
+          "n²",
+          "n",
+          "n²",
+          "n",
+          "n²"
+        ],
+        "rows": [
+          [
+            "11",
+            "121",
+            "16",
+            "256",
+            "21",
+            "441"
+          ],
+          [
+            "12",
+            "144",
+            "17",
+            "289",
+            "22",
+            "484"
+          ],
+          [
+            "13",
+            "169",
+            "18",
+            "324",
+            "23",
+            "529"
+          ],
+          [
+            "14",
+            "196",
+            "19",
+            "361",
+            "24",
+            "576"
+          ],
+          [
+            "15",
+            "225",
+            "20",
+            "400",
+            "25",
+            "625"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les produits « difficiles » à installer en priorité",
+        "items": [
+          "7 × 8 = 56 — le plus raté de toutes les tables.",
+          "12 × 12 = 144, 13 × 13 = 169, 14 × 14 = 196.",
+          "13 × 14 = 182, 15 × 16 = 240, 17 × 18 = 306.",
+          "12 × 15 = 180, 14 × 25 = 350, 16 × 25 = 400."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : réviser les tables en les récitant dans l'ordre. Tu retiens alors la séquence, pas le produit, et « 7 × 8 » isolé reste lent. Il faut se tester en ordre aléatoire — c'est précisément du rappel actif."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les carrés se déduisent l'un de l'autre : (n+1)² = n² + n + (n+1). De 20² = 400, on obtient 21² = 400 + 20 + 21 = 441, puis 22² = 441 + 21 + 22 = 484. Utile quand un carré t'échappe en pleine épreuve."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 18², et 17 × 18 ?",
+        "answer": "18² = 324 et 17 × 18 = 306.",
+        "hint": "17 × 18 = 18² − 18 = 324 − 18."
+      }
+    ]
+  },
+  {
+    "id": "vit-multiplier-par-11",
+    "domain": "vitesse",
+    "category": "Multiplications rapides",
+    "title": "Multiplier par 11 de tête",
+    "tagline": "Pour un nombre à deux chiffres : on écarte les chiffres et on glisse leur somme au milieu.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "multiplication-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-multiplier-par-9-99",
+      "vit-multiplier-par-5-25-50",
+      "vit-multiplication-decomposition",
+      "vit-tables-carres"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Multiplier par 11, c'est multiplier par 10 puis ajouter le nombre : 43 × 11 = 430 + 43. La méthode rapide en découle : on garde le premier chiffre, on place au milieu la somme des deux chiffres, on garde le dernier chiffre."
+      },
+      {
+        "type": "example",
+        "title": "Exemple simple",
+        "prompt": "Calcule 43 × 11 de tête.",
+        "reveal": "4 | 4 + 3 = 7 | 3 → 473. Vérification : 430 + 43 = 473. ✔"
+      },
+      {
+        "type": "example",
+        "title": "Avec une retenue",
+        "prompt": "Calcule 78 × 11.",
+        "reveal": "7 | 7 + 8 = 15 | 8. La somme dépasse 9 : on garde le 5 au milieu et on reporte 1 sur le chiffre de gauche → 8 | 5 | 8 = 858. Vérification : 780 + 78 = 858. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier la retenue et répondre 7158 pour 78 × 11. Contrôle d'ordre de grandeur immédiat : 78 × 11 est un peu plus que 780, donc un nombre à trois chiffres — jamais quatre."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "La même logique marche pour 12 (×10 + ×2), 21 (×20 + ×1) et 101 (×100 + ×1). 43 × 101 = 4300 + 43 = 4343 : tout nombre à deux chiffres multiplié par 101 se répète."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 67 × 11 ?",
+        "answer": "6 | 6 + 7 = 13 | 7 → retenue : 7 | 3 | 7 = 737. Vérification : 670 + 67 = 737.",
+        "hint": "La somme des chiffres dépasse 9, il y a une retenue."
+      }
+    ]
+  },
+  {
+    "id": "vit-multiplier-par-5-25-50",
+    "domain": "vitesse",
+    "category": "Multiplications rapides",
+    "title": "Multiplier par 5, 25, 50 et 125",
+    "tagline": "Ces nombres sont des fractions de puissances de 10 : on divise, puis on décale la virgule.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "multiplication-approchee",
+      "fractions-usuelles",
+      "conversions"
+    ],
+    "related": [
+      "vit-diviser-par-5-25-50",
+      "vit-multiplier-par-11",
+      "vit-multiplication-decomposition",
+      "vit-pourcentages-mentaux"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre raccourcis",
+        "headers": [
+          "Multiplier par",
+          "Faire plutôt",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "5",
+            "÷ 2 puis × 10",
+            "86 × 5 = 43 × 10 = 430"
+          ],
+          [
+            "25",
+            "÷ 4 puis × 100",
+            "36 × 25 = 9 × 100 = 900"
+          ],
+          [
+            "50",
+            "÷ 2 puis × 100",
+            "48 × 50 = 24 × 100 = 2 400"
+          ],
+          [
+            "125",
+            "÷ 8 puis × 1 000",
+            "24 × 125 = 3 × 1 000 = 3 000"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "5 = 10/2, 25 = 100/4, 50 = 100/2, 125 = 1000/8. Multiplier par l'un de ces nombres revient donc à diviser par un petit entier, ce qui est toujours plus facile de tête que de multiplier par 25. Les zéros s'ajoutent à la fin, quand tout le travail est fait."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 84 × 25 sans poser l'opération.",
+        "reveal": "84 ÷ 4 = 21, puis × 100 = 2 100. À comparer avec la multiplication posée : bien plus long pour le même résultat."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : se tromper sur le nombre de zéros. Pour ×25 c'est ÷4 puis DEUX zéros ; pour ×125 c'est ÷8 puis TROIS zéros. Vérifie par l'ordre de grandeur : 84 × 25, c'est un peu plus de 80 × 25 = 2 000."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Si le nombre n'est pas divisible par 4, passe par 100 quand même : 37 × 25 = 3700 ÷ 4 = 925. Diviser à la fin est aussi simple que diviser au début."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 64 × 125 ?",
+        "answer": "64 ÷ 8 = 8, puis × 1 000 = 8 000.",
+        "hint": "125 = 1 000 / 8."
+      }
+    ]
+  },
+  {
+    "id": "vit-multiplier-par-9-99",
+    "domain": "vitesse",
+    "category": "Multiplications rapides",
+    "title": "Multiplier par 9, 99, 999",
+    "tagline": "Multiplier par 9, c'est multiplier par 10 et retirer une fois le nombre.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "multiplication-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-multiplier-par-11",
+      "vit-multiplication-compensation",
+      "vit-complement-a-100",
+      "vit-multiplication-decomposition"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "9 = 10 − 1, 99 = 100 − 1, 999 = 1000 − 1. Donc n × 9 = 10n − n, n × 99 = 100n − n, n × 999 = 1000n − n. Une multiplication devient une soustraction, toujours plus rapide de tête."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 47 × 9, puis 47 × 99.",
+        "reveal": "47 × 9 = 470 − 47 = 423. 47 × 99 = 4 700 − 47 = 4 653. La même astuce donne 47 × 999 = 47 000 − 47 = 46 953."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La même idée pour d'autres nombres",
+        "items": [
+          "× 19 = × 20 − n : 34 × 19 = 680 − 34 = 646.",
+          "× 21 = × 20 + n : 34 × 21 = 680 + 34 = 714.",
+          "× 98 = × 100 − 2n : 45 × 98 = 4 500 − 90 = 4 410.",
+          "× 101 = × 100 + n : 45 × 101 = 4 545."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : soustraire le mauvais terme. Pour n × 99 on retire n UNE fois (car 99 = 100 − 1), pas 100 fois. Contrôle : le résultat doit être juste en dessous de 100n."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dans la table de 9, les chiffres du produit s'additionnent toujours à 9 : 9×3 = 27 (2+7), 9×7 = 63 (6+3), 9×8 = 72 (7+2). Contrôle gratuit de ta réponse."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 56 × 99 ?",
+        "answer": "5 600 − 56 = 5 544.",
+        "hint": "99 = 100 − 1."
+      }
+    ]
+  },
+  {
+    "id": "vit-multiplication-compensation",
+    "domain": "vitesse",
+    "category": "Multiplications rapides",
+    "title": "Multiplier deux nombres proches de 100",
+    "tagline": "(100 − a)(100 − b) = 10 000 − 100(a + b) + ab : trois petits calculs au lieu d'une multiplication posée.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "multiplication-approchee",
+      "ordre-de-grandeur",
+      "puissances"
+    ],
+    "related": [
+      "vit-multiplier-par-9-99",
+      "vit-difference-carres",
+      "vit-carres-en-5",
+      "vit-complement-a-100"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "On développe autour de 100. Pour deux nombres légèrement inférieurs à 100 : (100 − a)(100 − b) = 10 000 − 100a − 100b + ab. Pour deux nombres légèrement supérieurs : (100 + a)(100 + b) = 10 000 + 100a + 100b + ab. Les écarts a et b sont petits, donc tous les termes se calculent de tête."
+      },
+      {
+        "type": "example",
+        "title": "Deux nombres sous 100",
+        "prompt": "Calcule 97 × 96.",
+        "reveal": "Écarts : 3 et 4. 10 000 − 100 × (3 + 4) + 3 × 4 = 10 000 − 700 + 12 = 9 312."
+      },
+      {
+        "type": "example",
+        "title": "Deux nombres au-dessus de 100",
+        "prompt": "Calcule 102 × 103.",
+        "reveal": "Écarts : 2 et 3. 10 000 + 100 × (2 + 3) + 2 × 3 = 10 000 + 500 + 6 = 10 506."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : mélanger les signes quand un nombre est au-dessus et l'autre en dessous. 98 × 103 : mieux vaut alors décomposer simplement — 103 × 98 = 103 × 100 − 103 × 2 = 10 300 − 206 = 10 094. N'applique la compensation que si les deux nombres sont du même côté de 100."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le terme ab est toujours petit : c'est lui qui donne les deux derniers chiffres quand les écarts sont inférieurs à 10. Pour 97 × 96, le « 12 » de 3 × 4 se lit directement à la fin de 9 312."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 94 × 98 ?",
+        "answer": "Écarts 6 et 2 : 10 000 − 800 + 12 = 9 212.",
+        "hint": "100 × (6 + 2) à retirer, puis ajouter 6 × 2."
+      }
+    ]
+  },
+  {
+    "id": "vit-carres-en-5",
+    "domain": "vitesse",
+    "category": "Carrés et différences",
+    "title": "Carré d'un nombre finissant par 5",
+    "tagline": "On multiplie la dizaine par la suivante, et on colle 25 à la fin.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "puissances",
+      "multiplication-approchee"
+    ],
+    "related": [
+      "vit-tables-carres",
+      "vit-difference-carres",
+      "vit-multiplication-compensation",
+      "calc-pythagore"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour un nombre qui s'écrit « d5 » : (10d + 5)² = 100d² + 100d + 25 = 100 × d × (d + 1) + 25. D'où la recette : multiplier le nombre de dizaines par le suivant, puis écrire 25."
+      },
+      {
+        "type": "table",
+        "title": "Application immédiate",
+        "headers": [
+          "Nombre",
+          "Dizaine × suivante",
+          "Carré"
+        ],
+        "rows": [
+          [
+            "25",
+            "2 × 3 = 6",
+            "625"
+          ],
+          [
+            "35",
+            "3 × 4 = 12",
+            "1 225"
+          ],
+          [
+            "45",
+            "4 × 5 = 20",
+            "2 025"
+          ],
+          [
+            "65",
+            "6 × 7 = 42",
+            "4 225"
+          ],
+          [
+            "85",
+            "8 × 9 = 72",
+            "7 225"
+          ],
+          [
+            "115",
+            "11 × 12 = 132",
+            "13 225"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 75² de tête.",
+        "reveal": "7 × 8 = 56, puis 25 → 5 625."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : écrire 5² = 25 et coller le carré de la dizaine, ce qui donnerait 4925 pour 75². La recette multiplie la dizaine par la SUIVANTE, pas par elle-même."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le résultat finit toujours par 25, ce qui offre un contrôle instantané : si ta réponse ne finit pas par 25, elle est fausse."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 95² ?",
+        "answer": "9 × 10 = 90, puis 25 → 9 025.",
+        "hint": "La dizaine est 9, la suivante 10."
+      }
+    ]
+  },
+  {
+    "id": "vit-difference-carres",
+    "domain": "vitesse",
+    "category": "Carrés et différences",
+    "title": "La différence de deux carrés",
+    "tagline": "a² − b² = (a − b)(a + b) : l'identité la plus rentable du calcul mental.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "puissances",
+      "multiplication-approchee",
+      "arithmetique"
+    ],
+    "related": [
+      "vit-carres-en-5",
+      "vit-tables-carres",
+      "vit-multiplication-compensation",
+      "calc-equations-premier-degre"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "a² − b² = (a − b)(a + b). Cette identité sert dans les deux sens : pour calculer une différence de carrés (à gauche vers la droite), et pour calculer un produit de deux nombres symétriques autour d'un rond (à droite vers la gauche)."
+      },
+      {
+        "type": "example",
+        "title": "Sens direct",
+        "prompt": "Calcule 51² − 49².",
+        "reveal": "(51 − 49)(51 + 49) = 2 × 100 = 200. Sans l'identité, il faudrait calculer 2 601 − 2 401."
+      },
+      {
+        "type": "example",
+        "title": "Sens inverse — le plus utile",
+        "prompt": "Calcule 37 × 43.",
+        "reveal": "Les deux nombres sont symétriques autour de 40 : 37 × 43 = (40 − 3)(40 + 3) = 1 600 − 9 = 1 591."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois produits à faire de tête grâce à elle",
+        "items": [
+          "49 × 51 = 2 500 − 1 = 2 499.",
+          "18 × 22 = 400 − 4 = 396.",
+          "95 × 105 = 10 000 − 25 = 9 975."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que a² − b² = (a − b)². C'est faux : 5² − 3² = 16, alors que (5 − 3)² = 4. L'identité comporte DEUX facteurs, la différence et la somme."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dès que tu vois deux nombres à égale distance d'un nombre rond, pense à cette identité. Le repère : leur moyenne est un nombre simple (37 et 43 → 40 ; 18 et 22 → 20)."
+      },
+      {
+        "type": "quiz",
+        "question": "Calcule 68 × 72 de tête.",
+        "answer": "Symétriques autour de 70 : 70² − 2² = 4 900 − 4 = 4 896.",
+        "hint": "Quelle est leur moyenne ?"
+      }
+    ]
+  },
+  {
+    "id": "vit-multiplication-decomposition",
+    "domain": "vitesse",
+    "category": "Multiplications rapides",
+    "title": "Décomposer plutôt que poser",
+    "tagline": "Casse le nombre le plus simple en deux morceaux ronds : la distributivité fait le reste.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "multiplication-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-multiplier-par-9-99",
+      "vit-multiplier-par-5-25-50",
+      "vit-multiplication-compensation",
+      "vit-multiplication-approchee"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "a × (b + c) = ab + ac. On choisit la décomposition qui fait apparaître des nombres ronds : 48 = 50 − 2, 23 = 20 + 3, 16 = 8 × 2. Le bon découpage transforme une multiplication difficile en deux multiplications faciles."
+      },
+      {
+        "type": "example",
+        "title": "Par soustraction",
+        "prompt": "Calcule 7 × 48.",
+        "reveal": "7 × 50 − 7 × 2 = 350 − 14 = 336."
+      },
+      {
+        "type": "example",
+        "title": "Par addition",
+        "prompt": "Calcule 23 × 12.",
+        "reveal": "23 × 10 + 23 × 2 = 230 + 46 = 276."
+      },
+      {
+        "type": "example",
+        "title": "Par facteurs",
+        "prompt": "Calcule 35 × 16.",
+        "reveal": "35 × 16 = 35 × 8 × 2 = 280 × 2 = 560. Ou 35 × 2 = 70, puis 70 × 8 = 560 : on déplace les facteurs 2 là où ils simplifient."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : décomposer les DEUX nombres à la fois. (20 + 3)(40 + 8) demande quatre produits, on n'a rien gagné. Décompose un seul facteur, celui qui s'y prête."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Avant de calculer, cherche un 5 ou un 2 à déplacer : 25 × 12 devient 25 × 4 × 3 = 100 × 3 = 300. Les facteurs 2 et 5 se marient en 10, et 10 est gratuit."
+      },
+      {
+        "type": "quiz",
+        "question": "Calcule 18 × 45 de tête.",
+        "answer": "18 × 45 = 9 × 2 × 45 = 9 × 90 = 810.",
+        "hint": "Déplace le facteur 2 vers le 45."
+      }
+    ]
+  },
+  {
+    "id": "vit-diviser-par-5-25-50",
+    "domain": "vitesse",
+    "category": "Divisions rapides",
+    "title": "Diviser par 5, 25 et 50",
+    "tagline": "Diviser par 5, c'est multiplier par 2 puis diviser par 10.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "division-approchee",
+      "fractions-usuelles",
+      "conversions"
+    ],
+    "related": [
+      "vit-multiplier-par-5-25-50",
+      "vit-division-par-decimaux",
+      "vit-division-approchee",
+      "calc-fractions-pourcentages"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois raccourcis",
+        "headers": [
+          "Diviser par",
+          "Faire plutôt",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "5",
+            "× 2 puis ÷ 10",
+            "340 ÷ 5 = 680 ÷ 10 = 68"
+          ],
+          [
+            "25",
+            "× 4 puis ÷ 100",
+            "350 ÷ 25 = 1 400 ÷ 100 = 14"
+          ],
+          [
+            "50",
+            "× 2 puis ÷ 100",
+            "1 700 ÷ 50 = 3 400 ÷ 100 = 34"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Diviser par 5 = diviser par 10/2 = multiplier par 2/10. C'est l'opération inverse de la fiche sur les multiplications : on échange systématiquement la multiplication et la division."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Combien de billets de 25 € dans 1 250 € ?",
+        "reveal": "1 250 ÷ 25 = 5 000 ÷ 100 = 50 billets."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : inverser le sens. Diviser par 5 AUGMENTE le nombre de ×2 avant le ÷10, donc le résultat vaut le double du dixième. Si tu obtiens un résultat plus petit que le dixième du nombre, tu t'es trompé de sens."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Contrôle par encadrement : diviser par 5 donne toujours un résultat compris entre le dixième et le quart du nombre de départ. Pour 340 : entre 34 et 85. 68 est bien dans l'intervalle. ✔"
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 4 600 ÷ 25 ?",
+        "answer": "4 600 × 4 = 18 400, puis ÷ 100 = 184.",
+        "hint": "25 = 100 / 4, donc diviser par 25 revient à multiplier par 4."
+      }
+    ]
+  },
+  {
+    "id": "vit-division-par-decimaux",
+    "domain": "vitesse",
+    "category": "Divisions rapides",
+    "title": "Diviser par un décimal ou une fraction",
+    "tagline": "Diviser par 0,5 c'est multiplier par 2 : diviser par un nombre plus petit que 1 AGRANDIT le résultat.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "division-approchee",
+      "fractions-usuelles",
+      "proportions"
+    ],
+    "related": [
+      "vit-diviser-par-5-25-50",
+      "calc-fractions-operations",
+      "calc-fractions-pourcentages",
+      "vit-division-approchee"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Diviser par une fraction revient à multiplier par son inverse. Comme 0,5 = 1/2, diviser par 0,5 revient à multiplier par 2. Le résultat est donc plus GRAND que le nombre de départ — contre-intuitif, et c'est exactement pour ça que c'est testé."
+      },
+      {
+        "type": "table",
+        "title": "Les équivalences à connaître",
+        "headers": [
+          "Diviser par",
+          "Revient à multiplier par",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "0,5",
+            "2",
+            "36 ÷ 0,5 = 72"
+          ],
+          [
+            "0,25",
+            "4",
+            "36 ÷ 0,25 = 144"
+          ],
+          [
+            "0,2",
+            "5",
+            "36 ÷ 0,2 = 180"
+          ],
+          [
+            "0,1",
+            "10",
+            "36 ÷ 0,1 = 360"
+          ],
+          [
+            "2/3",
+            "3/2",
+            "36 ÷ (2/3) = 54"
+          ],
+          [
+            "1,5",
+            "2/3",
+            "36 ÷ 1,5 = 24"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une tâche prend 0,75 heure par unité. Combien d'unités en 9 heures ?",
+        "reveal": "9 ÷ 0,75 = 9 × (4/3) = 12 unités. On reconnaît 0,75 = 3/4, dont l'inverse est 4/3."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'une division rend toujours plus petit. C'est vrai seulement quand le diviseur est supérieur à 1. Diviser par 0,5 double, diviser par 0,1 multiplie par dix. Vérifie le sens avant de calculer."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Diviseur plus petit que 1 → résultat plus grand. » Et pour les décimaux, multiplie les deux termes par 10 ou 100 pour n'avoir que des entiers : 36 ÷ 0,25 = 3 600 ÷ 25 = 144."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 45 ÷ 0,2 ?",
+        "answer": "0,2 = 1/5, donc 45 × 5 = 225.",
+        "hint": "Ou 450 ÷ 2."
+      }
+    ]
+  },
+  {
+    "id": "vit-pourcentages-mentaux",
+    "domain": "vitesse",
+    "category": "Pourcentages de tête",
+    "title": "Calculer un pourcentage de tête",
+    "tagline": "Décompose avec 10 %, 5 % et 1 % : n'importe quel pourcentage se construit en trois additions.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "pourcentages",
+      "ordre-de-grandeur",
+      "fractions-usuelles"
+    ],
+    "related": [
+      "vit-pourcentage-commutatif",
+      "calc-fractions-pourcentages",
+      "calc-coefficient-multiplicateur",
+      "vit-multiplier-par-5-25-50"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "10 % s'obtient en décalant la virgule d'un rang. 1 % en la décalant de deux. 5 % vaut la moitié de 10 %. Tout pourcentage se reconstruit à partir de ces trois briques, par additions et soustractions."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 17 % de 250.",
+        "reveal": "10 % = 25. 5 % = 12,5. 2 % = 5. Total : 25 + 12,5 + 5 = 42,5."
+      },
+      {
+        "type": "example",
+        "title": "Par soustraction, plus rapide",
+        "prompt": "Calcule 35 % de 80.",
+        "reveal": "10 % = 8, donc 30 % = 24. 5 % = 4. Total : 28. On peut aussi faire 50 % = 40 moins 15 % = 12, soit 28. ✔"
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les repères qui évitent tout calcul",
+        "items": [
+          "50 % = la moitié. 25 % = le quart. 75 % = les trois quarts.",
+          "20 % = le cinquième. 12,5 % = le huitième.",
+          "33,3 % = le tiers. 66,7 % = les deux tiers.",
+          "Une remise de 30 % laisse 70 % à payer : calcule directement ce qui reste."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : calculer la remise alors qu'on demande le prix payé (ou l'inverse). Pour un article à 80 € remisé de 35 %, la remise vaut 28 € et le prix payé 52 €. Les deux figureront dans les propositions."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris toujours 10 % en premier, même si on te demande 17 % ou 43 % : c'est la brique de base, elle se calcule sans réfléchir et sert de contrôle d'ordre de grandeur."
+      },
+      {
+        "type": "quiz",
+        "question": "Calcule 23 % de 400 de tête.",
+        "answer": "10 % = 40 → 20 % = 80. 1 % = 4 → 3 % = 12. Total : 92.",
+        "hint": "20 % + 3 %."
+      }
+    ]
+  },
+  {
+    "id": "vit-pourcentage-commutatif",
+    "domain": "vitesse",
+    "category": "Pourcentages de tête",
+    "title": "x % de y = y % de x",
+    "tagline": "Retourne le calcul quand l'autre sens est plus simple : 4 % de 75 devient 75 % de 4.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "pourcentages",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-pourcentages-mentaux",
+      "calc-fractions-pourcentages",
+      "calc-pourcentage-de-pourcentage",
+      "calc-coefficient-multiplicateur"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "x % de y vaut (x × y) / 100, et y % de x vaut (y × x) / 100. C'est le même produit : les deux expressions sont donc toujours égales. On choisit celle qui se calcule le plus vite."
+      },
+      {
+        "type": "table",
+        "title": "Quand le retournement change tout",
+        "headers": [
+          "Calcul demandé",
+          "Retourné en",
+          "Résultat"
+        ],
+        "rows": [
+          [
+            "4 % de 75",
+            "75 % de 4",
+            "3"
+          ],
+          [
+            "8 % de 50",
+            "50 % de 8",
+            "4"
+          ],
+          [
+            "16 % de 25",
+            "25 % de 16",
+            "4"
+          ],
+          [
+            "2 % de 350",
+            "350 % de 2",
+            "7"
+          ],
+          [
+            "12 % de 25",
+            "25 % de 12",
+            "3"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 18 % de 50.",
+        "reveal": "Retourné : 50 % de 18 = 9. Instantané, là où 18 % de 50 demanderait une décomposition."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre cette propriété avec les pourcentages successifs. « 20 % de 50 » = « 50 % de 20 » est vrai. Mais « +20 % puis +50 % » n'a rien à voir avec « +50 % puis +20 % » en valeur finale… sauf que si, justement, les coefficients commutent. Ne mélange pas les deux raisonnements : l'un porte sur une part, l'autre sur une évolution."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Réflexe : si le pourcentage est petit et le nombre rond (ou l'inverse), retourne. Le repère est de chercher lequel des deux donne 25, 50 ou 100 comme pourcentage."
+      },
+      {
+        "type": "quiz",
+        "question": "Calcule 6 % de 150 en retournant le calcul.",
+        "answer": "150 % de 6 = 6 + 3 = 9.",
+        "hint": "150 % = une fois et demie."
+      }
+    ]
+  },
+  {
+    "id": "vit-ordre-de-grandeur",
+    "domain": "vitesse",
+    "category": "Ordres de grandeur",
+    "title": "Estimer avant de calculer",
+    "tagline": "En QCM, une estimation à 5 % près suffit presque toujours à désigner la bonne réponse.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "ordre-de-grandeur",
+      "multiplication-approchee",
+      "division-approchee"
+    ],
+    "related": [
+      "vit-multiplication-approchee",
+      "vit-division-approchee",
+      "vit-comparaison-rapide",
+      "vit-gestion-temps"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un QCM ne demande pas un résultat, il demande de choisir. Si les propositions sont espacées, une estimation grossière tranche immédiatement — et en une fraction du temps. Le réflexe : arrondir chaque nombre au chiffre significatif le plus proche, calculer, puis comparer aux propositions."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "4 872 × 19,6 vaut approximativement : a) 9 500  b) 95 000  c) 950 000  d) 9 500 000",
+        "reveal": "≈ 5 000 × 20 = 100 000. Seule la réponse b) est du bon ordre de grandeur. Valeur exacte : 95 491,2 — l'estimation était à 4,7 % près, largement suffisant."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Quand l'estimation suffit, et quand elle ne suffit pas",
+        "items": [
+          "Propositions d'ordres de grandeur différents → estimation suffisante, réponds en 5 secondes.",
+          "Propositions très proches (9 512 / 9 521 / 9 530) → il faut calculer exactement, ou au moins déterminer le dernier chiffre.",
+          "Propositions dont une seule est plausible physiquement (un pourcentage supérieur à 100, un âge négatif) → élimine sans calculer.",
+          "Question sur « environ », « approximativement », « de l'ordre de » → l'estimation EST la méthode attendue."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : arrondir les deux nombres dans le même sens. 312 × 48 arrondi en 300 × 40 donne 12 000, soit 20 % d'erreur. Arrondir l'un vers le haut et l'autre vers le bas (300 × 50 = 15 000) fait se compenser les erreurs : la valeur exacte est 14 976."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Avant tout calcul, lis les propositions. Elles te disent la précision nécessaire — et donc le temps que la question mérite."
+      },
+      {
+        "type": "quiz",
+        "question": "Estime 6 120 ÷ 29 sans calculer exactement.",
+        "answer": "≈ 6 000 ÷ 30 = 200. La valeur exacte est 211, donc toute proposition entre 200 et 220 est la bonne.",
+        "hint": "Arrondis les deux nombres vers le bas, puis sache que le vrai résultat sera un peu plus grand."
+      }
+    ]
+  },
+  {
+    "id": "vit-multiplication-approchee",
+    "domain": "vitesse",
+    "category": "Ordres de grandeur",
+    "title": "Multiplication approchée : compenser les arrondis",
+    "tagline": "Arrondis un facteur vers le haut et l'autre vers le bas : les erreurs s'annulent en partie.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "multiplication-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-ordre-de-grandeur",
+      "vit-division-approchee",
+      "vit-multiplication-decomposition",
+      "vit-multiplication-compensation"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Quand on arrondit a et b dans le même sens, les erreurs s'ajoutent : le produit est trop grand ou trop petit des deux côtés. Quand on les arrondit en sens opposés, une erreur compense l'autre et l'estimation devient beaucoup plus fiable."
+      },
+      {
+        "type": "table",
+        "title": "Le même calcul, trois arrondis",
+        "headers": [
+          "Estimation de 312 × 48",
+          "Résultat",
+          "Écart à 14 976"
+        ],
+        "rows": [
+          [
+            "300 × 40 (les deux vers le bas)",
+            "12 000",
+            "−20 %"
+          ],
+          [
+            "320 × 50 (les deux vers le haut)",
+            "16 000",
+            "+7 %"
+          ],
+          [
+            "300 × 50 (sens opposés)",
+            "15 000",
+            "+0,2 %"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Estime 187 × 53.",
+        "reveal": "187 vers le haut à 200, 53 vers le bas à 50 : 200 × 50 = 10 000. Valeur exacte : 9 911, soit moins de 1 % d'écart."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : arrondir trop grossièrement un facteur déjà petit. Sur 7 × 4 892, arrondir le 7 à 10 introduit 43 % d'erreur. Sur un petit facteur, on garde la valeur exacte et on n'arrondit que le grand."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens le sens du biais : si tu as arrondi vers le haut, la vraie valeur est PLUS PETITE que ton estimation. En QCM, ça suffit souvent à choisir entre deux propositions voisines."
+      },
+      {
+        "type": "quiz",
+        "question": "Estime 418 × 27 en compensant les arrondis, puis indique si la vraie valeur est au-dessus ou en dessous.",
+        "answer": "400 × 30 = 12 000. On a baissé 418 de 4,3 % et monté 27 de 11 %, donc l'estimation est un peu trop grande : la vraie valeur (11 286) est en dessous.",
+        "hint": "Compare l'ampleur relative des deux arrondis."
+      }
+    ]
+  },
+  {
+    "id": "vit-division-approchee",
+    "domain": "vitesse",
+    "category": "Ordres de grandeur",
+    "title": "Division approchée et encadrement",
+    "tagline": "Encadre le quotient entre deux multiples faciles du diviseur : la bonne réponse est forcément entre les deux.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "division-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-ordre-de-grandeur",
+      "vit-multiplication-approchee",
+      "vit-diviser-par-5-25-50",
+      "vit-racines-approx"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour estimer a ÷ b, on cherche deux multiples ronds de b qui encadrent a. Le quotient est alors encadré lui aussi, ce qui élimine directement les propositions hors intervalle — souvent toutes sauf une."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Estime 7 843 ÷ 19.",
+        "reveal": "19 × 400 = 7 600 et 19 × 420 = 7 980. Donc le quotient est entre 400 et 420, plus près de 410. Valeur exacte : 412,8."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Deux réflexes pour aller plus vite",
+        "items": [
+          "Arrondir le diviseur au multiple de 10 le plus proche : 7 843 ÷ 19 ≈ 7 843 ÷ 20 ≈ 392. Comme on a arrondi le diviseur vers le HAUT, le vrai quotient est plus grand.",
+          "Simplifier les deux termes par un même facteur : 4 500 ÷ 180 = 450 ÷ 18 = 25.",
+          "Arrondir le dividende vers un multiple évident : 2 997 ÷ 3 ≈ 3 000 ÷ 3 = 1 000, donc 999.",
+          "En cas de doute sur le nombre de zéros, compte les chiffres : 7 843 ÷ 19 a nécessairement trois chiffres, pas deux ni quatre."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le sens de l'erreur. Augmenter le DIVISEUR fait baisser le quotient, et inversement. C'est l'inverse de l'intuition qu'on a avec la multiplication, et c'est la cause d'erreur la plus fréquente sur ce type de question."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Diviseur arrondi vers le haut → quotient estimé trop petit. » Écris la flèche à côté de ton estimation, tu sauras de quel côté chercher dans les propositions."
+      },
+      {
+        "type": "quiz",
+        "question": "Estime 5 100 ÷ 24 par encadrement.",
+        "answer": "24 × 200 = 4 800 et 24 × 220 = 5 280. Le quotient est entre 200 et 220, proche de 212. Valeur exacte : 212,5.",
+        "hint": "Cherche d'abord 24 × 200."
+      }
+    ]
+  },
+  {
+    "id": "vit-comparaison-rapide",
+    "domain": "vitesse",
+    "category": "Ordres de grandeur",
+    "title": "Comparer sans calculer",
+    "tagline": "Comparer deux quotients ne demande jamais de les calculer : le produit en croix tranche.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "ordre-de-grandeur",
+      "fractions-usuelles",
+      "division-approchee"
+    ],
+    "related": [
+      "calc-fractions-comparaison",
+      "vit-ordre-de-grandeur",
+      "vit-pourcentages-mentaux",
+      "vit-division-approchee"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour comparer a/b et c/d (dénominateurs positifs), compare a × d et c × b : le plus grand produit désigne la plus grande fraction. Aucune division à faire. C'est la méthode à utiliser dès qu'une question demande « quel est le meilleur rapport ? » ou « quelle offre est la plus avantageuse ? »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quel est le plus grand : 17/23 ou 19/26 ?",
+        "reveal": "17 × 26 = 442 et 19 × 23 = 437. Comme 442 > 437, on a 17/23 > 19/26. En décimal : 0,739 contre 0,731 — un écart que l'estimation grossière n'aurait pas tranché."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Quatre autres façons de trancher sans calculer",
+        "items": [
+          "Encadrer par une valeur repère : 4/9 < 1/2 < 5/9, donc pas besoin d'aller plus loin.",
+          "Même numérateur : le plus petit dénominateur gagne (3/7 > 3/8).",
+          "Même dénominateur : le plus grand numérateur gagne.",
+          "Ramener à un prix unitaire commun : 3 pour 5 € contre 5 pour 8 € → 0,6 € contre 0,64 € l'unité."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : comparer les écarts au lieu des rapports. « 3 pour 5 € » et « 5 pour 8 € » ont le même écart de 2 en apparence, mais pas le même prix unitaire. Un rapport se compare par division ou produit en croix, jamais par soustraction."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris le produit croisé juste au-dessus de la fraction qu'il concerne : au-dessus de 17/23 tu écris 17 × 26, au-dessus de 19/26 tu écris 19 × 23. Le plus gros nombre surplombe la gagnante."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle offre est la plus avantageuse : 7 articles pour 12 € ou 9 articles pour 15,50 € ?",
+        "answer": "Produit en croix sur les prix unitaires 12/7 et 15,50/9 : 12 × 9 = 108 et 15,50 × 7 = 108,5. Donc 12/7 < 15,50/9 : la première offre est légèrement moins chère à l'unité (1,714 € contre 1,722 €).",
+        "hint": "Compare les prix unitaires, donc prix ÷ quantité."
+      }
+    ]
+  },
+  {
+    "id": "vit-puissances-de-10",
+    "domain": "vitesse",
+    "category": "Puissances et racines",
+    "title": "Puissances de 10 et grands nombres",
+    "tagline": "On additionne les exposants pour multiplier, on les soustrait pour diviser. Le reste n'est que des zéros.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "puissances",
+      "ordre-de-grandeur",
+      "conversions"
+    ],
+    "related": [
+      "vit-puissances-de-2",
+      "vit-ordre-de-grandeur",
+      "calcul-puissances",
+      "calc-conversions-unites"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "10ᵃ × 10ᵇ = 10^(a+b) et 10ᵃ ÷ 10ᵇ = 10^(a−b). Pour un produit de nombres en écriture scientifique, on traite séparément les chiffres et les puissances : (2,5 × 10⁸) × (4 × 10³) = (2,5 × 4) × 10^(8+3) = 10 × 10¹¹ = 10¹²."
+      },
+      {
+        "type": "table",
+        "title": "Les repères de grandeur",
+        "headers": [
+          "Puissance",
+          "Nom",
+          "Préfixe"
+        ],
+        "rows": [
+          [
+            "10³",
+            "mille",
+            "kilo"
+          ],
+          [
+            "10⁶",
+            "million",
+            "méga"
+          ],
+          [
+            "10⁹",
+            "milliard",
+            "giga"
+          ],
+          [
+            "10¹²",
+            "mille milliards (billion)",
+            "téra"
+          ],
+          [
+            "10⁻³",
+            "millième",
+            "milli"
+          ],
+          [
+            "10⁻⁶",
+            "millionième",
+            "micro"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le PIB d'un pays vaut 2,9 × 10¹² € et sa population 68 millions. Estime le PIB par habitant.",
+        "reveal": "68 millions = 6,8 × 10⁷. Donc 2,9 × 10¹² ÷ (6,8 × 10⁷) = (2,9 ÷ 6,8) × 10⁵ ≈ 0,43 × 10⁵ ≈ 43 000 € par habitant."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le « billion » anglais. En anglais, *billion* = 10⁹ = un milliard français, et *trillion* = 10¹² . Un texte anglais parlant de « 3 billion euros » désigne 3 milliards, pas 3 000 milliards — erreur fréquente en compréhension de texte économique."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour diviser deux grands nombres, compte les zéros plutôt que de les écrire : 12 milliards ÷ 4 millions = (12 ÷ 4) × 10^(9−6) = 3 × 10³ = 3 000."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font (6 × 10⁵) × (5 × 10⁻²) ?",
+        "answer": "(6 × 5) × 10^(5−2) = 30 × 10³ = 3 × 10⁴ = 30 000.",
+        "hint": "Additionne les exposants : 5 + (−2) = 3."
+      }
+    ]
+  },
+  {
+    "id": "vit-puissances-de-2",
+    "domain": "vitesse",
+    "category": "Puissances et racines",
+    "title": "Les puissances de 2",
+    "tagline": "2¹⁰ = 1 024, donc doubler dix fois multiplie par mille environ.",
+    "level": "intermediaire",
+    "readMinutes": 2,
+    "tags": [
+      "puissances",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-puissances-de-10",
+      "calc-regle-72",
+      "calcul-puissances",
+      "vit-tables-carres"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "À connaître jusqu'à 2¹⁰",
+        "headers": [
+          "n",
+          "2ⁿ",
+          "n",
+          "2ⁿ"
+        ],
+        "rows": [
+          [
+            "1",
+            "2",
+            "6",
+            "64"
+          ],
+          [
+            "2",
+            "4",
+            "7",
+            "128"
+          ],
+          [
+            "3",
+            "8",
+            "8",
+            "256"
+          ],
+          [
+            "4",
+            "16",
+            "9",
+            "512"
+          ],
+          [
+            "5",
+            "32",
+            "10",
+            "1 024"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les puissances de 2 reviennent dans les suites géométriques, les problèmes de doublement (population, capital, cellules) et les questions d'informatique. Le repère essentiel : 2¹⁰ ≈ 1 000, donc 2²⁰ ≈ 1 million (1 048 576) et 2³⁰ ≈ 1 milliard."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une bactérie se divise toutes les 20 minutes. Combien y en a-t-il après 5 heures, à partir d'une seule ?",
+        "reveal": "5 heures = 300 minutes = 15 divisions. 2¹⁵ = 2¹⁰ × 2⁵ = 1 024 × 32 = 32 768 bactéries."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre 2ⁿ et 2n. Après 15 divisions on n'a pas 30 bactéries mais 32 768. Une croissance par doublement est exponentielle, pas linéaire — c'est le cœur de la plupart des questions sur ce thème."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Décompose l'exposant : 2¹⁵ = 2¹⁰ × 2⁵. Avec 2¹⁰ = 1 024 en mémoire et la table jusqu'à 2¹⁰, tu atteins n'importe quelle puissance jusqu'à 2²⁰ en une multiplication."
+      },
+      {
+        "type": "quiz",
+        "question": "Combien font 2¹² ?",
+        "answer": "2¹⁰ × 2² = 1 024 × 4 = 4 096.",
+        "hint": "Décompose en 2¹⁰ × 2²."
+      }
+    ]
+  },
+  {
+    "id": "vit-racines-approx",
+    "domain": "vitesse",
+    "category": "Puissances et racines",
+    "title": "Estimer une racine carrée",
+    "tagline": "Encadre par les deux carrés parfaits voisins : la racine est entre eux, plus près du plus proche.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "puissances",
+      "ordre-de-grandeur",
+      "division-approchee"
+    ],
+    "related": [
+      "vit-tables-carres",
+      "vit-puissances-de-10",
+      "calc-pythagore",
+      "vit-division-approchee"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour estimer √n, on cherche les deux carrés parfaits qui encadrent n. √150 est entre √144 = 12 et √169 = 13, et comme 150 est proche de 144, la racine vaut un peu plus de 12 — environ 12,25."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les racines à connaître par cœur",
+        "items": [
+          "√2 ≈ 1,414 — diagonale d'un carré de côté 1.",
+          "√3 ≈ 1,732 — hauteur d'un triangle équilatéral de côté 2.",
+          "√5 ≈ 2,236, √7 ≈ 2,646, √10 ≈ 3,162.",
+          "√0,25 = 0,5 et √0,64 = 0,8 : la racine d'un nombre entre 0 et 1 est plus GRANDE que lui."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Estime √2 000.",
+        "reveal": "2 000 = 20 × 100, donc √2 000 = 10 × √20. Et √20 est entre 4 (16) et 5 (25), proche de 4,5 : √20 ≈ 4,47. Donc √2 000 ≈ 44,7. Valeur exacte : 44,72."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que √(a + b) = √a + √b. C'est faux : √(9 + 16) = 5, alors que √9 + √16 = 7. En revanche √(a × b) = √a × √b est bien vrai, et c'est ce qui permet de sortir les carrés parfaits."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Sors les facteurs carrés : √72 = √(36 × 2) = 6√2 ≈ 8,49. Cette écriture est souvent exactement la forme attendue dans les propositions d'un QCM de géométrie."
+      },
+      {
+        "type": "quiz",
+        "question": "Estime √300 sans calculatrice.",
+        "answer": "√300 = √(100 × 3) = 10√3 ≈ 17,32. Contrôle : 17² = 289 et 18² = 324, donc la racine est bien entre 17 et 18.",
+        "hint": "Sors le facteur 100."
+      }
+    ]
+  },
+  {
+    "id": "vit-criteres-divisibilite",
+    "domain": "vitesse",
+    "category": "Divisibilité",
+    "title": "Les critères de divisibilité",
+    "tagline": "Savoir en une seconde si un nombre est divisible par 3, 4, 8, 9 ou 11 élimine la moitié des propositions.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "arithmetique",
+      "ordre-de-grandeur",
+      "fractions-usuelles"
+    ],
+    "related": [
+      "vit-dernier-chiffre",
+      "vit-parite",
+      "calc-fractions-operations",
+      "vit-tables-carres"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les critères à connaître",
+        "headers": [
+          "Divisible par",
+          "Critère",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "2",
+            "dernier chiffre pair",
+            "3 574 ✔"
+          ],
+          [
+            "3",
+            "somme des chiffres divisible par 3",
+            "4 512 → 12 ✔"
+          ],
+          [
+            "4",
+            "les deux derniers chiffres forment un multiple de 4",
+            "7 316 → 16 ✔"
+          ],
+          [
+            "5",
+            "finit par 0 ou 5",
+            "2 345 ✔"
+          ],
+          [
+            "6",
+            "divisible par 2 ET par 3",
+            "4 512 ✔"
+          ],
+          [
+            "8",
+            "les trois derniers chiffres forment un multiple de 8",
+            "7 128 → 128 ✔"
+          ],
+          [
+            "9",
+            "somme des chiffres divisible par 9",
+            "7 128 → 18 ✔"
+          ],
+          [
+            "11",
+            "somme alternée des chiffres divisible par 11",
+            "2 728 → 2−7+2−8 = −11 ✔"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces critères servent à trois choses : simplifier une fraction sans tâtonner, éliminer des propositions de QCM incompatibles avec l'énoncé (un partage exact entre 3 personnes exige un total divisible par 3), et vérifier un résultat de multiplication."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Simplifie 7 128 / 4 752 au maximum.",
+        "reveal": "Les deux sont pairs, et leurs sommes de chiffres valent 18 : divisibles par 9 aussi, donc par 18. 7 128 ÷ 18 = 396 et 4 752 ÷ 18 = 264. Puis 396/264 : les deux divisibles par 12 → 33/22 → divisibles par 11 → 3/2."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : inventer un critère pour 7. Il n'y a pas de critère simple pour 7 (celui qui existe est plus long que la division elle-même). Pour 7, on divise. En revanche le critère pour 11 est réellement rapide, et personne ne le connaît : c'est un avantage."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "La somme alternée pour 11 : on additionne un chiffre, on soustrait le suivant, en alternance, de gauche à droite. Si le résultat est 0 ou un multiple de 11, le nombre est divisible par 11."
+      },
+      {
+        "type": "quiz",
+        "question": "Le nombre 5 643 est-il divisible par 3, par 9, par 11 ?",
+        "answer": "Somme des chiffres = 18 → divisible par 3 ET par 9. Somme alternée : 5 − 6 + 4 − 3 = 0 → divisible par 11 aussi. En effet 5 643 = 3 × 9 × 11 × 19.",
+        "hint": "Calcule la somme des chiffres, puis la somme alternée."
+      }
+    ]
+  },
+  {
+    "id": "vit-complement-a-100",
+    "domain": "vitesse",
+    "category": "Divisibilité",
+    "title": "Compléments et soustractions rapides",
+    "tagline": "Pour soustraire d'un nombre rond : complément à 9 pour chaque chiffre, complément à 10 pour le dernier.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "ordre-de-grandeur",
+      "arithmetique"
+    ],
+    "related": [
+      "vit-multiplier-par-9-99",
+      "vit-multiplication-compensation",
+      "vit-criteres-divisibilite",
+      "vit-pourcentages-mentaux"
+    ],
+    "subtests": [
+      "calcul-mental"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour calculer 1 000 − 472 sans retenue : on prend le complément à 9 de chaque chiffre sauf le dernier, et le complément à 10 du dernier. 4 → 5, 7 → 2, 2 → 8, soit 528. La méthode évite entièrement la cascade de retenues."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Calcule 10 000 − 3 847.",
+        "reveal": "3 → 6, 8 → 1, 4 → 5, 7 → 3 (complément à 10) → 6 153. Vérification : 3 847 + 6 153 = 10 000. ✔"
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois usages concrets",
+        "items": [
+          "Calculer la monnaie à rendre.",
+          "Trouver le prix payé après une remise : 100 % − 35 % = 65 %, donc on multiplie directement par 0,65.",
+          "Compléter un total : si trois postes font 27 %, 41 % et 18 %, le quatrième vaut 14 %.",
+          "Vérifier une soustraction : additionne le résultat au nombre retiré, tu dois retrouver le nombre de départ."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : appliquer le complément à 9 au dernier chiffre. 1 000 − 472 donnerait alors 527, et non 528. Le dernier chiffre se complète à 10, parce que c'est lui qui « absorbe » l'unité."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand le dernier chiffre est 0, décale : 1 000 − 470 = 530, et le complément se calcule sur 47 face à 100. Sinon tu obtiendrais 0 comme complément à 10 et tu perdrais une dizaine."
+      },
+      {
+        "type": "quiz",
+        "question": "Calcule 1 000 − 638 par complément.",
+        "answer": "6 → 3, 3 → 6, 8 → 2 → 362. Vérification : 638 + 362 = 1 000. ✔",
+        "hint": "Complément à 9, puis à 10 pour le dernier chiffre."
+      }
+    ]
+  },
+  {
+    "id": "vit-dernier-chiffre",
+    "domain": "vitesse",
+    "category": "Élimination",
+    "title": "Trancher par le dernier chiffre",
+    "tagline": "Le dernier chiffre d'un produit ne dépend que des derniers chiffres des facteurs.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "arithmetique",
+      "multiplication-approchee",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-parite",
+      "vit-criteres-divisibilite",
+      "vit-ordre-de-grandeur",
+      "vit-gestion-temps"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour un produit, seuls les chiffres des unités déterminent le chiffre des unités du résultat. 47 × 23 finit donc comme 7 × 3 = 21, c'est-à-dire par 1. Si une seule proposition finit par 1, la question est réglée sans calcul."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "47 × 23 vaut : a) 1 071  b) 1 081  c) 1 181  d) 1 091",
+        "reveal": "7 × 3 = 21 → le résultat finit par 1. Il en reste trois. Ordre de grandeur : ≈ 50 × 23 = 1 150, un peu moins, donc autour de 1 080. La réponse est b) 1 081, obtenue sans multiplier."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que la méthode permet aussi",
+        "items": [
+          "Un produit finissant par 0 exige un facteur 5 et un facteur pair.",
+          "Un carré ne finit jamais par 2, 3, 7 ou 8 : les carrés finissent par 0, 1, 4, 5, 6 ou 9.",
+          "Une somme d'entiers se vérifie de la même façon, chiffre des unités par chiffre des unités.",
+          "La « preuve par 9 » généralise l'idée : la somme des chiffres du produit doit correspondre au produit des sommes de chiffres, modulo 9."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que la méthode prouve la bonne réponse. Elle ne fait qu'ÉLIMINER : deux propositions peuvent finir par le même chiffre. Il faut alors la combiner avec l'ordre de grandeur, comme dans l'exemple."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le triptyque gagnant en QCM numérique : parité, dernier chiffre, ordre de grandeur. Les trois ensemble éliminent presque toujours toutes les mauvaises réponses, pour un coût de cinq secondes."
+      },
+      {
+        "type": "quiz",
+        "question": "Sans calculer, dis par quel chiffre finit 68 × 75, et si le résultat est pair.",
+        "answer": "8 × 5 = 40 → finit par 0. Et un produit avec un facteur pair est pair. (68 × 75 = 5 100.)",
+        "hint": "Un facteur 5 et un facteur pair donnent toujours un produit finissant par 0."
+      }
+    ]
+  },
+  {
+    "id": "vit-parite",
+    "domain": "vitesse",
+    "category": "Élimination",
+    "title": "Raisonner sur la parité",
+    "tagline": "Pair × n'importe quoi = pair. Impair × impair = impair. Deux règles qui éliminent la moitié des réponses.",
+    "level": "fondamental",
+    "readMinutes": 2,
+    "tags": [
+      "arithmetique",
+      "ordre-de-grandeur"
+    ],
+    "related": [
+      "vit-dernier-chiffre",
+      "vit-criteres-divisibilite",
+      "vit-ordre-de-grandeur",
+      "log-piege-logique"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les règles complètes",
+        "items": [
+          "pair + pair = pair ; impair + impair = pair ; pair + impair = impair.",
+          "pair × quoi que ce soit = pair.",
+          "impair × impair = impair — c'est le SEUL cas où un produit est impair.",
+          "La somme de deux nombres consécutifs est toujours impaire.",
+          "La somme de trois nombres consécutifs est toujours divisible par 3."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La parité se propage par des règles fixes, indépendantes de la taille des nombres. Elle permet d'éliminer instantanément des propositions, et de démontrer qu'une situation est impossible — ce que les questions de raisonnement logique exploitent beaucoup."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Peut-on payer exactement 45 € avec uniquement des billets de 10 € et de 20 € ?",
+        "reveal": "Non : toute somme de billets de 10 et 20 est un multiple de 10, donc paire et finissant par 0. 45 est impossible, sans avoir à énumérer les combinaisons."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier que 0 est pair. Et attention aux énoncés de type « la somme de deux nombres impairs est impaire » : c'est faux, elle est toujours paire (3 + 5 = 8)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour un produit de plusieurs facteurs : il suffit d'UN facteur pair pour que tout le produit soit pair. Donc 17 × 23 × 31 × 4 est pair, sans calculer quoi que ce soit."
+      },
+      {
+        "type": "quiz",
+        "question": "17 × 23 × 39 est-il pair ou impair ? Et 17 × 23 × 39 + 1 ?",
+        "answer": "Les trois facteurs sont impairs, donc le produit est impair (15 249). En ajoutant 1, on obtient un nombre pair.",
+        "hint": "Un produit n'est impair que si TOUS ses facteurs le sont."
+      }
+    ]
+  },
+  {
+    "id": "vit-gestion-temps",
+    "domain": "vitesse",
+    "category": "Stratégie",
+    "title": "Combien de temps par question ?",
+    "tagline": "Toutes les questions ne valent pas le même nombre de points : le temps se répartit selon le rendement, pas selon la difficulté.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "ordre-de-grandeur",
+      "arbitrage-priorisation"
+    ],
+    "related": [
+      "vit-ordre-de-grandeur",
+      "vit-dernier-chiffre",
+      "vit-parite",
+      "meth-strategie-qcm"
+    ],
+    "subtests": [
+      "calcul-mental",
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le temps disponible par question n'est pas uniforme, parce que les points par question ne le sont pas. Au Score IAE-Message (format vérifié au 23/09/2026), l'épreuve de raisonnement logique et numérique compte 20 questions pour 100 points et 45 minutes conseillées : 2 min 15 par question, à 5 points chacune. Les trois autres épreuves comptent 50 questions pour 100 points et 45 minutes : 54 secondes par question, à 2 points chacune."
+      },
+      {
+        "type": "table",
+        "title": "Rendement par question — Score IAE-Message",
+        "headers": [
+          "Épreuve",
+          "Questions",
+          "Points / question",
+          "Temps disponible"
+        ],
+        "rows": [
+          [
+            "Raisonnement logique et numérique",
+            "20",
+            "5",
+            "2 min 15"
+          ],
+          [
+            "Culture générale, éco et managériale",
+            "50",
+            "2",
+            "54 s"
+          ],
+          [
+            "Français",
+            "50",
+            "2",
+            "54 s"
+          ],
+          [
+            "Anglais",
+            "50",
+            "2",
+            "54 s"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que cela implique concrètement",
+        "items": [
+          "Une question de logique vaut 2,5 fois une question de culture générale : elle mérite plus de temps, et elle se travaille en priorité.",
+          "En culture générale ou en vocabulaire, tu sais ou tu ne sais pas : au-delà de 20 secondes d'hésitation, réponds au mieux et passe.",
+          "Sans pénalité pour mauvaise réponse, ne laisse JAMAIS une case vide. Une réponse au hasard sur 5 propositions rapporte en espérance un cinquième des points ; une case vide rapporte zéro.",
+          "Fais un premier passage rapide sur les questions faciles, puis un second sur celles laissées de côté : c'est ce qui évite de perdre 5 minutes sur une question à 2 points."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple d'arbitrage",
+        "prompt": "Il te reste 6 minutes et deux blocs non traités : 3 questions de raisonnement numérique, et 8 questions de culture générale. Que fais-tu ?",
+        "reveal": "Les 3 questions de raisonnement valent 15 points, les 8 de culture générale 16 points. Mais les 8 de culture se répondent en 8 × 20 s = moins de 3 minutes si tu les connais, alors que les 3 de raisonnement demandent 6 minutes. Ordre optimal : les 8 questions de culture d'abord (16 points en 3 min), puis le temps restant sur le raisonnement. Et surtout : coche quelque chose partout avant la fin."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : l'acharnement. Rester sur une question parce qu'on a « déjà investi » deux minutes est un biais de coût irrécupérable — les deux minutes sont perdues quoi qu'il arrive, seule compte la rentabilité des minutes restantes. Fixe-toi un plafond par question et respecte-le."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Règle des trois passages : (1) tout ce que tu sais immédiatement, (2) tout ce qui demande un calcul court, (3) tout ce qui reste, en cochant au moins une réponse partout. Le chronomètre décide, pas l'amour-propre."
+      },
+      {
+        "type": "quiz",
+        "question": "Sans pénalité, sur une question à 5 propositions dont tu peux éliminer deux, quelle est ton espérance de gain en répondant au hasard parmi les trois restantes ?",
+        "answer": "Une chance sur trois d'avoir juste, donc un tiers des points de la question. Sur une question à 5 points, cela fait 1,67 point en espérance — contre 0 si tu laisses vide. Toujours répondre.",
+        "hint": "Espérance = probabilité × points."
+      }
+    ]
   }
 ]

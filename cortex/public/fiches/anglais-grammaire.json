@@ -43,5 +43,3917 @@
         "body": "Avant de lire les 4 choix, repère d'abord la fonction du mot qui manque (verbe ? préposition ? connecteur ?) — ça élimine déjà la moitié des pièges sans même comparer les options entre elles."
       }
     ]
+  },
+  {
+    "id": "ang-present-simple-continu",
+    "domain": "anglais",
+    "category": "Temps du présent",
+    "title": "Present simple ou present continuous ?",
+    "tagline": "Simple = habitude et vérité générale. Continuous = en cours maintenant, ou temporaire.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "temps-verbaux",
+      "temps"
+    ],
+    "related": [
+      "ang-present-perfect",
+      "ang-verbes-etat",
+      "ang-futur-will-going-to",
+      "anglais-grammaire-prioritaire"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les deux emplois",
+        "headers": [
+          "Temps",
+          "Emploi",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Present simple",
+            "habitude, routine",
+            "She works in Lyon."
+          ],
+          [
+            "Present simple",
+            "vérité générale",
+            "Water boils at 100 °C."
+          ],
+          [
+            "Present simple",
+            "programme fixé (horaires)",
+            "The train leaves at 6 p.m."
+          ],
+          [
+            "Present continuous",
+            "action en cours maintenant",
+            "She is working on the report."
+          ],
+          [
+            "Present continuous",
+            "situation temporaire",
+            "He is staying at a hotel this week."
+          ],
+          [
+            "Present continuous",
+            "tendance en évolution",
+            "Prices are rising."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le present simple décrit ce qui est vrai en général ; le present continuous (be + V-ing) décrit ce qui se déroule au moment où l'on parle ou sur une période limitée. Les marqueurs trahissent le temps attendu : *usually, often, every day, always* → simple ; *now, at the moment, currently, this week* → continuous."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Our company usually ______ (hire) in September, but this year we ______ (recruit) all year round. »",
+        "reveal": "« Our company usually HIRES in September, but this year we ARE RECRUITING all year round. » *Usually* impose le simple, *this year* (situation exceptionnelle et temporaire) impose le continuous."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le −s de la troisième personne du singulier au present simple. *He work* est faux, *he works* est correct. C'est l'erreur la plus fréquente des francophones, et elle est testée à chaque session du TOEIC."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Cherche l'adverbe de temps avant de choisir : il désigne le temps attendu dans 90 % des cas. Pas d'adverbe ? Demande-toi si la phrase décrit une règle (simple) ou une scène (continuous)."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Elle travaille habituellement à Paris mais elle est actuellement à Londres. »",
+        "answer": "« She usually works in Paris but she is currently in London. » — *usually* → simple, *currently* → continuous.",
+        "hint": "Deux marqueurs de temps, deux temps différents."
+      }
+    ]
+  },
+  {
+    "id": "ang-verbes-etat",
+    "domain": "anglais",
+    "category": "Temps du présent",
+    "title": "Les verbes qui refusent le -ing",
+    "tagline": "Un verbe d'état ne se met pas au continuous : on ne dit pas *I am knowing*.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "temps-verbaux",
+      "temps"
+    ],
+    "related": [
+      "ang-present-simple-continu",
+      "ang-present-perfect",
+      "ang-gerondif-infinitif",
+      "ang-modaux-base"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les familles de verbes d'état",
+        "items": [
+          "Opinion et connaissance : know, believe, think (= penser que), understand, remember, forget, mean.",
+          "Sentiments : like, love, hate, prefer, want, need, wish.",
+          "Perception : see, hear, smell, taste, seem, appear, look (= paraître).",
+          "Possession et appartenance : have (= posséder), own, belong, contain, consist, include.",
+          "Mesure et état : cost, weigh, depend, deserve, matter, exist."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces verbes décrivent un état, non une action en déroulement : ils sont incompatibles avec la forme progressive. *I am knowing the answer* est incorrect ; il faut *I know the answer*. En revanche certains de ces verbes ont un second sens, actif, qui autorise le −ing."
+      },
+      {
+        "type": "table",
+        "title": "Les verbes à double sens",
+        "headers": [
+          "Verbe",
+          "État (pas de -ing)",
+          "Action (-ing possible)"
+        ],
+        "rows": [
+          [
+            "have",
+            "I have two cars (posséder)",
+            "I am having lunch (prendre)"
+          ],
+          [
+            "think",
+            "I think it's fair (estimer)",
+            "I am thinking about it (réfléchir)"
+          ],
+          [
+            "see",
+            "I see what you mean (comprendre)",
+            "I am seeing a client (rencontrer)"
+          ],
+          [
+            "look",
+            "She looks tired (paraître)",
+            "She is looking at the chart (regarder)"
+          ],
+          [
+            "taste",
+            "The soup tastes salty (avoir le goût)",
+            "He is tasting the wine (déguster)"
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *I am agreeing*. Le verbe *agree* est un verbe d'état en anglais : on dit *I agree*, jamais *I am agreeing*. De même *I am belonging* ou *I am depending* sont fautifs."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test simple : peux-tu « voir » quelqu'un en train de faire l'action ? On voit quelqu'un courir ou manger, on ne voit personne « en train de savoir » ou « en train d'appartenir ». Pas d'image, pas de −ing."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « I am not understanding this clause, and I am thinking it is unfair. »",
+        "answer": "« I do not understand this clause, and I think it is unfair. » — *understand* est toujours un état ; *think* au sens d'« estimer » aussi.",
+        "hint": "Deux verbes d'état employés au continuous."
+      }
+    ]
+  },
+  {
+    "id": "ang-present-perfect",
+    "domain": "anglais",
+    "category": "Temps du passé",
+    "title": "Le present perfect",
+    "tagline": "have/has + participe passé : un fait passé qui compte MAINTENANT.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "present-perfect",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-present-perfect-vs-past",
+      "ang-since-for-ago",
+      "ang-past-perfect",
+      "anglais-grammaire-prioritaire"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le present perfect se forme avec have/has + participe passé. Il relie le passé au présent : l'action est terminée, mais son résultat ou sa pertinence appartient au moment présent. C'est pourquoi il est INCOMPATIBLE avec une date passée précise."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les quatre emplois",
+        "items": [
+          "Résultat présent : *I have lost my keys* (je ne les ai toujours pas).",
+          "Expérience de vie, sans date : *She has worked in three countries.*",
+          "Période non terminée : *We have signed four contracts this year* (l'année continue).",
+          "Action commencée dans le passé et continuant : *He has lived here since 2019.*"
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Les marqueurs qui l'imposent",
+        "headers": [
+          "Marqueur",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "already",
+            "They have already approved it."
+          ],
+          [
+            "yet (questions et négations)",
+            "Have you finished yet?"
+          ],
+          [
+            "ever / never",
+            "Have you ever been to Japan?"
+          ],
+          [
+            "just",
+            "She has just left."
+          ],
+          [
+            "so far / up to now",
+            "We have hired six people so far."
+          ],
+          [
+            "since / for",
+            "I have known her for ten years."
+          ],
+          [
+            "this week / this year (en cours)",
+            "Sales have increased this quarter."
+          ]
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *I have seen him yesterday*. Faux — *yesterday* est une date passée révolue, donc past simple : *I saw him yesterday*. Même règle avec *last week, in 2020, two days ago, when I was young*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Période fermée → past simple. Période ouverte ou aucun repère → present perfect. » *This morning* peut prendre les deux : present perfect s'il est encore le matin, past simple si l'après-midi est venu."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The board ______ (not / take) a decision yet, but they ______ (meet) three times last month. »",
+        "answer": "« The board HAS NOT TAKEN a decision yet, but they MET three times last month. » — *yet* → present perfect ; *last month* → past simple.",
+        "hint": "Deux marqueurs opposés dans la même phrase."
+      }
+    ]
+  },
+  {
+    "id": "ang-present-perfect-vs-past",
+    "domain": "anglais",
+    "category": "Temps du passé",
+    "title": "Present perfect ou past simple ?",
+    "tagline": "La question n'est pas « quand » mais « la période est-elle fermée ? ».",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "present-perfect",
+      "temps-verbaux",
+      "temps"
+    ],
+    "related": [
+      "ang-present-perfect",
+      "ang-since-for-ago",
+      "ang-past-simple-continu",
+      "ang-past-perfect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le critère décisif",
+        "headers": [
+          "Situation",
+          "Temps",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Date ou période révolue",
+            "past simple",
+            "We launched it in 2023."
+          ],
+          [
+            "Période encore en cours",
+            "present perfect",
+            "We have launched two products this year."
+          ],
+          [
+            "Pas de repère temporel",
+            "present perfect",
+            "She has visited our plant."
+          ],
+          [
+            "Suite de faits passés (récit)",
+            "past simple",
+            "He joined, worked hard and left."
+          ],
+          [
+            "Résultat visible maintenant",
+            "present perfect",
+            "I have broken my phone."
+          ],
+          [
+            "Question « when ? »",
+            "past simple",
+            "When did you send it?"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le français ne fait pas cette distinction : « j'ai vu » traduit les deux. En anglais, la forme dépend entièrement du cadre temporel. Un même événement change de temps selon la phrase : *I have met the CEO* (expérience) devient *I met the CEO last Tuesday* (date précise)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi « Have you seen the report yesterday? » est-il incorrect, et comment le corriger ?",
+        "reveal": "*Yesterday* ferme la période : le present perfect est exclu. Correction : « Did you see the report yesterday? » Si l'on veut garder le present perfect, il faut retirer le repère : « Have you seen the report? »"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *since* avec un past simple. On dit *I have worked here since 2020*, jamais *I worked here since 2020*. La préposition *since* implique une continuité jusqu'au présent, donc le present perfect."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Question-test : « Peut-on encore ajouter un cas à ce compte ? » *This year, we have signed 4 contracts* → oui, l'année continue. *Last year, we signed 12 contracts* → non, l'année est close."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « She ______ for this company for five years » — has worked / worked ?",
+        "answer": "*has worked* : la construction *for + durée* sans date de fin signifie qu'elle y travaille encore. Avec *worked*, il faudrait une fin explicite : *She worked there for five years before moving to Berlin.*",
+        "hint": "Y travaille-t-elle encore ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-since-for-ago",
+    "domain": "anglais",
+    "category": "Temps du passé",
+    "title": "Since, for, ago : trois repères de durée",
+    "tagline": "Since + point de départ. For + durée. Ago + past simple, toujours.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "present-perfect",
+      "prepositions",
+      "temps"
+    ],
+    "related": [
+      "ang-present-perfect",
+      "ang-present-perfect-vs-past",
+      "ang-prepositions-temps",
+      "ang-past-perfect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois emplois",
+        "headers": [
+          "Mot",
+          "Ce qui suit",
+          "Temps du verbe",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "since",
+            "un point de départ",
+            "present perfect",
+            "since 2019, since Monday, since I arrived"
+          ],
+          [
+            "for",
+            "une durée",
+            "present perfect",
+            "for ten years, for a while"
+          ],
+          [
+            "ago",
+            "une durée + « il y a »",
+            "past simple",
+            "ten years ago, two days ago"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Since* répond à « depuis quand ? » et prend un point précis dans le temps. *For* répond à « pendant combien de temps ? » et prend une durée. *Ago* se place APRÈS la durée et signifie « il y a » : comme il désigne un moment passé révolu, il exige le past simple."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Exprime la même idée de trois façons : arrivée dans l'entreprise en 2021.",
+        "reveal": "« I have worked here since 2021. » / « I have worked here for five years. » / « I joined the company five years ago. » Les trois sont correctes ; seule la troisième est au past simple, à cause d'*ago*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *since ten years*. Faux — dix ans est une durée, donc *for ten years*. Et *I have arrived two days ago* est faux aussi : *ago* interdit le present perfect, il faut *I arrived two days ago*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Since pointe une date, for mesure une durée, ago regarde en arrière. » Et retiens que *ago* se place toujours après la durée, jamais avant."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « The factory is closed since three months, it closed since March. »",
+        "answer": "« The factory has been closed for three months, it closed in March. » — durée → *for* ; date → *in March* (*since March* serait correct avec le present perfect : *it has been closed since March*).",
+        "hint": "Deux erreurs : une durée avec since, et une date avec un past simple."
+      }
+    ]
+  },
+  {
+    "id": "ang-past-simple-continu",
+    "domain": "anglais",
+    "category": "Temps du passé",
+    "title": "Past simple et past continuous",
+    "tagline": "Le continuous pose le décor, le simple raconte l'événement qui l'interrompt.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "temps-verbaux",
+      "temps"
+    ],
+    "related": [
+      "ang-present-perfect-vs-past",
+      "ang-past-perfect",
+      "ang-present-simple-continu",
+      "ang-discours-indirect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le past continuous (was/were + V-ing) décrit une action en cours dans le passé : c'est l'arrière-plan. Le past simple décrit l'action ponctuelle qui survient : c'est le premier plan. Les deux se combinent typiquement avec *while* (pour le continuous) et *when* (pour le simple)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « I ______ (review) the contract when the client ______ (call). »",
+        "reveal": "« I WAS REVIEWING the contract when the client CALLED. » L'examen du contrat était en cours (décor), l'appel l'a interrompu (événement)."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les emplois du past continuous",
+        "items": [
+          "Action en cours interrompue : *We were negotiating when they withdrew.*",
+          "Deux actions simultanées : *While she was presenting, I was taking notes.*",
+          "Décor d'un récit : *It was raining and the streets were empty.*",
+          "Reproche adouci : *I was wondering whether you could help.*"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : mettre les deux verbes au continuous quand l'un des deux est ponctuel. *While I was reading, the phone was ringing* suggère deux actions longues et simultanées ; si la sonnerie interrompt la lecture, il faut *the phone rang*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« While + était en train de ; when + arriva. » Retiens l'association : *while* appelle le continuous, *when* appelle le simple. C'est le repère le plus fiable en QCM."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « While the board ______ (discuss) the merger, the press ______ (publish) the news. »",
+        "answer": "« While the board WAS DISCUSSING the merger, the press PUBLISHED the news. » — *while* → continuous pour l'arrière-plan, événement ponctuel au simple.",
+        "hint": "Lequel des deux faits est ponctuel ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-past-perfect",
+    "domain": "anglais",
+    "category": "Temps du passé",
+    "title": "Le past perfect : le passé du passé",
+    "tagline": "had + participe passé : l'action antérieure à une autre action passée.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "past-perfect",
+      "temps-verbaux",
+      "present-perfect"
+    ],
+    "related": [
+      "ang-present-perfect",
+      "ang-past-simple-continu",
+      "ang-discours-indirect",
+      "ang-conditionnel-types"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le past perfect (had + participe passé) situe une action AVANT une autre action passée. Il ne s'emploie qu'en présence de ce second repère passé, explicite ou implicite : seul, il n'a pas de sens. Il est invariable, *had* pour toutes les personnes."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Compare : « When we arrived, the meeting started » et « When we arrived, the meeting had started ».",
+        "reveal": "Premier cas : nous arrivons, puis la réunion commence (dans cet ordre). Second cas : la réunion avait déjà commencé quand nous sommes arrivés — nous étions en retard. Le past perfect change complètement le sens."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ses trois contextes",
+        "items": [
+          "Antériorité dans un récit : *He had already left when I called.*",
+          "Après *by the time* : *By the time they replied, we had signed with someone else.*",
+          "Dans le discours indirect, comme traduction d'un present perfect ou d'un past simple : *She said she had finished.*",
+          "Dans le conditionnel de type 3 : *If we had known, we would have acted.*"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : l'employer sans second repère passé. *I had visited Rome* seul est incorrect en l'absence d'un autre moment passé ; il faut *I visited Rome in 2019* ou *I had visited Rome before I moved to Milan*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère les mots *already, before, by the time, after, never … until then* : ils appellent le past perfect. Et rappelle-toi que le plus ancien des deux événements prend le *had*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « By the time the auditors ______ (arrive), the team ______ (prepare) all the documents. »",
+        "answer": "« By the time the auditors ARRIVED, the team HAD PREPARED all the documents. » — *by the time* + past simple pour le repère, past perfect pour l'action antérieure.",
+        "hint": "Quelle action est terminée avant l'autre ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-futur-will-going-to",
+    "domain": "anglais",
+    "category": "Futur",
+    "title": "Will, going to, présent : dire le futur",
+    "tagline": "Will = décision ou prédiction. Going to = intention ou indice visible. Présent = horaire fixé.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "futur",
+      "temps-verbaux",
+      "modaux"
+    ],
+    "related": [
+      "ang-futur-apres-when",
+      "ang-present-simple-continu",
+      "ang-modaux-base",
+      "ang-conditionnel-types"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre façons d'exprimer le futur",
+        "headers": [
+          "Forme",
+          "Emploi",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "will + infinitif",
+            "décision immédiate, prédiction, promesse",
+            "I'll call you back."
+          ],
+          [
+            "be going to",
+            "intention préparée, indice présent",
+            "We are going to open a branch."
+          ],
+          [
+            "present continuous",
+            "rendez-vous pris",
+            "I am meeting the client at 3."
+          ],
+          [
+            "present simple",
+            "horaire officiel, programme",
+            "The flight departs at 7:40."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Will* exprime une décision prise au moment où l'on parle, ou une prédiction générale. *Be going to* exprime une intention déjà formée avant de parler, ou une conséquence visible d'un indice présent (*Look at those clouds — it is going to rain*). Le présent, lui, s'emploie pour ce qui est déjà inscrit à l'agenda."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle différence entre « I will send you the file » et « I am going to send you the file » ?",
+        "reveal": "*I will send* : je le décide maintenant, en réponse à ta demande. *I am going to send* : c'était déjà prévu avant que tu le demandes. En contexte professionnel, *will* est la réponse spontanée à une requête."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *will* après *if* dans la proposition conditionnelle. On dit *If it rains, we will cancel*, jamais *If it will rain*. Le futur ne s'emploie pas dans la subordonnée introduite par *if* ou par un marqueur de temps."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Je viens d'y penser → will. J'y pensais déjà → going to. C'est dans mon agenda → présent continuous. » Et *shall* ne subsiste plus qu'en question de proposition : *Shall we start?*"
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « Our sales are dropping every month. If nothing changes, we ______ lose the contract. »",
+        "answer": "*are going to lose* — un indice présent visible (la baisse des ventes) mène à une conséquence : c'est l'emploi typique de *going to*. *Will lose* serait acceptable comme prédiction, mais *going to* traduit mieux le lien avec l'indice.",
+        "hint": "Y a-t-il un signe présent qui annonce le résultat ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-futur-apres-when",
+    "domain": "anglais",
+    "category": "Futur",
+    "title": "Pas de futur après when, if, until",
+    "tagline": "Après when, if, as soon as, until, before, after : présent, jamais will.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "futur",
+      "temps-verbaux",
+      "connecteurs"
+    ],
+    "related": [
+      "ang-futur-will-going-to",
+      "ang-conditionnel-types",
+      "ang-connecteurs-temps",
+      "ang-unless"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une subordonnée de temps ou de condition, l'anglais emploie le PRÉSENT même si le sens est futur. Le futur (*will*) ne figure que dans la proposition principale. C'est une différence majeure avec le français, qui met le futur dans les deux (« quand j'arriverai, je t'appellerai »)."
+      },
+      {
+        "type": "table",
+        "title": "Les conjonctions concernées",
+        "headers": [
+          "Conjonction",
+          "Exemple correct"
+        ],
+        "rows": [
+          [
+            "when",
+            "When I arrive, I will call you."
+          ],
+          [
+            "as soon as",
+            "As soon as we receive it, we will process it."
+          ],
+          [
+            "until / till",
+            "We will wait until he replies."
+          ],
+          [
+            "before / after",
+            "Check it before you send it."
+          ],
+          [
+            "if / unless",
+            "If they agree, we will proceed."
+          ],
+          [
+            "once",
+            "Once the audit is over, we will publish."
+          ],
+          [
+            "by the time",
+            "By the time you read this, I will have left."
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « I will tell you when I will know the answer. »",
+        "reveal": "« I will tell you when I know the answer. » Le *will* de la subordonnée disparaît. Le premier *will* reste, car il est dans la principale."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le *when* interrogatif, où *will* est au contraire correct. « When will you know? » est juste, parce que ce n'est pas une subordonnée mais une question directe. La règle ne vaut que pour les subordonnées."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un seul will par phrase, et il est dans la principale. » Si tu vois deux *will* de part et d'autre d'un *when* ou d'un *if*, celui de la subordonnée est de trop."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « We ______ (start) the project as soon as the budget ______ (be) approved. »",
+        "answer": "« We WILL START the project as soon as the budget IS approved. » — futur dans la principale, présent après *as soon as*.",
+        "hint": "Un seul will, et il n'est pas après as soon as."
+      }
+    ]
+  },
+  {
+    "id": "ang-conditionnel-types",
+    "domain": "anglais",
+    "category": "Conditionnel",
+    "title": "Les trois types de conditionnel",
+    "tagline": "Type 1 : présent + will. Type 2 : passé + would. Type 3 : past perfect + would have.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "conditionnel",
+      "temps-verbaux",
+      "modaux"
+    ],
+    "related": [
+      "ang-conditionnel-mixte",
+      "ang-wish",
+      "ang-unless",
+      "ang-past-perfect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre structures",
+        "headers": [
+          "Type",
+          "Subordonnée (if…)",
+          "Principale",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "0",
+            "if + présent",
+            "présent",
+            "vérité générale"
+          ],
+          [
+            "1",
+            "if + présent",
+            "will + infinitif",
+            "condition réelle, possible"
+          ],
+          [
+            "2",
+            "if + past simple",
+            "would + infinitif",
+            "hypothèse irréelle au présent"
+          ],
+          [
+            "3",
+            "if + past perfect",
+            "would have + participe passé",
+            "regret sur le passé"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Le même contenu, quatre temps",
+        "prompt": "Décline : rater le train / arriver en retard.",
+        "reveal": "Type 0 : *If I miss the train, I am late.* (à chaque fois) — Type 1 : *If I miss the train, I will be late.* (c'est possible aujourd'hui) — Type 2 : *If I missed the train, I would be late.* (hypothèse) — Type 3 : *If I had missed the train, I would have been late.* (ce n'est pas arrivé)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *would* dans la subordonnée. On ne dit jamais *If I would have known*. La forme correcte est *If I had known, I would have…* : *would* appartient exclusivement à la principale. C'est l'erreur la plus sanctionnée du chapitre."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois détails qui rapportent des points",
+        "items": [
+          "Au type 2, *were* remplace *was* à toutes les personnes dans la langue soignée : *If I were you…*",
+          "*Could* et *might* peuvent remplacer *would* pour nuancer : *If we invested more, we could grow faster.*",
+          "L'ordre des propositions est libre : *We will proceed if they agree* = *If they agree, we will proceed.* Virgule uniquement quand la subordonnée est en tête.",
+          "*Should* en tête remplace *if* dans un registre formel : *Should you need help, contact us.*"
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un temps en arrière = une hypothèse en plus. » Du réel (présent + will) à l'irréel présent (passé + would), puis à l'irréel passé (past perfect + would have) : chaque recul d'un temps éloigne d'un degré de la réalité."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « If they ______ (accept) our offer last year, we ______ (be) market leader today. »",
+        "answer": "« If they HAD ACCEPTED our offer last year, we WOULD BE market leader today. » C'est un conditionnel MIXTE : condition passée (type 3), conséquence présente (type 2).",
+        "hint": "La condition est dans le passé, la conséquence dans le présent."
+      }
+    ]
+  },
+  {
+    "id": "ang-conditionnel-mixte",
+    "domain": "anglais",
+    "category": "Conditionnel",
+    "title": "Conditionnels mixtes",
+    "tagline": "Condition passée, conséquence présente : if + past perfect, would + infinitif.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "conditionnel",
+      "temps-verbaux",
+      "past-perfect"
+    ],
+    "related": [
+      "ang-conditionnel-types",
+      "ang-wish",
+      "ang-modaux-passe",
+      "ang-past-perfect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un conditionnel mixte croise deux époques. Le cas le plus fréquent : une condition non réalisée dans le PASSÉ, avec une conséquence dans le PRÉSENT. Structure : *if + past perfect, would + infinitif*. L'inverse existe aussi : condition présente, conséquence passée."
+      },
+      {
+        "type": "table",
+        "title": "Les deux combinaisons",
+        "headers": [
+          "Condition",
+          "Conséquence",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "passée (past perfect)",
+            "présente (would + inf.)",
+            "If I had studied law, I would be a lawyer now."
+          ],
+          [
+            "présente (past simple)",
+            "passée (would have + PP)",
+            "If she were more careful, she would not have made that error."
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Exprime : elle n'a pas accepté le poste à l'époque, donc elle ne dirige pas la filiale aujourd'hui.",
+        "reveal": "« If she had accepted the job, she would be running the subsidiary today. » Condition au past perfect (passé non réalisé), conséquence avec *would* + infinitif (présent)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : accorder les deux propositions sur la même époque par réflexe. « If I had studied law, I would have been a lawyer now » est fautif : *now* impose une conséquence présente, donc *would be*, sans *have*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère le marqueur temporel de chaque proposition : *last year*, *then* → passé ; *now*, *today*, *still* → présent. Chaque proposition prend le temps de SON époque, indépendamment de l'autre."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « If we ______ (invest) in that technology ten years ago, we ______ (not / struggle) today. »",
+        "answer": "« If we HAD INVESTED in that technology ten years ago, we WOULD NOT BE STRUGGLING today. » — condition passée, conséquence présente.",
+        "hint": "Deux marqueurs : ten years ago et today."
+      }
+    ]
+  },
+  {
+    "id": "ang-wish",
+    "domain": "anglais",
+    "category": "Conditionnel",
+    "title": "Wish et if only : exprimer le regret",
+    "tagline": "Wish + past = regret présent. Wish + past perfect = regret passé. Wish + would = agacement.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "conditionnel",
+      "temps-verbaux",
+      "modaux"
+    ],
+    "related": [
+      "ang-conditionnel-types",
+      "ang-conditionnel-mixte",
+      "ang-modaux-passe",
+      "ang-verbes-etat"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois constructions",
+        "headers": [
+          "Structure",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "wish + past simple",
+            "regret sur une situation présente",
+            "I wish I had more time. (je n'en ai pas)"
+          ],
+          [
+            "wish + past perfect",
+            "regret sur un fait passé",
+            "I wish I had accepted. (je n'ai pas accepté)"
+          ],
+          [
+            "wish + would",
+            "agacement, souhait de changement",
+            "I wish he would answer his emails."
+          ],
+          [
+            "wish + could",
+            "souhait d'une capacité",
+            "I wish I could speak Mandarin."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Après *wish*, le temps recule d'un cran par rapport au sens. Un regret sur le présent se dit au passé ; un regret sur le passé se dit au past perfect. *If only* fonctionne exactement de la même façon, avec une nuance plus intense."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Traduis : « Je regrette de ne pas avoir appris l'anglais plus tôt. »",
+        "reveal": "« I wish I had learnt English earlier. » Regret sur un fait passé → past perfect. La traduction littérale *I wish I did not learn* serait fautive."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *I wish I would have*. Cette forme n'existe pas. De même, *wish + will* est impossible : on emploie *wish + would*. Et *I wish I was* est toléré mais *I wish I were* reste préféré à l'écrit."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Wish regarde toujours un cran en arrière. » Le sens est présent → forme au passé. Le sens est passé → forme au past perfect. Jamais de futur après *wish*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The presentation was a disaster. I wish I ______ (prepare) more, and I wish my colleagues ______ (listen) when I ask for feedback. »",
+        "answer": "« I wish I HAD PREPARED more » (regret passé), « I wish my colleagues WOULD LISTEN » (agacement, comportement répété).",
+        "hint": "Un regret sur un fait précis, puis un reproche sur une habitude."
+      }
+    ]
+  },
+  {
+    "id": "ang-unless",
+    "domain": "anglais",
+    "category": "Conditionnel",
+    "title": "Unless, as long as, provided that",
+    "tagline": "Unless = if not. Ne mets donc jamais de négation après unless.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "conditionnel",
+      "connecteurs",
+      "opposition"
+    ],
+    "related": [
+      "ang-conditionnel-types",
+      "ang-futur-apres-when",
+      "ang-connecteurs-opposition",
+      "ang-connecteurs-cause"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les conjonctions de condition",
+        "headers": [
+          "Conjonction",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "unless",
+            "à moins que, sauf si (= if not)",
+            "We will ship it unless you object."
+          ],
+          [
+            "as long as / so long as",
+            "à condition que",
+            "You may use it as long as you credit us."
+          ],
+          [
+            "provided (that) / providing",
+            "pourvu que (formel)",
+            "Provided that funds allow, we will hire."
+          ],
+          [
+            "in case",
+            "au cas où",
+            "Take a copy in case they ask."
+          ],
+          [
+            "otherwise",
+            "sinon, faute de quoi",
+            "Sign today; otherwise the offer expires."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Unless* contient déjà la négation : il équivaut à *if … not*. Ajouter une négation derrière inverse donc le sens. « We will proceed unless they object » signifie « nous continuons SAUF SI ils s'y opposent », soit « si ils ne s'y opposent pas »."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Réécris avec *unless* : « If you do not confirm before Friday, we will cancel the booking. »",
+        "reveal": "« Unless you confirm before Friday, we will cancel the booking. » Le *not* disparaît, absorbé par *unless*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *unless you don't confirm*, qui signifie l'inverse de ce qu'on veut dire. Autre piège : *in case* ne veut pas dire « au cas où » au sens de « si ». *Take an umbrella in case it rains* = par précaution ; *if it rains, take an umbrella* = condition."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test de substitution : remplace *unless* par *if … not*. Si la phrase obtenue a le sens voulu, c'est correct. Si elle contient deux négations, tu en as une de trop."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Nous livrerons lundi, à moins que vous ne demandiez un report. »",
+        "answer": "« We will deliver on Monday unless you request a postponement. » Pas de négation après *unless*, malgré le « ne » explétif du français.",
+        "hint": "Le « ne » français est explétif, il ne se traduit pas."
+      }
+    ]
+  },
+  {
+    "id": "ang-modaux-base",
+    "domain": "anglais",
+    "category": "Modaux",
+    "title": "Les modaux : règles de base",
+    "tagline": "Jamais de -s, jamais de to après eux, et pas deux modaux à la suite.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "modaux",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-modaux-deduction",
+      "ang-modaux-passe",
+      "ang-obligation",
+      "ang-futur-will-going-to"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les quatre règles de forme",
+        "items": [
+          "Pas de −s à la troisième personne : *she can*, jamais *she cans*.",
+          "Suivis de l'infinitif SANS *to* : *you must go*, jamais *you must to go*. Exception : *ought to*, *have to*, *be able to*.",
+          "Interrogation et négation directes, sans auxiliaire : *Can you help?*, *He cannot come*.",
+          "Un seul modal par verbe : *he will can* est impossible → *he will be able to*."
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Les valeurs principales",
+        "headers": [
+          "Modal",
+          "Valeur",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "can",
+            "capacité, permission",
+            "She can negotiate in three languages."
+          ],
+          [
+            "may",
+            "permission formelle, possibilité",
+            "You may leave. / It may rain."
+          ],
+          [
+            "must",
+            "obligation forte, déduction",
+            "You must sign here."
+          ],
+          [
+            "should",
+            "conseil, recommandation",
+            "You should check the figures."
+          ],
+          [
+            "could",
+            "capacité passée, suggestion polie",
+            "We could postpone the meeting."
+          ],
+          [
+            "would",
+            "conditionnel, habitude passée",
+            "I would appreciate a reply."
+          ],
+          [
+            "might",
+            "possibilité faible",
+            "They might accept."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Les équivalents pour les temps manquants",
+        "body": "Les modaux n'ont pas d'infinitif ni de participe : on les remplace par des périphrases dès qu'un autre temps est nécessaire. *can* → *be able to* (*I will be able to*, *I have been able to*). *must* → *have to* (*I had to*, *I will have to*). *may* → *be allowed to*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *must* n'a pas de passé. « Je devais partir » ne se dit pas *I musted* mais *I had to leave*. Et *must have left* ne signifie pas « j'ai dû partir » au sens d'obligation, mais « il a certainement dû partir » — une déduction."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un modal, pas de to, pas de s, pas de second modal. » Ces quatre interdits couvrent la quasi-totalité des questions de forme sur les modaux au TOEIC."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « She musts to finish the report, and next week she will can present it. »",
+        "answer": "« She MUST finish the report, and next week she WILL BE ABLE TO present it. » — pas de −s, pas de *to* après *must*, et *will can* devient *will be able to*.",
+        "hint": "Trois erreurs de forme."
+      }
+    ]
+  },
+  {
+    "id": "ang-obligation",
+    "domain": "anglais",
+    "category": "Modaux",
+    "title": "Must, have to, mustn't, don't have to",
+    "tagline": "Mustn't = interdiction. Don't have to = pas d'obligation. Deux sens opposés.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "modaux",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-modaux-base",
+      "ang-modaux-deduction",
+      "ang-modaux-passe",
+      "ang-connecteurs-cause"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le tableau décisif",
+        "headers": [
+          "Forme",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "must",
+            "obligation, souvent interne ou de l'auteur",
+            "You must wear a badge."
+          ],
+          [
+            "have to",
+            "obligation venant d'une règle extérieure",
+            "I have to renew my visa."
+          ],
+          [
+            "mustn't",
+            "INTERDICTION",
+            "You mustn't share this file. (c'est interdit)"
+          ],
+          [
+            "don't have to",
+            "ABSENCE d'obligation",
+            "You don't have to attend. (c'est facultatif)"
+          ],
+          [
+            "should",
+            "recommandation",
+            "You should double-check."
+          ],
+          [
+            "needn't / don't need to",
+            "pas nécessaire",
+            "You needn't reply immediately."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "C'est la nuance la plus testée du chapitre. *Mustn't* et *don't have to* se ressemblent en apparence mais s'opposent : le premier interdit, le second dispense. En français, « vous ne devez pas » est ambigu ; l'anglais tranche."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle est la différence entre « Visitors mustn't use the lift » et « Visitors don't have to use the lift » ?",
+        "reveal": "Premier cas : l'ascenseur leur est interdit. Second cas : ils peuvent prendre l'escalier s'ils préfèrent, l'ascenseur reste autorisé. Une consigne de sécurité utilisera *mustn't* ; une facilité optionnelle, *don't have to*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : au passé, *must* et *have to* fusionnent. *I had to sign* traduit les deux, et *I mustn't have signed* n'existe pas comme interdiction passée — on dit *I was not allowed to sign*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Mustn't = défense d'entrer. Don't have to = entrée libre mais pas obligatoire. » Face à un QCM, demande-toi si l'énoncé décrit un interdit ou une option."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « The deadline is flexible, so you ______ submit it today. » — mustn't / don't have to ?",
+        "answer": "*don't have to* : la souplesse du délai indique une absence d'obligation, pas une interdiction. *Mustn't* signifierait qu'il est interdit de rendre aujourd'hui.",
+        "hint": "« Flexible » annonce une dispense, pas un interdit."
+      }
+    ]
+  },
+  {
+    "id": "ang-modaux-deduction",
+    "domain": "anglais",
+    "category": "Modaux",
+    "title": "Déduire avec must, can't, might",
+    "tagline": "Must be = c'est certain. Can't be = c'est impossible. Might be = c'est possible.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "modaux",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-modaux-base",
+      "ang-modaux-passe",
+      "ang-obligation",
+      "log-syllogisme"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "L'échelle de certitude",
+        "headers": [
+          "Degré",
+          "Modal",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Certitude positive",
+            "must",
+            "He must be the new director. (c'est sûrement lui)"
+          ],
+          [
+            "Forte probabilité",
+            "should",
+            "The parcel should arrive today."
+          ],
+          [
+            "Possibilité",
+            "may / might / could",
+            "She might be in a meeting."
+          ],
+          [
+            "Impossibilité",
+            "can't / cannot",
+            "That can't be right. (c'est impossible)"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour la déduction, *must* n'exprime pas l'obligation mais la certitude logique. Son contraire n'est pas *mustn't* (qui signifie l'interdiction) mais *can't* : pour dire « ce n'est certainement pas lui », on dit *it can't be him*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Les lumières sont allumées et une voiture est garée devant. Comment le dire en anglais ?",
+        "reveal": "« Someone must be in the office. » — déduction de certitude à partir d'indices. Si l'on doutait : « Someone might be in the office. »"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : utiliser *mustn't* pour nier une déduction. *He mustn't be the manager* signifie « il lui est interdit d'être le manager », ce qui n'a aucun sens. La forme correcte est *he can't be the manager*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Must et can't sont les deux extrémités de la même échelle. » L'un affirme la certitude, l'autre l'exclut. Entre les deux : should, may, might, could."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Ce ne peut pas être leur meilleure offre, ils doivent avoir une marge. »",
+        "answer": "« That can't be their best offer; they must have some margin. » — *can't* pour l'impossibilité, *must* pour la certitude.",
+        "hint": "Deux déductions opposées dans la même phrase."
+      }
+    ]
+  },
+  {
+    "id": "ang-modaux-passe",
+    "domain": "anglais",
+    "category": "Modaux",
+    "title": "Modal + have + participe passé",
+    "tagline": "Should have = reproche. Must have = déduction passée. Could have = occasion manquée.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "modaux",
+      "past-perfect",
+      "conditionnel"
+    ],
+    "related": [
+      "ang-modaux-deduction",
+      "ang-conditionnel-types",
+      "ang-wish",
+      "ang-past-perfect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les cinq formes à connaître",
+        "headers": [
+          "Forme",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "should have + PP",
+            "reproche, regret",
+            "You should have told me. (tu ne l'as pas fait)"
+          ],
+          [
+            "must have + PP",
+            "déduction sur le passé",
+            "They must have left early."
+          ],
+          [
+            "can't have + PP",
+            "impossibilité passée",
+            "She can't have seen the email."
+          ],
+          [
+            "could have + PP",
+            "occasion manquée, possibilité passée",
+            "We could have won that contract."
+          ],
+          [
+            "might have + PP",
+            "possibilité passée incertaine",
+            "He might have misunderstood."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le schéma est invariable : modal + *have* + participe passé. Le modal porte la nuance (reproche, certitude, possibilité), et *have + PP* situe le fait dans le passé. Aucune de ces formes ne se conjugue : *had should* ou *musted have* n'existent pas."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Le client n'a pas répondu à l'offre. Formule trois hypothèses avec trois modaux différents.",
+        "reveal": "« He might have missed the email. » (possible) — « He must have received a better offer. » (probable, déduction) — « We should have called to confirm. » (reproche envers nous-mêmes)."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *would of*, *should of*. Ces formes n'existent pas ; elles viennent de la prononciation contractée *would've*. À l'écrit, c'est toujours *would have*, *should have*, *could have*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Should have = j'aurais dû. Must have = il a dû (sûrement). Could have = j'aurais pu. » Les trois sont testées ensemble : repère si l'énoncé exprime un reproche, une déduction ou une occasion perdue."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The file is corrupted. Someone ______ (open) it with the wrong software, and we ______ (make) a backup. »",
+        "answer": "« Someone MUST HAVE OPENED it with the wrong software, and we SHOULD HAVE MADE a backup. » — déduction, puis reproche.",
+        "hint": "Une déduction sur le passé, puis un regret."
+      }
+    ]
+  },
+  {
+    "id": "ang-used-to",
+    "domain": "anglais",
+    "category": "Modaux",
+    "title": "Used to, be used to, would",
+    "tagline": "Used to + infinitif = habitude passée. Be used to + V-ing = être habitué à.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "modaux",
+      "temps-verbaux",
+      "gerondif-infinitif"
+    ],
+    "related": [
+      "ang-modaux-base",
+      "ang-gerondif-infinitif",
+      "ang-past-simple-continu",
+      "ang-verbes-gerondif"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois structures à ne pas confondre",
+        "headers": [
+          "Structure",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "used to + infinitif",
+            "habitude passée, révolue",
+            "I used to commute by train. (plus maintenant)"
+          ],
+          [
+            "be used to + V-ing",
+            "être habitué à (état présent ou passé)",
+            "I am used to working under pressure."
+          ],
+          [
+            "get used to + V-ing",
+            "s'habituer à (processus)",
+            "She is getting used to the new system."
+          ],
+          [
+            "would + infinitif",
+            "habitude passée répétée (récit)",
+            "Every summer we would visit our grandparents."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*Used to* (sans *be*) décrit ce qui était vrai et ne l'est plus. *Be used to* décrit une accoutumance, et se construit avec un nom ou un gérondif. *Would* peut remplacer *used to* pour des actions répétées, mais pas pour des états : on ne dit pas *I would live in Paris*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle différence entre « I used to work nights » et « I am used to working nights » ?",
+        "reveal": "Premier cas : je travaillais de nuit autrefois, ce n'est plus le cas. Second cas : le travail de nuit ne me dérange pas, j'y suis habitué — et je le fais peut-être encore."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *I am used to work*. Après *be used to*, la préposition *to* exige un nom ou un gérondif, jamais un infinitif : *I am used to workING*. Et à la forme négative ou interrogative, *used to* devient *didn't use to* (sans −d)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Avec be, c'est du ING. Sans be, c'est l'infinitif. » La présence ou l'absence de l'auxiliaire *be* détermine entièrement la construction qui suit."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « She ______ (not / like) presentations, but now she ______ (be used to) ______ (speak) in public. »",
+        "answer": "« She DIDN'T USE TO LIKE presentations, but now she IS USED TO SPEAKING in public. » — négation sans −d, puis gérondif après *be used to*.",
+        "hint": "Attention à la négation de used to."
+      }
+    ]
+  },
+  {
+    "id": "ang-voix-passive",
+    "domain": "anglais",
+    "category": "Voix passive",
+    "title": "La voix passive",
+    "tagline": "be + participe passé. Le temps se porte sur be, jamais sur le participe.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "voix-passive",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-passive-deux-objets",
+      "ang-present-perfect",
+      "ang-modaux-base",
+      "ang-formes-de-mots"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le passif à tous les temps",
+        "headers": [
+          "Temps",
+          "Actif",
+          "Passif"
+        ],
+        "rows": [
+          [
+            "Présent",
+            "They sign the contract.",
+            "The contract is signed."
+          ],
+          [
+            "Présent continu",
+            "They are signing it.",
+            "It is being signed."
+          ],
+          [
+            "Passé",
+            "They signed it.",
+            "It was signed."
+          ],
+          [
+            "Present perfect",
+            "They have signed it.",
+            "It has been signed."
+          ],
+          [
+            "Futur",
+            "They will sign it.",
+            "It will be signed."
+          ],
+          [
+            "Modal",
+            "They must sign it.",
+            "It must be signed."
+          ],
+          [
+            "Past perfect",
+            "They had signed it.",
+            "It had been signed."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le passif se construit avec l'auxiliaire *be* au temps voulu, suivi du participe passé. Seul *be* se conjugue. L'agent, s'il est mentionné, est introduit par *by* — mais il est souvent omis, précisément parce que le passif sert à ne pas nommer l'acteur."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Pourquoi le passif est partout en anglais des affaires",
+        "items": [
+          "Pour mettre l'accent sur l'action plutôt que sur l'auteur : *Your order has been shipped.*",
+          "Pour éviter d'attribuer une responsabilité : *An error was made.*",
+          "Dans les procédures et modes d'emploi : *Forms must be submitted before Friday.*",
+          "Dans les annonces officielles : *The meeting has been postponed.*"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : conjuguer le participe passé. *It was be signed* ou *it is signing* (pour un sens passif) sont fautifs. Et attention : *it is signing* signifierait que l'objet signe lui-même. Le participe reste invariable."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour transformer une phrase active en passive : l'objet devient sujet, le verbe devient *be* + participe passé au même temps, le sujet passe derrière *by* (ou disparaît)."
+      },
+      {
+        "type": "quiz",
+        "question": "Mets au passif : « The committee has approved the new budget. »",
+        "answer": "« The new budget has been approved (by the committee). » — present perfect passif : *has been* + participe passé.",
+        "hint": "Le present perfect passif est have/has been + PP."
+      }
+    ]
+  },
+  {
+    "id": "ang-passive-deux-objets",
+    "domain": "anglais",
+    "category": "Voix passive",
+    "title": "Passif des verbes à deux compléments",
+    "tagline": "Give, send, offer, tell : deux passifs possibles, et c'est la personne qu'on met en avant.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "voix-passive",
+      "temps-verbaux",
+      "pronoms-relatifs"
+    ],
+    "related": [
+      "ang-voix-passive",
+      "ang-verbes-gerondif",
+      "ang-formes-de-mots",
+      "ang-ordre-des-mots"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Certains verbes prennent deux compléments : un destinataire et un objet (*They gave me a contract*). Au passif, l'un OU l'autre peut devenir sujet : *I was given a contract* ou *A contract was given to me*. L'anglais préfère largement la première forme, avec la personne en tête."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les verbes concernés",
+        "items": [
+          "give, send, offer, lend, pay, promise, show, teach, tell, award, grant.",
+          "Deux passifs : *She was offered the position* / *The position was offered to her*.",
+          "La forme avec la personne en sujet est la plus naturelle en anglais des affaires.",
+          "Quand l'objet devient sujet, le destinataire prend *to* (ou *for* selon le verbe)."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Mets au passif des deux façons : « The board awarded him a bonus. »",
+        "reveal": "« He was awarded a bonus (by the board). » — forme préférée. « A bonus was awarded to him (by the board). » — correcte mais plus lourde."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les verbes *explain*, *describe*, *suggest*, *say* n'admettent PAS la personne comme sujet passif. On ne dit pas *I was explained the rule* mais *The rule was explained to me*. Ces verbes exigent la préposition."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens le groupe des interdits : explain, describe, suggest, mention, say, announce. Avec eux, jamais de personne en sujet passif — c'est l'objet qui monte, et la personne suit avec *to*."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « We were explained the new procedure yesterday. »",
+        "answer": "« The new procedure was explained to us yesterday. » — *explain* n'accepte pas la personne comme sujet passif.",
+        "hint": "Explain fait partie des verbes interdits."
+      }
+    ]
+  },
+  {
+    "id": "ang-accord-sujet-verbe",
+    "domain": "anglais",
+    "category": "Accord",
+    "title": "Accord sujet-verbe : les cas piégeux",
+    "tagline": "Repère le vrai sujet : ce n'est pas toujours le mot juste avant le verbe.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "accord-sujet-verbe",
+      "noms-collectifs",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-noms-collectifs",
+      "ang-quantifieurs",
+      "ang-noms-indenombrables",
+      "anglais-grammaire-prioritaire"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les configurations testées",
+        "headers": [
+          "Structure",
+          "Accord",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Sujet + groupe intercalé",
+            "avec le sujet réel",
+            "The list of items IS long."
+          ],
+          [
+            "everyone, everybody, someone",
+            "singulier",
+            "Everyone HAS received it."
+          ],
+          [
+            "each, every, either, neither",
+            "singulier",
+            "Each department HAS a budget."
+          ],
+          [
+            "a number of + pluriel",
+            "pluriel",
+            "A number of issues REMAIN."
+          ],
+          [
+            "the number of + pluriel",
+            "singulier",
+            "The number of issues IS falling."
+          ],
+          [
+            "either … or / neither … nor",
+            "avec le second terme",
+            "Neither the CEO nor the managers ARE available."
+          ],
+          [
+            "there is / there are",
+            "avec ce qui suit",
+            "There ARE two options."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'anglais accorde avec le NOYAU du groupe sujet, pas avec le mot le plus proche du verbe. Dans *the list of items*, le noyau est *list* (singulier) : le verbe est au singulier, malgré *items* juste avant. C'est le piège numéro un de la partie 5 du TOEIC."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Choisis : « The quality of the products ______ improved. » — has / have ?",
+        "reveal": "*has* : le noyau du sujet est *quality*, singulier. *The products* n'est qu'un complément du nom. Astuce : supprime mentalement le groupe prépositionnel — *the quality … has improved*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *as well as*, *along with*, *together with*, *in addition to* n'ajoutent RIEN au sujet grammatical. *The director, as well as his assistants, IS attending* — singulier, parce que seul *the director* est sujet. Avec *and*, en revanche, le sujet devient pluriel."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Barre tout ce qui est entre virgules et tout groupe commençant par une préposition (*of, with, including, along with*). Ce qui reste est le sujet réel, et c'est avec lui que le verbe s'accorde."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « Neither the manager nor the employees ______ satisfied with the outcome. » — is / are ?",
+        "answer": "*are* : avec *neither … nor*, l'accord se fait avec le second terme, ici *the employees*, pluriel.",
+        "hint": "Quel est le terme le plus proche du verbe dans la structure neither… nor ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-noms-collectifs",
+    "domain": "anglais",
+    "category": "Accord",
+    "title": "Noms collectifs : singulier ou pluriel ?",
+    "tagline": "Police et people sont toujours pluriels. Team et company peuvent être les deux.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "noms-collectifs",
+      "accord-sujet-verbe"
+    ],
+    "related": [
+      "ang-accord-sujet-verbe",
+      "ang-noms-indenombrables",
+      "ang-quantifieurs",
+      "ang-articles"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois catégories",
+        "headers": [
+          "Catégorie",
+          "Accord",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Toujours pluriel",
+            "verbe pluriel",
+            "police, people, cattle, staff (souvent)"
+          ],
+          [
+            "Variable",
+            "selon l'intention",
+            "team, company, government, committee, family, audience"
+          ],
+          [
+            "Toujours singulier",
+            "verbe singulier",
+            "news, information, advice, furniture, equipment, research"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Pour les noms variables, l'anglais britannique accorde au pluriel quand on pense aux individus (*the team are arguing*) et au singulier quand on pense à l'entité (*the team is the best in the league*). L'anglais américain, et le TOEIC, préfèrent le singulier. En cas de doute au test, choisis le singulier."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « The police is investigating and the news are encouraging. »",
+        "reveal": "« The police ARE investigating and the news IS encouraging. » — *police* est toujours pluriel, *news* toujours singulier malgré son −s final."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les indénombrables à l'apparence de pluriel. *Information*, *advice*, *equipment*, *furniture*, *research*, *luggage* ne prennent jamais de −s et jamais de pluriel : on dit *two pieces of advice*, jamais *two advices*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens le trio traître : *news* (singulier malgré le s), *police* (pluriel sans s), *people* (pluriel sans s). Ces trois-là suffisent à répondre à la majorité des questions sur les collectifs."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « The staff ______ been informed, and all the equipment ______ arrived. » — has/have, has/have ?",
+        "answer": "*have been informed* (le personnel, vu comme des individus — le singulier *has* est également accepté en anglais américain) et *has arrived* (*equipment* est indénombrable, donc toujours singulier).",
+        "hint": "L'un est variable, l'autre est indénombrable."
+      }
+    ]
+  },
+  {
+    "id": "ang-noms-indenombrables",
+    "domain": "anglais",
+    "category": "Accord",
+    "title": "Noms indénombrables",
+    "tagline": "Pas de pluriel, pas de « a » : on passe par a piece of, some, much.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "noms-collectifs",
+      "accord-sujet-verbe",
+      "prepositions"
+    ],
+    "related": [
+      "ang-noms-collectifs",
+      "ang-quantifieurs",
+      "ang-articles",
+      "ang-accord-sujet-verbe"
+    ],
+    "subtests": [
+      "grammaire",
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les indénombrables qui piègent les francophones",
+        "items": [
+          "information, advice, news, knowledge, research, evidence, feedback.",
+          "equipment, furniture, luggage, baggage, machinery, software, hardware.",
+          "money, cash, work (au sens de travail), progress, traffic, weather.",
+          "training, employment, accommodation, permission, damage."
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Comment les compter",
+        "headers": [
+          "Incorrect",
+          "Correct"
+        ],
+        "rows": [
+          [
+            "an information",
+            "a piece of information"
+          ],
+          [
+            "two advices",
+            "two pieces of advice"
+          ],
+          [
+            "many furnitures",
+            "a lot of furniture / several pieces of furniture"
+          ],
+          [
+            "a good news",
+            "good news / a piece of good news"
+          ],
+          [
+            "some works to do",
+            "some work to do"
+          ],
+          [
+            "many equipments",
+            "much equipment / several items of equipment"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un nom indénombrable ne se met pas au pluriel et ne s'emploie pas avec *a/an*. Pour le quantifier, on utilise *some, much, a lot of, a little*, ou une unité de comptage (*a piece of, an item of, a bit of*). Le verbe est toujours au singulier."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *work* et *works*. *Work* indénombrable signifie le travail ; *works* existe mais désigne des travaux (chantier) ou une usine. *I have a lot of work* est correct ; *I have many works* signifierait tout autre chose."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Liste courte à mémoriser pour le TOEIC : information, advice, news, furniture, equipment, luggage, money, work, progress, research. Ce sont celles qui reviennent le plus, et toutes prennent un verbe singulier."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « We received many informations and two advices about the new equipments. »",
+        "answer": "« We received a lot of information and two pieces of advice about the new equipment. » — trois indénombrables mis au pluriel à tort.",
+        "hint": "Aucun des trois noms ne prend de -s."
+      }
+    ]
+  },
+  {
+    "id": "ang-quantifieurs",
+    "domain": "anglais",
+    "category": "Accord",
+    "title": "Much, many, few, little",
+    "tagline": "Many et few pour ce qui se compte. Much et little pour ce qui se mesure.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "noms-collectifs",
+      "comparatifs",
+      "accord-sujet-verbe"
+    ],
+    "related": [
+      "ang-noms-indenombrables",
+      "ang-comparatifs",
+      "ang-articles",
+      "ang-noms-collectifs"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le tableau complet",
+        "headers": [
+          "Dénombrable",
+          "Indénombrable",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "many",
+            "much",
+            "beaucoup"
+          ],
+          [
+            "few",
+            "little",
+            "peu (sens négatif)"
+          ],
+          [
+            "a few",
+            "a little",
+            "quelques, un peu (sens positif)"
+          ],
+          [
+            "fewer",
+            "less",
+            "moins"
+          ],
+          [
+            "a large number of",
+            "a great deal of",
+            "un grand nombre de"
+          ],
+          [
+            "how many",
+            "how much",
+            "combien"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La nuance a few / few",
+        "body": "*A few* est positif : « quelques », il y en a. *Few* sans article est négatif : « peu », presque pas. « I have a few contacts » rassure ; « I have few contacts » inquiète. Même opposition entre *a little* et *little*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle différence entre « Few candidates applied » et « A few candidates applied » ?",
+        "reveal": "*Few candidates applied* : très peu, c'est un problème. *A few candidates applied* : quelques-uns se sont présentés, c'est un fait neutre ou positif. L'article change entièrement le ton."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *less* avec un dénombrable. La forme correcte est *fewer employees*, pas *less employees* — même si l'usage courant l'admet de plus en plus. Au TOEIC, *fewer* pour ce qui se compte, *less* pour ce qui se mesure."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Si je peux mettre un nombre devant, c'est many/few. Sinon c'est much/little. » Trois employés → many. De l'argent → much. Et *much* est rare en phrase affirmative : on préfère *a lot of*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « We have ______ time and ______ resources, so we need to prioritise. » (sens : très peu des deux)",
+        "answer": "« We have LITTLE time and FEW resources » — *little* pour l'indénombrable *time*, *few* pour le dénombrable *resources*, tous deux sans article pour le sens négatif.",
+        "hint": "Sans article, pour le sens négatif."
+      }
+    ]
+  },
+  {
+    "id": "ang-pronoms-relatifs",
+    "domain": "anglais",
+    "category": "Pronoms relatifs",
+    "title": "Who, which, that, whose, where",
+    "tagline": "Who pour les personnes, which pour les choses, that pour les deux — mais jamais après une virgule.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "pronoms-relatifs",
+      "connecteurs"
+    ],
+    "related": [
+      "ang-relatifs-omission",
+      "ang-ordre-des-mots",
+      "ang-connecteurs-opposition",
+      "ang-passive-deux-objets"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quel relatif employer",
+        "headers": [
+          "Relatif",
+          "Antécédent",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "who / whom",
+            "personne",
+            "The manager who signed the deal."
+          ],
+          [
+            "which",
+            "chose, animal",
+            "The report which arrived yesterday."
+          ],
+          [
+            "that",
+            "personne ou chose (déterminatives seulement)",
+            "The contract that we signed."
+          ],
+          [
+            "whose",
+            "possession",
+            "The client whose order was delayed."
+          ],
+          [
+            "where",
+            "lieu",
+            "The office where we met."
+          ],
+          [
+            "when",
+            "moment",
+            "The year when we expanded."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Déterminative ou explicative ?",
+        "body": "Une relative DÉTERMINATIVE identifie l'antécédent : elle est indispensable et ne prend pas de virgule. Une relative EXPLICATIVE ajoute une information accessoire : elle est entre virgules. Conséquence majeure : *that* est impossible dans une relative explicative."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Compare : « The employees who work remotely receive an allowance » et « The employees, who work remotely, receive an allowance ».",
+        "reveal": "Sans virgules : seuls les employés en télétravail reçoivent l'indemnité (la relative restreint). Avec virgules : TOUS les employés sont en télétravail et tous reçoivent l'indemnité (la relative informe). La ponctuation change le sens de la phrase."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *that* après une virgule. *The report, that we received yesterday, is complete* est incorrect ; il faut *which*. Autre piège : *whose* s'emploie aussi pour les choses — *a company whose turnover doubled* est parfaitement correct."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Virgule → jamais that. » Et pour choisir entre *who* et *whom* : *whom* est complément (*the person whom we hired*), *who* est sujet (*the person who hired us*). À l'oral, *who* remplace souvent *whom*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The supplier ______ prices increased is the one ______ we met in Lyon. »",
+        "answer": "« The supplier WHOSE prices increased is the one WHOM (ou THAT, ou rien) we met in Lyon. » — *whose* pour la possession, *whom/that* pour le complément.",
+        "hint": "Le premier exprime une possession."
+      }
+    ]
+  },
+  {
+    "id": "ang-relatifs-omission",
+    "domain": "anglais",
+    "category": "Pronoms relatifs",
+    "title": "Quand on peut omettre le relatif",
+    "tagline": "Relatif complément : on peut le supprimer. Relatif sujet : jamais.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "pronoms-relatifs",
+      "connecteurs",
+      "ordre-des-mots"
+    ],
+    "related": [
+      "ang-pronoms-relatifs",
+      "ang-ordre-des-mots",
+      "ang-voix-passive",
+      "ang-connecteurs-opposition"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une relative déterminative, le pronom relatif peut être omis s'il est COMPLÉMENT du verbe de la relative. S'il en est le SUJET, il est obligatoire. Test : si un sujet suit immédiatement le relatif, on peut l'enlever ; si un verbe suit, on ne peut pas."
+      },
+      {
+        "type": "table",
+        "title": "Le test en pratique",
+        "headers": [
+          "Phrase",
+          "Omission possible ?"
+        ],
+        "rows": [
+          [
+            "The report (that) we received is complete.",
+            "oui — *we* suit, donc complément"
+          ],
+          [
+            "The report that arrived is complete.",
+            "non — *arrived* suit, donc sujet"
+          ],
+          [
+            "The person (whom) I called.",
+            "oui — complément"
+          ],
+          [
+            "The person who called me.",
+            "non — sujet"
+          ],
+          [
+            "The office (which) they rented.",
+            "oui — complément"
+          ],
+          [
+            "The report, which we received, is complete.",
+            "non — relative explicative"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi « The candidate we interviewed accepted the offer » est-elle correcte sans relatif ?",
+        "reveal": "Parce que le relatif omis (*whom/that*) était complément de *interviewed* : on a interviewé le candidat. Le sujet de la relative est *we*, qui suit immédiatement l'antécédent — signe que l'omission est permise."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en compréhension : une relative sans relatif ressemble à deux propositions collées. *The document the assistant prepared was excellent* se lit facilement à tort comme deux sujets successifs. Repérer l'omission est essentiel pour comprendre la phrase."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Deux noms qui se suivent sans mot de liaison : un relatif a été omis. » C'est un signal fiable, et il apparaît constamment dans les textes de la partie 7 du TOEIC."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans quelle phrase le relatif peut-il être omis ? a) « The email that confirms the order » b) « The email that we sent yesterday »",
+        "answer": "La b) : *that* y est complément de *sent* (nous avons envoyé l'email). Dans la a), *that* est sujet de *confirms*, donc obligatoire.",
+        "hint": "Regarde ce qui suit immédiatement le relatif."
+      }
+    ]
+  },
+  {
+    "id": "ang-gerondif-infinitif",
+    "domain": "anglais",
+    "category": "Gérondif et infinitif",
+    "title": "Gérondif ou infinitif ?",
+    "tagline": "Après une préposition, toujours -ing. Après un verbe, ça dépend du verbe : il faut les connaître.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "gerondif-infinitif",
+      "prepositions",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-verbes-gerondif",
+      "ang-verbes-infinitif",
+      "ang-verbes-double-sens",
+      "anglais-grammaire-prioritaire"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les quatre règles sûres",
+        "items": [
+          "Après une PRÉPOSITION : toujours −ing. *interested in working*, *before leaving*, *without asking*, *good at negotiating*.",
+          "En début de phrase comme sujet : −ing. *Working abroad requires patience.*",
+          "Après *to* PRÉPOSITION (et non infinitif) : −ing. *look forward to hearing*, *be used to working*, *object to paying*.",
+          "Pour exprimer un but : infinitif avec *to*. *We called to confirm.*"
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La difficulté vient du mot *to*, qui est parfois la marque de l'infinitif (*I want to go*) et parfois une préposition (*I look forward to going*). Dans le second cas, comme après toute préposition, le verbe prend −ing. Il n'y a pas de logique à déduire : ces structures se mémorisent."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Pourquoi dit-on « I look forward to meeting you » et non « to meet you » ?",
+        "reveal": "Parce que *look forward to* est un verbe à particule dont le *to* est une PRÉPOSITION, pas la marque de l'infinitif. Même structure avec *be used to*, *object to*, *be committed to*, *in addition to*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *I am looking forward to meet you*, formule très fréquente dans les mails de francophones. C'est faux : *to meeting*. Retiens les trois expressions les plus courantes en contexte professionnel : *look forward to −ing*, *be used to −ing*, *be committed to −ing*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test : remplace le verbe par un nom. Si la phrase tient (*I look forward to your reply*), le *to* est une préposition, donc −ing. Si elle ne tient pas (*I want to your reply* ✘), c'est un infinitif."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « She is responsible for ______ (train) new staff and she plans ______ (launch) a programme. »",
+        "answer": "« responsible for TRAINING new staff and she plans TO LAUNCH a programme » — préposition *for* → gérondif ; verbe *plan* → infinitif.",
+        "hint": "Une préposition, puis un verbe suivi de l'infinitif."
+      }
+    ]
+  },
+  {
+    "id": "ang-verbes-gerondif",
+    "domain": "anglais",
+    "category": "Gérondif et infinitif",
+    "title": "Les verbes suivis du gérondif",
+    "tagline": "Enjoy, avoid, suggest, consider, mind : ces verbes exigent -ing, jamais l'infinitif.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "gerondif-infinitif",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-gerondif-infinitif",
+      "ang-verbes-infinitif",
+      "ang-verbes-double-sens",
+      "ang-used-to"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les verbes à mémoriser",
+        "headers": [
+          "Catégorie",
+          "Verbes"
+        ],
+        "rows": [
+          [
+            "Goût et aversion",
+            "enjoy, like*, love*, hate*, dislike, mind, can't stand"
+          ],
+          [
+            "Éviter, arrêter",
+            "avoid, finish, stop*, give up, quit, postpone, delay"
+          ],
+          [
+            "Proposer, envisager",
+            "suggest, recommend, consider, imagine, discuss"
+          ],
+          [
+            "Admettre, nier",
+            "admit, deny, mention, report"
+          ],
+          [
+            "Continuer, pratiquer",
+            "keep (on), carry on, go on*, practise, involve"
+          ],
+          [
+            "Risquer, mériter",
+            "risk, be worth, spend time"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces verbes se construisent avec un gérondif. *He suggested postponing the meeting*, jamais *suggested to postpone*. Les verbes marqués d'un astérisque acceptent aussi l'infinitif, mais avec un changement de sens (voir la fiche sur les verbes à double construction)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « The consultant suggested to reduce costs and recommended to outsource logistics. »",
+        "reveal": "« The consultant suggested REDUCING costs and recommended OUTSOURCING logistics. » — *suggest* et *recommend* exigent le gérondif. Variante correcte avec une subordonnée : *suggested that we reduce costs*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *suggest* et *recommend*, que les francophones construisent spontanément avec l'infinitif par calque du français (« suggérer de faire »). Ce sont les deux erreurs les plus fréquentes du chapitre en contexte professionnel."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Retiens l'acronyme des plus testés : **SAAREM** — Suggest, Avoid, Admit, Recommend, Enjoy, Mind. Tous exigent le gérondif."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « They denied ______ (receive) the invoice and avoided ______ (answer) our calls. »",
+        "answer": "« They denied RECEIVING the invoice and avoided ANSWERING our calls. »",
+        "hint": "Deux verbes de la liste du gérondif."
+      }
+    ]
+  },
+  {
+    "id": "ang-verbes-infinitif",
+    "domain": "anglais",
+    "category": "Gérondif et infinitif",
+    "title": "Les verbes suivis de l'infinitif",
+    "tagline": "Decide, hope, manage, refuse, expect : ceux-là veulent to + infinitif.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "gerondif-infinitif",
+      "temps-verbaux",
+      "but"
+    ],
+    "related": [
+      "ang-verbes-gerondif",
+      "ang-gerondif-infinitif",
+      "ang-verbes-double-sens",
+      "ang-connecteurs-but"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois constructions à distinguer",
+        "headers": [
+          "Construction",
+          "Verbes",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "verbe + to + inf.",
+            "decide, hope, agree, manage, offer, refuse, promise, plan, intend, fail, afford, arrange, seem, tend",
+            "They agreed to extend the deadline."
+          ],
+          [
+            "verbe + COD + to + inf.",
+            "allow, advise, encourage, persuade, remind, warn, ask, tell, expect, enable, invite",
+            "We advised him to reconsider."
+          ],
+          [
+            "verbe + COD + inf. SANS to",
+            "make, let, help (to optionnel)",
+            "The system lets you export data."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La majorité des verbes de projet, d'accord et de refus prennent l'infinitif complet. Une seconde famille exige un complément d'objet entre le verbe et l'infinitif. Enfin *make*, *let* et *help* prennent l'infinitif nu : *make him sign*, *let us know*, *help me (to) understand*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « The manager allowed to leave early and made us to stay late the next day. »",
+        "reveal": "« The manager allowed US TO LEAVE early and MADE US STAY late the next day. » — *allow* exige un complément d'objet ; *make* prend l'infinitif sans *to*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *make* et *let* au passif. *Make* retrouve son *to* au passif : *we were made to stay*. *Let* ne se met pas au passif : on emploie *be allowed to* à la place — *we were allowed to leave*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Verbes de décision et d'intention → to + infinitif. Verbes de permission et d'influence → complément + to + infinitif. Make, let, help → infinitif nu. » Trois familles, trois schémas."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « We expect the shipment ______ (arrive) Friday, but the supplier refused ______ (guarantee) it. »",
+        "answer": "« We expect the shipment TO ARRIVE Friday, but the supplier refused TO GUARANTEE it. » — *expect* + COD + infinitif, *refuse* + infinitif.",
+        "hint": "Les deux prennent l'infinitif, mais l'un avec un complément d'objet."
+      }
+    ]
+  },
+  {
+    "id": "ang-verbes-double-sens",
+    "domain": "anglais",
+    "category": "Gérondif et infinitif",
+    "title": "Quand la construction change le sens",
+    "tagline": "Stop smoking = arrêter de fumer. Stop to smoke = s'arrêter pour fumer.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "gerondif-infinitif",
+      "temps-verbaux"
+    ],
+    "related": [
+      "ang-verbes-gerondif",
+      "ang-verbes-infinitif",
+      "ang-gerondif-infinitif",
+      "ang-connecteurs-but"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les cinq verbes à double construction",
+        "headers": [
+          "Verbe",
+          "+ gérondif",
+          "+ infinitif"
+        ],
+        "rows": [
+          [
+            "stop",
+            "arrêter de faire : *He stopped smoking.*",
+            "s'arrêter pour faire : *He stopped to smoke.*"
+          ],
+          [
+            "remember",
+            "se souvenir d'avoir fait : *I remember locking the door.*",
+            "ne pas oublier de faire : *Remember to lock the door.*"
+          ],
+          [
+            "forget",
+            "oublier un souvenir : *I'll never forget meeting her.*",
+            "oublier de faire : *I forgot to call.*"
+          ],
+          [
+            "try",
+            "essayer une méthode : *Try restarting the computer.*",
+            "s'efforcer de : *I tried to open it but failed.*"
+          ],
+          [
+            "regret",
+            "regretter d'avoir fait : *I regret telling him.*",
+            "avoir le regret de (annonce) : *We regret to inform you.*"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une règle générale se dégage : le GÉRONDIF regarde vers le passé ou vers l'action elle-même ; l'INFINITIF regarde vers le futur ou vers un but. *Remember doing* = le souvenir existe déjà ; *remember to do* = l'action est à venir."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle est la différence entre « We regret to inform you that your application was unsuccessful » et « We regret informing you » ?",
+        "reveal": "La première est la formule standard d'une lettre de refus : on annonce une mauvaise nouvelle. La seconde signifierait qu'on regrette d'avoir informé le candidat — ce qui serait étrange. C'est l'infinitif qui convient pour l'annonce."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *stop*. « Il s'est arrêté de travailler » et « il s'est arrêté pour travailler » sont deux faits opposés. En QCM, les deux constructions figurent parmi les propositions et seul le contexte tranche : lis toute la phrase."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« −ing regarde en arrière, to regarde en avant. » Cette seule phrase résout les cinq verbes du tableau, et notamment le couple *remember*, le plus testé."
+      },
+      {
+        "type": "quiz",
+        "question": "Choisis : « Did you remember ______ the contract to legal? » — sending / to send ?",
+        "answer": "*to send* : on demande si la personne n'a pas oublié d'accomplir l'action. *Remember sending* demanderait si elle garde le souvenir de l'avoir fait.",
+        "hint": "L'action était-elle à faire, ou déjà faite ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-comparatifs",
+    "domain": "anglais",
+    "category": "Comparatifs",
+    "title": "Former un comparatif",
+    "tagline": "Court adjectif : -er. Long adjectif : more. Et « que » se dit than, jamais that.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "comparatifs",
+      "superlatifs"
+    ],
+    "related": [
+      "ang-superlatifs",
+      "ang-quantifieurs",
+      "ang-formes-de-mots",
+      "ang-connecteurs-opposition"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les règles de formation",
+        "headers": [
+          "Type d'adjectif",
+          "Comparatif",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "1 syllabe",
+            "+ −er",
+            "cheap → cheaper"
+          ],
+          [
+            "1 syllabe, voyelle + consonne",
+            "consonne doublée + −er",
+            "big → bigger"
+          ],
+          [
+            "2 syllabes finissant par −y",
+            "−y → −ier",
+            "easy → easier"
+          ],
+          [
+            "2 syllabes ou plus",
+            "more + adjectif",
+            "expensive → more expensive"
+          ],
+          [
+            "Irréguliers",
+            "—",
+            "good → better, bad → worse, far → further, little → less"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les structures de comparaison",
+        "items": [
+          "Supériorité : *cheaper than*, *more efficient than*.",
+          "Égalité : *as cheap as*, *as efficient as*.",
+          "Infériorité : *not as cheap as*, ou *less efficient than*.",
+          "Proportion : *twice as expensive as*, *three times bigger than*.",
+          "Progression parallèle : *the more we invest, the faster we grow*.",
+          "Renforcement : *much cheaper*, *far more efficient*, *slightly better*."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Traduis : « Cette option est bien moins chère que la précédente et deux fois plus rapide. »",
+        "reveal": "« This option is much cheaper than the previous one and twice as fast. » — *much* renforce le comparatif, et *twice as … as* exprime le rapport."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *more cheaper*. On ne cumule jamais *more* et −er. Autre piège : *than* (comparaison) et *then* (ensuite) sont deux mots différents, souvent confondus à l'écrit. Et le français « plus … que » ne se traduit pas par *that*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Very ne s'emploie jamais avec un comparatif. » On dit *much better*, *far better*, *a lot better*, mais jamais *very better*. C'est une question classique du TOEIC."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « Their proposal is more better and very cheaper that ours. »",
+        "answer": "« Their proposal is better and much cheaper than ours. » — pas de *more* avec un comparatif irrégulier, *much* et non *very*, et *than* et non *that*.",
+        "hint": "Trois erreurs distinctes."
+      }
+    ]
+  },
+  {
+    "id": "ang-superlatifs",
+    "domain": "anglais",
+    "category": "Comparatifs",
+    "title": "Le superlatif",
+    "tagline": "The + -est, ou the most. Et l'article the est obligatoire.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "superlatifs",
+      "comparatifs",
+      "articles"
+    ],
+    "related": [
+      "ang-comparatifs",
+      "ang-articles",
+      "ang-quantifieurs",
+      "ang-formes-de-mots"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Formation",
+        "headers": [
+          "Adjectif",
+          "Comparatif",
+          "Superlatif"
+        ],
+        "rows": [
+          [
+            "cheap",
+            "cheaper",
+            "the cheapest"
+          ],
+          [
+            "easy",
+            "easier",
+            "the easiest"
+          ],
+          [
+            "expensive",
+            "more expensive",
+            "the most expensive"
+          ],
+          [
+            "good",
+            "better",
+            "the best"
+          ],
+          [
+            "bad",
+            "worse",
+            "the worst"
+          ],
+          [
+            "little",
+            "less",
+            "the least"
+          ],
+          [
+            "many / much",
+            "more",
+            "the most"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les structures qui l'accompagnent",
+        "items": [
+          "*the + superlatif + in* pour un lieu : *the largest market in Europe*.",
+          "*the + superlatif + of* pour un groupe : *the best of the three offers*.",
+          "*one of the + superlatif + PLURIEL* : *one of the biggest companies* (pluriel obligatoire).",
+          "*the + superlatif + present perfect* : *the best decision we have ever made*.",
+          "*by far the best* pour renforcer."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « It is one of the most big company in the region. »",
+        "reveal": "« It is one of the biggest companies in the region. » — *big* est court donc −est (avec doublement du g), et *one of the* exige un nom au pluriel."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier *the*. Le superlatif s'emploie toujours avec l'article défini quand il porte sur un nom : *the fastest growth*, jamais *fastest growth*. Exception : après un possessif — *our fastest growth*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« One of the + superlatif + pluriel. » C'est l'erreur la plus fréquente, parce que le français dit « l'une des plus grandes entreprise**s** » avec un pluriel qu'on oublie en anglais."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « C'est de loin la meilleure décision que nous ayons prise. »",
+        "answer": "« It is by far the best decision we have ever made. » — *by far* renforce, *the best* est obligatoire avec l'article, et le present perfect traduit « que nous ayons prise ».",
+        "hint": "N'oublie pas l'article et le present perfect."
+      }
+    ]
+  },
+  {
+    "id": "ang-prepositions-temps",
+    "domain": "anglais",
+    "category": "Prépositions",
+    "title": "At, on, in pour le temps",
+    "tagline": "At pour l'heure, on pour le jour, in pour le mois et l'année.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "prepositions",
+      "temps"
+    ],
+    "related": [
+      "ang-prepositions-lieu",
+      "ang-since-for-ago",
+      "ang-by-until",
+      "ang-prepositions-collocations"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "La règle des trois prépositions",
+        "headers": [
+          "Préposition",
+          "Emploi",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "at",
+            "heure précise, moments ponctuels",
+            "at 9 a.m., at noon, at night, at the weekend (GB)"
+          ],
+          [
+            "on",
+            "jours et dates",
+            "on Monday, on 5 May, on Christmas Day, on weekdays"
+          ],
+          [
+            "in",
+            "mois, saisons, années, périodes",
+            "in July, in summer, in 2026, in the morning, in two weeks"
+          ],
+          [
+            "(rien)",
+            "next, last, this, every",
+            "next Monday, last year, this week, every day"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La logique est celle de la précision décroissante : *at* pour un point, *on* pour une surface (un jour dans un calendrier), *in* pour un volume (une période englobante). Et devant *next*, *last*, *this*, *every*, on ne met AUCUNE préposition."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « The meeting is in Monday at the morning, on July. »",
+        "reveal": "« The meeting is on Monday in the morning, in July. » — jour → *on*, partie de journée → *in*, mois → *in*."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *at the morning*. Les parties de journée prennent *in* (*in the morning, in the afternoon, in the evening*) SAUF la nuit, qui prend *at* : *at night*. Et *on Monday morning* quand on précise le jour."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« At = un point, on = un jour, in = une boîte de temps. » Et devant next/last/this/every, rien du tout : *I will call you next week*, jamais *in next week*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The audit starts ______ 8 a.m. ______ 12 March and ends ______ two weeks. »",
+        "answer": "« starts AT 8 a.m. ON 12 March and ends IN two weeks. » — heure, date, durée à venir.",
+        "hint": "Une heure, une date, une durée."
+      }
+    ]
+  },
+  {
+    "id": "ang-by-until",
+    "domain": "anglais",
+    "category": "Prépositions",
+    "title": "By ou until ? During ou while ?",
+    "tagline": "By = au plus tard. Until = jusqu'à. During + nom, while + proposition.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "prepositions",
+      "connecteurs",
+      "temps"
+    ],
+    "related": [
+      "ang-prepositions-temps",
+      "ang-since-for-ago",
+      "ang-connecteurs-temps",
+      "ang-futur-apres-when"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quatre couples à distinguer",
+        "headers": [
+          "Mot",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "by",
+            "au plus tard, échéance",
+            "Send it by Friday. (avant vendredi, délai limite)"
+          ],
+          [
+            "until / till",
+            "jusqu'à, durée continue",
+            "The offer is valid until Friday."
+          ],
+          [
+            "during",
+            "pendant + NOM",
+            "during the meeting, during summer"
+          ],
+          [
+            "while",
+            "pendant que + PROPOSITION",
+            "while we were negotiating"
+          ],
+          [
+            "for",
+            "pendant + DURÉE chiffrée",
+            "for three hours"
+          ],
+          [
+            "in",
+            "dans (délai à venir)",
+            "in three hours (dans trois heures)"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "*By* marque une limite à ne pas dépasser : l'action peut arriver avant. *Until* marque la continuité jusqu'à un terme. *During* est une préposition, donc suivie d'un nom ; *while* est une conjonction, donc suivie d'un sujet et d'un verbe."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle est la différence entre « I will be there by 5 » et « I will be there until 5 » ?",
+        "reveal": "*By 5* : j'arriverai au plus tard à 17 h. *Until 5* : je resterai jusqu'à 17 h. La première parle de l'arrivée, la seconde du départ — sens complètement différents."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *during three hours*. Faux — une durée chiffrée prend *for* : *for three hours*. *During* s'emploie avec un événement nommé : *during the flight*, *during the crisis*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« During + un nom d'événement, for + un nombre, while + un sujet et un verbe. » Les trois se traduisent par « pendant » en français, d'où la confusion systématique."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « ______ the presentation, we took notes ______ twenty minutes, and the slides stayed on screen ______ the end. »",
+        "answer": "« DURING the presentation, we took notes FOR twenty minutes, and the slides stayed on screen UNTIL the end. »",
+        "hint": "Un nom d'événement, une durée chiffrée, un terme."
+      }
+    ]
+  },
+  {
+    "id": "ang-prepositions-lieu",
+    "domain": "anglais",
+    "category": "Prépositions",
+    "title": "At, on, in pour le lieu",
+    "tagline": "In = à l'intérieur. On = sur une surface. At = à un point, une adresse, un événement.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "prepositions"
+    ],
+    "related": [
+      "ang-prepositions-temps",
+      "ang-prepositions-collocations",
+      "ang-by-until",
+      "ang-articles"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les trois prépositions de lieu",
+        "headers": [
+          "Préposition",
+          "Emploi",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "in",
+            "espace clos, ville, pays",
+            "in the office, in Paris, in France, in a car"
+          ],
+          [
+            "on",
+            "surface, ligne, moyen de transport public",
+            "on the desk, on the second floor, on a train, on the wall"
+          ],
+          [
+            "at",
+            "point précis, adresse, événement",
+            "at the door, at 12 rue de Lille, at a conference, at work"
+          ]
+        ]
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les expressions figées à retenir",
+        "items": [
+          "*at work*, *at home*, *at school*, *at the airport* — mais *in the building*.",
+          "*on the phone*, *on the internet*, *on a website*, *on page 4*.",
+          "*in a car / in a taxi* mais *on a bus / on a train / on a plane*.",
+          "*at the top of*, *at the bottom of*, *in the middle of*.",
+          "*on time* (ponctuel) ≠ *in time* (assez tôt)."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « I am in the airport, in the phone with a client who works at Germany. »",
+        "reveal": "« I am AT the airport, ON the phone with a client who works IN Germany. » — *at* pour un lieu vu comme un point de rendez-vous, *on* pour le téléphone, *in* pour un pays."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *in time* et *on time*. *Be on time* signifie être ponctuel ; *be in time* signifie arriver avant qu'il ne soit trop tard. « The parts arrived in time for the launch » = juste à temps ; « The train was on time » = à l'heure prévue."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour un même lieu, la préposition change avec le point de vue : *at the office* (mon lieu de travail), *in the office* (à l'intérieur du bureau). Le TOEIC teste surtout les expressions figées — ce sont elles qu'il faut mémoriser."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The instructions are ______ page 12, ______ the bottom of the document. »",
+        "answer": "« ON page 12, AT the bottom of the document. » — *on* pour une page, *at* pour une position précise.",
+        "hint": "Une page est une surface ; le bas est un point."
+      }
+    ]
+  },
+  {
+    "id": "ang-prepositions-collocations",
+    "domain": "anglais",
+    "category": "Prépositions",
+    "title": "Les prépositions imposées par le verbe",
+    "tagline": "Responsible FOR, interested IN, depend ON : la préposition ne se déduit pas, elle se mémorise.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "prepositions",
+      "collocation",
+      "connecteurs"
+    ],
+    "related": [
+      "ang-prepositions-lieu",
+      "ang-gerondif-infinitif",
+      "ang-prepositions-temps",
+      "anglais-vocabulaire-business"
+    ],
+    "subtests": [
+      "grammaire",
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les collocations les plus testées",
+        "headers": [
+          "Structure",
+          "Traduction"
+        ],
+        "rows": [
+          [
+            "responsible for",
+            "responsable de"
+          ],
+          [
+            "interested in",
+            "intéressé par"
+          ],
+          [
+            "depend on / rely on",
+            "dépendre de / compter sur"
+          ],
+          [
+            "consist of",
+            "se composer de"
+          ],
+          [
+            "succeed in",
+            "réussir à"
+          ],
+          [
+            "result in",
+            "aboutir à"
+          ],
+          [
+            "result from",
+            "résulter de"
+          ],
+          [
+            "account for",
+            "représenter, expliquer"
+          ],
+          [
+            "comply with",
+            "se conformer à"
+          ],
+          [
+            "deal with / cope with",
+            "traiter, faire face à"
+          ],
+          [
+            "apply for (a job) / apply to (a company)",
+            "postuler à"
+          ],
+          [
+            "invest in",
+            "investir dans"
+          ],
+          [
+            "contribute to",
+            "contribuer à"
+          ],
+          [
+            "focus on / concentrate on",
+            "se concentrer sur"
+          ],
+          [
+            "benefit from",
+            "bénéficier de"
+          ],
+          [
+            "provide someone with",
+            "fournir quelque chose à quelqu'un"
+          ],
+          [
+            "specialise in",
+            "être spécialisé dans"
+          ],
+          [
+            "insist on",
+            "insister sur"
+          ],
+          [
+            "participate in / take part in",
+            "participer à"
+          ],
+          [
+            "be aware of / capable of",
+            "être conscient de / capable de"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces prépositions ne suivent aucune logique transposable du français : *dépendre de* devient *depend on*, *se conformer à* devient *comply with*. Elles constituent une part importante de la partie 5 du TOEIC, où l'énoncé donne le verbe et demande la préposition. Elles s'apprennent par paires, comme du vocabulaire."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : « Exports ______ 40 % of revenue, and the company must comply ______ new regulations. »",
+        "reveal": "« Exports ACCOUNT FOR 40 % of revenue, and the company must comply WITH new regulations. »"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les calques du français. *Depend of* (au lieu de *on*), *discuss about* (le verbe *discuss* est transitif direct : *discuss the budget*), *answer to a question* (on dit *answer a question*). Trois verbes sans préposition à retenir : *discuss*, *answer*, *enter*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Apprends-les toujours dans une phrase courte, jamais isolées : « I'm responsible for the budget » retient mieux que « responsible + for ». Le contexte fixe la collocation."
+      },
+      {
+        "type": "quiz",
+        "question": "Corrige : « She is responsible of the project and depends of her team to succeed to deliver. »",
+        "answer": "« She is responsible FOR the project and depends ON her team to succeed IN delivering. » — trois prépositions fautives, et *succeed in* exige un gérondif.",
+        "hint": "Trois collocations et une construction de gérondif."
+      }
+    ]
+  },
+  {
+    "id": "ang-connecteurs-opposition",
+    "domain": "anglais",
+    "category": "Connecteurs",
+    "title": "Although, despite, however : marquer l'opposition",
+    "tagline": "Although + sujet et verbe. Despite + nom ou -ing. However = adverbe, avec sa propre ponctuation.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "opposition",
+      "connecteurs",
+      "gerondif-infinitif"
+    ],
+    "related": [
+      "ang-connecteurs-cause",
+      "ang-connecteurs-temps",
+      "ang-unless",
+      "ang-gerondif-infinitif"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Trois catégories grammaticales, un même sens",
+        "headers": [
+          "Mot",
+          "Catégorie",
+          "Ce qui suit",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "although / though / even though",
+            "conjonction",
+            "sujet + verbe",
+            "Although sales fell, profits rose."
+          ],
+          [
+            "despite / in spite of",
+            "préposition",
+            "nom ou −ing",
+            "Despite the delay, we delivered."
+          ],
+          [
+            "however / nevertheless",
+            "adverbe",
+            "phrase autonome",
+            "Sales fell. However, profits rose."
+          ],
+          [
+            "whereas / while",
+            "conjonction (contraste)",
+            "sujet + verbe",
+            "Exports grew, whereas domestic sales fell."
+          ],
+          [
+            "but / yet",
+            "conjonction de coordination",
+            "proposition",
+            "It is expensive but effective."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le sens est proche, la construction ne l'est pas. *Although* introduit une proposition complète. *Despite* et *in spite of* sont des prépositions : elles exigent un nom ou un gérondif. Pour mettre une proposition après *despite*, il faut ajouter *the fact that* : *despite the fact that sales fell*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Exprime la même idée trois fois : les ventes ont baissé, mais les bénéfices ont augmenté.",
+        "reveal": "« Although sales fell, profits rose. » / « Despite the fall in sales, profits rose. » / « Sales fell; however, profits rose. » Trois constructions différentes pour un contenu identique."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *despite of*. La forme est *despite* seul, ou *in spite of* — jamais *despite of*. Second piège : *however* n'est pas une conjonction, il ne peut pas relier deux propositions avec une virgule. On écrit un point-virgule ou un point avant lui."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Although + phrase, despite + nom. » Test rapide : si ce qui suit contient un verbe conjugué, c'est *although*. Si c'est un groupe nominal, c'est *despite*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète avec although ou despite : « ______ the higher costs, margins improved. » et « ______ costs were higher, margins improved. »",
+        "answer": "« DESPITE the higher costs » (groupe nominal) et « ALTHOUGH costs were higher » (sujet + verbe).",
+        "hint": "Regarde s'il y a un verbe conjugué."
+      }
+    ]
+  },
+  {
+    "id": "ang-connecteurs-cause",
+    "domain": "anglais",
+    "category": "Connecteurs",
+    "title": "Cause et conséquence",
+    "tagline": "Because + phrase, because of + nom. Therefore est un adverbe, so une conjonction.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "connecteurs",
+      "opposition"
+    ],
+    "related": [
+      "ang-connecteurs-opposition",
+      "ang-connecteurs-but",
+      "ang-connecteurs-temps",
+      "ang-prepositions-collocations"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Exprimer la cause",
+        "headers": [
+          "Mot",
+          "Ce qui suit",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "because",
+            "sujet + verbe",
+            "We postponed because the data was incomplete."
+          ],
+          [
+            "because of / due to / owing to",
+            "nom",
+            "We postponed because of the incomplete data."
+          ],
+          [
+            "since / as",
+            "sujet + verbe (cause connue)",
+            "Since you are here, let's start."
+          ],
+          [
+            "thanks to",
+            "nom (cause positive)",
+            "Thanks to your help, we finished early."
+          ],
+          [
+            "on account of",
+            "nom (formel)",
+            "The delay was on account of bad weather."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Exprimer la conséquence",
+        "headers": [
+          "Mot",
+          "Catégorie",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "so",
+            "conjonction",
+            "The data was incomplete, so we postponed."
+          ],
+          [
+            "therefore / thus / consequently / hence",
+            "adverbe",
+            "The data was incomplete; therefore, we postponed."
+          ],
+          [
+            "as a result",
+            "locution adverbiale",
+            "As a result, the launch slipped."
+          ],
+          [
+            "so + adjectif + that",
+            "structure",
+            "It was so expensive that we declined."
+          ],
+          [
+            "such a + nom + that",
+            "structure",
+            "It was such a risk that we declined."
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Corrige : « Because of the deadline was tight, therefore we worked overtime. »",
+        "reveal": "« Because the deadline was tight, we worked overtime. » ou « The deadline was tight; therefore, we worked overtime. » — *because of* exige un nom, et on ne cumule pas un connecteur de cause et un connecteur de conséquence."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *so … that* contre *such … that*. *So* précède un adjectif ou un adverbe (*so expensive that*), *such* précède un groupe nominal (*such a high price that*). L'un ne remplace pas l'autre."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Because + verbe, because of + nom. Therefore prend un point-virgule, so prend une virgule. » Et jamais deux connecteurs pour une seule relation logique."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « The results were ______ disappointing ______ the board ordered an audit. »",
+        "answer": "« so disappointing that » — *so* + adjectif + *that*. Avec un nom, on aurait *such a disappointment that*.",
+        "hint": "Ce qui suit est un adjectif."
+      }
+    ]
+  },
+  {
+    "id": "ang-connecteurs-temps",
+    "domain": "anglais",
+    "category": "Connecteurs",
+    "title": "Connecteurs de temps et de séquence",
+    "tagline": "Structurer un texte : first, then, meanwhile, eventually — attention, eventually ne veut pas dire éventuellement.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "connecteurs",
+      "temps",
+      "faux-amis"
+    ],
+    "related": [
+      "ang-connecteurs-cause",
+      "ang-by-until",
+      "ang-futur-apres-when",
+      "anglais-pieges-francophones"
+    ],
+    "subtests": [
+      "grammaire",
+      "comprehension"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les connecteurs de structuration",
+        "headers": [
+          "Fonction",
+          "Mots"
+        ],
+        "rows": [
+          [
+            "Commencer",
+            "first, firstly, to begin with, initially"
+          ],
+          [
+            "Enchaîner",
+            "then, next, after that, subsequently, afterwards"
+          ],
+          [
+            "Simultanéité",
+            "meanwhile, in the meantime, at the same time, while"
+          ],
+          [
+            "Conclure",
+            "finally, lastly, eventually, in the end"
+          ],
+          [
+            "Ajouter",
+            "moreover, furthermore, in addition, besides"
+          ],
+          [
+            "Reformuler",
+            "in other words, that is to say, namely"
+          ],
+          [
+            "Résumer",
+            "to sum up, in short, overall, all in all"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Ces connecteurs sont des adverbes : ils s'emploient en tête de phrase, suivis d'une virgule, et ne relient pas deux propositions comme le ferait une conjonction. Ils sont massivement utilisés dans les textes de la partie 7 du TOEIC, où les questions portent souvent sur l'enchaînement logique."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *eventually* signifie « finalement, au bout du compte » — et NON « éventuellement ». Pour « éventuellement », on dit *possibly* ou *perhaps*. « We eventually signed » veut dire qu'on a fini par signer, pas qu'on signera peut-être."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Trois autres faux amis de connecteurs",
+        "items": [
+          "*actually* = en fait (et non « actuellement », qui est *currently*).",
+          "*finally* = enfin, au terme d'une série ; *in the end* = au final, après des difficultés.",
+          "*besides* = en outre (ajout) ; *beside* = à côté de (lieu).",
+          "*on the contrary* rectifie une affirmation ; *on the other hand* présente l'autre versant."
+        ]
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En compréhension écrite, les connecteurs annoncent la structure : *however* prévient d'un retournement, *moreover* d'un renfort, *therefore* d'une conclusion. Les repérer permet de répondre sans relire tout le paragraphe."
+      },
+      {
+        "type": "quiz",
+        "question": "Traduis : « Nous avons finalement accepté, mais nous viendrons éventuellement avec un consultant. »",
+        "answer": "« We eventually accepted, but we may possibly come with a consultant. » — *eventually* pour « finalement », *possibly* pour « éventuellement ». Les deux mots ne se traduisent pas l'un par l'autre.",
+        "hint": "Le faux ami le plus coûteux du chapitre."
+      }
+    ]
+  },
+  {
+    "id": "ang-connecteurs-but",
+    "domain": "anglais",
+    "category": "Connecteurs",
+    "title": "Exprimer le but",
+    "tagline": "To + infinitif pour un but simple. So that + proposition quand le sujet change.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "but",
+      "connecteurs",
+      "gerondif-infinitif"
+    ],
+    "related": [
+      "ang-connecteurs-cause",
+      "ang-verbes-infinitif",
+      "ang-connecteurs-temps",
+      "ang-modaux-base"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les quatre façons",
+        "headers": [
+          "Structure",
+          "Emploi",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "to + infinitif",
+            "même sujet, but simple",
+            "We called to confirm the order."
+          ],
+          [
+            "in order to / so as to",
+            "même sujet, registre formel",
+            "We restructured in order to cut costs."
+          ],
+          [
+            "so that + sujet + modal",
+            "sujet différent",
+            "We sent it early so that they could review it."
+          ],
+          [
+            "for + nom",
+            "but exprimé par un nom",
+            "This form is for new customers."
+          ],
+          [
+            "in order not to / so as not to",
+            "but négatif",
+            "He left early so as not to miss the train."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'infinitif de but suffit quand le sujet des deux actions est le même. Dès que le bénéficiaire du but est différent, il faut *so that* suivi d'une proposition, généralement avec *can*, *could* ou *would*. Le français « pour que » se traduit par *so that*, jamais par *for that*."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Traduis : « Nous avons avancé la réunion pour que le directeur puisse y assister. »",
+        "reveal": "« We moved the meeting forward so that the director could attend. » Le sujet change (nous / le directeur), donc *so that* est obligatoire. *To the director attend* serait impossible."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *for + −ing* pour exprimer un but. *I came for seeing you* est fautif ; il faut *I came to see you*. *For + −ing* existe mais exprime la FONCTION d'un objet : *a tool for cutting metal*."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Même sujet → to. Sujet différent → so that. » Et retiens que le but négatif ne se dit jamais *to not* mais *so as not to* ou *in order not to*."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « We hired a translator ______ avoid misunderstandings, and we recorded the call ______ the legal team ______ verify the terms. »",
+        "answer": "« to avoid misunderstandings » (même sujet) et « so that the legal team could verify the terms » (sujet différent).",
+        "hint": "Deux buts, deux sujets différents."
+      }
+    ]
+  },
+  {
+    "id": "ang-formes-de-mots",
+    "domain": "anglais",
+    "category": "Formes de mots",
+    "title": "Reconnaître la nature d'un mot par son suffixe",
+    "tagline": "C'est LE point le plus testé de la partie 5 : la structure de la phrase impose la nature du mot.",
+    "level": "intermediaire",
+    "readMinutes": 5,
+    "tags": [
+      "temps-verbaux",
+      "adjectifs",
+      "comparatifs",
+      "collocation"
+    ],
+    "related": [
+      "ang-ordre-des-mots",
+      "ang-articles",
+      "ang-comparatifs",
+      "anglais-grammaire-prioritaire"
+    ],
+    "subtests": [
+      "grammaire",
+      "vocabulaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les suffixes qui trahissent la nature",
+        "headers": [
+          "Nature",
+          "Suffixes",
+          "Exemples"
+        ],
+        "rows": [
+          [
+            "Nom (chose, idée)",
+            "−tion, −sion, −ment, −ness, −ity, −ance, −ence, −ship",
+            "decision, agreement, efficiency, reliability"
+          ],
+          [
+            "Nom (personne)",
+            "−er, −or, −ant, −ee, −ist",
+            "employer, supervisor, applicant, employee"
+          ],
+          [
+            "Verbe",
+            "−ise/−ize, −ify, −en, −ate",
+            "organise, simplify, strengthen, negotiate"
+          ],
+          [
+            "Adjectif",
+            "−able, −ible, −ive, −ous, −al, −ful, −less, −ic",
+            "profitable, competitive, successful, strategic"
+          ],
+          [
+            "Adverbe",
+            "−ly",
+            "efficiently, significantly, reportedly"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "La méthode en trois secondes",
+        "body": "Regarde la PLACE du blanc dans la phrase, pas le sens. Devant un nom → adjectif. Après un verbe d'action ou devant un adjectif → adverbe. Après un article ou un adjectif → nom. Après un sujet → verbe. La nature grammaticale est dictée par la structure, et une seule proposition a la bonne terminaison."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« The team worked ______ to meet the deadline. » Propositions : efficient / efficiency / efficiently / efficiencies.",
+        "reveal": "Le blanc suit le verbe *worked* et en modifie la manière → il faut un ADVERBE : *efficiently*. Aucune connaissance de vocabulaire n'est nécessaire, seule la position compte."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les positions qui décident",
+        "items": [
+          "Après *the*, *a*, *this*, un possessif, ou un adjectif → NOM.",
+          "Entre un déterminant et un nom → ADJECTIF.",
+          "Après *be*, *seem*, *become*, *remain* → ADJECTIF (attribut).",
+          "Après un verbe d'action, ou avant un adjectif → ADVERBE.",
+          "Après un sujet sans autre verbe → VERBE conjugué.",
+          "Après une préposition → NOM ou gérondif."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *hard* et *hardly*. *Hard* est à la fois adjectif et adverbe (*work hard* = travailler dur) ; *hardly* signifie « à peine ». *He hardly works* veut dire l'inverse de *he works hard*. Même piège avec *late/lately* (récemment) et *near/nearly* (presque)."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dans la partie 5, si les quatre propositions sont quatre formes du même mot, la question porte sur la STRUCTURE, pas sur le sens. Ne lis même pas le reste de la phrase : identifie la position et la nature requise."
+      },
+      {
+        "type": "quiz",
+        "question": "« The ______ of the new system reduced processing time. » Propositions : implement / implementation / implemented / implementing.",
+        "answer": "*implementation* : après l'article *the* et avant la préposition *of*, il faut un NOM.",
+        "hint": "Que peut-il y avoir juste après « the » ?"
+      }
+    ]
+  },
+  {
+    "id": "ang-articles",
+    "domain": "anglais",
+    "category": "Formes de mots",
+    "title": "A, an, the, ou rien du tout",
+    "tagline": "A/an à la première mention, the ensuite. Et pas d'article pour les généralités.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "articles",
+      "noms-collectifs",
+      "superlatifs"
+    ],
+    "related": [
+      "ang-noms-indenombrables",
+      "ang-superlatifs",
+      "ang-formes-de-mots",
+      "ang-quantifieurs"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Quand employer quoi",
+        "headers": [
+          "Article",
+          "Emploi",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "a / an",
+            "singulier dénombrable, première mention",
+            "We received a complaint."
+          ],
+          [
+            "the",
+            "élément déjà identifié ou unique",
+            "The complaint was about delivery."
+          ],
+          [
+            "the",
+            "superlatif, ordinal, institution unique",
+            "the best offer, the first step, the government"
+          ],
+          [
+            "aucun",
+            "pluriel ou indénombrable au sens général",
+            "Managers need training."
+          ],
+          [
+            "aucun",
+            "noms de pays, de villes, de personnes",
+            "France, Lyon, Mr Dupont"
+          ],
+          [
+            "the",
+            "pays au pluriel ou avec un nom commun",
+            "the Netherlands, the United States, the European Union"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La différence essentielle avec le français : l'anglais N'EMPLOIE PAS d'article devant un pluriel ou un indénombrable pris au sens général. « Les entreprises doivent innover » se dit *Companies must innovate*, sans *the*. Ajouter *the* restreindrait à des entreprises précises."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Quelle différence entre « Employees want flexibility » et « The employees want flexibility » ?",
+        "reveal": "Sans article : les salariés en général, comme catégorie. Avec *the* : les salariés dont on parle, ceux de cette entreprise précise. Le sens change du général au particulier."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : *a* ou *an* selon le SON, pas la lettre. *A university* (le son « you » est consonantique), *an hour* (le h est muet), *an MBA* (on prononce « em »), *a one-year contract* (le son « w »). C'est l'oreille qui décide, pas l'orthographe."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Première fois : a. Ensuite : the. Généralité au pluriel : rien. » Ces trois règles couvrent la grande majorité des questions d'articles au TOEIC."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : « ______ innovation is essential. We have launched ______ new product, and ______ product is selling well. »",
+        "answer": "« INNOVATION is essential (indénombrable général, pas d'article). We have launched A new product (première mention), and THE product is selling well (déjà identifié). »",
+        "hint": "Trois cas différents dans la même suite."
+      }
+    ]
+  },
+  {
+    "id": "ang-ordre-des-mots",
+    "domain": "anglais",
+    "category": "Formes de mots",
+    "title": "L'ordre des mots dans la phrase",
+    "tagline": "Sujet - verbe - complément, et rien ne s'insère entre le verbe et son objet direct.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "accord-sujet-verbe",
+      "adjectifs",
+      "prepositions"
+    ],
+    "related": [
+      "ang-formes-de-mots",
+      "ang-articles",
+      "ang-relatifs-omission",
+      "ang-discours-indirect"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'anglais a un ordre bien plus rigide que le français : sujet, verbe, objet direct, puis compléments (manière, lieu, temps). On ne place jamais un adverbe ni un complément entre le verbe et son objet direct. *I speak fluently English* est fautif ; il faut *I speak English fluently*."
+      },
+      {
+        "type": "table",
+        "title": "La place des adverbes",
+        "headers": [
+          "Type d'adverbe",
+          "Position",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Fréquence (always, often, never)",
+            "avant le verbe, après *be*",
+            "She often travels. / She is often late."
+          ],
+          [
+            "Fréquence avec auxiliaire",
+            "après l'auxiliaire",
+            "She has never travelled abroad."
+          ],
+          [
+            "Manière (quickly, carefully)",
+            "après l'objet, ou en fin",
+            "He reviewed the file carefully."
+          ],
+          [
+            "Temps et lieu",
+            "en fin de phrase, lieu avant temps",
+            "We met them in Lyon last week."
+          ],
+          [
+            "Commentaire (fortunately, obviously)",
+            "en tête, avec virgule",
+            "Fortunately, the deal closed."
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "L'ordre des adjectifs",
+        "body": "Quand plusieurs adjectifs qualifient un même nom, l'ordre est fixe : opinion, taille, âge, forme, couleur, origine, matière, fonction. On dit *a nice large old round wooden table*, dans cet ordre — jamais l'inverse. Au TOEIC, deux adjectifs suffisent en général, et c'est l'opinion qui passe devant."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : l'adverbe de fréquence avec *be*. Il se place APRÈS *be* (*he is always late*) mais AVANT tous les autres verbes (*he always arrives late*). C'est la seule irrégularité, et elle est systématiquement testée."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Lieu avant temps » : *We will meet at the office on Monday*, et non l'inverse. Le français fait souvent le contraire, d'où l'erreur."
+      },
+      {
+        "type": "quiz",
+        "question": "Remets en ordre : « carefully / the contract / reviewed / our lawyer / yesterday ».",
+        "answer": "« Our lawyer reviewed the contract carefully yesterday. » — sujet, verbe, objet direct, manière, temps. Rien entre *reviewed* et *the contract*.",
+        "hint": "L'objet direct colle au verbe."
+      }
+    ]
+  },
+  {
+    "id": "ang-discours-indirect",
+    "domain": "anglais",
+    "category": "Temps du passé",
+    "title": "Le discours indirect",
+    "tagline": "Le temps recule d'un cran, et les repères de temps et de lieu changent aussi.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "temps-verbaux",
+      "modaux",
+      "past-perfect"
+    ],
+    "related": [
+      "ang-past-perfect",
+      "ang-past-simple-continu",
+      "ang-ordre-des-mots",
+      "ang-modaux-base"
+    ],
+    "subtests": [
+      "grammaire"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le recul des temps",
+        "headers": [
+          "Discours direct",
+          "Discours indirect"
+        ],
+        "rows": [
+          [
+            "present simple → ",
+            "past simple"
+          ],
+          [
+            "present continuous → ",
+            "past continuous"
+          ],
+          [
+            "past simple → ",
+            "past perfect"
+          ],
+          [
+            "present perfect → ",
+            "past perfect"
+          ],
+          [
+            "will → ",
+            "would"
+          ],
+          [
+            "can → ",
+            "could"
+          ],
+          [
+            "must / have to → ",
+            "had to"
+          ],
+          [
+            "may → ",
+            "might"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Les repères qui changent aussi",
+        "headers": [
+          "Direct",
+          "Indirect"
+        ],
+        "rows": [
+          [
+            "now",
+            "then"
+          ],
+          [
+            "today",
+            "that day"
+          ],
+          [
+            "yesterday",
+            "the day before"
+          ],
+          [
+            "tomorrow",
+            "the next day / the following day"
+          ],
+          [
+            "last week",
+            "the week before"
+          ],
+          [
+            "here",
+            "there"
+          ],
+          [
+            "this",
+            "that"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Rapporte : « I will send the report tomorrow », a-t-elle dit hier.",
+        "reveal": "« She said she would send the report the next day. » — *will* devient *would*, *tomorrow* devient *the next day*. Noter aussi que *that* après *said* est facultatif."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Say, tell, ask : ne pas les confondre",
+        "items": [
+          "*say* + ce qui est dit, sans destinataire : *He said (that) he agreed.*",
+          "*tell* + destinataire obligatoire : *He told me (that) he agreed.* Jamais *he told that*.",
+          "Question fermée rapportée : *asked if / whether* + ordre normal. *She asked if I was available.* (pas *was I*)",
+          "Question ouverte rapportée : *asked* + mot interrogatif + ordre normal. *She asked where the file was.*",
+          "Ordre rapporté : *told someone to* + infinitif. *He told us to wait.*"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : garder l'ordre interrogatif dans une question rapportée. *She asked me where was the file* est fautif ; il faut *where the file was*. Une question rapportée n'est plus une question : l'inversion sujet-verbe disparaît, et le point d'interrogation aussi."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un cran en arrière pour le temps, et l'ordre redevient normal. » Et si le verbe introducteur est au présent (*he says that…*), aucun recul n'est nécessaire."
+      },
+      {
+        "type": "quiz",
+        "question": "Rapporte : « Have you signed the contract? » a demandé le directeur.",
+        "answer": "« The director asked if / whether I had signed the contract. » — *asked if*, present perfect → past perfect, et ordre affirmatif.",
+        "hint": "Question fermée : asked if + ordre normal."
+      }
+    ]
   }
 ]

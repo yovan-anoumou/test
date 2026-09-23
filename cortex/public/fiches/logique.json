@@ -165,5 +165,2686 @@
         "reveal": "Que la hausse des ventes de parapluies n'a qu'une seule cause possible (la pluie). Pour affaiblir l'argument, il suffit de proposer une autre cause plausible (une campagne marketing, un magasin qui ouvre, une mode). Pour le renforcer, il faudrait exclure ces causes alternatives."
       }
     ]
+  },
+  {
+    "id": "log-suites-methode",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "La méthode universelle des suites",
+    "tagline": "Différences d'abord, rapports ensuite, puis regarde si deux suites sont entrelacées.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "suites-numeriques",
+      "differences",
+      "geometrique",
+      "mixte"
+    ],
+    "related": [
+      "log-suites-arithmetiques",
+      "log-suites-geometriques",
+      "log-suites-differences-secondes",
+      "log-suites-entrelacees",
+      "logique-series-numeriques"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "diagram",
+        "kind": "series-method"
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Devant une suite, on ne devine pas : on teste dans un ordre fixe. (1) Écrire les différences entre termes consécutifs. Si elles sont constantes, la suite est arithmétique. (2) Si elles varient, écrire les différences des différences. Si ELLES sont constantes, la suite est polynomiale du second degré. (3) Sinon, tester les rapports : constants ⇒ suite géométrique. (4) Sinon, chercher deux suites entrelacées, ou une opération mixte."
+      },
+      {
+        "type": "keyfacts",
+        "title": "L'ordre de test, dans l'ordre de fréquence",
+        "items": [
+          "Différences constantes → arithmétique (+r).",
+          "Rapports constants → géométrique (×q).",
+          "Différences en progression régulière → carrés, ou second degré.",
+          "Alternance de deux opérations (×2 puis −1, ×2 puis −1…).",
+          "Deux suites entrelacées, une sur les rangs impairs, une sur les pairs.",
+          "Chaque terme dépend des deux précédents (type Fibonacci)."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : 4, 9, 19, 39, 79, …",
+        "reveal": "Différences : 5, 10, 20, 40 — elles doublent. La règle est « × 2 + 1 » : 4×2+1 = 9, 9×2+1 = 19, etc. Le terme suivant est 79 × 2 + 1 = 159."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : s'arrêter à la première règle qui marche sur deux termes. Une hypothèse doit être vérifiée sur TOUS les termes donnés avant d'être utilisée. Si elle échoue sur le dernier, elle est fausse — même si elle expliquait joliment les trois premiers."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris toujours les différences SOUS la suite, en décalé. La structure apparaît visuellement, et le second niveau de différences se lit sans effort supplémentaire."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : 2, 3, 5, 9, 17, …",
+        "answer": "Différences : 1, 2, 4, 8 — elles doublent. La règle est « × 2 − 1 » : le terme suivant est 17 × 2 − 1 = 33.",
+        "hint": "Regarde les différences avant tout."
+      }
+    ]
+  },
+  {
+    "id": "log-suites-arithmetiques",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "Suites arithmétiques",
+    "tagline": "On ajoute toujours la même raison : uₙ = u₁ + (n − 1) × r.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "suites-numeriques",
+      "differences",
+      "arithmetique",
+      "suites"
+    ],
+    "related": [
+      "log-suites-methode",
+      "log-suites-geometriques",
+      "log-suites-differences-secondes",
+      "calc-moyenne-simple"
+    ],
+    "subtests": [
+      "logique-verbale-numerique",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une suite est arithmétique si l'on passe d'un terme au suivant en ajoutant toujours le même nombre r, appelé raison. Terme général : uₙ = u₁ + (n − 1) × r. Attention au (n − 1) : pour atteindre le 10ᵉ terme depuis le 1ᵉʳ, on fait 9 pas, pas 10."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Dans la suite 3, 7, 11, 15, … quel est le 20ᵉ terme ?",
+        "reveal": "Raison r = 4, premier terme 3. u₂₀ = 3 + 19 × 4 = 3 + 76 = 79."
+      },
+      {
+        "type": "rule",
+        "title": "La somme des termes",
+        "body": "Somme = nombre de termes × (premier + dernier) ÷ 2. C'est la formule de Gauss : 1 + 2 + … + 100 = 100 × 101 ÷ 2 = 5 050. Elle tombe régulièrement sous la forme « somme des 50 premiers nombres pairs » ou « total des versements sur 12 mois avec une progression fixe »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le décalage d'un rang. Si on te donne u₃ = 11 et r = 4, alors u₁ = 11 − 2 × 4 = 3, pas 7. Compte les PAS, pas les termes : de u₃ à u₁ il y a deux pas en arrière."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour trouver le rang d'un terme : n = (uₙ − u₁) ÷ r + 1. Le « + 1 » est le même décalage vu de l'autre côté ; il s'oublie systématiquement, donc écris-le tout de suite."
+      },
+      {
+        "type": "quiz",
+        "question": "Une suite arithmétique a pour 4ᵉ terme 17 et pour 9ᵉ terme 42. Quelle est sa raison ?",
+        "answer": "De u₄ à u₉ il y a 5 pas, pour un écart de 42 − 17 = 25. Donc r = 25 ÷ 5 = 5.",
+        "hint": "Compte le nombre de pas entre les deux rangs, pas la différence des rangs +1."
+      }
+    ]
+  },
+  {
+    "id": "log-suites-geometriques",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "Suites géométriques",
+    "tagline": "On multiplie toujours par la même raison : uₙ = u₁ × q^(n−1).",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "suites-numeriques",
+      "geometrique",
+      "suites",
+      "puissances"
+    ],
+    "related": [
+      "log-suites-arithmetiques",
+      "log-suites-methode",
+      "calc-interets-composes",
+      "vit-puissances-de-2"
+    ],
+    "subtests": [
+      "logique-verbale-numerique",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une suite est géométrique si le RAPPORT entre deux termes consécutifs est constant. Terme général : uₙ = u₁ × q^(n−1). Tout phénomène de croissance à taux constant est géométrique : intérêts composés, population, doublement bactérien."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : 2, 6, 18, 54, … et donne le 8ᵉ terme.",
+        "reveal": "Rapport q = 3. Terme suivant : 162. Huitième terme : 2 × 3⁷ = 2 × 2 187 = 4 374."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Comment reconnaître une géométrique en une seconde",
+        "items": [
+          "Les écarts entre termes grandissent (ou rétrécissent) très vite : signe d'un rapport, pas d'une différence.",
+          "Les termes sont des puissances reconnaissables : 3, 9, 27, 81 → puissances de 3.",
+          "Un rapport peut être négatif : 3, −6, 12, −24 a pour raison −2, et les signes alternent.",
+          "Un rapport entre 0 et 1 fait décroître la suite : 80, 40, 20, 10 a pour raison 0,5."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre arithmétique et géométrique quand les premiers termes se ressemblent. 2, 4, 6 peut être « +2 » (puis 8) ou « ×2 puis +2 » ; 2, 4, 8 tranche en faveur du rapport. Il faut TROIS écarts cohérents pour conclure, pas deux."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand une suite contient un 0, elle ne peut pas être géométrique de raison non nulle : le 0 « absorberait » tous les termes suivants. Cela élimine immédiatement l'hypothèse."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : 243, 81, 27, 9, …",
+        "answer": "Raison q = 1/3. Le terme suivant est 3, puis 1.",
+        "hint": "Ce sont des puissances de 3 en ordre décroissant."
+      }
+    ]
+  },
+  {
+    "id": "log-suites-differences-secondes",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "Quand les différences progressent",
+    "tagline": "Si les différences ne sont pas constantes, prends les différences des différences : elles le seront souvent.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "suites-numeriques",
+      "differences",
+      "carres",
+      "progression-variable"
+    ],
+    "related": [
+      "log-suites-methode",
+      "log-suites-carres-cubes",
+      "log-suites-arithmetiques",
+      "vit-tables-carres"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Quand les premières différences forment elles-mêmes une suite arithmétique, la suite de départ est du second degré. On l'identifie en deux étages : différences, puis différences des différences (« différences secondes »). Si ces dernières sont constantes, la structure est trouvée."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : 2, 5, 10, 17, 26, …",
+        "reveal": "Différences : 3, 5, 7, 9 — arithmétiques de raison 2. La prochaine différence est 11, donc le terme suivant est 26 + 11 = 37. (Formule sous-jacente : uₙ = n² + 1.)"
+      },
+      {
+        "type": "example",
+        "title": "Un cas à trois étages",
+        "prompt": "Complète : 1, 2, 6, 15, 31, …",
+        "reveal": "Différences : 1, 4, 9, 16 — ce sont les carrés. La prochaine différence est 25, donc le terme suivant est 31 + 25 = 56."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : abandonner après le premier étage. Beaucoup de candidats voient des différences non constantes et cherchent un rapport, alors que le second étage aurait donné la réponse en cinq secondes. Fais toujours les deux étages avant de changer de piste."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les différences qui valent 3, 5, 7, 9 signalent presque toujours des carrés, puisque (n+1)² − n² = 2n + 1. Dès que tu vois cette séquence d'impairs, cherche n² quelque part."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : 3, 4, 7, 12, 19, …",
+        "answer": "Différences : 1, 3, 5, 7 (impairs). La suivante est 9, donc le terme suivant est 19 + 9 = 28.",
+        "hint": "Les différences sont les nombres impairs successifs."
+      }
+    ]
+  },
+  {
+    "id": "log-suites-entrelacees",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "Deux suites entrelacées",
+    "tagline": "Si rien ne marche sur la suite entière, sépare les rangs pairs des rangs impairs.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "suites-entrelacees",
+      "suites-numeriques",
+      "alternance",
+      "mixte"
+    ],
+    "related": [
+      "log-suites-methode",
+      "log-lettres-entrelacees",
+      "log-suites-arithmetiques",
+      "log-suites-geometriques"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Certaines suites sont en réalité deux suites différentes imbriquées : une aux rangs 1, 3, 5… et une autre aux rangs 2, 4, 6… Le signe qui doit y faire penser : les termes montent et descendent en alternance, ou les différences changent de signe sans logique apparente."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : 3, 20, 6, 17, 9, 14, 12, …",
+        "reveal": "Rangs impairs : 3, 6, 9, 12 → +3. Rangs pairs : 20, 17, 14 → −3. Le terme suivant est de rang pair, donc 14 − 3 = 11."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les indices d'un entrelacement",
+        "items": [
+          "La suite monte, descend, remonte sans régularité de différences.",
+          "Les termes de rangs impairs, lus seuls, forment une suite évidente.",
+          "Le nombre de termes fournis est souvent impair ou grand (6 à 8) : il faut assez de matière pour voir deux suites.",
+          "Les deux sous-suites peuvent être de natures différentes : l'une arithmétique, l'autre géométrique."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier de vérifier de quel rang est le terme demandé. Dans l'exemple, si tu réponds 15 (la suite impaire continuée), tu as trouvé la bonne structure mais donné le mauvais terme. Compte les positions."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Recopie la suite en deux lignes, une pour chaque parité de rang. La structure devient évidente, et tu ne peux plus te tromper de rang pour le terme demandé."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : 1, 100, 2, 50, 4, 25, 8, …",
+        "answer": "Rangs impairs : 1, 2, 4, 8 → × 2. Rangs pairs : 100, 50, 25 → ÷ 2. Le terme suivant est de rang pair : 25 ÷ 2 = 12,5.",
+        "hint": "Une sous-suite double, l'autre est divisée par deux."
+      }
+    ]
+  },
+  {
+    "id": "log-suites-fibonacci",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "Chaque terme dépend des précédents",
+    "tagline": "Quand ni différence ni rapport ne marchent, essaie : terme = somme des deux précédents.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "fibonacci",
+      "suites-numeriques",
+      "somme",
+      "produits"
+    ],
+    "related": [
+      "log-suites-methode",
+      "log-suites-differences-secondes",
+      "log-suites-entrelacees",
+      "log-suites-carres-cubes"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une suite récurrente, un terme se construit à partir des précédents. La plus connue est celle de Fibonacci : 1, 1, 2, 3, 5, 8, 13, 21… où chaque terme est la somme des deux d'avant. Les variantes fréquentes : somme des deux précédents plus une constante, produit des deux précédents, ou différence."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : 2, 3, 5, 8, 13, 21, …",
+        "reveal": "Chaque terme est la somme des deux précédents : 13 + 21 = 34."
+      },
+      {
+        "type": "example",
+        "title": "Une variante par produit",
+        "prompt": "Complète : 2, 3, 6, 18, 108, …",
+        "reveal": "Chaque terme est le PRODUIT des deux précédents : 2×3 = 6, 3×6 = 18, 6×18 = 108, donc 18 × 108 = 1 944."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : chercher une règle qui ne dépendrait que du rang. Ici la règle dépend des termes eux-mêmes ; aucune formule en n ne saute aux yeux, et c'est justement l'indice. Si les différences ET les rapports échouent, pense récurrence."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test express : additionne les deux premiers termes donnés et regarde si tu obtiens le troisième. Cela coûte deux secondes et identifie immédiatement toute la famille Fibonacci."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : 1, 4, 5, 9, 14, 23, …",
+        "answer": "Somme des deux précédents : 14 + 23 = 37.",
+        "hint": "1 + 4 = 5, 4 + 5 = 9…"
+      }
+    ]
+  },
+  {
+    "id": "log-suites-carres-cubes",
+    "domain": "logique",
+    "category": "Suites numériques",
+    "title": "Reconnaître carrés, cubes et factorielles",
+    "tagline": "Certaines suites ne se calculent pas : elles se reconnaissent.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "carres",
+      "puissances",
+      "factorielle",
+      "suites-numeriques"
+    ],
+    "related": [
+      "vit-tables-carres",
+      "log-suites-differences-secondes",
+      "log-suites-methode",
+      "calc-denombrement"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les familles à reconnaître instantanément",
+        "headers": [
+          "Famille",
+          "Premiers termes"
+        ],
+        "rows": [
+          [
+            "Carrés",
+            "1, 4, 9, 16, 25, 36, 49, 64, 81, 100"
+          ],
+          [
+            "Cubes",
+            "1, 8, 27, 64, 125, 216"
+          ],
+          [
+            "Puissances de 2",
+            "2, 4, 8, 16, 32, 64, 128, 256"
+          ],
+          [
+            "Puissances de 3",
+            "3, 9, 27, 81, 243"
+          ],
+          [
+            "Factorielles",
+            "1, 2, 6, 24, 120, 720"
+          ],
+          [
+            "Nombres premiers",
+            "2, 3, 5, 7, 11, 13, 17, 19, 23"
+          ],
+          [
+            "Nombres triangulaires",
+            "1, 3, 6, 10, 15, 21, 28"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Quand une suite grandit vite sans rapport constant, elle appartient souvent à l'une de ces familles. Les repérer évite tout calcul. Attention à 64, qui est à la fois un carré (8²), un cube (4³) et une puissance de 2 (2⁶) : il faut regarder les voisins pour trancher."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : 1, 2, 6, 24, 120, …",
+        "reveal": "Ce sont les factorielles : 1!, 2!, 3!, 4!, 5!. Chaque terme est le précédent multiplié par son rang : 120 × 6 = 720."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre nombres premiers et nombres impairs. 9 n'est pas premier (3 × 3), 1 n'est pas premier par convention, et 2 est le seul premier pair. Une suite 2, 3, 5, 7, 11 est premiers ; une suite 1, 3, 5, 7, 9 est impairs."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Les nombres triangulaires sont les sommes 1, 1+2, 1+2+3… : leurs différences sont 2, 3, 4, 5. Ils apparaissent dans les questions de dénombrement (« combien de poignées de main entre n personnes ? » → n(n−1)/2)."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : 1, 3, 6, 10, 15, …",
+        "answer": "Nombres triangulaires : différences 2, 3, 4, 5, donc la suivante est 6 → 21.",
+        "hint": "Ce sont les sommes des premiers entiers."
+      }
+    ]
+  },
+  {
+    "id": "log-lettres-alphabet",
+    "domain": "logique",
+    "category": "Suites de lettres",
+    "title": "Numéroter l'alphabet pour tout résoudre",
+    "tagline": "Convertis les lettres en positions : une suite de lettres devient une suite numérique ordinaire.",
+    "level": "fondamental",
+    "readMinutes": 3,
+    "tags": [
+      "suites-lettres",
+      "suites-numeriques"
+    ],
+    "related": [
+      "log-lettres-ecarts",
+      "log-lettres-miroir",
+      "log-lettres-entrelacees",
+      "logique-series-lettres"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Il n'existe pas de méthode propre aux lettres : on les convertit en nombres (A = 1, B = 2 … Z = 26) et on applique exactement la méthode des suites numériques. Le seul prérequis est de connaître quelques positions repères pour ne pas compter sur les doigts."
+      },
+      {
+        "type": "table",
+        "title": "Les repères à mémoriser",
+        "headers": [
+          "Lettre",
+          "Position",
+          "Lettre",
+          "Position"
+        ],
+        "rows": [
+          [
+            "A",
+            "1",
+            "N",
+            "14"
+          ],
+          [
+            "E",
+            "5",
+            "O",
+            "15"
+          ],
+          [
+            "F",
+            "6",
+            "R",
+            "18"
+          ],
+          [
+            "J",
+            "10",
+            "T",
+            "20"
+          ],
+          [
+            "K",
+            "11",
+            "U",
+            "21"
+          ],
+          [
+            "M",
+            "13",
+            "Z",
+            "26"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : C, F, I, L, …",
+        "reveal": "Positions : 3, 6, 9, 12 → raison +3. Le terme suivant est 15, soit O."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le retour à A après Z. Beaucoup de suites « bouclent » : si tu arrives à 28, c'est la position 28 − 26 = 2, donc B. L'énoncé ne le précise jamais, mais c'est presque toujours l'intention quand le calcul dépasse 26."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère-toi par blocs de 5 : A(1), E(5), J(10), O(15), T(20), Y(25). N'importe quelle lettre est alors à au plus deux pas d'un repère."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : B, E, J, Q, …",
+        "answer": "Positions : 2, 5, 10, 17 → différences 3, 5, 7. La suivante est 9, donc position 26 = Z.",
+        "hint": "Les différences sont les impairs successifs."
+      }
+    ]
+  },
+  {
+    "id": "log-lettres-ecarts",
+    "domain": "logique",
+    "category": "Suites de lettres",
+    "title": "Écarts variables entre lettres",
+    "tagline": "L'écart peut lui-même suivre une progression : compte-les toujours, ne les devine pas.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "suites-lettres",
+      "progression-variable",
+      "differences"
+    ],
+    "related": [
+      "log-lettres-alphabet",
+      "log-lettres-miroir",
+      "log-suites-differences-secondes",
+      "log-lettres-entrelacees"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Après conversion en positions, on écrit les écarts. Trois cas dominent : écart constant (progression régulière), écart en progression arithmétique (+2, +3, +4…), et écart alterné (+2, +5, +2, +5…). C'est la même typologie que pour les nombres."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : B, D, G, K, …",
+        "reveal": "Positions : 2, 4, 7, 11. Écarts : +2, +3, +4. Le suivant est +5 → position 16, soit P."
+      },
+      {
+        "type": "example",
+        "title": "Écart alterné",
+        "prompt": "Complète : A, C, H, J, O, …",
+        "reveal": "Positions : 1, 3, 8, 10, 15. Écarts : +2, +5, +2, +5. Le suivant est +2 → position 17, soit Q."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : compter les lettres INTERMÉDIAIRES au lieu de l'écart de positions. De B à D il y a un écart de 2 (une lettre sautée). Si tu comptes « une lettre entre les deux », tu travailles avec 1 au lieu de 2 et toute la suite se décale."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Écris les positions au-dessus des lettres et les écarts en dessous, comme pour une suite numérique. Trois lignes, et la structure se voit."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : D, E, G, J, N, …",
+        "answer": "Positions : 4, 5, 7, 10, 14. Écarts : +1, +2, +3, +4. Le suivant est +5 → position 19, soit S.",
+        "hint": "Les écarts croissent d'une unité à chaque fois."
+      }
+    ]
+  },
+  {
+    "id": "log-lettres-miroir",
+    "domain": "logique",
+    "category": "Suites de lettres",
+    "title": "Le miroir de l'alphabet",
+    "tagline": "A↔Z, B↔Y, C↔X : deux lettres symétriques ont des positions dont la somme fait 27.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "suites-lettres",
+      "symetrie",
+      "antonymes"
+    ],
+    "related": [
+      "log-lettres-alphabet",
+      "log-lettres-ecarts",
+      "log-lettres-entrelacees",
+      "log-spatiale-symetrie"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La lettre symétrique d'une position n est la position 27 − n. A (1) ↔ Z (26), B (2) ↔ Y (25), M (13) ↔ N (14). Cette transformation apparaît dans les suites où les lettres semblent remonter l'alphabet, et dans les questions de codage."
+      },
+      {
+        "type": "table",
+        "title": "Les couples miroirs",
+        "headers": [
+          "Lettre",
+          "Miroir",
+          "Lettre",
+          "Miroir"
+        ],
+        "rows": [
+          [
+            "A",
+            "Z",
+            "G",
+            "T"
+          ],
+          [
+            "B",
+            "Y",
+            "H",
+            "S"
+          ],
+          [
+            "C",
+            "X",
+            "I",
+            "R"
+          ],
+          [
+            "D",
+            "W",
+            "J",
+            "Q"
+          ],
+          [
+            "E",
+            "V",
+            "K",
+            "P"
+          ],
+          [
+            "F",
+            "U",
+            "M",
+            "N"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Dans un code, chaque lettre est remplacée par sa symétrique. Que devient le mot « LOGIQUE » ?",
+        "reveal": "L(12)→O(15), O(15)→L(12), G(7)→T(20), I(9)→R(18), Q(17)→J(10), U(21)→F(6), E(5)→V(22). Résultat : OLTRJFV. Remarque : ce codage est son propre inverse, appliquer deux fois redonne le mot d'origine."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : utiliser 26 − n au lieu de 27 − n. Vérifie sur un couple évident : A (1) doit donner Z (26), donc 1 + 26 = 27. Avec 26 − n, A donnerait 25, soit Y. Faux."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Le point de bascule est au milieu, entre M (13) et N (14). Ces deux lettres sont mutuellement miroirs, et leur somme 27 sert de vérification pour tout le reste."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle est la lettre symétrique de R dans l'alphabet ?",
+        "answer": "R est en position 18. 27 − 18 = 9, soit I.",
+        "hint": "Somme des positions = 27."
+      }
+    ]
+  },
+  {
+    "id": "log-lettres-entrelacees",
+    "domain": "logique",
+    "category": "Suites de lettres",
+    "title": "Suites de lettres entrelacées",
+    "tagline": "Une lettre monte, l'autre descend : ce sont deux suites, pas une.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "suites-lettres",
+      "suites-entrelacees",
+      "alternance"
+    ],
+    "related": [
+      "log-suites-entrelacees",
+      "log-lettres-alphabet",
+      "log-lettres-miroir",
+      "log-lettres-ecarts"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Exactement comme pour les nombres : si la suite de lettres monte et descend sans régularité, sépare les rangs impairs des rangs pairs. Chacune des deux sous-suites suit alors sa propre progression."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Complète : A, Z, C, X, E, V, …",
+        "reveal": "Rangs impairs : A(1), C(3), E(5) → +2, donc G(7). Rangs pairs : Z(26), X(24), V(22) → −2, donc T(20). Le terme suivant est de rang impair : G."
+      },
+      {
+        "type": "example",
+        "title": "Avec des paires de lettres",
+        "prompt": "Complète : AB, DE, GH, JK, …",
+        "reveal": "Premières lettres : A(1), D(4), G(7), J(10) → +3, donc M(13). Secondes lettres : B(2), E(5), H(8), K(11) → +3, donc N(14). Le bloc suivant est MN."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dans les suites de PAIRES de lettres, traiter les blocs comme des unités. Il faut décomposer : la première lettre de chaque bloc suit une règle, la seconde une autre — parfois différentes l'une de l'autre."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux suites qui se croisent (l'une monte, l'autre descend) finissent par se rencontrer. Si l'énoncé demande un terme lointain, vérifie qu'il est atteignable avant Z ou avant A."
+      },
+      {
+        "type": "quiz",
+        "question": "Complète : B, Y, D, W, F, U, …",
+        "answer": "Rangs impairs : B(2), D(4), F(6) → +2, donc H(8). Rangs pairs : Y(25), W(23), U(21) → −2, donc S(19). Le terme suivant est de rang impair : H.",
+        "hint": "Sépare les deux sous-suites avant tout."
+      }
+    ]
+  },
+  {
+    "id": "log-analogie-verbale",
+    "domain": "logique",
+    "category": "Analogies",
+    "title": "Analogies verbales : nommer la relation",
+    "tagline": "Formule la relation du premier couple en une phrase, puis teste cette phrase sur les propositions.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "analogie-verbale",
+      "antonymes",
+      "mixte"
+    ],
+    "related": [
+      "log-analogie-relations",
+      "log-analogie-numerique",
+      "vocabulaire-synonymie",
+      "log-suites-methode"
+    ],
+    "subtests": [
+      "logique-verbale-numerique",
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une analogie s'écrit A est à B ce que C est à D. La méthode en trois temps : (1) formuler explicitement la relation entre A et B dans une phrase complète, (2) vérifier que la phrase est assez précise pour exclure des voisins, (3) appliquer la phrase à C et chercher le D qui la satisfait."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Médecin est à hôpital ce que professeur est à … ? Propositions : élève, école, cours, savoir.",
+        "reveal": "Relation : « A exerce son métier dans le lieu B ». Le professeur exerce dans une école → réponse : école. « Élève » serait la relation A/bénéficiaire, « cours » la relation A/activité, « savoir » la relation A/objet : trois relations valides mais pas CELLE du couple de départ."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : une phrase trop vague. « A a un rapport avec B » laisse passer les quatre propositions. Plus la relation est formulée précisément, moins il reste de candidats — c'est la précision de la phrase qui fait le travail, pas le vocabulaire."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Si deux propositions résistent, resserre la phrase en ajoutant un détail (un lieu, une intensité, un sens de la relation). Et vérifie le SENS : « le chirurgien opère avec un bistouri » ne s'inverse pas en « le bistouri opère avec un chirurgien »."
+      },
+      {
+        "type": "quiz",
+        "question": "Affamé est à repas ce qu'assoiffé est à … ? Et quelle phrase décrit la relation ?",
+        "answer": "Relation : « A désigne le manque que B vient combler ». Assoiffé est à boisson. Attention : « eau » est plus étroit, « soif » serait le manque lui-même et non ce qui le comble.",
+        "hint": "Le second terme est le remède au premier."
+      }
+    ]
+  },
+  {
+    "id": "log-analogie-relations",
+    "domain": "logique",
+    "category": "Analogies",
+    "title": "Les types de relations à reconnaître",
+    "tagline": "Il n'y a qu'une dizaine de relations possibles : les connaître, c'est nommer la bonne en deux secondes.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "analogie-verbale",
+      "antonymes",
+      "mixte"
+    ],
+    "related": [
+      "log-analogie-verbale",
+      "log-analogie-numerique",
+      "vocabulaire-synonymie",
+      "vocabulaire-pieges"
+    ],
+    "subtests": [
+      "logique-verbale-numerique",
+      "lexiphrase"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Le catalogue des relations",
+        "headers": [
+          "Relation",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Synonymie",
+            "content : satisfait"
+          ],
+          [
+            "Antonymie",
+            "dilater : contracter"
+          ],
+          [
+            "Partie / tout",
+            "roue : voiture"
+          ],
+          [
+            "Genre / espèce",
+            "félin : tigre"
+          ],
+          [
+            "Objet / fonction",
+            "marteau : enfoncer"
+          ],
+          [
+            "Agent / lieu",
+            "juge : tribunal"
+          ],
+          [
+            "Agent / instrument",
+            "chirurgien : bistouri"
+          ],
+          [
+            "Cause / effet",
+            "virus : maladie"
+          ],
+          [
+            "Matière / produit",
+            "farine : pain"
+          ],
+          [
+            "Degré d'intensité",
+            "tiède : brûlant"
+          ],
+          [
+            "Contenant / contenu",
+            "bouteille : vin"
+          ],
+          [
+            "Symbole / chose",
+            "drapeau : nation"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les analogies d'examen puisent dans un répertoire limité. Avoir ce catalogue en tête transforme la question : au lieu de chercher une intuition, tu balaies une liste et tu identifies laquelle s'applique. C'est plus rapide et plus fiable."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Écaille est à poisson ce que plume est à … ? Et quelle relation ?",
+        "reveal": "Relation « partie / tout », plus précisément « revêtement du corps de l'animal ». Réponse : oiseau. Le piège serait « aile », qui est aussi une partie de l'oiseau mais pas son revêtement."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le SENS de la relation. « Roue est à voiture » (partie → tout) ne se résout pas par « voiture est à roue ». Si le couple de départ va du petit au grand, la réponse doit aller du petit au grand aussi."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand deux propositions collent, cherche laquelle respecte aussi le NIVEAU de généralité. « félin : tigre » est genre → espèce ; la réponse doit être une espèce, pas une famille."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle relation unit « graine » et « arbre », et quel couple suit la même ?",
+        "answer": "Relation « origine / aboutissement » (ou cause / résultat dans le temps). Un couple équivalent : œuf : poule, ou esquisse : tableau. En revanche « racine : arbre » serait partie / tout.",
+        "hint": "Le premier terme devient le second avec le temps."
+      }
+    ]
+  },
+  {
+    "id": "log-analogie-numerique",
+    "domain": "logique",
+    "category": "Analogies",
+    "title": "Analogies numériques",
+    "tagline": "Cherche l'opération qui relie les deux premiers nombres, puis applique-la exactement.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "mixte",
+      "analogie-verbale",
+      "suites-numeriques",
+      "produits"
+    ],
+    "related": [
+      "log-analogie-verbale",
+      "log-analogie-relations",
+      "log-suites-methode",
+      "vit-tables-carres"
+    ],
+    "subtests": [
+      "logique-verbale-numerique"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "« 3 est à 9 ce que 5 est à … » : on cherche l'opération reliant 3 et 9. Ce peut être × 3, ou le carré, ou + 6. Trois candidats, trois réponses différentes (15, 25, 11). Il faut donc un second indice, souvent fourni par un troisième couple ou par les propositions disponibles."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les opérations à tester, dans l'ordre",
+        "items": [
+          "Addition ou soustraction d'une constante.",
+          "Multiplication ou division par une constante.",
+          "Carré, cube, racine.",
+          "Combinaison : × 2 + 1, ÷ 2 − 3…",
+          "Opération sur les chiffres : somme des chiffres, inversion (24 → 42), concaténation.",
+          "Rang dans une famille : 4 → 2 parce que 4 est le 2ᵉ nombre pair."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "12 est à 3 ce que 20 est à … ? Propositions : 4, 5, 8, 17.",
+        "reveal": "Candidats : ÷ 4 (→ 5), − 9 (→ 11), racine (12 n'est pas un carré). Seul ÷ 4 donne une proposition disponible : 5. Les propositions servent à trancher entre les hypothèses."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : s'arrêter à la première opération trouvée sans regarder les propositions. Ici, « − 9 » marche parfaitement sur le premier couple mais donne 11, qui n'est pas proposé. Les propositions font partie de l'énoncé, pas de la réponse."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand le second nombre est beaucoup plus petit, pense division, racine ou somme des chiffres. Quand il est beaucoup plus grand, pense multiplication, carré ou concaténation."
+      },
+      {
+        "type": "quiz",
+        "question": "64 est à 8 ce que 144 est à … ?",
+        "answer": "64 = 8², donc la relation est la racine carrée. √144 = 12.",
+        "hint": "Le second nombre est bien plus petit : division ou racine."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-rotation",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Rotations : ce qui change et ce qui ne change pas",
+    "tagline": "Une rotation conserve le sens de lecture de la figure ; une symétrie l'inverse. C'est le seul discriminant à connaître.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "rotation",
+      "figures",
+      "sequence",
+      "symetrie"
+    ],
+    "related": [
+      "log-spatiale-symetrie",
+      "log-spatiale-matrices",
+      "log-spatiale-pliage",
+      "logique-spatiale"
+    ],
+    "subtests": [
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une rotation fait tourner la figure sans la retourner : l'ordre des éléments dans le sens horaire reste identique. Une symétrie (un « miroir ») inverse cet ordre. Devant une série de figures, la première question à se poser est donc : l'ordre horaire des éléments est-il conservé ?"
+      },
+      {
+        "type": "keyfacts",
+        "title": "Comment suivre une rotation sans se perdre",
+        "items": [
+          "Choisis UN élément repère, le plus asymétrique possible (une pointe, un point noir, une encoche).",
+          "Note sa position sur un cadran horaire : midi, 3 h, 6 h, 9 h.",
+          "Mesure l'angle entre deux figures consécutives : 45°, 90°, 120°, 180°.",
+          "Vérifie que l'angle est constant sur toute la série avant de prédire la suivante.",
+          "Une rotation de 90° dans un sens équivaut à 270° dans l'autre : les deux réponses peuvent être proposées."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une flèche pointe vers le haut, puis vers la droite, puis vers le bas. Vers où pointe la suivante, et de quel angle tourne-t-on ?",
+        "reveal": "Haut → droite → bas : rotation de 90° dans le sens horaire à chaque étape. La suivante pointe vers la gauche. Après, on revient vers le haut : la série a une période de 4."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre rotation de 180° et symétrie centrale dans le plan — ce sont la même chose, donc aucun piège là. Le vrai piège est la symétrie AXIALE, qui ressemble à une rotation pour une figure presque symétrique. Regarde toujours un détail asymétrique pour trancher."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Si tu peux obtenir la figure d'arrivée en faisant tourner la feuille, c'est une rotation. S'il faut la retourner (la regarder par derrière), c'est une symétrie. Ce test mental suffit dans la quasi-totalité des cas."
+      },
+      {
+        "type": "quiz",
+        "question": "Une figure comporte un point noir en haut à gauche. Après transformation, il est en bas à droite, et le reste de la figure a conservé son sens de lecture horaire. Rotation ou symétrie ?",
+        "answer": "Rotation de 180° : le sens de lecture est conservé. Une symétrie axiale aurait inversé l'ordre horaire des éléments.",
+        "hint": "Le sens de lecture est l'indice décisif."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-symetrie",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Symétrie axiale et symétrie centrale",
+    "tagline": "Axiale = miroir, elle inverse. Centrale = demi-tour, elle conserve. Deux transformations, deux effets opposés.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "symetrie",
+      "rotation",
+      "figures"
+    ],
+    "related": [
+      "log-spatiale-rotation",
+      "log-spatiale-pliage",
+      "log-lettres-miroir",
+      "log-spatiale-matrices"
+    ],
+    "subtests": [
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La symétrie AXIALE se fait par rapport à une droite : c'est un miroir, la figure est retournée et le sens de lecture s'inverse. La symétrie CENTRALE se fait par rapport à un point : elle équivaut exactement à une rotation de 180°, donc elle conserve le sens de lecture."
+      },
+      {
+        "type": "table",
+        "title": "Ce que chaque transformation préserve",
+        "headers": [
+          "Transformation",
+          "Longueurs",
+          "Angles",
+          "Sens de lecture"
+        ],
+        "rows": [
+          [
+            "Translation",
+            "oui",
+            "oui",
+            "conservé"
+          ],
+          [
+            "Rotation",
+            "oui",
+            "oui",
+            "conservé"
+          ],
+          [
+            "Symétrie centrale",
+            "oui",
+            "oui",
+            "conservé"
+          ],
+          [
+            "Symétrie axiale",
+            "oui",
+            "oui",
+            "INVERSÉ"
+          ],
+          [
+            "Agrandissement",
+            "non",
+            "oui",
+            "conservé"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "La lettre « b » subit une symétrie axiale verticale, puis une symétrie axiale horizontale. Que devient-elle ?",
+        "reveal": "Symétrie verticale : « b » devient « d ». Symétrie horizontale sur « d » : elle devient « q ». Deux symétries axiales successives d'axes perpendiculaires équivalent à une symétrie centrale, donc à une rotation de 180° : « b » retourné de 180° donne bien « q »."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'une figure symétrique révèle la transformation. Si la figure possède elle-même un axe de symétrie, plusieurs transformations donnent le même résultat et la question devient indécidable — sauf par un détail asymétrique. Cherche-le toujours."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux symétries axiales d'axes parallèles = une translation. Deux symétries axiales d'axes perpendiculaires = une rotation de 180°. Ces deux règles répondent seules à beaucoup de questions de composition."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelles lettres majuscules restent identiques après une symétrie axiale verticale ?",
+        "answer": "Celles qui ont un axe de symétrie vertical : A, H, I, M, O, T, U, V, W, X, Y. Les autres changent ou deviennent illisibles.",
+        "hint": "Cherche celles qu'on peut plier en deux verticalement."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-pliage",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Pliages et perforations",
+    "tagline": "Chaque pli traversé double le nombre de trous, et les trous se placent en miroir de chaque pli.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "pliage",
+      "symetrie",
+      "figures"
+    ],
+    "related": [
+      "log-spatiale-symetrie",
+      "log-spatiale-cube",
+      "log-spatiale-rotation",
+      "log-spatiale-volumes"
+    ],
+    "subtests": [
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un trou percé dans une feuille pliée traverse toutes les épaisseurs. Au dépliage, chaque trou se reproduit symétriquement par rapport à chaque pli. Avec un pli, un trou donne deux trous ; avec deux plis, quatre ; avec trois plis, huit — si le trou traverse bien toutes les couches."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La méthode, pli par pli",
+        "items": [
+          "Compte le nombre de plis : n plis → jusqu'à 2ⁿ trous.",
+          "Déplie MENTALEMENT dans l'ordre inverse du pliage, un pli à la fois.",
+          "À chaque dépliage, ajoute le symétrique de chaque trou existant par rapport au pli qu'on ouvre.",
+          "Un trou situé exactement SUR le pli ne se dédouble pas.",
+          "Un trou percé après le dernier pli mais ne traversant qu'une couche ne se dédouble pas non plus : lis bien l'énoncé."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une feuille carrée est pliée en deux verticalement, puis en deux horizontalement. On perce un trou près du coin libre. Combien de trous après dépliage, et où ?",
+        "reveal": "Deux plis → 4 trous. Ils se placent aux quatre coins correspondants, en position symétrique par rapport aux deux axes de pliage — donc un trou dans chaque quart de la feuille, tous à la même distance des bords."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : déplier tout d'un coup. On perd la position des trous. Il faut déplier un pli à la fois, en dessinant à chaque étape — même grossièrement. Le dessin est plus rapide que la visualisation mentale, et beaucoup plus fiable."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Repère l'axe de chaque pli comme un miroir et duplique par-dessus. La figure finale est toujours symétrique par rapport à TOUS les axes de pliage : si une proposition ne l'est pas, élimine-la sans réfléchir."
+      },
+      {
+        "type": "quiz",
+        "question": "Une feuille est pliée trois fois, puis on perce un unique trou traversant toutes les épaisseurs. Combien de trous au dépliage ?",
+        "answer": "2³ = 8 trous, disposés symétriquement par rapport aux trois axes de pliage.",
+        "hint": "Chaque pli double le nombre de trous."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-cube",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Patrons de cube : trouver les faces opposées",
+    "tagline": "Sur un patron, deux faces séparées par exactement une face en ligne droite sont opposées sur le cube.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "cube",
+      "visualisation-3d",
+      "figures",
+      "pliage"
+    ],
+    "related": [
+      "log-spatiale-volumes",
+      "log-spatiale-pliage",
+      "log-spatiale-rotation",
+      "calc-aires-perimetres"
+    ],
+    "subtests": [
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un cube a 6 faces, groupées en 3 paires de faces opposées. Sur un patron à plat, la règle est simple : deux carrés alignés et séparés par exactement un carré intermédiaire deviennent opposés après pliage. Deux carrés adjacents (qui partagent un côté) sont forcément voisins sur le cube, donc jamais opposés."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La méthode en trois étapes",
+        "items": [
+          "Repère les alignements de trois carrés : les deux extrémités sont opposées.",
+          "Élimine : tout carré adjacent à un autre est son voisin, jamais son opposé.",
+          "Il ne reste qu'une possibilité pour la troisième paire — on la déduit.",
+          "Contrôle : chaque face doit appartenir à exactement une paire, et il doit y en avoir trois.",
+          "Pour les orientations de motifs, fais tourner mentalement en gardant une face de référence face à toi."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un patron en croix a une bande horizontale de 4 carrés (A, B, C, D) et deux carrés E et F collés au-dessus et en dessous de B. Quelles sont les trois paires de faces opposées ?",
+        "reveal": "Dans la bande de 4, A et C sont alignés séparés par B → opposés. B et D sont alignés séparés par C → opposés. Il reste E et F, qui sont de part et d'autre de B → opposés. Les trois paires : A-C, B-D, E-F."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : dans une bande de 4 carrés, croire que A et D sont opposés parce qu'ils sont aux deux extrémités. Faux : dans une bande de 4, le pliage referme le cube et A et D se retrouvent ADJACENTS. Les opposés sont à deux crans d'écart, pas trois."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Un carré d'écart = opposés. Deux carrés d'écart dans une bande de quatre = voisins. » Retiens que la bande de 4 fait le tour complet du cube : ses extrémités se touchent."
+      },
+      {
+        "type": "quiz",
+        "question": "Sur un cube, une face porte un 1 et sa face opposée un 6. Que vaut la somme des deux faces opposées restantes si on sait que les faces portent 1 à 6 et que les paires opposées font toujours la même somme ?",
+        "answer": "1 + 6 = 7, donc chaque paire fait 7 : les paires sont 1-6, 2-5 et 3-4. La somme de chacune vaut 7. C'est la convention des dés classiques.",
+        "hint": "La somme des six faces vaut 21, répartie en trois paires égales."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-matrices",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Grilles et matrices de figures",
+    "tagline": "Lis les lignes, puis les colonnes : la règle est presque toujours dans une des deux directions, parfois les deux.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "grille",
+      "completion-motif",
+      "sequence",
+      "figures"
+    ],
+    "related": [
+      "log-spatiale-rotation",
+      "log-spatiale-symetrie",
+      "log-suites-methode",
+      "log-spatiale-fleches"
+    ],
+    "subtests": [
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans une grille 3 × 3 dont une case manque, la logique se lit par ligne, par colonne, ou les deux. On isole les ATTRIBUTS (forme, nombre d'éléments, couleur, orientation, taille) et on suit chacun séparément. Un attribut à la fois : c'est ce qui évite de se noyer."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les règles les plus fréquentes",
+        "items": [
+          "Progression : un élément s'ajoute à chaque case de la ligne.",
+          "Rotation constante : chaque case tourne de 45° ou 90° par rapport à la précédente.",
+          "Superposition : la troisième case est la somme des deux premières (ou leur différence, ou ce qu'elles n'ont pas en commun).",
+          "Permutation : les trois mêmes éléments changent de position selon un cycle.",
+          "Conservation : chaque ligne et chaque colonne contient exactement une fois chaque forme (comme un sudoku)."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Dans chaque ligne d'une grille, la troisième figure contient les traits présents dans exactement UNE des deux premières. Comment appelle-t-on cette règle, et comment la vérifier ?",
+        "reveal": "C'est une superposition « exclusive » (un OU exclusif) : les traits communs aux deux premières disparaissent, les traits présents dans une seule sont conservés. Pour la vérifier, on l'applique aux deux lignes complètes avant de l'utiliser sur la ligne incomplète."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : trouver une règle qui marche sur la première ligne seulement. Une grille 3 × 3 fournit deux lignes complètes : la règle doit tenir sur LES DEUX. Si elle n'en explique qu'une, cherche autre chose."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Liste les attributs par écrit avant de chercher : forme, nombre, remplissage, orientation, taille, position. Puis traite-les un par un. La plupart des grilles combinent deux attributs, chacun avec sa propre règle simple."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans une grille 3 × 3, chaque ligne contient un cercle, un carré et un triangle, une seule fois chacun. La dernière ligne a un triangle puis un cercle. Que contient la dernière case ?",
+        "answer": "Un carré — c'est la seule forme manquante de la ligne. Il faut aussi vérifier que la colonne le permet : si sa colonne contient déjà un carré, la grille serait contradictoire et il faudrait revoir la règle.",
+        "hint": "Raisonne par élimination, ligne puis colonne."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-volumes",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Compter des cubes dans un empilement",
+    "tagline": "Compte par étages, pas par ce que tu vois : les cubes cachés comptent aussi.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "visualisation-3d",
+      "cube",
+      "figures"
+    ],
+    "related": [
+      "log-spatiale-cube",
+      "calc-aires-perimetres",
+      "log-spatiale-pliage",
+      "log-spatiale-matrices"
+    ],
+    "subtests": [
+      "logique-spatiale",
+      "calcul"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Devant un empilement de cubes en perspective, on ne compte jamais les faces visibles : on décompose par étages horizontaux, on compte les cubes de chaque étage, puis on additionne. Un étage supérieur ne peut porter un cube que si un cube le soutient en dessous — cette contrainte révèle les cubes cachés."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Les formules utiles",
+        "items": [
+          "Cube plein de côté n : n³ petits cubes (3 → 27, 4 → 64).",
+          "Surface d'un cube de côté a : 6a². Volume : a³.",
+          "Cube de côté n peint en surface puis découpé : les cubes sans aucune face peinte forment un cube de côté (n − 2), soit (n − 2)³.",
+          "Cubes avec exactement 3 faces peintes : toujours 8, les sommets.",
+          "Cubes avec exactement 2 faces peintes : 12 × (n − 2), les arêtes."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un cube 4 × 4 × 4 est peint entièrement puis découpé en 64 petits cubes. Combien n'ont aucune face peinte ?",
+        "reveal": "Les cubes intérieurs forment un cube 2 × 2 × 2 : 8 cubes. Vérification : 8 sommets (3 faces), 12 × 2 = 24 arêtes (2 faces), 6 × 4 = 24 centres de faces (1 face), 8 intérieurs (0 face). Total : 8 + 24 + 24 + 8 = 64. ✔"
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier que la perspective cache des cubes. Un empilement qui « montre » 14 cubes peut en contenir 20. Inversement, ne suppose pas un cube caché si rien ne l'exige : compte le minimum nécessaire, sauf si l'énoncé dit que le solide est plein."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dessine la vue de dessus en notant dans chaque case la hauteur de la pile. La somme des nombres donne le total de cubes, et la figure devient un simple tableau."
+      },
+      {
+        "type": "quiz",
+        "question": "Un cube 3 × 3 × 3 est peint puis découpé. Combien de petits cubes ont exactement une face peinte ?",
+        "answer": "Les centres de chaque face : 1 par face (car (3−2)² = 1), soit 6 cubes.",
+        "hint": "(n − 2)² par face, avec n = 3."
+      }
+    ]
+  },
+  {
+    "id": "log-syllogisme",
+    "domain": "logique",
+    "category": "Raisonnement déductif",
+    "title": "Syllogismes : valide ne veut pas dire vrai",
+    "tagline": "On juge la FORME du raisonnement, jamais le contenu des phrases.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "syllogisme",
+      "logique-deductive",
+      "piege-logique"
+    ],
+    "related": [
+      "log-quantificateurs",
+      "log-implication",
+      "log-conditions",
+      "logique-raisonnement"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "diagram",
+        "kind": "reasoning-types"
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un syllogisme est valide si la conclusion découle NÉCESSAIREMENT des prémisses, indépendamment de leur vérité. « Tous les chats sont verts ; Félix est un chat ; donc Félix est vert » est un raisonnement valide construit sur une prémisse fausse. En examen, on te demande la validité, pas la vérité."
+      },
+      {
+        "type": "table",
+        "title": "Formes valides et formes invalides",
+        "headers": [
+          "Prémisses",
+          "Conclusion",
+          "Valide ?"
+        ],
+        "rows": [
+          [
+            "Tous les A sont B ; tous les B sont C",
+            "tous les A sont C",
+            "✔ valide"
+          ],
+          [
+            "Tous les A sont B ; x est A",
+            "x est B",
+            "✔ valide"
+          ],
+          [
+            "Tous les A sont B ; x n'est pas B",
+            "x n'est pas A",
+            "✔ valide"
+          ],
+          [
+            "Tous les A sont B ; tous les C sont B",
+            "les A sont C",
+            "✘ invalide"
+          ],
+          [
+            "Tous les A sont B ; x est B",
+            "x est A",
+            "✘ invalide"
+          ],
+          [
+            "Certains A sont B ; certains B sont C",
+            "certains A sont C",
+            "✘ invalide"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Tous les comptables sont rigoureux. Paul est rigoureux. Donc Paul est comptable. » Valide ?",
+        "reveal": "Non. La prémisse dit que les comptables sont dans l'ensemble des gens rigoureux, mais cet ensemble contient aussi d'autres personnes. Paul peut être rigoureux sans être comptable. C'est la réciproque, qui n'est jamais valide."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : accepter une conclusion parce qu'elle est plausible dans la vraie vie. Si l'énoncé pose « tous les oiseaux nagent », il faut raisonner AVEC cette prémisse. Le bon sens est ici un ennemi : il fait cocher des conclusions non démontrées."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Dessine des patates (diagrammes d'Euler) : un ensemble A à l'intérieur d'un ensemble B. Si tu peux dessiner un cas qui respecte les prémisses mais contredit la conclusion, le raisonnement est invalide. Un seul contre-exemple suffit."
+      },
+      {
+        "type": "quiz",
+        "question": "« Aucun étudiant n'est retraité. Marc est retraité. » Que peut-on conclure ?",
+        "answer": "Marc n'est pas étudiant. C'est valide : les deux ensembles sont disjoints, appartenir à l'un exclut l'autre.",
+        "hint": "Deux ensembles sans intersection."
+      }
+    ]
+  },
+  {
+    "id": "log-quantificateurs",
+    "domain": "logique",
+    "category": "Raisonnement déductif",
+    "title": "Tous, certains, aucun : les quantificateurs",
+    "tagline": "La négation de « tous » n'est pas « aucun », c'est « au moins un ne l'est pas ».",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "logique-deductive",
+      "syllogisme",
+      "piege-logique"
+    ],
+    "related": [
+      "log-syllogisme",
+      "log-implication",
+      "log-conditions",
+      "log-piege-logique"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Négations correctes",
+        "headers": [
+          "Affirmation",
+          "Sa négation"
+        ],
+        "rows": [
+          [
+            "Tous les A sont B",
+            "Au moins un A n'est pas B"
+          ],
+          [
+            "Aucun A n'est B",
+            "Au moins un A est B"
+          ],
+          [
+            "Certains A sont B",
+            "Aucun A n'est B"
+          ],
+          [
+            "Certains A ne sont pas B",
+            "Tous les A sont B"
+          ],
+          [
+            "Il existe un A",
+            "Il n'existe aucun A"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "« Tous » et « aucun » ne sont PAS contraires : ils sont tous les deux des affirmations fortes, et on peut les nier tous les deux en même temps (par exemple si certains A sont B et d'autres pas). Le contraire de « tous » est l'existence d'un seul contre-exemple."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Ce que « certains » veut dire en logique",
+        "items": [
+          "« Certains A sont B » signifie « au moins un », donc compatible avec « tous ».",
+          "Si tous les A sont B, alors certains A sont B est VRAI (logiquement, pas dans le langage courant).",
+          "« Certains A sont B » n'implique JAMAIS « certains A ne sont pas B ».",
+          "« Certains A sont B » implique « certains B sont A » : cette relation est symétrique.",
+          "« Tous les A sont B » n'implique pas « tous les B sont A »."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Tous les cadres ont une voiture de fonction » est déclaré FAUX. Que peut-on en déduire avec certitude ?",
+        "reveal": "Qu'au moins un cadre n'a pas de voiture de fonction. On ne peut PAS déduire qu'aucun cadre n'en a, ni que la plupart n'en ont pas. La négation d'une affirmation universelle est une affirmation d'existence, rien de plus."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le « certains » du langage courant, qui sous-entend « certains oui, certains non ». En logique, « certains étudiants ont réussi » reste vrai même si TOUS ont réussi. Les QCM exploitent systématiquement ce décalage."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Nier un TOUS, c'est exhiber UN. » Et pour vérifier une déduction douteuse, cherche un dessin de patates où les prémisses sont vraies et la conclusion fausse."
+      },
+      {
+        "type": "quiz",
+        "question": "Si « certains clients sont mécontents » est vrai, que peut-on affirmer sur « tous les clients sont satisfaits » ?",
+        "answer": "C'est faux : au moins un client mécontent suffit à invalider l'affirmation universelle. En revanche, on ne peut rien dire de « la plupart des clients sont mécontents ».",
+        "hint": "Un seul contre-exemple abat un « tous »."
+      }
+    ]
+  },
+  {
+    "id": "log-implication",
+    "domain": "logique",
+    "category": "Raisonnement déductif",
+    "title": "Implication, contraposée, réciproque",
+    "tagline": "« Si P alors Q » équivaut à « si non Q alors non P ». La réciproque, elle, n'équivaut à rien.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "logique-deductive",
+      "syllogisme",
+      "piege-logique"
+    ],
+    "related": [
+      "log-syllogisme",
+      "log-quantificateurs",
+      "log-conditions",
+      "log-piege-logique"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Soit l'implication « si P alors Q ». Sa CONTRAPOSÉE est « si non Q alors non P » : elle est toujours équivalente à l'implication de départ. Sa RÉCIPROQUE est « si Q alors P » : elle n'a aucun lien logique avec la première. Confondre les deux est l'erreur la plus fréquente de tout le raisonnement déductif."
+      },
+      {
+        "type": "table",
+        "title": "Les quatre formes, sur un exemple",
+        "headers": [
+          "Forme",
+          "Énoncé",
+          "Équivalente à l'originale ?"
+        ],
+        "rows": [
+          [
+            "Originale",
+            "S'il pleut, le sol est mouillé",
+            "—"
+          ],
+          [
+            "Contraposée",
+            "Si le sol n'est pas mouillé, il ne pleut pas",
+            "✔ oui"
+          ],
+          [
+            "Réciproque",
+            "Si le sol est mouillé, il pleut",
+            "✘ non"
+          ],
+          [
+            "Inverse",
+            "S'il ne pleut pas, le sol n'est pas mouillé",
+            "✘ non"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Tout candidat admis a obtenu plus de 12 de moyenne. » Julie a 14 de moyenne. Est-elle admise ?",
+        "reveal": "On ne peut pas le savoir. L'énoncé donne « admis ⇒ plus de 12 ». La contraposée serait « moins de 12 ⇒ non admis », donc si Julie avait 10, on pourrait conclure qu'elle n'est pas admise. Mais avoir 14 ne garantit rien : c'est la réciproque, non valide."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : les énoncés à condition unique. « Seuls les abonnés peuvent entrer » signifie « entrer ⇒ abonné », et non « abonné ⇒ entrer » : un abonné peut se voir refuser l'entrée pour un autre motif. Le mot « seuls » inverse le sens de l'implication."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Pour la contraposée : on inverse l'ordre ET on nie les deux termes. Un seul des deux gestes ne suffit pas — c'est ainsi qu'on fabrique la réciproque ou l'inverse, toutes deux fausses."
+      },
+      {
+        "type": "quiz",
+        "question": "Donne la contraposée de « si un produit est en promotion, il est en rayon ».",
+        "answer": "« Si un produit n'est pas en rayon, il n'est pas en promotion. » (La réciproque serait « s'il est en rayon, il est en promotion » — fausse.)",
+        "hint": "Inverse l'ordre et nie les deux termes."
+      }
+    ]
+  },
+  {
+    "id": "log-conditions",
+    "domain": "logique",
+    "category": "Raisonnement déductif",
+    "title": "Condition nécessaire ou suffisante ?",
+    "tagline": "« Il faut » = nécessaire. « Il suffit » = suffisant. Les deux ensemble = équivalence.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "logique-deductive",
+      "syllogisme",
+      "piege-logique"
+    ],
+    "related": [
+      "log-implication",
+      "log-quantificateurs",
+      "log-syllogisme",
+      "log-piege-logique"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une condition NÉCESSAIRE est indispensable mais peut ne pas suffire : sans elle, rien n'est possible, avec elle rien n'est garanti. Une condition SUFFISANTE garantit le résultat mais n'est pas l'unique voie. En notation : si P est suffisante pour Q, alors P ⇒ Q. Si P est nécessaire pour Q, alors Q ⇒ P."
+      },
+      {
+        "type": "table",
+        "title": "Reconnaître par les mots de l'énoncé",
+        "headers": [
+          "Formulation",
+          "Type de condition"
+        ],
+        "rows": [
+          [
+            "« Il faut … pour »",
+            "nécessaire"
+          ],
+          [
+            "« Sans …, pas de »",
+            "nécessaire"
+          ],
+          [
+            "« Seuls les … peuvent »",
+            "nécessaire"
+          ],
+          [
+            "« Il suffit de … pour »",
+            "suffisante"
+          ],
+          [
+            "« Dès lors que …, alors »",
+            "suffisante"
+          ],
+          [
+            "« … si et seulement si »",
+            "nécessaire ET suffisante"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Pour être admis, il faut avoir le bac. » Le bac est-il une condition nécessaire, suffisante, ou les deux ?",
+        "reveal": "Nécessaire seulement. Sans le bac, pas d'admission (donc admis ⇒ bac). Mais avoir le bac ne suffit visiblement pas, sinon tout bachelier serait admis."
+      },
+      {
+        "type": "example",
+        "title": "Un cas de suffisance",
+        "prompt": "« Il suffit d'obtenir 16 au concours pour être admis. » Que peut-on dire de quelqu'un qui a 12 ?",
+        "reveal": "Rien de certain. 16 garantit l'admission, mais l'énoncé ne dit pas que c'est le seul chemin : 12 pourrait suffire aussi, via un autre critère. Une condition suffisante ne dit rien des cas où elle n'est pas remplie."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : traiter « il faut » comme « il suffit ». C'est l'erreur qui fait conclure « j'ai le bac donc je suis admis ». En QCM, les propositions contiennent presque toujours la confusion des deux — repère le mot déclencheur dans l'énoncé avant de lire les réponses."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Nécessaire = la porte ; suffisante = la clé. » Sans la porte, on n'entre pas ; avoir la clé de CETTE porte permet d'entrer, mais il peut y avoir plusieurs portes."
+      },
+      {
+        "type": "quiz",
+        "question": "Être majeur est-il nécessaire, suffisant, ou les deux, pour voter en France ?",
+        "answer": "Nécessaire mais pas suffisant : il faut aussi être de nationalité française (pour les élections nationales) et inscrit sur les listes électorales. La majorité est une condition parmi d'autres.",
+        "hint": "Un majeur peut-il toujours voter ?"
+      }
+    ]
+  },
+  {
+    "id": "log-piege-logique",
+    "domain": "logique",
+    "category": "Raisonnement déductif",
+    "title": "Les sophismes à repérer",
+    "tagline": "Un raisonnement peut être élégant, convaincant et faux : apprends à nommer la faute.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "piege-logique",
+      "logique-deductive",
+      "syllogisme",
+      "biais-autorite"
+    ],
+    "related": [
+      "log-implication",
+      "log-quantificateurs",
+      "log-syllogisme",
+      "log-biais-cognitifs"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les sophismes les plus testés",
+        "headers": [
+          "Nom",
+          "Mécanisme",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Affirmation du conséquent",
+            "de « P ⇒ Q » et Q, conclure P",
+            "Les riches ont une belle voiture ; il a une belle voiture, donc il est riche"
+          ],
+          [
+            "Négation de l'antécédent",
+            "de « P ⇒ Q » et non P, conclure non Q",
+            "S'il pleut le sol est mouillé ; il ne pleut pas, donc le sol est sec"
+          ],
+          [
+            "Généralisation hâtive",
+            "conclure sur un ensemble à partir de quelques cas",
+            "Deux clients se sont plaints, donc le produit est mauvais"
+          ],
+          [
+            "Corrélation confondue avec causalité",
+            "deux faits liés ⇒ l'un cause l'autre",
+            "Les ventes de glaces et les noyades augmentent ensemble"
+          ],
+          [
+            "Argument d'autorité",
+            "c'est vrai parce qu'une figure respectée le dit",
+            "Un prix Nobel l'affirme, donc c'est exact"
+          ],
+          [
+            "Faux dilemme",
+            "réduire à deux options une situation qui en offre plus",
+            "Soit on licencie, soit l'entreprise ferme"
+          ],
+          [
+            "Pente glissante",
+            "supposer une chaîne de conséquences inévitables",
+            "Si on accepte ceci, tout finira par s'effondrer"
+          ],
+          [
+            "Homme de paille",
+            "réfuter une version caricaturée de la thèse adverse",
+            "Vous voulez donc supprimer tout contrôle ?"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Les questions de raisonnement demandent souvent « quelle est la faille de cet argument ? ». Avoir ce catalogue permet de nommer la faute au lieu de la ressentir, ce qui fait gagner un temps considérable et évite de choisir une réponse qui décrit une autre faille que celle commise."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "« Les entreprises qui investissent en formation sont plus rentables. Donc investir en formation rend rentable. » Quelle est la faille ?",
+        "reveal": "Corrélation prise pour une causalité, avec un sens possiblement inversé : ce sont peut-être les entreprises déjà rentables qui ont les moyens de former. Il faudrait une comparaison à caractéristiques égales pour conclure."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : rejeter un argument parce que sa conclusion est fausse. Un raisonnement peut être valide et mener à une conclusion fausse si une prémisse est fausse. Inversement, un sophisme peut aboutir par hasard à une conclusion vraie. On juge le lien, pas le résultat."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test unique pour la plupart des sophismes : « Puis-je imaginer un cas où les prémisses sont vraies et la conclusion fausse ? » Si oui, le raisonnement n'est pas valide, et le contre-exemple est souvent la réponse attendue."
+      },
+      {
+        "type": "quiz",
+        "question": "« Aucun de nos clients ne s'est plaint de ce produit, donc il satisfait tout le monde. » Quel est le problème ?",
+        "answer": "L'absence de plainte n'est pas une preuve de satisfaction : les clients mécontents partent souvent sans rien dire. C'est un raisonnement sur des données manquantes, cousin du biais du survivant.",
+        "hint": "Qui as-tu réellement observé ?"
+      }
+    ]
+  },
+  {
+    "id": "log-probleme-deductif",
+    "domain": "logique",
+    "category": "Raisonnement déductif",
+    "title": "Résoudre une grille de déduction",
+    "tagline": "Construis un tableau, coche les impossibilités : les certitudes apparaissent toutes seules.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "probleme-deductif",
+      "logique-deductive",
+      "grille"
+    ],
+    "related": [
+      "log-syllogisme",
+      "log-quantificateurs",
+      "log-spatiale-matrices",
+      "log-conditions"
+    ],
+    "subtests": [
+      "raisonnement",
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Dans un problème du type « quatre personnes, quatre métiers, quatre villes, retrouvez qui fait quoi », la méthode n'est pas de deviner mais de construire un tableau croisé et d'y inscrire les IMPOSSIBILITÉS. Chaque contrainte élimine des cases ; quand une ligne n'a plus qu'une case libre, c'est une certitude."
+      },
+      {
+        "type": "keyfacts",
+        "title": "La procédure",
+        "items": [
+          "Dessine un tableau avec les personnes en lignes et les attributs en colonnes.",
+          "Traduis chaque indice en croix (impossible) plutôt qu'en coche (certain) : les négations sont plus nombreuses et plus sûres.",
+          "Quand une ligne n'a qu'une case libre, valide-la — et barre toute sa colonne.",
+          "Relis les indices après chaque déduction : un indice inutilisable au début devient décisif ensuite.",
+          "Les indices de type « X n'est pas à côté de Y » se traitent en dernier, ils ferment les cas restants."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Anne, Bruno et Chloé pratiquent le tennis, le judo et la natation, dans des ordres inconnus. Anne ne fait pas de judo. Chloé ne fait ni tennis ni judo. Qui fait quoi ?",
+        "reveal": "Chloé ne fait ni tennis ni judo → Chloé fait de la natation. Anne ne fait pas de judo, et la natation est prise → Anne fait du tennis. Il reste le judo pour Bruno. Aucune hypothèse n'a été nécessaire."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : raisonner de tête sur plus de trois éléments. Au-delà, la mémoire de travail sature et on oublie une contrainte. Le tableau n'est pas une perte de temps : il est plus rapide que les deux relectures qu'on fait sans lui."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Quand aucune déduction directe n'est possible, fais une hypothèse sur la case la plus contrainte et déroule : soit tu aboutis, soit tu tombes sur une contradiction, ce qui prouve l'hypothèse inverse. C'est le raisonnement par l'absurde, et il est admis."
+      },
+      {
+        "type": "quiz",
+        "question": "Trois amis ont chacun une voiture d'une couleur différente : rouge, bleue, verte. Paul n'a pas la rouge. Léa n'a ni la rouge ni la verte. Quelle est la couleur de la voiture de Paul ?",
+        "answer": "Léa a la bleue (seule restante pour elle). Paul n'a pas la rouge et la bleue est prise → Paul a la verte. Le troisième ami a la rouge.",
+        "hint": "Commence par la personne la plus contrainte."
+      }
+    ]
+  },
+  {
+    "id": "log-spatiale-fleches",
+    "domain": "logique",
+    "category": "Logique spatiale",
+    "title": "Suites de flèches et d'orientations",
+    "tagline": "Traduis chaque flèche en angle ou en nombre de crans : la figure devient une suite numérique.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "flèches",
+      "rotation",
+      "sequence",
+      "completion-motif"
+    ],
+    "related": [
+      "log-spatiale-rotation",
+      "log-spatiale-matrices",
+      "log-suites-methode",
+      "log-spatiale-symetrie"
+    ],
+    "subtests": [
+      "logique-spatiale"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Une suite de flèches se code en nombres : 0 pour le haut, 1 pour en haut à droite, 2 pour la droite, et ainsi de suite jusqu'à 7, par crans de 45° dans le sens horaire. La suite d'images devient une suite d'entiers, et la méthode des suites numériques s'applique directement."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Flèches : haut, droite, bas, gauche, haut, … Quelle est la suivante, en crans de 45° ?",
+        "reveal": "Codage : 0, 2, 4, 6, 0 → progression de +2 crans (90°), modulo 8. La suivante est 2, soit la droite. La période est de 4 images."
+      },
+      {
+        "type": "example",
+        "title": "Avec un pas variable",
+        "prompt": "Flèches : haut, en haut à droite, droite, en bas à droite, … et ensuite ?",
+        "reveal": "Codage : 0, 1, 2, 3 → +1 cran (45°) à chaque fois. La suivante est 4, soit le bas."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : oublier le modulo. Après 7, on ne passe pas à 8 mais on revient à 0. Si ton calcul donne 9, la réponse est 9 − 8 = 1. Vérifie systématiquement que ton résultat est entre 0 et 7."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Si la série mélange plusieurs attributs (orientation ET couleur ET taille), code-les sur trois lignes séparées et cherche une règle par ligne. Combiner les attributs dans un même raisonnement est la meilleure façon de se perdre."
+      },
+      {
+        "type": "quiz",
+        "question": "Flèches codées 1, 3, 6, 2, … avec un pas croissant modulo 8. Quel est le prochain code ?",
+        "answer": "Écarts : +2, +3, +4 (car 6 + 4 = 10, soit 2 modulo 8). Le prochain écart est +5 : 2 + 5 = 7. La flèche pointe en haut à gauche.",
+        "hint": "N'oublie pas de repasser modulo 8."
+      }
+    ]
+  },
+  {
+    "id": "log-biais-cognitifs",
+    "domain": "logique",
+    "category": "Biais cognitifs",
+    "title": "Les biais cognitifs : vue d'ensemble",
+    "tagline": "Un biais n'est pas une erreur de calcul, c'est un raccourci mental qui se déclenche tout seul.",
+    "level": "fondamental",
+    "readMinutes": 4,
+    "tags": [
+      "biais-cognitif",
+      "piege-logique",
+      "cas-de-gestion"
+    ],
+    "related": [
+      "log-biais-confirmation",
+      "log-cout-irrecuperable",
+      "log-ancrage",
+      "log-biais-survivant",
+      "log-piege-logique"
+    ],
+    "subtests": [
+      "raisonnement",
+      "culture-generale"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Un biais cognitif est une déviation systématique du raisonnement par rapport à la logique. La notion a été introduite au début des années 1970 par les psychologues Daniel Kahneman (prix Nobel d'économie en 2002) et Amos Tversky. Systématique est le mot clé : le biais n'est pas une distraction, c'est une erreur reproductible que tout le monde commet dans les mêmes conditions."
+      },
+      {
+        "type": "table",
+        "title": "Les biais à connaître",
+        "headers": [
+          "Biais",
+          "Définition"
+        ],
+        "rows": [
+          [
+            "Confirmation",
+            "valider ses opinions auprès de ce qui les confirme, rejeter d'emblée ce qui les réfute"
+          ],
+          [
+            "Ancrage",
+            "influence laissée par la première information reçue, même arbitraire"
+          ],
+          [
+            "Coûts irrécupérables",
+            "tenir compte de ce qui a déjà été engagé, alors que c'est perdu quoi qu'il arrive"
+          ],
+          [
+            "Survivant",
+            "conclure sur un ensemble en n'observant que ce qui a franchi une sélection"
+          ],
+          [
+            "Rétrospectif",
+            "juger après coup qu'un événement était prévisible"
+          ],
+          [
+            "Disponibilité",
+            "ne pas chercher d'autres informations que celles immédiatement accessibles"
+          ],
+          [
+            "Effet de halo",
+            "perception sélective allant dans le sens d'une première impression"
+          ],
+          [
+            "Statu quo",
+            "percevoir la nouveauté comme plus risquée que l'existant"
+          ],
+          [
+            "Excès de confiance (Dunning-Kruger)",
+            "les moins compétents surestiment leur compétence"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un recruteur trouve un candidat brillant après avoir vu son diplôme prestigieux, et interprète ensuite chacune de ses réponses favorablement. Quels biais se combinent ?",
+        "reveal": "Effet de halo (la première impression colore tout le reste) et biais de confirmation (il cherche désormais ce qui confirme son jugement initial). Les biais se cumulent rarement seuls : c'est ce qui les rend puissants."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire qu'être informé d'un biais suffit à s'en protéger. Les études montrent que non : la conscience du biais ne l'annule pas. Seules des procédures (critères écrits à l'avance, avocat du diable, décision à plusieurs) le réduisent."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "En QCM de gestion, demande-toi toujours : « quelle information cette personne n'a-t-elle PAS regardée ? ». La réponse désigne presque toujours le biais en jeu."
+      },
+      {
+        "type": "quiz",
+        "question": "Un dirigeant refuse de changer de fournisseur parce que « ça marche depuis quinze ans », sans comparer les offres. Quel biais ?",
+        "answer": "Le biais du statu quo : la nouveauté est perçue comme plus risquée que l'existant, indépendamment des données. On peut y voir aussi un biais de confirmation s'il ne cherche que les arguments en faveur du fournisseur actuel.",
+        "hint": "Que redoute-t-il, au fond ?"
+      }
+    ]
+  },
+  {
+    "id": "log-biais-confirmation",
+    "domain": "logique",
+    "category": "Biais cognitifs",
+    "title": "Le biais de confirmation",
+    "tagline": "On cherche ce qui nous donne raison, et on trouve — parce qu'on ne cherche que ça.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "biais-confirmation",
+      "biais-cognitif",
+      "piege-logique"
+    ],
+    "related": [
+      "log-biais-cognitifs",
+      "log-biais-disponibilite",
+      "log-piege-logique",
+      "log-implication"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le biais de confirmation consiste à valider ses opinions auprès des instances qui les confirment, et à rejeter d'emblée celles qui les réfutent. Il agit à trois niveaux : la recherche d'information (on interroge les sources amies), l'interprétation (on lit les données ambiguës en sa faveur) et la mémoire (on retient les cas confirmants)."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un manager convaincu que le télétravail nuit à la productivité relève chaque retard d'un salarié à distance, mais attribue les retards au bureau à des causes extérieures. Que faudrait-il faire pour tester sa conviction ?",
+        "reveal": "Chercher ce qui la CONTREDIRAIT : comparer les productivités mesurées de la même façon dans les deux configurations, en fixant les critères AVANT de regarder les données. Une hypothèse ne se teste qu'en essayant de la casser."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en entreprise : la réunion où l'on « valide » une décision déjà prise. Les données présentées ont été sélectionnées par ceux qui portent le projet. Le remède n'est pas plus de données, c'est de désigner explicitement quelqu'un chargé de défendre l'option contraire."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Question-test : « Quelle observation me ferait changer d'avis ? » Si tu ne peux pas y répondre, tu n'as pas une hypothèse, tu as une conviction — et aucune donnée ne la déplacera."
+      },
+      {
+        "type": "quiz",
+        "question": "Pour tester la règle « si une carte a un cercle d'un côté, elle a un carré de l'autre », faut-il retourner la carte au cercle, celle au carré, ou celle au triangle ?",
+        "answer": "La carte au cercle (pour vérifier qu'il y a bien un carré) ET la carte au triangle (pour vérifier qu'il n'y a pas de cercle derrière). Retourner la carte au carré ne prouve rien : c'est la réciproque, et c'est justement le choix que le biais de confirmation pousse à faire.",
+        "hint": "Cherche ce qui pourrait RÉFUTER la règle."
+      }
+    ]
+  },
+  {
+    "id": "log-cout-irrecuperable",
+    "domain": "logique",
+    "category": "Biais cognitifs",
+    "title": "Les coûts irrécupérables",
+    "tagline": "Ce qui est dépensé est perdu : seule compte la rentabilité de ce qui reste à engager.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "cout-irrecuperable",
+      "biais-cognitif",
+      "cas-de-gestion",
+      "arbitrage-priorisation"
+    ],
+    "related": [
+      "log-biais-cognitifs",
+      "log-seuil-rentabilite",
+      "vit-gestion-temps",
+      "log-arbitrage"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le biais des coûts irrécupérables consiste à tenir compte des ressources déjà engagées dans une décision, alors qu'elles sont perdues quoi qu'il arrive. Économiquement, la seule question pertinente est : « compte tenu de la situation actuelle, la poursuite rapporte-t-elle plus qu'elle ne coûte ? » Le passé n'entre pas dans le calcul."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un projet a déjà coûté 800 000 €. Il faut 300 000 € de plus pour l'achever, et il rapportera 250 000 €. Faut-il continuer ?",
+        "reveal": "Non. Les 800 000 € sont perdus dans les deux cas. La décision porte sur 300 000 € à dépenser contre 250 000 € à gagner : c'est une perte nette de 50 000 €. Arrêter coûte 800 000 € ; continuer coûte 850 000 €."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Où il frappe le plus souvent",
+        "items": [
+          "Projets industriels ou informatiques qu'on prolonge « puisqu'on a déjà tant investi ».",
+          "Formations ou études qu'on termine sans y croire.",
+          "Une question de concours sur laquelle on s'acharne après deux minutes.",
+          "Un stock invendable qu'on refuse de solder en dessous de son prix d'achat.",
+          "Un recrutement raté qu'on maintient pour ne pas admettre l'erreur."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre coût irrécupérable et coût récupérable. Si une partie de l'investissement peut être revendue ou réaffectée, elle entre bien dans le calcul. Seul ce qui est définitivement perdu doit être ignoré."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Test de la décision fraîche : « Si je découvrais ce projet aujourd'hui, sans y avoir rien mis, est-ce que j'investirais 300 000 € pour gagner 250 000 € ? » Si la réponse est non, arrête."
+      },
+      {
+        "type": "quiz",
+        "question": "Tu as payé 40 € une place de concert non remboursable. Le jour venu, tu n'as aucune envie d'y aller et le trajet te coûterait 15 €. Que fait la logique économique ?",
+        "answer": "Ne pas y aller. Les 40 € sont perdus dans les deux cas ; y aller ajoute 15 € et une soirée subie. Le raisonnement « sinon j'ai perdu 40 € » est exactement le biais.",
+        "hint": "Compare seulement ce qui reste à dépenser."
+      }
+    ]
+  },
+  {
+    "id": "log-ancrage",
+    "domain": "logique",
+    "category": "Biais cognitifs",
+    "title": "L'ancrage",
+    "tagline": "Le premier chiffre entendu déforme toutes les estimations suivantes, même quand il est absurde.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "ancrage",
+      "biais-cognitif",
+      "negociation",
+      "cas-de-gestion"
+    ],
+    "related": [
+      "log-biais-cognitifs",
+      "log-piege-chiffre",
+      "log-biais-confirmation",
+      "log-lecture-donnees"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "L'ancrage est l'influence laissée par la première information reçue. En négociation, en estimation de prix, en évaluation de performance, on ajuste à partir de ce point de départ — et l'ajustement est systématiquement insuffisant. L'ancre agit même quand on sait qu'elle est arbitraire."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un vendeur annonce un prix de départ de 15 000 € pour une voiture qui en vaut 9 000. Pourquoi cette annonce lui profite-t-elle même s'il finit par baisser fortement ?",
+        "reveal": "Parce que l'acheteur négocie désormais à partir de 15 000 € : descendre à 11 000 € lui donne l'impression d'une bonne affaire, alors qu'il paie 2 000 € au-dessus de la valeur. L'ancre a déplacé la zone perçue comme raisonnable."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Comment s'en protéger",
+        "items": [
+          "Fixer son prix de réserve AVANT d'entendre l'offre adverse, et l'écrire.",
+          "Faire sa propre estimation à partir de données indépendantes.",
+          "Se méfier d'un chiffre mis en avant dans un énoncé : il est peut-être là pour ancrer, pas pour servir au calcul.",
+          "En estimation, se demander explicitement : « et si je partais du chiffre opposé ? »"
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique en QCM : un énoncé qui commence par une valeur frappante (« un marché de 12 milliards ») puis demande une estimation sans rapport. Le chiffre initial n'est parfois qu'un décor. Vérifie qu'un nombre donné sert vraiment au calcul avant de l'utiliser."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Celui qui annonce le premier fixe le terrain. » En négociation, cela plaide pour ouvrir — à condition d'avoir une estimation solide de la valeur réelle."
+      },
+      {
+        "type": "quiz",
+        "question": "Un manager doit évaluer une prime. On lui rappelle d'abord la prime de l'an dernier (2 000 €) alors que les résultats ont doublé. Quel est l'effet, et quelle procédure l'évite ?",
+        "answer": "L'ancrage sur 2 000 € conduira à une prime bien inférieure au doublement. Procédure : définir la règle de calcul de la prime en fonction des résultats AVANT de consulter l'historique.",
+        "hint": "Dans quel ordre l'information arrive-t-elle ?"
+      }
+    ]
+  },
+  {
+    "id": "log-biais-survivant",
+    "domain": "logique",
+    "category": "Biais cognitifs",
+    "title": "Le biais du survivant",
+    "tagline": "On étudie ceux qui ont réussi, et on en tire des leçons que les échecs contrediraient.",
+    "level": "avance",
+    "readMinutes": 3,
+    "tags": [
+      "biais-survivant",
+      "biais-cognitif",
+      "piege-logique",
+      "lecture-donnees-chiffrees"
+    ],
+    "related": [
+      "log-biais-cognitifs",
+      "log-lecture-donnees",
+      "log-piege-logique",
+      "log-biais-disponibilite"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le biais du survivant consiste à tirer des conclusions sur un ensemble en n'observant que les éléments ayant franchi avec succès un processus de sélection. Les données manquantes — les disparus, les faillites, les abandons — portent souvent l'information décisive."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Une étude montre que 70 % des entrepreneurs qui réussissent ont abandonné leurs études. Peut-on conclure qu'abandonner ses études favorise la réussite ?",
+        "reveal": "Non. On n'observe que les survivants. Il faudrait connaître la proportion d'abandons parmi TOUS ceux qui ont tenté, échecs compris. Si 95 % des entrepreneurs ayant abandonné leurs études ont échoué, le conseil devient catastrophique."
+      },
+      {
+        "type": "keyfacts",
+        "title": "Où il se cache",
+        "items": [
+          "Les livres de recettes de réussite : ils n'interrogent que ceux qui ont réussi.",
+          "Les performances de fonds d'investissement : les fonds liquidés disparaissent des classements.",
+          "Les avis clients : les mécontents partent sans écrire.",
+          "Les statistiques de « diplômés en emploi » : ceux qui n'ont pas répondu au sondage sont souvent ceux qui n'en ont pas.",
+          "« Les objets anciens étaient mieux construits » : seuls les plus solides ont traversé le temps."
+        ]
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : accepter un pourcentage sans demander son dénominateur. « 70 % des réussites ont telle caractéristique » ne dit rien tant qu'on ne connaît pas le taux de réussite de ceux qui ont cette caractéristique. Ce sont deux pourcentages différents, et c'est le second qui compte."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Réflexe unique : « Qui manque dans cet échantillon ? » Puis : « Si je les ajoutais, la conclusion tiendrait-elle ? » C'est souvent la totalité de la réponse attendue."
+      },
+      {
+        "type": "quiz",
+        "question": "Un hôpital affiche un taux de survie de 98 % pour une opération risquée, meilleur que la moyenne nationale. Quelle question poser ?",
+        "answer": "Quels patients accepte-t-il ? S'il refuse les cas les plus graves, son taux est mécaniquement meilleur sans que sa pratique soit supérieure. Il faut comparer à gravité égale.",
+        "hint": "Le processus de sélection en amont est-il le même ?"
+      }
+    ]
+  },
+  {
+    "id": "log-biais-disponibilite",
+    "domain": "logique",
+    "category": "Biais cognitifs",
+    "title": "Disponibilité et effet de halo",
+    "tagline": "On juge avec ce qui vient à l'esprit, et ce qui vient à l'esprit n'est pas ce qui est fréquent.",
+    "level": "intermediaire",
+    "readMinutes": 3,
+    "tags": [
+      "biais-disponibilite",
+      "effet-halo",
+      "biais-cognitif",
+      "recrutement"
+    ],
+    "related": [
+      "log-biais-cognitifs",
+      "log-biais-confirmation",
+      "log-biais-survivant",
+      "log-lecture-donnees"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Le biais de DISPONIBILITÉ consiste à ne pas chercher d'autres informations que celles immédiatement accessibles : on estime la fréquence d'un événement par la facilité avec laquelle un exemple vient en tête. L'EFFET DE HALO est une perception sélective des informations allant dans le sens d'une première impression."
+      },
+      {
+        "type": "example",
+        "title": "Disponibilité",
+        "prompt": "Après un reportage sur un accident d'avion, beaucoup de gens surestiment le risque aérien. Pourquoi ?",
+        "reveal": "Parce qu'un exemple vivace est immédiatement disponible en mémoire, et que le cerveau confond « facile à se rappeler » et « fréquent ». Les événements spectaculaires et médiatisés sont surestimés ; les risques diffus et silencieux sont sous-estimés."
+      },
+      {
+        "type": "example",
+        "title": "Effet de halo",
+        "prompt": "Un candidat arrive très bien habillé et souriant. L'entretien se passe bien et le recruteur note « rigoureux » sans avoir testé cette qualité. Que s'est-il passé ?",
+        "reveal": "L'impression initiale positive s'est étendue à des dimensions non évaluées. Le remède est une grille d'évaluation par critères, remplie critère par critère, avec une preuve exigée pour chacun."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : croire que ces biais concernent les autres. Ils sont automatiques et non conscients. On ne les combat pas par la vigilance mais par des procédures : grilles de critères, ordre de passage tiré au sort, évaluation en aveugle des éléments objectivables."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Facile à imaginer n'est pas fréquent. Première impression n'est pas information. » Pour toute estimation de risque, cherche un chiffre plutôt qu'un exemple."
+      },
+      {
+        "type": "quiz",
+        "question": "Dans une entreprise, on décide de renforcer la sécurité informatique après une cyberattaque médiatisée chez un concurrent, sans analyser ses propres vulnérabilités. Quel biais, et quel risque ?",
+        "answer": "Biais de disponibilité : la décision suit l'exemple saillant, non les données internes. Le risque est d'investir dans la protection contre un scénario improbable chez soi, en laissant ouverte une faille plus probable mais moins médiatique.",
+        "hint": "Sur quoi la décision est-elle fondée : un exemple ou une mesure ?"
+      }
+    ]
+  },
+  {
+    "id": "log-lecture-donnees",
+    "domain": "logique",
+    "category": "Lecture de données",
+    "title": "Lire un tableau ou un graphique sans se faire piéger",
+    "tagline": "Lis d'abord les unités, la base et l'échelle. Le chiffre ne veut rien dire sans eux.",
+    "level": "intermediaire",
+    "readMinutes": 4,
+    "tags": [
+      "lecture-donnees-chiffrees",
+      "piege-chiffre",
+      "calcul-pourcentage"
+    ],
+    "related": [
+      "log-piege-chiffre",
+      "calc-points-vs-pourcent",
+      "calc-mediane-vs-moyenne",
+      "log-biais-survivant"
+    ],
+    "subtests": [
+      "raisonnement",
+      "paratexte"
+    ],
+    "blocks": [
+      {
+        "type": "keyfacts",
+        "title": "Les six vérifications avant toute réponse",
+        "items": [
+          "L'UNITÉ : euros ou milliers d'euros ? Une erreur de facteur 1 000 est la plus fréquente.",
+          "La BASE : pourcentage de quoi ? Du total, de la ligne, de la colonne ?",
+          "La NATURE : est-ce un niveau (stock) ou une variation (flux) ?",
+          "L'ÉCHELLE du graphique : commence-t-elle à zéro ? Est-elle logarithmique ?",
+          "La PÉRIODE : les années comparées sont-elles de même durée, de même périmètre ?",
+          "Le TOTAL : la somme des parts fait-elle bien 100 % ? Sinon, il manque une catégorie."
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "L'effet de base",
+        "body": "Une petite valeur de départ produit mécaniquement de gros pourcentages. Un segment passant de 100 à 130 progresse de 30 % ; un autre passant de 10 000 à 11 000 ne progresse que de 10 %, tout en gagnant 1 000 unités contre 30. Selon qu'on parle en relatif ou en absolu, le « plus dynamique » change de camp — et les deux affirmations sont vraies."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un graphique montre une courbe qui semble s'effondrer, mais l'axe vertical va de 98 à 100. Que faut-il en conclure ?",
+        "reveal": "Que la variation réelle est au maximum de 2 points sur une base de 100, soit 2 %. L'échelle tronquée amplifie visuellement une variation négligeable. Toujours lire les bornes de l'axe avant de lire la pente."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : comparer un pourcentage à un nombre absolu. « La part de marché a baissé de 2 points mais les ventes ont augmenté de 5 % » n'est pas contradictoire : le marché total a grossi plus vite que l'entreprise. Les deux indicateurs peuvent aller en sens opposés."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Avant de lire les chiffres, lis le TITRE, l'unité et les bornes des axes. Ces trois éléments prennent cinq secondes et évitent la majorité des erreurs sur ce type de question."
+      },
+      {
+        "type": "quiz",
+        "question": "Un tableau indique « CA : 4 250 (en k€) » pour l'année N et « 4 800 » pour N+1. De combien le chiffre d'affaires a-t-il progressé, en euros et en pourcentage ?",
+        "answer": "En euros : (4 800 − 4 250) × 1 000 = 550 000 €. En pourcentage : 550 / 4 250 ≈ 12,9 %.",
+        "hint": "N'oublie pas l'unité en milliers d'euros."
+      }
+    ]
+  },
+  {
+    "id": "log-piege-chiffre",
+    "domain": "logique",
+    "category": "Lecture de données",
+    "title": "Les chiffres qui trompent",
+    "tagline": "Moyenne, pourcentage, indice : trois outils honnêtes qui mentent dès qu'on oublie leur définition.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "piege-chiffre",
+      "lecture-donnees-chiffrees",
+      "calcul-pourcentage",
+      "biais-cognitif"
+    ],
+    "related": [
+      "log-lecture-donnees",
+      "calc-mediane-vs-moyenne",
+      "calc-moyenne-de-moyennes",
+      "calc-points-vs-pourcent"
+    ],
+    "subtests": [
+      "raisonnement",
+      "culture-generale"
+    ],
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Les sept pièges chiffrés classiques",
+        "headers": [
+          "Piège",
+          "Comment le détecter"
+        ],
+        "rows": [
+          [
+            "Moyenne masquant la dispersion",
+            "demander la médiane et l'écart-type"
+          ],
+          [
+            "Pourcentage sans base",
+            "demander « de quoi ? » et « sur combien ? »"
+          ],
+          [
+            "Effet de base",
+            "comparer aussi les valeurs absolues"
+          ],
+          [
+            "Points contre pourcentages",
+            "vérifier si la grandeur est déjà un %"
+          ],
+          [
+            "Corrélation prise pour causalité",
+            "chercher une cause commune, ou l'inverse"
+          ],
+          [
+            "Échantillon non représentatif",
+            "demander qui a été interrogé, et qui manque"
+          ],
+          [
+            "Indice mal lu",
+            "vérifier l'année de base et sa valeur (100)"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Aucun de ces chiffres n'est faux. Ils deviennent trompeurs quand on leur fait dire autre chose que ce qu'ils mesurent. La compétence testée n'est pas le calcul, c'est la capacité à retrouver la QUESTION à laquelle le chiffre répond réellement."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Un indice de prix passe de 100 en 2020 à 118 en 2026. Peut-on dire que les prix ont augmenté de 18 points ?",
+        "reveal": "Non : ils ont augmenté de 18 %. Un indice base 100 se lit directement en pourcentage par rapport à l'année de base. On parle de points pour une grandeur qui est elle-même un pourcentage — un taux de chômage, une part de marché — pas pour un indice."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : le salaire moyen. Dans une distribution de revenus, la moyenne est toujours supérieure à la médiane, parce que les très hauts revenus la tirent vers le haut. « Le salaire moyen est de 2 700 € » est compatible avec une majorité de salariés en dessous."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Trois questions qui désamorcent presque tout : « Par rapport à quoi ? », « Sur quel échantillon ? », « En quelle unité ? » Pose-les avant de regarder les propositions."
+      },
+      {
+        "type": "quiz",
+        "question": "« Le nombre de cambriolages a augmenté de 200 % dans notre commune. » Quelle information manque absolument ?",
+        "answer": "La valeur de départ. Passer de 1 à 3 cambriolages est +200 %, comme passer de 100 à 300. Sans le niveau initial, le pourcentage n'a aucune signification.",
+        "hint": "Effet de base."
+      }
+    ]
+  },
+  {
+    "id": "log-seuil-rentabilite",
+    "domain": "logique",
+    "category": "Cas de gestion",
+    "title": "Seuil de rentabilité et point mort",
+    "tagline": "Seuil de rentabilité = charges fixes ÷ taux de marge sur coût variable. Le point mort, c'est la DATE où on l'atteint.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "seuil-de-rentabilite",
+      "calcul-rentabilite",
+      "cas-de-gestion",
+      "roi"
+    ],
+    "related": [
+      "log-arbitrage",
+      "calc-inequations",
+      "log-cout-irrecuperable",
+      "eco-marge-marque"
+    ],
+    "subtests": [
+      "raisonnement",
+      "calcul"
+    ],
+    "updatedAt": "2026-09-23",
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "La marge sur coût variable (MCV) est ce qui reste du chiffre d'affaires après paiement des charges variables : MCV = CA − charges variables. Son taux vaut MCV ÷ CA. Le seuil de rentabilité est le chiffre d'affaires pour lequel la MCV couvre exactement les charges fixes : SR = charges fixes ÷ taux de MCV."
+      },
+      {
+        "type": "example",
+        "title": "Exemple complet",
+        "prompt": "Charges fixes : 60 000 €. Prix de vente unitaire : 50 €. Coût variable unitaire : 30 €. Quel est le seuil de rentabilité en euros et en quantité ?",
+        "reveal": "MCV unitaire = 50 − 30 = 20 €. Taux de MCV = 20 / 50 = 40 %. SR = 60 000 / 0,40 = 150 000 € de chiffre d'affaires, soit 150 000 / 50 = 3 000 unités. Vérification : 3 000 × 20 € de marge = 60 000 € = charges fixes. ✔"
+      },
+      {
+        "type": "rule",
+        "title": "Le point mort",
+        "body": "Le point mort est la DATE à laquelle le seuil est atteint : point mort = (SR ÷ CA annuel) × 365 jours. Avec un CA annuel prévu de 200 000 € dans l'exemple précédent : (150 000 / 200 000) × 365 ≈ 274 jours, soit fin septembre. Tout le chiffre d'affaires réalisé après cette date génère du bénéfice."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : confondre les deux. Le seuil de rentabilité s'exprime en EUROS (ou en quantité), le point mort en JOURS. Un QCM proposera les deux valeurs ; lis l'unité demandée. Second piège : diviser les charges fixes par la MCV unitaire donne une QUANTITÉ, pas un chiffre d'affaires."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "Deux chemins équivalents, choisis selon la question : charges fixes ÷ MCV UNITAIRE donne le nombre d'unités ; charges fixes ÷ TAUX de MCV donne le chiffre d'affaires. Ici 60 000/20 = 3 000 unités et 60 000/0,4 = 150 000 €."
+      },
+      {
+        "type": "quiz",
+        "question": "Charges fixes 45 000 €, taux de marge sur coût variable 30 %. Quel est le seuil de rentabilité ?",
+        "answer": "45 000 / 0,30 = 150 000 € de chiffre d'affaires.",
+        "hint": "Divise les charges fixes par le taux, pas par la marge unitaire."
+      }
+    ]
+  },
+  {
+    "id": "log-arbitrage",
+    "domain": "logique",
+    "category": "Cas de gestion",
+    "title": "Arbitrer entre plusieurs priorités",
+    "tagline": "Classe par rendement — valeur obtenue divisée par ressource consommée — pas par urgence ressentie.",
+    "level": "avance",
+    "readMinutes": 4,
+    "tags": [
+      "arbitrage-priorisation",
+      "cas-de-gestion",
+      "matrice-eisenhower",
+      "roi"
+    ],
+    "related": [
+      "log-seuil-rentabilite",
+      "log-cout-irrecuperable",
+      "vit-gestion-temps",
+      "log-lecture-donnees"
+    ],
+    "subtests": [
+      "raisonnement"
+    ],
+    "blocks": [
+      {
+        "type": "rule",
+        "title": "Explication",
+        "body": "Face à plusieurs actions possibles et une ressource limitée (temps, budget, personnel), le critère rationnel est le RENDEMENT : gain attendu ÷ ressource consommée. On classe par rendement décroissant et on sert dans cet ordre jusqu'à épuisement de la ressource. L'urgence ressentie n'est pas un critère de rendement."
+      },
+      {
+        "type": "example",
+        "title": "Exemple",
+        "prompt": "Trois projets : A rapporte 40 k€ et coûte 20 k€ ; B rapporte 90 k€ et coûte 60 k€ ; C rapporte 30 k€ et coûte 10 k€. Budget disponible : 30 k€. Que faire ?",
+        "reveal": "Rendements (gain net ÷ coût) : A = 20/20 = 1 ; B = 30/60 = 0,5 ; C = 20/10 = 2. On prend C d'abord (10 k€), puis A (20 k€) : total 30 k€ pour un gain net de 40 k€. B, le plus gros projet en valeur absolue, est le moins rentable par euro investi — et il ne rentrait pas dans le budget de toute façon."
+      },
+      {
+        "type": "table",
+        "title": "La matrice d'Eisenhower",
+        "headers": [
+          "",
+          "Urgent",
+          "Non urgent"
+        ],
+        "rows": [
+          [
+            "Important",
+            "Faire maintenant",
+            "Planifier"
+          ],
+          [
+            "Non important",
+            "Déléguer",
+            "Éliminer"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "title": "Pourquoi cette matrice compte",
+        "body": "Elle sépare deux dimensions que l'on confond spontanément : l'importance (contribution à l'objectif) et l'urgence (proximité de l'échéance). Le piège habituel est de traiter l'urgent non important avant l'important non urgent — c'est ainsi qu'on passe ses journées à éteindre des incendies sans avancer."
+      },
+      {
+        "type": "warning",
+        "body": "Le piège classique : classer par gain absolu. Le projet le plus rentable en euros n'est pas le plus rentable par euro investi. Avec une ressource limitée, c'est le RATIO qui décide — sauf si les projets sont indivisibles et que la ressource ne permet d'en financer qu'un seul."
+      },
+      {
+        "type": "mnemonic",
+        "title": "Astuce",
+        "body": "« Rendement = ce que je gagne ÷ ce que ça me coûte. » Calcule-le pour chaque option avant de comparer quoi que ce soit : c'est souvent la seule opération nécessaire pour répondre."
+      },
+      {
+        "type": "quiz",
+        "question": "Deux actions commerciales : la première rapporte 12 000 € pour 40 heures de travail, la seconde 5 000 € pour 10 heures. Laquelle prioriser si tu n'as que 10 heures ?",
+        "answer": "Rendements : 300 €/h contre 500 €/h. La seconde est bien plus rentable par heure, et elle tient dans le temps disponible. On la fait d'abord.",
+        "hint": "Ramène chaque action au gain par heure."
+      }
+    ]
   }
 ]
